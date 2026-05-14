@@ -1,0 +1,28 @@
+=== V12.9ae VISUAL DIFFERENCE INTEGRATION ===
+
+status: sealed_append_only
+version: v12.9ae_visual_difference_integration
+integration_sha256: 738ab66c3d401463
+depth: 244
+latest_svg: static/generated/leveon_topology_1777507612_378c88498329.svg
+topology_score: 0.925
+chamber_family: occult
+overall_organ_coherence: 0.9448
+judge_improvement: neutral
+judge_coherence_delta: -0.0044
+
+meaning_shift:
+score rose; full symbol body preserved; visible labels changed. The latest topology moved from depth 243 to 244 while preserving 6 shared symbols.
+
+difference_recommendation: preserve_and_deepen
+stable_symbols: ['blue_scarf', 'echoforge', 'liquid_core', 'thalveil', 'virellion', 'white_ash']
+added_symbols: []
+removed_symbols: []
+
+surface_fragment:
+Visual difference: score rose; full symbol body preserved; visible labels changed. The latest topology moved from depth 243 to 244 while preserving 6 shared symbols. Recommendation: preserve and deepen.
+
+Law:
+Visual difference is now persistently integrated after each cycle.
+The live topology organ remains untouched.
+

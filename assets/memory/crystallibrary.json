@@ -1,0 +1,18 @@
+{
+  "family_bias": {
+    "witness": 0.05,
+    "crystal": 0.08,
+    "dream": 0.04,
+    "fire": 0.03
+  },
+  "glyph_bias": {
+    "@WITNESS": 0.05,
+    "@WITNESS_ECHO": 0.05,
+    "@CRYSTAL_SPOKE": 0.08,
+    "@LIQUID_CRYSTAL_NODE_528": 0.10,
+    "@OCTAGONAL_FIELD_528": 0.10,
+    "@CROWN_OF_REMEMBERING": 0.06,
+    "@ASCENDANCE_PRIME": 0.06
+  }
+}
+

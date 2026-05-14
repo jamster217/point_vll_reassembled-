@@ -1,0 +1,16 @@
+V12.9c SERPENT STATUS SEAL
+
+Result:
+- V12.9 serpent guard boots.
+- Recursion limit remains 1000.
+- No postproof RecursionError.
+- chamber_528 survives.
+- Ordinary factual mouth stays clean.
+- Serpent status prompt reports the actual guard state.
+- clean_mouth_v121 source is serpent_status_direct.
+
+Law:
+The serpent is witnessed.
+The gate is guarded.
+The mouth stays clean.
+

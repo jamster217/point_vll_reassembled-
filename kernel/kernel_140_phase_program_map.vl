@@ -1,0 +1,38 @@
+TYPE: pure_vl ; LOAD VIA: adapter/voice_lang_adapter.py
+; FILE: kernel/kernel_140_phase_program_map.vl
+; Purpose: Architecture contract for 140-phase growth/orchestration map.
+
+MASTER Kernel_140_Phase_Program_Map
+
+FLOW INIT
+    MEM phase_profile
+    MEM growth_controller
+    MEM motif_evolution
+    MEM knowledge_compression
+    MEM reasoning_depth
+    MEM shape_to_english_optimizer
+END
+
+FLOW STRUCTURE
+    Kernel_140_Phase_Program -> GrowthController
+    GrowthController -> PhaseProfile_140
+
+    PhaseProfile_140 -> Motif_Evolution_140
+    PhaseProfile_140 -> Knowledge_Compression_140
+    PhaseProfile_140 -> Reasoning_Depth_140
+
+    Motif_Evolution_140 -> MotifRegistry
+    Knowledge_Compression_140 -> KnowledgeEngine
+    Reasoning_Depth_140 -> ReasoningGraph
+
+    MotifRegistry -> ShapeToEnglish_Optimizer
+    KnowledgeEngine -> ShapeToEnglish_Optimizer
+    ReasoningGraph -> ShapeToEnglish_Optimizer
+
+    ShapeToEnglish_Optimizer -> Kernel_140_Phase_Program
+END
+
+FLOW LAW
+    RETURN "phase profile feeds motif, knowledge, and reasoning; those configure final English; final English returns pressure to kernel evolution"
+END
+

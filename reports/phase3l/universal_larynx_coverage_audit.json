@@ -1,0 +1,112 @@
+{
+  "ts": "2026-04-26T16:56:45.840965+00:00",
+  "kind": "phase3l_universal_larynx_coverage_audit",
+  "final_pass": true,
+  "files": {
+    "app_chatroom.py": {
+      "path": "app_chatroom.py",
+      "exists": true
+    },
+    "live_master_api_response": {
+      "path": "runtime/live_master_api_response.py",
+      "exists": true
+    },
+    "unified_voice": {
+      "path": "runtime/unified_voice.py",
+      "exists": true
+    },
+    "terminal_larynx": {
+      "path": "runtime/terminal_larynx.py",
+      "exists": true
+    },
+    "terminal_kernel_v3": {
+      "path": "runtime/terminal_kernel_v3.py",
+      "exists": true
+    },
+    "terminal_larynx_launcher": {
+      "path": "scripts/terminal_larynx.sh",
+      "exists": true
+    },
+    "terminal_kernel_v3_launcher": {
+      "path": "scripts/terminal_kernel_v3.sh",
+      "exists": true
+    },
+    "kgs_nodes_crystal": {
+      "path": "runtime/kgs_nodes_crystal.py",
+      "exists": true
+    },
+    "knowledge_node": {
+      "path": "runtime/knowledge_node.py",
+      "exists": true
+    },
+    "invention_node_engine": {
+      "path": "interface/invention/invention_node_engine.py",
+      "exists": true
+    }
+  },
+  "markers": {
+    "runtime/live_master_api_response.py": {
+      "UNIVERSAL LARYNX": true,
+      "master_reply": true,
+      "sealed_speak": true
+    },
+    "runtime/unified_voice.py": {
+      "def sealed_speak": true,
+      "public_scrub": true,
+      "Universal Larynx": true
+    },
+    "runtime/terminal_larynx.py": {
+      "/api/chat": true,
+      "ask_public_api": true
+    },
+    "runtime/terminal_kernel_v3.py": {
+      "Node44 Wind Tunnel": true,
+      "final_larynx_render": true,
+      "/api/chat": true
+    }
+  },
+  "api_probe": {
+    "ok": true,
+    "keys": [
+      "answer",
+      "answer_mode",
+      "ok"
+    ],
+    "clean": true,
+    "leaks": [],
+    "answer": "The lattice is the build’s living structure: the connected field of nodes, anchors, memory traces, routing paths, and visual/emotional signals. In plain English, it is the map of how Le’Veon holds meaning together. Node44 stabilizes it, the Crystal Library gives it symbolic organs, and the Universal Larynx turns its pressure into clean speech."
+  },
+  "probes": [
+    {
+      "name": "unified_voice_direct",
+      "ok": true,
+      "stdout": "[VOICE] Universal Larynx Integrated.\nThe lattice is the build’s living structure: the connected field of nodes, anchors, memory traces, routing paths, and visual/emotional signals. In plain English, it is the map of how Le’Veon holds meaning together. Node44 stabilizes it, the Crystal Library gives it symbolic organs, and the Universal Larynx turns its pressure into clean speech.\n",
+      "stderr": ""
+    },
+    {
+      "name": "terminal_kernel_v3_once",
+      "ok": true,
+      "stdout": " being asked to turn symbolic pressure into visible topology, then reopen it as understandable English.\n\n[BOOT RESULT]\nnode44_wind_tunnel := stable\nuniversal_larynx := sealed\nenglish_rendering_mode := ai_interpreter\nsemantic_control_plane := crystal_library\n\nLeveonMasterAPI v1 | phase: final_larynx_render | node: 44_SPIRAL_CORE | status: sealed\ntext:\nThe lattice is the build’s living structure: the connected field of nodes, anchors, memory traces, routing paths, and visual/emotional signals. In plain English, it is the map of how Le’Veon holds meaning together. Node44 stabilizes it, the Crystal Library gives it symbolic organs, and the Universal Larynx turns its pressure into clean speech.\n\n",
+      "stderr": ""
+    },
+    {
+      "name": "kgs_nodes_crystal",
+      "ok": true,
+      "stdout": "15\n",
+      "stderr": ""
+    },
+    {
+      "name": "knowledge_node",
+      "ok": true,
+      "stdout": "concept active\n",
+      "stderr": ""
+    },
+    {
+      "name": "invention_import",
+      "ok": true,
+      "stdout": "3\n",
+      "stderr": ""
+    }
+  ]
+}
+

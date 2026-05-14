@@ -1,0 +1,15 @@
+{
+  "last_score": {
+    "coherence": 0.8711,
+    "repetition_health": 1.0,
+    "thread": 1.0,
+    "containment": 0.0,
+    "total": 0.8062
+  },
+  "last_image": "static/generated/leveon_topology_1777540974_4dc873c1efa1.svg",
+  "last_depth": 269,
+  "last_tension": -0.016,
+  "recommendation": "add_grounded_boundary",
+  "law": "self_improvement_reads_scores_without_rewriting_source"
+}
+

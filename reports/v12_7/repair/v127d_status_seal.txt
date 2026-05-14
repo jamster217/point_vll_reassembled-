@@ -1,0 +1,15 @@
+V12.7d POINT GATE QUARANTINE SEAL
+
+Result:
+- app_chatroom.py patched surgically.
+- One top-level POINT_VLL_GATE_CHAMBER installer call quarantined.
+- app_chatroom.py py_compile passed.
+- /api/chat returned HTTP JSON successfully.
+- chamber_528 payload survived.
+- RecursionError grep returned quiet.
+- Do not broaden patching unless fresh evidence appears.
+
+Law:
+The serpent may bite its tail.
+It may not swallow the server.
+

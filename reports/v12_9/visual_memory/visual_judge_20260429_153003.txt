@@ -1,0 +1,17 @@
+=== V12.9t VISUAL MEMORY JUDGE ===
+status: ranking_emitted
+improvement: positive
+coherence_delta: 0.0299
+previous_count: 10
+latest_depth: 235
+latest_svg: static/generated/leveon_topology_1777501802_f3f649cd98a8.svg
+
+1. Preserve and deepen current visual route
+   why: Overall organ coherence rose while White Ash containment and Virellion thread stayed strong.
+   patch: Run more tight visual cycles. Do not patch the live topology organ.
+2. Add visual difference descriptions
+   why: The organ is high-coherence and plateauing, so the next gain is describing what changed between SVGs.
+   patch: Add a sidecar that compares latest SVG/spec against previous SVG/spec and names the visible change.
+
+surface_fragment: Deepened visual judgment: improvement=positive, coherence_delta=0.0299, overall_organ_coherence=0.9685, trend=stable_plateau.
+

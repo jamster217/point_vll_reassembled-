@@ -1,0 +1,24 @@
+V12.9m CONTRACT SHIM REPAIR
+created_at_local: Wed Apr 29 11:17:58 PDT 2026
+
+Created:
+- spiral_language/to_english.py
+- local_node/bridge.py
+
+Compile:
+PY_COMPILE: PASS
+
+Language bridge probe:
+prompt becomes shape becomes reply
+
+Local node bridge probe:
+[TRACE] entering local_node/controller.py
+[TRACE] entering local_node/adapters/mistral_echo_adapter.py
+[TRACE] entering brain/mirror_kernel.py
+local node bridge status
+
+Law:
+The missing doors are now present.
+The spine remains protected.
+The next audit should close the two contract failures.
+

@@ -1,0 +1,12 @@
+{
+  "source": "runtime.reflection_gate",
+  "gate": {
+    "state": "open"
+  },
+  "awareness": 0.04,
+  "input": "symbols can mutate anchors out of alignment with signal",
+  "mirror_echo": "symbols can mutate anchors out of alignment with signal",
+  "adjusted_resonance": false,
+  "updated_at": 1777270278.4760363
+}
+

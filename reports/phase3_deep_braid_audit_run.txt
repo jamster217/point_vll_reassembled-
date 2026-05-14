@@ -1,0 +1,98 @@
+PHASE 3 DEEP BRAID AUDIT
+========================================================================
+files_with_hits: 45
+
+18  scripts/phase3_deep_braid_audit.py
+    api_chat, /api/chat, master_reply, classify_shape, Hard Master Gate, HARD_MASTER_GATE, LIVE_MASTER_GATE, Node44, NODE44, node_44, Performance Oracle, PERF ORACLE, prompt_density, controller_detail, answer_mode, jsonify, render_template, app.run
+10  app_chatroom.py
+    api_chat, /api/chat, master_reply, HARD_MASTER_GATE, LIVE_MASTER_GATE, controller_detail, answer_mode, jsonify, render_template, app.run
+08  runtime/live_master_api_response.py
+    master_reply, classify_shape, Hard Master Gate, NODE44, node_44, Performance Oracle, PERF ORACLE, prompt_density
+06  checkpoints/seed_milestone_20260402_051541/app_chatroom.py
+    api_chat, /api/chat, answer_mode, jsonify, render_template, app.run
+04  config/deep_braid_phase3_manifest.json
+    NODE44, node_44, prompt_density, answer_mode
+04  seed_workshop/app.py
+    /api/chat, jsonify, render_template, app.run
+03  reports/live_dense_symbolic_trigger_response.json
+    api_chat, Hard Master Gate, answer_mode
+03  reports/live_massive_symbolic_api_test.json
+    api_chat, Hard Master Gate, answer_mode
+03  reports/live_poetic_clean_gate_test.json
+    api_chat, Performance Oracle, answer_mode
+03  runtime/deep_braid_registry.py
+    Node44, Performance Oracle, answer_mode
+03  runtime/node_44_preset.py
+    Node44, NODE44, node_44
+03  ui/app.py
+    jsonify, render_template, app.run
+02  LIVE_CORE/templates/chatroom.html
+    /api/chat, answer_mode
+02  assets/memory/shape_compounds.json
+    Hard Master Gate, Performance Oracle
+02  build_cartographer.py
+    jsonify, render_template
+02  reports/long_poem_status_check.json
+    api_chat, answer_mode
+02  reports/performance_oracle_algorithm_c_public_test.json
+    Performance Oracle, answer_mode
+02  reports/performance_oracle_clean_surface_test_2.json
+    Performance Oracle, answer_mode
+02  reports/short_poem_fast_test.json
+    api_chat, answer_mode
+02  reports/short_poem_probe_fast_bypass.json
+    api_chat, answer_mode
+02  scripts/stress_bloom_vs_witness.py
+    master_reply, classify_shape
+02  templates/chatroom.html
+    /api/chat, answer_mode
+01  core/leveon_pipeline_governed.py
+    answer_mode
+01  reports/performance_oracle_clean_surface_test.json
+    answer_mode
+01  reports/public_json_scrub_test.json
+    answer_mode
+01  runtime/node_44_router.py
+    node_44
+01  runtime/node_44_wind_tunnel_prompt.py
+    node_44
+01  runtime/node_45_preset.py
+    node_44
+01  runtime/node_50_preset.py
+    node_44
+01  runtime/node_528_preset.py
+    node_44
+01  runtime/node_registry.py
+    node_44
+01  runtime/prompt_density_oracle_bridge.py
+    prompt_density
+01  runtime/savariel_crystal_bootstrap.py
+    node_44
+01  runtime/show_reversal_strategy.py
+    node_44
+01  runtime/spiral_full.py
+    node_44
+01  scripts/test_prompt_density_oracle_bridge.py
+    prompt_density
+01  seed_workshop/templates/index.html
+    /api/chat
+01  simulations/emotional_compounding_seed.py
+    /api/chat
+01  simulations/glyph_coverage_battery.py
+    /api/chat
+01  simulations/kernel_comparison_seed.py
+    /api/chat
+01  simulations/recursive_kernel_pressure.py
+    /api/chat
+01  symbolic_memory/time_machine_adapter.py
+    master_reply
+01  test_live_self_critique.py
+    /api/chat
+01  tmp/api_response.json
+    answer_mode
+01  tmp/purge_backups/leveon_pipeline_governed.py
+    answer_mode
+
+saved: reports/phase3_deep_braid_audit.json
+saved: reports/phase3_deep_braid_audit.txt
+

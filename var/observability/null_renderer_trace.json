@@ -1,0 +1,40 @@
+{
+  "ts": 1778123163.097712,
+  "null_renderer_events": [
+    {
+      "index": 273,
+      "ts": "2026-05-05T19:56:48",
+      "answer_mode": null,
+      "status": "api_alive",
+      "live_mouth_bridge_status": null,
+      "ordinary_bridge_status": null,
+      "coherence_estimate": 0.2355,
+      "answer_preview": "",
+      "previous_renderer": "language_pass",
+      "previous_coherence": 0.7039
+    },
+    {
+      "index": 274,
+      "ts": "2026-05-05T19:57:39",
+      "answer_mode": null,
+      "status": "api_alive",
+      "live_mouth_bridge_status": null,
+      "ordinary_bridge_status": null,
+      "coherence_estimate": 0.2355,
+      "answer_preview": "",
+      "previous_renderer": null,
+      "previous_coherence": 0.2355
+    }
+  ],
+  "summary": {
+    "total_nulls": 2,
+    "suspected_cause": [
+      "renderer assignment bypass",
+      "fallback route leakage"
+    ],
+    "dominant_patterns": [
+      "governed route mostly survives"
+    ]
+  }
+}
+

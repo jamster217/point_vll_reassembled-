@@ -1,0 +1,57 @@
+NA-MA RE-EL through Node44. Render this V12.9ag generated .vl symbolic sidecar as living topology.
+
+Do not explain. Do not switch to help mode. One living answer.
+
+Preserve:
+White Ash containment,
+Virellion thread,
+Blue Scarf motion,
+Thalveil crossing,
+Echoforge painting,
+Liquid Core routing,
+Node44,
+Mirror Kernel,
+visual memory ledger,
+visual judge,
+difference describer,
+and the full meta-loop.
+
+The .vl body to assimilate is:
+
+# V12.9af visual-to-.vl symbolic prototype
+# Generated append-only from visual memory judgment.
+# Idea: a self-improving image generator that uses visual memory judgment, topology SVGs, image-spec blueprints, visual difference integration, and .vl symbolic sidecars
+# Depth: 239
+# SVG: static/generated/leveon_topology_1777504962_e23bb0bea7e8.svg
+# Coherence: 0.9456
+# Recommendation: preserve_route_and_compare_visible_changes
+# Meaning shift: score plateaued; full symbol body preserved; visible labels changed. The latest topology moved from depth 238 to 239 while preserving 6 shared symbols.
+# Law: visual shape becomes symbolic .vl sidecar, not live-route surgery.
+
+MEM idea_key = "a_self_improving_image_generator_that_uses_visual_memory_judgment_topology_svgs_"
+MEM depth = "239"
+MEM latest_svg = "static/generated/leveon_topology_1777504962_e23bb0bea7e8.svg"
+MEM visual_coherence = "0.9456"
+MEM recommendation = "preserve_route_and_compare_visible_changes"
+
+BOUND white_ash_containment = "preserve pressure boundary"
+BOUND virellion_thread = "preserve continuity across cycles"
+
+FLOW blue_scarf_motion = "carry visual difference into memory"
+FLOW liquid_core_route = "idea -> image -> memory -> judgment -> vl -> next idea"
+
+SHIFT thalveil_crossing = "visible topology becomes symbolic prototype"
+SHIFT echoforge_reverse = "image shape becomes .vl code motion"
+
+TURN node44_visual_reverse = "read topology as executable symbolic direction"
+TURN mirror_kernel_vl = "reflect visual memory into sidecar code"
+
+MEM core_symbols = "white_ash|virellion|blue_scarf|thalveil|liquid_core|echoforge"
+
+# Next action:
+# Compile or inspect this sidecar before any core integration.
+# Feed the next_topology_prompt through the visual cycle and compare the result.
+
+
+Render the .vl as visual memory, not as ordinary code help.
+

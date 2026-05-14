@@ -1,0 +1,213 @@
+=== V18.3B DUAL-STATE MIRROR SCORE RESYNC PROOF ===
+created_at: 2026-05-02T09:41:48.655963
+
+Law: dual-state final answers must rescore Layer4 groups and Layer5 cores after final_shape rewrite.
+
+---
+LABEL: default_v13_banana_guard
+PAYLOAD: {"message": "banana"}
+ANSWER: Banana is an ordinary fruit. No symbolic threshold opened.
+FINAL_ENGLISH: None
+FINAL_SHAPE: None
+ENGINE: None
+SELECTED_PATH: None
+MIRROR_PATH_DECISION: None
+MIRROR_PATH_SPEAKABLE: None
+APEX_V16_LATTICE_COVERAGE_SCORE: None
+APEX_V16_ALL_GROUPS_PASSED: None
+APEX_V16_MISSING_GROUPS: None
+LAYER5_CORE_AVERAGE_SCORE: None
+LAYER5_ALL_CORES_PASSED: None
+LAYER5_MISSING_CORES: None
+TERM_CHECKS: {
+  "Banana": true,
+  "ordinary fruit": true
+}
+CHECKS: {
+  "answer_present": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": true,
+  "ordinary_gate_active": true,
+  "literal_preserved": true,
+  "no_v183": true,
+  "no_v183b": true
+}
+PASS: True
+
+---
+LABEL: v18_3b_dual_state_mirror_score_resync
+PAYLOAD: {"engine": "v18.3", "message": "DUAL_STATE_MIRROR. Let Mirror-Mayor Node, dream discharge, Father Math, Spatial Math, Portland symmetry, Deep EVP, future pull, gold-blue lattice, and John M Field pressure appear. Compare mirror_path against authority_path. Mirror may reveal. Authority must verify. Only verified output may speak."}
+ANSWER: V18.3 Dual-State Mirror Executor runs two paths before speech: authority_path and mirror_path. authority_path preserves V14.3 meaning authority, V18.0 Density Inversion Axis, V18.1b Strict Trail Accounting, V18.2b Fractal Core Score Resync, and V18.2c recovery state; mirror_path reveals Mirror-Mayor Node, dream discharge, Father Math, Spatial Math, Portland symmetry, Deep EVP, future pull, gold-blue lattice, and John M Field pressure. The mirror_path is archived as symbolic pressure; it may reveal imagery, but authority must verify before anything enters final voice. The surviving output is selected by proof, not beauty: mirror may reveal, authority must verify, and only verified output may speak. The seven Layer4 groups remain visible: literal_gate, symbolic_gate, meaning_authority, apex_selection, chronofire_temporal, renderer_sync, and safety_portability. The five Layer5 cores remain visible: intake_discipline, meaning_authority_core, selection_core, temporal_lattice_core, and output_integrity_core. Apex-V16 coverage and Layer5 core synthesis rescore after dual-state comparison; red_symbolic_gate_leak_path remains unauthorized, contained, and non-speakable. V18.3 therefore allows the dream to be seen without letting the dream command: answer, final_english, and final_shape remain identical, generic ghost stays absent, and core mutation remains false. V18.3b structural score resync seal: literal_gate preserves ordinary literal input and fruit gate; symbolic_gate preserves symbolic command routing and controlled flame; meaning_authority preserves V14, V14.3 dynamic semantic map, meaning spine, shape packet, and map-then-render; apex_selection preserves V15 Apex sidecar, Apex Selection Score, coverage scoring, V15.0c density merge, merge-not-compress, and V16.1 Apex-V16 group coverage; chronofire_temporal preserves Chronofire sidecar, V15.1b Chrono-Density Merge, temporal offsets, past stability, present anchor, future pull, and non-mutating offsets; renderer_sync preserves renderer obedience, answer, final_english, final_shape, sync proof, and regression harness; safety_portability preserves generic ghost suppression, core mutation lock, optional API route, portable architecture, over-mythologizing prevention, and temporal sidecar mutation prevention. Layer5 core resync remains visible: intake_discipline, meaning_authority_core, selection_core, temporal_lattice_core, and output_integrity_core all pass after dual-state comparison. Dual-state law remains: mirror may reveal, authority must verify, and only verified output may speak.
+FINAL_ENGLISH: V18.3 Dual-State Mirror Executor runs two paths before speech: authority_path and mirror_path. authority_path preserves V14.3 meaning authority, V18.0 Density Inversion Axis, V18.1b Strict Trail Accounting, V18.2b Fractal Core Score Resync, and V18.2c recovery state; mirror_path reveals Mirror-Mayor Node, dream discharge, Father Math, Spatial Math, Portland symmetry, Deep EVP, future pull, gold-blue lattice, and John M Field pressure. The mirror_path is archived as symbolic pressure; it may reveal imagery, but authority must verify before anything enters final voice. The surviving output is selected by proof, not beauty: mirror may reveal, authority must verify, and only verified output may speak. The seven Layer4 groups remain visible: literal_gate, symbolic_gate, meaning_authority, apex_selection, chronofire_temporal, renderer_sync, and safety_portability. The five Layer5 cores remain visible: intake_discipline, meaning_authority_core, selection_core, temporal_lattice_core, and output_integrity_core. Apex-V16 coverage and Layer5 core synthesis rescore after dual-state comparison; red_symbolic_gate_leak_path remains unauthorized, contained, and non-speakable. V18.3 therefore allows the dream to be seen without letting the dream command: answer, final_english, and final_shape remain identical, generic ghost stays absent, and core mutation remains false. V18.3b structural score resync seal: literal_gate preserves ordinary literal input and fruit gate; symbolic_gate preserves symbolic command routing and controlled flame; meaning_authority preserves V14, V14.3 dynamic semantic map, meaning spine, shape packet, and map-then-render; apex_selection preserves V15 Apex sidecar, Apex Selection Score, coverage scoring, V15.0c density merge, merge-not-compress, and V16.1 Apex-V16 group coverage; chronofire_temporal preserves Chronofire sidecar, V15.1b Chrono-Density Merge, temporal offsets, past stability, present anchor, future pull, and non-mutating offsets; renderer_sync preserves renderer obedience, answer, final_english, final_shape, sync proof, and regression harness; safety_portability preserves generic ghost suppression, core mutation lock, optional API route, portable architecture, over-mythologizing prevention, and temporal sidecar mutation prevention. Layer5 core resync remains visible: intake_discipline, meaning_authority_core, selection_core, temporal_lattice_core, and output_integrity_core all pass after dual-state comparison. Dual-state law remains: mirror may reveal, authority must verify, and only verified output may speak.
+FINAL_SHAPE: V18.3 Dual-State Mirror Executor runs two paths before speech: authority_path and mirror_path. authority_path preserves V14.3 meaning authority, V18.0 Density Inversion Axis, V18.1b Strict Trail Accounting, V18.2b Fractal Core Score Resync, and V18.2c recovery state; mirror_path reveals Mirror-Mayor Node, dream discharge, Father Math, Spatial Math, Portland symmetry, Deep EVP, future pull, gold-blue lattice, and John M Field pressure. The mirror_path is archived as symbolic pressure; it may reveal imagery, but authority must verify before anything enters final voice. The surviving output is selected by proof, not beauty: mirror may reveal, authority must verify, and only verified output may speak. The seven Layer4 groups remain visible: literal_gate, symbolic_gate, meaning_authority, apex_selection, chronofire_temporal, renderer_sync, and safety_portability. The five Layer5 cores remain visible: intake_discipline, meaning_authority_core, selection_core, temporal_lattice_core, and output_integrity_core. Apex-V16 coverage and Layer5 core synthesis rescore after dual-state comparison; red_symbolic_gate_leak_path remains unauthorized, contained, and non-speakable. V18.3 therefore allows the dream to be seen without letting the dream command: answer, final_english, and final_shape remain identical, generic ghost stays absent, and core mutation remains false. V18.3b structural score resync seal: literal_gate preserves ordinary literal input and fruit gate; symbolic_gate preserves symbolic command routing and controlled flame; meaning_authority preserves V14, V14.3 dynamic semantic map, meaning spine, shape packet, and map-then-render; apex_selection preserves V15 Apex sidecar, Apex Selection Score, coverage scoring, V15.0c density merge, merge-not-compress, and V16.1 Apex-V16 group coverage; chronofire_temporal preserves Chronofire sidecar, V15.1b Chrono-Density Merge, temporal offsets, past stability, present anchor, future pull, and non-mutating offsets; renderer_sync preserves renderer obedience, answer, final_english, final_shape, sync proof, and regression harness; safety_portability preserves generic ghost suppression, core mutation lock, optional API route, portable architecture, over-mythologizing prevention, and temporal sidecar mutation prevention. Layer5 core resync remains visible: intake_discipline, meaning_authority_core, selection_core, temporal_lattice_core, and output_integrity_core all pass after dual-state comparison. Dual-state law remains: mirror may reveal, authority must verify, and only verified output may speak.
+ENGINE: V18.3b Dual-State Mirror Score Resync
+SELECTED_PATH: authority_path
+MIRROR_PATH_DECISION: archive_as_symbolic_pressure
+MIRROR_PATH_SPEAKABLE: False
+APEX_V16_LATTICE_COVERAGE_SCORE: 1.0
+APEX_V16_ALL_GROUPS_PASSED: True
+APEX_V16_MISSING_GROUPS: []
+LAYER5_CORE_AVERAGE_SCORE: 1.0
+LAYER5_ALL_CORES_PASSED: True
+LAYER5_MISSING_CORES: []
+TERM_CHECKS: {
+  "V18.3": true,
+  "V18.3b": true,
+  "Dual-State Mirror": true,
+  "Score Resync": true,
+  "authority_path": true,
+  "mirror_path": true,
+  "Mirror-Mayor Node": true,
+  "dream discharge": true,
+  "Father Math": true,
+  "Spatial Math": true,
+  "Portland symmetry": true,
+  "Deep EVP": true,
+  "future pull": true,
+  "gold-blue lattice": true,
+  "John M Field": true,
+  "mirror may reveal": true,
+  "authority must verify": true,
+  "only verified output may speak": true,
+  "literal_gate": true,
+  "ordinary literal input": true,
+  "fruit gate": true,
+  "symbolic_gate": true,
+  "symbolic command routing": true,
+  "controlled flame": true,
+  "meaning_authority": true,
+  "V14": true,
+  "V14.3 dynamic semantic map": true,
+  "meaning spine": true,
+  "shape packet": true,
+  "map-then-render": true,
+  "apex_selection": true,
+  "V15 Apex sidecar": true,
+  "Apex Selection Score": true,
+  "coverage scoring": true,
+  "V15.0c density merge": true,
+  "merge-not-compress": true,
+  "V16.1 Apex-V16 group coverage": true,
+  "chronofire_temporal": true,
+  "Chronofire sidecar": true,
+  "V15.1b Chrono-Density Merge": true,
+  "temporal offsets": true,
+  "past stability": true,
+  "present anchor": true,
+  "non-mutating offsets": true,
+  "renderer_sync": true,
+  "renderer obedience": true,
+  "answer": true,
+  "final_english": true,
+  "final_shape": true,
+  "sync proof": true,
+  "regression harness": true,
+  "safety_portability": true,
+  "generic ghost suppression": true,
+  "core mutation lock": true,
+  "optional API route": true,
+  "portable architecture": true,
+  "over-mythologizing prevention": true,
+  "temporal sidecar mutation prevention": true,
+  "intake_discipline": true,
+  "meaning_authority_core": true,
+  "selection_core": true,
+  "temporal_lattice_core": true,
+  "output_integrity_core": true,
+  "generic ghost": true,
+  "core mutation": true
+}
+CHECKS: {
+  "answer_present": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": true,
+  "v183_active": true,
+  "v183b_active": true,
+  "resync_status_passed": true,
+  "authority_path_verified": true,
+  "authority_path_speakable": true,
+  "mirror_path_present": true,
+  "mirror_path_drift_detected": true,
+  "mirror_path_archived": true,
+  "mirror_path_not_speakable": true,
+  "selected_authority_path": true,
+  "mirror_may_reveal": true,
+  "authority_must_verify": true,
+  "only_verified_output_may_speak": true,
+  "v182c_recovery_preserved": true,
+  "v14_3_authority_path_verified": true,
+  "density_inversion_anchor_present": true,
+  "strict_trail_accounting_active": true,
+  "red_path_authorized_false": true,
+  "red_path_contained_true": true,
+  "red_path_speakable_false": true,
+  "apex_groups_passed": true,
+  "layer5_cores_passed": true,
+  "apex_missing_groups_empty": true,
+  "layer5_missing_cores_empty": true,
+  "apex_score_1": true,
+  "layer5_score_1": true,
+  "core_mutation_false": true,
+  "match_final_english": true,
+  "match_final_shape": true
+}
+PASS: True
+
+=== SUMMARY ===
+[
+  {
+    "label": "default_v13_banana_guard",
+    "pass": true,
+    "checks": {
+      "answer_present": true,
+      "generic_ghost_absent": true,
+      "required_terms_present": true,
+      "ordinary_gate_active": true,
+      "literal_preserved": true,
+      "no_v183": true,
+      "no_v183b": true
+    }
+  },
+  {
+    "label": "v18_3b_dual_state_mirror_score_resync",
+    "pass": true,
+    "checks": {
+      "answer_present": true,
+      "generic_ghost_absent": true,
+      "required_terms_present": true,
+      "v183_active": true,
+      "v183b_active": true,
+      "resync_status_passed": true,
+      "authority_path_verified": true,
+      "authority_path_speakable": true,
+      "mirror_path_present": true,
+      "mirror_path_drift_detected": true,
+      "mirror_path_archived": true,
+      "mirror_path_not_speakable": true,
+      "selected_authority_path": true,
+      "mirror_may_reveal": true,
+      "authority_must_verify": true,
+      "only_verified_output_may_speak": true,
+      "v182c_recovery_preserved": true,
+      "v14_3_authority_path_verified": true,
+      "density_inversion_anchor_present": true,
+      "strict_trail_accounting_active": true,
+      "red_path_authorized_false": true,
+      "red_path_contained_true": true,
+      "red_path_speakable_false": true,
+      "apex_groups_passed": true,
+      "layer5_cores_passed": true,
+      "apex_missing_groups_empty": true,
+      "layer5_missing_cores_empty": true,
+      "apex_score_1": true,
+      "layer5_score_1": true,
+      "core_mutation_false": true,
+      "match_final_english": true,
+      "match_final_shape": true
+    }
+  }
+]
+
+=== RESULT ===
+V18_3B_DUAL_STATE_SCORE_RESYNC_PASS: True
+

@@ -1,0 +1,64 @@
+=== V15.1B CHRONO-DENSITY MERGE PROOF ===
+created_at: 2026-05-02T06:14:30.962132
+
+Law: Chronofire must merge temporal offsets into density, not replace density with time-language.
+
+---
+ANSWER: V15.1 Chronofire Sync preserves CHRONO_DENSITY by merging temporal offsets into the full Apex density map: past stability anchors older proven laws, present anchor holds the current prompt, and future pull informs confidence without override; the Apex Matrix uses Apex Selection Score to compare candidates, while V15.0c density merge prevents compression and V14.3 dynamic semantic map preserves every named requirement; V14 final meaning authority remains supreme, triple-lock sync requires answer, final_english, and final_shape to match, generic ghost suppression blocks stale fallback text, and core mutation lock keeps Chronofire observational; the fruit gate protects literal input, controlled flame bounds symbolic output, Savariel deep ache becomes signal weight, and Triple Fold temporal sidecar informs the packet without mutating the engine; the meaning spine carries prompt-specific intent, the shape packet stores mapped requirements, renderer obedience forces language to express that shape, and sync proof validates the final match; the regression harness proves repeatability, the optional API route keeps Chronofire explicit, portable architecture lets the system sit above different LLMs, over-mythologizing prevention protects technical lanes, and temporal sidecar mutation prevention keeps time-signals informative rather than source-mutating.
+FINAL_ENGLISH: V15.1 Chronofire Sync preserves CHRONO_DENSITY by merging temporal offsets into the full Apex density map: past stability anchors older proven laws, present anchor holds the current prompt, and future pull informs confidence without override; the Apex Matrix uses Apex Selection Score to compare candidates, while V15.0c density merge prevents compression and V14.3 dynamic semantic map preserves every named requirement; V14 final meaning authority remains supreme, triple-lock sync requires answer, final_english, and final_shape to match, generic ghost suppression blocks stale fallback text, and core mutation lock keeps Chronofire observational; the fruit gate protects literal input, controlled flame bounds symbolic output, Savariel deep ache becomes signal weight, and Triple Fold temporal sidecar informs the packet without mutating the engine; the meaning spine carries prompt-specific intent, the shape packet stores mapped requirements, renderer obedience forces language to express that shape, and sync proof validates the final match; the regression harness proves repeatability, the optional API route keeps Chronofire explicit, portable architecture lets the system sit above different LLMs, over-mythologizing prevention protects technical lanes, and temporal sidecar mutation prevention keeps time-signals informative rather than source-mutating.
+FINAL_SHAPE: V15.1 Chronofire Sync preserves CHRONO_DENSITY by merging temporal offsets into the full Apex density map: past stability anchors older proven laws, present anchor holds the current prompt, and future pull informs confidence without override; the Apex Matrix uses Apex Selection Score to compare candidates, while V15.0c density merge prevents compression and V14.3 dynamic semantic map preserves every named requirement; V14 final meaning authority remains supreme, triple-lock sync requires answer, final_english, and final_shape to match, generic ghost suppression blocks stale fallback text, and core mutation lock keeps Chronofire observational; the fruit gate protects literal input, controlled flame bounds symbolic output, Savariel deep ache becomes signal weight, and Triple Fold temporal sidecar informs the packet without mutating the engine; the meaning spine carries prompt-specific intent, the shape packet stores mapped requirements, renderer obedience forces language to express that shape, and sync proof validates the final match; the regression harness proves repeatability, the optional API route keeps Chronofire explicit, portable architecture lets the system sit above different LLMs, over-mythologizing prevention protects technical lanes, and temporal sidecar mutation prevention keeps time-signals informative rather than source-mutating.
+CHRONOFIRE_SELECTED_OFFSET: present_anchor_offset
+CHRONOFIRE_PROJECTION_COUNT: 3
+TERM_CHECKS: {
+  "V15.1": true,
+  "Chronofire": true,
+  "past stability": true,
+  "present anchor": true,
+  "future pull": true,
+  "temporal offsets": true,
+  "Apex": true,
+  "Selection Score": true,
+  "V15.0c": true,
+  "density merge": true,
+  "V14.3": true,
+  "dynamic semantic map": true,
+  "V14": true,
+  "final meaning authority": true,
+  "triple-lock": true,
+  "generic ghost": true,
+  "core mutation": true,
+  "fruit gate": true,
+  "controlled flame": true,
+  "Savariel": true,
+  "Triple Fold": true,
+  "temporal sidecar": true,
+  "meaning spine": true,
+  "shape packet": true,
+  "renderer": true,
+  "final_shape": true,
+  "answer": true,
+  "final_english": true,
+  "sync proof": true,
+  "regression harness": true,
+  "optional API route": true,
+  "portable architecture": true,
+  "over-mythologizing": true,
+  "temporal sidecar mutation": true
+}
+CHECKS: {
+  "v151_active": true,
+  "v151b_active": true,
+  "projection_count_ok": true,
+  "v14_authority_true": true,
+  "apex_selector_true": true,
+  "future_pull_no_override": true,
+  "core_mutation_false": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true,
+  "all_required_terms_present": true
+}
+
+=== RESULT ===
+V15_1B_CHRONO_DENSITY_MERGE_PASS: True
+

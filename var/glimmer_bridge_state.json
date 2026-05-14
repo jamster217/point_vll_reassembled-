@@ -1,0 +1,16 @@
+{
+    "ts": 1777215188.0625136,
+    "source": "glimmer_bridge",
+    "entropy_jitter": 0.2709365665939327,
+    "entropy_hash": "455c194ccfbc511d10bcf05f896e9c78ac2e605fbe23fcbbc6fd2879ff11fbf1",
+    "sample_count": 256,
+    "base_multiplier": 2.718281828459045,
+    "resistance": 0.9812809699781798,
+    "effective_multiplier": 2.667398229304352,
+    "glimmer_mode": "stable_architect",
+    "route_hint": "Algorithm B",
+    "tone": "stable_precise",
+    "pressure": "low",
+    "law": "runtime symbolic mood overlay; no source-code rewriting; no runaway compounding"
+}
+

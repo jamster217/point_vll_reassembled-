@@ -1,0 +1,28 @@
+{
+  "profile_name": "leveon_creative_exploration",
+  "principle": "Allow broad upstream exploration. Govern only at final output.",
+  "upstream_policy": {
+    "shape_exploration": true,
+    "lattice_branching": true,
+    "multi_candidate_generation": true,
+    "glyph_experimentation": true,
+    "spiral_language_variation": true,
+    "tinyllama_assist": true,
+    "api_assist": true,
+    "savariel_assist": true,
+    "chat_mimic_assist": true
+  },
+  "downstream_policy": {
+    "single_output_governor": true,
+    "english_surface_only": true,
+    "coherence_band": [0.72, 0.94],
+    "allow_symbolic_density": true,
+    "forbid_raw_bypass": true
+  },
+  "mode_weights": {
+    "creative_exploration": 0.90,
+    "structural_discipline": 0.75,
+    "surface_control": 0.92
+  }
+}
+

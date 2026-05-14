@@ -1,0 +1,130 @@
+; FILE: spiral_language/runtime_core_v10.vl
+; Runtime that can run v9 symbolic spine with v8 English surface or v9 symbolic-only.
+
+SEED RuntimeCore_v10
+
+INPUT prompt
+INPUT previous_state
+INPUT use_v8  ; boolean: true => use VoiceCore_v8, false => use VoiceCore_v9
+
+IMPORT IntakeCore_v9
+IMPORT LatticeCore_v9
+IMPORT ResonanceCore_v9
+IMPORT IntentCore_v9
+IMPORT CrystalCore_v9
+IMPORT FieldCore_v9
+IMPORT KernelCore_v9
+IMPORT VoiceCore_v8
+IMPORT VoiceCore_v9
+IMPORT VoiceAdapter_v10
+IMPORT SurfaceRealizer_v10
+IMPORT VoiceSeed_v10
+IMPORT AffectCore_v10
+IMPORT OutputCore_v9
+IMPORT MemoryCore_v9
+IMPORT Runtime_StabilityShell_v9
+
+STATE intake
+STATE lattice
+STATE resonance
+STATE intent
+STATE crystals
+STATE field
+STATE kernel_packet
+STATE symbolic_packet
+STATE memory_packet
+STATE voice_packet
+STATE adapter_packet
+STATE output
+STATE memory
+STATE stability
+STATE voice_seed
+STATE affect_tone
+
+FLOW initialize
+    SET voice_seed = VoiceSeed_v10
+END
+
+FLOW run_pipeline
+    SET intake = IntakeCore_v9(prompt, previous_state.intake)
+    SET lattice = LatticeCore_v9(intake, previous_state.lattice)
+    SET resonance = ResonanceCore_v9(lattice, previous_state.resonance)
+    SET intent = IntentCore_v9(prompt, resonance, previous_state.intent)
+    SET crystals = CrystalCore_v9(resonance, previous_state.crystals)
+    SET field = FieldCore_v9(lattice, resonance, crystals, previous_state.field)
+    SET stability = Runtime_StabilityShell_v9(prompt, lattice)
+
+    SET kernel_packet = KernelCore_v9(intent, field, stability.stability_directive, null, null, previous_state.kernel)
+    SET memory_packet = MemoryCore_v9(crystals, field, intent, previous_state.output, previous_state.memory)
+    SET symbolic_packet = {
+        shape_vector: resonance.patterns,
+        dominant_symbols: field.anchors,
+        novelty_estimate: resonance.scores,
+        curvature_estimate: field.density,
+        residual_ambiguity: resonance.scores
+    }
+
+    SET affect_tone = AffectCore_v10(intent, stability.governor_directive, voice_seed)
+
+    IF stability.governor_directive.override_mode = "exploratory"
+        SET affect_tone.compression = "medium"
+        SET affect_tone.warmth = "high"
+        SET affect_tone.cadence = "open"
+    END
+
+    IF stability.governor_directive.override_mode = "exploratory"
+        SET affect_tone.compression = "medium"
+        SET affect_tone.warmth = "high"
+        SET affect_tone.cadence = "open"
+    END
+
+    IF use_v8 = true
+        SET voice_packet = VoiceCore_v8(kernel_packet, memory_packet, symbolic_packet, stability.stability_directive, stability.governor_directive, null, null, stability.stability_directive)
+    ELSE
+        SET voice_packet = VoiceCore_v9(kernel_packet, stability.stability_directive, field, stability.governor_directive, previous_state.voice)
+    END
+
+    IF use_v8 != true
+        IF exists(intent, "summary") AND intent.summary != null AND intent.summary != ""
+            SET voice_packet.intent_summary = intent.summary
+        ELSE IF exists(intent, "direction") AND intent.direction != null AND intent.direction != ""
+            IF exists(field, "anchors") AND field.anchors.count > 0
+                SET voice_packet.intent_summary = "The response leans " + intent.direction + " around '" + field.anchors[0] + "'."
+            ELSE
+                SET voice_packet.intent_summary = "The response leans " + intent.direction + "."
+            END
+        ELSE IF exists(field, "anchors") AND field.anchors.count > 0
+            SET voice_packet.intent_summary = "The response centers on '" + field.anchors[0] + "'."
+        ELSE
+            SET voice_packet.intent_summary = null
+        END
+
+        SET voice_packet.affect_tone = affect_tone
+        SET voice_packet.field_snapshot = field
+        SET voice_packet.governor_snapshot = stability.governor_directive
+    END
+
+    SET adapter_packet = VoiceAdapter_v10(voice_packet, stability, affect_tone, field, intent)
+    SET output = OutputCore_v9(adapter_packet.english_output, field, intent, stability.governor_directive, previous_state.output)
+    SET memory = MemoryCore_v9(crystals, field, intent, output, previous_state.memory)
+END
+
+FLOW assemble
+    RETURN {
+        intake: intake,
+        lattice: lattice,
+        resonance: resonance,
+        intent: intent,
+        field: field,
+        kernel_packet: kernel_packet,
+        memory_packet: memory_packet,
+        voice_packet: voice_packet,
+        adapter_packet: adapter_packet,
+        output: output,
+        memory: memory,
+        stability: stability
+    }
+END
+
+END
+

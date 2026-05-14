@@ -1,0 +1,2 @@
+{"answer":"The Performance Oracle chooses the lighter path for small inputs and the stronger path for dense symbolic loads. For quick, low-density requests, it favors Algorithm B because it responds with less overhead. When the prompt becomes heavy, layered, or symbolically dense, it shifts toward Algorithm C, which is better suited for larger payloads. The goal is simple: keep the system fast, stable, and clean while hiding the internal machinery from the public surface.","answer_mode":"full","ok":true}
+

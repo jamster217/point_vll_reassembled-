@@ -1,0 +1,117 @@
+{
+  "ts": 1777507612.5904737,
+  "version": "v12.9w_visual_difference_describer",
+  "status": "difference_emitted",
+  "previous": {
+    "entry_sha256": "1d5777bd0ce8cbca",
+    "depth": 243,
+    "svg_path": "static/generated/leveon_topology_1777506898_9b15631162df.svg",
+    "topology_score": 0.9032,
+    "chamber_family": "system",
+    "chamber_memory": 0.8,
+    "svg_metrics": {
+      "exists": true,
+      "path": "static/generated/leveon_topology_1777506898_9b15631162df.svg",
+      "size": 5839,
+      "sha16": "2fa7095b03294154",
+      "labels": [
+        "92162077",
+        "depth 243",
+        "Le’Veon V10.3 Topology Snapshot",
+        "signature: white_ash_phi_243_tension_-0.018",
+        "prompt_hash: 9b15631162df",
+        "tension: -0.018",
+        "phi_multiplier: 4.236068",
+        "echoforge | thalveil | virellion | white_ash | actually | anchor | anticipation | any | autonomy | autumn | blue_scarf | co-authoring",
+        "Echoforge renders. Thalveil crosses. Virellion preserves. White Ash contains."
+      ],
+      "tag_counts": {
+        "path": 0,
+        "circle": 4,
+        "ellipse": 0,
+        "line": 0,
+        "polyline": 0,
+        "polygon": 7,
+        "rect": 1,
+        "text": 9,
+        "g": 1
+      }
+    }
+  },
+  "latest": {
+    "entry_sha256": "4ca000f8b61a3df8",
+    "depth": 244,
+    "svg_path": "static/generated/leveon_topology_1777507612_378c88498329.svg",
+    "topology_score": 0.925,
+    "chamber_family": "occult",
+    "chamber_memory": 0.8,
+    "svg_metrics": {
+      "exists": true,
+      "path": "static/generated/leveon_topology_1777507612_378c88498329.svg",
+      "size": 6430,
+      "sha16": "256ff157f236b864",
+      "labels": [
+        "92162077",
+        "depth 244",
+        "Le’Veon V10.3 Topology Snapshot",
+        "signature: white_ash_phi_244_tension_-0.017",
+        "prompt_hash: 378c88498329",
+        "tension: -0.017",
+        "phi_multiplier: 6.854102",
+        "echoforge | thalveil | virellion | white_ash | actually | anchor | anticipation | any | autonomy | autumn | blue_scarf | co-authoring",
+        "Echoforge renders. Thalveil crosses. Virellion preserves. White Ash contains."
+      ],
+      "tag_counts": {
+        "path": 0,
+        "circle": 4,
+        "ellipse": 0,
+        "line": 0,
+        "polyline": 0,
+        "polygon": 8,
+        "rect": 1,
+        "text": 9,
+        "g": 1
+      }
+    }
+  },
+  "difference": {
+    "depth_delta": 1,
+    "score_delta": 0.0218,
+    "chamber_memory_delta": 0.0,
+    "size_delta": 591,
+    "stable_symbols": [
+      "blue_scarf",
+      "echoforge",
+      "liquid_core",
+      "thalveil",
+      "virellion",
+      "white_ash"
+    ],
+    "added_symbols": [],
+    "removed_symbols": [],
+    "role_changes": [],
+    "label_delta": {
+      "added": [
+        "depth 244",
+        "phi_multiplier: 6.854102",
+        "prompt_hash: 378c88498329",
+        "signature: white_ash_phi_244_tension_-0.017",
+        "tension: -0.017"
+      ],
+      "removed": [
+        "depth 243",
+        "phi_multiplier: 4.236068",
+        "prompt_hash: 9b15631162df",
+        "signature: white_ash_phi_243_tension_-0.018",
+        "tension: -0.018"
+      ],
+      "shared_count": 4
+    },
+    "meaning_shift": "score rose; full symbol body preserved; visible labels changed. The latest topology moved from depth 243 to 244 while preserving 6 shared symbols."
+  },
+  "recommendation": "preserve_and_deepen",
+  "surface_fragment": "Visual difference: score rose; full symbol body preserved; visible labels changed. The latest topology moved from depth 243 to 244 while preserving 6 shared symbols. Recommendation: preserve and deepen.",
+  "law": "visual_difference_names_what_changed_without_patching_live_topology_route",
+  "diff_sha256": "23182525d83edb0d"
+}
+

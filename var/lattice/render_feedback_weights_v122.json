@@ -1,0 +1,37 @@
+{
+  "active": true,
+  "ts": 1777382417.4367735,
+  "weights": {
+    "inferred_memory_pressure": 1.0,
+    "happy": 1.0,
+    "golden_light": 1.0,
+    "positive_emotional_tone": 1.0,
+    "golden_mist": 1.0,
+    "autumn": 1.0,
+    "blue_scarf": 1.0,
+    "meadow": 1.0,
+    "visual_memory": 1.0,
+    "stone_bridge": 1.0,
+    "echoforge": 1.0,
+    "thalveil": 1.0,
+    "virellion": 1.0,
+    "white_ash": 1.0,
+    "anchor": 1.0,
+    "thread_preserved": 1.0,
+    "topology": 1.0,
+    "contained_visual_state": 0.85,
+    "inferred_personal_memory_candidate": 0.7,
+    "personal_memory_candidate_unconfirmed": 0.6,
+    "emotionally_coherent_image": 0.55,
+    "anticipation": 0.4,
+    "autonomy": 0.4,
+    "co_authoring": 0.4
+  },
+  "render_hints": [
+    "use higher weights to choose recurring visual anchors",
+    "preserve structural glyph continuity",
+    "do not convert inferred personal memory into confirmed fact"
+  ],
+  "law": "v122_render_feedback_weights_from_visual_index"
+}
+

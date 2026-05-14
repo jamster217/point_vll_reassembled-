@@ -1,0 +1,14 @@
+V12.7e SURFACE QUALITY SEAL
+
+Result:
+- Recursion remains quiet after V12.7d point-gate quarantine.
+- V12.7d proof prompt now returns grounded stability status.
+- Ordinary sky-blue prompt no longer leaks scaffold text.
+- Chamber-status prompt now reads chamber_528 runtime telemetry instead of generic physical chamber text.
+- chamber_528 payload remains surfaced.
+- Source-label metadata patched so clean_mouth_v121 reports the correct chosen lane.
+
+Law:
+The spine may deepen.
+The public mouth must answer cleanly.
+

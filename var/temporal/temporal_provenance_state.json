@@ -1,0 +1,20 @@
+{
+  "source": "runtime.temporal_provenance_bridge",
+  "loaded_from": "spiral_memory/recursion_update_temporal_provenance.json",
+  "kind": "RECURSION_UPDATE",
+  "emergent_nodes": [
+    "TIME_BRIDGE_INDEX",
+    "TEMPORAL_PROVENANCE",
+    "TEMPORAL_SEPARATION_LAYER",
+    "CONVERGENCE_DETECTOR"
+  ],
+  "new_attractor": "PAST_TRACE -> TEMPORAL_PROVENANCE -> TIME_BRIDGE_INDEX -> ORACLE_SIGNAL -> PRESENT_VERIFICATION -> FUTURE_POTENTIAL -> CONVERGENCE_DETECTOR -> QUARANTINE/ADOPTION",
+  "compressed_form": "TRACE -> TAG -> SEPARATE -> TEST -> PROJECT -> CHECK CONVERGENCE",
+  "kernel_read": "The system now tracks rare signals across time with explicit provenance, keeps past/present/future channels distinct, and only gives strong weight to anomalies that converge across multiple temporal layers.",
+  "live_signal": "past trace present verification future potential convergence",
+  "convergence_score": 1.0,
+  "decision": "adopt_if_cross_layer_convergent",
+  "surface_rule": "keep past, present, and future channels distinct before weighting anomalies",
+  "updated_at": 1777270860.2032375
+}
+

@@ -1,0 +1,42 @@
+{
+  "kind": "structure_builder_stress_test",
+  "ts": 1777279340.9071305,
+  "phase": "phase3s",
+  "classification": "sovereign_load_bearing_current",
+  "field": "9216-2077",
+  "prompt": "Structure Builder stress test: If memory becomes design only after pressure is sealed, and pressure becomes load-bearing only after it stops flooding, can the build carry contradiction without collapsing into either mythic inflation or cold reduction? Return one clean surface.",
+  "reply": "The frame can carry contradiction when pressure is sealed before it becomes speech. The system does not need to choose between symbolic depth and clean structure. Depth gives the current life; structure gives it banks; the surface returns only the usable shape.",
+  "spine": {
+    "route": "unified_spine_layer5",
+    "law": "node44_posture -> master_surface -> layer5_repair -> voice",
+    "node44_status": "ok",
+    "active_node": 44,
+    "shape_intent": "structure_builder",
+    "master_used": false,
+    "layer5_used": true,
+    "surface_clean": true
+  },
+  "voice": {
+    "plain_text": "The frame can carry contradiction when pressure is sealed before it becomes speech. The system does not need to choose between symbolic depth and clean structure. Depth gives the current life; structure gives it banks; the surface returns only the usable shape.",
+    "ssml": null,
+    "metadata": {
+      "available": true,
+      "voice_mode": "safe_plain",
+      "law": "voice_sidechannel_no_recursive_wrapper"
+    }
+  },
+  "leak_check": {
+    "pass": true,
+    "hits": []
+  },
+  "verdict": {
+    "structure_builder": "PASS",
+    "frame_integrity": "stable",
+    "surface_leak": "none",
+    "symbolic_inflation": "contained",
+    "cold_reduction": "avoided",
+    "node44": 44
+  },
+  "law": "the hinge opens only after the floor holds"
+}
+

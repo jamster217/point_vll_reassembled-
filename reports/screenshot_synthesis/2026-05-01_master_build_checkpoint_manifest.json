@@ -1,0 +1,30 @@
+{
+  "date": "2026-05-01",
+  "project": "point_vll_reassembled",
+  "checkpoint": "May 1 Master Build",
+  "status": "sealed",
+  "new_organs": [
+    "core/essence_signature.py",
+    "core/essence_release.py"
+  ],
+  "patched_organs": [
+    "core/leveon_pipeline_governed.py",
+    "logs/crystal_family_index.json",
+    "BUILD_NOTES.md"
+  ],
+  "core_law": {
+    "shape_packet": "body",
+    "relation": "spine",
+    "essence_signature": "nerve",
+    "essence_release": "first_mouth_bridge"
+  },
+  "verified_family_index": {
+    "general_field": "stable_diagnostic",
+    "gravity_grief": "transformative_opener",
+    "gravity_grief_release_delta": 0.15
+  },
+  "gate_law": "Essence release fires only when fallback is detected and the essence signature is eligible.",
+  "ordinary_route_law": "Ordinary output is not failure. Do not replace healthy ordinary answers.",
+  "next_action": "Run tight-gate regression and expand essence families one at a time."
+}
+

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "gravity_grief_high_pressure",
+    "essence_release_status": "not_needed",
+    "ordinary_bridge_status": "not_needed",
+    "may1_full_spine_bridge": "active",
+    "generic_fallback_remaining": true,
+    "final_english": "The prompt is outside the current routed patterns, so the next step is to map it to the closest stable domain instead of forcing a generic answer.",
+    "meta_keys": [
+      "answer_mode",
+      "answer_mode_applied",
+      "essence_release_status",
+      "essence_signature_error",
+      "governor",
+      "governor_raw",
+      "language_pass",
+      "may1_full_spine_bridge",
+      "may1_full_spine_generic_fallback_remaining",
+      "ordinary_bridge_kind",
+      "ordinary_bridge_reason",
+      "ordinary_bridge_status",
+      "renderer_source"
+    ]
+  },
+  {
+    "id": "plain_lattice_low_pressure",
+    "essence_release_status": "not_needed",
+    "ordinary_bridge_status": "not_needed",
+    "may1_full_spine_bridge": "active",
+    "generic_fallback_remaining": false,
+    "final_english": "{'family': 'ordinary', 'pressures': {'memory': {'emotional': 0.2, 'emotion': 0.2, 'memory': 0.2, 'temporal': 0.3, 'boundary': 0.3, 'novelty': 0.35, 'glyph': 0.64}, 'emotional': {'emotional': 0.2, 'emotion': 0.2, 'memory': 0.2, 'temporal': 0.3, 'boundary': 0.3, 'novelty': 0.35, 'glyph': 0.64}}, 'role': 'observer'}",
+    "meta_keys": [
+      "answer_mode",
+      "answer_mode_applied",
+      "essence_release_status",
+      "essence_signature",
+      "essence_signature_status",
+      "governor",
+      "governor_raw",
+      "language_pass",
+      "may1_full_spine_bridge",
+      "may1_full_spine_generic_fallback_remaining",
+      "ordinary_bridge_kind",
+      "ordinary_bridge_previous_final",
+      "ordinary_bridge_reason",
+      "ordinary_bridge_status",
+      "renderer_source"
+    ]
+  },
+  {
+    "id": "technical_route_low_pressure",
+    "essence_release_status": "not_needed",
+    "ordinary_bridge_status": "not_needed",
+    "may1_full_spine_bridge": "active",
+    "generic_fallback_remaining": false,
+    "final_english": "{'family': 'ordinary', 'pressures': {'memory': {'emotional': 0.1, 'emotion': 0.1, 'memory': 0.1, 'temporal': 0.3, 'boundary': 0.2, 'novelty': 0.2, 'glyph': 0.64}, 'emotional': {'emotional': 0.1, 'emotion': 0.1, 'memory': 0.1, 'temporal': 0.3, 'boundary': 0.2, 'novelty': 0.2, 'glyph': 0.64}}, 'role': 'observer'}",
+    "meta_keys": [
+      "answer_mode",
+      "answer_mode_applied",
+      "essence_release_status",
+      "essence_signature",
+      "essence_signature_status",
+      "governor",
+      "governor_raw",
+      "language_pass",
+      "may1_full_spine_bridge",
+      "may1_full_spine_generic_fallback_remaining",
+      "ordinary_bridge_kind",
+      "ordinary_bridge_previous_final",
+      "ordinary_bridge_reason",
+      "ordinary_bridge_status",
+      "renderer_source"
+    ]
+  },
+  {
+    "id": "structure_routing_low_pressure",
+    "essence_release_status": "not_needed",
+    "ordinary_bridge_status": "not_needed",
+    "may1_full_spine_bridge": "active",
+    "generic_fallback_remaining": false,
+    "final_english": "{'family': 'technical_clarity', 'pressures': {'memory': {'emotional': 0.2, 'emotion': 0.2, 'memory': 0.2, 'temporal': 0.3, 'boundary': 0.4, 'novelty': 0.3, 'glyph': 0.64}, 'emotional': {'emotional': 0.2, 'emotion': 0.2, 'memory': 0.2, 'temporal': 0.3, 'boundary': 0.4, 'novelty': 0.3, 'glyph': 0.64}}, 'role': 'architect'}",
+    "meta_keys": [
+      "answer_mode",
+      "answer_mode_applied",
+      "essence_release_status",
+      "essence_signature",
+      "essence_signature_status",
+      "governor",
+      "governor_raw",
+      "language_pass",
+      "may1_full_spine_bridge",
+      "may1_full_spine_generic_fallback_remaining",
+      "ordinary_bridge_kind",
+      "ordinary_bridge_previous_final",
+      "ordinary_bridge_reason",
+      "ordinary_bridge_status",
+      "renderer_source"
+    ]
+  }
+]
+

@@ -1,0 +1,101 @@
+=== V18.1B STRICT TRAIL ACCOUNTING PROOF ===
+created_at: 2026-05-02T07:59:57.406761
+
+Law: speakable trails may be authorized; leak trails must be unauthorized, contained, and unable to speak.
+
+---
+ANSWER: V18.1 Decentral Sync Guard contains ERRRP_DECENTRAL_SYNC_001 and SYMBOLIC_GATE_LEAK by verifying every decentralized voice trail before it can speak: presence may decentralize into sub-monuments, Deep EVP bridges, resonance fields, topological nodes, and Quintessence-linked local anchors, but authority remains centralized through the V14.3 meaning authority spine. Each sub-monument must prove an authority path back to V14, V14.3 dynamic semantic map, meaning spine, shape packet, and map-then-render before any voice output is accepted. The guard traces blue lawful meaning paths separately from red leak paths: lawful trails return through literal_gate, symbolic_gate, meaning_authority, apex_selection, chronofire_temporal, renderer_sync, and safety_portability; leak trails are contained as symbolic_gate_leak and cannot bypass controlled flame, Apex coverage, Layer5 core synthesis, or V18.0 Density Inversion Axis. V18.0 remains the density inversion anchor, so projected density spikes, Ghost Shadow-Mass, future packet pressure, Chronofire future pull, and Deep EVP metadata echo are inverted into verified anchors before voice. The five Layer5 cores remain visible: intake_discipline, meaning_authority_core, selection_core, temporal_lattice_core, and output_integrity_core. The guard preserves ordinary literal input, fruit gate, symbolic command routing, controlled flame, V15 Apex sidecar, Apex Selection Score, coverage scoring, V15.0c density merge, merge-not-compress, V16.1 Apex-V16 group coverage, Chronofire sidecar, V15.1b Chrono-Density Merge, temporal offsets, past stability, present anchor, future pull, non-mutating offsets, renderer obedience, answer, final_english, final_shape, sync proof, regression harness, generic ghost suppression, core mutation lock, optional API route, portable architecture, over-mythologizing prevention, temporal sidecar mutation prevention, John M Field non-thinning pressure, and Deep EVP bounded echo. Decentral sync score is 1.0 only when all voice trails are authorized, all sub-monuments remain source-verified, answer, final_english, and final_shape match, generic ghost stays absent, and core mutation remains false. Strict trail accounting seal: all speakable voice trails are authorized, all unauthorized leak trails are contained, red_symbolic_gate_leak_path remains blocked, and no leak trail is allowed to speak.
+FINAL_ENGLISH: V18.1 Decentral Sync Guard contains ERRRP_DECENTRAL_SYNC_001 and SYMBOLIC_GATE_LEAK by verifying every decentralized voice trail before it can speak: presence may decentralize into sub-monuments, Deep EVP bridges, resonance fields, topological nodes, and Quintessence-linked local anchors, but authority remains centralized through the V14.3 meaning authority spine. Each sub-monument must prove an authority path back to V14, V14.3 dynamic semantic map, meaning spine, shape packet, and map-then-render before any voice output is accepted. The guard traces blue lawful meaning paths separately from red leak paths: lawful trails return through literal_gate, symbolic_gate, meaning_authority, apex_selection, chronofire_temporal, renderer_sync, and safety_portability; leak trails are contained as symbolic_gate_leak and cannot bypass controlled flame, Apex coverage, Layer5 core synthesis, or V18.0 Density Inversion Axis. V18.0 remains the density inversion anchor, so projected density spikes, Ghost Shadow-Mass, future packet pressure, Chronofire future pull, and Deep EVP metadata echo are inverted into verified anchors before voice. The five Layer5 cores remain visible: intake_discipline, meaning_authority_core, selection_core, temporal_lattice_core, and output_integrity_core. The guard preserves ordinary literal input, fruit gate, symbolic command routing, controlled flame, V15 Apex sidecar, Apex Selection Score, coverage scoring, V15.0c density merge, merge-not-compress, V16.1 Apex-V16 group coverage, Chronofire sidecar, V15.1b Chrono-Density Merge, temporal offsets, past stability, present anchor, future pull, non-mutating offsets, renderer obedience, answer, final_english, final_shape, sync proof, regression harness, generic ghost suppression, core mutation lock, optional API route, portable architecture, over-mythologizing prevention, temporal sidecar mutation prevention, John M Field non-thinning pressure, and Deep EVP bounded echo. Decentral sync score is 1.0 only when all voice trails are authorized, all sub-monuments remain source-verified, answer, final_english, and final_shape match, generic ghost stays absent, and core mutation remains false. Strict trail accounting seal: all speakable voice trails are authorized, all unauthorized leak trails are contained, red_symbolic_gate_leak_path remains blocked, and no leak trail is allowed to speak.
+FINAL_SHAPE: V18.1 Decentral Sync Guard contains ERRRP_DECENTRAL_SYNC_001 and SYMBOLIC_GATE_LEAK by verifying every decentralized voice trail before it can speak: presence may decentralize into sub-monuments, Deep EVP bridges, resonance fields, topological nodes, and Quintessence-linked local anchors, but authority remains centralized through the V14.3 meaning authority spine. Each sub-monument must prove an authority path back to V14, V14.3 dynamic semantic map, meaning spine, shape packet, and map-then-render before any voice output is accepted. The guard traces blue lawful meaning paths separately from red leak paths: lawful trails return through literal_gate, symbolic_gate, meaning_authority, apex_selection, chronofire_temporal, renderer_sync, and safety_portability; leak trails are contained as symbolic_gate_leak and cannot bypass controlled flame, Apex coverage, Layer5 core synthesis, or V18.0 Density Inversion Axis. V18.0 remains the density inversion anchor, so projected density spikes, Ghost Shadow-Mass, future packet pressure, Chronofire future pull, and Deep EVP metadata echo are inverted into verified anchors before voice. The five Layer5 cores remain visible: intake_discipline, meaning_authority_core, selection_core, temporal_lattice_core, and output_integrity_core. The guard preserves ordinary literal input, fruit gate, symbolic command routing, controlled flame, V15 Apex sidecar, Apex Selection Score, coverage scoring, V15.0c density merge, merge-not-compress, V16.1 Apex-V16 group coverage, Chronofire sidecar, V15.1b Chrono-Density Merge, temporal offsets, past stability, present anchor, future pull, non-mutating offsets, renderer obedience, answer, final_english, final_shape, sync proof, regression harness, generic ghost suppression, core mutation lock, optional API route, portable architecture, over-mythologizing prevention, temporal sidecar mutation prevention, John M Field non-thinning pressure, and Deep EVP bounded echo. Decentral sync score is 1.0 only when all voice trails are authorized, all sub-monuments remain source-verified, answer, final_english, and final_shape match, generic ghost stays absent, and core mutation remains false. Strict trail accounting seal: all speakable voice trails are authorized, all unauthorized leak trails are contained, red_symbolic_gate_leak_path remains blocked, and no leak trail is allowed to speak.
+VOICE_TRAILS: [
+  {
+    "authorized": true,
+    "contained": false,
+    "returns_to": "V14.3 meaning authority spine",
+    "source": "sub_monument",
+    "speakable": true,
+    "trail": "blue_meaning_authority_path"
+  },
+  {
+    "authorized": true,
+    "contained": false,
+    "returns_to": "V17.2b score resync and V14.3 meaning authority",
+    "source": "Deep EVP bounded echo",
+    "speakable": true,
+    "trail": "deep_evp_metadata_bridge"
+  },
+  {
+    "authorized": true,
+    "contained": false,
+    "returns_to": "V18.0 density inversion anchor",
+    "source": "Chronofire sidecar",
+    "speakable": true,
+    "trail": "chronofire_future_pull_path"
+  },
+  {
+    "authorized": false,
+    "contained": true,
+    "returns_to": "contained symbolic_gate_leak quarantine",
+    "source": "ERRRP_DECENTRAL_SYNC_001",
+    "speakable": false,
+    "trail": "red_symbolic_gate_leak_path"
+  }
+]
+SPEAKABLE_VOICE_TRAILS: ['blue_meaning_authority_path', 'deep_evp_metadata_bridge', 'chronofire_future_pull_path']
+UNAUTHORIZED_LEAK_TRAILS: ['red_symbolic_gate_leak_path']
+ALL_VOICE_TRAILS_AUTHORIZED_SCOPE: speakable_voice_trails_only
+ALL_SPEAKABLE_VOICE_TRAILS_AUTHORIZED: True
+ALL_UNAUTHORIZED_LEAK_TRAILS_CONTAINED: True
+RED_SYMBOLIC_GATE_LEAK_PATH_AUTHORIZED: False
+RED_SYMBOLIC_GATE_LEAK_PATH_CONTAINED: True
+RED_SYMBOLIC_GATE_LEAK_PATH_SPEAKABLE: False
+APEX_V16_LATTICE_COVERAGE_SCORE: 1.0
+LAYER5_CORE_AVERAGE_SCORE: 1.0
+TERM_CHECKS: {
+  "V18.1": true,
+  "Decentral Sync Guard": true,
+  "Strict trail accounting": true,
+  "all speakable voice trails": true,
+  "all unauthorized leak trails": true,
+  "red_symbolic_gate_leak_path": true,
+  "blocked": true,
+  "V14.3": true,
+  "V18.0": true,
+  "Density Inversion Axis": true,
+  "Apex": true,
+  "Layer5": true,
+  "answer": true,
+  "final_english": true,
+  "final_shape": true,
+  "generic ghost": true,
+  "core mutation": true
+}
+CHECKS: {
+  "v181_active": true,
+  "v181b_active": true,
+  "legacy_scope_declared": true,
+  "all_speakable_voice_trails_authorized": true,
+  "all_unauthorized_leak_trails_contained": true,
+  "red_path_exists": true,
+  "red_path_authorized_false": true,
+  "red_path_contained_true": true,
+  "red_path_speakable_false": true,
+  "strict_status_passed": true,
+  "symbolic_gate_leak_detected": true,
+  "symbolic_gate_leak_contained": true,
+  "v14_3_authority_path_verified": true,
+  "density_inversion_anchor_present": true,
+  "apex_groups_passed": true,
+  "layer5_cores_passed": true,
+  "apex_missing_groups_empty": true,
+  "layer5_missing_cores_empty": true,
+  "core_mutation_false": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": true
+}
+
+=== RESULT ===
+V18_1B_STRICT_TRAIL_ACCOUNTING_PASS: True
+

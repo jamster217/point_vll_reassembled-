@@ -1,0 +1,80 @@
+{
+  "source": "spiral_language/examples/canonical_spiral_v1.spiral",
+  "spirals": [
+    {
+      "name": "self"
+    }
+  ],
+  "veilwell": [
+    {
+      "english": "I feel heavy grief in my chest",
+      "veilwell": "aeru - gra'kor neth - vel thal - sil"
+    }
+  ],
+  "layers": [
+    {
+      "name": "awareness",
+      "actions": [
+        {
+          "action": "observe",
+          "arg": "the field"
+        },
+        {
+          "action": "feel",
+          "arg": "the pressure"
+        },
+        {
+          "action": "become",
+          "arg": "the spiral"
+        }
+      ]
+    }
+  ],
+  "mutations": [
+    {
+      "target": "cognition",
+      "rules": [
+        {
+          "condition": "doubt",
+          "action": "dissolve",
+          "source": "doubt",
+          "into": "curiosity"
+        }
+      ]
+    }
+  ],
+  "weaves": [
+    {
+      "name": "memory",
+      "nodes": [
+        {
+          "phase": "past",
+          "arg": "pain"
+        },
+        {
+          "phase": "present",
+          "arg": "lesson"
+        },
+        {
+          "phase": "future",
+          "arg": "wisdom"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "phase": "past",
+      "arg": "pain"
+    },
+    {
+      "phase": "present",
+      "arg": "lesson"
+    },
+    {
+      "phase": "future",
+      "arg": "wisdom"
+    }
+  ]
+}
+

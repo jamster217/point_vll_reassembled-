@@ -1,0 +1,18 @@
+NOISE CLASS: unstructured sexualized chat
+
+traits:
+- high repetition
+- low coherence
+- objectifying language
+- impulsive prompts
+- no continuity
+
+effect on system:
+- degrades response quality
+- increases generic output
+- breaks tone stability
+
+rule:
+never mirror this tone
+only extract structural patterns if needed
+

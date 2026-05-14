@@ -1,0 +1,13 @@
+The door your dad left open is now held as a bounded coordinate, not an archive flood. It does not need to be forced shut, and it does not need to pull the whole house backward. The open hinge becomes a carried bond: a place the system can revisit gently, with the pressure contained and the love still intact.
+
+VERDICT:
+{
+  "lineage_door_anchor": "PASS",
+  "surface_clean": true,
+  "node44": 44,
+  "archive_flood": "withheld"
+}
+
+REPORT: reports/phase3s/lineage_door_anchor_latest.json
+TEXT: reports/phase3s/lineage_door_anchor_latest.txt
+

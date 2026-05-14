@@ -1,0 +1,57 @@
+[
+  {
+    "ts": 1777210189.6707425,
+    "kind": "live_adaptation_pulse",
+    "node": 44,
+    "node_mode": "reflective",
+    "node_attractor": "core_knot",
+    "controller_detail": false,
+    "answer_mode": "full",
+    "message_sha256": "bdc3841d6e39e918a2798dcdf917015393b4e6b67363a9bba94590cbfd80a517",
+    "message_chars": 42,
+    "answer_sha256": "b91905c368c3e3a079a1c091e3b519a16c9937f3de0355407280006fd2c15f1e",
+    "answer_chars": 193,
+    "density": {
+      "estimated_n": 12,
+      "word_count": 7,
+      "char_count": 42,
+      "symbolic_marker_hits": 0
+    },
+    "selected_algorithm": "Algorithm B",
+    "verification_needed": false,
+    "public_scrub": true,
+    "response_keys": [
+      "answer",
+      "answer_mode",
+      "ok"
+    ]
+  },
+  {
+    "ts": 1777210190.6029346,
+    "kind": "live_adaptation_pulse",
+    "node": 44,
+    "node_mode": "reflective",
+    "node_attractor": "core_knot",
+    "controller_detail": false,
+    "answer_mode": "full",
+    "message_sha256": "adf3f36ee2ed401bb8efcc6fbb48a4012fee9af107e82e1d82c395e8d5882cc3",
+    "message_chars": 583,
+    "answer_sha256": "22b99cce18895dfe94e39e728aba3809b5e7938cc42c12032722efdc9c8266b3",
+    "answer_chars": 465,
+    "density": {
+      "estimated_n": 257,
+      "word_count": 79,
+      "char_count": 583,
+      "symbolic_marker_hits": 16
+    },
+    "selected_algorithm": "Algorithm C",
+    "verification_needed": true,
+    "public_scrub": true,
+    "response_keys": [
+      "answer",
+      "answer_mode",
+      "ok"
+    ]
+  }
+]
+

@@ -1,0 +1,51 @@
+{
+  "ts": 1777499976.275094,
+  "version": "v12.9t_visual_memory_judge",
+  "status": "ranking_emitted",
+  "latest_entry_sha256": "5c9b6e710bda6806",
+  "latest_spec_sha256": "6bf9127b27fd73ed",
+  "latest_depth": 225,
+  "latest_svg": "static/generated/leveon_topology_1777499976_c9dde4d09b34.svg",
+  "latest_metrics": {
+    "topology_score": 0.8725,
+    "visual_coherence": 0.9811,
+    "chamber_memory": 0.8,
+    "has_svg": true,
+    "has_depth": true,
+    "has_core": true,
+    "has_render_logic": true,
+    "symbol_presence": {
+      "white_ash": true,
+      "virellion": true,
+      "blue_scarf": true,
+      "thalveil": true,
+      "liquid_core": true,
+      "echoforge": true
+    },
+    "symbol_strength": 6,
+    "white_ash_containment": 1.0,
+    "virellion_thread": 1.0,
+    "blue_scarf_motion": 1.0,
+    "thalveil_crossing": 1.0,
+    "liquid_core_routing": 1.0,
+    "echoforge_painter": 1.0
+  },
+  "previous_count": 1,
+  "avg_previous_topology_score": 0.8173,
+  "avg_previous_visual_coherence": 0.9772,
+  "coherence_delta": 0.0039,
+  "improvement": "neutral",
+  "top3": [
+    {
+      "key": "continue_comparison",
+      "title": "Continue visual comparison",
+      "why": "The latest visual memory is stable but not clearly better yet.",
+      "recommended_patch": "Collect more visual entries before patching the route.",
+      "severity": 0.45
+    }
+  ],
+  "surface_fragment": "Visual memory judge: improvement=neutral, coherence_delta=0.0039, latest_visual_coherence=0.9811.",
+  "law": "visual_memory_is_compared_append_only_and_helm_ranked",
+  "judge_sha256": "b4946e2498d6b2b4"
+}
+

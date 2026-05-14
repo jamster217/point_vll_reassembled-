@@ -1,0 +1,373 @@
+{
+  "ts": 1777227415.7302313,
+  "phase": "3R",
+  "mode": "recursive_architecture_review",
+  "mutation_policy": "dry_run_read_only_contained_prime",
+  "scan_field": {
+    "roots": [
+      "runtime",
+      "kernel",
+      "core",
+      "lattice",
+      "memory",
+      "assets",
+      "lev_core",
+      "reports",
+      "var"
+    ],
+    "max_files": 8000,
+    "files_scanned": 645,
+    "matches": 517
+  },
+  "counts": {
+    "broken_rail_unconverted": 49,
+    "rail_partly_lanterned": 345,
+    "lantern_seed_present": 123
+  },
+  "top_candidates": [
+    {
+      "path": "runtime/tmp/patch_run_analysis_profile_reply_deepening_full.py",
+      "status": "broken_rail_unconverted",
+      "broken_score": 4,
+      "lantern_score": 0,
+      "broken_hits": [
+        "pressure",
+        "grief",
+        "scatter",
+        "drift"
+      ],
+      "lantern_hits": []
+    },
+    {
+      "path": "reports/phase3o/kor_grael_sigil_larynx_live_test.json",
+      "status": "broken_rail_unconverted",
+      "broken_score": 4,
+      "lantern_score": 0,
+      "broken_hits": [
+        "scar",
+        "pressure",
+        "scatter",
+        "drift"
+      ],
+      "lantern_hits": []
+    },
+    {
+      "path": "runtime/crystal_patterns.json",
+      "status": "broken_rail_unconverted",
+      "broken_score": 3,
+      "lantern_score": 0,
+      "broken_hits": [
+        "broken",
+        "grief",
+        "connection"
+      ],
+      "lantern_hits": []
+    },
+    {
+      "path": "runtime/tmp/patch_reply_deepening.py",
+      "status": "broken_rail_unconverted",
+      "broken_score": 3,
+      "lantern_score": 0,
+      "broken_hits": [
+        "grief",
+        "scatter",
+        "drift"
+      ],
+      "lantern_hits": []
+    },
+    {
+      "path": "runtime/tmp/patch_reply_deepening_insert.py",
+      "status": "broken_rail_unconverted",
+      "broken_score": 3,
+      "lantern_score": 0,
+      "broken_hits": [
+        "grief",
+        "scatter",
+        "drift"
+      ],
+      "lantern_hits": []
+    },
+    {
+      "path": "runtime/tmp/patch_causal_split_v1.py",
+      "status": "broken_rail_unconverted",
+      "broken_score": 3,
+      "lantern_score": 0,
+      "broken_hits": [
+        "pressure",
+        "waiting",
+        "drift"
+      ],
+      "lantern_hits": []
+    },
+    {
+      "path": "runtime/micro_context_drift.py",
+      "status": "broken_rail_unconverted",
+      "broken_score": 2,
+      "lantern_score": 0,
+      "broken_hits": [
+        "grief",
+        "drift"
+      ],
+      "lantern_hits": []
+    },
+    {
+      "path": "runtime/runtime_state_inspector.py",
+      "status": "broken_rail_unconverted",
+      "broken_score": 2,
+      "lantern_score": 0,
+      "broken_hits": [
+        "pressure",
+        "drift"
+      ],
+      "lantern_hits": []
+    },
+    {
+      "path": "runtime/style_governor.py",
+      "status": "broken_rail_unconverted",
+      "broken_score": 2,
+      "lantern_score": 0,
+      "broken_hits": [
+        "scar",
+        "grief"
+      ],
+      "lantern_hits": []
+    },
+    {
+      "path": "runtime/veilwell_to_english.py",
+      "status": "broken_rail_unconverted",
+      "broken_score": 2,
+      "lantern_score": 0,
+      "broken_hits": [
+        "pressure",
+        "grief"
+      ],
+      "lantern_hits": []
+    },
+    {
+      "path": "runtime/tmp/patch_winner_rationale.py",
+      "status": "broken_rail_unconverted",
+      "broken_score": 2,
+      "lantern_score": 0,
+      "broken_hits": [
+        "pressure",
+        "drift"
+      ],
+      "lantern_hits": []
+    },
+    {
+      "path": "runtime/tmp/patch_near_tie_refine_v1.py",
+      "status": "broken_rail_unconverted",
+      "broken_score": 2,
+      "lantern_score": 0,
+      "broken_hits": [
+        "pressure",
+        "drift"
+      ],
+      "lantern_hits": []
+    },
+    {
+      "path": "runtime/bak/live_master_api_response.before_true_shape_surface_20260426_002811.py",
+      "status": "broken_rail_unconverted",
+      "broken_score": 2,
+      "lantern_score": 0,
+      "broken_hits": [
+        "pressure",
+        "grief"
+      ],
+      "lantern_hits": []
+    },
+    {
+      "path": "kernel/crystal_library.py",
+      "status": "broken_rail_unconverted",
+      "broken_score": 2,
+      "lantern_score": 0,
+      "broken_hits": [
+        "pressure",
+        "grief"
+      ],
+      "lantern_hits": []
+    },
+    {
+      "path": "core/shape_signal_policy.py",
+      "status": "broken_rail_unconverted",
+      "broken_score": 2,
+      "lantern_score": 0,
+      "broken_hits": [
+        "scar",
+        "grief"
+      ],
+      "lantern_hits": []
+    },
+    {
+      "path": "core/conceptual_domain_policy.py",
+      "status": "broken_rail_unconverted",
+      "broken_score": 2,
+      "lantern_score": 0,
+      "broken_hits": [
+        "pressure",
+        "drift"
+      ],
+      "lantern_hits": []
+    },
+    {
+      "path": "core/schema_mutator.py",
+      "status": "broken_rail_unconverted",
+      "broken_score": 2,
+      "lantern_score": 0,
+      "broken_hits": [
+        "pressure",
+        "grief"
+      ],
+      "lantern_hits": []
+    },
+    {
+      "path": "memory/user_pattern_lattice.py",
+      "status": "broken_rail_unconverted",
+      "broken_score": 2,
+      "lantern_score": 0,
+      "broken_hits": [
+        "grief",
+        "connection"
+      ],
+      "lantern_hits": []
+    },
+    {
+      "path": "assets/symbolic_engine/inner_voice_loop.json",
+      "status": "broken_rail_unconverted",
+      "broken_score": 2,
+      "lantern_score": 0,
+      "broken_hits": [
+        "wound",
+        "pressure"
+      ],
+      "lantern_hits": []
+    },
+    {
+      "path": "reports/crystal_resonance_rule_test.txt",
+      "status": "broken_rail_unconverted",
+      "broken_score": 2,
+      "lantern_score": 0,
+      "broken_hits": [
+        "pressure",
+        "grief"
+      ],
+      "lantern_hits": []
+    },
+    {
+      "path": "reports/crystal_labels_to_english_surface.txt",
+      "status": "broken_rail_unconverted",
+      "broken_score": 2,
+      "lantern_score": 0,
+      "broken_hits": [
+        "pressure",
+        "grief"
+      ],
+      "lantern_hits": []
+    },
+    {
+      "path": "reports/phase3r/recursive_lattice_scan_run.txt",
+      "status": "broken_rail_unconverted",
+      "broken_score": 2,
+      "lantern_score": 0,
+      "broken_hits": [
+        "broken",
+        "pressure"
+      ],
+      "lantern_hits": []
+    },
+    {
+      "path": "runtime/turn_packet.py",
+      "status": "broken_rail_unconverted",
+      "broken_score": 1,
+      "lantern_score": 0,
+      "broken_hits": [
+        "pressure"
+      ],
+      "lantern_hits": []
+    },
+    {
+      "path": "runtime/run_route_comparison_artifact.py",
+      "status": "broken_rail_unconverted",
+      "broken_score": 1,
+      "lantern_score": 0,
+      "broken_hits": [
+        "comparison"
+      ],
+      "lantern_hits": []
+    },
+    {
+      "path": "runtime/unified_drift_kernel.py",
+      "status": "broken_rail_unconverted",
+      "broken_score": 1,
+      "lantern_score": 0,
+      "broken_hits": [
+        "drift"
+      ],
+      "lantern_hits": []
+    },
+    {
+      "path": "runtime/emergence_pressure.py",
+      "status": "broken_rail_unconverted",
+      "broken_score": 1,
+      "lantern_score": 0,
+      "broken_hits": [
+        "pressure"
+      ],
+      "lantern_hits": []
+    },
+    {
+      "path": "runtime/reassembled_half_dump_fusion.py",
+      "status": "broken_rail_unconverted",
+      "broken_score": 1,
+      "lantern_score": 0,
+      "broken_hits": [
+        "grief"
+      ],
+      "lantern_hits": []
+    },
+    {
+      "path": "runtime/query_policy_runtime.py",
+      "status": "broken_rail_unconverted",
+      "broken_score": 1,
+      "lantern_score": 0,
+      "broken_hits": [
+        "fracture"
+      ],
+      "lantern_hits": []
+    },
+    {
+      "path": "runtime/compound_optimizer.py",
+      "status": "broken_rail_unconverted",
+      "broken_score": 1,
+      "lantern_score": 0,
+      "broken_hits": [
+        "grief"
+      ],
+      "lantern_hits": []
+    },
+    {
+      "path": "runtime/sigil_context_runtime.py",
+      "status": "broken_rail_unconverted",
+      "broken_score": 1,
+      "lantern_score": 0,
+      "broken_hits": [
+        "pressure"
+      ],
+      "lantern_hits": []
+    }
+  ],
+  "first_lantern": {
+    "source_path": "runtime/tmp/patch_run_analysis_profile_reply_deepening_full.py",
+    "detected_pressure": [
+      "pressure",
+      "grief",
+      "scatter",
+      "drift"
+    ],
+    "suggested_anchor": "phase3r_first_lantern_anchor",
+    "suggested_glyph": "rail_lantern_ash",
+    "next_action": "Convert this broken rail into one contained design seed before scanning wider."
+  },
+  "public_surface": "Phase 3R found the architecture as a set of rails: some already carry lanterns, some still hold pressure without a clean bridge. The next move is not to mutate the whole system. The next move is to choose one broken rail, forge one glyph, and return one practical repair."
+}
+

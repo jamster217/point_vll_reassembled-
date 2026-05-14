@@ -1,0 +1,27 @@
+{
+  "always_load": true,
+  "always_active_base_glyphs": [
+    "@WITNESS_ECHO",
+    "@ANCHOR_STILL",
+    "@CORE",
+    "@FIELD_VECTORS",
+    "@SIGIL_SEAL"
+  ],
+  "overlay_glyphs": [
+    "@OCTAGONAL_FIELD_528",
+    "@MYTHOS_THREAD",
+    "@ARC_SONG_CALL",
+    "@LOVE_FREQUENCY_528",
+    "@ASCENDANCE_PRIME",
+    "@CROWN_OF_REMEMBERING"
+  ],
+  "selection_rules": {
+    "max_families_per_turn": 3,
+    "max_glyphs_per_family": 2,
+    "max_overlay_glyphs_per_turn": 2,
+    "preserve_full_semantics": true,
+    "require_glyph_object_before_render": true,
+    "fallback_without_glyph_object": false
+  }
+}
+

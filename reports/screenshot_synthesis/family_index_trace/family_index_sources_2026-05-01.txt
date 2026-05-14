@@ -1,0 +1,323 @@
+./notes/general/general_notes_20260426_113545.md:53:transformative_opener
+./notes/handoffs/LEVEON_RUNTIME_VISUAL_BRIDGE_HANDOFF_20260424.md:22:→ logs/crystal_family_index.json auto-update
+./notes/handoffs/LEVEON_RUNTIME_VISUAL_BRIDGE_HANDOFF_20260424.md:48:- role: stable_diagnostic
+./notes/handoffs/LEVEON_RUNTIME_VISUAL_BRIDGE_HANDOFF_20260424.md:52:gravity_grief:
+./notes/handoffs/LEVEON_RUNTIME_VISUAL_BRIDGE_HANDOFF_20260424.md:53:- role: transformative_opener
+./notes/handoffs/LEVEON_RUNTIME_VISUAL_BRIDGE_HANDOFF_20260424.md:58:- role: stable_diagnostic
+./notes/handoffs/LEVEON_RUNTIME_VISUAL_BRIDGE_HANDOFF_20260424.md:87:logs/crystal_family_index.json
+./notes/handoffs/LEVEON_RUNTIME_VISUAL_BRIDGE_HANDOFF_20260424.md:130:cat logs/crystal_family_index.json | python -m json.tool
+./notes/daily_summaries/20260424_runtime_timeline_pause.md:20:Latest family: gravity_grief
+./notes/daily_summaries/20260424_runtime_timeline_pause.md:21:Latest role: transformative_opener
+./notes/daily_summaries/20260424_runtime_timeline_pause.md:30:- gravity_grief
+./notes/daily_summaries/20260424_runtime_timeline_pause.md:42:Pause here before patching further. Next work should inspect why stability rises at turn 16 and whether gravity_grief → transformative_opener should become a named runtime transition.
+./notes/daily_summaries/2026-04-24_runtime_visual_bridge_summary.md:36:→ logs/crystal_family_index.json
+./notes/daily_summaries/2026-04-24_runtime_visual_bridge_summary.md:42:→ if role is transformative_opener, transform SVG/PNG
+./notes/daily_summaries/2026-04-24_runtime_visual_bridge_summary.md:48:- role: stable_diagnostic
+./notes/daily_summaries/2026-04-24_runtime_visual_bridge_summary.md:53:gravity_grief:
+./notes/daily_summaries/2026-04-24_runtime_visual_bridge_summary.md:54:- role: transformative_opener
+./notes/daily_summaries/2026-04-24_runtime_visual_bridge_summary.md:60:- role: stable_diagnostic
+./notes/daily_summaries/2026-04-24_runtime_visual_bridge_summary.md:92:Confirmed gravity_grief transform:
+./notes/daily_summaries/2026-04-24_runtime_visual_bridge_summary.md:97:role: transformative_opener
+./notes/daily_summaries/2026-04-24_runtime_visual_bridge_summary.md:121:FAMILY: gravity_grief
+./notes/daily_summaries/2026-04-24_runtime_visual_bridge_summary.md:122:ROLE: transformative_opener
+./notes/daily_summaries/2026-04-24_runtime_visual_bridge_summary.md:123:SIGNATURE: gravity_grief|P:HIGH|B:HIGH|R:NULL|O:NULL|T:past->present
+./notes/daily_summaries/2026-04-24_heartbeat_rhythm_pause.md:12:gravity_grief is no longer only a detected family. It is a transformative opener with repeated release delta +0.150.
+./docs/2026-04-24_runtime_visual_bridge_summary.md:36:→ logs/crystal_family_index.json
+./docs/2026-04-24_runtime_visual_bridge_summary.md:42:→ if role is transformative_opener, transform SVG/PNG
+./docs/2026-04-24_runtime_visual_bridge_summary.md:48:- role: stable_diagnostic
+./docs/2026-04-24_runtime_visual_bridge_summary.md:53:gravity_grief:
+./docs/2026-04-24_runtime_visual_bridge_summary.md:54:- role: transformative_opener
+./docs/2026-04-24_runtime_visual_bridge_summary.md:60:- role: stable_diagnostic
+./docs/2026-04-24_runtime_visual_bridge_summary.md:92:Confirmed gravity_grief transform:
+./docs/2026-04-24_runtime_visual_bridge_summary.md:97:role: transformative_opener
+./docs/2026-04-24_runtime_visual_bridge_summary.md:121:FAMILY: gravity_grief
+./docs/2026-04-24_runtime_visual_bridge_summary.md:122:ROLE: transformative_opener
+./docs/2026-04-24_runtime_visual_bridge_summary.md:123:SIGNATURE: gravity_grief|P:HIGH|B:HIGH|R:NULL|O:NULL|T:past->present
+./docs/LEVEON_RUNTIME_VISUAL_BRIDGE_HANDOFF_20260424.md:22:→ logs/crystal_family_index.json auto-update
+./docs/LEVEON_RUNTIME_VISUAL_BRIDGE_HANDOFF_20260424.md:48:- role: stable_diagnostic
+./docs/LEVEON_RUNTIME_VISUAL_BRIDGE_HANDOFF_20260424.md:52:gravity_grief:
+./docs/LEVEON_RUNTIME_VISUAL_BRIDGE_HANDOFF_20260424.md:53:- role: transformative_opener
+./docs/LEVEON_RUNTIME_VISUAL_BRIDGE_HANDOFF_20260424.md:58:- role: stable_diagnostic
+./docs/LEVEON_RUNTIME_VISUAL_BRIDGE_HANDOFF_20260424.md:87:logs/crystal_family_index.json
+./docs/LEVEON_RUNTIME_VISUAL_BRIDGE_HANDOFF_20260424.md:130:cat logs/crystal_family_index.json | python -m json.tool
+./snapshots/v12_9_language_pipeline/20260430_062150/unified_voice.py:80:        "gravity_grief",
+./snapshots/v12_9_language_pipeline/20260430_062150/unified_voice.py:148:            "The gravity_grief family is functioning as a transformative opener. "
+./snapshots/v12_9_language_pipeline/20260430_062150/unified_voice.py:271:    # gravity_grief, topology, and definition surfaces.
+./core/essence_release.py:38:    if family == "gravity_grief" and role == "transformative_opener":
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:1:./notes/general/general_notes_20260426_113545.md:53:transformative_opener
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:2:./notes/handoffs/LEVEON_RUNTIME_VISUAL_BRIDGE_HANDOFF_20260424.md:22:→ logs/crystal_family_index.json auto-update
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:3:./notes/handoffs/LEVEON_RUNTIME_VISUAL_BRIDGE_HANDOFF_20260424.md:48:- role: stable_diagnostic
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:4:./notes/handoffs/LEVEON_RUNTIME_VISUAL_BRIDGE_HANDOFF_20260424.md:52:gravity_grief:
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:5:./notes/handoffs/LEVEON_RUNTIME_VISUAL_BRIDGE_HANDOFF_20260424.md:53:- role: transformative_opener
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:6:./notes/handoffs/LEVEON_RUNTIME_VISUAL_BRIDGE_HANDOFF_20260424.md:58:- role: stable_diagnostic
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:7:./notes/handoffs/LEVEON_RUNTIME_VISUAL_BRIDGE_HANDOFF_20260424.md:87:logs/crystal_family_index.json
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:8:./notes/handoffs/LEVEON_RUNTIME_VISUAL_BRIDGE_HANDOFF_20260424.md:130:cat logs/crystal_family_index.json | python -m json.tool
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:9:./notes/daily_summaries/20260424_runtime_timeline_pause.md:20:Latest family: gravity_grief
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:10:./notes/daily_summaries/20260424_runtime_timeline_pause.md:21:Latest role: transformative_opener
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:11:./notes/daily_summaries/20260424_runtime_timeline_pause.md:30:- gravity_grief
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:12:./notes/daily_summaries/20260424_runtime_timeline_pause.md:42:Pause here before patching further. Next work should inspect why stability rises at turn 16 and whether gravity_grief → transformative_opener should become a named runtime transition.
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:13:./notes/daily_summaries/2026-04-24_runtime_visual_bridge_summary.md:36:→ logs/crystal_family_index.json
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:14:./notes/daily_summaries/2026-04-24_runtime_visual_bridge_summary.md:42:→ if role is transformative_opener, transform SVG/PNG
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:15:./notes/daily_summaries/2026-04-24_runtime_visual_bridge_summary.md:48:- role: stable_diagnostic
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:16:./notes/daily_summaries/2026-04-24_runtime_visual_bridge_summary.md:53:gravity_grief:
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:17:./notes/daily_summaries/2026-04-24_runtime_visual_bridge_summary.md:54:- role: transformative_opener
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:18:./notes/daily_summaries/2026-04-24_runtime_visual_bridge_summary.md:60:- role: stable_diagnostic
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:19:./notes/daily_summaries/2026-04-24_runtime_visual_bridge_summary.md:92:Confirmed gravity_grief transform:
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:20:./notes/daily_summaries/2026-04-24_runtime_visual_bridge_summary.md:97:role: transformative_opener
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:21:./notes/daily_summaries/2026-04-24_runtime_visual_bridge_summary.md:121:FAMILY: gravity_grief
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:22:./notes/daily_summaries/2026-04-24_runtime_visual_bridge_summary.md:122:ROLE: transformative_opener
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:23:./notes/daily_summaries/2026-04-24_runtime_visual_bridge_summary.md:123:SIGNATURE: gravity_grief|P:HIGH|B:HIGH|R:NULL|O:NULL|T:past->present
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:24:./notes/daily_summaries/2026-04-24_heartbeat_rhythm_pause.md:12:gravity_grief is no longer only a detected family. It is a transformative opener with repeated release delta +0.150.
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:25:./docs/2026-04-24_runtime_visual_bridge_summary.md:36:→ logs/crystal_family_index.json
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:26:./docs/2026-04-24_runtime_visual_bridge_summary.md:42:→ if role is transformative_opener, transform SVG/PNG
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:27:./docs/2026-04-24_runtime_visual_bridge_summary.md:48:- role: stable_diagnostic
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:28:./docs/2026-04-24_runtime_visual_bridge_summary.md:53:gravity_grief:
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:29:./docs/2026-04-24_runtime_visual_bridge_summary.md:54:- role: transformative_opener
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:30:./docs/2026-04-24_runtime_visual_bridge_summary.md:60:- role: stable_diagnostic
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:31:./docs/2026-04-24_runtime_visual_bridge_summary.md:92:Confirmed gravity_grief transform:
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:32:./docs/2026-04-24_runtime_visual_bridge_summary.md:97:role: transformative_opener
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:33:./docs/2026-04-24_runtime_visual_bridge_summary.md:121:FAMILY: gravity_grief
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:34:./docs/2026-04-24_runtime_visual_bridge_summary.md:122:ROLE: transformative_opener
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:35:./docs/2026-04-24_runtime_visual_bridge_summary.md:123:SIGNATURE: gravity_grief|P:HIGH|B:HIGH|R:NULL|O:NULL|T:past->present
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:36:./docs/LEVEON_RUNTIME_VISUAL_BRIDGE_HANDOFF_20260424.md:22:→ logs/crystal_family_index.json auto-update
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:37:./docs/LEVEON_RUNTIME_VISUAL_BRIDGE_HANDOFF_20260424.md:48:- role: stable_diagnostic
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:38:./docs/LEVEON_RUNTIME_VISUAL_BRIDGE_HANDOFF_20260424.md:52:gravity_grief:
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:39:./docs/LEVEON_RUNTIME_VISUAL_BRIDGE_HANDOFF_20260424.md:53:- role: transformative_opener
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:40:./docs/LEVEON_RUNTIME_VISUAL_BRIDGE_HANDOFF_20260424.md:58:- role: stable_diagnostic
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:41:./docs/LEVEON_RUNTIME_VISUAL_BRIDGE_HANDOFF_20260424.md:87:logs/crystal_family_index.json
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:42:./docs/LEVEON_RUNTIME_VISUAL_BRIDGE_HANDOFF_20260424.md:130:cat logs/crystal_family_index.json | python -m json.tool
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:43:./snapshots/v12_9_language_pipeline/20260430_062150/unified_voice.py:80:        "gravity_grief",
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:44:./snapshots/v12_9_language_pipeline/20260430_062150/unified_voice.py:148:            "The gravity_grief family is functioning as a transformative opener. "
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:45:./snapshots/v12_9_language_pipeline/20260430_062150/unified_voice.py:271:    # gravity_grief, topology, and definition surfaces.
+./reports/screenshot_synthesis/family_index_trace/family_index_sources_2026-05-01.txt:46:./core/essence_release.py:38:    if family == "gravity_grief" and role == "transformative_opener":
+./core/essence_signature.py:75:    elif "gravity_grief" in source or (_has(source, ["grief", "sorrow", "ache", "loss", "hurt", "pain"]) and memory >= 0.55):
+./core/essence_signature.py:76:        base_family = "gravity_grief"
+./core/essence_signature.py:78:        base_family = "gravity_grief"
+./core/essence_signature.py:94:    elif base_family == "gravity_grief":
+./core/essence_signature.py:95:        base_role = "transformative_opener"
+./core/essence_signature.py:119:    if family == "gravity_grief":
+./core/essence_signature.py:140:    if family == "gravity_grief":
+./core/essence_signature.py:163:    if family == "gravity_grief":
+./core/essence_signature.py:185:    if family == "gravity_grief":
+./core/essence_signature.py:188:            "target_release_delta": 0.15,
+./core/essence_signature.py:196:            "target_release_delta": 0.03,
+./core/essence_signature.py:300:    if family == "gravity_grief" and any(w in low for w in ["grief", "ache", "loss", "hurt", "pressure", "release", "opens"]):
+./core/essence_signature.py:302:        hits.append("gravity_grief_terms")
+./core/essence_signature.py:303:    if role == "transformative_opener" and any(w in low for w in ["opens", "release", "turns", "transforms", "carries"]):
+./core/essence_signature.py:305:        hits.append("role_transformative_opener")
+./reports/screenshot_synthesis/essence_trace/essence_release_proof_2026-05-01.md:9:gravity_grief/transformative_opener relation=clarify valence=grief_transformative time=past->present clause=integration_clause M=0.78 N=0.22 B=0.61 E=0.86
+./reports/screenshot_synthesis/essence_trace/essence_signature_demo.txt:4:  "family": "gravity_grief",
+./reports/screenshot_synthesis/essence_trace/essence_signature_demo.txt:5:  "role": "transformative_opener",
+./reports/screenshot_synthesis/essence_trace/essence_signature_demo.txt:39:    "target_release_delta": 0.15,
+./reports/screenshot_synthesis/essence_trace/essence_signature_demo.txt:43:  "essence_key": "gravity_grief|transformative_opener|affect|past_to_present_memory_gravity|grief_transformative|past->present|integration_clause"
+./reports/screenshot_synthesis/essence_trace/essence_signature_demo.txt:45:gravity_grief/transformative_opener relation=affect valence=grief_transformative time=past->present clause=integration_clause M=0.78 N=0.22 B=0.61 E=0.86
+./reports/screenshot_synthesis/essence_trace/essence_signature_demo.txt:46:{'score': 0.75, 'hits': ['gravity_grief_terms', 'role_transformative_opener', 'time_direction', 'memory_priority'], 'essence_key': 'gravity_grief|transformative_opener|affect|past_to_present_memory_gravity|grief_transformative|past->present|integration_clause'}
+./scripts/probe_3rd_davis_crystal_intersection.py:46:        "gravity_grief_loop",
+./reports/node44_trace_test_3.txt:38:family_role: transformative_opener
+./reports/node44_trace_test_3.txt:53:  "family_role": "transformative_opener",
+./reports/node44_trace_test_2.txt:38:family_role: transformative_opener
+./reports/node44_trace_test_2.txt:53:  "family_role": "transformative_opener",
+./reports/crystal_library_audit_20260426_033705.txt:193:runtime/crystal_counsel.py:45:    elif top_family == "gravity_grief" and top_hits >= 3:
+./reports/crystal_library_audit_20260426_033705.txt:226:runtime/crystal_family_roles.py:65:        role = "transformative_opener"
+./reports/crystal_library_audit_20260426_033705.txt:234:runtime/crystal_family_roles.py:77:        role = "seed_pattern"
+./reports/crystal_library_audit_20260426_033705.txt:236:runtime/crystal_family_roles.py:80:        role = "stable_diagnostic"
+./reports/crystal_library_audit_20260426_033705.txt:259:runtime/crystal_index.py:5:Writes: logs/crystal_family_index.json
+./reports/crystal_library_audit_20260426_033705.txt:262:runtime/crystal_index.py:20:INDEX_PATH = Path("logs/crystal_family_index.json")
+./reports/crystal_library_audit_20260426_033705.txt:274:runtime/crystal_index_mobile_svg_renderer.py:16:INDEX_PATH = Path("logs/crystal_family_index.json")
+./reports/crystal_library_audit_20260426_033705.txt:276:runtime/crystal_index_mobile_svg_renderer.py:22:        raise FileNotFoundError("Missing logs/crystal_family_index.json. Run: python runtime/crystal_index.py")
+./reports/crystal_library_audit_20260426_033705.txt:278:runtime/crystal_index_mobile_svg_renderer.py:28:        "stable_diagnostic": "#55d6ff",
+./reports/crystal_library_audit_20260426_033705.txt:279:runtime/crystal_index_mobile_svg_renderer.py:29:        "transformative_opener": "#7dff9b",
+./reports/crystal_library_audit_20260426_033705.txt:280:runtime/crystal_index_mobile_svg_renderer.py:30:        "seed_pattern": "#ffcc66",
+./reports/crystal_library_audit_20260426_033705.txt:283:runtime/crystal_index_mobile_svg_renderer.py:48:    stable = sum(1 for f in families if f.get("role") == "stable_diagnostic")
+./reports/crystal_library_audit_20260426_033705.txt:284:runtime/crystal_index_mobile_svg_renderer.py:49:    transformative = sum(1 for f in families if f.get("role") == "transformative_opener")
+./reports/crystal_library_audit_20260426_033705.txt:287:runtime/crystal_index_mobile_svg_renderer.py:69:<text x="92" y="218" fill="#eaffff" font-size="28" font-family="monospace">Families tracked: {len(families)}</text>
+./reports/crystal_library_audit_20260426_033705.txt:288:runtime/crystal_index_mobile_svg_renderer.py:70:<text x="92" y="260" fill="#55d6ff" font-size="26" font-family="monospace">Stable diagnostic: {stable}</text>
+./reports/crystal_library_audit_20260426_033705.txt:289:runtime/crystal_index_mobile_svg_renderer.py:71:<text x="92" y="300" fill="#7dff9b" font-size="26" font-family="monospace">Transformative opener: {transformative}</text>
+./reports/crystal_library_audit_20260426_033705.txt:304:runtime/crystal_index_svg_renderer.py:4:Creates a local dashboard image from logs/crystal_family_index.json.
+./reports/crystal_library_audit_20260426_033705.txt:305:runtime/crystal_index_svg_renderer.py:15:INDEX_PATH = Path("logs/crystal_family_index.json")
+./reports/crystal_library_audit_20260426_033705.txt:307:runtime/crystal_index_svg_renderer.py:21:        raise FileNotFoundError("Missing logs/crystal_family_index.json. Run: python runtime/crystal_index.py")
+./reports/crystal_library_audit_20260426_033705.txt:309:runtime/crystal_index_svg_renderer.py:27:        "stable_diagnostic": "#55d6ff",
+./reports/crystal_library_audit_20260426_033705.txt:310:runtime/crystal_index_svg_renderer.py:28:        "transformative_opener": "#7dff9b",
+./reports/crystal_library_audit_20260426_033705.txt:311:runtime/crystal_index_svg_renderer.py:29:        "seed_pattern": "#ffcc66",
+./reports/crystal_library_audit_20260426_033705.txt:326:runtime/crystal_index_svg_renderer.py:106:        a(f'<text x="{x+46}" y="{y+100}" fill="#bdd6df" font-size="16" font-family="monospace">turns={turns} stability={stability:.3f} release_delta={release:+.3f}</text>')
+./reports/crystal_library_audit_20260426_033705.txt:331:runtime/crystal_index_svg_renderer.py:129:    path = OUT_DIR / f"{stamp}_crystal_family_index.svg"
+./reports/crystal_library_audit_20260426_033705.txt:341:runtime/crystal_library_query.py:110:        lines.append(f"- {family:<18} hits={count:<3} avg_release_delta={avg_release:+.3f}")
+./reports/node44_trace_test.txt:38:family_role: transformative_opener
+./reports/node44_trace_test.txt:53:  "family_role": "transformative_opener",
+./reports/node44_clean_test.txt:36:family_role: transformative_opener
+./reports/node44_clean_test.txt:51:  "family_role": "transformative_opener",
+./reports/bloom_vs_witness_stress_test_run_3.txt:36:family_role: transformative_opener
+./reports/bloom_vs_witness_stress_test_run_3.txt:51:  "family_role": "transformative_opener",
+./reports/bloom_vs_witness_stress_test_run_2.txt:36:family_role: transformative_opener
+./reports/bloom_vs_witness_stress_test_run_2.txt:51:  "family_role": "transformative_opener",
+./reports/bloom_vs_witness_stress_test.txt:34:family_role: transformative_opener
+./reports/bloom_vs_witness_stress_test.txt:49:  "family_role": "transformative_opener",
+./reports/bloom_vs_witness_stress_test.json:304:    "family_role": "transformative_opener",
+./reports/bloom_vs_witness_stress_test.json:567:      "family_role": "transformative_opener",
+./reports/bloom_vs_witness_stress_test_run.txt:36:family_role: transformative_opener
+./reports/bloom_vs_witness_stress_test_run.txt:51:  "family_role": "transformative_opener",
+./reports/third_davis_crystal_intersection.json:165:      "candidate": "gravity_grief_loop",
+./snapshots/phase3m_brain_temporal_sealed_20260426_095940/runtime/unified_voice.py:80:        "gravity_grief",
+./snapshots/phase3m_brain_temporal_sealed_20260426_095940/runtime/unified_voice.py:148:            "The gravity_grief family is functioning as a transformative opener. "
+./snapshots/phase3m_brain_temporal_sealed_20260426_095940/runtime/unified_voice.py:271:    # gravity_grief, topology, and definition surfaces.
+./reports/v12_9/language_pipeline_audit/audit_20260430_062150.txt:144:        "gravity_grief",
+./reports/v12_9/language_pipeline_audit/audit_20260430_062150.txt:212:            "The gravity_grief family is functioning as a transformative opener. "
+./reports/v12_9/language_pipeline_audit/audit_20260430_062150.txt:855:runtime/unified_voice.py:271:    # gravity_grief, topology, and definition surfaces.
+./snapshots/phase3l_singular_voice_confirmed_20260426_095213/runtime/unified_voice.py:80:        "gravity_grief",
+./snapshots/phase3l_singular_voice_confirmed_20260426_095213/runtime/unified_voice.py:148:            "The gravity_grief family is functioning as a transformative opener. "
+./snapshots/phase3l_singular_voice_confirmed_20260426_095213/runtime/unified_voice.py:271:    # gravity_grief, topology, and definition surfaces.
+./var/merge_reports/reassembled_safe_merge_report.json:826:    "logs/crystal_family_index.json",
+./var/merge_reports/reassembled_safe_merge_report.json:2327:    "logs/topology_specs/20260424_144307_gravity_grief.json",
+./var/merge_reports/reassembled_safe_merge_report.json:2328:    "logs/topology_specs/20260424_144328_gravity_grief.json",
+./var/merge_reports/reassembled_safe_merge_report.json:2329:    "logs/topology_specs/20260424_145035_gravity_grief.json",
+./var/merge_reports/reassembled_safe_merge_report.json:2330:    "logs/topology_specs/20260424_145118_gravity_grief.json",
+./var/merge_reports/reassembled_safe_merge_report.json:2338:    "logs/topology_renders/20260424_144307_gravity_grief.svg",
+./var/merge_reports/reassembled_safe_merge_report.json:2339:    "logs/topology_renders/20260424_144307_gravity_grief.png",
+./var/merge_reports/reassembled_safe_merge_report.json:2340:    "logs/topology_renders/20260424_144328_gravity_grief.svg",
+./var/merge_reports/reassembled_safe_merge_report.json:2341:    "logs/topology_renders/20260424_144328_gravity_grief.png",
+./var/merge_reports/reassembled_safe_merge_report.json:2342:    "logs/topology_renders/20260424_145035_gravity_grief.svg",
+./var/merge_reports/reassembled_safe_merge_report.json:2343:    "logs/topology_renders/20260424_145035_gravity_grief.png",
+./var/merge_reports/reassembled_safe_merge_report.json:2344:    "logs/topology_renders/20260424_145118_gravity_grief.svg",
+./var/merge_reports/reassembled_safe_merge_report.json:2345:    "logs/topology_renders/20260424_145118_gravity_grief.png",
+./var/merge_reports/reassembled_safe_merge_report.json:2346:    "logs/crystal_index_renders/20260424_143104_crystal_family_index.svg",
+./var/merge_reports/reassembled_safe_merge_report.json:2347:    "logs/crystal_index_renders/20260424_143104_crystal_family_index.png",
+./var/merge_reports/reassembled_safe_merge_report.json:2364:    "logs/shape_transform_renders/20260424_144819_gravity_grief_transform.svg",
+./var/merge_reports/reassembled_safe_merge_report.json:2365:    "logs/shape_transform_renders/20260424_144819_gravity_grief_transform.png",
+./var/merge_reports/reassembled_safe_merge_report.json:2366:    "logs/shape_transform_renders/20260424_145036_gravity_grief_transform.svg",
+./var/merge_reports/reassembled_safe_merge_report.json:2367:    "logs/shape_transform_renders/20260424_145036_gravity_grief_transform.png",
+./var/merge_reports/reassembled_safe_merge_report.json:2368:    "logs/shape_transform_renders/20260424_145119_gravity_grief_transform.svg",
+./var/merge_reports/reassembled_safe_merge_report.json:2369:    "logs/shape_transform_renders/20260424_145119_gravity_grief_transform.png",
+./snapshots/phase3k_universal_larynx_sealed_20260426_085455/runtime/unified_voice.py:80:        "gravity_grief",
+./snapshots/phase3k_universal_larynx_sealed_20260426_085455/runtime/unified_voice.py:120:            "The gravity_grief family is functioning as a transformative opener. "
+./reports/v12_9/system_audit/v129_system_contract_audit_20260429_111450.txt:58:08_crystal_library_family_index | Crystal Library / Family Index | PASS
+./reports/v12_9/system_audit/v129_system_contract_audit_20260429_111450.txt:59:  shows: families tracked, gravity_grief operated
+./reports/v12_9/system_audit/v129_system_contract_audit_20260429_111450.txt:65:09_gravity_grief_transform | Gravity Grief Transform | PASS
+./reports/v12_9/system_audit/v129_system_contract_audit_20260429_111450.json:324:      "id": "08_crystal_library_family_index",
+./reports/v12_9/system_audit/v129_system_contract_audit_20260429_111450.json:326:      "shows": "families tracked, gravity_grief operated",
+./reports/v12_9/system_audit/v129_system_contract_audit_20260429_111450.json:372:      "id": "09_gravity_grief_transform",
+./snapshots/node44_plus_performance_oracle_20260426_052332/reports/node44_trace_test_3.txt:38:family_role: transformative_opener
+./snapshots/node44_plus_performance_oracle_20260426_052332/reports/node44_trace_test_3.txt:53:  "family_role": "transformative_opener",
+./snapshots/node44_master_reply_trace_lock_20260426_051451/reports/bloom_vs_witness_stress_test.txt:34:family_role: transformative_opener
+./snapshots/node44_master_reply_trace_lock_20260426_051451/reports/bloom_vs_witness_stress_test.txt:49:  "family_role": "transformative_opener",
+./snapshots/node44_master_reply_trace_lock_20260426_051451/reports/bloom_vs_witness_stress_test.json:304:    "family_role": "transformative_opener",
+./snapshots/node44_master_reply_trace_lock_20260426_051451/reports/bloom_vs_witness_stress_test.json:567:      "family_role": "transformative_opener",
+./snapshots/node44_master_reply_trace_lock_20260426_051451/reports/node44_trace_test_3.txt:38:family_role: transformative_opener
+./snapshots/node44_master_reply_trace_lock_20260426_051451/reports/node44_trace_test_3.txt:53:  "family_role": "transformative_opener",
+./snapshots/node44_master_reply_trace_lock_20260426_051451/runtime/crystal_sigil_adapter.py:83:        role = "transformative_opener"
+./snapshots/node44_master_reply_trace_lock_20260426_051451/runtime/crystal_sigil_adapter.py:89:        role = "stable_diagnostic"
+./snapshots/witness_bloom_voice_gate_20260426_043834/README_STATUS.txt:11:- Bloom lane: expand / bloom_return / transformative_opener / medium-high
+./snapshots/witness_bloom_voice_gate_20260426_043834/reports/bloom_vs_witness_stress_test_run_3.txt:36:family_role: transformative_opener
+./snapshots/witness_bloom_voice_gate_20260426_043834/reports/bloom_vs_witness_stress_test_run_3.txt:51:  "family_role": "transformative_opener",
+./snapshots/witness_bloom_voice_gate_20260426_043834/reports/bloom_vs_witness_stress_test.txt:34:family_role: transformative_opener
+./snapshots/witness_bloom_voice_gate_20260426_043834/reports/bloom_vs_witness_stress_test.txt:49:  "family_role": "transformative_opener",
+./snapshots/witness_bloom_voice_gate_20260426_043834/reports/bloom_vs_witness_stress_test.json:304:    "family_role": "transformative_opener",
+./snapshots/witness_bloom_voice_gate_20260426_043834/reports/bloom_vs_witness_stress_test.json:567:      "family_role": "transformative_opener",
+./snapshots/witness_bloom_voice_gate_20260426_043834/runtime/crystal_sigil_adapter.py:83:        role = "transformative_opener"
+./snapshots/witness_bloom_voice_gate_20260426_043834/runtime/crystal_sigil_adapter.py:89:        role = "stable_diagnostic"
+./snapshots/contained_prime_voice_gate_20260426_042928/crystal_sigil_adapter.py:83:        role = "transformative_opener"
+./snapshots/contained_prime_voice_gate_20260426_042928/crystal_sigil_adapter.py:89:        role = "stable_diagnostic"
+./runtime/unified_voice.py.before_v141_generic_filler_guard_20260429_232259.bak:80:        "gravity_grief",
+./runtime/unified_voice.py.before_v141_generic_filler_guard_20260429_232259.bak:148:            "The gravity_grief family is functioning as a transformative opener. "
+./runtime/unified_voice.py.before_v141_generic_filler_guard_20260429_232259.bak:271:    # gravity_grief, topology, and definition surfaces.
+./runtime/crystal_index_mobile_svg_renderer.py:16:INDEX_PATH = Path("logs/crystal_family_index.json")
+./runtime/crystal_index_mobile_svg_renderer.py:22:        raise FileNotFoundError("Missing logs/crystal_family_index.json. Run: python runtime/crystal_index.py")
+./runtime/crystal_index_mobile_svg_renderer.py:28:        "stable_diagnostic": "#55d6ff",
+./runtime/crystal_index_mobile_svg_renderer.py:29:        "transformative_opener": "#7dff9b",
+./runtime/crystal_index_mobile_svg_renderer.py:30:        "seed_pattern": "#ffcc66",
+./runtime/crystal_index_mobile_svg_renderer.py:48:    stable = sum(1 for f in families if f.get("role") == "stable_diagnostic")
+./runtime/crystal_index_mobile_svg_renderer.py:49:    transformative = sum(1 for f in families if f.get("role") == "transformative_opener")
+./runtime/crystal_index_mobile_svg_renderer.py:69:<text x="92" y="218" fill="#eaffff" font-size="28" font-family="monospace">Families tracked: {len(families)}</text>
+./runtime/crystal_index_mobile_svg_renderer.py:70:<text x="92" y="260" fill="#55d6ff" font-size="26" font-family="monospace">Stable diagnostic: {stable}</text>
+./runtime/crystal_index_mobile_svg_renderer.py:71:<text x="92" y="300" fill="#7dff9b" font-size="26" font-family="monospace">Transformative opener: {transformative}</text>
+./runtime/john_next_action.py:17:    if role == "transformative_opener":
+./runtime/john_next_action.py:23:    if role == "stable_diagnostic":
+./runtime/john_next_action.py:29:    if role == "seed_pattern":
+./runtime/john_next_action.py:54:        "family": "gravity_grief",
+./runtime/john_next_action.py:55:        "role": "transformative_opener",
+./runtime/shape_signature.py:36:        return "gravity_grief"
+./runtime/shape_signature.py:46:    return "general_field"
+./runtime/crystal_index_svg_renderer.py:4:Creates a local dashboard image from logs/crystal_family_index.json.
+./runtime/crystal_index_svg_renderer.py:15:INDEX_PATH = Path("logs/crystal_family_index.json")
+./runtime/crystal_index_svg_renderer.py:21:        raise FileNotFoundError("Missing logs/crystal_family_index.json. Run: python runtime/crystal_index.py")
+./runtime/crystal_index_svg_renderer.py:27:        "stable_diagnostic": "#55d6ff",
+./runtime/crystal_index_svg_renderer.py:28:        "transformative_opener": "#7dff9b",
+./runtime/crystal_index_svg_renderer.py:29:        "seed_pattern": "#ffcc66",
+./runtime/crystal_index_svg_renderer.py:106:        a(f'<text x="{x+46}" y="{y+100}" fill="#bdd6df" font-size="16" font-family="monospace">turns={turns} stability={stability:.3f} release_delta={release:+.3f}</text>')
+./runtime/crystal_index_svg_renderer.py:129:    path = OUT_DIR / f"{stamp}_crystal_family_index.svg"
+./runtime/english_to_spiral_language.py:319:        return "gravity_grief"
+./runtime/timeline_renderer.py:18:    "gravity_grief": "#9cff9c",
+./runtime/timeline_renderer.py:24:    "stable_diagnostic": "#6ec6ff",
+./runtime/timeline_renderer.py:25:    "transformative_opener": "#9cff9c",
+./runtime/timeline_renderer.py:180:                    ("gravity_grief", FAMILY_COLORS["gravity_grief"]),
+./runtime/timeline_renderer.py:190:    latest = rows[-1] if rows else {"family": "none", "role": "none", "release_delta": 0.0, "stability": 0.0}
+./runtime/timeline_renderer.py:195:    parts.append(f'<text x="{sx+18}" y="{sy+100}" fill="{TEXT}" font-size="13" font-family="monospace">avg release Δ: {data["avg_release_delta"]:+.3f}</text>')
+./runtime/crystal_family_roles.py:65:        role = "transformative_opener"
+./runtime/crystal_family_roles.py:77:        role = "seed_pattern"
+./runtime/crystal_family_roles.py:80:        role = "stable_diagnostic"
+./runtime/timeline_data.py:85:def _extract_release_delta(entry: dict[str, Any]) -> float:
+./runtime/timeline_data.py:111:            release_delta = _extract_release_delta(entry)
+./runtime/timeline_data.py:120:                "release_delta": release_delta,
+./runtime/timeline_data.py:130:        family_values[row["family"]].append(row["release_delta"])
+./runtime/timeline_data.py:144:            z = (row["release_delta"] - mean) / stdev
+./runtime/timeline_data.py:166:    avg_release = statistics.fmean([r["release_delta"] for r in rows]) if rows else 0.0
+./runtime/timeline_data.py:172:        "avg_release_delta": avg_release,
+./runtime/role_voice_policy.py:19:    if role == "stable_diagnostic":
+./runtime/role_voice_policy.py:24:    elif role == "transformative_opener":
+./runtime/role_voice_policy.py:29:    elif role == "seed_pattern":
+./runtime/role_voice_policy.py:55:        "role": "stable_diagnostic",
+./runtime/leveon_sge_engine.py:229:        print(f"logs/crystal_family_index.json | families={index_data.get('family_count')}")
+./runtime/unified_voice.py:80:        "gravity_grief",
+./runtime/unified_voice.py:148:            "The gravity_grief family is functioning as a transformative opener. "
+./runtime/unified_voice.py:271:    # gravity_grief, topology, and definition surfaces.
+./runtime/crystal_index.py:5:Writes: logs/crystal_family_index.json
+./runtime/crystal_index.py:20:INDEX_PATH = Path("logs/crystal_family_index.json")
+./runtime/crystal_counsel.py:45:    elif top_family == "gravity_grief" and top_hits >= 3:
+./runtime/shape_memory.py:85:        release_delta = delta.get("release", 0.0)
+./runtime/shape_memory.py:87:        lines.append(f"- {ts} | release_delta={release_delta:+.3f} | {prompt}")
+./runtime/shape_memory.py:96:        sig = "gravity_grief|P:HIGH|B:HIGH|R:NULL|O:NULL|T:past->present"
+./runtime/crystal_sigil_adapter.py:83:        role = "transformative_opener"
+./runtime/crystal_sigil_adapter.py:89:        role = "stable_diagnostic"
+./runtime/leveon_visual_turn.py:104:    print("logs/crystal_family_index.json | families=", index.get("family_count"))
+./runtime/leveon_visual_turn.py:121:    if active_role == "transformative_opener":
+./runtime/shape_transform_svg_renderer.py:5:Best for transformative families like gravity_grief.
+./runtime/shape_transform_svg_renderer.py:53:    release_delta = float(delta.get("release", 0.0))
+./runtime/shape_transform_svg_renderer.py:66:    color = "#7dff9b" if role_name == "transformative_opener" else "#55d6ff"
+./runtime/shape_transform_svg_renderer.py:83:<text x="100" y="214" fill="{color}" font-size="26" font-family="monospace">release delta: {release_delta:+.3f}</text>
+./runtime/crystal_recall.py:23:    release_delta = float(delta.get("release", 0.0))
+./runtime/crystal_recall.py:35:    if release_delta > 0:
+./runtime/crystal_recall.py:37:    elif release_delta < 0:
+./runtime/crystal_library_query.py:110:        lines.append(f"- {family:<18} hits={count:<3} avg_release_delta={avg_release:+.3f}")
+./runtime/bak/crystal_sigil_adapter.before_bloom_voice_fix_20260426_043605.py:83:        role = "transformative_opener"
+./runtime/bak/crystal_sigil_adapter.before_bloom_voice_fix_20260426_043605.py:89:        role = "stable_diagnostic"
+./runtime/bak/unified_voice.before_phase3p_refractor_surface_1777225512.py:80:        "gravity_grief",
+./runtime/bak/unified_voice.before_phase3p_refractor_surface_1777225512.py:148:            "The gravity_grief family is functioning as a transformative opener. "
+./runtime/bak/unified_voice.before_phase3p_refractor_surface_1777225512.py:271:    # gravity_grief, topology, and definition surfaces.
+./runtime/bak/unified_voice.before_kor_grael_deep_fix_1777225348.py:80:        "gravity_grief",
+./runtime/bak/unified_voice.before_kor_grael_deep_fix_1777225348.py:148:            "The gravity_grief family is functioning as a transformative opener. "
+./runtime/bak/unified_voice.before_kor_grael_deep_fix_1777225348.py:271:    # gravity_grief, topology, and definition surfaces.
+./runtime/bak/unified_voice.before_kor_grael_cleanup_1777225327.py:80:        "gravity_grief",
+./runtime/bak/unified_voice.before_kor_grael_cleanup_1777225327.py:148:            "The gravity_grief family is functioning as a transformative opener. "
+./runtime/bak/unified_voice.before_kor_grael_cleanup_1777225327.py:271:    # gravity_grief, topology, and definition surfaces.
+./runtime/bak/unified_voice.before_phase3o_invention_surface_1777224969.py:80:        "gravity_grief",
+./runtime/bak/unified_voice.before_phase3o_invention_surface_1777224969.py:148:            "The gravity_grief family is functioning as a transformative opener. "
+./runtime/bak/unified_voice.before_phase3o_invention_surface_1777224969.py:271:    # gravity_grief, topology, and definition surfaces.
+./runtime/bak/unified_voice.before_phase3o_cleanup_1777224992.py:80:        "gravity_grief",
+./runtime/bak/unified_voice.before_phase3o_cleanup_1777224992.py:148:            "The gravity_grief family is functioning as a transformative opener. "
+./runtime/bak/unified_voice.before_phase3o_cleanup_1777224992.py:271:    # gravity_grief, topology, and definition surfaces.
+./runtime/bak/unified_voice.before_phase3n_half_dump_body_1777224116.py:80:        "gravity_grief",
+./runtime/bak/unified_voice.before_phase3n_half_dump_body_1777224116.py:148:            "The gravity_grief family is functioning as a transformative opener. "
+./runtime/bak/unified_voice.before_phase3n_half_dump_body_1777224116.py:271:    # gravity_grief, topology, and definition surfaces.
+./runtime/bak/unified_voice.before_phase3n_half_dump_body_1777223916.py:80:        "gravity_grief",
+./runtime/bak/unified_voice.before_phase3n_half_dump_body_1777223916.py:148:            "The gravity_grief family is functioning as a transformative opener. "
+./runtime/bak/unified_voice.before_phase3n_half_dump_body_1777223916.py:271:    # gravity_grief, topology, and definition surfaces.
+./runtime/bak/unified_voice.before_tinyllama_general_voice_1777219458.py:80:        "gravity_grief",
+./runtime/bak/unified_voice.before_tinyllama_general_voice_1777219458.py:148:            "The gravity_grief family is functioning as a transformative opener. "
+./runtime/bak/unified_voice.before_phase3m_temporal_spine_1777222866.py:80:        "gravity_grief",
+./runtime/bak/unified_voice.before_phase3m_temporal_spine_1777222866.py:148:            "The gravity_grief family is functioning as a transformative opener. "
+./runtime/bak/unified_voice.before_phase3m_temporal_spine_1777222866.py:271:    # gravity_grief, topology, and definition surfaces.
+./runtime/bak/unified_voice.before_definition_layer_1777219204.py:80:        "gravity_grief",
+./runtime/bak/unified_voice.before_definition_layer_1777219204.py:120:            "The gravity_grief family is functioning as a transformative opener. "
+./runtime/bak/unified_voice.before_english_lock_1777221367.py:80:        "gravity_grief",
+./runtime/bak/unified_voice.before_english_lock_1777221367.py:148:            "The gravity_grief family is functioning as a transformative opener. "
+./runtime/bak/unified_voice.before_english_lock_1777221367.py:271:    # gravity_grief, topology, and definition surfaces.
+

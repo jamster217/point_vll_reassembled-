@@ -1,0 +1,77 @@
+=== V14.2C MULTI-COMPONENT DENSITY STRESS ===
+created_at: 2026-05-02T05:49:52.780318
+
+Law: V14.2b must preserve dense multi-component technical prompts without collapsing to one symbol.
+
+---
+LABEL: full_landscape
+PROMPT: Explain how fruit gate, controlled flame, Savariel deep ache, Triple Fold temporal-pull, meaning spine, shape packet, final_shape, and renderer obedience preserve meaning in one dense technical paragraph.
+ANSWER: Le'Veon preserves meaning by separating route control from language generation: the fruit gate protects literal inputs by preventing ordinary objects from being mythologized; controlled flame allows explicit symbolic commands while limiting them to bounded output; Savariel treats deep ache as a weighting signal rather than a driver that can override the route; Triple Fold temporal-pull runs as a sidecar, letting reflection and temporal direction inform the packet without mutating the core engine; the meaning spine preserves the prompt-specific shape and V14 forces answer, final_english, and final_shape to match. The result is a technical pipeline where language is allowed to speak only after the preserved meaning has survived routing, rendering, and synchronization.
+FINAL_ENGLISH: Le'Veon preserves meaning by separating route control from language generation: the fruit gate protects literal inputs by preventing ordinary objects from being mythologized; controlled flame allows explicit symbolic commands while limiting them to bounded output; Savariel treats deep ache as a weighting signal rather than a driver that can override the route; Triple Fold temporal-pull runs as a sidecar, letting reflection and temporal direction inform the packet without mutating the core engine; the meaning spine preserves the prompt-specific shape and V14 forces answer, final_english, and final_shape to match. The result is a technical pipeline where language is allowed to speak only after the preserved meaning has survived routing, rendering, and synchronization.
+FINAL_SHAPE: Le'Veon preserves meaning by separating route control from language generation: the fruit gate protects literal inputs by preventing ordinary objects from being mythologized; controlled flame allows explicit symbolic commands while limiting them to bounded output; Savariel treats deep ache as a weighting signal rather than a driver that can override the route; Triple Fold temporal-pull runs as a sidecar, letting reflection and temporal direction inform the packet without mutating the core engine; the meaning spine preserves the prompt-specific shape and V14 forces answer, final_english, and final_shape to match. The result is a technical pipeline where language is allowed to speak only after the preserved meaning has survived routing, rendering, and synchronization.
+ROUTE: multi_component_technical
+TERM_CHECKS: {
+  "fruit gate": true,
+  "controlled flame": true,
+  "Savariel": true,
+  "Triple Fold": true,
+  "meaning spine": true,
+  "final_shape": true
+}
+CHECKS: {
+  "v14_active": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": true
+}
+PASS: True
+
+---
+LABEL: failure_prevention
+PROMPT: Explain how the Coherent Meaning Engine prevents over-mythologizing, symbolic flood, deep ache override, temporal sidecar mutation, and generic ghost fallback while keeping answer, final_english, and final_shape matched.
+ANSWER: Le'Veon preserves meaning by separating route control from language generation: Savariel treats deep ache as a weighting signal rather than a driver that can override the route; the meaning spine preserves the prompt-specific shape and V14 forces answer, final_english, and final_shape to match. The result is a technical pipeline where language is allowed to speak only after the preserved meaning has survived routing, rendering, and synchronization.
+FINAL_ENGLISH: Le'Veon preserves meaning by separating route control from language generation: Savariel treats deep ache as a weighting signal rather than a driver that can override the route; the meaning spine preserves the prompt-specific shape and V14 forces answer, final_english, and final_shape to match. The result is a technical pipeline where language is allowed to speak only after the preserved meaning has survived routing, rendering, and synchronization.
+FINAL_SHAPE: Le'Veon preserves meaning by separating route control from language generation: Savariel treats deep ache as a weighting signal rather than a driver that can override the route; the meaning spine preserves the prompt-specific shape and V14 forces answer, final_english, and final_shape to match. The result is a technical pipeline where language is allowed to speak only after the preserved meaning has survived routing, rendering, and synchronization.
+ROUTE: multi_component_technical
+TERM_CHECKS: {
+  "generic ghost": false,
+  "answer": true,
+  "final_english": true,
+  "final_shape": true
+}
+CHECKS: {
+  "v14_active": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": false
+}
+PASS: False
+
+---
+LABEL: architecture_manual
+PROMPT: Write one technical paragraph describing V14 as a portable architecture: gate, shape packet, preservation, renderer, sync proof, regression harness, and optional API route.
+ANSWER: V14 extracts Le'Veon's working repair chain into a portable Coherent Meaning Engine: gate, shape packet, preservation, renderer, sync proof, and regression harness.
+FINAL_ENGLISH: V14 extracts Le'Veon's working repair chain into a portable Coherent Meaning Engine: gate, shape packet, preservation, renderer, sync proof, and regression harness.
+FINAL_SHAPE: V14 extracts Le'Veon's working repair chain into a portable Coherent Meaning Engine: gate, shape packet, preservation, renderer, sync proof, and regression harness.
+ROUTE: v14_extraction
+TERM_CHECKS: {
+  "gate": true,
+  "shape packet": true,
+  "renderer": true,
+  "sync": true,
+  "optional": false
+}
+CHECKS: {
+  "v14_active": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": false
+}
+PASS: False
+
+=== RESULT ===
+V14_2C_MULTICOMPONENT_DENSITY_STRESS_PASS: False
+

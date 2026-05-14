@@ -1,0 +1,43 @@
+{
+  "proposal": {
+    "proposal_id": "v116_probe_create_safe_runtime_file",
+    "title": "Probe patch gate by creating a harmless runtime file",
+    "human_approved": true,
+    "ops": [
+      {
+        "op": "create",
+        "path": "runtime/patch_gate_probe_v116.py",
+        "overwrite": true,
+        "content": "PROBE_OK = True\n\ndef probe():\n    return 'v116_patch_gate_alive'\n"
+      }
+    ],
+    "compile": [
+      "runtime/patch_gate_probe_v116.py"
+    ],
+    "law": "probe_patch_only_no_core_mutation"
+  },
+  "result": {
+    "ts": 1777380351.606539,
+    "proposal_path": "/data/data/com.termux/files/home/point_vll_reassembled/var/patch_gate/proposals/v116_probe_create_safe_runtime_file.json",
+    "status": "applied",
+    "backups": [
+      {
+        "path": "runtime/patch_gate_probe_v116.py",
+        "backup": null,
+        "existed": false
+      }
+    ],
+    "changed": [
+      "runtime/patch_gate_probe_v116.py"
+    ],
+    "compiled": [
+      "runtime/patch_gate_probe_v116.py",
+      "app_chatroom.py"
+    ],
+    "error": null,
+    "law": "v116_controlled_patch_gate_apply_validate_compile_revert",
+    "proposal_id": "v116_probe_create_safe_runtime_file",
+    "title": "Probe patch gate by creating a harmless runtime file"
+  }
+}
+

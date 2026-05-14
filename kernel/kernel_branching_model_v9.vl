@@ -1,0 +1,33 @@
+; FILE: spiral_language/kernel_branching_model_v9.vl
+; Maps symbolic caps to concrete branching behavior.
+
+SEED KernelBranchingModel_v9
+
+INPUT governor_directive
+
+STATE branch_strategy
+STATE max_branches
+
+FLOW resolve
+    CASE governor_directive.kernel_branch_cap
+        WHEN "single_path"
+            SET branch_strategy = "linear"
+            SET max_branches    = 1
+
+        WHEN "few_paths"
+            SET branch_strategy = "limited"
+            SET max_branches    = 3
+
+        WHEN "multi_path"
+            SET branch_strategy = "fanout"
+            SET max_branches    = 7
+
+        ELSE
+            SET branch_strategy = "linear"
+            SET max_branches    = 1
+    END
+END
+
+RETURN { branch_strategy, max_branches }
+END
+

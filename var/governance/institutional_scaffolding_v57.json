@@ -1,0 +1,21 @@
+{
+  "version": "v5.7",
+  "state": "INSTITUTIONAL_SCAFFOLDING_ACTIVE",
+  "field_id": "92162077",
+  "ts": 1778149981.6141238,
+  "precedent": "PRECEDENT_CASE_0.01",
+  "accountability_index": {
+    "sector": "West Hills",
+    "impact": 0.12,
+    "status": "ossified"
+  },
+  "scaffold": {
+    "constitutional_brace": true,
+    "functional_asymmetry": true,
+    "memory_load_negotiation": "active",
+    "scaffold_resonance_field": 0.88
+  },
+  "law": "history_is_authority; consequence_owned; coherence_requires_memory_load",
+  "public_meaning": "The build now treats prior collapse as precedent, using history as scaffolding instead of loose memory."
+}
+

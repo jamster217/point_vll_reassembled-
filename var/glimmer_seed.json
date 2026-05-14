@@ -1,0 +1,9 @@
+{
+    "ts": 1777215094.5117297,
+    "entropy_jitter": 0.2709365665939327,
+    "entropy_hash": "455c194ccfbc511d10bcf05f896e9c78ac2e605fbe23fcbbc6fd2879ff11fbf1",
+    "sample_count": 256,
+    "source": "cpu_latency_jitter+os_urandom",
+    "law": "glimmer seed observes timing variance; does not mutate source"
+}
+

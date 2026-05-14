@@ -1,0 +1,47 @@
+{
+  "proposal": {
+    "proposal_id": "v122_runtime_visual_tag_index_v122_08c426ef794f",
+    "title": "Create visual tag index from deep visual memory",
+    "human_approved": true,
+    "ops": [
+      {
+        "op": "create",
+        "path": "runtime/visual_tag_index_v122.py",
+        "overwrite": true,
+        "content": "from pathlib import Path\nimport json, collections, time\n\nROOT = Path(__file__).resolve().parents[1]\nIMAGE_MEMORY = ROOT / \"var\" / \"image_memory\"\nDEEP = IMAGE_MEMORY / \"deep_visual_memory_analysis_v114.jsonl\"\nOUT = IMAGE_MEMORY / \"visual_tag_index_v122.json\"\n\ndef _read_jsonl(path):\n    if not path.exists():\n        return []\n    out = []\n    for line in path.read_text(encoding=\"utf-8\", errors=\"replace\").splitlines():\n        line = line.strip()\n        if not line:\n            continue\n        try:\n            out.append(json.loads(line))\n        except Exception:\n            pass\n    return out\n\ndef build_index(limit=80):\n    counts = collections.Counter()\n    buckets = {\"emotional\": [], \"memory\": [], \"structural\": []}\n\n    for row in _read_jsonl(DEEP):\n        for tag in row.get(\"emotional_tags\", []):\n            counts[tag] += 2\n            if tag not in buckets[\"emotional\"]:\n                buckets[\"emotional\"].append(tag)\n        for tag in row.get(\"memory_connections\", []):\n            counts[tag] += 2\n            if tag not in buckets[\"memory\"]:\n                buckets[\"memory\"].append(tag)\n        for tag in row.get(\"structural_tags\", []):\n            counts[tag] += 2\n            if tag not in buckets[\"structural\"]:\n                buckets[\"structural\"].append(tag)\n        for tag in row.get(\"all_tags\", []):\n            counts[tag] += 1\n\n    ranked = [{\"tag\": k, \"weight\": v} for k, v in counts.most_common(limit)]\n\n    packet = {\n        \"active\": True,\n        \"ts\": time.time(),\n        \"ranked_tags\": ranked,\n        \"buckets\": {k: v[:32] for k, v in buckets.items()},\n        \"law\": \"v122_visual_tag_index_from_deep_memory\",\n    }\n\n    OUT.parent.mkdir(parents=True, exist_ok=True)\n    OUT.write_text(json.dumps(packet, indent=2, ensure_ascii=False), encoding=\"utf-8\")\n    return packet\n\nif __name__ == \"__main__\":\n    print(json.dumps(build_index(), indent=2, ensure_ascii=False))\n"
+      }
+    ],
+    "compile": [
+      "runtime/visual_tag_index_v122.py"
+    ],
+    "reason": "Diversify rapid self-improvement proposals so V12.1 does not repeat the same patch fingerprint.",
+    "target_file": "runtime/visual_tag_index_v122.py",
+    "law": "v122_diversified_patch_proposal_writer",
+    "auto_approved_by_v122": true,
+    "auto_rule": "diversified_writer_plus_judge_total>=0.90"
+  },
+  "result": {
+    "ts": 1777382416.255718,
+    "proposal_path": "/data/data/com.termux/files/home/point_vll_reassembled/var/patch_gate/proposals/v122_runtime_visual_tag_index_v122_08c426ef794f.json",
+    "status": "applied",
+    "backups": [
+      {
+        "path": "runtime/visual_tag_index_v122.py",
+        "backup": null,
+        "existed": false
+      }
+    ],
+    "changed": [
+      "runtime/visual_tag_index_v122.py"
+    ],
+    "compiled": [
+      "runtime/visual_tag_index_v122.py",
+      "app_chatroom.py"
+    ],
+    "error": null,
+    "law": "v116_controlled_patch_gate_backup_apply_compile_revert",
+    "proposal_id": "v122_runtime_visual_tag_index_v122_08c426ef794f",
+    "title": "Create visual tag index from deep visual memory"
+  }
+}
+

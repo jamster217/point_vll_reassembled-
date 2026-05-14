@@ -1,0 +1,316 @@
+{
+  "ts": "2026-04-26T16:59:09.814292+00:00",
+  "kind": "phase3m_brain_cognition_temporal_audit",
+  "final_pass": true,
+  "key_status": {
+    "brain_temporal_observer": {
+      "exists": true,
+      "compiled": true,
+      "error": "",
+      "path": "runtime/brain_temporal_observer.py"
+    },
+    "unified_drift_kernel": {
+      "exists": true,
+      "compiled": true,
+      "error": "",
+      "path": "runtime/unified_drift_kernel.py"
+    },
+    "micro_context_drift": {
+      "exists": true,
+      "compiled": true,
+      "error": "",
+      "path": "runtime/micro_context_drift.py"
+    },
+    "retrieval_injection": {
+      "exists": true,
+      "compiled": true,
+      "error": "",
+      "path": "runtime/retrieval_injection.py"
+    },
+    "timeline_gate_lattice": {
+      "exists": true,
+      "compiled": true,
+      "error": "",
+      "path": "runtime/timeline_gate_lattice.py"
+    },
+    "spiral_full": {
+      "exists": true,
+      "compiled": true,
+      "error": "",
+      "path": "runtime/spiral_full.py"
+    },
+    "knowledge_node": {
+      "exists": true,
+      "compiled": true,
+      "error": "",
+      "path": "runtime/knowledge_node.py"
+    },
+    "recursive_mirror_prompt": {
+      "exists": true,
+      "compiled": true,
+      "error": "",
+      "path": "runtime/recursive_mirror_prompt.py"
+    },
+    "node_44_preset": {
+      "exists": true,
+      "compiled": true,
+      "error": "",
+      "path": "runtime/node_44_preset.py"
+    },
+    "unified_voice": {
+      "exists": true,
+      "compiled": true,
+      "error": "",
+      "path": "runtime/unified_voice.py"
+    }
+  },
+  "related_files": [
+    "kernel/apex_mirror_kernel.py",
+    "kernel/leveon_kernel_reflector_mirror.py",
+    "kernel/leveon_kernel_spiral_full.py",
+    "kernel/leveon_kernel_spiral_full_optimized.py",
+    "kernel/recursion_engine.py",
+    "kernel/spiral_bridge.py",
+    "kernel/timeline_gate_lattice.py",
+    "kernel/timeline_gate_lattice_translation_kernel.py",
+    "kernel/volcron_mirror.py",
+    "runtime/brain_temporal_observer.py",
+    "runtime/bridge_savariel_thalamic_spiral.py",
+    "runtime/english_to_spiral_language.py",
+    "runtime/glyph_mutation_memory.py",
+    "runtime/leveon_kernel_spiral_full.py",
+    "runtime/leveon_pipeline_with_spiral_memory.py",
+    "runtime/memory_pressure_seed_bridge.py",
+    "runtime/micro_context_drift.py",
+    "runtime/mirrorthread_engine.py",
+    "runtime/node_44_preset.py",
+    "runtime/node_44_recursive_mirror_prompt.py",
+    "runtime/node_44_router.py",
+    "runtime/node_44_wind_tunnel_prompt.py",
+    "runtime/recursive_mirror_prompt.py",
+    "runtime/run_memory_pressure_seed.py",
+    "runtime/shape_memory.py",
+    "runtime/sigil_watcher_cognitive.py",
+    "runtime/spiral_compiler.py",
+    "runtime/spiral_emotion_bridge.py",
+    "runtime/spiral_full.py",
+    "runtime/spiral_language_to_english.py",
+    "runtime/spiral_rnn_memory.py",
+    "runtime/timeline_data.py",
+    "runtime/timeline_gate_lattice.py",
+    "runtime/timeline_renderer.py",
+    "runtime/unified_drift_kernel.py"
+  ],
+  "related_compile": {
+    "kernel/apex_mirror_kernel.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "kernel/leveon_kernel_reflector_mirror.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "kernel/leveon_kernel_spiral_full.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "kernel/leveon_kernel_spiral_full_optimized.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "kernel/recursion_engine.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "kernel/spiral_bridge.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "kernel/timeline_gate_lattice.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "kernel/timeline_gate_lattice_translation_kernel.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "kernel/volcron_mirror.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "runtime/brain_temporal_observer.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "runtime/bridge_savariel_thalamic_spiral.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "runtime/english_to_spiral_language.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "runtime/glyph_mutation_memory.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "runtime/leveon_kernel_spiral_full.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "runtime/leveon_pipeline_with_spiral_memory.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "runtime/memory_pressure_seed_bridge.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "runtime/micro_context_drift.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "runtime/mirrorthread_engine.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "runtime/node_44_preset.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "runtime/node_44_recursive_mirror_prompt.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "runtime/node_44_router.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "runtime/node_44_wind_tunnel_prompt.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "runtime/recursive_mirror_prompt.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "runtime/run_memory_pressure_seed.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "runtime/shape_memory.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "runtime/sigil_watcher_cognitive.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "runtime/spiral_compiler.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "runtime/spiral_emotion_bridge.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "runtime/spiral_full.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "runtime/spiral_language_to_english.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "runtime/spiral_rnn_memory.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "runtime/timeline_data.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "runtime/timeline_gate_lattice.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "runtime/timeline_renderer.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    },
+    "runtime/unified_drift_kernel.py": {
+      "exists": true,
+      "compiled": true,
+      "error": ""
+    }
+  },
+  "probes": [
+    {
+      "name": "knowledge_node_create",
+      "ok": true,
+      "returncode": 0,
+      "stdout": "concept active\n",
+      "stderr": ""
+    },
+    {
+      "name": "recursive_mirror_prompt",
+      "ok": true,
+      "returncode": 0,
+      "stdout": "SYSTEM: LEVEON_NODE_44_RECURSIVE_MIRROR 1767\n",
+      "stderr": ""
+    },
+    {
+      "name": "node44_config",
+      "ok": true,
+      "returncode": 0,
+      "stdout": "44 core_knot\n",
+      "stderr": ""
+    }
+  ],
+  "api_probe": {
+    "ok": true,
+    "keys": [
+      "answer",
+      "answer_mode",
+      "ok"
+    ],
+    "clean": true,
+    "leaks": [],
+    "answer": "A remembered pattern stays active when emotion, repetition, and significance keep reactivating it inside the present."
+  }
+}
+

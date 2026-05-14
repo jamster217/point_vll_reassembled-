@@ -1,0 +1,293 @@
+{
+  "user_d87048440e3c": {
+    "user_id": "user_d87048440e3c",
+    "user_name": "John",
+    "created_at": 1775184053.8111355,
+    "updated_at": 1777229049.0164077,
+    "aliases": [],
+    "dominant_domains": {
+      "basic_query": 50.0,
+      "structure": 3.0,
+      "smalltalk": 15.0,
+      "emotional_depth": 15.0,
+      "general": 54.0,
+      "lattice": 3.0,
+      "causal": 3.0,
+      "memory_structure": 1.0,
+      "emotional_weight": 1.0
+    },
+    "dominant_emotions": {
+      "curiosity": 0.6,
+      "neutral": 210.1,
+      "grief": 8.6,
+      "longing": 2.46,
+      "resolve": 2.28,
+      "anxiety": 0.8
+    },
+    "shape_centroid": {
+      "flow": 0.5002,
+      "boundary": 0.5002,
+      "memory": 0.5002,
+      "novelty": 0.4998,
+      "confidence": 0.5002
+    },
+    "hotspot_families": {
+      "braid_hotspot": 296.6075
+    },
+    "sequence_families": {
+      "basic_query->basic_query:followup_why:curiosity": 2.0,
+      "basic_query->basic_query:fresh_turn:curiosity": 29.0,
+      "structure->structure:fresh_turn:smalltalk": 3.0,
+      "smalltalk->smalltalk:fresh_turn:smalltalk": 15.0,
+      "basic_query->basic_query:followup_how:curiosity": 2.0,
+      "basic_query->basic_query:fresh_turn:neutral": 8.0,
+      "emotional_depth->emotional_depth:grief_deepening:curiosity": 3.0,
+      "general->general:continuity:curiosity": 1.0,
+      "emotional_depth->emotional_depth:fresh_turn:curiosity": 4.0,
+      "basic_query->basic_query:continuity:curiosity": 9.0,
+      "general->general:fresh_turn:neutral": 42.0,
+      "emotional_depth->emotional_depth:grief_deepening:grief": 2.0,
+      "general->general:fresh_turn:curiosity": 3.0,
+      "emotional_depth->emotional_depth:fresh_turn:neutral": 2.0,
+      "lattice->lattice:fresh_turn:curiosity": 1.0,
+      "lattice->lattice:continuity:curiosity": 2.0,
+      "general->general:fresh_turn:hope": 1.0,
+      "general->general:fresh_turn:smalltalk": 6.0,
+      "general->general:clarification:curiosity": 1.0,
+      "emotional_depth->emotional_depth:fresh_turn:grief": 2.0,
+      "causal->causal:fresh_turn:neutral": 3.0,
+      "memory_structure->memory_structure:clarification:curiosity": 1.0,
+      "emotional_weight->emotional_weight:fresh_turn:smalltalk": 1.0,
+      "unknown->unknown:fresh_turn:neutral": 181.0,
+      "unknown->unknown:clarification:curiosity": 46.0,
+      "unknown->unknown:fresh_turn:curiosity": 48.0,
+      "unknown->unknown:fresh_turn:anger": 5.0,
+      "emotional_depth->emotional_depth:followup_how:curiosity": 2.0,
+      "unknown->unknown:fresh_turn:smalltalk": 3.0,
+      "unknown->unknown:followup_how:curiosity": 2.0
+    },
+    "recent_patterns": [
+      {
+        "packet_id": "up_b20daf0253db",
+        "domain": "",
+        "sequence_family": "unknown->unknown:fresh_turn:neutral",
+        "relation_chain": [
+          "fresh_turn"
+        ],
+        "logical_coherence": 0.6071,
+        "emotional_fidelity": 0.48,
+        "hotspot_score": 0.682
+      },
+      {
+        "packet_id": "up_e0ab5210d92f",
+        "domain": "",
+        "sequence_family": "unknown->unknown:fresh_turn:curiosity",
+        "relation_chain": [
+          "fresh_turn"
+        ],
+        "logical_coherence": 0.55,
+        "emotional_fidelity": 0.5834,
+        "hotspot_score": 0.682
+      },
+      {
+        "packet_id": "up_c4eb41151ced",
+        "domain": "",
+        "sequence_family": "unknown->unknown:fresh_turn:neutral",
+        "relation_chain": [
+          "fresh_turn"
+        ],
+        "logical_coherence": 0.55,
+        "emotional_fidelity": 0.48,
+        "hotspot_score": 0.682
+      },
+      {
+        "packet_id": "up_443412c18fb6",
+        "domain": "",
+        "sequence_family": "unknown->unknown:fresh_turn:neutral",
+        "relation_chain": [
+          "fresh_turn"
+        ],
+        "logical_coherence": 0.5611,
+        "emotional_fidelity": 0.48,
+        "hotspot_score": 0.682
+      },
+      {
+        "packet_id": "up_eeb10283bcb7",
+        "domain": "",
+        "sequence_family": "unknown->unknown:clarification:curiosity",
+        "relation_chain": [
+          "clarification"
+        ],
+        "logical_coherence": 0.6211,
+        "emotional_fidelity": 0.5834,
+        "hotspot_score": 0.682
+      },
+      {
+        "packet_id": "up_1684eb59c009",
+        "domain": "",
+        "sequence_family": "unknown->unknown:fresh_turn:neutral",
+        "relation_chain": [
+          "fresh_turn"
+        ],
+        "logical_coherence": 0.6071,
+        "emotional_fidelity": 0.48,
+        "hotspot_score": 0.682
+      },
+      {
+        "packet_id": "up_bb89df7acf1b",
+        "domain": "",
+        "sequence_family": "unknown->unknown:clarification:curiosity",
+        "relation_chain": [
+          "clarification"
+        ],
+        "logical_coherence": 0.6211,
+        "emotional_fidelity": 0.5834,
+        "hotspot_score": 0.682
+      },
+      {
+        "packet_id": "up_c9302ec6536f",
+        "domain": "",
+        "sequence_family": "unknown->unknown:clarification:curiosity",
+        "relation_chain": [
+          "clarification"
+        ],
+        "logical_coherence": 0.6322,
+        "emotional_fidelity": 0.5834,
+        "hotspot_score": 0.682
+      },
+      {
+        "packet_id": "up_3297aa1ffacf",
+        "domain": "",
+        "sequence_family": "unknown->unknown:fresh_turn:neutral",
+        "relation_chain": [
+          "fresh_turn"
+        ],
+        "logical_coherence": 0.6071,
+        "emotional_fidelity": 0.48,
+        "hotspot_score": 0.682
+      },
+      {
+        "packet_id": "up_39ec04fe863c",
+        "domain": "",
+        "sequence_family": "unknown->unknown:fresh_turn:neutral",
+        "relation_chain": [
+          "fresh_turn"
+        ],
+        "logical_coherence": 0.6071,
+        "emotional_fidelity": 0.48,
+        "hotspot_score": 0.682
+      },
+      {
+        "packet_id": "up_8ca1eed6bfa3",
+        "domain": "",
+        "sequence_family": "unknown->unknown:fresh_turn:neutral",
+        "relation_chain": [
+          "fresh_turn"
+        ],
+        "logical_coherence": 0.6071,
+        "emotional_fidelity": 0.48,
+        "hotspot_score": 0.682
+      },
+      {
+        "packet_id": "up_6cdfc3e4ca8f",
+        "domain": "",
+        "sequence_family": "unknown->unknown:fresh_turn:neutral",
+        "relation_chain": [
+          "fresh_turn"
+        ],
+        "logical_coherence": 0.6071,
+        "emotional_fidelity": 0.48,
+        "hotspot_score": 0.682
+      },
+      {
+        "packet_id": "up_8e411ad4c10a",
+        "domain": "",
+        "sequence_family": "unknown->unknown:fresh_turn:neutral",
+        "relation_chain": [
+          "fresh_turn"
+        ],
+        "logical_coherence": 0.6071,
+        "emotional_fidelity": 0.48,
+        "hotspot_score": 0.682
+      },
+      {
+        "packet_id": "up_f4743773c744",
+        "domain": "",
+        "sequence_family": "unknown->unknown:fresh_turn:neutral",
+        "relation_chain": [
+          "fresh_turn"
+        ],
+        "logical_coherence": 0.6071,
+        "emotional_fidelity": 0.48,
+        "hotspot_score": 0.682
+      },
+      {
+        "packet_id": "up_66a7a84ee973",
+        "domain": "",
+        "sequence_family": "unknown->unknown:fresh_turn:neutral",
+        "relation_chain": [
+          "fresh_turn"
+        ],
+        "logical_coherence": 0.6071,
+        "emotional_fidelity": 0.48,
+        "hotspot_score": 0.682
+      },
+      {
+        "packet_id": "up_008d9584705d",
+        "domain": "",
+        "sequence_family": "unknown->unknown:fresh_turn:neutral",
+        "relation_chain": [
+          "fresh_turn"
+        ],
+        "logical_coherence": 0.6071,
+        "emotional_fidelity": 0.48,
+        "hotspot_score": 0.682
+      },
+      {
+        "packet_id": "up_993f6ade8765",
+        "domain": "",
+        "sequence_family": "unknown->unknown:fresh_turn:neutral",
+        "relation_chain": [
+          "fresh_turn"
+        ],
+        "logical_coherence": 0.6071,
+        "emotional_fidelity": 0.48,
+        "hotspot_score": 0.682
+      },
+      {
+        "packet_id": "up_b642d5767f6c",
+        "domain": "",
+        "sequence_family": "unknown->unknown:fresh_turn:neutral",
+        "relation_chain": [
+          "fresh_turn"
+        ],
+        "logical_coherence": 0.6071,
+        "emotional_fidelity": 0.48,
+        "hotspot_score": 0.682
+      },
+      {
+        "packet_id": "up_2ee045edb95b",
+        "domain": "",
+        "sequence_family": "unknown->unknown:fresh_turn:neutral",
+        "relation_chain": [
+          "fresh_turn"
+        ],
+        "logical_coherence": 0.6071,
+        "emotional_fidelity": 0.48,
+        "hotspot_score": 0.682
+      },
+      {
+        "packet_id": "up_6c9e57c05638",
+        "domain": "",
+        "sequence_family": "unknown->unknown:fresh_turn:neutral",
+        "relation_chain": [
+          "fresh_turn"
+        ],
+        "logical_coherence": 0.6071,
+        "emotional_fidelity": 0.48,
+        "hotspot_score": 0.682
+      }
+    ]
+  }
+}
+

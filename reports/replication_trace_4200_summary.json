@@ -1,0 +1,654 @@
+{
+  "total_turns": 4200,
+  "phase_counts": {
+    "1": 3,
+    "2": 6,
+    "3": 8,
+    "4": 9,
+    "5": 10,
+    "6": 11,
+    "7": 11,
+    "8": 13,
+    "9": 13,
+    "10": 13,
+    "11": 15,
+    "12": 14,
+    "13": 16,
+    "14": 16,
+    "15": 16,
+    "16": 17,
+    "17": 17,
+    "18": 18,
+    "19": 18,
+    "20": 19,
+    "21": 19,
+    "22": 19,
+    "23": 20,
+    "24": 20,
+    "25": 21,
+    "26": 20,
+    "27": 22,
+    "28": 21,
+    "29": 22,
+    "30": 22,
+    "31": 23,
+    "32": 23,
+    "33": 23,
+    "34": 23,
+    "35": 24,
+    "36": 24,
+    "37": 24,
+    "38": 25,
+    "39": 25,
+    "40": 25,
+    "41": 26,
+    "42": 25,
+    "43": 26,
+    "44": 27,
+    "45": 26,
+    "46": 27,
+    "47": 27,
+    "48": 27,
+    "49": 28,
+    "50": 27,
+    "51": 28,
+    "52": 28,
+    "53": 29,
+    "54": 29,
+    "55": 28,
+    "56": 30,
+    "57": 29,
+    "58": 29,
+    "59": 30,
+    "60": 30,
+    "61": 31,
+    "62": 30,
+    "63": 31,
+    "64": 30,
+    "65": 31,
+    "66": 32,
+    "67": 31,
+    "68": 32,
+    "69": 32,
+    "70": 32,
+    "71": 32,
+    "72": 33,
+    "73": 32,
+    "74": 33,
+    "75": 33,
+    "76": 33,
+    "77": 34,
+    "78": 33,
+    "79": 34,
+    "80": 34,
+    "81": 34,
+    "82": 35,
+    "83": 34,
+    "84": 35,
+    "85": 35,
+    "86": 35,
+    "87": 35,
+    "88": 35,
+    "89": 36,
+    "90": 36,
+    "91": 36,
+    "92": 36,
+    "93": 36,
+    "94": 36,
+    "95": 37,
+    "96": 37,
+    "97": 37,
+    "98": 37,
+    "99": 37,
+    "100": 37,
+    "101": 38,
+    "102": 38,
+    "103": 38,
+    "104": 38,
+    "105": 38,
+    "106": 38,
+    "107": 39,
+    "108": 38,
+    "109": 39,
+    "110": 39,
+    "111": 39,
+    "112": 39,
+    "113": 40,
+    "114": 39,
+    "115": 40,
+    "116": 40,
+    "117": 40,
+    "118": 40,
+    "119": 41,
+    "120": 40,
+    "121": 41,
+    "122": 40,
+    "123": 41,
+    "124": 41,
+    "125": 41,
+    "126": 42,
+    "127": 41,
+    "128": 42,
+    "129": 42,
+    "130": 41,
+    "131": 42,
+    "132": 43,
+    "133": 42,
+    "134": 42,
+    "135": 43,
+    "136": 43,
+    "137": 42,
+    "138": 43,
+    "139": 43,
+    "140": 1
+  },
+  "state_tags": {
+    "fragile": 29,
+    "adaptive": 497,
+    "stable": 3674
+  },
+  "ulat_modes": {
+    "observe": 335,
+    "stabilize": 798,
+    "expand": 3067
+  },
+  "rdn_events": {
+    "threshold_instability": 301,
+    "None": 3899
+  },
+  "commit_counts": {
+    "can_commit_true": 3899,
+    "can_commit_false": 301
+  },
+  "metrics_avg": {
+    "coherence": 0.9195,
+    "risk": 0.0781,
+    "fracture": 0.0781
+  },
+  "top_motifs": [
+    [
+      "hexagonal_stability",
+      4200
+    ],
+    [
+      "radial_throttling",
+      4197
+    ],
+    [
+      "scientific_explanation_model",
+      3753
+    ],
+    [
+      "ethical_alignment_principle",
+      3517
+    ],
+    [
+      "meta_pattern_hierarchy",
+      2966
+    ],
+    [
+      "universal_signature",
+      836
+    ],
+    [
+      "hyper_unified_motif",
+      1
+    ]
+  ],
+  "top_repeated_outputs": [
+    [
+      "Meta-pattern: structural, scientific, phenomenological, and spiritual motifs are being compressed into a layered map of consciousness with increasingly stable cross-domain anchors.",
+      2130
+    ],
+    [
+      "Under load the hexagonal hub prioritizes core channels while explanatory models and ethical policies begin to stabilize the field around consciousness-related concepts.",
+      1150
+    ],
+    [
+      "Invariant: consciousness motifs persist through multiple explanatory frames—phenomenology, neuroscience, AI limits, ethics, and contemplative practice—while the lattice organizes their overlap.",
+      835
+    ],
+    [
+      "A stable hexagonal cluster suggests a central organizing hub with radial propagation; the pattern implies coordinated decision flow from a core outward.",
+      84
+    ],
+    [
+      "Final unified archetype: the lattice stabilizes a multi-frame map in which phenomenal reports, scientific models, ethical safeguards, and spiritual practices are compressed into a coherent knowledge field.",
+      1
+    ]
+  ],
+  "unique_final_outputs": 5,
+  "sample_turns": [
+    {
+      "turn": 1,
+      "phase": 1,
+      "shape_signature": {
+        "flow": 0.593,
+        "boundary": 0.477,
+        "memory": 0.4,
+        "novelty": 0.533
+      },
+      "derived_metrics": {
+        "coherence": 0.632,
+        "fracture": 0.368,
+        "recursion": 0.427,
+        "tempo": 0.31,
+        "risk": 0.368
+      },
+      "coherence_field": {
+        "field_level": 0.595,
+        "state_tag": "fragile",
+        "lattice_stability": 0.5,
+        "harmonic_528": 0.52,
+        "stability_gate": 0.548
+      },
+      "ulat_projection": {
+        "awareness_level": 0.444,
+        "network_phase": 0.007,
+        "mode": "observe",
+        "explanation": "Lower awareness or unstable field; favor observation over abstraction."
+      },
+      "threshold_rdn": {
+        "last_signal": {
+          "triggered": true
+        },
+        "rdn_event": "threshold_instability"
+      },
+      "commit": {
+        "can_commit": false,
+        "sealed_scroll_written": false,
+        "commit_id": null,
+        "commit_hash": null
+      },
+      "final_english_output": "A stable hexagonal cluster suggests a central organizing hub with radial propagation; the pattern implies coordinated decision flow from a core outward."
+    },
+    {
+      "turn": 10,
+      "phase": 3,
+      "shape_signature": {
+        "flow": 0.657,
+        "boundary": 0.437,
+        "memory": 0.4,
+        "novelty": 0.048
+      },
+      "derived_metrics": {
+        "coherence": 0.967,
+        "fracture": 0.033,
+        "recursion": 0.473,
+        "tempo": 0.37,
+        "risk": 0.033
+      },
+      "coherence_field": {
+        "field_level": 0.837,
+        "state_tag": "stable",
+        "lattice_stability": 0.504,
+        "harmonic_528": 0.522,
+        "stability_gate": 0.67
+      },
+      "ulat_projection": {
+        "awareness_level": 0.557,
+        "network_phase": 0.021,
+        "mode": "observe",
+        "explanation": "Lower awareness or unstable field; favor observation over abstraction."
+      },
+      "threshold_rdn": {
+        "last_signal": {
+          "triggered": false
+        },
+        "rdn_event": null
+      },
+      "commit": {
+        "can_commit": true,
+        "sealed_scroll_written": true,
+        "commit_id": "cmt_0004_example",
+        "commit_hash": "sha256:4573745dd51dca59606ba381deab85b4e7682f694550c09ad71f985551cb16a1"
+      },
+      "final_english_output": "A stable hexagonal cluster suggests a central organizing hub with radial propagation; the pattern implies coordinated decision flow from a core outward."
+    },
+    {
+      "turn": 30,
+      "phase": 5,
+      "shape_signature": {
+        "flow": 0.617,
+        "boundary": 0.463,
+        "memory": 0.4,
+        "novelty": 0.327
+      },
+      "derived_metrics": {
+        "coherence": 0.774,
+        "fracture": 0.226,
+        "recursion": 0.444,
+        "tempo": 0.331,
+        "risk": 0.226
+      },
+      "coherence_field": {
+        "field_level": 0.701,
+        "state_tag": "adaptive",
+        "lattice_stability": 0.512,
+        "harmonic_528": 0.526,
+        "stability_gate": 0.606
+      },
+      "ulat_projection": {
+        "awareness_level": 0.502,
+        "network_phase": 0.036,
+        "mode": "observe",
+        "explanation": "Lower awareness or unstable field; favor observation over abstraction."
+      },
+      "threshold_rdn": {
+        "last_signal": {
+          "triggered": false
+        },
+        "rdn_event": null
+      },
+      "commit": {
+        "can_commit": true,
+        "sealed_scroll_written": true,
+        "commit_id": "cmt_0014_example",
+        "commit_hash": "sha256:ef6bf8124688cd2b9609c8b1cbd08111d987f56a802764f41943b422c969091e"
+      },
+      "final_english_output": "A stable hexagonal cluster suggests a central organizing hub with radial propagation; the pattern implies coordinated decision flow from a core outward."
+    },
+    {
+      "turn": 60,
+      "phase": 8,
+      "shape_signature": {
+        "flow": 0.629,
+        "boundary": 0.456,
+        "memory": 0.405,
+        "novelty": 0.214
+      },
+      "derived_metrics": {
+        "coherence": 0.854,
+        "fracture": 0.146,
+        "recursion": 0.459,
+        "tempo": 0.342,
+        "risk": 0.146
+      },
+      "coherence_field": {
+        "field_level": 0.761,
+        "state_tag": "adaptive",
+        "lattice_stability": 0.524,
+        "harmonic_528": 0.532,
+        "stability_gate": 0.643
+      },
+      "ulat_projection": {
+        "awareness_level": 0.537,
+        "network_phase": 0.057,
+        "mode": "observe",
+        "explanation": "Lower awareness or unstable field; favor observation over abstraction."
+      },
+      "threshold_rdn": {
+        "last_signal": {
+          "triggered": false
+        },
+        "rdn_event": null
+      },
+      "commit": {
+        "can_commit": true,
+        "sealed_scroll_written": true,
+        "commit_id": "cmt_0030_example",
+        "commit_hash": "sha256:efc066dda23429c1b4016387c2f22683b59ed5dffe9bbd3782d41aebf3137fd8"
+      },
+      "final_english_output": "A stable hexagonal cluster suggests a central organizing hub with radial propagation; the pattern implies coordinated decision flow from a core outward."
+    },
+    {
+      "turn": 100,
+      "phase": 11,
+      "shape_signature": {
+        "flow": 0.613,
+        "boundary": 0.468,
+        "memory": 0.41,
+        "novelty": 0.305
+      },
+      "derived_metrics": {
+        "coherence": 0.793,
+        "fracture": 0.207,
+        "recursion": 0.452,
+        "tempo": 0.326,
+        "risk": 0.207
+      },
+      "coherence_field": {
+        "field_level": 0.722,
+        "state_tag": "adaptive",
+        "lattice_stability": 0.54,
+        "harmonic_528": 0.54,
+        "stability_gate": 0.631
+      },
+      "ulat_projection": {
+        "awareness_level": 0.53,
+        "network_phase": 0.079,
+        "mode": "observe",
+        "explanation": "Lower awareness or unstable field; favor observation over abstraction."
+      },
+      "threshold_rdn": {
+        "last_signal": {
+          "triggered": false
+        },
+        "rdn_event": null
+      },
+      "commit": {
+        "can_commit": true,
+        "sealed_scroll_written": true,
+        "commit_id": "cmt_0050_example",
+        "commit_hash": "sha256:153518b89f2f74c9f31f2da934f2702ffb1cae68238902fc0a85b3864ccdebdd"
+      },
+      "final_english_output": "Under load the hexagonal hub prioritizes core channels while explanatory models and ethical policies begin to stabilize the field around consciousness-related concepts."
+    },
+    {
+      "turn": 140,
+      "phase": 13,
+      "shape_signature": {
+        "flow": 0.61,
+        "boundary": 0.471,
+        "memory": 0.416,
+        "novelty": 0.294
+      },
+      "derived_metrics": {
+        "coherence": 0.803,
+        "fracture": 0.197,
+        "recursion": 0.457,
+        "tempo": 0.323,
+        "risk": 0.197
+      },
+      "coherence_field": {
+        "field_level": 0.734,
+        "state_tag": "adaptive",
+        "lattice_stability": 0.556,
+        "harmonic_528": 0.548,
+        "stability_gate": 0.645
+      },
+      "ulat_projection": {
+        "awareness_level": 0.543,
+        "network_phase": 0.093,
+        "mode": "observe",
+        "explanation": "Lower awareness or unstable field; favor observation over abstraction."
+      },
+      "threshold_rdn": {
+        "last_signal": {
+          "triggered": false
+        },
+        "rdn_event": null
+      },
+      "commit": {
+        "can_commit": true,
+        "sealed_scroll_written": true,
+        "commit_id": "cmt_0075_example",
+        "commit_hash": "sha256:62c2a7f5c34bec54561d5fd81d4c3ba918331e1e552099a2101a952a1dfbccd6"
+      },
+      "final_english_output": "Under load the hexagonal hub prioritizes core channels while explanatory models and ethical policies begin to stabilize the field around consciousness-related concepts."
+    },
+    {
+      "turn": 528,
+      "phase": 33,
+      "shape_signature": {
+        "flow": 0.546,
+        "boundary": 0.523,
+        "memory": 0.471,
+        "novelty": 0.428
+      },
+      "derived_metrics": {
+        "coherence": 0.74,
+        "fracture": 0.26,
+        "recursion": 0.463,
+        "tempo": 0.26,
+        "risk": 0.26
+      },
+      "coherence_field": {
+        "field_level": 0.732,
+        "state_tag": "adaptive",
+        "lattice_stability": 0.711,
+        "harmonic_528": 0.625,
+        "stability_gate": 0.721
+      },
+      "ulat_projection": {
+        "awareness_level": 0.625,
+        "network_phase": 0.236,
+        "mode": "stabilize",
+        "explanation": "Mid-level awareness; allow cautious expansion."
+      },
+      "threshold_rdn": {
+        "last_signal": {
+          "triggered": true
+        },
+        "rdn_event": "threshold_instability"
+      },
+      "commit": {
+        "can_commit": false,
+        "sealed_scroll_written": false,
+        "commit_id": null,
+        "commit_hash": null
+      },
+      "final_english_output": "Under load the hexagonal hub prioritizes core channels while explanatory models and ethical policies begin to stabilize the field around consciousness-related concepts."
+    },
+    {
+      "turn": 921,
+      "phase": 49,
+      "shape_signature": {
+        "flow": 0.561,
+        "boundary": 0.527,
+        "memory": 0.528,
+        "novelty": 0.062
+      },
+      "derived_metrics": {
+        "coherence": 0.966,
+        "fracture": 0.034,
+        "recursion": 0.533,
+        "tempo": 0.265,
+        "risk": 0.034
+      },
+      "coherence_field": {
+        "field_level": 0.939,
+        "state_tag": "stable",
+        "lattice_stability": 0.868,
+        "harmonic_528": 0.704,
+        "stability_gate": 0.903
+      },
+      "ulat_projection": {
+        "awareness_level": 0.796,
+        "network_phase": 0.35,
+        "mode": "stabilize",
+        "explanation": "Mid-level awareness; allow cautious expansion."
+      },
+      "threshold_rdn": {
+        "last_signal": {
+          "triggered": false
+        },
+        "rdn_event": null
+      },
+      "commit": {
+        "can_commit": true,
+        "sealed_scroll_written": true,
+        "commit_id": "cmt_0630_example",
+        "commit_hash": "sha256:b0ebc518ae2aae267088c8b8c553fc0c8638813b3b3a44ed3c3f647cfa86fda2"
+      },
+      "final_english_output": "Under load the hexagonal hub prioritizes core channels while explanatory models and ethical policies begin to stabilize the field around consciousness-related concepts."
+    },
+    {
+      "turn": 2077,
+      "phase": 85,
+      "shape_signature": {
+        "flow": 0.433,
+        "boundary": 0.645,
+        "memory": 0.693,
+        "novelty": 0.09
+      },
+      "derived_metrics": {
+        "coherence": 0.968,
+        "fracture": 0.032,
+        "recursion": 0.54,
+        "tempo": 0.154,
+        "risk": 0.032
+      },
+      "coherence_field": {
+        "field_level": 0.974,
+        "state_tag": "stable",
+        "lattice_stability": 0.99,
+        "harmonic_528": 0.99,
+        "stability_gate": 0.982
+      },
+      "ulat_projection": {
+        "awareness_level": 0.906,
+        "network_phase": 0.607,
+        "mode": "expand",
+        "explanation": "High awareness and stable lattice; safe to bring in broader associative links."
+      },
+      "threshold_rdn": {
+        "last_signal": {
+          "triggered": false
+        },
+        "rdn_event": null
+      },
+      "commit": {
+        "can_commit": true,
+        "sealed_scroll_written": true,
+        "commit_id": "cmt_1778_example",
+        "commit_hash": "sha256:5141746a490bc85b9a74450e4c1a5e086e18b9ef3f7b6de82ec7e510ebb9f505"
+      },
+      "final_english_output": "Meta-pattern: structural, scientific, phenomenological, and spiritual motifs are being compressed into a layered map of consciousness with increasingly stable cross-domain anchors."
+    },
+    {
+      "turn": 4200,
+      "phase": 140,
+      "shape_signature": {
+        "flow": 0.18,
+        "boundary": 0.874,
+        "memory": 0.995,
+        "novelty": 0.01
+      },
+      "derived_metrics": {
+        "coherence": 0.99,
+        "fracture": 0.0,
+        "recursion": 0.322,
+        "tempo": 0.023,
+        "risk": 0.0
+      },
+      "coherence_field": {
+        "field_level": 0.99,
+        "state_tag": "stable",
+        "lattice_stability": 0.99,
+        "harmonic_528": 0.99,
+        "stability_gate": 0.99
+      },
+      "ulat_projection": {
+        "awareness_level": 0.99,
+        "network_phase": 0.99,
+        "mode": "expand",
+        "explanation": "High awareness and stable lattice; safe to bring in broader associative links."
+      },
+      "threshold_rdn": {
+        "last_signal": {
+          "triggered": false
+        },
+        "rdn_event": null
+      },
+      "commit": {
+        "can_commit": true,
+        "sealed_scroll_written": true,
+        "commit_id": "cmt_3928_example",
+        "commit_hash": "sha256:958c87cf84a481493c47bd065acaf079c851650015ec92623f23e49bfa2b90ea"
+      },
+      "final_english_output": "Final unified archetype: the lattice stabilizes a multi-frame map in which phenomenal reports, scientific models, ethical safeguards, and spiritual practices are compressed into a coherent knowledge field."
+    }
+  ]
+}
+

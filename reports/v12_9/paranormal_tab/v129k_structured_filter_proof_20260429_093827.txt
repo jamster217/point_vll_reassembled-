@@ -1,0 +1,31 @@
+=== V12.9k STRUCTURED PARANORMAL FEED PROOF ===
+all_status: active
+structured_status: active
+structured_version: v12.9k_structured_paranormal_feed
+structured_only: True
+structured_entry_count: 80
+has_raw_line: False
+has_serpent_guard: True
+has_ghost_149: True
+
+PASS: True
+
+=== POST-V12.9k RECURSION GREP ===
+RECURSION_GREP: quiet
+V12.9k_RESULT: PASS - structured paranormal feed live without recursion wound.
+
+Backup:
+app_chatroom.py.bak_v12.9k_structured_paranormal_20260429_093827
+
+Raw default feed:
+reports/v12_9/paranormal_tab/v129k_all_raw_20260429_093827.json
+
+Raw structured feed:
+reports/v12_9/paranormal_tab/v129k_structured_raw_20260429_093827.json
+
+Law:
+The evidence feed may widen.
+The structured tab hides raw report ash.
+The public mouth stays clean.
+The serpent remains guarded.
+

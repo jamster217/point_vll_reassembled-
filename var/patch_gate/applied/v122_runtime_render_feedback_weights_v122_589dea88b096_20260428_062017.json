@@ -1,0 +1,47 @@
+{
+  "proposal": {
+    "proposal_id": "v122_runtime_render_feedback_weights_v122_589dea88b096",
+    "title": "Create render feedback weights from visual tag index",
+    "human_approved": true,
+    "ops": [
+      {
+        "op": "create",
+        "path": "runtime/render_feedback_weights_v122.py",
+        "overwrite": true,
+        "content": "from pathlib import Path\nimport json, time\n\nROOT = Path(__file__).resolve().parents[1]\nVISUAL_INDEX = ROOT / \"var\" / \"image_memory\" / \"visual_tag_index_v122.json\"\nRENDER_CONTEXT = ROOT / \"var\" / \"lattice\" / \"deep_visual_memory_state_v114.json\"\nOUT = ROOT / \"var\" / \"lattice\" / \"render_feedback_weights_v122.json\"\n\ndef _load(path, fallback=None):\n    try:\n        if Path(path).exists():\n            return json.loads(Path(path).read_text(encoding=\"utf-8\"))\n    except Exception:\n        pass\n    return fallback\n\ndef compute_weights():\n    index = _load(VISUAL_INDEX, {})\n    deep = _load(RENDER_CONTEXT, {})\n\n    ranked = index.get(\"ranked_tags\", []) if isinstance(index, dict) else []\n    weights = {}\n\n    for row in ranked[:24]:\n        tag = row.get(\"tag\")\n        weight = row.get(\"weight\", 1)\n        if tag:\n            weights[tag] = round(min(1.0, 0.10 + float(weight) / 20.0), 4)\n\n    for tag in [\"white_ash\", \"virellion\", \"echoforge\", \"thalveil\", \"anchor\"]:\n        weights[tag] = max(weights.get(tag, 0.0), 0.85)\n\n    packet = {\n        \"active\": True,\n        \"ts\": time.time(),\n        \"weights\": weights,\n        \"render_hints\": [\n            \"use higher weights to choose recurring visual anchors\",\n            \"preserve structural glyph continuity\",\n            \"do not convert inferred personal memory into confirmed fact\",\n        ],\n        \"law\": \"v122_render_feedback_weights_from_visual_index\",\n    }\n\n    OUT.parent.mkdir(parents=True, exist_ok=True)\n    OUT.write_text(json.dumps(packet, indent=2, ensure_ascii=False), encoding=\"utf-8\")\n    return packet\n\nif __name__ == \"__main__\":\n    print(json.dumps(compute_weights(), indent=2, ensure_ascii=False))\n"
+      }
+    ],
+    "compile": [
+      "runtime/render_feedback_weights_v122.py"
+    ],
+    "reason": "Diversify rapid self-improvement proposals so V12.1 does not repeat the same patch fingerprint.",
+    "target_file": "runtime/render_feedback_weights_v122.py",
+    "law": "v122_diversified_patch_proposal_writer",
+    "auto_approved_by_v122": true,
+    "auto_rule": "diversified_writer_plus_judge_total>=0.90"
+  },
+  "result": {
+    "ts": 1777382417.0971072,
+    "proposal_path": "/data/data/com.termux/files/home/point_vll_reassembled/var/patch_gate/proposals/v122_runtime_render_feedback_weights_v122_589dea88b096.json",
+    "status": "applied",
+    "backups": [
+      {
+        "path": "runtime/render_feedback_weights_v122.py",
+        "backup": null,
+        "existed": false
+      }
+    ],
+    "changed": [
+      "runtime/render_feedback_weights_v122.py"
+    ],
+    "compiled": [
+      "runtime/render_feedback_weights_v122.py",
+      "app_chatroom.py"
+    ],
+    "error": null,
+    "law": "v116_controlled_patch_gate_backup_apply_compile_revert",
+    "proposal_id": "v122_runtime_render_feedback_weights_v122_589dea88b096",
+    "title": "Create render feedback weights from visual tag index"
+  }
+}
+

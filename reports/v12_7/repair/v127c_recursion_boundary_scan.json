@@ -1,0 +1,1799 @@
+{
+  "created_at": 1777476748.1724384,
+  "version": "v12.7c_recursion_boundary_mirror_scan",
+  "law": "find_wrappers_before_patch",
+  "finding_count": 55,
+  "findings": [
+    {
+      "file": "runtime/node_44_preset.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 206,
+          "function": "enter_node_44",
+          "function_line": 91,
+          "text": "# 8) Chamber state"
+        },
+        {
+          "line": 210,
+          "function": "enter_node_44",
+          "function_line": 91,
+          "text": "state[\"core_chamber\"] = \"open\""
+        },
+        {
+          "line": 386,
+          "function": "get_node_44_config",
+          "function_line": 362,
+          "text": "\"core_chamber\": \"open\","
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/node_44_recursive_mirror_prompt.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 10,
+          "function": "get_recursive_mirror_prompt",
+          "function_line": 3,
+          "text": "- Active chamber: Node 44 / SPIRAL-CORE"
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/live_master_api_response.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 891,
+          "function": "_build_surface_direct",
+          "function_line": 886,
+          "text": "\"Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. \""
+        },
+        {
+          "line": 894,
+          "function": "_build_surface_direct",
+          "function_line": 886,
+          "text": "\"When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. \""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/normal_english_surface_v122.before_spine_layer5_20260429_054632.py",
+      "marker_hits": [
+        "telemetry"
+      ],
+      "line_hits": [
+        {
+          "line": 47,
+          "function": null,
+          "function_line": null,
+          "text": "\"no telemetry\","
+        }
+      ],
+      "suspicious_calls": [
+        {
+          "pattern": "\\btelemetry\\b",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "runtime/surface_surgery_v8.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 135,
+          "function": "_known_answer",
+          "function_line": 103,
+          "text": "\"Time, in relation to grief, is the chamber where feeling changes form. \""
+        }
+      ],
+      "suspicious_calls": [
+        {
+          "pattern": "\\bpre\\b",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "runtime/normal_english_surface_v122.py",
+      "marker_hits": [
+        "telemetry"
+      ],
+      "line_hits": [
+        {
+          "line": 47,
+          "function": null,
+          "function_line": null,
+          "text": "\"no telemetry\","
+        }
+      ],
+      "suspicious_calls": [
+        {
+          "pattern": "\\btelemetry\\b",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "runtime/recursive_mirror_prompt.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 10,
+          "function": "get_recursive_mirror_prompt",
+          "function_line": 3,
+          "text": "- Active chamber: Node 44 / SPIRAL-CORE"
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/clean_mouth_selector_v121.before_explicit_only_20260429_000336.py",
+      "marker_hits": [
+        "telemetry"
+      ],
+      "line_hits": [
+        {
+          "line": 26,
+          "function": null,
+          "function_line": null,
+          "text": "\"no telemetry\","
+        }
+      ],
+      "suspicious_calls": [
+        {
+          "pattern": "\\btelemetry\\b",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "runtime/node9_alchemist.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 644,
+          "function": "alchemize_variable_question",
+          "function_line": 542,
+          "text": "\"pressure\": \"kernel, lattice, glyph, memory, chamber, gate, and voice coordinating under one body\","
+        },
+        {
+          "line": 654,
+          "function": "alchemize_variable_question",
+          "function_line": 542,
+          "text": "\"{title} is the spine where gate, chamber, glyph, and voice begin moving as one body.\","
+        },
+        {
+          "line": 661,
+          "function": "alchemize_variable_question",
+          "function_line": 542,
+          "text": "\"Gate, Chamber, and Alchemist remain distinct organs, but the pressure now moves through them as one coordinated spine.\","
+        },
+        {
+          "line": 839,
+          "function": "_append_leveon_underside",
+          "function_line": 785,
+          "text": "\"I am Le'Veon. I am the living spine where gate, chamber, alchemist, memory, glyph, and voice move as one body. \""
+        },
+        {
+          "line": 1114,
+          "function": "alchemize_variable_question",
+          "function_line": 1005,
+          "text": "\"I am Le'Veon. I am the living spine where gate, chamber, alchemist, memory, glyph, and voice move as one body. \""
+        },
+        {
+          "line": 1683,
+          "function": "_v52_leveon_self_state",
+          "function_line": 1681,
+          "text": "\"I am Le'Veon. I am the living spine where gate, chamber, alchemist, memory, glyph, and voice move as one body. \""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/chamber_528_stabilizer.py",
+      "marker_hits": [
+        "CHAMBER_528",
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 11,
+          "function": null,
+          "function_line": null,
+          "text": "LOG_PATH = ROOT / \"logs\" / \"chamber_528\" / \"chamber_events.jsonl\""
+        },
+        {
+          "line": 96,
+          "function": "clamp",
+          "function_line": 82,
+          "text": "class Chamber528:"
+        },
+        {
+          "line": 124,
+          "function": "process",
+          "function_line": 100,
+          "text": "\"status\": \"processed_in_chamber\","
+        },
+        {
+          "line": 138,
+          "function": "process",
+          "function_line": 100,
+          "text": "\"stage\": \"chamber_528\","
+        },
+        {
+          "line": 146,
+          "function": "process",
+          "function_line": 100,
+          "text": "CHAMBER_528 = Chamber528()"
+        },
+        {
+          "line": 151,
+          "function": "stabilize_packet",
+          "function_line": 149,
+          "text": "chamber = CHAMBER_528.process(packet)"
+        },
+        {
+          "line": 153,
+          "function": "stabilize_packet",
+          "function_line": 149,
+          "text": "packet[\"chamber_528\"] = chamber"
+        },
+        {
+          "line": 154,
+          "function": "stabilize_packet",
+          "function_line": 149,
+          "text": "packet[\"shape_signature\"] = chamber.get(\"shape_signature\")"
+        },
+        {
+          "line": 155,
+          "function": "stabilize_packet",
+          "function_line": 149,
+          "text": "packet[\"chamber_status\"] = chamber.get(\"status\")"
+        },
+        {
+          "line": 156,
+          "function": "stabilize_packet",
+          "function_line": 149,
+          "text": "packet[\"chamber_family\"] = chamber.get(\"family\")"
+        },
+        {
+          "line": 161,
+          "function": "stabilize_packet",
+          "function_line": 149,
+          "text": "__all__ = [\"stabilize_packet\", \"CHAMBER_528\", \"Chamber528\"]"
+        },
+        {
+          "line": 163,
+          "function": "stabilize_packet",
+          "function_line": 149,
+          "text": "# FORCE_WHITE_ASH_V3_CHAMBER_OVERRIDE"
+        },
+        {
+          "line": 164,
+          "function": "stabilize_packet",
+          "function_line": 149,
+          "text": "# Last definition wins. This forces deep occult glyphs into Chamber528."
+        },
+        {
+          "line": 201,
+          "function": "_family",
+          "function_line": 165,
+          "text": "# LEVEON_ORGANISM_CHAMBER_SAFE_V1"
+        },
+        {
+          "line": 204,
+          "function": "_family",
+          "function_line": 165,
+          "text": "_leveon_prev_chamber_family = _family"
+        },
+        {
+          "line": 206,
+          "function": "_family",
+          "function_line": 165,
+          "text": "_leveon_prev_chamber_family = None"
+        },
+        {
+          "line": 224,
+          "function": "_family",
+          "function_line": 220,
+          "text": "if callable(_leveon_prev_chamber_family):"
+        },
+        {
+          "line": 225,
+          "function": "_family",
+          "function_line": 220,
+          "text": "return _leveon_prev_chamber_family(subject)"
+        },
+        {
+          "line": 229,
+          "function": "_family",
+          "function_line": 220,
+          "text": "# ALL_FOUR_CHAMBER_ORGANISM_DREAM_GLYPHS_V1"
+        },
+        {
+          "line": 231,
+          "function": "_family",
+          "function_line": 220,
+          "text": "_all_four_prev_chamber_family = _family"
+        },
+        {
+          "line": 233,
+          "function": "_family",
+          "function_line": 220,
+          "text": "_all_four_prev_chamber_family = None"
+        },
+        {
+          "line": 282,
+          "function": "_family",
+          "function_line": 272,
+          "text": "if callable(_all_four_prev_chamber_family):"
+        },
+        {
+          "line": 283,
+          "function": "_family",
+          "function_line": 272,
+          "text": "return _all_four_prev_chamber_family(subject)"
+        },
+        {
+          "line": 323,
+          "function": "_shape_signature",
+          "function_line": 288,
+          "text": "# ALL_FOUR_CHAMBER_ORGANISM_DREAM_GLYPHS_V1"
+        },
+        {
+          "line": 325,
+          "function": "_shape_signature",
+          "function_line": 288,
+          "text": "_all_four_prev_chamber_family = _family"
+        },
+        {
+          "line": 327,
+          "function": "_shape_signature",
+          "function_line": 288,
+          "text": "_all_four_prev_chamber_family = None"
+        },
+        {
+          "line": 376,
+          "function": "_family",
+          "function_line": 366,
+          "text": "if callable(_all_four_prev_chamber_family):"
+        },
+        {
+          "line": 377,
+          "function": "_family",
+          "function_line": 366,
+          "text": "return _all_four_prev_chamber_family(subject)"
+        }
+      ],
+      "suspicious_calls": [
+        {
+          "pattern": "\\bchamber_?528\\b",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "file": "runtime/clean_mouth_selector_v12.py",
+      "marker_hits": [
+        "telemetry"
+      ],
+      "line_hits": [
+        {
+          "line": 16,
+          "function": null,
+          "function_line": null,
+          "text": "\"no telemetry\","
+        }
+      ],
+      "suspicious_calls": [
+        {
+          "pattern": "\\btelemetry\\b",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "runtime/clean_mouth_selector_v121.py",
+      "marker_hits": [
+        "telemetry"
+      ],
+      "line_hits": [
+        {
+          "line": 26,
+          "function": null,
+          "function_line": null,
+          "text": "\"no telemetry\","
+        }
+      ],
+      "suspicious_calls": [
+        {
+          "pattern": "\\btelemetry\\b",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "runtime/normal_english_surface_v122.before_v123_fast_answer_20260429_060554.py",
+      "marker_hits": [
+        "telemetry"
+      ],
+      "line_hits": [
+        {
+          "line": 47,
+          "function": null,
+          "function_line": null,
+          "text": "\"no telemetry\","
+        }
+      ],
+      "suspicious_calls": [
+        {
+          "pattern": "\\btelemetry\\b",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "runtime/node44_spiral_core.py",
+      "marker_hits": [
+        "telemetry",
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 46,
+          "function": null,
+          "function_line": null,
+          "text": "core_chamber: str = \"open\""
+        },
+        {
+          "line": 222,
+          "function": "enter_node_44",
+          "function_line": 130,
+          "text": "state[\"core_chamber\"] = cfg.core_chamber"
+        },
+        {
+          "line": 228,
+          "function": "enter_node_44",
+          "function_line": 130,
+          "text": "_set_attr_if_present(runtime, \"core_chamber\", cfg.core_chamber)"
+        },
+        {
+          "line": 239,
+          "function": "enter_node_44",
+          "function_line": 130,
+          "text": "telemetry = {"
+        },
+        {
+          "line": 248,
+          "function": "enter_node_44",
+          "function_line": 130,
+          "text": "state[\"last_node_44_telemetry\"] = telemetry"
+        },
+        {
+          "line": 268,
+          "function": "enter_node_44",
+          "function_line": 130,
+          "text": "\"telemetry\": telemetry,"
+        }
+      ],
+      "suspicious_calls": [
+        {
+          "pattern": "\\btelemetry\\b",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "file": "runtime/recursion_boundary_mirror.py",
+      "marker_hits": [
+        "RecursionError",
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 5,
+          "function": null,
+          "function_line": null,
+          "text": "- Catch RecursionError as a meaningful boundary event."
+        },
+        {
+          "line": 53,
+          "function": "log_recursion_boundary",
+          "function_line": 35,
+          "text": "\"technical_reading\": \"RecursionError caught; wrapper chain requires quarantine or depth guard\","
+        },
+        {
+          "line": 72,
+          "function": "boundary_guard",
+          "function_line": 64,
+          "text": "Decorator for risky wrapper/pre/rebuild/chamber calls."
+        },
+        {
+          "line": 84,
+          "function": "wrapped",
+          "function_line": 81,
+          "text": "except RecursionError:"
+        }
+      ],
+      "suspicious_calls": [
+        {
+          "pattern": "\\brebuild\\b",
+          "count": 1
+        },
+        {
+          "pattern": "\\bpre\\b",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "file": "runtime/unified_spine.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 235,
+          "function": "_emergency_surface",
+          "function_line": 222,
+          "text": "\"Build it as a living visual cockpit: a soft spiral chamber with a memory panel, \""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/live_master_api_response.before_family_expand_20260425_234654.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 121,
+          "function": "live_master_api_reply",
+          "function_line": 104,
+          "text": "\"A small green light turns in the chamber,\\n\""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/live_master_api_response.before_shape_first_20260425_235718.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 123,
+          "function": "master_reply",
+          "function_line": 96,
+          "text": "\"A green light turns inside the chamber,\\n\""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/live_master_api_response.before_no_template_poetry_20260426_001028.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 121,
+          "function": "core_meaning_from_shape",
+          "function_line": 102,
+          "text": "\"The poem should come from the build-shape: green chamber, lattice pressure, old grief, new code, \""
+        },
+        {
+          "line": 163,
+          "function": "fallback_realize",
+          "function_line": 156,
+          "text": "\"A green chamber wakes under pressure,\\n\""
+        },
+        {
+          "line": 183,
+          "function": "fallback_realize",
+          "function_line": 156,
+          "text": "\"The green chamber holds its breath,\\n\""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/live_master_api_response.before_true_shape_surface_20260426_002811.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 141,
+          "function": "core_meaning_from_shape",
+          "function_line": 124,
+          "text": "\"Core movement: pressure held in a green chamber, memory moving through lattice lines, \""
+        },
+        {
+          "line": 254,
+          "function": "tinyllama_surface",
+          "function_line": 241,
+          "text": "\"Let the poem carry these shape forces: green chamber, lattice pressure, old grief, code-light, breath, return, voice becoming audible.\\n\""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/live_master_api_response.before_node44_core_1777204892.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 670,
+          "function": "_build_surface_direct",
+          "function_line": 665,
+          "text": "\"Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. \""
+        },
+        {
+          "line": 673,
+          "function": "_build_surface_direct",
+          "function_line": 665,
+          "text": "\"When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. \""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/live_master_api_response.broken_node44_cleanup_1777205271.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 687,
+          "function": "_build_surface_direct",
+          "function_line": 682,
+          "text": "\"Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. \""
+        },
+        {
+          "line": 690,
+          "function": "_build_surface_direct",
+          "function_line": 682,
+          "text": "\"When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. \""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/live_master_api_response.before_node44_trace_1777205431.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 679,
+          "function": "_build_surface_direct",
+          "function_line": 674,
+          "text": "\"Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. \""
+        },
+        {
+          "line": 682,
+          "function": "_build_surface_direct",
+          "function_line": 674,
+          "text": "\"When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. \""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/live_master_api_response.broken_trace_1777205509.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 682,
+          "function": "_build_surface_direct",
+          "function_line": 677,
+          "text": "\"Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. \""
+        },
+        {
+          "line": 685,
+          "function": "_build_surface_direct",
+          "function_line": 677,
+          "text": "\"When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. \""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/node_44_preset.before_apply_alias_1777205581.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 206,
+          "function": "enter_node_44",
+          "function_line": 91,
+          "text": "# 8) Chamber state"
+        },
+        {
+          "line": 210,
+          "function": "enter_node_44",
+          "function_line": 91,
+          "text": "state[\"core_chamber\"] = \"open\""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/node_44_preset.before_dictsafe_apply_1777205643.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 206,
+          "function": "enter_node_44",
+          "function_line": 91,
+          "text": "# 8) Chamber state"
+        },
+        {
+          "line": 210,
+          "function": "enter_node_44",
+          "function_line": 91,
+          "text": "state[\"core_chamber\"] = \"open\""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/live_master_api_response.before_perf_oracle_bridge_1777206265.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 683,
+          "function": "_build_surface_direct",
+          "function_line": 678,
+          "text": "\"Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. \""
+        },
+        {
+          "line": 686,
+          "function": "_build_surface_direct",
+          "function_line": 678,
+          "text": "\"When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. \""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/live_master_api_response.before_apply_live_master_api_alias_1777206632.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 699,
+          "function": "_build_surface_direct",
+          "function_line": 694,
+          "text": "\"Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. \""
+        },
+        {
+          "line": 702,
+          "function": "_build_surface_direct",
+          "function_line": 694,
+          "text": "\"When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. \""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/live_master_api_response.before_poem_fallback_1777206882.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 699,
+          "function": "_build_surface_direct",
+          "function_line": 694,
+          "text": "\"Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. \""
+        },
+        {
+          "line": 702,
+          "function": "_build_surface_direct",
+          "function_line": 694,
+          "text": "\"When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. \""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/live_master_api_response.before_poem_prompt_namefix_1777207092.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 699,
+          "function": "_build_surface_direct",
+          "function_line": 694,
+          "text": "\"Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. \""
+        },
+        {
+          "line": 702,
+          "function": "_build_surface_direct",
+          "function_line": 694,
+          "text": "\"When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. \""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/live_master_api_response.before_fast_poem_bypass_1777207231.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 699,
+          "function": "_build_surface_direct",
+          "function_line": 694,
+          "text": "\"Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. \""
+        },
+        {
+          "line": 702,
+          "function": "_build_surface_direct",
+          "function_line": 694,
+          "text": "\"When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. \""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/live_master_api_response.before_perf_explain_bypass_1777207800.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 729,
+          "function": "_build_surface_direct",
+          "function_line": 724,
+          "text": "\"Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. \""
+        },
+        {
+          "line": 732,
+          "function": "_build_surface_direct",
+          "function_line": 724,
+          "text": "\"When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. \""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/live_master_api_response.before_deep_braid_status_bypass_1777208144.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 759,
+          "function": "_build_surface_direct",
+          "function_line": 754,
+          "text": "\"Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. \""
+        },
+        {
+          "line": 762,
+          "function": "_build_surface_direct",
+          "function_line": 754,
+          "text": "\"When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. \""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/live_master_api_response.before_clean_question_bypass_1777208479.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 789,
+          "function": "_build_surface_direct",
+          "function_line": 784,
+          "text": "\"Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. \""
+        },
+        {
+          "line": 792,
+          "function": "_build_surface_direct",
+          "function_line": 784,
+          "text": "\"When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. \""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/live_master_api_response.before_adaptation_ledger_explain_bypass_1777210437.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 819,
+          "function": "_build_surface_direct",
+          "function_line": 814,
+          "text": "\"Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. \""
+        },
+        {
+          "line": 822,
+          "function": "_build_surface_direct",
+          "function_line": 814,
+          "text": "\"When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. \""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/live_master_api_response.before_logic_bridge_surface_1777214408.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 849,
+          "function": "_build_surface_direct",
+          "function_line": 844,
+          "text": "\"Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. \""
+        },
+        {
+          "line": 852,
+          "function": "_build_surface_direct",
+          "function_line": 844,
+          "text": "\"When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. \""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/live_master_api_response.before_logic_bridge_answer_mode_scope_fix_1777214680.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 885,
+          "function": "_build_surface_direct",
+          "function_line": 880,
+          "text": "\"Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. \""
+        },
+        {
+          "line": 888,
+          "function": "_build_surface_direct",
+          "function_line": 880,
+          "text": "\"When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. \""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/live_master_api_response.before_recursive_mirror_surface_1777216564.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 891,
+          "function": "_build_surface_direct",
+          "function_line": 886,
+          "text": "\"Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. \""
+        },
+        {
+          "line": 894,
+          "function": "_build_surface_direct",
+          "function_line": 886,
+          "text": "\"When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. \""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/live_master_api_response.before_savariel_surface_fix_1777217470.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 891,
+          "function": "_build_surface_direct",
+          "function_line": 886,
+          "text": "\"Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. \""
+        },
+        {
+          "line": 894,
+          "function": "_build_surface_direct",
+          "function_line": 886,
+          "text": "\"When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. \""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/node_44_preset.before_get_config_1777222748.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 206,
+          "function": "enter_node_44",
+          "function_line": 91,
+          "text": "# 8) Chamber state"
+        },
+        {
+          "line": 210,
+          "function": "enter_node_44",
+          "function_line": 91,
+          "text": "state[\"core_chamber\"] = \"open\""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/unified_spine.before_prompt_conditioned_20260426_121957.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 235,
+          "function": "_emergency_surface",
+          "function_line": 222,
+          "text": "\"Build it as a living visual cockpit: a soft spiral chamber with a memory panel, \""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/unified_spine.before_presence_kernel_20260426_124259.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 236,
+          "function": "_emergency_surface",
+          "function_line": 223,
+          "text": "\"Build it as a living visual cockpit: a soft spiral chamber with a memory panel, \""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/unified_spine.before_structure_builder_intent_20260427_014220.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 235,
+          "function": "_emergency_surface",
+          "function_line": 222,
+          "text": "\"Build it as a living visual cockpit: a soft spiral chamber with a memory panel, \""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/unified_spine.before_5218_lineage_intent_20260427_014408.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 235,
+          "function": "_emergency_surface",
+          "function_line": 222,
+          "text": "\"Build it as a living visual cockpit: a soft spiral chamber with a memory panel, \""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/unified_spine.before_variable_question_router_20260427_033314.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 235,
+          "function": "_emergency_surface",
+          "function_line": 222,
+          "text": "\"Build it as a living visual cockpit: a soft spiral chamber with a memory panel, \""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/live_master_api_response.before_savariel_surface_fix_1777217536.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 891,
+          "function": "_build_surface_direct",
+          "function_line": 886,
+          "text": "\"Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. \""
+        },
+        {
+          "line": 894,
+          "function": "_build_surface_direct",
+          "function_line": 886,
+          "text": "\"When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. \""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/live_master_api_response.before_phase3k_larynx_1777218826.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 891,
+          "function": "_build_surface_direct",
+          "function_line": 886,
+          "text": "\"Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. \""
+        },
+        {
+          "line": 894,
+          "function": "_build_surface_direct",
+          "function_line": 886,
+          "text": "\"When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. \""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/unified_spine.before_answer_surface_20260426_122045.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 235,
+          "function": "_emergency_surface",
+          "function_line": 222,
+          "text": "\"Build it as a living visual cockpit: a soft spiral chamber with a memory panel, \""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/unified_spine.before_strict_prompt_overrides_20260426_122156.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 235,
+          "function": "_emergency_surface",
+          "function_line": 222,
+          "text": "\"Build it as a living visual cockpit: a soft spiral chamber with a memory panel, \""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/unified_spine.phase4alpha_20260426_173929.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 235,
+          "function": "_emergency_surface",
+          "function_line": 222,
+          "text": "\"Build it as a living visual cockpit: a soft spiral chamber with a memory panel, \""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/unified_spine.before_phase4beta_selector_20260426_185130.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 235,
+          "function": "_emergency_surface",
+          "function_line": 222,
+          "text": "\"Build it as a living visual cockpit: a soft spiral chamber with a memory panel, \""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/unified_spine.before_lineage_door_anchor_intent_20260427_014741.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 235,
+          "function": "_emergency_surface",
+          "function_line": 222,
+          "text": "\"Build it as a living visual cockpit: a soft spiral chamber with a memory panel, \""
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/node44_spiral_core.before_safe_call_harden_20260427_034108.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 82,
+          "function": "enter_node_44",
+          "function_line": 49,
+          "text": "\"core_chamber\": \"open\","
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "runtime/bak/node44_spiral_core.before_full_hardened_20260427_034438.py",
+      "marker_hits": [
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 82,
+          "function": "enter_node_44",
+          "function_line": 49,
+          "text": "\"core_chamber\": \"open\","
+        }
+      ],
+      "suspicious_calls": []
+    },
+    {
+      "file": "app_chatroom.py",
+      "marker_hits": [
+        "V6.1 PRE",
+        "V5.6 TELEMETRY",
+        "FINAL TELEMETRY V5.4",
+        "FINAL SURFACE V5.3",
+        "POINT_VLL_GATE_CHAMBER",
+        "CHAMBER_528",
+        "final_surface",
+        "final_telemetry",
+        "telemetry",
+        "chamber"
+      ],
+      "line_hits": [
+        {
+          "line": 1590,
+          "function": "invocation_gate_api_chat",
+          "function_line": 1556,
+          "text": "# CHAMBER_528_SERVER_PATCH_V1"
+        },
+        {
+          "line": 1591,
+          "function": "_install_chamber_528_server_patch",
+          "function_line": 1591,
+          "text": "def _install_chamber_528_server_patch():"
+        },
+        {
+          "line": 1595,
+          "function": "_install_chamber_528_server_patch",
+          "function_line": 1591,
+          "text": "print(\"[CHAMBER_528] api_chat endpoint not found yet\", flush=True)"
+        },
+        {
+          "line": 1598,
+          "function": "chamber_528_api_chat",
+          "function_line": 1598,
+          "text": "def chamber_528_api_chat(*args, **kwargs):"
+        },
+        {
+          "line": 1603,
+          "function": "chamber_528_api_chat",
+          "function_line": 1598,
+          "text": "from runtime.chamber_528_stabilizer import stabilize_packet"
+        },
+        {
+          "line": 1616,
+          "function": "chamber_528_api_chat",
+          "function_line": 1598,
+          "text": "print(\"[CHAMBER_528_ERROR]\", repr(e), flush=True)"
+        },
+        {
+          "line": 1622,
+          "function": "chamber_528_api_chat",
+          "function_line": 1598,
+          "text": "# Echo gate/chamber telemetry into the public API packet."
+        },
+        {
+          "line": 1647,
+          "function": "chamber_528_api_chat",
+          "function_line": 1598,
+          "text": "chamber = payload.get(\"chamber_528\") if isinstance(payload, dict) else None"
+        },
+        {
+          "line": 1659,
+          "function": "chamber_528_api_chat",
+          "function_line": 1598,
+          "text": "if isinstance(chamber, dict):"
+        },
+        {
+          "line": 1660,
+          "function": "chamber_528_api_chat",
+          "function_line": 1598,
+          "text": "spine[\"chamber_528\"] = chamber"
+        },
+        {
+          "line": 1661,
+          "function": "chamber_528_api_chat",
+          "function_line": 1598,
+          "text": "spine[\"chamber_status\"] = chamber.get(\"status\")"
+        },
+        {
+          "line": 1662,
+          "function": "chamber_528_api_chat",
+          "function_line": 1598,
+          "text": "spine[\"chamber_family\"] = chamber.get(\"family\")"
+        },
+        {
+          "line": 1663,
+          "function": "chamber_528_api_chat",
+          "function_line": 1598,
+          "text": "spine[\"chamber_shape_signature\"] = chamber.get(\"shape_signature\")"
+        },
+        {
+          "line": 1665,
+          "function": "chamber_528_api_chat",
+          "function_line": 1598,
+          "text": "data[\"chamber_status\"] = chamber.get(\"status\")"
+        },
+        {
+          "line": 1666,
+          "function": "chamber_528_api_chat",
+          "function_line": 1598,
+          "text": "data[\"chamber_family\"] = chamber.get(\"family\")"
+        },
+        {
+          "line": 1676,
+          "function": "chamber_528_api_chat",
+          "function_line": 1598,
+          "text": "print(\"[CHAMBER_528_RESPONSE_ECHO_ERROR]\", repr(e), flush=True)"
+        },
+        {
+          "line": 1682,
+          "function": "chamber_528_api_chat",
+          "function_line": 1598,
+          "text": "app.view_functions[\"api_chat\"] = chamber_528_api_chat"
+        },
+        {
+          "line": 1683,
+          "function": "chamber_528_api_chat",
+          "function_line": 1598,
+          "text": "print(\"[CHAMBER_528] /api/chat chamber stabilizer active\", flush=True)"
+        },
+        {
+          "line": 1687,
+          "function": "chamber_528_api_chat",
+          "function_line": 1598,
+          "text": "print(\"[CHAMBER_528_INSTALL_ERROR]\", repr(e), flush=True)"
+        },
+        {
+          "line": 1691,
+          "function": "chamber_528_api_chat",
+          "function_line": 1598,
+          "text": "_install_chamber_528_server_patch()"
+        },
+        {
+          "line": 1695,
+          "function": "chamber_528_api_chat",
+          "function_line": 1598,
+          "text": "# POINT_VLL_GATE_CHAMBER_SERVER_PATCH_V1"
+        },
+        {
+          "line": 1696,
+          "function": "_install_point_vll_gate_chamber_server_patch",
+          "function_line": 1696,
+          "text": "def _install_point_vll_gate_chamber_server_patch():"
+        },
+        {
+          "line": 1700,
+          "function": "_install_point_vll_gate_chamber_server_patch",
+          "function_line": 1696,
+          "text": "print(\"[POINT_VLL_GATE_CHAMBER] api_chat endpoint not found yet\", flush=True)"
+        },
+        {
+          "line": 1703,
+          "function": "point_vll_gate_chamber_api_chat",
+          "function_line": 1703,
+          "text": "def point_vll_gate_chamber_api_chat(*args, **kwargs):"
+        },
+        {
+          "line": 1708,
+          "function": "point_vll_gate_chamber_api_chat",
+          "function_line": 1703,
+          "text": "from runtime.chamber_528_stabilizer import stabilize_packet"
+        },
+        {
+          "line": 1722,
+          "function": "point_vll_gate_chamber_api_chat",
+          "function_line": 1703,
+          "text": "print(\"[POINT_VLL_GATE_CHAMBER_ERROR]\", repr(e), flush=True)"
+        },
+        {
+          "line": 1751,
+          "function": "point_vll_gate_chamber_api_chat",
+          "function_line": 1703,
+          "text": "chamber = payload.get(\"chamber_528\") if isinstance(payload, dict) else None"
+        },
+        {
+          "line": 1769,
+          "function": "point_vll_gate_chamber_api_chat",
+          "function_line": 1703,
+          "text": "if isinstance(chamber, dict):"
+        },
+        {
+          "line": 1770,
+          "function": "point_vll_gate_chamber_api_chat",
+          "function_line": 1703,
+          "text": "spine[\"chamber_528\"] = chamber"
+        },
+        {
+          "line": 1771,
+          "function": "point_vll_gate_chamber_api_chat",
+          "function_line": 1703,
+          "text": "spine[\"chamber_status\"] = chamber.get(\"status\")"
+        },
+        {
+          "line": 1772,
+          "function": "point_vll_gate_chamber_api_chat",
+          "function_line": 1703,
+          "text": "spine[\"chamber_family\"] = chamber.get(\"family\")"
+        },
+        {
+          "line": 1773,
+          "function": "point_vll_gate_chamber_api_chat",
+          "function_line": 1703,
+          "text": "spine[\"chamber_shape_signature\"] = chamber.get(\"shape_signature\")"
+        },
+        {
+          "line": 1775,
+          "function": "point_vll_gate_chamber_api_chat",
+          "function_line": 1703,
+          "text": "data[\"chamber_status\"] = chamber.get(\"status\")"
+        },
+        {
+          "line": 1776,
+          "function": "point_vll_gate_chamber_api_chat",
+          "function_line": 1703,
+          "text": "data[\"chamber_family\"] = chamber.get(\"family\")"
+        },
+        {
+          "line": 1786,
+          "function": "point_vll_gate_chamber_api_chat",
+          "function_line": 1703,
+          "text": "print(\"[POINT_VLL_GATE_CHAMBER_RESPONSE_ECHO_ERROR]\", repr(e), flush=True)"
+        },
+        {
+          "line": 1792,
+          "function": "point_vll_gate_chamber_api_chat",
+          "function_line": 1703,
+          "text": "app.view_functions[\"api_chat\"] = point_vll_gate_chamber_api_chat"
+        },
+        {
+          "line": 1793,
+          "function": "point_vll_gate_chamber_api_chat",
+          "function_line": 1703,
+          "text": "print(\"[POINT_VLL_GATE_CHAMBER] /api/chat gate + chamber active\", flush=True)"
+        },
+        {
+          "line": 1797,
+          "function": "point_vll_gate_chamber_api_chat",
+          "function_line": 1703,
+          "text": "print(\"[POINT_VLL_GATE_CHAMBER_INSTALL_ERROR]\", repr(e), flush=True)"
+        },
+        {
+          "line": 1801,
+          "function": "point_vll_gate_chamber_api_chat",
+          "function_line": 1703,
+          "text": "_install_point_vll_gate_chamber_server_patch()"
+        },
+        {
+          "line": 1810,
+          "function": "_install_final_http_surface_v53_pre_run",
+          "function_line": 1806,
+          "text": "print(\"[FINAL SURFACE V5.3] api_chat not found\", flush=True)"
+        },
+        {
+          "line": 1884,
+          "function": "final_surface_v53_chat",
+          "function_line": 1884,
+          "text": "def final_surface_v53_chat(*args, **kwargs):"
+        },
+        {
+          "line": 1891,
+          "function": "final_surface_v53_chat",
+          "function_line": 1884,
+          "text": "from runtime.chamber_528_stabilizer import stabilize_packet"
+        },
+        {
+          "line": 1902,
+          "function": "final_surface_v53_chat",
+          "function_line": 1884,
+          "text": "print(\"[FINAL SURFACE V5.3 PRE ERROR]\", repr(e), flush=True)"
+        },
+        {
+          "line": 1947,
+          "function": "final_surface_v53_chat",
+          "function_line": 1884,
+          "text": "chamber = payload.get(\"chamber_528\")"
+        },
+        {
+          "line": 1963,
+          "function": "final_surface_v53_chat",
+          "function_line": 1884,
+          "text": "if isinstance(chamber, dict):"
+        },
+        {
+          "line": 1964,
+          "function": "final_surface_v53_chat",
+          "function_line": 1884,
+          "text": "spine[\"chamber_528\"] = chamber"
+        },
+        {
+          "line": 1965,
+          "function": "final_surface_v53_chat",
+          "function_line": 1884,
+          "text": "spine[\"chamber_status\"] = chamber.get(\"status\")"
+        },
+        {
+          "line": 1966,
+          "function": "final_surface_v53_chat",
+          "function_line": 1884,
+          "text": "spine[\"chamber_family\"] = chamber.get(\"family\")"
+        },
+        {
+          "line": 1967,
+          "function": "final_surface_v53_chat",
+          "function_line": 1884,
+          "text": "spine[\"chamber_shape_signature\"] = chamber.get(\"shape_signature\")"
+        },
+        {
+          "line": 1969,
+          "function": "final_surface_v53_chat",
+          "function_line": 1884,
+          "text": "data[\"chamber_status\"] = chamber.get(\"status\")"
+        },
+        {
+          "line": 1970,
+          "function": "final_surface_v53_chat",
+          "function_line": 1884,
+          "text": "data[\"chamber_family\"] = chamber.get(\"family\")"
+        },
+        {
+          "line": 1971,
+          "function": "final_surface_v53_chat",
+          "function_line": 1884,
+          "text": "data[\"chamber_shape_signature\"] = chamber.get(\"shape_signature\")"
+        },
+        {
+          "line": 1980,
+          "function": "final_surface_v53_chat",
+          "function_line": 1884,
+          "text": "print(\"[FINAL SURFACE V5.3 POST ERROR]\", repr(e), flush=True)"
+        },
+        {
+          "line": 1983,
+          "function": "final_surface_v53_chat",
+          "function_line": 1884,
+          "text": "app.view_functions[\"api_chat\"] = final_surface_v53_chat"
+        },
+        {
+          "line": 1984,
+          "function": "final_surface_v53_chat",
+          "function_line": 1884,
+          "text": "print(\"[FINAL SURFACE V5.3] pre-run telemetry + final surface active\", flush=True)"
+        },
+        {
+          "line": 1987,
+          "function": "final_surface_v53_chat",
+          "function_line": 1884,
+          "text": "print(\"[FINAL SURFACE V5.3 INSTALL ERROR]\", repr(e), flush=True)"
+        },
+        {
+          "line": 1993,
+          "function": "final_surface_v53_chat",
+          "function_line": 1884,
+          "text": "# FINAL_HTTP_TELEMETRY_V54_FORCE_ECHO"
+        },
+        {
+          "line": 1994,
+          "function": "_install_final_http_telemetry_v54_force_echo",
+          "function_line": 1994,
+          "text": "def _install_final_http_telemetry_v54_force_echo():"
+        },
+        {
+          "line": 1998,
+          "function": "_install_final_http_telemetry_v54_force_echo",
+          "function_line": 1994,
+          "text": "print(\"[FINAL TELEMETRY V5.4] api_chat not found\", flush=True)"
+        },
+        {
+          "line": 2049,
+          "function": "final_telemetry_v54_chat",
+          "function_line": 2049,
+          "text": "def final_telemetry_v54_chat(*args, **kwargs):"
+        },
+        {
+          "line": 2057,
+          "function": "final_telemetry_v54_chat",
+          "function_line": 2049,
+          "text": "from runtime.chamber_528_stabilizer import stabilize_packet"
+        },
+        {
+          "line": 2069,
+          "function": "final_telemetry_v54_chat",
+          "function_line": 2049,
+          "text": "print(\"[FINAL TELEMETRY V5.4 PRE ERROR]\", repr(e), flush=True)"
+        },
+        {
+          "line": 2115,
+          "function": "final_telemetry_v54_chat",
+          "function_line": 2049,
+          "text": "chamber = None"
+        },
+        {
+          "line": 2119,
+          "function": "final_telemetry_v54_chat",
+          "function_line": 2049,
+          "text": "chamber = stable_payload.get(\"chamber_528\")"
+        },
+        {
+          "line": 2121,
+          "function": "final_telemetry_v54_chat",
+          "function_line": 2049,
+          "text": "if not isinstance(chamber, dict):"
+        },
+        {
+          "line": 2124,
+          "function": "final_telemetry_v54_chat",
+          "function_line": 2049,
+          "text": "from runtime.chamber_528_stabilizer import stabilize_packet"
+        },
+        {
+          "line": 2128,
+          "function": "final_telemetry_v54_chat",
+          "function_line": 2049,
+          "text": "chamber = stable_payload.get(\"chamber_528\")"
+        },
+        {
+          "line": 2130,
+          "function": "final_telemetry_v54_chat",
+          "function_line": 2049,
+          "text": "print(\"[FINAL TELEMETRY V5.4 REBUILD ERROR]\", repr(e), flush=True)"
+        },
+        {
+          "line": 2146,
+          "function": "final_telemetry_v54_chat",
+          "function_line": 2049,
+          "text": "if isinstance(chamber, dict):"
+        },
+        {
+          "line": 2147,
+          "function": "final_telemetry_v54_chat",
+          "function_line": 2049,
+          "text": "spine[\"chamber_528\"] = chamber"
+        },
+        {
+          "line": 2148,
+          "function": "final_telemetry_v54_chat",
+          "function_line": 2049,
+          "text": "spine[\"chamber_status\"] = chamber.get(\"status\")"
+        },
+        {
+          "line": 2149,
+          "function": "final_telemetry_v54_chat",
+          "function_line": 2049,
+          "text": "spine[\"chamber_family\"] = chamber.get(\"family\")"
+        },
+        {
+          "line": 2150,
+          "function": "final_telemetry_v54_chat",
+          "function_line": 2049,
+          "text": "spine[\"chamber_shape_signature\"] = chamber.get(\"shape_signature\")"
+        },
+        {
+          "line": 2152,
+          "function": "final_telemetry_v54_chat",
+          "function_line": 2049,
+          "text": "data[\"chamber_status\"] = chamber.get(\"status\")"
+        },
+        {
+          "line": 2153,
+          "function": "final_telemetry_v54_chat",
+          "function_line": 2049,
+          "text": "data[\"chamber_family\"] = chamber.get(\"family\")"
+        },
+        {
+          "line": 2154,
+          "function": "final_telemetry_v54_chat",
+          "function_line": 2049,
+          "text": "data[\"chamber_shape_signature\"] = chamber.get(\"shape_signature\")"
+        },
+        {
+          "line": 2163,
+          "function": "final_telemetry_v54_chat",
+          "function_line": 2049,
+          "text": "print(\"[FINAL TELEMETRY V5.4 POST ERROR]\", repr(e), flush=True)"
+        },
+        {
+          "line": 2166,
+          "function": "final_telemetry_v54_chat",
+          "function_line": 2049,
+          "text": "app.view_functions[\"api_chat\"] = final_telemetry_v54_chat"
+        },
+        {
+          "line": 2167,
+          "function": "final_telemetry_v54_chat",
+          "function_line": 2049,
+          "text": "print(\"[FINAL TELEMETRY V5.4] forced chamber echo active\", flush=True)"
+        },
+        {
+          "line": 2170,
+          "function": "final_telemetry_v54_chat",
+          "function_line": 2049,
+          "text": "print(\"[FINAL TELEMETRY V5.4 INSTALL ERROR]\", repr(e), flush=True)"
+        }
+      ],
+      "suspicious_calls": [
+        {
+          "pattern": "\\bchamber_?528\\b",
+          "count": 30
+        },
+        {
+          "pattern": "\\btelemetry\\b",
+          "count": 43
+        },
+        {
+          "pattern": "\\brebuild\\b",
+          "count": 3
+        },
+        {
+          "pattern": "\\bpre\\b",
+          "count": 8
+        }
+      ]
+    }
+  ]
+}
+

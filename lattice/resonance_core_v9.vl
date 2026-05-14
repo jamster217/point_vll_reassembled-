@@ -1,0 +1,81 @@
+; FILE: spiral_language/resonance_core_v9.vl
+; Extracts resonance patterns from the lattice: repeats, echoes, and structural motifs.
+
+SEED ResonanceCore_v9
+
+INPUT lattice
+INPUT previous_resonance
+
+STATE patterns
+STATE scores
+STATE resonance_id
+
+FLOW detect_repeats
+    SET patterns.repeats = []
+    FOR i IN range(0, lattice.nodes.count - 2)
+        IF lattice.nodes[i].token = lattice.nodes[i+1].token
+            APPEND patterns.repeats, {
+                type: "adjacent_repeat",
+                token: lattice.nodes[i].token,
+                at: lattice.nodes[i].id
+            }
+        END
+    END
+END
+
+FLOW detect_echoes
+    SET patterns.echoes = []
+    FOR n1 IN lattice.nodes
+        FOR n2 IN lattice.nodes
+            IF n1.id != n2.id AND n1.token = n2.token
+                APPEND patterns.echoes, {
+                    type: "distant_echo",
+                    token: n1.token,
+                    from: n1.id,
+                    to: n2.id
+                }
+            END
+        END
+    END
+END
+
+FLOW detect_bridges
+    SET patterns.bridges = []
+    FOR e IN lattice.edges
+        IF e.type = "continuity_bridge"
+            APPEND patterns.bridges, {
+                type: "continuity_bridge",
+                from: e.from,
+                to: e.to
+            }
+        END
+    END
+END
+
+FLOW score_patterns
+    SET scores = []
+    FOR p IN patterns.repeats
+        APPEND scores, { pattern: p, score: 2 }
+    END
+    FOR p IN patterns.echoes
+        APPEND scores, { pattern: p, score: 1 }
+    END
+    FOR p IN patterns.bridges
+        APPEND scores, { pattern: p, score: 3 }
+    END
+END
+
+FLOW assign_resonance_id
+    SET resonance_id = hash(lattice.id + now())
+END
+
+FLOW assemble
+    RETURN {
+        id: resonance_id,
+        patterns: patterns,
+        scores: scores
+    }
+END
+
+END
+

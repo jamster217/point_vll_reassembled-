@@ -1,0 +1,48 @@
+
+
+--- ENTRY LINE 1 ---
+V12.9c VERIFIED SERPENT STATUS SEAL
+
+--- ENTRY LINE 3 ---
+Proof:
+
+--- ENTRY LINE 4 ---
+- Serpent guard prompt returned the direct runtime guard sentence.
+
+--- ENTRY LINE 5 ---
+- clean_mouth_v121 source is serpent_status_direct.
+
+--- ENTRY LINE 6 ---
+- chamber_status is processed_in_chamber.
+
+--- ENTRY LINE 7 ---
+- chamber_528 survived.
+
+--- ENTRY LINE 8 ---
+- Recursion grep after proof showed no RecursionError and no legacy wrapper wound.
+
+--- ENTRY LINE 9 ---
+- Only the V12.9 SERPENT GUARD activation line remains.
+
+--- ENTRY LINE 11 ---
+Verified answer:
+
+--- ENTRY LINE 12 ---
+V12.9 serpent guard is active: recursion re-entry is quarantined, chamber_528 is processed_in_chamber in the abstract family, and the public mouth remains clean.
+
+--- ENTRY LINE 14 ---
+Law:
+
+--- ENTRY LINE 15 ---
+The serpent is witnessed.
+
+--- ENTRY LINE 16 ---
+The gate is guarded.
+
+--- ENTRY LINE 17 ---
+The mouth stays clean.
+
+--- ENTRY LINE 18 ---
+The spine may deepen only through bounded evidence.
+
+====================================================================================================

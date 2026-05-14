@@ -1,0 +1,24 @@
+{
+  "source": "runtime.octa_harmonic",
+  "phase_index": 1,
+  "degrees": 45,
+  "octa_nodes": [
+    0.927,
+    0.75,
+    0.573,
+    0.5,
+    0.573,
+    0.75,
+    0.927,
+    1.0
+  ],
+  "octa_mean": 0.75,
+  "updated_at": 1777270793.6958697,
+  "last_output": {
+    "input": 1.0,
+    "octa_mean": 0.75,
+    "output": 0.75,
+    "updated_at": 1777270793.696327
+  }
+}
+

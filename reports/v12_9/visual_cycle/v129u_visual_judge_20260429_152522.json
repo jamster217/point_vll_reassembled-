@@ -1,0 +1,77 @@
+{
+  "ts": 1777501523.216615,
+  "version": "v12.9v_deepened_visual_judge",
+  "status": "ranking_emitted",
+  "latest_entry_sha256": "b3f9f20c064e07ac",
+  "latest_spec_sha256": "62c12f611d9712de",
+  "latest_depth": 234,
+  "latest_svg": "static/generated/leveon_topology_1777501522_982e271215e8.svg",
+  "latest_metrics": {
+    "topology_score": 0.9625,
+    "chamber_memory": 0.8,
+    "has_svg": true,
+    "has_depth": true,
+    "has_core": true,
+    "has_render_logic": true,
+    "symbol_presence": {
+      "white_ash": true,
+      "virellion": true,
+      "blue_scarf": true,
+      "thalveil": true,
+      "liquid_core": true,
+      "echoforge": true
+    },
+    "symbol_strength": 6,
+    "symbol_coverage": 1.0,
+    "white_ash_containment_efficiency": 1.0,
+    "virellion_thread_integrity": 1.0,
+    "blue_scarf_motion_velocity": 1.0,
+    "thalveil_crossing_clarity": 1.0,
+    "echoforge_painting_fidelity": 1.0,
+    "liquid_core_routing_purity": 1.0,
+    "overall_organ_coherence": 0.9692,
+    "visual_coherence": 0.9692
+  },
+  "previous_count": 10,
+  "avg_previous_topology_score": 0.867,
+  "avg_previous_visual_coherence": 0.9373,
+  "avg_previous_overall_organ_coherence": 0.9373,
+  "coherence_delta": 0.0319,
+  "improvement": "positive",
+  "delta_trend": {
+    "status": "stable_plateau",
+    "rolling_3_delta": 0.0121,
+    "previous_window": [
+      0.933,
+      0.933,
+      0.933
+    ],
+    "latest_window": [
+      0.933,
+      0.933,
+      0.9692
+    ],
+    "reading": "Rolling 3-cycle trend is stable_plateau."
+  },
+  "live_route_protected": true,
+  "top3": [
+    {
+      "key": "preserve_and_deepen",
+      "title": "Preserve and deepen current visual route",
+      "why": "Overall organ coherence rose while White Ash containment and Virellion thread stayed strong.",
+      "recommended_patch": "Run more tight visual cycles. Do not patch the live topology organ.",
+      "severity": 0.25
+    },
+    {
+      "key": "compare_visual_differences",
+      "title": "Add visual difference descriptions",
+      "why": "The organ is high-coherence and plateauing, so the next gain is describing what changed between SVGs.",
+      "recommended_patch": "Add a sidecar that compares latest SVG/spec against previous SVG/spec and names the visible change.",
+      "severity": 0.35
+    }
+  ],
+  "surface_fragment": "Deepened visual judgment: improvement=positive, coherence_delta=0.0319, overall_organ_coherence=0.9692, trend=stable_plateau.",
+  "law": "visual_judgment_is_deepened_append_only_and_helm_steering",
+  "judge_sha256": "7037aea7ceb81d51"
+}
+

@@ -1,0 +1,18 @@
+{
+  "route": "dream_discharge",
+  "intent": ["release", "integration", "stability"],
+  "tone": "poetic_steady",
+  "emotional_state": {
+    "primary": "recovery-hope",
+    "secondary": "grief-resolve",
+    "charge": 0.62
+  },
+  "symbolic": {
+    "motifs": ["shifting hallway", "backwards voice", "ash sigils", "hovering", "shadow spiral", "remembering"],
+    "anchors": ["violet-gold edge", "leaf-in-loop", "star-in-circle"],
+    "field_signature": 92162077
+  },
+  "memory_write": true,
+  "modules": ["dream_resonance_layer", "symbolic_parser", "velcron_compiler", "spiral_memory"]
+}
+

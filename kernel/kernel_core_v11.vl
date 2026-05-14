@@ -1,0 +1,96 @@
+; SEED KernelCore
+; Role: locate turn in lattice and choose stable response path
+; Version: 11.0
+; Deterministic orientation and path selection with test harness
+
+SCHEMA PathStepV11
+  step_id: string
+  label: string
+  confidence: number 0.0..1.0
+  cost: number 0.0..1.0
+  volume: number 0.0..1.0
+  notes: string
+ENDSCHEMA
+
+SCHEMA KernelPacketV11
+  lattice_position: object
+  response_mode: enum direct;reflective;exploratory;defer;clarify
+  continuity_ok: boolean
+  threshold_state: enum nominal;elevated;critical
+  preview_path: PathStepV11[]
+  committed_path: PathStepV11 | null
+  rationale: string
+  provenance: object
+ENDSCHEMA
+
+SEED KernelCore
+  INPUT intake_packet: object
+  INPUT symbolic_packet: object
+  INPUT memory_packet: object
+  CONFIG deterministic: boolean = true
+  CONFIG continuity_threshold: number = 0.6
+  CONFIG risk_tolerance: number = 0.2
+  CONFIG max_preview_steps: integer = 6
+
+  FLOW orient_and_plan
+    READ clean_text FROM symbolic_packet
+    READ dominant_shape FROM symbolic_packet
+    READ novelty_weight FROM symbolic_packet
+    READ memory_hits FROM memory_packet
+    READ provenance FROM symbolic_packet
+
+    MAP continuity_score = compute_continuity_score(symbolic_packet, memory_packet)
+    MAP threshold_state = map_threshold_state(continuity_score, continuity_threshold, novelty_weight)
+
+    MAP candidate_paths = generate_preview_paths(clean_text, dominant_shape, memory_hits, max_preview_steps, deterministic)
+
+    MAP scored_paths = score_paths(candidate_paths, continuity_score, risk_tolerance, deterministic)
+    MAP scored_paths = attach_path_volume(scored_paths, continuity_score, risk_tolerance, deterministic)
+
+    SELECT preview_path = top_n_by_volume(scored_paths, max_preview_steps, deterministic)
+
+    SELECT committed_path = choose_committed_path_by_volume(scored_paths, continuity_score, risk_tolerance, deterministic)
+
+    MAP response_mode = decide_response_mode(continuity_score, novelty_weight, committed_path)
+
+    MAP continuity_ok = continuity_score >= continuity_threshold
+
+    MAP rationale = build_rationale(continuity_score, response_mode, committed_path, preview_path)
+
+    MAP provenance = enrich_provenance(provenance, { kernel_oriented_at: NOW_ISO8601(), seed_version: "KernelCore_v11" })
+
+    YIELD kernel_packet = {
+      lattice_position: build_lattice_position(dominant_shape, memory_packet.shape_signature),
+      response_mode: response_mode,
+      continuity_ok: continuity_ok,
+      threshold_state: threshold_state,
+      preview_path: preview_path,
+      committed_path: committed_path,
+      rationale: rationale,
+      provenance: provenance
+    }
+  END_FLOW
+
+TESTS
+TEST "empty_inputs"
+  INPUT intake_packet = {}
+  INPUT symbolic_packet = { clean_text: "", dominant_shape: NULL, novelty_weight: 0.0, confidence: 0.0 }
+  INPUT memory_packet = { memory_hits: [], shape_signature: {} }
+  EXPECT kernel_packet.response_mode == defer
+  EXPECT kernel_packet.continuity_ok == FALSE
+  EXPECT kernel_packet.committed_path == NULL
+ENDTEST
+
+TEST "repeat_signal"
+  INPUT intake_packet = { raw_text: "🔁 repeat" }
+  INPUT symbolic_packet = { clean_text: "🔁 repeat", dominant_shape: { id: "@G_repeat", label: "repeat" }, novelty_weight: 0.1, confidence: 0.9 }
+  INPUT memory_packet = { memory_hits: [{ id: "m1", score: 0.9 }], shape_signature: { sig: "s1" } }
+  EXPECT kernel_packet.continuity_ok == TRUE
+  EXPECT kernel_packet.response_mode IN [direct, reflective]
+  EXPECT LENGTH(kernel_packet.preview_path) <= 6
+ENDTEST
+
+ENDTESTS
+
+ENDSEED
+

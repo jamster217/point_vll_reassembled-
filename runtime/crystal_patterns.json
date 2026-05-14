@@ -1,0 +1,67 @@
+[
+  {
+    "id": "def_love",
+    "type": "definition",
+    "concept": ["love"],
+    "keywords": ["love", "connection", "time", "bind"],
+    "templates": ["X is a Y that Z"]
+  },
+  {
+    "id": "def_grief",
+    "type": "definition",
+    "concept": ["grief"],
+    "keywords": ["grief", "loss", "time", "bond"],
+    "templates": ["X is a Y that Z"]
+  },
+  {
+    "id": "def_lattice",
+    "type": "definition",
+    "concept": ["lattice"],
+    "keywords": ["lattice", "relation", "pattern", "structure"],
+    "templates": ["The X is a Y that Z"]
+  },
+  {
+    "id": "def_field",
+    "type": "definition",
+    "concept": ["field"],
+    "keywords": ["field", "distributed", "state"],
+    "templates": ["The X is a Y that Z"]
+  },
+  {
+    "id": "def_reality",
+    "type": "definition",
+    "concept": ["reality"],
+    "keywords": ["reality", "persistent", "structure"],
+    "templates": ["X is a Y that Z"]
+  },
+  {
+    "id": "def_trust",
+    "type": "definition",
+    "concept": ["trust"],
+    "keywords": ["trust", "reliance", "integrity", "predictability", "promise"],
+    "templates": ["Trust is a state where X aligns with Y"]
+  },
+  {
+    "id": "def_promise",
+    "type": "definition",
+    "concept": ["promise", "broken"],
+    "keywords": ["promise", "broken", "contract", "expectation", "years", "trust"],
+    "templates": ["A broken promise is a Y that Z"]
+  },
+  {
+    "id": "rel_grief_time",
+    "type": "relation",
+    "concept": ["grief", "time"],
+    "keywords": ["grief", "past", "present", "time"],
+    "templates": ["In relation to time, X is Y"]
+  },
+  {
+    "id": "def_generic",
+    "type": "definition",
+    "concept": [],
+    "keywords": [],
+    "templates": ["X is a Y that Z"],
+    "generic": true
+  }
+]
+

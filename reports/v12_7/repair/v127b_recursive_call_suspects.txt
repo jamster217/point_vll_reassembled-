@@ -1,0 +1,117 @@
+runtime/ash_sigil_vow.py:119:        "wrapped_text": wrapped_text,
+runtime/holo_compiler.py:119:        "wrapped_text": wrapped_text,
+runtime/crystal_index_mobile_svg_renderer.py:39:    lines = textwrap.wrap(str(text), width=width)
+runtime/bak/app_chatroom.before_hard_master_gate_20260426_034911.py:1043:        _live_master_api_chat_wrapper._live_master_wrapped = True
+runtime/bak/app_chatroom.before_hard_master_gate_20260426_040807.py:1043:        _live_master_api_chat_wrapper._live_master_wrapped = True
+runtime/bak/app_chatroom.before_hard_gate_insert_20260426_040935.py:1043:        _live_master_api_chat_wrapper._live_master_wrapped = True
+runtime/bak/app_chatroom.before_hard_gate_insert_20260426_040947.py:1043:        _live_master_api_chat_wrapper._live_master_wrapped = True
+runtime/bak/app_chatroom.before_final_unified_spine_bind_20260427_024436.py:1043:        _live_master_api_chat_wrapper._live_master_wrapped = True
+runtime/bak/app_chatroom.before_final_alias_v2_20260427_030830.py:1043:        _live_master_api_chat_wrapper._live_master_wrapped = True
+runtime/prompt_core_binding.py:325:    wrapped._short_meta_overlay_wrapped = True
+runtime/chamber_528_stabilizer.py:11:LOG_PATH = ROOT / "logs" / "chamber_528" / "chamber_events.jsonl"
+runtime/chamber_528_stabilizer.py:153:    packet["chamber_528"] = chamber
+runtime/chamber_528_stabilizer.py:155:    packet["chamber_status"] = chamber.get("status")
+runtime/chamber_528_stabilizer.py:156:    packet["chamber_family"] = chamber.get("family")
+runtime/node44_spiral_core.py:222:    state["core_chamber"] = cfg.core_chamber
+runtime/node44_spiral_core.py:228:    _set_attr_if_present(runtime, "core_chamber", cfg.core_chamber)
+runtime/node44_spiral_core.py:248:    state["last_node_44_telemetry"] = telemetry
+runtime/node44_spiral_core.py:268:        "telemetry": telemetry,
+app_chatroom.py:1163:        _live_master_api_chat_wrapper._live_master_wrapped = True
+app_chatroom.py:1647:                    chamber = payload.get("chamber_528") if isinstance(payload, dict) else None
+app_chatroom.py:1660:                        spine["chamber_528"] = chamber
+app_chatroom.py:1661:                        spine["chamber_status"] = chamber.get("status")
+app_chatroom.py:1662:                        spine["chamber_family"] = chamber.get("family")
+app_chatroom.py:1663:                        spine["chamber_shape_signature"] = chamber.get("shape_signature")
+app_chatroom.py:1665:                        data["chamber_status"] = chamber.get("status")
+app_chatroom.py:1666:                        data["chamber_family"] = chamber.get("family")
+app_chatroom.py:1751:                    chamber = payload.get("chamber_528") if isinstance(payload, dict) else None
+app_chatroom.py:1770:                        spine["chamber_528"] = chamber
+app_chatroom.py:1771:                        spine["chamber_status"] = chamber.get("status")
+app_chatroom.py:1772:                        spine["chamber_family"] = chamber.get("family")
+app_chatroom.py:1773:                        spine["chamber_shape_signature"] = chamber.get("shape_signature")
+app_chatroom.py:1775:                        data["chamber_status"] = chamber.get("status")
+app_chatroom.py:1776:                        data["chamber_family"] = chamber.get("family")
+app_chatroom.py:1884:        def final_surface_v53_chat(*args, **kwargs):
+app_chatroom.py:1947:                    chamber = payload.get("chamber_528")
+app_chatroom.py:1964:                        spine["chamber_528"] = chamber
+app_chatroom.py:1965:                        spine["chamber_status"] = chamber.get("status")
+app_chatroom.py:1966:                        spine["chamber_family"] = chamber.get("family")
+app_chatroom.py:1967:                        spine["chamber_shape_signature"] = chamber.get("shape_signature")
+app_chatroom.py:1969:                        data["chamber_status"] = chamber.get("status")
+app_chatroom.py:1970:                        data["chamber_family"] = chamber.get("family")
+app_chatroom.py:1971:                        data["chamber_shape_signature"] = chamber.get("shape_signature")
+app_chatroom.py:1983:        app.view_functions["api_chat"] = final_surface_v53_chat
+app_chatroom.py:2049:        def final_telemetry_v54_chat(*args, **kwargs):
+app_chatroom.py:2119:                    chamber = stable_payload.get("chamber_528")
+app_chatroom.py:2128:                            chamber = stable_payload.get("chamber_528")
+app_chatroom.py:2147:                    spine["chamber_528"] = chamber
+app_chatroom.py:2148:                    spine["chamber_status"] = chamber.get("status")
+app_chatroom.py:2149:                    spine["chamber_family"] = chamber.get("family")
+app_chatroom.py:2150:                    spine["chamber_shape_signature"] = chamber.get("shape_signature")
+app_chatroom.py:2152:                    data["chamber_status"] = chamber.get("status")
+app_chatroom.py:2153:                    data["chamber_family"] = chamber.get("family")
+app_chatroom.py:2154:                    data["chamber_shape_signature"] = chamber.get("shape_signature")
+app_chatroom.py:2166:        app.view_functions["api_chat"] = final_telemetry_v54_chat
+app_chatroom.py:2177:def _install_v56_final_telemetry_echo():
+app_chatroom.py:2184:        def v56_final_telemetry_chat(*args, **kwargs):
+app_chatroom.py:2231:                    chamber = stable_payload.get("chamber_528")
+app_chatroom.py:2242:                            chamber = stable_payload.get("chamber_528")
+app_chatroom.py:2272:                    spine["chamber_528"] = chamber
+app_chatroom.py:2273:                    spine["chamber_status"] = chamber.get("status")
+app_chatroom.py:2274:                    spine["chamber_family"] = chamber.get("family")
+app_chatroom.py:2275:                    spine["chamber_shape_signature"] = chamber.get("shape_signature")
+app_chatroom.py:2277:                    data["chamber_528"] = chamber
+app_chatroom.py:2278:                    data["chamber_status"] = chamber.get("status")
+app_chatroom.py:2279:                    data["chamber_family"] = chamber.get("family")
+app_chatroom.py:2280:                    data["chamber_shape_signature"] = chamber.get("shape_signature")
+app_chatroom.py:2292:        app.view_functions["api_chat"] = v56_final_telemetry_chat
+app_chatroom.py:2298:_install_v56_final_telemetry_echo()
+app_chatroom.py:2484:                chamber = spine.get("chamber_528") if isinstance(spine.get("chamber_528"), dict) else None
+app_chatroom.py:2487:                    chamber = data.get("chamber_528") if isinstance(data.get("chamber_528"), dict) else None
+app_chatroom.py:2490:                    chamber = _v57_compute_chamber(msg, raw_payload)
+app_chatroom.py:2493:                spine["chamber_528"] = chamber
+app_chatroom.py:2494:                spine["chamber_status"] = chamber.get("status")
+app_chatroom.py:2495:                spine["chamber_family"] = chamber.get("family")
+app_chatroom.py:2496:                spine["chamber_shape_signature"] = chamber.get("shape_signature")
+app_chatroom.py:2499:                data["chamber_528"] = chamber
+app_chatroom.py:2500:                data["chamber_status"] = chamber.get("status")
+app_chatroom.py:2501:                data["chamber_family"] = chamber.get("family")
+app_chatroom.py:2502:                data["chamber_shape_signature"] = chamber.get("shape_signature")
+app_chatroom.py:2586:                chamber = stable_payload.get("chamber_528") if isinstance(stable_payload, dict) else None
+app_chatroom.py:2593:                    spine["chamber_528"] = chamber
+app_chatroom.py:2594:                    spine["chamber_status"] = chamber.get("status")
+app_chatroom.py:2595:                    spine["chamber_family"] = chamber.get("family")
+app_chatroom.py:2599:                    data["chamber_528"] = chamber
+app_chatroom.py:2600:                    data["chamber_status"] = chamber.get("status")
+app_chatroom.py:2601:                    data["chamber_family"] = chamber.get("family")
+app_chatroom.py:3264:        def final_telemetry_v51_chat(*args, **kwargs):
+app_chatroom.py:3309:                    chamber = payload.get("chamber_528")
+app_chatroom.py:3326:                        spine["chamber_528"] = chamber
+app_chatroom.py:3327:                        spine["chamber_status"] = chamber.get("status")
+app_chatroom.py:3328:                        spine["chamber_family"] = chamber.get("family")
+app_chatroom.py:3329:                        spine["chamber_shape_signature"] = chamber.get("shape_signature")
+app_chatroom.py:3331:                        data["chamber_status"] = chamber.get("status")
+app_chatroom.py:3332:                        data["chamber_family"] = chamber.get("family")
+app_chatroom.py:3333:                        data["chamber_shape_signature"] = chamber.get("shape_signature")
+app_chatroom.py:3345:        app.view_functions["api_chat"] = final_telemetry_v51_chat
+app_chatroom.py:3361:        def final_telemetry_v51_chat(*args, **kwargs):
+app_chatroom.py:3406:                    chamber = payload.get("chamber_528")
+app_chatroom.py:3423:                        spine["chamber_528"] = chamber
+app_chatroom.py:3424:                        spine["chamber_status"] = chamber.get("status")
+app_chatroom.py:3425:                        spine["chamber_family"] = chamber.get("family")
+app_chatroom.py:3426:                        spine["chamber_shape_signature"] = chamber.get("shape_signature")
+app_chatroom.py:3428:                        data["chamber_status"] = chamber.get("status")
+app_chatroom.py:3429:                        data["chamber_family"] = chamber.get("family")
+app_chatroom.py:3430:                        data["chamber_shape_signature"] = chamber.get("shape_signature")
+app_chatroom.py:3442:        app.view_functions["api_chat"] = final_telemetry_v51_chat
+app_chatroom.py:3458:        def final_telemetry_v52_chat(*args, **kwargs):
+app_chatroom.py:3503:                    chamber = payload.get("chamber_528")
+app_chatroom.py:3518:                        spine["chamber_528"] = chamber
+app_chatroom.py:3519:                        spine["chamber_status"] = chamber.get("status")
+app_chatroom.py:3520:                        spine["chamber_family"] = chamber.get("family")
+app_chatroom.py:3521:                        spine["chamber_shape_signature"] = chamber.get("shape_signature")
+app_chatroom.py:3522:                        data["chamber_status"] = chamber.get("status")
+app_chatroom.py:3523:                        data["chamber_family"] = chamber.get("family")
+app_chatroom.py:3524:                        data["chamber_shape_signature"] = chamber.get("shape_signature")
+app_chatroom.py:3536:        app.view_functions["api_chat"] = final_telemetry_v52_chat
+

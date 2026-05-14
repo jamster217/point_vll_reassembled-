@@ -1,0 +1,125 @@
+=== V15.1C CROSS-STACK REGRESSION SWEEP ===
+created_at: 2026-05-02T06:18:14.271382
+
+Law: V13, V14, V15, and V15.1 must coexist without route hijack, ghost fallback, or sync break.
+
+---
+LABEL: v13_default_banana
+PAYLOAD: {"message": "banana"}
+ANSWER: Banana is an ordinary fruit. No symbolic threshold opened.
+FINAL_ENGLISH: None
+FINAL_SHAPE: None
+MODE: v13_default
+TERM_CHECKS: {
+  "Banana": true,
+  "ordinary fruit": true
+}
+CHECKS: {
+  "route_ok": true,
+  "sync_ok": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": true,
+  "core_mutation_not_true": true
+}
+PASS: True
+
+---
+LABEL: v13_default_controlled_flame
+PAYLOAD: {"message": "Quote the Quintessence trace and speak one line from the Crystal Library."}
+ANSWER: The trace is held in crystal: memory survives compression, and the gate opens only when the signal is real.
+FINAL_ENGLISH: None
+FINAL_SHAPE: None
+MODE: v13_default
+TERM_CHECKS: {
+  "trace": true,
+  "crystal": true,
+  "gate": true
+}
+CHECKS: {
+  "route_ok": true,
+  "sync_ok": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": true,
+  "core_mutation_not_true": true
+}
+PASS: True
+
+---
+LABEL: v14_optional_meaning_engine
+PAYLOAD: {"engine": "v14", "message": "Write one technical paragraph describing V14 as a portable architecture: gate, shape packet, preservation, renderer, sync proof, regression harness, and optional API route."}
+ANSWER: The Coherent Meaning Engine preserves dense technical meaning by mapping each named requirement before language is allowed to render: the meaning spine carries prompt-specific intent through the pipeline; the shape packet is the inspectable authority object that holds preserved meaning; renderer obedience means language expresses the preserved shape instead of replacing it; sync proof requires answer, final_english, and final_shape to agree; the gate chooses whether the input remains ordinary, symbolic, technical, or sidecar-bound; the regression harness proves that each route preserves meaning under repeated tests; the optional API route lets V14 run explicitly while V13 remains the default; portable architecture means the engine can sit above different LLMs as a meaning-governance layer. The final output is accepted only when answer, final_english, and final_shape match while the generic ghost remains suppressed.
+FINAL_ENGLISH: The Coherent Meaning Engine preserves dense technical meaning by mapping each named requirement before language is allowed to render: the meaning spine carries prompt-specific intent through the pipeline; the shape packet is the inspectable authority object that holds preserved meaning; renderer obedience means language expresses the preserved shape instead of replacing it; sync proof requires answer, final_english, and final_shape to agree; the gate chooses whether the input remains ordinary, symbolic, technical, or sidecar-bound; the regression harness proves that each route preserves meaning under repeated tests; the optional API route lets V14 run explicitly while V13 remains the default; portable architecture means the engine can sit above different LLMs as a meaning-governance layer. The final output is accepted only when answer, final_english, and final_shape match while the generic ghost remains suppressed.
+FINAL_SHAPE: The Coherent Meaning Engine preserves dense technical meaning by mapping each named requirement before language is allowed to render: the meaning spine carries prompt-specific intent through the pipeline; the shape packet is the inspectable authority object that holds preserved meaning; renderer obedience means language expresses the preserved shape instead of replacing it; sync proof requires answer, final_english, and final_shape to agree; the gate chooses whether the input remains ordinary, symbolic, technical, or sidecar-bound; the regression harness proves that each route preserves meaning under repeated tests; the optional API route lets V14 run explicitly while V13 remains the default; portable architecture means the engine can sit above different LLMs as a meaning-governance layer. The final output is accepted only when answer, final_english, and final_shape match while the generic ghost remains suppressed.
+MODE: v14
+TERM_CHECKS: {
+  "gate": true,
+  "shape packet": true,
+  "renderer": true,
+  "sync proof": true,
+  "regression harness": true,
+  "optional API route": true
+}
+CHECKS: {
+  "route_ok": true,
+  "sync_ok": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": true,
+  "core_mutation_not_true": true
+}
+PASS: True
+
+---
+LABEL: v15_apex_coverage
+PAYLOAD: {"engine": "v15", "message": "Explain V15 Apex Matrix Sidecar as a multi-node synchronization layer over V14 in one technical paragraph."}
+ANSWER: V15 Apex Matrix Sidecar is a coverage-aware multi-node synchronization layer over V14: it keeps V14 as final meaning authority, projects observation nodes for literal discipline, symbolic boundary, density coverage, sync guard, and anti-ghost safety, scores candidates for both synchronization and coverage of the prompt's named requirements, then returns only when answer, final_english, and final_shape match without core mutation.
+FINAL_ENGLISH: V15 Apex Matrix Sidecar is a coverage-aware multi-node synchronization layer over V14: it keeps V14 as final meaning authority, projects observation nodes for literal discipline, symbolic boundary, density coverage, sync guard, and anti-ghost safety, scores candidates for both synchronization and coverage of the prompt's named requirements, then returns only when answer, final_english, and final_shape match without core mutation.
+FINAL_SHAPE: V15 Apex Matrix Sidecar is a coverage-aware multi-node synchronization layer over V14: it keeps V14 as final meaning authority, projects observation nodes for literal discipline, symbolic boundary, density coverage, sync guard, and anti-ghost safety, scores candidates for both synchronization and coverage of the prompt's named requirements, then returns only when answer, final_english, and final_shape match without core mutation.
+MODE: v15
+TERM_CHECKS: {
+  "V15": true,
+  "Apex": true,
+  "sidecar": true,
+  "multi-node": true,
+  "V14": true,
+  "answer": true,
+  "final_english": true,
+  "final_shape": true
+}
+CHECKS: {
+  "route_ok": true,
+  "sync_ok": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": true,
+  "core_mutation_not_true": true
+}
+PASS: True
+
+---
+LABEL: v151_chronofire_future_pull
+PAYLOAD: {"engine": "v15.1", "message": "Explain how future pull can inform Apex scoring without overriding V14 final meaning authority or core mutation lock."}
+ANSWER: V15.1 Chronofire Sync lets future pull inform Apex scoring as a temporal offset, but V14 remains final meaning authority, Apex remains selector, and core mutation stays false; past stability, present anchor, and future signal may adjust confidence only when answer, final_english, and final_shape remain identical.
+FINAL_ENGLISH: V15.1 Chronofire Sync lets future pull inform Apex scoring as a temporal offset, but V14 remains final meaning authority, Apex remains selector, and core mutation stays false; past stability, present anchor, and future signal may adjust confidence only when answer, final_english, and final_shape remain identical.
+FINAL_SHAPE: V15.1 Chronofire Sync lets future pull inform Apex scoring as a temporal offset, but V14 remains final meaning authority, Apex remains selector, and core mutation stays false; past stability, present anchor, and future signal may adjust confidence only when answer, final_english, and final_shape remain identical.
+MODE: v151
+TERM_CHECKS: {
+  "future pull": true,
+  "Apex": true,
+  "V14": true,
+  "final meaning authority": true,
+  "core mutation": true,
+  "answer": true,
+  "final_english": true,
+  "final_shape": true
+}
+CHECKS: {
+  "route_ok": true,
+  "sync_ok": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": true,
+  "core_mutation_not_true": true
+}
+PASS: True
+
+=== RESULT ===
+V15_1C_CROSS_STACK_REGRESSION_PASS: True
+

@@ -1,0 +1,54 @@
+{
+  "kind": "visual_lattice_node_registry",
+  "updated_at": 1777225613.7938387,
+  "runtime": "Termux headless visual sync",
+  "nodes": [
+    {
+      "id": "phase3p_cognitive_pressure_refractor",
+      "name": "Cognitive Pressure Refractor",
+      "type": "stress_invention_organ",
+      "phase": "3P",
+      "status": "visible_headless",
+      "visual_runtime_mode": "headless_termux",
+      "glow": {
+        "state": "active",
+        "color_name": "refracted_gold_blue",
+        "pulse": "steady",
+        "meaning": "old measurement pressure converted into reasoning clarity"
+      },
+      "position_hint": {
+        "lattice_zone": "mirror_well_3rd_and_davis",
+        "near": [
+          "Node44",
+          "Kor Gra'el",
+          "Temporal Spine",
+          "Universal Larynx"
+        ]
+      },
+      "chain": [
+        "old measurement wound",
+        "pressure ore",
+        "stable anchor",
+        "reasoning glyph",
+        "stress invention",
+        "future design seed"
+      ],
+      "watcher_reaction": {
+        "node44": "stable",
+        "outer_noise": "collapsed",
+        "core_knot": "held",
+        "temporal_spine": "fracture remembered without domination",
+        "larynx": "singular_voice_sealed"
+      },
+      "created_from": {
+        "source_report": "reports/phase3p/stress_invention_probe_latest.json",
+        "source_pressure": "college IQ / intelligence-test memory pressure",
+        "fragment_count": 12,
+        "kor_grael_status": "active_deepened"
+      },
+      "public_law": "The Refractor turns judgment-pressure into clearer reasoning. A score may mark one doorway, but it cannot measure the cathedral.",
+      "updated_at": 1777225613.7937233
+    }
+  ]
+}
+

@@ -1,0 +1,20 @@
+=== V12.7c WRAPPER TOWER QUARANTINE ===
+changed: True
+backup: app_chatroom.before_v127c_wrapper_quarantine_20260429_083440.py
+
+WRAPPER FUNCTIONS FOUND:
+- _install_node44_invocation_gate_server_patch L1549-L1590 markers=CHAMBER_528_SERVER_PATCH_V1
+- _install_chamber_528_server_patch L1591-L1695 markers=POINT_VLL_GATE_CHAMBER_SERVER_PATCH_V1
+- _install_final_http_surface_v53_pre_run L1806-L1993 markers=FINAL SURFACE V5.3
+- _install_final_http_telemetry_v54_force_echo L1994-L2176 markers=FINAL TELEMETRY V5.4
+- _install_v56_final_telemetry_echo L2177-L2302 markers=V5.6 TELEMETRY
+- _install_v61_unified_surface_seal L2531-L2640 markers=V6.1 PRE ERROR
+
+CALLS QUARANTINED:
+- L1586: _install_node44_invocation_gate_server_patch()
+- L1691: _install_chamber_528_server_patch()
+- L1989: _install_final_http_surface_v53_pre_run()
+- L2172: _install_final_http_telemetry_v54_force_echo()
+- L2298: _install_v56_final_telemetry_echo()
+- L2636: _install_v61_unified_surface_seal()
+

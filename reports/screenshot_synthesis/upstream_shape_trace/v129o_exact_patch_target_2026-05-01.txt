@@ -1,0 +1,390 @@
+[V12.9O EXACT PATCH TARGET]
+file: core/leveon_pipeline_governed.py
+hits: 25
+
+====================================================================================================
+[WINDOW 1] lines 718-748
+====================================================================================================
+  718: def _clean_line(s: str) -> str:
+  719:     s = (s or "").strip()
+  720:     if not s:
+  721:         return ""
+  722:     if _is_bad_final(s):
+  723:         return ""
+  724:     if "generic explanation" in s:
+  725:         return ""
+  726:     if "stock emotional language" in s:
+  727:         return ""
+  728:     return s
+  729: 
+  730: def _prompt_fallback(prompt: str) -> str:
+  731:     t = (prompt or "").lower()
+  732: 
+  733:     if "coherent" in t and "system" in t:
+  734:         return "A system stays coherent when intent, routing, memory, and realization all keep pointing at the same answer instead of drifting apart."
+  735:     if "memory" in t and "output" in t:
+  736:         return "Memory affects output by biasing which anchors, phrases, and routes are easiest to reuse, so earlier states keep shaping later wording."
+  737:     if "structure" in t:
+  738:         return "Structure matters because it constrains how signals move through the system, which is what makes output stable, readable, and debuggable."
+  739:     if "natural" in t and "response" in t:
+  740:         return "A response feels natural when it follows intent closely, keeps a steady tone, and varies wording without losing the point."
+  741:     if "clarity" in t and "depth" in t:
+  742:         return "Balance clarity and depth by giving the direct answer first, then adding deeper layers only when they sharpen the explanation."
+  743:     if "bridge" in t and "memory" in t and "code" in t:
+  744:         return "Build the bridge as a loop: memory stores anchors, code turns them into actions, and the renderer turns those actions into English."
+  745:     return "The prompt is outside the current routed patterns, so the next step is to map it to the closest stable domain instead of forcing a generic answer."
+  746: 
+  747: def _derive_raw_voice_scores(out: Dict[str, Any]) -> Dict[str, float]:
+  748:     meta = out.get("meta", {}) or {}
+
+====================================================================================================
+[WINDOW 2] lines 1220-1251
+====================================================================================================
+ 1220:     if repaired and not _is_bad_final(repaired) and not _flat_template(repaired) and not _metaish_line(repaired):
+ 1221:         out["final_english"] = repaired
+ 1222:         meta["renderer_source"] = "repaired_seed_outline"
+ 1223:         out["meta"] = meta
+ 1224:         return out
+ 1225: 
+ 1226:     if tone_repair:
+ 1227:         out["final_english"] = tone_repair
+ 1228:         meta["renderer_source"] = "tone_repair"
+ 1229:         out["meta"] = meta
+ 1230:         return out
+ 1231: 
+ 1232:     out["final_english"] = _prompt_fallback(prompt)
+ 1233:     meta["renderer_source"] = "prompt_fallback"
+ 1234:     out["meta"] = meta
+ 1235:     return out
+ 1236: 
+ 1237: def _chatroom_fastpath(prompt: str):
+ 1238:     return None
+ 1239: 
+ 1240:     if t in {"hi", "hello", "hey", "hi leveon", "hello leveon", "hey leveon"}:
+ 1241:         return {
+ 1242:             "final_english": "Hi. The chatroom is live and ready.",
+ 1243:             "mirror_mode": "contained",
+ 1244:             "meta": {
+ 1245:                 "language_pass": {
+ 1246:                     "rendered_english": "Hi. The chatroom is live and ready.",
+ 1247:                     "english_gloss": "",
+ 1248:                     "voice": "social -> signature -> key -> lattice -> answer",
+ 1249:                     "domain": "social",
+ 1250:                     "vectors": {},
+ 1251:                     "path_nodes": ["containment_path"],
+
+====================================================================================================
+[WINDOW 3] lines 1671-1701
+====================================================================================================
+ 1671:     source = str(meta.get("renderer_source", "") or "").strip()
+ 1672: 
+ 1673:     low = prompt.lower()
+ 1674: 
+ 1675:     wants_relation_family = any(x in low for x in [
+ 1676:         "routing", "route ", "route?", "route.", "move a response through the system",
+ 1677:         "failure", "fail ", "fails", "breaks down", "coherence breaks down",
+ 1678:         "tradeoff", "trade-off", "without losing"
+ 1679:     ])
+ 1680: 
+ 1681:     fallbackish = (
+ 1682:         final.startswith("The prompt is outside the current routed patterns")
+ 1683:         or source == "prompt_fallback"
+ 1684:         or (
+ 1685:             any(x in low for x in ["tradeoff", "trade-off", "without losing"])
+ 1686:             and source == "language_pass"
+ 1687:         )
+ 1688:     )
+ 1689: 
+ 1690:     if wants_relation_family and fallbackish:
+ 1691:         try:
+ 1692:             import json
+ 1693:             from seed_lab.seed_simulator import (
+ 1694:                 SEED_PATH,
+ 1695:                 extract_shape,
+ 1696:                 kernel_simulate,
+ 1697:                 lattice_simulate,
+ 1698:                 mutate_and_score,
+ 1699:                 naturalize_clause,
+ 1700:                 expand_clause,
+ 1701:                 infer_relation,
+
+====================================================================================================
+[WINDOW 4] lines 1783-1813
+====================================================================================================
+ 1783:         if hotspot_hint in {"H_2224", "H_1224"}:
+ 1784:             answer_mode = "short"
+ 1785:         else:
+ 1786:             answer_mode = "full"
+ 1787: 
+ 1788:     final = str(out.get("final_english", "") or "").strip()
+ 1789:     meta = out.get("meta", {}) or {}
+ 1790:     source = str(meta.get("renderer_source", "") or "").strip()
+ 1791:     low = prompt.lower()
+ 1792: 
+ 1793:     fallbackish = (
+ 1794:         final.startswith("The prompt is outside the current routed patterns")
+ 1795:         or source == "prompt_fallback"
+ 1796:         or (
+ 1797:             any(x in low for x in ["tradeoff", "trade-off", "without losing"])
+ 1798:             and source == "language_pass"
+ 1799:         )
+ 1800:     )
+ 1801: 
+ 1802:     relation = ""
+ 1803:     if _det_rel_re.search(r"\bfail(?:s|ed|ure)?\b", low) or "failure mode" in low or "breaks down" in low or "coherence breaks down" in low:
+ 1804:         relation = "failure"
+ 1805:     elif "tradeoff" in low or "trade-off" in low or "without losing" in low:
+ 1806:         relation = "tradeoff"
+ 1807:     elif "routing" in low or "route " in low or "response through the system" in low:
+ 1808:         relation = "route"
+ 1809: 
+ 1810:     if relation and fallbackish:
+ 1811:         if relation == "route":
+ 1812:             full = "Routing determines how the response moves through the system under the current conditions. In practice, it decides which path gets reinforced and which one is suppressed."
+ 1813:             short = "Routing determines how the response moves through the system under the current conditions."
+
+====================================================================================================
+[WINDOW 5] lines 1852-1909
+====================================================================================================
+ 1852: 
+ 1853: def leveon_pipeline(payload):
+ 1854:     out = _essence_signature_base_leveon_pipeline(payload)
+ 1855: 
+ 1856:     try:
+ 1857:         if _build_essence_signature is None or not isinstance(out, dict):
+ 1858:             return out
+ 1859: 
+ 1860:         meta = out.get("meta", {}) or {}
+ 1861:         if not isinstance(meta, dict):
+ 1862:             meta = {}
+ 1863: 
+ 1864:         shape_packet = {}
+ 1865:         for key in ("shape_packet", "debug_shape_packet"):
+ 1866:             v = out.get(key)
+ 1867:             if isinstance(v, dict) and v:
+ 1868:                 shape_packet = v
+ 1869:                 break
+ 1870: 
+ 1871:         if not shape_packet:
+ 1872:             for key in ("shape_packet", "debug_shape_packet"):
+ 1873:                 v = meta.get(key)
+ 1874:                 if isinstance(v, dict) and v:
+ 1875:                     shape_packet = v
+ 1876:                     break
+ 1877: 
+ 1878:         if not shape_packet and isinstance(payload, dict):
+ 1879:             shape_packet = dict(payload)
+ 1880: 
+ 1881:         relation = ""
+ 1882:         if isinstance(meta, dict):
+ 1883:             relation = str(meta.get("relation") or "")
+ 1884:         if not relation and isinstance(out, dict):
+ 1885:             relation = str(out.get("relation") or "")
+ 1886:         if not relation and isinstance(payload, dict):
+ 1887:             relation = str(payload.get("relation") or payload.get("semantic_intent") or "")
+ 1888:         if not relation and isinstance(shape_packet, dict):
+ 1889:             relation = str(shape_packet.get("relation") or shape_packet.get("semantic_intent") or "relate")
+ 1890: 
+ 1891:         sig = _build_essence_signature(shape_packet, relation=relation or "relate")
+ 1892:         meta["essence_signature"] = sig
+ 1893:         if _essence_debug_line is not None:
+ 1894:             meta["essence_debug"] = _essence_debug_line(sig)
+ 1895:         meta["essence_signature_status"] = "metadata_only_active"
+ 1896:         out["meta"] = meta
+ 1897:         return out
+ 1898: 
+ 1899:     except Exception as exc:
+ 1900:         try:
+ 1901:             meta = out.get("meta", {}) or {}
+ 1902:             if not isinstance(meta, dict):
+ 1903:                 meta = {}
+ 1904:             meta["essence_signature_status"] = "error"
+ 1905:             meta["essence_signature_error"] = repr(exc)
+ 1906:             out["meta"] = meta
+ 1907:         except Exception:
+ 1908:             pass
+ 1909:         return out
+
+====================================================================================================
+[WINDOW 6] lines 1950-1982
+====================================================================================================
+ 1950: def _may1_float(value, default=0.0):
+ 1951:     try:
+ 1952:         return float(value)
+ 1953:     except Exception:
+ 1954:         return float(default)
+ 1955: 
+ 1956: 
+ 1957: def _may1_pressure_from(payload, out):
+ 1958:     payload = payload if isinstance(payload, dict) else {}
+ 1959:     out = out if isinstance(out, dict) else {}
+ 1960:     meta = out.get("meta", {}) or {}
+ 1961:     shape = (
+ 1962:         out.get("shape_packet")
+ 1963:         or meta.get("shape_packet")
+ 1964:         or meta.get("debug_shape_packet")
+ 1965:         or {}
+ 1966:     )
+ 1967:     if not isinstance(shape, dict):
+ 1968:         shape = {}
+ 1969: 
+ 1970:     def pick(*names, default=0.0):
+ 1971:         for name in names:
+ 1972:             if name in payload:
+ 1973:                 return _may1_float(payload.get(name), default)
+ 1974:             if name in shape:
+ 1975:                 return _may1_float(shape.get(name), default)
+ 1976:             if name in meta:
+ 1977:                 return _may1_float(meta.get(name), default)
+ 1978:         return _may1_float(default, default)
+ 1979: 
+ 1980:     pressure = {
+ 1981:         "emotional": pick("emotional", "emotional_pressure", default=0.0),
+ 1982:         "emotion": pick("emotion", "emotional_pressure", default=0.0),
+
+====================================================================================================
+[WINDOW 7] lines 2050-2120
+====================================================================================================
+ 2050:             else:
+ 2051:                 final_after_essence = final_before
+ 2052:         except Exception as exc:
+ 2053:             meta["essence_release_status"] = "error"
+ 2054:             meta["essence_release_error"] = repr(exc)
+ 2055: 
+ 2056:     if "essence_release_status" not in meta:
+ 2057:         meta["essence_release_status"] = essence_status
+ 2058: 
+ 2059:     final_after_ordinary = final_after_essence
+ 2060: 
+ 2061:     if essence_status == "fallback_replaced":
+ 2062:         meta["ordinary_bridge_status"] = meta.get("ordinary_bridge_status") or "not_needed"
+ 2063:         meta["ordinary_bridge_reason"] = meta.get("ordinary_bridge_reason") or "essence_release_already_replaced"
+ 2064:     elif _may1_maybe_bridge_ordinary is not None:
+ 2065:         try:
+ 2066:             bridged = _may1_maybe_bridge_ordinary(text, final_after_essence, sig)
+ 2067: 
+ 2068:             bridge_text = ""
+ 2069:             bridge_meta = {}
+ 2070: 
+ 2071:             if isinstance(bridged, tuple) and len(bridged) >= 2:
+ 2072:                 bridge_text = str(bridged[0] or "").strip()
+ 2073:                 bridge_meta = bridged[1] if isinstance(bridged[1], dict) else {}
+ 2074:             elif isinstance(bridged, dict):
+ 2075:                 bridge_text = str(
+ 2076:                     bridged.get("text")
+ 2077:                     or bridged.get("final")
+ 2078:                     or bridged.get("final_english")
+ 2079:                     or ""
+ 2080:                 ).strip()
+ 2081:                 bridge_meta = bridged
+ 2082:             else:
+ 2083:                 bridge_text = str(bridged or "").strip()
+ 2084: 
+ 2085:             if bridge_text:
+ 2086:                 final_after_ordinary = bridge_text
+ 2087: 
+ 2088:             meta["ordinary_bridge_status"] = bridge_meta.get(
+ 2089:                 "status",
+ 2090:                 "ordinary_replaced" if bridge_text and bridge_text != final_after_essence else "not_needed",
+ 2091:             )
+ 2092:             meta["ordinary_bridge_reason"] = bridge_meta.get("reason", "")
+ 2093:             meta["ordinary_bridge_kind"] = bridge_meta.get("kind", "")
+ 2094: 
+ 2095:             if bridge_text and bridge_text != final_after_essence:
+ 2096:                 meta["ordinary_bridge_previous_final"] = final_after_essence
+ 2097: 
+ 2098:         except Exception as exc:
+ 2099:             meta["ordinary_bridge_status"] = "error"
+ 2100:             meta["ordinary_bridge_error"] = repr(exc)
+ 2101:     else:
+ 2102:         meta["ordinary_bridge_status"] = meta.get("ordinary_bridge_status") or "import_unavailable"
+ 2103: 
+ 2104:     final = final_after_ordinary or final_after_essence or final_before
+ 2105: 
+ 2106:     if final:
+ 2107:         out["final_english"] = final
+ 2108:         if "reply" in out:
+ 2109:             out["reply"] = final
+ 2110: 
+ 2111:     meta["may1_full_spine_bridge"] = "active"
+ 2112:     meta["may1_full_spine_generic_fallback_remaining"] = _may1_is_generic_fallback(final)
+ 2113:     out["meta"] = meta
+ 2114: 
+ 2115:     return out
+ 2116: 
+ 2117: 
+ 2118: # === late ordinary malformed-final coercion 2026-05-01 ===
+ 2119: try:
+ 2120:     _leveon_pipeline_before_late_ordinary_coercion = leveon_pipeline
+
+====================================================================================================
+[WINDOW 8] lines 2167-2197
+====================================================================================================
+ 2167: 
+ 2168:         if isinstance(payload, dict):
+ 2169:             text = str(payload.get("text") or payload.get("message") or payload.get("prompt") or "")
+ 2170:         else:
+ 2171:             text = str(payload or "")
+ 2172: 
+ 2173:         essence_status = str(meta.get("essence_release_status", "") or "")
+ 2174: 
+ 2175:         if essence_status != "fallback_replaced" and _v129j_final_is_malformed(final):
+ 2176:             replacement = _v129j_direct_ordinary_answer(text)
+ 2177:             if replacement:
+ 2178:                 out["final_english"] = replacement
+ 2179:                 meta["ordinary_bridge_status"] = "ordinary_replaced"
+ 2180:                 meta["ordinary_bridge_reason"] = "late_malformed_or_unhelpful_final"
+ 2181:                 meta["ordinary_bridge_kind"] = "late_final_coercion"
+ 2182:                 meta["ordinary_bridge_previous_final"] = repr(final)[:1200]
+ 2183: 
+ 2184:         return out
+ 2185: 
+ 2186: except Exception as _late_ordinary_coercion_error:
+ 2187:     LATE_ORDINARY_COERCION_IMPORT_ERROR = str(_late_ordinary_coercion_error)
+ 2188: 
+ 2189: 
+ 2190: 
+ 2191: # === V12.9N MEANING SURFACE BRIDGE 2026-05-01 ===
+ 2192: # Purpose:
+ 2193: # Preserve the actual prompt meaning when the live /api/chat mouth falls into
+ 2194: # the generic Ordinary Bridge fallback.
+ 2195: #
+ 2196: # Law:
+ 2197: # Leveon owns meaning.
+
+====================================================================================================
+[WINDOW 9] lines 2294-2324
+====================================================================================================
+ 2294:                 out.get("final_english")
+ 2295:                 or out.get("answer")
+ 2296:                 or out.get("text")
+ 2297:                 or ""
+ 2298:             )
+ 2299: 
+ 2300:             if replacement and _v129n_bad_surface(final):
+ 2301:                 out["final_english"] = replacement
+ 2302:                 out["answer"] = replacement
+ 2303:                 out["text"] = replacement
+ 2304: 
+ 2305:                 meta = out.setdefault("meta", {})
+ 2306:                 meta["meaning_surface_bridge_status"] = "replaced"
+ 2307:                 meta["meaning_surface_bridge_reason"] = "core_meaning_tinyllama_surface_prompt_family"
+ 2308:                 meta["meaning_surface_bridge_previous_final"] = final[:240]
+ 2309: 
+ 2310:         except Exception as e:
+ 2311:             try:
+ 2312:                 out.setdefault("meta", {})["meaning_surface_bridge_error"] = repr(e)
+ 2313:             except Exception:
+ 2314:                 pass
+ 2315: 
+ 2316:         return out
+ 2317: 
+ 2318:     print("[V12.9N] meaning surface bridge installed", flush=True)
+ 2319: 
+ 2320: except Exception as _v129n_e:
+ 2321:     print("[V12.9N MEANING SURFACE BRIDGE INSTALL ERROR]", _v129n_e, flush=True)
+ 2322: 
+ 2323: # === END V12.9N MEANING SURFACE BRIDGE ===
+ 2324: 
+
+

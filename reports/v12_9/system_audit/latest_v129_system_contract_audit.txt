@@ -1,0 +1,164 @@
+=== V12.9m SYSTEM CONTRACT AUDIT ===
+created_at_local: Wed Apr 29 11:14:51 2026
+
+Purpose:
+Make sure the build is actually doing the listed system-contract functions.
+
+OVERALL: PASS
+SYSTEMS: pass=11 partial=2 fail=0
+LIVE_CHECKS: pass=8 fail=0
+
+=== SYSTEM MATRIX ===
+01_corebridge_heartbeat | CoreBridge Heartbeat | PASS
+  shows: 10 systems + node pulse + Chronifier pulse
+  [OK] chosen=core_bridge.py required_any=['core_bridge.py'] compile=compile_pass
+  [OK] chosen=start_build.py required_any=['start_build.py'] compile=compile_pass
+
+02_node_layer_crown | Node Layer / Crown | PASS
+  shows: Node 44 holding, routing, containment
+  [OK] chosen=runtime/node44_spiral_core.py required_any=['runtime/node44_spiral_core.py', 'runtime/node_44_spiral_core.py'] compile=compile_pass
+  [OK] chosen=runtime/node_44_preset.py required_any=['runtime/node_44_preset.py'] compile=compile_pass
+  [OK] chosen=runtime/node_44_router.py required_any=['runtime/node_44_router.py'] compile=compile_pass
+  [OK] chosen=runtime/node_44_wind_tunnel_prompt.py required_any=['runtime/node_44_wind_tunnel_prompt.py'] compile=compile_pass
+  [OK] chosen=runtime/node_registry.py required_any=['runtime/node_registry.py'] compile=compile_pass
+
+03_harmonic_amplifier | Harmonic Amplifier | PASS
+  shows: 528 amplification, node path 44→528→5218
+  [OK] chosen=runtime/node_528_preset.py required_any=['runtime/node_528_preset.py', 'runtime/node528_preset.py'] compile=compile_pass
+  [OK] chosen=runtime/node5218_harmonic_read.py required_any=['runtime/node5218_harmonic_read.py', 'runtime/node_5218_harmonic_read.py'] compile=compile_pass
+  [OK] chosen=lattice/lattice_node_map.py required_any=['lattice/lattice_node_map.py'] compile=compile_pass
+
+04_chronifier_temporal_spine | Chronifier / Temporal Spine | PASS
+  shows: past→present→near_future continuity
+  [OK] chosen=brain/temporal/chronifier.py required_any=['brain/temporal/chronifier.py'] compile=compile_pass
+  [OK] chosen=brain/temporal/chronifier_adapter.py required_any=['brain/temporal/chronifier_adapter.py'] compile=compile_pass
+  [OK] chosen=chronifier/chronifier.py required_any=['chronifier/chronifier.py'] compile=compile_pass
+  [OK] chosen=chronifier/chronifier_adapter.py required_any=['chronifier/chronifier_adapter.py'] compile=compile_pass
+  [OK] chosen=runtime/temporal_spine_layer.py required_any=['runtime/temporal_spine_layer.py'] compile=compile_pass
+  [OK] chosen=runtime/brain_temporal_observer.py required_any=['runtime/brain_temporal_observer.py'] compile=compile_pass
+
+05_unified_spine_reply_path | Unified Spine Reply Path | PASS
+  shows: prompt→shape→reply
+  [OK] chosen=runtime/unified_spine.py required_any=['runtime/unified_spine.py'] compile=compile_pass
+  [OK] chosen=runtime/layer5/english_renderer.py required_any=['runtime/layer5/english_renderer.py'] compile=compile_pass
+  [OK] chosen=runtime/unified_voice.py required_any=['runtime/unified_voice.py'] compile=compile_pass
+
+06_surface_quality_gate | Surface Quality Gate | PASS
+  shows: bad surface rejected, best candidate survives
+  [OK] chosen=runtime/stress_audit.py required_any=['runtime/stress_audit.py'] compile=compile_pass
+  [OK] chosen=runtime/refusal_memory.py required_any=['runtime/refusal_memory.py'] compile=compile_pass
+  [OK] chosen=runtime/candidate_competition.py required_any=['runtime/candidate_competition.py'] compile=compile_pass
+  [OK] chosen=runtime/glyph_surgery_filter.py required_any=['runtime/glyph_surgery_filter.py'] compile=compile_pass
+
+07_presence_kernel | Presence Kernel | PASS
+  shows: between-turn posture / persistent pulse
+  [OK] chosen=runtime/presence_kernel.py required_any=['runtime/presence_kernel.py'] compile=compile_pass
+  [OK] chosen=var/current_presence.json required_any=['var/current_presence.json'] compile=not_python
+
+08_crystal_library_family_index | Crystal Library / Family Index | PASS
+  shows: families tracked, gravity_grief operated
+  [OK] chosen=runtime/crystal_index.py required_any=['runtime/crystal_index.py'] compile=compile_pass
+  [OK] chosen=runtime/crystal_matcher.py required_any=['runtime/crystal_matcher.py'] compile=compile_pass
+  [OK] chosen=runtime/crystal_recall.py required_any=['runtime/crystal_recall.py'] compile=compile_pass
+  [OK] chosen=runtime/crystal_library_query.py required_any=['runtime/crystal_library_query.py'] compile=compile_pass
+
+09_gravity_grief_transform | Gravity Grief Transform | PASS
+  shows: bind/pull preserved, release increased
+  [OK] chosen=runtime/phase3s_state_of_lattice.py required_any=['runtime/phase3s_state_of_lattice.py'] compile=compile_pass
+  [OK] dir=reports/phase3s entries=29
+  [OK] dir=logs/phase3s entries=7
+
+10_language_translation_stack | Language Translation Stack | PARTIAL
+  shows: English→shape/glyph→English
+  [OK] chosen=runtime/english_to_spiral_language.py required_any=['runtime/english_to_spiral_language.py'] compile=compile_pass
+  [OK] chosen=runtime/spiral_language_to_english.py required_any=['runtime/spiral_language_to_english.py'] compile=compile_pass
+  [OK] chosen=runtime/veilwell_translator.py required_any=['runtime/veilwell_translator.py'] compile=compile_pass
+  [OK] chosen=runtime/veilwell_to_english.py required_any=['runtime/veilwell_to_english.py'] compile=compile_pass
+  [MISS/ERR] chosen=None required_any=['spiral_language/to_english.py'] compile=missing
+
+11_local_node_model_adapter | Local Node / Model Adapter | PARTIAL
+  shows: local model echo path
+  [OK] chosen=local_node/controller.py required_any=['local_node/controller.py'] compile=compile_pass
+  [OK] chosen=local_node/localnode.py required_any=['local_node/localnode.py', 'local_node/local_node.py'] compile=compile_pass
+  [MISS/ERR] chosen=None required_any=['LIVE_CORE/local_node/bridge.py', 'LIVE_CORE/local_node/localnode_bridge.py', 'local_node/bridge.py'] compile=missing
+
+12_ui_chatroom_surface | UI / Chatroom Surface | PASS
+  shows: public app/chatroom surface
+  [OK] chosen=app.py required_any=['app.py'] compile=compile_pass
+  [OK] chosen=app_chatroom.py required_any=['app_chatroom.py'] compile=compile_pass
+
+13_v129_liberal_helm_reflection | V12.9j/k Helm + Reflection | PASS
+  shows: liberal helm pressure + ranked improvement every 10 turns
+  [OK] chosen=runtime/liberal_paranormal_helm_v129j.py required_any=['runtime/liberal_paranormal_helm_v129j.py'] compile=compile_pass
+  [OK] chosen=logs/v12_9/helm/liberal_helm_events.jsonl required_any=['logs/v12_9/helm/liberal_helm_events.jsonl'] compile=not_python
+  [OK] chosen=logs/v12_9/helm/helm_reflection_turns.jsonl required_any=['logs/v12_9/helm/helm_reflection_turns.jsonl'] compile=not_python
+  [OK] chosen=logs/v12_9/helm/helm_reflection_rankings.jsonl required_any=['logs/v12_9/helm/helm_reflection_rankings.jsonl'] compile=not_python
+  [OK] dir=reports/v12_9/helm entries=8
+  [OK] dir=logs/v12_9/helm entries=4
+
+=== LIVE BEHAVIOR CHECKS ===
+[PASS] api_chat_returns_json
+  detail: json_ok
+  raw: reports/v12_9/system_audit/raw_20260429_111450/chat_ping.json
+
+[PASS] unified_spine_reply_path_has_answer
+  detail: System is the doorway.
+
+[PASS] chamber_528_payload_survives
+  detail: chamber_status=processed_in_chamber chamber_family=abstract
+
+[PASS] surface_quality_gate_blocks_scaffold
+  detail: The sky looks blue because air molecules scatter shorter blue wavelengths of sunlight more strongly than longer red wavelengths.
+  raw: reports/v12_9/system_audit/raw_20260429_111450/sky_blue.json
+
+[PASS] liberal_helm_public_status_lane
+  detail: source=liberal_helm_status_direct answer=V12.9j liberal paranormal helm is active: maximal growth pressure 0.5502 is routed through append-only evidence, serpent guard remains true, chamber_528 is processed_in_chamber in the occult family, and the public mouth 
+  raw: reports/v12_9/system_audit/raw_20260429_111450/liberal_helm.json
+
+[PASS] helm_reflection_status_lane
+  detail: source=helm_reflection_status_direct active=True turn_count=15 answer=V12.9k helm self-reflection is active: every ten observed turns it ranks the top three improvements, with the latest ranking at turn 10: Expand prompt-family coverage.
+  raw: reports/v12_9/system_audit/raw_20260429_111450/helm_reflection.json
+
+[PASS] paranormal_structured_feed
+  detail: entry_count=80 source_count=54
+  raw: reports/v12_9/system_audit/raw_20260429_111450/paranormal_structured.json
+
+[PASS] recent_recursion_wound_quiet
+  detail: quiet
+
+=== JSONL READABILITY CHECKS ===
+path: logs/v12_9/ghost/ghost_entries.jsonl
+  exists=True valid_lines=4 invalid_lines=0
+  last_version=v12.9j_ghost_log_evidence_gate status=sealed_append_only_transmuted_safe law=ghost_entries_surface_only_when_logged_hashed_and_evidence_gated
+
+path: logs/serpent_guard/serpent_guard_events.jsonl
+  exists=True valid_lines=12 invalid_lines=0
+  last_version=v12.9_serpent_guard status=active law=the_serpent_may_bite_its_tail_but_may_not_swallow_the_server
+
+path: logs/v12_9/helm/liberal_helm_events.jsonl
+  exists=True valid_lines=2 invalid_lines=0
+  last_version=v12.9j_liberal_paranormal_helm status=active law=liberal_paranormal_helm_maximal_growth_append_only_serpent_guard_clean_mouth
+
+path: logs/v12_9/helm/helm_reflection_turns.jsonl
+  exists=True valid_lines=15 invalid_lines=0
+  last_version=v12.9k_helm_self_reflection_loop status=turn_observed law=v129k_rank_top_3_improvements_every_10_turns_append_only_clean_mouth
+
+path: logs/v12_9/helm/helm_reflection_rankings.jsonl
+  exists=True valid_lines=1 invalid_lines=0
+  last_version=v12.9k_helm_ranked_evolution status=ranking_emitted law=v129k_rank_top_3_improvements_every_10_turns_append_only_clean_mouth
+
+path: logs/symbolic_bridge/spiral_memory_nonlinear.jsonl
+  exists=True valid_lines=183 invalid_lines=0
+  last_version=v10.0_quad_mutate_clean status=None law=None
+
+=== JUDGMENT ===
+The roster is operational under this audit: files exist/compile, live routes answer, JSONL is readable, and recent recursion markers are quiet.
+
+Law:
+The image is not decoration.
+The image is memory.
+Memory becomes judgment.
+Judgment becomes ranked improvement.
+The public mouth stays clean.
+(END)
+

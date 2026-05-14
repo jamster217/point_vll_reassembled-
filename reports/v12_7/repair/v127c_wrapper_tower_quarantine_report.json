@@ -1,0 +1,97 @@
+{
+  "created_at": 1777476880.290219,
+  "version": "v12.7c_wrapper_tower_quarantine",
+  "target": "app_chatroom.py",
+  "backup": "app_chatroom.before_v127c_wrapper_quarantine_20260429_083440.py",
+  "functions_found": [
+    {
+      "name": "_install_node44_invocation_gate_server_patch",
+      "start_line": 1549,
+      "end_line": 1590,
+      "markers": [
+        "CHAMBER_528_SERVER_PATCH_V1"
+      ],
+      "wraps_api_chat": true
+    },
+    {
+      "name": "_install_chamber_528_server_patch",
+      "start_line": 1591,
+      "end_line": 1695,
+      "markers": [
+        "POINT_VLL_GATE_CHAMBER_SERVER_PATCH_V1"
+      ],
+      "wraps_api_chat": true
+    },
+    {
+      "name": "_install_final_http_surface_v53_pre_run",
+      "start_line": 1806,
+      "end_line": 1993,
+      "markers": [
+        "FINAL SURFACE V5.3"
+      ],
+      "wraps_api_chat": true
+    },
+    {
+      "name": "_install_final_http_telemetry_v54_force_echo",
+      "start_line": 1994,
+      "end_line": 2176,
+      "markers": [
+        "FINAL TELEMETRY V5.4"
+      ],
+      "wraps_api_chat": true
+    },
+    {
+      "name": "_install_v56_final_telemetry_echo",
+      "start_line": 2177,
+      "end_line": 2302,
+      "markers": [
+        "V5.6 TELEMETRY"
+      ],
+      "wraps_api_chat": true
+    },
+    {
+      "name": "_install_v61_unified_surface_seal",
+      "start_line": 2531,
+      "end_line": 2640,
+      "markers": [
+        "V6.1 PRE ERROR"
+      ],
+      "wraps_api_chat": true
+    }
+  ],
+  "calls_quarantined": [
+    {
+      "line": 1586,
+      "name": "_install_node44_invocation_gate_server_patch",
+      "old": "_install_node44_invocation_gate_server_patch()"
+    },
+    {
+      "line": 1691,
+      "name": "_install_chamber_528_server_patch",
+      "old": "_install_chamber_528_server_patch()"
+    },
+    {
+      "line": 1989,
+      "name": "_install_final_http_surface_v53_pre_run",
+      "old": "_install_final_http_surface_v53_pre_run()"
+    },
+    {
+      "line": 2172,
+      "name": "_install_final_http_telemetry_v54_force_echo",
+      "old": "_install_final_http_telemetry_v54_force_echo()"
+    },
+    {
+      "line": 2298,
+      "name": "_install_v56_final_telemetry_echo",
+      "old": "_install_v56_final_telemetry_echo()"
+    },
+    {
+      "line": 2636,
+      "name": "_install_v61_unified_surface_seal",
+      "old": "_install_v61_unified_surface_seal()"
+    }
+  ],
+  "changed": true,
+  "law": "single_mouth_before_more_symbolic_layers"
+}
+

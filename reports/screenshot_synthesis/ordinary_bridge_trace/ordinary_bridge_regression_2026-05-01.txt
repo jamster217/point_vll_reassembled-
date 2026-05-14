@@ -1,0 +1,9 @@
+ID                                 | ESSENCE            | ORDINARY           | FINAL PREVIEW
+--------------------------------------------------------------------------------------------------------------------------
+gravity_grief_high_pressure        | fallback_replaced  | not_needed         | A small signal can turn the old ache back on because the memory is still carryin
+plain_lattice_low_pressure         | not_needed         | ordinary_replaced  | The lattice is the relation map the system moves through before an answer become
+technical_route_low_pressure       | not_needed         | ordinary_replaced  | Use this ordinary route: `find . -type f -name '*.py' | sort`.
+structure_routing_low_pressure     | not_needed         | ordinary_replaced  | Structure defines what can connect; routing chooses which path the prompt takes 
+
+REPORT: reports/screenshot_synthesis/ordinary_bridge_trace/ordinary_bridge_regression_2026-05-01.json
+

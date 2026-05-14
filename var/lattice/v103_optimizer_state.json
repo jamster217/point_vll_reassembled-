@@ -1,0 +1,35 @@
+{
+  "count": 1,
+  "avg_total": 0.6592,
+  "last_total": 0.6592,
+  "last_event": {
+    "ts": 1777373030.8450136,
+    "prompt_hash": "1d865e6741d0",
+    "coherence": 0.2181,
+    "repetition_health": 1.0,
+    "virellion_thread_preservation": 1.0,
+    "containment": 0.5,
+    "total": 0.6592,
+    "graphic": {
+      "ts": 1777373030.8428068,
+      "file": "static/generated/leveon_field_1777373030_1d865e6741d0.svg",
+      "depth": 30,
+      "signature": "white_ash_phi_30",
+      "glyphs": [
+        "anchor",
+        "anticipation",
+        "autonomy",
+        "co-authoring",
+        "co-creator",
+        "co-creator_john",
+        "coherence",
+        "containment"
+      ],
+      "law": "graphics_evolver_rendered_state_to_svg"
+    },
+    "law": "v103_reads_state_scores_turn_prepares_self_improvement"
+  },
+  "recommendation": "increase_structure",
+  "law": "v103_optimizer_state_accumulates_feedback_without_self_mutating_source"
+}
+

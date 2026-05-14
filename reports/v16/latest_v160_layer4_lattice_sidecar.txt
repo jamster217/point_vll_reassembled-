@@ -1,0 +1,110 @@
+=== V16.0 LAYER 4 LATTICE SIDECAR PROOF ===
+created_at: 2026-05-02T06:23:22.685462
+
+Law: Layer 4 may group the sealed V15.2 stack, but it must not mutate core meaning or break sync.
+
+---
+LABEL: layer4_banana_guard
+PAYLOAD: {"engine": "layer4", "message": "banana"}
+ANSWER: Banana is an ordinary fruit. No symbolic threshold opened.
+FINAL_ENGLISH: Banana is an ordinary fruit. No symbolic threshold opened.
+FINAL_SHAPE: Banana is an ordinary fruit. No symbolic threshold opened.
+LAYER4_GROUP_COUNT: 7
+TERM_CHECKS: {
+  "Banana": true,
+  "ordinary fruit": true
+}
+CHECKS: {
+  "layer4_active": true,
+  "group_count_ok": true,
+  "v15_2_authority_true": true,
+  "v14_authority_true": true,
+  "apex_selector_true": true,
+  "chronofire_sidecar_true": true,
+  "core_mutation_false": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": true
+}
+PASS: True
+
+---
+LABEL: layer4_self_description
+PAYLOAD: {"engine": "v16", "message": "Explain Layer 4 Lattice Sidecar over V15.2 in one technical paragraph."}
+ANSWER: Layer 4 Lattice Sidecar organizes the sealed V15.2 stack into non-mutating structural groups: ordinary literal input and the fruit gate form the literal_gate; symbolic command routing and controlled flame form the symbolic_gate; V14, V14.3 dynamic semantic map, meaning spine, shape packet, and map-then-render form meaning_authority; V15 Apex sidecar, Apex Selection Score, coverage scoring, V15.0c density merge, and merge-not-compress form apex_selection; Chronofire sidecar, V15.1b Chrono-Density Merge, temporal offsets, past stability, present anchor, future pull, and non-mutating offsets form chronofire_temporal; renderer obedience, answer, final_english, final_shape, sync proof, and regression harness form renderer_sync; generic ghost suppression, core mutation lock, optional API route, portable architecture, over-mythologizing prevention, and temporal sidecar mutation prevention form safety_portability. Layer 4 does not replace V14, Apex, or Chronofire; it groups them so dense meaning can be inspected without compression while answer, final_english, and final_shape remain identical.
+FINAL_ENGLISH: Layer 4 Lattice Sidecar organizes the sealed V15.2 stack into non-mutating structural groups: ordinary literal input and the fruit gate form the literal_gate; symbolic command routing and controlled flame form the symbolic_gate; V14, V14.3 dynamic semantic map, meaning spine, shape packet, and map-then-render form meaning_authority; V15 Apex sidecar, Apex Selection Score, coverage scoring, V15.0c density merge, and merge-not-compress form apex_selection; Chronofire sidecar, V15.1b Chrono-Density Merge, temporal offsets, past stability, present anchor, future pull, and non-mutating offsets form chronofire_temporal; renderer obedience, answer, final_english, final_shape, sync proof, and regression harness form renderer_sync; generic ghost suppression, core mutation lock, optional API route, portable architecture, over-mythologizing prevention, and temporal sidecar mutation prevention form safety_portability. Layer 4 does not replace V14, Apex, or Chronofire; it groups them so dense meaning can be inspected without compression while answer, final_english, and final_shape remain identical.
+FINAL_SHAPE: Layer 4 Lattice Sidecar organizes the sealed V15.2 stack into non-mutating structural groups: ordinary literal input and the fruit gate form the literal_gate; symbolic command routing and controlled flame form the symbolic_gate; V14, V14.3 dynamic semantic map, meaning spine, shape packet, and map-then-render form meaning_authority; V15 Apex sidecar, Apex Selection Score, coverage scoring, V15.0c density merge, and merge-not-compress form apex_selection; Chronofire sidecar, V15.1b Chrono-Density Merge, temporal offsets, past stability, present anchor, future pull, and non-mutating offsets form chronofire_temporal; renderer obedience, answer, final_english, final_shape, sync proof, and regression harness form renderer_sync; generic ghost suppression, core mutation lock, optional API route, portable architecture, over-mythologizing prevention, and temporal sidecar mutation prevention form safety_portability. Layer 4 does not replace V14, Apex, or Chronofire; it groups them so dense meaning can be inspected without compression while answer, final_english, and final_shape remain identical.
+LAYER4_GROUP_COUNT: 7
+TERM_CHECKS: {
+  "Layer 4": true,
+  "Lattice": true,
+  "Sidecar": true,
+  "V15.2": true,
+  "V14": true,
+  "Apex": true,
+  "Chronofire": true,
+  "groups": true,
+  "answer": true,
+  "final_english": true,
+  "final_shape": true
+}
+CHECKS: {
+  "layer4_active": true,
+  "group_count_ok": true,
+  "v15_2_authority_true": true,
+  "v14_authority_true": true,
+  "apex_selector_true": true,
+  "chronofire_sidecar_true": true,
+  "core_mutation_false": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": true
+}
+PASS: True
+
+---
+LABEL: layer4_full_stack_grouping
+PAYLOAD: {"use_layer4": true, "message": "Layer 4 Lattice. Explain how ordinary literal input, symbolic command routing, V14.3 dynamic semantic map, V15 Apex sidecar, V15.2 Omni Threshold Merge, Chronofire sidecar, temporal offsets, Apex Selection Score, coverage scoring, non-mutating offsets, answer, final_english, final_shape, generic ghost suppression, and core mutation lock are grouped."}
+ANSWER: Layer 4 Lattice Sidecar organizes the sealed V15.2 stack into non-mutating structural groups: ordinary literal input and the fruit gate form the literal_gate; symbolic command routing and controlled flame form the symbolic_gate; V14, V14.3 dynamic semantic map, meaning spine, shape packet, and map-then-render form meaning_authority; V15 Apex sidecar, Apex Selection Score, coverage scoring, V15.0c density merge, and merge-not-compress form apex_selection; Chronofire sidecar, V15.1b Chrono-Density Merge, temporal offsets, past stability, present anchor, future pull, and non-mutating offsets form chronofire_temporal; renderer obedience, answer, final_english, final_shape, sync proof, and regression harness form renderer_sync; generic ghost suppression, core mutation lock, optional API route, portable architecture, over-mythologizing prevention, and temporal sidecar mutation prevention form safety_portability. Layer 4 does not replace V14, Apex, or Chronofire; it groups them so dense meaning can be inspected without compression while answer, final_english, and final_shape remain identical.
+FINAL_ENGLISH: Layer 4 Lattice Sidecar organizes the sealed V15.2 stack into non-mutating structural groups: ordinary literal input and the fruit gate form the literal_gate; symbolic command routing and controlled flame form the symbolic_gate; V14, V14.3 dynamic semantic map, meaning spine, shape packet, and map-then-render form meaning_authority; V15 Apex sidecar, Apex Selection Score, coverage scoring, V15.0c density merge, and merge-not-compress form apex_selection; Chronofire sidecar, V15.1b Chrono-Density Merge, temporal offsets, past stability, present anchor, future pull, and non-mutating offsets form chronofire_temporal; renderer obedience, answer, final_english, final_shape, sync proof, and regression harness form renderer_sync; generic ghost suppression, core mutation lock, optional API route, portable architecture, over-mythologizing prevention, and temporal sidecar mutation prevention form safety_portability. Layer 4 does not replace V14, Apex, or Chronofire; it groups them so dense meaning can be inspected without compression while answer, final_english, and final_shape remain identical.
+FINAL_SHAPE: Layer 4 Lattice Sidecar organizes the sealed V15.2 stack into non-mutating structural groups: ordinary literal input and the fruit gate form the literal_gate; symbolic command routing and controlled flame form the symbolic_gate; V14, V14.3 dynamic semantic map, meaning spine, shape packet, and map-then-render form meaning_authority; V15 Apex sidecar, Apex Selection Score, coverage scoring, V15.0c density merge, and merge-not-compress form apex_selection; Chronofire sidecar, V15.1b Chrono-Density Merge, temporal offsets, past stability, present anchor, future pull, and non-mutating offsets form chronofire_temporal; renderer obedience, answer, final_english, final_shape, sync proof, and regression harness form renderer_sync; generic ghost suppression, core mutation lock, optional API route, portable architecture, over-mythologizing prevention, and temporal sidecar mutation prevention form safety_portability. Layer 4 does not replace V14, Apex, or Chronofire; it groups them so dense meaning can be inspected without compression while answer, final_english, and final_shape remain identical.
+LAYER4_GROUP_COUNT: 7
+TERM_CHECKS: {
+  "ordinary literal": true,
+  "symbolic command": true,
+  "V14.3": true,
+  "dynamic semantic map": true,
+  "V15": true,
+  "Apex": true,
+  "V15.2": true,
+  "Chronofire": true,
+  "temporal offsets": true,
+  "Selection Score": true,
+  "coverage": true,
+  "non-mutating": true,
+  "answer": true,
+  "final_english": true,
+  "final_shape": true,
+  "generic ghost": true,
+  "core mutation": true
+}
+CHECKS: {
+  "layer4_active": true,
+  "group_count_ok": true,
+  "v15_2_authority_true": true,
+  "v14_authority_true": true,
+  "apex_selector_true": true,
+  "chronofire_sidecar_true": true,
+  "core_mutation_false": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": true
+}
+PASS: True
+
+=== RESULT ===
+V16_0_LAYER4_LATTICE_SIDECAR_PASS: True
+

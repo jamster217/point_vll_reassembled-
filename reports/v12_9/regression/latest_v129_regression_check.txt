@@ -1,0 +1,95 @@
+V12.9 STATIC REGRESSION CHECK
+created_at_local: Wed Apr 29 17:33:30 PDT 2026
+
+Law:
+No new organs.
+No topology pulse.
+No live-route surgery.
+Static audit only.
+
+================================================================================
+REQUIRED COMMANDS
+================================================================================
+PASS: required command exists: leveon-note
+PASS: required command exists: leveon-visual-cycle
+PASS: required command exists: leveon-visual-diff
+PASS: required command exists: leveon-visual-judge
+PASS: required command exists: leveon-rune-reason
+PASS: required command exists: leveon-fractal-collage
+PASS: required command exists: leveon-glyphic-ledger
+PASS: required command exists: leveon-assess
+PASS: required command exists: leveon-assessed-run
+PASS: required command exists: leveon-audio-search
+PASS: required command exists: leveon-audio-cycle
+
+================================================================================
+OPTIONAL / RECENT COMMANDS
+================================================================================
+PASS: optional command exists: leveon-visual-diff-integrate
+PASS: optional command exists: leveon-image-gen-sidecar
+PASS: optional command exists: leveon-self-map
+PASS: optional command exists: leveon-assimilated-cycle
+PASS: optional command exists: leveon-self-portrait
+PASS: optional command exists: leveon-visual-to-vl
+PASS: optional command exists: leveon-vl-mutator
+PASS: optional command exists: leveon-image-gen
+PASS: optional command exists: leveon-internet-search
+PASS: optional command exists: leveon-external-assimilate
+PASS: optional command exists: leveon-fractal-cycle
+PASS: optional command exists: leveon-rune-cycle
+
+================================================================================
+WRAPPER SYNTAX
+================================================================================
+PASS: bash syntax: /data/data/com.termux/files/home/bin/leveon-rune-reason
+PASS: bash syntax: /data/data/com.termux/files/home/bin/leveon-fractal-collage
+PASS: bash syntax: /data/data/com.termux/files/home/bin/leveon-glyphic-ledger
+PASS: bash syntax: /data/data/com.termux/files/home/bin/leveon-assess
+PASS: bash syntax: /data/data/com.termux/files/home/bin/leveon-assessed-run
+PASS: bash syntax: /data/data/com.termux/files/home/bin/leveon-audio-search
+PASS: bash syntax: /data/data/com.termux/files/home/bin/leveon-audio-cycle
+
+================================================================================
+PYTHON COMPILE CHECK
+================================================================================
+PASS: python compile: runtime/generated_ideas/v129aq_rune_shape_reasoning/module.py
+PASS: python compile: runtime/generated_ideas/v129ao_fractal_collage/module.py
+PASS: python compile: runtime/generated_ideas/v129an_glyphic_memory_ledger/module.py
+PASS: python compile: runtime/generated_ideas/v129as_reflective_assessment/module.py
+PASS: python compile: runtime/generated_ideas/v129at_audio_phonetic_compound/module.py
+
+================================================================================
+LATEST REPORT POINTERS
+================================================================================
+PASS: file exists: BUILD_NOTES.md
+PASS: file exists: reports/build_notes/latest_build_notes.txt
+PASS: file exists: reports/v12_9/audio_search/latest_v129at_audio_cycle.txt
+PASS: file exists: reports/v12_9/audio_search/latest_v129at_audio_search.txt
+PASS: file exists: reports/v12_9/assessment_chamber/latest_v129as_assessment.txt
+PASS: file exists: reports/v12_9/glyphic_memory/latest_v129aq_rune_reason.txt
+PASS: file exists: reports/v12_9/glyphic_memory/latest_v129ao_fractal_collage.txt
+PASS: file exists: reports/v12_9/glyphic_memory/latest_v129an_glyphic_ledger.txt
+
+================================================================================
+LEDGER COUNTS
+================================================================================
+logs/build_notes/build_notes.jsonl: 28
+logs/v12_9/audio_search/audio_phonetic_compounding_ledger.jsonl: 4
+logs/v12_9/audio_search/audio_cycle_events.jsonl: 2
+logs/v12_9/assessment_chamber/assessment_events.jsonl: 4
+logs/v12_9/glyphic_memory/compound_visual_memory_ledger.jsonl: 5
+logs/v12_9/glyphic_memory/rune_shape_reasoning_ledger.jsonl: 4
+logs/v12_9/glyphic_memory/cross_modal_compounding_ledger.jsonl: 4
+logs/v12_9/glyphic_memory/fractal_collage_events.jsonl: 3
+logs/v12_9/visual_memory/visual_memory_ledger.jsonl: 25
+logs/v12_9/visual_memory/visual_judge_rankings.jsonl: 41
+logs/v12_9/visual_memory/visual_difference_descriptions.jsonl: 21
+
+================================================================================
+SUMMARY
+================================================================================
+PASS_COUNT: 43
+WARN_COUNT: 0
+FAIL_COUNT: 0
+REGRESSION STATUS: CLEAN
+

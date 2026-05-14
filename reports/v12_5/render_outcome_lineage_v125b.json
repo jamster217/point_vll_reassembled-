@@ -1,0 +1,85 @@
+{
+  "active": true,
+  "version": "v12.5b_render_outcome_lineage",
+  "ts": 1777545689.684288,
+  "families_seen": [
+    "mixed",
+    "render",
+    "topology",
+    "visual"
+  ],
+  "judgments": {
+    "mixed": {
+      "status": "judged",
+      "previous": {
+        "path": "var/lattice/v104_runtime_tuning.json",
+        "family": "mixed",
+        "mtime": 1777412149.2274497,
+        "score": 1.0
+      },
+      "current": {
+        "path": "var/lattice/v106_full_self_improvement_state.json",
+        "family": "mixed",
+        "mtime": 1777540974.4185078,
+        "score": 0.6128
+      },
+      "delta": -0.3872,
+      "verdict": "declined"
+    },
+    "visual": {
+      "status": "judged",
+      "previous": {
+        "path": "reports/v12_9/visual_memory/latest_v129t_visual_memory_judge.json",
+        "family": "visual",
+        "mtime": 1777509446.7305079,
+        "score": 0.925
+      },
+      "current": {
+        "path": "reports/v12_9/visual_memory/visual_judge_20260429_173726.json",
+        "family": "visual",
+        "mtime": 1777509446.7305079,
+        "score": 0.925
+      },
+      "delta": 0.0,
+      "verdict": "stable_hold"
+    },
+    "topology": {
+      "status": "judged",
+      "previous": {
+        "path": "var/lattice/topology_score_history_v122.json",
+        "family": "topology",
+        "mtime": 1777382495.7354498,
+        "score": 1.0
+      },
+      "current": {
+        "path": "var/lattice/topology_optimizer_state_v103.json",
+        "family": "topology",
+        "mtime": 1777540974.4225078,
+        "score": 0.8711
+      },
+      "delta": -0.1289,
+      "verdict": "declined"
+    },
+    "render": {
+      "status": "judged",
+      "previous": {
+        "path": "var/lattice/render_decision_context_v123.json",
+        "family": "render",
+        "mtime": 1777540974.2865078,
+        "score": 1.0
+      },
+      "current": {
+        "path": "var/lattice/render_outcome_judge_v125.json",
+        "family": "render",
+        "mtime": 1777545628.21089,
+        "score": 0.8711
+      },
+      "delta": -0.1289,
+      "verdict": "declined"
+    }
+  },
+  "law": "compare_like_to_like_before_claiming_causal_improvement",
+  "protected_spine": true,
+  "allowed_action": "read_scores_write_report_only"
+}
+

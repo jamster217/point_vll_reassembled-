@@ -1,0 +1,16 @@
+TUNING FORK FIELD MATH WEAVE
+
+Status: PASS
+
+Added:
+runtime/resonance_math/tuning_fork_field.py
+
+Core formula:
+Psi_resonant ~= R_f0[Psi_field]
+
+Meaning:
+The build now has a sidecar resonance operator that maps field pressure, attention, and coherence into a stabilized signal packet.
+
+Containment:
+Sidecar only. No live API mutation yet.
+

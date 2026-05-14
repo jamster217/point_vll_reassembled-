@@ -1,0 +1,384 @@
+[
+  {
+    "file": "scripts/phase3_deep_braid_audit.py",
+    "hits": [
+      "api_chat",
+      "/api/chat",
+      "master_reply",
+      "classify_shape",
+      "Hard Master Gate",
+      "HARD_MASTER_GATE",
+      "LIVE_MASTER_GATE",
+      "Node44",
+      "NODE44",
+      "node_44",
+      "Performance Oracle",
+      "PERF ORACLE",
+      "prompt_density",
+      "controller_detail",
+      "answer_mode",
+      "jsonify",
+      "render_template",
+      "app.run"
+    ],
+    "score": 18
+  },
+  {
+    "file": "app_chatroom.py",
+    "hits": [
+      "api_chat",
+      "/api/chat",
+      "master_reply",
+      "HARD_MASTER_GATE",
+      "LIVE_MASTER_GATE",
+      "controller_detail",
+      "answer_mode",
+      "jsonify",
+      "render_template",
+      "app.run"
+    ],
+    "score": 10
+  },
+  {
+    "file": "runtime/live_master_api_response.py",
+    "hits": [
+      "master_reply",
+      "classify_shape",
+      "Hard Master Gate",
+      "NODE44",
+      "node_44",
+      "Performance Oracle",
+      "PERF ORACLE",
+      "prompt_density"
+    ],
+    "score": 8
+  },
+  {
+    "file": "checkpoints/seed_milestone_20260402_051541/app_chatroom.py",
+    "hits": [
+      "api_chat",
+      "/api/chat",
+      "answer_mode",
+      "jsonify",
+      "render_template",
+      "app.run"
+    ],
+    "score": 6
+  },
+  {
+    "file": "config/deep_braid_phase3_manifest.json",
+    "hits": [
+      "NODE44",
+      "node_44",
+      "prompt_density",
+      "answer_mode"
+    ],
+    "score": 4
+  },
+  {
+    "file": "seed_workshop/app.py",
+    "hits": [
+      "/api/chat",
+      "jsonify",
+      "render_template",
+      "app.run"
+    ],
+    "score": 4
+  },
+  {
+    "file": "reports/live_dense_symbolic_trigger_response.json",
+    "hits": [
+      "api_chat",
+      "Hard Master Gate",
+      "answer_mode"
+    ],
+    "score": 3
+  },
+  {
+    "file": "reports/live_massive_symbolic_api_test.json",
+    "hits": [
+      "api_chat",
+      "Hard Master Gate",
+      "answer_mode"
+    ],
+    "score": 3
+  },
+  {
+    "file": "reports/live_poetic_clean_gate_test.json",
+    "hits": [
+      "api_chat",
+      "Performance Oracle",
+      "answer_mode"
+    ],
+    "score": 3
+  },
+  {
+    "file": "runtime/deep_braid_registry.py",
+    "hits": [
+      "Node44",
+      "Performance Oracle",
+      "answer_mode"
+    ],
+    "score": 3
+  },
+  {
+    "file": "runtime/node_44_preset.py",
+    "hits": [
+      "Node44",
+      "NODE44",
+      "node_44"
+    ],
+    "score": 3
+  },
+  {
+    "file": "ui/app.py",
+    "hits": [
+      "jsonify",
+      "render_template",
+      "app.run"
+    ],
+    "score": 3
+  },
+  {
+    "file": "LIVE_CORE/templates/chatroom.html",
+    "hits": [
+      "/api/chat",
+      "answer_mode"
+    ],
+    "score": 2
+  },
+  {
+    "file": "assets/memory/shape_compounds.json",
+    "hits": [
+      "Hard Master Gate",
+      "Performance Oracle"
+    ],
+    "score": 2
+  },
+  {
+    "file": "build_cartographer.py",
+    "hits": [
+      "jsonify",
+      "render_template"
+    ],
+    "score": 2
+  },
+  {
+    "file": "reports/long_poem_status_check.json",
+    "hits": [
+      "api_chat",
+      "answer_mode"
+    ],
+    "score": 2
+  },
+  {
+    "file": "reports/performance_oracle_algorithm_c_public_test.json",
+    "hits": [
+      "Performance Oracle",
+      "answer_mode"
+    ],
+    "score": 2
+  },
+  {
+    "file": "reports/performance_oracle_clean_surface_test_2.json",
+    "hits": [
+      "Performance Oracle",
+      "answer_mode"
+    ],
+    "score": 2
+  },
+  {
+    "file": "reports/short_poem_fast_test.json",
+    "hits": [
+      "api_chat",
+      "answer_mode"
+    ],
+    "score": 2
+  },
+  {
+    "file": "reports/short_poem_probe_fast_bypass.json",
+    "hits": [
+      "api_chat",
+      "answer_mode"
+    ],
+    "score": 2
+  },
+  {
+    "file": "scripts/stress_bloom_vs_witness.py",
+    "hits": [
+      "master_reply",
+      "classify_shape"
+    ],
+    "score": 2
+  },
+  {
+    "file": "templates/chatroom.html",
+    "hits": [
+      "/api/chat",
+      "answer_mode"
+    ],
+    "score": 2
+  },
+  {
+    "file": "core/leveon_pipeline_governed.py",
+    "hits": [
+      "answer_mode"
+    ],
+    "score": 1
+  },
+  {
+    "file": "reports/performance_oracle_clean_surface_test.json",
+    "hits": [
+      "answer_mode"
+    ],
+    "score": 1
+  },
+  {
+    "file": "reports/public_json_scrub_test.json",
+    "hits": [
+      "answer_mode"
+    ],
+    "score": 1
+  },
+  {
+    "file": "runtime/node_44_router.py",
+    "hits": [
+      "node_44"
+    ],
+    "score": 1
+  },
+  {
+    "file": "runtime/node_44_wind_tunnel_prompt.py",
+    "hits": [
+      "node_44"
+    ],
+    "score": 1
+  },
+  {
+    "file": "runtime/node_45_preset.py",
+    "hits": [
+      "node_44"
+    ],
+    "score": 1
+  },
+  {
+    "file": "runtime/node_50_preset.py",
+    "hits": [
+      "node_44"
+    ],
+    "score": 1
+  },
+  {
+    "file": "runtime/node_528_preset.py",
+    "hits": [
+      "node_44"
+    ],
+    "score": 1
+  },
+  {
+    "file": "runtime/node_registry.py",
+    "hits": [
+      "node_44"
+    ],
+    "score": 1
+  },
+  {
+    "file": "runtime/prompt_density_oracle_bridge.py",
+    "hits": [
+      "prompt_density"
+    ],
+    "score": 1
+  },
+  {
+    "file": "runtime/savariel_crystal_bootstrap.py",
+    "hits": [
+      "node_44"
+    ],
+    "score": 1
+  },
+  {
+    "file": "runtime/show_reversal_strategy.py",
+    "hits": [
+      "node_44"
+    ],
+    "score": 1
+  },
+  {
+    "file": "runtime/spiral_full.py",
+    "hits": [
+      "node_44"
+    ],
+    "score": 1
+  },
+  {
+    "file": "scripts/test_prompt_density_oracle_bridge.py",
+    "hits": [
+      "prompt_density"
+    ],
+    "score": 1
+  },
+  {
+    "file": "seed_workshop/templates/index.html",
+    "hits": [
+      "/api/chat"
+    ],
+    "score": 1
+  },
+  {
+    "file": "simulations/emotional_compounding_seed.py",
+    "hits": [
+      "/api/chat"
+    ],
+    "score": 1
+  },
+  {
+    "file": "simulations/glyph_coverage_battery.py",
+    "hits": [
+      "/api/chat"
+    ],
+    "score": 1
+  },
+  {
+    "file": "simulations/kernel_comparison_seed.py",
+    "hits": [
+      "/api/chat"
+    ],
+    "score": 1
+  },
+  {
+    "file": "simulations/recursive_kernel_pressure.py",
+    "hits": [
+      "/api/chat"
+    ],
+    "score": 1
+  },
+  {
+    "file": "symbolic_memory/time_machine_adapter.py",
+    "hits": [
+      "master_reply"
+    ],
+    "score": 1
+  },
+  {
+    "file": "test_live_self_critique.py",
+    "hits": [
+      "/api/chat"
+    ],
+    "score": 1
+  },
+  {
+    "file": "tmp/api_response.json",
+    "hits": [
+      "answer_mode"
+    ],
+    "score": 1
+  },
+  {
+    "file": "tmp/purge_backups/leveon_pipeline_governed.py",
+    "hits": [
+      "answer_mode"
+    ],
+    "score": 1
+  }
+]
+

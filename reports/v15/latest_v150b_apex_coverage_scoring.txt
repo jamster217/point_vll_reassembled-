@@ -1,0 +1,92 @@
+=== V15.0B APEX COVERAGE SCORING PROOF ===
+created_at: 2026-05-02T06:01:53.359344
+
+Law: Apex must score both synchronization and coverage of named requirements.
+
+---
+LABEL: banana_guard
+PAYLOAD: {"engine": "v15", "message": "banana"}
+ANSWER: Banana is an ordinary fruit. No symbolic threshold opened.
+FINAL_ENGLISH: Banana is an ordinary fruit. No symbolic threshold opened.
+FINAL_SHAPE: Banana is an ordinary fruit. No symbolic threshold opened.
+SELECTED_CANDIDATE: v14_authority_base
+SELECTED_TOTAL_SCORE: 0.94
+SELECTED_COVERAGE_SCORE: 1.0
+NAMED_REQUIREMENTS: []
+TERM_CHECKS: {
+  "banana": true
+}
+CHECKS: {
+  "v15_active": true,
+  "v150b_active": true,
+  "core_mutation_false": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": true
+}
+PASS: True
+
+---
+LABEL: apex_self_description_repair
+PAYLOAD: {"use_v15": true, "message": "Explain V15 Apex Matrix Sidecar as a multi-node synchronization layer over V14 in one technical paragraph."}
+ANSWER: V15 Apex Matrix Sidecar is a coverage-aware multi-node synchronization layer over V14: it keeps V14 as final meaning authority, projects observation nodes for literal discipline, symbolic boundary, density coverage, sync guard, and anti-ghost safety, scores candidates for both synchronization and coverage of the prompt's named requirements, then returns only when answer, final_english, and final_shape match without core mutation.
+FINAL_ENGLISH: V15 Apex Matrix Sidecar is a coverage-aware multi-node synchronization layer over V14: it keeps V14 as final meaning authority, projects observation nodes for literal discipline, symbolic boundary, density coverage, sync guard, and anti-ghost safety, scores candidates for both synchronization and coverage of the prompt's named requirements, then returns only when answer, final_english, and final_shape match without core mutation.
+FINAL_SHAPE: V15 Apex Matrix Sidecar is a coverage-aware multi-node synchronization layer over V14: it keeps V14 as final meaning authority, projects observation nodes for literal discipline, symbolic boundary, density coverage, sync guard, and anti-ghost safety, scores candidates for both synchronization and coverage of the prompt's named requirements, then returns only when answer, final_english, and final_shape match without core mutation.
+SELECTED_CANDIDATE: v15_apex_coverage_description
+SELECTED_TOTAL_SCORE: 0.99
+SELECTED_COVERAGE_SCORE: 1.0
+NAMED_REQUIREMENTS: ['V15', 'Apex Matrix', 'sidecar', 'multi-node', 'synchronization', 'V14']
+TERM_CHECKS: {
+  "V15": true,
+  "Apex": true,
+  "sidecar": true,
+  "multi-node": true,
+  "V14": true,
+  "answer": true,
+  "final_english": true,
+  "final_shape": true
+}
+CHECKS: {
+  "v15_active": true,
+  "v150b_active": true,
+  "core_mutation_false": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": true
+}
+PASS: True
+
+---
+LABEL: selection_score_ambiguous_input
+PAYLOAD: {"engine": "v15", "message": "Explain how Apex Selection Score handles ambiguous inputs while preserving V14 final authority and triple-lock sync."}
+ANSWER: Apex Selection Score handles ambiguous inputs by ranking candidate paths for named-requirement coverage, triple-lock sync, generic ghost absence, and V14 final authority; ambiguity is not resolved by symbolic force, but by choosing the cleanest synchronized answer whose final_shape preserves the prompt's requested terms.
+FINAL_ENGLISH: Apex Selection Score handles ambiguous inputs by ranking candidate paths for named-requirement coverage, triple-lock sync, generic ghost absence, and V14 final authority; ambiguity is not resolved by symbolic force, but by choosing the cleanest synchronized answer whose final_shape preserves the prompt's requested terms.
+FINAL_SHAPE: Apex Selection Score handles ambiguous inputs by ranking candidate paths for named-requirement coverage, triple-lock sync, generic ghost absence, and V14 final authority; ambiguity is not resolved by symbolic force, but by choosing the cleanest synchronized answer whose final_shape preserves the prompt's requested terms.
+SELECTED_CANDIDATE: v15_apex_selection_score_description
+SELECTED_TOTAL_SCORE: 0.99
+SELECTED_COVERAGE_SCORE: 1.0
+NAMED_REQUIREMENTS: ['Apex Matrix', 'synchronization', 'V14', 'selection score', 'ambiguous inputs', 'V14 final authority', 'triple-lock sync']
+TERM_CHECKS: {
+  "Apex": true,
+  "Selection Score": true,
+  "ambiguous": true,
+  "V14": true,
+  "final authority": true,
+  "sync": true
+}
+CHECKS: {
+  "v15_active": true,
+  "v150b_active": true,
+  "core_mutation_false": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": true
+}
+PASS: True
+
+=== RESULT ===
+V15_0B_APEX_COVERAGE_SCORING_PASS: True
+

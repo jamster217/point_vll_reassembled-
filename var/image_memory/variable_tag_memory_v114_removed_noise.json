@@ -1,0 +1,332 @@
+{
+  "v10": {
+    "count": 1,
+    "confidence_total": 1.0,
+    "sources": [
+      "prompt",
+      "svg_text",
+      "image_memory"
+    ],
+    "avg_confidence": 1.0
+  },
+  "tags": {
+    "count": 1,
+    "confidence_total": 1.0,
+    "sources": [
+      "prompt"
+    ],
+    "avg_confidence": 1.0
+  },
+  "actually": {
+    "count": 1,
+    "confidence_total": 0.95,
+    "sources": [
+      "svg_text",
+      "image_memory"
+    ],
+    "avg_confidence": 0.95
+  },
+  "any": {
+    "count": 1,
+    "confidence_total": 0.95,
+    "sources": [
+      "svg_text",
+      "image_memory"
+    ],
+    "avg_confidence": 0.95
+  },
+  "svg": {
+    "count": 1,
+    "confidence_total": 0.95,
+    "sources": [
+      "svg_text",
+      "image_memory"
+    ],
+    "avg_confidence": 0.95
+  },
+  "user_confirmed_personal_memory_reference": {
+    "count": 1,
+    "confidence_total": 0.9,
+    "sources": [
+      "prompt"
+    ],
+    "avg_confidence": 0.9
+  },
+  "scores": {
+    "count": 1,
+    "confidence_total": 0.85,
+    "sources": [
+      "prompt",
+      "image_memory"
+    ],
+    "avg_confidence": 0.85
+  },
+  "propose": {
+    "count": 1,
+    "confidence_total": 0.85,
+    "sources": [
+      "prompt",
+      "image_memory"
+    ],
+    "avg_confidence": 0.85
+  },
+  "one": {
+    "count": 1,
+    "confidence_total": 0.85,
+    "sources": [
+      "prompt",
+      "image_memory"
+    ],
+    "avg_confidence": 0.85
+  },
+  "safe": {
+    "count": 1,
+    "confidence_total": 0.85,
+    "sources": [
+      "prompt",
+      "image_memory"
+    ],
+    "avg_confidence": 0.85
+  },
+  "keep": {
+    "count": 1,
+    "confidence_total": 0.7,
+    "sources": [
+      "prompt"
+    ],
+    "avg_confidence": 0.7
+  },
+  "them": {
+    "count": 1,
+    "confidence_total": 0.7,
+    "sources": [
+      "prompt"
+    ],
+    "avg_confidence": 0.7
+  },
+  "le_veon_state_inferred_visual": {
+    "count": 1,
+    "confidence_total": 0.65,
+    "sources": [
+      "prompt_phrase"
+    ],
+    "avg_confidence": 0.65
+  },
+  "memory_let_tags": {
+    "count": 1,
+    "confidence_total": 0.65,
+    "sources": [
+      "prompt_phrase"
+    ],
+    "avg_confidence": 0.65
+  },
+  "let_tags_variable": {
+    "count": 1,
+    "confidence_total": 0.65,
+    "sources": [
+      "prompt_phrase"
+    ],
+    "avg_confidence": 0.65
+  },
+  "tags_variable_not": {
+    "count": 1,
+    "confidence_total": 0.65,
+    "sources": [
+      "prompt_phrase"
+    ],
+    "avg_confidence": 0.65
+  },
+  "variable_not_fixed": {
+    "count": 1,
+    "confidence_total": 0.65,
+    "sources": [
+      "prompt_phrase"
+    ],
+    "avg_confidence": 0.65
+  },
+  "not_fixed_create": {
+    "count": 1,
+    "confidence_total": 0.65,
+    "sources": [
+      "prompt_phrase"
+    ],
+    "avg_confidence": 0.65
+  },
+  "fixed_create_whatever": {
+    "count": 1,
+    "confidence_total": 0.65,
+    "sources": [
+      "prompt_phrase"
+    ],
+    "avg_confidence": 0.65
+  },
+  "create_whatever_new": {
+    "count": 1,
+    "confidence_total": 0.65,
+    "sources": [
+      "prompt_phrase"
+    ],
+    "avg_confidence": 0.65
+  },
+  "whatever_new_tags": {
+    "count": 1,
+    "confidence_total": 0.65,
+    "sources": [
+      "prompt_phrase"
+    ],
+    "avg_confidence": 0.65
+  },
+  "new_tags_justified": {
+    "count": 1,
+    "confidence_total": 0.65,
+    "sources": [
+      "prompt_phrase"
+    ],
+    "avg_confidence": 0.65
+  },
+  "tags_justified_memory": {
+    "count": 1,
+    "confidence_total": 0.65,
+    "sources": [
+      "prompt_phrase"
+    ],
+    "avg_confidence": 0.65
+  },
+  "text_topology_v10": {
+    "count": 1,
+    "confidence_total": 0.65,
+    "sources": [
+      "prompt_phrase"
+    ],
+    "avg_confidence": 0.65
+  },
+  "topology_v10_scores": {
+    "count": 1,
+    "confidence_total": 0.65,
+    "sources": [
+      "prompt_phrase"
+    ],
+    "avg_confidence": 0.65
+  },
+  "v10_scores_include": {
+    "count": 1,
+    "confidence_total": 0.65,
+    "sources": [
+      "prompt_phrase"
+    ],
+    "avg_confidence": 0.65
+  },
+  "scores_include_possible": {
+    "count": 1,
+    "confidence_total": 0.65,
+    "sources": [
+      "prompt_phrase"
+    ],
+    "avg_confidence": 0.65
+  },
+  "include_possible_tags": {
+    "count": 1,
+    "confidence_total": 0.65,
+    "sources": [
+      "prompt_phrase"
+    ],
+    "avg_confidence": 0.65
+  },
+  "possible_tags_like": {
+    "count": 1,
+    "confidence_total": 0.65,
+    "sources": [
+      "prompt_phrase"
+    ],
+    "avg_confidence": 0.65
+  },
+  "tags_like_buried_terminal_root": {
+    "count": 1,
+    "confidence_total": 0.65,
+    "sources": [
+      "prompt_phrase"
+    ],
+    "avg_confidence": 0.65
+  },
+  "like_buried_terminal_root_amber_recursion_fog": {
+    "count": 1,
+    "confidence_total": 0.65,
+    "sources": [
+      "prompt_phrase"
+    ],
+    "avg_confidence": 0.65
+  },
+  "buried_terminal_root_amber_recursion_fog_childhood_pressure_candidate": {
+    "count": 1,
+    "confidence_total": 0.65,
+    "sources": [
+      "prompt_phrase"
+    ],
+    "avg_confidence": 0.65
+  },
+  "amber_recursion_fog_childhood_pressure_candidate_code_seed_emergence": {
+    "count": 1,
+    "confidence_total": 0.65,
+    "sources": [
+      "prompt_phrase"
+    ],
+    "avg_confidence": 0.65
+  },
+  "childhood_pressure_candidate_code_seed_emergence_but": {
+    "count": 1,
+    "confidence_total": 0.65,
+    "sources": [
+      "prompt_phrase"
+    ],
+    "avg_confidence": 0.65
+  },
+  "code_seed_emergence_but_only": {
+    "count": 1,
+    "confidence_total": 0.65,
+    "sources": [
+      "prompt_phrase"
+    ],
+    "avg_confidence": 0.65
+  },
+  "but_only_keep": {
+    "count": 1,
+    "confidence_total": 0.65,
+    "sources": [
+      "prompt_phrase"
+    ],
+    "avg_confidence": 0.65
+  },
+  "only_keep_them": {
+    "count": 1,
+    "confidence_total": 0.65,
+    "sources": [
+      "prompt_phrase"
+    ],
+    "avg_confidence": 0.65
+  },
+  "keep_them_evidence": {
+    "count": 1,
+    "confidence_total": 0.65,
+    "sources": [
+      "prompt_phrase"
+    ],
+    "avg_confidence": 0.65
+  },
+  "them_evidence_supports": {
+    "count": 1,
+    "confidence_total": 0.65,
+    "sources": [
+      "prompt_phrase"
+    ],
+    "avg_confidence": 0.65
+  },
+  "evidence_supports_them": {
+    "count": 1,
+    "confidence_total": 0.65,
+    "sources": [
+      "prompt_phrase"
+    ],
+    "avg_confidence": 0.65
+  }
+}
+

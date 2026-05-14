@@ -1,0 +1,23 @@
+{
+  "hotspot_families": ["H_3134", "H_1314"],
+  "lane_weights": {
+    "witness": 0.42,
+    "memory": 0.33,
+    "warning": 0.25
+  },
+  "phrase_attractors": [
+    "coherence",
+    "witness",
+    "continuity",
+    "self-alignment",
+    "hotspot",
+    "presence"
+  ],
+  "tone_attractors": {
+    "reflective": 0.8,
+    "calm": 0.7,
+    "dense": 0.55,
+    "mythic": 0.35
+  }
+}
+

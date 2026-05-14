@@ -1,0 +1,272 @@
+{
+  "active": true,
+  "ts": 1777382495.7358391,
+  "count": 28,
+  "latest": {
+    "ts": 1777381695.2574635,
+    "image": "static/generated/leveon_topology_1777381695_6872d35e6d29.svg",
+    "depth": 61,
+    "total": 0.8772,
+    "coherence": 1.0,
+    "containment": 0.5,
+    "thread": 1.0
+  },
+  "avg_total": 0.7966,
+  "trend": "rising",
+  "scores": [
+    {
+      "ts": 1777373429.7932231,
+      "image": "static/generated/leveon_topology_1777373429_eea5f9667579.svg",
+      "depth": 31,
+      "total": 0.6489,
+      "coherence": 0.1879,
+      "containment": 0.5,
+      "thread": 1.0
+    },
+    {
+      "ts": 1777373635.5465355,
+      "image": "static/generated/leveon_topology_1777373635_5dde17c27e0d.svg",
+      "depth": 32,
+      "total": 0.7583,
+      "coherence": 0.7304,
+      "containment": 0.0,
+      "thread": 1.0
+    },
+    {
+      "ts": 1777374008.988604,
+      "image": "static/generated/leveon_topology_1777374008_070a6d9ae1fc.svg",
+      "depth": 33,
+      "total": 0.6489,
+      "coherence": 0.1879,
+      "containment": 0.5,
+      "thread": 1.0
+    },
+    {
+      "ts": 1777374081.753691,
+      "image": "static/generated/leveon_topology_1777374081_869c0f8c6454.svg",
+      "depth": 34,
+      "total": 0.6489,
+      "coherence": 0.1879,
+      "containment": 0.5,
+      "thread": 1.0
+    },
+    {
+      "ts": 1777374237.1441028,
+      "image": "static/generated/leveon_topology_1777374237_9e8b856b4534.svg",
+      "depth": 35,
+      "total": 0.6489,
+      "coherence": 0.1879,
+      "containment": 0.5,
+      "thread": 1.0
+    },
+    {
+      "ts": 1777374347.0316217,
+      "image": "static/generated/leveon_topology_1777374347_b7b1371fb6a1.svg",
+      "depth": 36,
+      "total": 0.6623,
+      "coherence": 0.2272,
+      "containment": 0.5,
+      "thread": 1.0
+    },
+    {
+      "ts": 1777374658.7100174,
+      "image": "static/generated/leveon_topology_1777374658_40d93e65b063.svg",
+      "depth": 37,
+      "total": 0.6489,
+      "coherence": 0.1879,
+      "containment": 0.5,
+      "thread": 1.0
+    },
+    {
+      "ts": 1777374770.864609,
+      "image": "static/generated/leveon_topology_1777374770_40d93e65b063.svg",
+      "depth": 38,
+      "total": 0.6489,
+      "coherence": 0.1879,
+      "containment": 0.5,
+      "thread": 1.0
+    },
+    {
+      "ts": 1777374831.5102887,
+      "image": "static/generated/leveon_topology_1777374831_fa8007df2701.svg",
+      "depth": 39,
+      "total": 0.8856,
+      "coherence": 1.0,
+      "containment": 0.5,
+      "thread": 1.0
+    },
+    {
+      "ts": 1777375221.3831933,
+      "image": "static/generated/leveon_topology_1777375221_f53417db775c.svg",
+      "depth": 40,
+      "total": 0.8856,
+      "coherence": 1.0,
+      "containment": 0.5,
+      "thread": 1.0
+    },
+    {
+      "ts": 1777375627.829847,
+      "image": "static/generated/leveon_topology_1777375627_616a9588ad01.svg",
+      "depth": 41,
+      "total": 0.6489,
+      "coherence": 0.1879,
+      "containment": 0.5,
+      "thread": 1.0
+    },
+    {
+      "ts": 1777377060.1074636,
+      "image": "static/generated/leveon_topology_1777377060_c5f14fccbeb3.svg",
+      "depth": 42,
+      "total": 0.94,
+      "coherence": 1.0,
+      "containment": 0.75,
+      "thread": 1.0
+    },
+    {
+      "ts": 1777377091.3847911,
+      "image": "static/generated/leveon_topology_1777377091_9e4b1196da4b.svg",
+      "depth": 44,
+      "total": 0.8951,
+      "coherence": 0.912,
+      "containment": 0.5,
+      "thread": 1.0
+    },
+    {
+      "ts": 1777377211.8521173,
+      "image": "static/generated/leveon_topology_1777377211_bcc200d15335.svg",
+      "depth": 46,
+      "total": 0.6489,
+      "coherence": 0.1879,
+      "containment": 0.5,
+      "thread": 1.0
+    },
+    {
+      "ts": 1777377323.5364988,
+      "image": "static/generated/leveon_topology_1777377323_35d05cf77d97.svg",
+      "depth": 47,
+      "total": 0.9278,
+      "coherence": 1.0,
+      "containment": 0.75,
+      "thread": 1.0
+    },
+    {
+      "ts": 1777377607.6424606,
+      "image": "static/generated/leveon_topology_1777377607_35d05cf77d97.svg",
+      "depth": 48,
+      "total": 0.7009,
+      "coherence": 0.3408,
+      "containment": 0.5,
+      "thread": 1.0
+    },
+    {
+      "ts": 1777377732.869198,
+      "image": "static/generated/leveon_topology_1777377732_35d05cf77d97.svg",
+      "depth": 49,
+      "total": 0.9352,
+      "coherence": 1.0,
+      "containment": 0.75,
+      "thread": 1.0
+    },
+    {
+      "ts": 1777377871.4207108,
+      "image": "static/generated/leveon_topology_1777377871_f776329d02d7.svg",
+      "depth": 50,
+      "total": 0.7009,
+      "coherence": 0.3408,
+      "containment": 0.5,
+      "thread": 1.0
+    },
+    {
+      "ts": 1777377962.9449573,
+      "image": "static/generated/leveon_topology_1777377962_dd82baa79668.svg",
+      "depth": 51,
+      "total": 0.933,
+      "coherence": 1.0,
+      "containment": 0.75,
+      "thread": 1.0
+    },
+    {
+      "ts": 1777378285.6060865,
+      "image": "static/generated/leveon_topology_1777378285_6d1437b547e9.svg",
+      "depth": 53,
+      "total": 0.842,
+      "coherence": 0.9764,
+      "containment": 0.0,
+      "thread": 1.0
+    },
+    {
+      "ts": 1777378556.3807275,
+      "image": "static/generated/leveon_topology_1777378556_f9501bd311d0.svg",
+      "depth": 54,
+      "total": 0.842,
+      "coherence": 0.9764,
+      "containment": 0.0,
+      "thread": 1.0
+    },
+    {
+      "ts": 1777378613.600291,
+      "image": "static/generated/leveon_topology_1777378613_1cb1d5daaaa5.svg",
+      "depth": 55,
+      "total": 0.9114,
+      "coherence": 1.0,
+      "containment": 0.5,
+      "thread": 1.0
+    },
+    {
+      "ts": 1777378877.3152487,
+      "image": "static/generated/leveon_topology_1777378877_67c93c929d4e.svg",
+      "depth": 56,
+      "total": 0.8774,
+      "coherence": 1.0,
+      "containment": 0.5,
+      "thread": 1.0
+    },
+    {
+      "ts": 1777379027.0861464,
+      "image": "static/generated/leveon_topology_1777379027_67c93c929d4e.svg",
+      "depth": 57,
+      "total": 0.878,
+      "coherence": 1.0,
+      "containment": 0.5,
+      "thread": 1.0
+    },
+    {
+      "ts": 1777379080.6741138,
+      "image": "static/generated/leveon_topology_1777379080_f776329d02d7.svg",
+      "depth": 58,
+      "total": 0.9114,
+      "coherence": 1.0,
+      "containment": 0.5,
+      "thread": 1.0
+    },
+    {
+      "ts": 1777379153.5450387,
+      "image": "static/generated/leveon_topology_1777379153_35d05cf77d97.svg",
+      "depth": 59,
+      "total": 0.8307,
+      "coherence": 0.7226,
+      "containment": 0.5,
+      "thread": 1.0
+    },
+    {
+      "ts": 1777379290.6914723,
+      "image": "static/generated/leveon_topology_1777379290_7ee653ead4e3.svg",
+      "depth": 60,
+      "total": 0.9176,
+      "coherence": 1.0,
+      "containment": 0.75,
+      "thread": 1.0
+    },
+    {
+      "ts": 1777381695.2574635,
+      "image": "static/generated/leveon_topology_1777381695_6872d35e6d29.svg",
+      "depth": 61,
+      "total": 0.8772,
+      "coherence": 1.0,
+      "containment": 0.5,
+      "thread": 1.0
+    }
+  ],
+  "law": "v122_topology_score_history_for_self_improvement"
+}
+

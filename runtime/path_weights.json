@@ -1,0 +1,15 @@
+{
+  "glyph:fear|phenome:TH|style:direct": {
+    "count": 13
+  },
+  "glyph:grief|phenome:AH|style:warm_direct": {
+    "count": 2
+  },
+  "glyph:build|phenome:ION|style:architect": {
+    "count": 2
+  },
+  "fallback": {
+    "count": 10
+  }
+}
+

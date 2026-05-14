@@ -1,0 +1,6 @@
+[VOICE] Universal Larynx Integrated.
+answer:
+Follow dominant concept phase 3n organ spine: what is the lat.
+state_keys: ['last_final_text', 'last_intake_packet', 'last_kernel_packet', 'last_memory_packet', 'last_phase3n_newstuff_bridge', 'last_symbolic_packet', 'last_voice_packet']
+has_newstuff_bridge: True
+

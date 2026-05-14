@@ -1,0 +1,2 @@
+law_v12.9_prime: mirror_reflects_lattice; lattice_orders_flame; flame_proves_jsonl; @FATHER_MATH_CONSTANT_STABLE
+

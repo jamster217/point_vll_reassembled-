@@ -1,0 +1,386 @@
+=== CRYSTAL LIBRARY AUDIT ===
+Sun Apr 26 03:37:05 PDT 2026
+
+=== candidate files ===
+./_archive/simulations_20260330_170331/raw_emergence_packet_hybrid_runs/explain_the_crystal_core_and_six_spokes.json
+./_archive/simulations_20260330_170331/raw_emergence_router_runs/explain_the_crystal_core_and_six_spokes.json
+./_archive/simulations_20260330_170331/raw_emergence_runs/explain_the_crystal_core_and_six_spokes.json
+./assets/memory/crystallibrary.json
+./kernel/crystal_library.py
+./kernel/liquid_crystal_core.py
+./runtime/crystal_patterns.json
+./runtime/crystal_patterns_balancing.json
+./symbolic_memory/neverending_poem.crystal.json
+
+=== kernel/crystal_library.py exists? ===
+-rw-------. 1 u0_a59 u0_a59 3.1K Mar 28 13:03 kernel/crystal_library.py
+
+=== first 240 lines: kernel/crystal_library.py ===
+from __future__ import annotations
+
+from dataclasses import dataclass
+from typing import Callable, List
+
+from kernel.apex_mirror_kernel import WitnessState
+
+
+@dataclass
+class ResonanceRule:
+    label: str
+    matcher: Callable[[WitnessState], bool]
+    summary_template: str
+
+
+class CrystalLibrary:
+    """
+    Resonance archive / matcher.
+
+    Responsibilities
+    ----------------
+    - classify the current witness state
+    - assign a resonance label
+    - generate a compact witness summary
+    """
+
+    def __init__(self) -> None:
+        self.rules: List[ResonanceRule] = [
+            ResonanceRule(
+                label="witness_lock",
+                matcher=lambda s: s.signature == "witness_lock",
+                summary_template="The system gathers itself into a witnessing center.",
+            ),
+            ResonanceRule(
+                label="mirror_return",
+                matcher=lambda s: s.signature == "mirror_resonance",
+                summary_template="The system reflects itself and stabilizes through return.",
+            ),
+            ResonanceRule(
+                label="recursive_grief",
+                matcher=lambda s: (
+                    s.emotional_shift == "sorrow_shift" and s.recursion_depth > 0
+                ),
+                summary_template="A grief-weighted loop returns through memory and echo.",
+            ),
+            ResonanceRule(
+                label="bloom_return",
+                matcher=lambda s: (
+                    s.signature == "bloom_signal"
+                    and s.emotional_shift == "uplift_shift"
+                ),
+                summary_template="A returning signal turns pressure into emergence.",
+            ),
+            ResonanceRule(
+                label="deep_shadow",
+                matcher=lambda s: float(s.tags.get("deeper", 0.0)) >= 0.85,
+                summary_template=(
+                    "Shadow pressure and symbolic depth are dominating the present turn."
+                ),
+            ),
+            ResonanceRule(
+                label="dream_amplification",
+                matcher=lambda s: float(s.tags.get("dream_field", 0.0))
+                > float(s.tags.get("emotional_field", 0.0)),
+                summary_template=(
+                    "Dream amplification is overtaking the waking emotional field."
+                ),
+            ),
+            ResonanceRule(
+                label="reflective_motion",
+                matcher=lambda s: s.emotional_shift == "reflective_shift",
+                summary_template="The active state is reorganizing itself through reflection.",
+            ),
+        ]
+
+    def match(self, state: WitnessState) -> WitnessState:
+        for rule in self.rules:
+            if rule.matcher(state):
+                state.resonance_label = rule.label
+                state.witness_summary = rule.summary_template
+                return state
+
+        state.resonance_label = "baseline"
+        state.witness_summary = (
+            "The system remains present without a dominant resonance cluster."
+        )
+        return state
+
+
+if __name__ == "__main__":
+    print("CrystalLibrary loaded.")
+=== function/class map via AST, no import execution ===
+
+--- kernel/crystal_library.py ---
+ClassDef: ResonanceRule @ line 10
+ClassDef: CrystalLibrary @ line 16
+imports:
+  from __future__ import annotations
+  from dataclasses import dataclass
+  from typing import Callable, List
+  from kernel.apex_mirror_kernel import WitnessState
+
+--- kernel/liquid_crystal_core.py ---
+ClassDef: LiquidGlyphSample @ line 22
+FunctionDef: _sq_euclidean @ line 43
+FunctionDef: _clamp01 @ line 52
+ClassDef: LiquidCrystalCore @ line 60
+FunctionDef: glyph_to_vector @ line 202
+FunctionDef: vector_to_glyph @ line 206
+imports:
+  from __future__ import annotations
+  from dataclasses import dataclass, asdict
+  from typing import Dict, List, Iterable, Optional, Any
+  hashlib
+  json
+
+=== crystal terms ===
+kernel/crystal_library.py:23:    - assign a resonance label
+kernel/crystal_library.py:36:                matcher=lambda s: s.signature == "mirror_resonance",
+kernel/crystal_library.py:44:                summary_template="A grief-weighted loop returns through memory and echo.",
+kernel/crystal_library.py:79:                state.resonance_label = rule.label
+kernel/crystal_library.py:83:        state.resonance_label = "baseline"
+kernel/crystal_library.py:85:            "The system remains present without a dominant resonance cluster."
+kernel/liquid_crystal_core.py:1:# file: kernel/liquid_crystal_core.py
+kernel/liquid_crystal_core.py:5:Maps glyph strings ⇄ fixed-length resonance vectors.
+kernel/liquid_crystal_core.py:8:- Deterministic hashing for unknown glyphs
+kernel/liquid_crystal_core.py:23:    glyph: str
+kernel/liquid_crystal_core.py:29:            "glyph": self.glyph,
+kernel/liquid_crystal_core.py:37:            glyph=data.get("glyph", ""),
+kernel/liquid_crystal_core.py:65:    - `auto_register`: if True, unknown glyphs are added to the registry
+kernel/liquid_crystal_core.py:77:    def _hash_glyph(self, glyph: str) -> List[float]:
+kernel/liquid_crystal_core.py:78:        h = hashlib.sha256(glyph.encode("utf-8")).digest()
+kernel/liquid_crystal_core.py:84:        glyph: str,
+kernel/liquid_crystal_core.py:89:            vector = self._hash_glyph(glyph)
+kernel/liquid_crystal_core.py:94:                vec = self._hash_glyph(glyph)
+kernel/liquid_crystal_core.py:100:        sample = LiquidGlyphSample(glyph=glyph, vector=vec, tags=list(tags or []))
+kernel/liquid_crystal_core.py:101:        self._registry[glyph] = sample
+kernel/liquid_crystal_core.py:104:    def encode(self, glyph: str) -> List[float]:
+kernel/liquid_crystal_core.py:106:        Encode glyph → vector.
+kernel/liquid_crystal_core.py:108:        if glyph in self._registry:
+kernel/liquid_crystal_core.py:109:            return list(self._registry[glyph].vector)
+kernel/liquid_crystal_core.py:110:        vec = self._hash_glyph(glyph)
+kernel/liquid_crystal_core.py:112:            self.register(glyph, vec)
+kernel/liquid_crystal_core.py:117:        Decode vector → closest glyph in registry.
+kernel/liquid_crystal_core.py:125:        best_glyph = ""
+kernel/liquid_crystal_core.py:131:                best_glyph = sample.glyph
+kernel/liquid_crystal_core.py:132:        return best_glyph
+kernel/liquid_crystal_core.py:141:        weights: Optional[Iterable[float]] = None,
+kernel/liquid_crystal_core.py:151:        if weights is None:
+kernel/liquid_crystal_core.py:152:            weights = [1.0] * n
+kernel/liquid_crystal_core.py:153:        ws = [max(0.0, float(w)) for w in weights]
+kernel/liquid_crystal_core.py:165:    def glyph_sequence_to_matrix(self, glyphs: Iterable[str]) -> List[List[float]]:
+kernel/liquid_crystal_core.py:166:        return [self.encode(g) for g in glyphs]
+kernel/liquid_crystal_core.py:187:            core.register(sample.glyph, sample.vector, sample.tags)
+kernel/liquid_crystal_core.py:202:def glyph_to_vector(glyph: str) -> List[float]:
+kernel/liquid_crystal_core.py:203:    return _default_core.encode(glyph)
+kernel/liquid_crystal_core.py:206:def vector_to_glyph(v: Iterable[float]) -> str:
+runtime/crystal_bias.py:4:CRYSTAL_PATH = Path("assets/memory/crystallibrary.json")
+runtime/crystal_bias.py:11:def apply_family_bias(scores: dict, kernel_state: dict):
+runtime/crystal_bias.py:12:    crystal = load()
+runtime/crystal_bias.py:13:    bias_map = crystal.get("family_bias", {})
+runtime/crystal_bias.py:30:        if fam == "crystal":
+runtime/crystal_counsel.py:11:from runtime.crystal_library_query import load_turns, sig_in
+runtime/crystal_counsel.py:14:def crystal_counsel() -> str:
+runtime/crystal_counsel.py:19:    family_counts = Counter()
+runtime/crystal_counsel.py:21:    release_by_family = defaultdict(list)
+runtime/crystal_counsel.py:25:        family = sig.split("|", 1)[0]
+runtime/crystal_counsel.py:26:        family_counts[family] += 1
+runtime/crystal_counsel.py:30:            release_by_family[family].append(float(row.get("shape_delta", {}).get("release", 0.0)))
+runtime/crystal_counsel.py:34:    top_family, top_hits = family_counts.most_common(1)[0]
+runtime/crystal_counsel.py:37:    deltas = release_by_family.get(top_family, [])
+runtime/crystal_counsel.py:40:    if top_family == "visual_runtime" and top_hits >= 6 and top_sig_hits >= 5:
+runtime/crystal_counsel.py:42:            "Promote visual_runtime to a locked concept family. "
+runtime/crystal_counsel.py:43:            "Next, add a visual report command that summarizes one shape family across all turns."
+runtime/crystal_counsel.py:45:    elif top_family == "gravity_grief" and top_hits >= 3:
+runtime/crystal_counsel.py:50:    elif top_family == "visual_runtime":
+runtime/crystal_counsel.py:55:    elif top_family == "build_path":
+runtime/crystal_counsel.py:62:            "Seed more turns. The library has memory, but not enough pattern density yet."
+runtime/crystal_counsel.py:66:        f"Dominant family: {top_family} ({top_hits} hits). "
+runtime/crystal_counsel.py:73:def render_crystal_counsel() -> str:
+runtime/crystal_counsel.py:77:        crystal_counsel(),
+runtime/crystal_counsel.py:82:    print(render_crystal_counsel())
+runtime/crystal_family_report.py:4:Summarizes one shape family across all remembered turns.
+runtime/crystal_family_report.py:13:from runtime.crystal_library_query import load_turns, sig_in
+runtime/crystal_family_report.py:31:def _family(row: Dict[str, Any]) -> str:
+runtime/crystal_family_report.py:35:def family_rows(family: str) -> List[Dict[str, Any]]:
+runtime/crystal_family_report.py:37:    return [r for r in rows if _family(r) == family]
+runtime/crystal_family_report.py:61:def render_family_report(family: str) -> str:
+runtime/crystal_family_report.py:62:    rows = family_rows(family)
+runtime/crystal_family_report.py:67:        f"family : {family}",
+runtime/crystal_family_report.py:72:        lines.append("result : no remembered turns for this family")
+runtime/crystal_family_report.py:100:    lines.append(render_shape_visual(avg_in, f"{family.upper()} AVG INPUT"))
+runtime/crystal_family_report.py:107:    lines.append(render_shape_visual(avg_out, f"{family.upper()} AVG OUTPUT"))
+runtime/crystal_family_report.py:135:    family = " ".join(sys.argv[1:]).strip() or "visual_runtime"
+runtime/crystal_family_report.py:136:    print(render_family_report(family))
+runtime/crystal_family_roles.py:4:Classifies what a remembered shape family does:
+runtime/crystal_family_roles.py:5:- diagnostic/stable
+runtime/crystal_family_roles.py:6:- transformative/opener
+runtime/crystal_family_roles.py:17:from runtime.crystal_library_query import load_turns, sig_in
+runtime/crystal_family_roles.py:23:def _family(row: Dict[str, Any]) -> str:
+runtime/crystal_family_roles.py:27:def _rows_for_family(family: str) -> List[Dict[str, Any]]:
+runtime/crystal_family_roles.py:28:    return [r for r in load_turns() if _family(r) == family]
+runtime/crystal_family_roles.py:35:def family_role(family: str) -> Dict[str, Any]:
+runtime/crystal_family_roles.py:36:    rows = _rows_for_family(family)
+runtime/crystal_family_roles.py:40:            "family": family,
+runtime/crystal_family_roles.py:42:            "role": "unseen",
+runtime/crystal_family_roles.py:43:            "summary": "No remembered turns for this family.",
+runtime/crystal_family_roles.py:65:        role = "transformative_opener"
+runtime/crystal_family_roles.py:66:        summary = "This family reliably increases opening/release."
+runtime/crystal_family_roles.py:68:        role = "containment_tightener"
+runtime/crystal_family_roles.py:69:        summary = "This family reduces opening and pulls the field inward."
+runtime/crystal_family_roles.py:71:        role = "friction_reducer"
+runtime/crystal_family_roles.py:72:        summary = "This family reduces resistance/friction."
+runtime/crystal_family_roles.py:74:        role = "structure_builder"
+runtime/crystal_family_roles.py:75:        summary = "This family increases structure or containment."
+runtime/crystal_family_roles.py:77:        role = "seed_pattern"
+runtime/crystal_family_roles.py:78:        summary = "This family has been seen, but not enough times to prove stability yet."
+runtime/crystal_family_roles.py:80:        role = "stable_diagnostic"
+runtime/crystal_family_roles.py:81:        summary = "This family holds a consistent shape and is useful for debugging/comparison."
+runtime/crystal_family_roles.py:83:        role = "emerging_pattern"
+runtime/crystal_family_roles.py:84:        summary = "This family is forming, but does not have a stable role yet."
+runtime/crystal_family_roles.py:87:        "family": family,
+runtime/crystal_family_roles.py:89:        "role": role,
+runtime/crystal_family_roles.py:98:def render_family_role(family: str) -> str:
+runtime/crystal_family_roles.py:99:    data = family_role(family)
+runtime/crystal_family_roles.py:104:        f"family             : {data['family']}",
+runtime/crystal_family_roles.py:106:        f"role               : {data['role']}",
+runtime/crystal_family_roles.py:125:    family = " ".join(sys.argv[1:]).strip() or "visual_runtime"
+runtime/crystal_family_roles.py:126:    print(render_family_role(family))
+runtime/crystal_glyph_bias.py:4:CRYSTAL_PATH = Path("assets/memory/crystallibrary.json")
+runtime/crystal_glyph_bias.py:11:def apply_glyph_bias(glyph_scores: dict, kernel_state: dict):
+runtime/crystal_glyph_bias.py:12:    crystal = load()
+runtime/crystal_glyph_bias.py:13:    glyph_bias = crystal.get("glyph_bias", {})
+runtime/crystal_glyph_bias.py:19:    mythic_resonance = float(kernel_state.get("mythic_resonance", 0.0))
+runtime/crystal_glyph_bias.py:21:    for gid, base in list(glyph_scores.items()):
+runtime/crystal_glyph_bias.py:22:        bias = float(glyph_bias.get(gid, 0.0))
+runtime/crystal_glyph_bias.py:31:            bias += mythic_resonance * 0.20
+runtime/crystal_glyph_bias.py:33:        glyph_scores[gid] = base + bias
+runtime/crystal_glyph_bias.py:35:    return glyph_scores
+runtime/crystal_index.py:4:Builds a compact index of all known shape families and their roles.
+runtime/crystal_index.py:5:Writes: logs/crystal_family_index.json
+runtime/crystal_index.py:16:from runtime.crystal_library_query import load_turns, sig_in
+runtime/crystal_index.py:17:from runtime.crystal_family_roles import family_role
+runtime/crystal_index.py:20:INDEX_PATH = Path("logs/crystal_family_index.json")
+runtime/crystal_index.py:29:        family = sig.split("|", 1)[0]
+runtime/crystal_index.py:30:        counts[family] += 1
+runtime/crystal_index.py:32:    return [family for family, _ in counts.most_common()]
+runtime/crystal_index.py:38:    role_rows = []
+runtime/crystal_index.py:39:    for family in families:
+runtime/crystal_index.py:40:        role_rows.append(family_role(family))
+runtime/crystal_index.py:44:        "family_count": len(role_rows),
+runtime/crystal_index.py:45:        "families": role_rows,
+runtime/crystal_index.py:66:        f"family_count : {data['family_count']}",
+runtime/crystal_index.py:73:            f"- {row['family']:<18} "
+runtime/crystal_index.py:75:            f"role={row['role']:<24} "
+runtime/crystal_index_mobile_svg_renderer.py:16:INDEX_PATH = Path("logs/crystal_family_index.json")
+runtime/crystal_index_mobile_svg_renderer.py:17:OUT_DIR = Path("logs/crystal_index_mobile_renders")
+runtime/crystal_index_mobile_svg_renderer.py:22:        raise FileNotFoundError("Missing logs/crystal_family_index.json. Run: python runtime/crystal_index.py")
+runtime/crystal_index_mobile_svg_renderer.py:26:def role_color(role: str) -> str:
+runtime/crystal_index_mobile_svg_renderer.py:28:        "stable_diagnostic": "#55d6ff",
+runtime/crystal_index_mobile_svg_renderer.py:29:        "transformative_opener": "#7dff9b",
+runtime/crystal_index_mobile_svg_renderer.py:30:        "seed_pattern": "#ffcc66",
+runtime/crystal_index_mobile_svg_renderer.py:31:        "emerging_pattern": "#c48cff",
+runtime/crystal_index_mobile_svg_renderer.py:35:    }.get(role, "#9fb3bd")
+runtime/crystal_index_mobile_svg_renderer.py:48:    stable = sum(1 for f in families if f.get("role") == "stable_diagnostic")
+runtime/crystal_index_mobile_svg_renderer.py:49:    transformative = sum(1 for f in families if f.get("role") == "transformative_opener")
+runtime/crystal_index_mobile_svg_renderer.py:65:<text x="62" y="92" fill="#dff8ff" font-size="42" font-family="monospace">CRYSTAL LIBRARY</text>
+runtime/crystal_index_mobile_svg_renderer.py:66:<text x="62" y="136" fill="#8fb8c8" font-size="24" font-family="monospace">Mobile Control Panel</text>
+runtime/crystal_index_mobile_svg_renderer.py:69:<text x="92" y="218" fill="#eaffff" font-size="28" font-family="monospace">Families tracked: {len(families)}</text>
+runtime/crystal_index_mobile_svg_renderer.py:70:<text x="92" y="260" fill="#55d6ff" font-size="26" font-family="monospace">Stable diagnostic: {stable}</text>
+runtime/crystal_index_mobile_svg_renderer.py:71:<text x="92" y="300" fill="#7dff9b" font-size="26" font-family="monospace">Transformative opener: {transformative}</text>
+runtime/crystal_index_mobile_svg_renderer.py:74:<text x="360" y="350" fill="#dff8ff" font-size="24" font-family="monospace">FAMILY INDEX CORE</text>
+runtime/crystal_index_mobile_svg_renderer.py:79:        name = str(fam.get("family", "unknown"))
+runtime/crystal_index_mobile_svg_renderer.py:80:        role = str(fam.get("role", "unknown"))
+runtime/crystal_index_mobile_svg_renderer.py:81:        color = role_color(role)
+runtime/crystal_index_mobile_svg_renderer.py:90:        a(f'<text x="132" y="{y+60}" fill="#eaffff" font-size="34" font-family="monospace">{i}. {escape(name)}</text>')
+runtime/crystal_index_mobile_svg_renderer.py:91:        a(f'<text x="132" y="{y+105}" fill="{color}" font-size="27" font-family="monospace">role: {escape(role)}</text>')
+runtime/crystal_index_mobile_svg_renderer.py:93:        a(f'<text x="132" y="{y+150}" fill="#cfe8f0" font-size="24" font-family="monospace">turns: {turns}</text>')
+runtime/crystal_index_mobile_svg_renderer.py:94:        a(f'<text x="390" y="{y+150}" fill="#cfe8f0" font-size="24" font-family="monospace">stability: {stability:.3f}</text>')
+runtime/crystal_index_mobile_svg_renderer.py:95:        a(f'<text x="132" y="{y+188}" fill="#cfe8f0" font-size="24" font-family="monospace">release delta: {release:+.3f}</text>')
+runtime/crystal_index_mobile_svg_renderer.py:103:            a(f'<text x="132" y="{sy}" fill="#8fb8c8" font-size="18" font-family="monospace">{escape(line)}</text>')
+runtime/crystal_index_mobile_svg_renderer.py:110:<text x="92" y="{h-96}" fill="#dff8ff" font-size="23" font-family="monospace">Known families become instruments.</text>
+runtime/crystal_index_mobile_svg_renderer.py:111:<text x="92" y="{h-62}" fill="#8fb8c8" font-size="21" font-family="monospace">Repeated shapes become navigable controls.</text>
+runtime/crystal_index_mobile_svg_renderer.py:113:<text x="62" y="{h-25}" fill="#527987" font-size="16" font-family="monospace">Generated: {escape(str(data.get("generated_at", "?")))}</text>
+runtime/crystal_index_mobile_svg_renderer.py:123:    out = OUT_DIR / f"{stamp}_crystal_library_mobile.svg"
+runtime/crystal_index_svg_renderer.py:4:Creates a local dashboard image from logs/crystal_family_index.json.
+runtime/crystal_index_svg_renderer.py:15:INDEX_PATH = Path("logs/crystal_family_index.json")
+runtime/crystal_index_svg_renderer.py:16:OUT_DIR = Path("logs/crystal_index_renders")
+runtime/crystal_index_svg_renderer.py:21:        raise FileNotFoundError("Missing logs/crystal_family_index.json. Run: python runtime/crystal_index.py")
+runtime/crystal_index_svg_renderer.py:25:def role_color(role: str) -> str:
+runtime/crystal_index_svg_renderer.py:27:        "stable_diagnostic": "#55d6ff",
+runtime/crystal_index_svg_renderer.py:28:        "transformative_opener": "#7dff9b",
+runtime/crystal_index_svg_renderer.py:29:        "seed_pattern": "#ffcc66",
+runtime/crystal_index_svg_renderer.py:30:        "emerging_pattern": "#c48cff",
+runtime/crystal_index_svg_renderer.py:34:    }.get(role, "#8aa0aa")
+runtime/crystal_index_svg_renderer.py:63:<text x="70" y="92" fill="#d8f4ff" font-size="36" font-family="monospace">CRYSTAL LIBRARY CONTROL PANEL</text>
+runtime/crystal_index_svg_renderer.py:64:<text x="70" y="130" fill="#8fb8c8" font-size="21" font-family="monospace">Family Index / Pattern Roles / Stability / Delta</text>
+runtime/crystal_index_svg_renderer.py:67:<text x="1090" y="100" fill="#d8f4ff" font-size="22" font-family="monospace">GENERATED: {escape(str(data.get("generated_at", "?")))}</text>
+runtime/crystal_index_svg_renderer.py:68:<text x="1090" y="136" fill="#d8f4ff" font-size="22" font-family="monospace">FAMILY COUNT: {data.get("family_count", len(families))}</text>
+runtime/crystal_index_svg_renderer.py:76:    a(f'<text x="{cx-165}" y="{cy-10}" fill="#e5fbff" font-size="23" font-family="monospace">CRYSTAL FAMILY INDEX</text>')
+runtime/crystal_index_svg_renderer.py:77:    a(f'<text x="{cx-118}" y="{cy+26}" fill="#9fc2cf" font-size="17" font-family="monospace">roles mapped from logs</text>')
+runtime/crystal_index_svg_renderer.py:79:    # family cards
+runtime/crystal_index_svg_renderer.py:92:        name = str(fam.get("family", "unknown"))
+runtime/crystal_index_svg_renderer.py:93:        role = str(fam.get("role", "unknown"))
+runtime/crystal_index_svg_renderer.py:94:        color = role_color(role)
+runtime/crystal_index_svg_renderer.py:104:        a(f'<text x="{x+46}" y="{y+42}" fill="#eaffff" font-size="24" font-family="monospace">{escape(name)}</text>')
+runtime/crystal_index_svg_renderer.py:105:        a(f'<text x="{x+46}" y="{y+72}" fill="{color}" font-size="18" font-family="monospace">role: {escape(role)}</text>')
+runtime/crystal_index_svg_renderer.py:106:        a(f'<text x="{x+46}" y="{y+100}" fill="#bdd6df" font-size="16" font-family="monospace">turns={turns} stability={stability:.3f} release_delta={release:+.3f}</text>')
+runtime/crystal_index_svg_renderer.py:109:        a(f'<text x="{x+46}" y="{y+146}" fill="#8fb8c8" font-size="13" font-family="monospace">{escape(sig)}</text>')
+runtime/crystal_index_svg_renderer.py:110:        a(f'<text x="{x+46}" y="{y+164}" fill="#8fb8c8" font-size="12" font-family="monospace">{escape(summary)}</text>')
+runtime/crystal_index_svg_renderer.py:117:    # bottom meaning row
+runtime/crystal_index_svg_renderer.py:119:    a(f'<text x="285" y="820" fill="#d8f4ff" font-size="20" font-family="monospace">RUNTIME MEANING: known families become instruments; repeated shapes become navigable controls.</text>')
+runtime/crystal_index_svg_renderer.py:129:    path = OUT_DIR / f"{stamp}_crystal_family_index.svg"
+runtime/crystal_library_query.py:4:Reads logs/sge_turns.jsonl and summarizes remembered shape patterns.
+runtime/crystal_library_query.py:66:        str(row.get("crystal_recall", "")),
+runtime/crystal_library_query.py:81:    family_counts = Counter()
+runtime/crystal_library_query.py:82:    release_by_family = defaultdict(list)
+runtime/crystal_library_query.py:86:        family = sig.split("|", 1)[0]
+runtime/crystal_library_query.py:87:        family_counts[family] += 1
+runtime/crystal_library_query.py:90:            release_by_family[family].append(float(r.get("shape_delta", {}).get("release", 0.0)))
+runtime/crystal_library_query.py:107:    for family, count in family_counts.most_common(limit):
+runtime/crystal_library_query.py:108:        deltas = release_by_family.get(family, [])
+runtime/crystal_library_query.py:110:        lines.append(f"- {family:<18} hits={count:<3} avg_release_delta={avg_release:+.3f}")
+runtime/crystal_matcher.py:10:    ROOT / "runtime" / "crystal_patterns.json",
+runtime/crystal_matcher.py:11:    ROOT / "runtime" / "crystal_patterns_balancing.json",
+runtime/crystal_matcher.py:64:    if pat.get("type") == "definition":
+runtime/crystal_matcher.py:90:def load_patterns(paths=None):
+runtime/crystal_matcher.py:92:    patterns = []
+runtime/crystal_matcher.py:100:            patterns.extend(x for x in loaded if isinstance(x, dict))
+runtime/crystal_matcher.py:102:    patterns.sort(key=_specificity)
+runtime/crystal_matcher.py:103:    return patterns
+runtime/crystal_matcher.py:106:def crystal_match(prompt: str, output: str, patterns, threshold: float = 2.0):
+runtime/crystal_matcher.py:109:    for pat in patterns:
+runtime/crystal_patterns.json:4:    "type": "definition",
+runtime/crystal_patterns.json:11:    "type": "definition",
+runtime/crystal_patterns.json:18:    "type": "definition",
+runtime/crystal_patterns.json:20:    "keywords": ["lattice", "relation", "pattern", "structure"],
+
+=== import side-effect danger scan ===
+kernel/crystal_library.py:91:    print("CrystalLibrary loaded.")
+runtime/crystal_counsel.py:82:    print(render_crystal_counsel())
+runtime/crystal_family_report.py:136:    print(render_family_report(family))
+runtime/crystal_family_roles.py:126:    print(render_family_role(family))
+runtime/crystal_index.py:53:    with INDEX_PATH.open("w", encoding="utf-8") as f:
+runtime/crystal_index.py:85:    print(render_index())
+runtime/crystal_index_mobile_svg_renderer.py:124:    out.write_text(render_svg(data), encoding="utf-8")
+runtime/crystal_index_mobile_svg_renderer.py:126:    print("MOBILE CRYSTAL INDEX SVG WRITTEN")
+runtime/crystal_index_mobile_svg_renderer.py:127:    print(out)
+runtime/crystal_index_svg_renderer.py:130:    path.write_text(render_svg(data), encoding="utf-8")
+runtime/crystal_index_svg_renderer.py:136:    print("CRYSTAL INDEX SVG WRITTEN")
+runtime/crystal_index_svg_renderer.py:137:    print("-------------------------")
+runtime/crystal_index_svg_renderer.py:138:    print(path)
+runtime/crystal_library_query.py:4:Reads logs/sge_turns.jsonl and summarizes remembered shape patterns.
+runtime/crystal_library_query.py:19:LOG_PATH = Path("logs/sge_turns.jsonl")
+runtime/crystal_library_query.py:27:    with LOG_PATH.open("r", encoding="utf-8") as f:
+runtime/crystal_library_query.py:139:    print(render_query(query))
+runtime/crystal_matcher.py:97:        with open(path, "r", encoding="utf-8") as f:
+runtime/crystal_recall.py:61:    print(render_crystal_recall("I feel the black hole in my chest again today", demo_in, demo_out))
+symbolic_engine/crystal_autonomous_seed_engine.py:16:4. GuardRailSupervisor – tracks mutation budget and supports rollback
+symbolic_engine/crystal_autonomous_seed_engine.py:47:CHANGELOG = BASE_DIR / "changelog.jsonl"
+symbolic_engine/crystal_autonomous_seed_engine.py:117:        with CHANGELOG.open("r", encoding="utf-8") as fp:
+symbolic_engine/crystal_autonomous_seed_engine.py:139:        with CHANGELOG.open("a", encoding="utf-8") as fp:
+symbolic_engine/crystal_autonomous_seed_engine.py:197:        patch_path.write_text(patch_code, encoding="utf-8")
+
+=== py_compile only ===
+
+=== done ===
+

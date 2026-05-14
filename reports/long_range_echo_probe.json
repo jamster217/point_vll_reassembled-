@@ -1,0 +1,2 @@
+{"answer":"The Live Adaptation Pulse Ledger is the system\u2019s safe heartbeat recorder. It does not rewrite the source body. Instead, each chat request leaves a small runtime pulse showing the prompt load, selected route, public scrub status, and response shape. Small prompts usually route through the lighter path, while dense symbolic prompts route through the heavier path. This proves live adaptation without exposing private machinery or changing the core code.","answer_mode":"full","ok":true}
+

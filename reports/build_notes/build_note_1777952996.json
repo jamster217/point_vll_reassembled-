@@ -1,0 +1,27 @@
+{
+  "timestamp": 1777952996.265852,
+  "label": "clean_impact_tracking_enabled",
+  "summary": "Outcome tracking corrected to use before_count and after_count. Impact score now reflects real compound growth and usefulness.",
+  "state": {
+    "loop": [
+      "reason",
+      "mutate",
+      "save",
+      "execute",
+      "measure_impact",
+      "feedback"
+    ],
+    "impact_tracking": {
+      "before_count": true,
+      "after_count": true,
+      "clean_delta": true
+    }
+  },
+  "latest_metrics": {
+    "impact_delta": 1,
+    "usefulness": 7,
+    "score": 8
+  },
+  "next_phase": "reinforcement_weighting"
+}
+

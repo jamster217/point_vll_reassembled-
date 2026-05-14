@@ -1,0 +1,11 @@
+ESSENCE: gravity_grief/transformative_opener relation=clarify valence=grief_transformative time=past->present clause=integration_clause M=0.78 N=0.22 B=0.61 E=0.86
+REGISTER: {
+  "ok": true,
+  "family": "gravity_grief",
+  "role": "transformative_opener",
+  "turns": 1,
+  "stability": 0.5,
+  "release_delta": 0.15,
+  "index_path": "logs/crystal_family_index.json"
+}
+

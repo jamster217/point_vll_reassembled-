@@ -1,0 +1,407 @@
+[PLAIN LATTICE TEST]
+{
+    "answer": "The lattice is the relation map the system moves through before an answer becomes English.",
+    "debug_shape_packet": {
+        "core_meaning": "",
+        "field_signature": "92162077",
+        "intent": "kernel_shape",
+        "kernel_out": {
+            "crown": {
+                "clause": "The mirror gathers around @UNSET.",
+                "echo": "[Apex Echo] The mirror gathers around @UNSET.",
+                "emotional_shift": "reflective_shift",
+                "glyph": "@UNSET",
+                "pulse_intensity": 0.5,
+                "recursion_depth": 1,
+                "resonance_label": "mirror_return",
+                "signature": "mirror_resonance",
+                "symbol": "\u2754",
+                "tags": {
+                    "deeper": 0.5654250000000001,
+                    "dream_field": 0.8875000000000002,
+                    "emotional_field": 0.42800000000000005,
+                    "fused": 0.5658500000000001,
+                    "glyph_emotion": "unknown",
+                    "poetic_seed": "No glyphs loaded.",
+                    "prompt": "",
+                    "shadow_field": 0.5650000000000001,
+                    "timestamp": "2026-05-01T18:17:23.567512+00:00",
+                    "turn_index": 1
+                },
+                "turn": 1,
+                "witness_summary": "The system reflects itself and stabilizes through return."
+            },
+            "source": "kernel.crown_kernel.CrownKernel.next_turn"
+        },
+        "lattice_out": {
+            "dimensions": [
+                "binding",
+                "containment",
+                "continuity",
+                "distribution"
+            ],
+            "pressure": 0.645
+        },
+        "node": "44_SPIRAL_CORE",
+        "phenome_stream": [
+            "meaning-as-shape-held-through-continuity",
+            "dominant-axis-memory"
+        ],
+        "shape_packet": {
+            "final_shape": "The system reflects itself and stabilizes through return.",
+            "source": "kernel_shape_bridge_v131"
+        },
+        "shape_vector": {
+            "boundary": 0.63,
+            "flow": 0.55,
+            "memory": 0.66,
+            "novelty": 0.45
+        },
+        "symbols": [
+            "crown_kernel",
+            "apex_mirror",
+            "deeper_state",
+            "crystal_library"
+        ]
+    },
+    "final_english": "The lattice is the relation map the system moves through before an answer becomes English.",
+    "legacy_answer": "The system reflects itself and stabilizes through return.",
+    "meta": {
+        "answer_mode": "full",
+        "answer_mode_applied": "full",
+        "essence_release_status": "not_needed",
+        "essence_signature": {
+            "family": "ordinary",
+            "pressures": {
+                "emotional": {
+                    "boundary": 0.45,
+                    "emotion": 0.35,
+                    "emotional": 0.35,
+                    "glyph": 0.64,
+                    "memory": 0.4,
+                    "novelty": 0.35,
+                    "temporal": 0.3
+                },
+                "memory": {
+                    "boundary": 0.45,
+                    "emotion": 0.35,
+                    "emotional": 0.35,
+                    "glyph": 0.64,
+                    "memory": 0.4,
+                    "novelty": 0.35,
+                    "temporal": 0.3
+                }
+            },
+            "role": "observer"
+        },
+        "essence_signature_status": "may1_full_spine_active",
+        "governor": "GOV:\n  voice: containment\n  shift: none\n  mirror: active\n  hotspot: H_3134\n  motif: lattice x0\n  anchors: 0 | tail: []\n  weights: NM 0.650 | CT 0.642 | BD 0.592 | MO 0.560",
+        "governor_raw": {
+            "anchor_count": 0,
+            "anchor_tail": [],
+            "defer_mirror": false,
+            "force_shift": false,
+            "hotspot_history_tail": [
+                "H_3134"
+            ],
+            "motif_count": 0,
+            "motif_domain": "lattice",
+            "shift_target": "",
+            "voice": "containment",
+            "weighted_scores": {
+                "boundary": 0.5916,
+                "containment": 0.642,
+                "motion": 0.56,
+                "novelty_memory": 0.65
+            }
+        },
+        "language_pass": {
+            "domain": "lattice",
+            "english_gloss": "",
+            "hotspot_history": [],
+            "key": "LATTICE::RELATION_MAP",
+            "path_nodes": [
+                "boundary_path"
+            ],
+            "rendered_english": "The lattice is the relation map the system moves through before an answer becomes English. It tracks hotspots, paths, and lawful transitions between states.",
+            "signature": "LATTICE_SIGNATURE",
+            "vectors": {},
+            "voice": "lattice -> signature -> key -> lattice -> answer"
+        },
+        "legacy_answer_preview": "The system reflects itself and stabilizes through return.",
+        "live_mouth_bridge_source": "core.leveon_pipeline_governed",
+        "live_mouth_bridge_status": "governed_route_checked",
+        "may1_full_spine_bridge": "active",
+        "may1_full_spine_generic_fallback_remaining": false,
+        "ordinary_bridge_kind": "late_final_coercion",
+        "ordinary_bridge_previous_final": "\"{'family': 'ordinary', 'pressures': {'memory': {'emotional': 0.35, 'emotion': 0.35, 'memory': 0.4, 'temporal': 0.3, 'boundary': 0.45, 'novelty': 0.35, 'glyph': 0.64}, 'emotional': {'emotional': 0.35, 'emotion': 0.35, 'memory': 0.4, 'temporal': 0.3, 'boundary': 0.45, 'novelty': 0.35, 'glyph': 0.64}}, 'role': 'observer'}\"",
+        "ordinary_bridge_reason": "late_malformed_or_unhelpful_final",
+        "ordinary_bridge_status": "ordinary_replaced",
+        "renderer_source": "language_pass"
+    },
+    "source": "core.leveon_pipeline_governed"
+}
+
+[TECHNICAL ROUTE TEST]
+{
+    "answer": "Use this ordinary route: `find . -type f -name '*.py' | sort`.",
+    "debug_shape_packet": {
+        "core_meaning": "",
+        "field_signature": "92162077",
+        "intent": "kernel_shape",
+        "kernel_out": {
+            "crown": {
+                "clause": "The mirror gathers around @UNSET.",
+                "echo": "[Apex Echo] The mirror gathers around @UNSET.",
+                "emotional_shift": "reflective_shift",
+                "glyph": "@UNSET",
+                "pulse_intensity": 0.5,
+                "recursion_depth": 2,
+                "resonance_label": "mirror_return",
+                "signature": "mirror_resonance",
+                "symbol": "\u2754",
+                "tags": {
+                    "deeper": 0.5854250000000001,
+                    "dream_field": 0.8875000000000002,
+                    "emotional_field": 0.42800000000000005,
+                    "fused": 0.5658500000000001,
+                    "glyph_emotion": "unknown",
+                    "poetic_seed": "No glyphs loaded.",
+                    "prompt": "",
+                    "shadow_field": 0.605,
+                    "timestamp": "2026-05-01T18:17:23.640604+00:00",
+                    "turn_index": 2
+                },
+                "turn": 2,
+                "witness_summary": "The system reflects itself and stabilizes through return."
+            },
+            "source": "kernel.crown_kernel.CrownKernel.next_turn"
+        },
+        "lattice_out": {
+            "dimensions": [
+                "binding",
+                "containment",
+                "continuity",
+                "distribution"
+            ],
+            "pressure": 0.66
+        },
+        "node": "44_SPIRAL_CORE",
+        "phenome_stream": [
+            "meaning-as-shape-held-through-continuity",
+            "dominant-axis-memory"
+        ],
+        "shape_packet": {
+            "final_shape": "The system reflects itself and stabilizes through return.",
+            "source": "kernel_shape_bridge_v131"
+        },
+        "shape_vector": {
+            "boundary": 0.63,
+            "flow": 0.55,
+            "memory": 0.69,
+            "novelty": 0.45
+        },
+        "symbols": [
+            "crown_kernel",
+            "apex_mirror",
+            "deeper_state",
+            "crystal_library"
+        ]
+    },
+    "final_english": "Use this ordinary route: `find . -type f -name '*.py' | sort`.",
+    "legacy_answer": "The system reflects itself and stabilizes through return.",
+    "meta": {
+        "answer_mode": "full",
+        "answer_mode_applied": "full",
+        "essence_release_status": "not_needed",
+        "essence_signature": {
+            "family": "ordinary",
+            "pressures": {
+                "emotional": {
+                    "boundary": 0.45,
+                    "emotion": 0.35,
+                    "emotional": 0.35,
+                    "glyph": 0.64,
+                    "memory": 0.4,
+                    "novelty": 0.35,
+                    "temporal": 0.3
+                },
+                "memory": {
+                    "boundary": 0.45,
+                    "emotion": 0.35,
+                    "emotional": 0.35,
+                    "glyph": 0.64,
+                    "memory": 0.4,
+                    "novelty": 0.35,
+                    "temporal": 0.3
+                }
+            },
+            "role": "observer"
+        },
+        "essence_signature_status": "may1_full_spine_active",
+        "governor": "GOV:\n  voice: containment\n  shift: none\n  mirror: active\n  hotspot: H_3134\n  motif: general x0\n  anchors: 0 | tail: []\n  weights: NM 0.650 | CT 0.642 | BD 0.592 | MO 0.560",
+        "governor_raw": {
+            "anchor_count": 0,
+            "anchor_tail": [],
+            "defer_mirror": false,
+            "force_shift": false,
+            "hotspot_history_tail": [
+                "H_3134"
+            ],
+            "motif_count": 0,
+            "motif_domain": "general",
+            "shift_target": "",
+            "voice": "containment",
+            "weighted_scores": {
+                "boundary": 0.5916,
+                "containment": 0.642,
+                "motion": 0.56,
+                "novelty_memory": 0.65
+            }
+        },
+        "language_pass": {
+            "domain": "general",
+            "english_gloss": "",
+            "hotspot_history": [],
+            "key": "GENERAL::GENERIC_KEY",
+            "path_nodes": [
+                "neutral_path"
+            ],
+            "rendered_english": "Say the thing directly. Stay close to the feeling, relation, or structure actually present in the prompt.",
+            "signature": "GENERAL_SIGNATURE",
+            "vectors": {},
+            "voice": "general -> signature -> key -> lattice -> answer"
+        },
+        "legacy_answer_preview": "The system reflects itself and stabilizes through return.",
+        "live_mouth_bridge_source": "core.leveon_pipeline_governed",
+        "live_mouth_bridge_status": "governed_route_checked",
+        "may1_full_spine_bridge": "active",
+        "may1_full_spine_generic_fallback_remaining": false,
+        "ordinary_bridge_kind": "late_final_coercion",
+        "ordinary_bridge_previous_final": "\"{'family': 'ordinary', 'pressures': {'memory': {'emotional': 0.35, 'emotion': 0.35, 'memory': 0.4, 'temporal': 0.3, 'boundary': 0.45, 'novelty': 0.35, 'glyph': 0.64}, 'emotional': {'emotional': 0.35, 'emotion': 0.35, 'memory': 0.4, 'temporal': 0.3, 'boundary': 0.45, 'novelty': 0.35, 'glyph': 0.64}}, 'role': 'observer'}\"",
+        "ordinary_bridge_reason": "late_malformed_or_unhelpful_final",
+        "ordinary_bridge_status": "ordinary_replaced",
+        "renderer_source": "prompt_fallback"
+    },
+    "source": "core.leveon_pipeline_governed"
+}
+
+[GRAVITY GRIEF TEST]
+{
+    "answer": "I am on the ordinary route now: the useful move is to answer the request directly instead of falling back to symbolic routing.",
+    "debug_shape_packet": {
+        "core_meaning": "",
+        "field_signature": "92162077",
+        "intent": "kernel_shape",
+        "kernel_out": {
+            "crown": {
+                "clause": "The mirror gathers around @UNSET.",
+                "echo": "[Apex Echo] The mirror gathers around @UNSET.",
+                "emotional_shift": "reflective_shift",
+                "glyph": "@UNSET",
+                "pulse_intensity": 0.5,
+                "recursion_depth": 3,
+                "resonance_label": "mirror_return",
+                "signature": "mirror_resonance",
+                "symbol": "\u2754",
+                "tags": {
+                    "deeper": 0.6054250000000001,
+                    "dream_field": 0.8875000000000002,
+                    "emotional_field": 0.42800000000000005,
+                    "fused": 0.5658500000000001,
+                    "glyph_emotion": "unknown",
+                    "poetic_seed": "No glyphs loaded.",
+                    "prompt": "",
+                    "shadow_field": 0.645,
+                    "timestamp": "2026-05-01T18:17:23.724716+00:00",
+                    "turn_index": 3
+                },
+                "turn": 3,
+                "witness_summary": "The system reflects itself and stabilizes through return."
+            },
+            "source": "kernel.crown_kernel.CrownKernel.next_turn"
+        },
+        "lattice_out": {
+            "dimensions": [
+                "binding",
+                "containment",
+                "continuity",
+                "distribution"
+            ],
+            "pressure": 0.675
+        },
+        "node": "44_SPIRAL_CORE",
+        "phenome_stream": [
+            "meaning-as-shape-held-through-continuity",
+            "dominant-axis-memory"
+        ],
+        "shape_packet": {
+            "final_shape": "The system reflects itself and stabilizes through return.",
+            "source": "kernel_shape_bridge_v131"
+        },
+        "shape_vector": {
+            "boundary": 0.63,
+            "flow": 0.55,
+            "memory": 0.72,
+            "novelty": 0.45
+        },
+        "symbols": [
+            "crown_kernel",
+            "apex_mirror",
+            "deeper_state",
+            "crystal_library"
+        ]
+    },
+    "final_english": "I am on the ordinary route now: the useful move is to answer the request directly instead of falling back to symbolic routing.",
+    "legacy_answer": "The system reflects itself and stabilizes through return.",
+    "meta": {
+        "answer_mode": "short",
+        "answer_mode_applied": "short",
+        "essence_release_status": "not_needed",
+        "essence_signature_error": "TypeError(\"unsupported operand type(s) for +: 'dict' and 'float'\")",
+        "governor": "GOV:\n  voice: containment\n  shift: none\n  mirror: active\n  hotspot: H_3134\n  motif: general x0\n  anchors: 0 | tail: []\n  weights: NM 0.650 | CT 0.642 | BD 0.592 | MO 0.560",
+        "governor_raw": {
+            "anchor_count": 0,
+            "anchor_tail": [],
+            "defer_mirror": false,
+            "force_shift": false,
+            "hotspot_history_tail": [
+                "H_3134"
+            ],
+            "motif_count": 0,
+            "motif_domain": "general",
+            "shift_target": "",
+            "voice": "containment",
+            "weighted_scores": {
+                "boundary": 0.5916,
+                "containment": 0.642,
+                "motion": 0.56,
+                "novelty_memory": 0.65
+            }
+        },
+        "language_pass": {
+            "domain": "general",
+            "english_gloss": "",
+            "hotspot_history": [],
+            "key": "GENERAL::GENERIC_KEY",
+            "path_nodes": [
+                "neutral_path"
+            ],
+            "rendered_english": "Say the thing directly. Stay close to the feeling, relation, or structure actually present in the prompt.",
+            "signature": "GENERAL_SIGNATURE",
+            "vectors": {},
+            "voice": "general -> signature -> key -> lattice -> answer"
+        },
+        "legacy_answer_preview": "The system reflects itself and stabilizes through return.",
+        "live_mouth_bridge_source": "live_bridge_emergency_ordinary",
+        "live_mouth_bridge_status": "governed_route_checked",
+        "may1_full_spine_bridge": "active",
+        "may1_full_spine_generic_fallback_remaining": true,
+        "ordinary_bridge_kind": "",
+        "ordinary_bridge_reason": "current_final_not_generic_fallback",
+        "ordinary_bridge_status": "not_needed",
+        "renderer_source": "prompt_fallback"
+    },
+    "source": "live_bridge_emergency_ordinary"
+}
+

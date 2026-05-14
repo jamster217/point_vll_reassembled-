@@ -1,0 +1,33 @@
+{
+  "moment": {
+    "surreal": 0.875,
+    "wonder": 0.65,
+    "fear": 0.0,
+    "grief": 0.0,
+    "calm": 0.375
+  },
+  "chapter": {
+    "surreal": 0.09625,
+    "wonder": 0.04375,
+    "fear": 0.0,
+    "grief": 0.0,
+    "calm": 0.04125
+  },
+  "arc": {
+    "surreal": 0.0154,
+    "wonder": 0.006,
+    "fear": 0.0,
+    "grief": 0.0,
+    "calm": 0.006600000000000001
+  },
+  "projection": "soft_dream",
+  "dream_tone": {
+    "surreal": 0.42647500000000005,
+    "wonder": 0.30712500000000004,
+    "fear": 0.0,
+    "grief": 0.0,
+    "calm": 0.182775
+  },
+  "dream_pressure": 0.426
+}
+

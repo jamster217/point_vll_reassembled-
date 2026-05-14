@@ -1,0 +1,41 @@
+{
+  "compounds": [
+    {
+      "law": "internet_learns_shape_not_source",
+      "ts": 1778110293.6996856,
+      "query": "autumn leaves",
+      "source_url": "",
+      "shape": {
+        "motifs": [],
+        "density": 0.0,
+        "symbolic_pressure": 0.055,
+        "coherence_estimate": 0.45
+      },
+      "summary": "Leaves change color because chlorophyll breaks down during autumn.",
+      "constraints": {
+        "append_only": true,
+        "no_source_rewrite": true,
+        "reviewable": true
+      }
+    }
+  ],
+  "latest": {
+    "law": "internet_learns_shape_not_source",
+    "ts": 1778110293.6996856,
+    "query": "autumn leaves",
+    "source_url": "",
+    "shape": {
+      "motifs": [],
+      "density": 0.0,
+      "symbolic_pressure": 0.055,
+      "coherence_estimate": 0.45
+    },
+    "summary": "Leaves change color because chlorophyll breaks down during autumn.",
+    "constraints": {
+      "append_only": true,
+      "no_source_rewrite": true,
+      "reviewable": true
+    }
+  }
+}
+

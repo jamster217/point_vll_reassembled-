@@ -1,0 +1,62 @@
+wrote runtime/generated/trace_law_bank.json
+{
+  "total_turns": 4200,
+  "mode_by_state": {
+    "fragile": {
+      "observe": 29
+    },
+    "adaptive": {
+      "observe": 267,
+      "stabilize": 230
+    },
+    "stable": {
+      "observe": 39,
+      "stabilize": 568,
+      "expand": 3067
+    }
+  },
+  "commit_by_state": {
+    "fragile": {
+      "block": 29
+    },
+    "adaptive": {
+      "block": 270,
+      "commit": 227
+    },
+    "stable": {
+      "commit": 3672,
+      "block": 2
+    }
+  },
+  "top_motifs": [
+    [
+      "hexagonal_stability",
+      19880063
+    ],
+    [
+      "radial_throttling",
+      8809503
+    ],
+    [
+      "ethical_alignment_principle",
+      6186403
+    ],
+    [
+      "scientific_explanation_model",
+      5716171
+    ],
+    [
+      "meta_pattern_hierarchy",
+      4400061
+    ],
+    [
+      "universal_signature",
+      573408
+    ],
+    [
+      "hyper_unified_motif",
+      1
+    ]
+  ]
+}
+

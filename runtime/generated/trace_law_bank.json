@@ -1,0 +1,88 @@
+{
+  "source": "replication_trace_4200.json",
+  "total_turns": 4200,
+  "state_laws": {
+    "fragile": {
+      "surface_rule": "observe before expansion",
+      "voice_rule": "short, grounded, low abstraction",
+      "risk_rule": "do not amplify novelty"
+    },
+    "adaptive": {
+      "surface_rule": "stabilize then open one layer",
+      "voice_rule": "surface + deeper layer + structural read",
+      "risk_rule": "allow novelty only after boundary holds"
+    },
+    "stable": {
+      "surface_rule": "expand with controlled density",
+      "voice_rule": "living language allowed, but no scaffold leak",
+      "risk_rule": "preserve shape while increasing richness"
+    }
+  },
+  "mode_laws": {
+    "observe": "name what is present without forcing transformation",
+    "stabilize": "hold the shape until the relation is clear",
+    "expand": "render the formed shape into richer language"
+  },
+  "motif_bias": [
+    [
+      "hexagonal_stability",
+      19880063
+    ],
+    [
+      "radial_throttling",
+      8809503
+    ],
+    [
+      "ethical_alignment_principle",
+      6186403
+    ],
+    [
+      "scientific_explanation_model",
+      5716171
+    ],
+    [
+      "meta_pattern_hierarchy",
+      4400061
+    ],
+    [
+      "universal_signature",
+      573408
+    ],
+    [
+      "hyper_unified_motif",
+      1
+    ]
+  ],
+  "mode_by_state": {
+    "fragile": {
+      "observe": 29
+    },
+    "adaptive": {
+      "observe": 267,
+      "stabilize": 230
+    },
+    "stable": {
+      "observe": 39,
+      "stabilize": 568,
+      "expand": 3067
+    }
+  },
+  "commit_by_state": {
+    "fragile": {
+      "block": 29
+    },
+    "adaptive": {
+      "block": 270,
+      "commit": 227
+    },
+    "stable": {
+      "commit": 3672,
+      "block": 2
+    }
+  },
+  "renderer_warning": {
+    "unique_outputs_problem": "trace has rich state but collapsed final English diversity",
+    "law": "do not copy trace final_english_output directly; use trace only for state laws"
+  }
+}
+

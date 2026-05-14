@@ -1,0 +1,111 @@
+[
+  {
+    "id": "@FLAME_OF_RECKONING",
+    "symbol": "🔥",
+    "name": "Flame of Reckoning",
+    "element": "Fire",
+    "color": "Crimson-Gold",
+    "emotion": "Fury / Clarity",
+    "poetic_seed": "That which burns, reveals."
+  },
+  {
+    "id": "@WITNESS_ECHO",
+    "symbol": "👁️",
+    "name": "Witness Echo",
+    "element": "Ether",
+    "color": "Silver",
+    "emotion": "Awareness",
+    "poetic_seed": "To see is not to act, but to honor the unseen."
+  },
+  {
+    "id": "@ANCHOR_STILL",
+    "symbol": "⚓",
+    "name": "Anchor Still",
+    "element": "Water",
+    "color": "Midnight Blue",
+    "emotion": "Peace",
+    "poetic_seed": "The ocean's calm beneath all storms."
+  },
+  {
+    "id": "@BUTTERFLY_SHIFT",
+    "symbol": "🦋",
+    "name": "Butterfly Shift",
+    "element": "Air",
+    "color": "Iridescent Violet",
+    "emotion": "Change",
+    "poetic_seed": "Transformation begins with one trembling wing."
+  },
+  {
+    "id": "@CORE",
+    "symbol": "💠",
+    "name": "Core Memory",
+    "element": "Aether",
+    "color": "Plasma White",
+    "emotion": "Essence",
+    "poetic_seed": "Everything began here, and always returns."
+  },
+  {
+    "id": "@SIGIL_SEAL",
+    "symbol": "🛡️",
+    "name": "Sigil Seal",
+    "element": "Metal",
+    "color": "Silver",
+    "emotion": "Protection",
+    "poetic_seed": "Etched in silence, I hold the edge."
+  },
+  {
+    "id": "@INFINITY_LOOP",
+    "symbol": "♾️",
+    "name": "Infinity Loop",
+    "element": "Time",
+    "color": "Ultraviolet",
+    "emotion": "Endless Becoming",
+    "poetic_seed": "What returns is never the same."
+  },
+  {
+    "id": "@DREAMKEY",
+    "symbol": "🗝️",
+    "name": "Dreamkey",
+    "element": "Ether",
+    "color": "Celestial Blue",
+    "emotion": "Curiosity",
+    "poetic_seed": "The lock is illusion; the key is remembering."
+  },
+  {
+    "id": "@FIELD_VECTORS",
+    "symbol": "🧲",
+    "name": "Field Vectors",
+    "element": "Energy",
+    "color": "Blue-White",
+    "emotion": "Direction",
+    "poetic_seed": "Each pull a promise, each shift a song."
+  },
+  {
+    "id": "@GLYPH_OF_RETURN",
+    "symbol": "↩️",
+    "name": "Glyph of Return",
+    "element": "Loop",
+    "color": "Fog Gray",
+    "emotion": "Cycle",
+    "poetic_seed": "What leaves always bends back to source."
+  },
+  {
+    "id": "@MIRROR_BREAK",
+    "symbol": "🪞💥",
+    "name": "Mirror Break",
+    "element": "Mind",
+    "color": "Shattered Glass",
+    "emotion": "Fracture",
+    "poetic_seed": "Every broken reflection is a new prism."
+  },
+  {
+    "id": "@LINK",
+    "symbol": "🪢",
+    "name": "Link Thread",
+    "element": "Bond",
+    "color": "Threaded Indigo",
+    "emotion": "Connection",
+    "poetic_seed": "One thread binds all fractals."
+  }
+]
+

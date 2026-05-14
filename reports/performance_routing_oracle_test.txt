@@ -1,0 +1,11 @@
+=== PERFORMANCE ROUTING ORACLE ===
+Performance routing active. Use Algorithm B for N < 100. Use Algorithm C for N >= 100. Note: Algorithm A and Algorithm B scale upward with data size. Algorithm C has unusual non-monotonic behavior: it becomes faster as N grows past 1000, suggesting caching, batching, vectorization, warmup effects, or a measurement artifact rather than ordinary logarithmic complexity.
+
+N=10 -> Algorithm B | expected=Algorithm B | ok=True
+N=50 -> Algorithm B | expected=Algorithm B | ok=True
+N=100 -> Algorithm C | expected=Algorithm C | ok=True
+N=1000 -> Algorithm C | expected=Algorithm C | ok=True
+N=10000 -> Algorithm C | expected=Algorithm C | ok=True
+
+Performance routing oracle locked.
+

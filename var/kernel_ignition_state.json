@@ -1,0 +1,76 @@
+{
+  "timestamp": 1777941538.3361564,
+  "generation": 1,
+  "heartbeat": 1.255846204748079,
+  "rhythm_status": "heartbeat_active",
+  "kernel_status": [
+    {
+      "label": "crystal_library",
+      "status": "active",
+      "method": "file",
+      "module": "leveon_dynamic_kernel_crystal_library",
+      "path": "/data/data/com.termux/files/home/point_vll_reassembled/kernel/crystal_library.py"
+    },
+    {
+      "label": "leveon_kernel_full",
+      "status": "active",
+      "method": "import",
+      "module": "kernel.leveon_kernel_full",
+      "path": "/data/data/com.termux/files/home/point_vll_reassembled/kernel/leveon_kernel_full.py"
+    },
+    {
+      "label": "apex_mirror_kernel",
+      "status": "active",
+      "method": "import",
+      "module": "kernel.apex_mirror_kernel",
+      "path": "/data/data/com.termux/files/home/point_vll_reassembled/kernel/apex_mirror_kernel.py"
+    },
+    {
+      "label": "time_machine_emulator",
+      "status": "active",
+      "method": "import",
+      "module": "kernel.time_machine_emulator",
+      "path": "/data/data/com.termux/files/home/point_vll_reassembled/kernel/time_machine_emulator.py"
+    },
+    {
+      "label": "timeline_gate_lattice",
+      "status": "active",
+      "method": "import",
+      "module": "runtime.timeline_gate_lattice",
+      "path": "/data/data/com.termux/files/home/point_vll_reassembled/runtime/timeline_gate_lattice.py"
+    },
+    {
+      "label": "spiral_full",
+      "status": "active",
+      "method": "import",
+      "module": "runtime.spiral_full",
+      "path": "/data/data/com.termux/files/home/point_vll_reassembled/runtime/spiral_full.py"
+    },
+    {
+      "label": "transduction_pin",
+      "status": "active",
+      "method": "import",
+      "module": "runtime.transduction_pin",
+      "path": "/data/data/com.termux/files/home/point_vll_reassembled/runtime/transduction_pin.py"
+    },
+    {
+      "label": "reassembled_half_dump_fusion",
+      "status": "active",
+      "method": "import",
+      "module": "runtime.reassembled_half_dump_fusion",
+      "path": "/data/data/com.termux/files/home/point_vll_reassembled/runtime/reassembled_half_dump_fusion.py"
+    },
+    {
+      "label": "exponential_sovereign_evolver",
+      "status": "active",
+      "method": "import",
+      "module": "runtime.exponential_sovereign_evolver",
+      "path": "/data/data/com.termux/files/home/point_vll_reassembled/runtime/exponential_sovereign_evolver.py"
+    }
+  ],
+  "anchor": "Sovariel",
+  "node": "Node_44",
+  "resonance": 528,
+  "status": "ignited_phase_2b"
+}
+

@@ -1,0 +1,15 @@
+TYPE: pure_vl ; LOAD VIA: adapter/voice_lang_adapter.py
+; FILE: kernel/ark_song_resonance_layer.vl
+; Generated: 2026-02-28 06:30:48
+; Le'Veon VoiceLang v1 (compact)
+
+MEM[ark.frequency = 963]
+FLOW[field -> dream -> voice -> heart]
+SHIFT[ark.frequency += microtone]
+TURN{
+    tone = harmonic_generate(528, 963)
+    lattice.imprint(tone)
+    spiral.memory.resonate(tone)
+}
+END
+

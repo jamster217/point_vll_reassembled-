@@ -1,0 +1,52 @@
+{
+  "source": "runtime.crystal_core_v9",
+  "stable_patterns": [
+    {
+      "token": "white_ash",
+      "tone": "sovereign_constellation"
+    },
+    {
+      "token": "anchor_signal_alignment",
+      "tone": "truth_binding"
+    }
+  ],
+  "new_crystals": [
+    {
+      "id": "27ea1cd2ce0ef964",
+      "pattern": {
+        "token": "white_ash",
+        "tone": "sovereign_constellation"
+      },
+      "timestamp": 1777271773.5857081
+    },
+    {
+      "id": "63bada73fe8b6788",
+      "pattern": {
+        "token": "anchor_signal_alignment",
+        "tone": "truth_binding"
+      },
+      "timestamp": 1777271773.5857081
+    }
+  ],
+  "crystals": [
+    {
+      "id": "27ea1cd2ce0ef964",
+      "pattern": {
+        "token": "white_ash",
+        "tone": "sovereign_constellation"
+      },
+      "timestamp": 1777271773.5857081
+    },
+    {
+      "id": "63bada73fe8b6788",
+      "pattern": {
+        "token": "anchor_signal_alignment",
+        "tone": "truth_binding"
+      },
+      "timestamp": 1777271773.5857081
+    }
+  ],
+  "crystal_count": 2,
+  "updated_at": 1777271773.5858057
+}
+

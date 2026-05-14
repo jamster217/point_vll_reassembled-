@@ -1,0 +1,92 @@
+            return "Structure matters because it constrains what can combine, stabilize, and repeat without collapse."
+        if prompt_low.startswith("how should a system balance clarity and depth"):
+            return "A system balances clarity and depth by keeping the surface readable while preserving the deeper relations underneath."
+        if prompt_low.startswith("design a way to compare two routing strategies without adding a second model"):
+            return "Compare the two routing strategies on the same prompt set and judge them by stability, directness, recurrence, and error rate under the same conditions."
+
+        base = re.sub(r"^This question is really about how ", "The key issue is how ", base, flags=re.IGNORECASE)
+        base = re.sub(r"^This question is really about ", "The key issue is ", base, flags=re.IGNORECASE)
+        base = re.sub(r"\bfit together inside the system\b", "work together inside the system", base, flags=re.IGNORECASE)
+        base = base.replace("keeps, coherent", "coherence is held")
+        base = base.replace(", coherent", " coherence")
+        base = re.sub(r"\s+", " ", base).strip()
+        return base
+
+    def _naturalize_seed_clause(t: str) -> str:
+        base = _clean_line(t or "")
+        if not base:
+            return ""
+        base = re.sub(r"\s+while\s+", " ", base, flags=re.IGNORECASE)
+        base = re.sub(r"\s+", " ", base).strip()
+        if base:
+            base = base[0].upper() + base[1:]
+        if not re.search(r"[.!?…]$", base):
+            base += "."
+        return base
+
+
+
+    def _seed_lab_candidate(prompt_text: str) -> str:
+        try:
+            import json
+            import re
+            from collections import Counter
+            from seed_lab.seed_simulator import (
+                SEED_PATH,
+                extract_shape,
+                kernel_simulate,
+                lattice_simulate,
+                mutate_and_score,
+                naturalize_clause,
+                expand_clause,
+                infer_relation,
+            )
+
+            shape = extract_shape(prompt_text)
+            kernel = kernel_simulate(shape, tone="neutral")
+            route = lattice_simulate(shape)
+            relation = infer_relation(prompt_text, shape)
+
+            proto = {
+                "input_text": prompt_text,
+                "shape": shape,
+                "kernel": kernel,
+                "route": route,
+                "relation": relation,
+            }
+
+            seed = json.loads(SEED_PATH.read_text(encoding="utf-8"))
+            mutated = mutate_and_score(seed, proto)
+
+            raw_candidates = [str(mutated.get("chosen", "") or "").strip()]
+            raw_candidates.extend(
+                str(c.get("text", "") or "").strip()
+                for c in (mutated.get("candidates", []) or [])[:6]
+            )
+
+            keywords = [str(x).lower() for x in (shape.get("keywords", []) or []) if str(x).strip()]
+
+            def _make_variants(raw_text: str):
+                raw_text = str(raw_text or "").strip()
+                if not raw_text:
+                    return []
+
+                base = naturalize_clause(_naturalize_seed_clause(raw_text), relation=relation, proto=proto)
+                full = expand_clause(base, relation=relation, proto=proto)
+
+                outs = [base, full]
+
+                if relation == "stabilize" and "coherent" in keywords:
+                    outs.append("A system stays coherent when the same useful pattern is reinforced instead of drifting apart. It keeps memory, routing, and realization aligned instead of letting the answer drift.")
+                if relation == "constrain" and "structure" in keywords:
+                    outs.append("Structure constrains how the response can form within the system. That is what makes the output more stable, readable, and debuggable.")
+                if relation == "compare":
+                    outs.append("Compare the routes on the same inputs and judge which one stays more stable, direct, and repeatable. Run both on the same prompt set and compare stability, directness, recurrence, and error rate.")
+
+                dedup = []
+                seen = set()
+                for x in outs:
+                    x = re.sub(r"\s+", " ", str(x or "")).strip()
+                    if x and x not in seen:
+                        seen.add(x)
+

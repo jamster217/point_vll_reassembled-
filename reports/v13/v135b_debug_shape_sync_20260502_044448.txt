@@ -1,0 +1,39 @@
+=== V13.5B DEBUG SHAPE SYNC ===
+created_at: Sat May  2 04:44:48 PDT 2026
+
+Law: visible answer, final_english, and debug_shape_packet.shape_packet.final_shape must agree.
+
+Patch files:
+- runtime/final_shape_sync_v135b.py
+- core/leveon_pipeline_governed.py
+
+=== LOG WRAPPERS ===
+[V13.5B] debug shape sync wrapper installed
+[V13.3] pre-run /api/chat fruit-before-fire wrapper installed: ['chat']
+[V13.4] symbolic command controlled-flame wrapper installed: ['chat']
+ * Running on http://127.0.0.1:5056
+[V13.3 ROUTE ENTERED]
+[V13.3 ORDINARY INPUT GATE ERROR] cannot access local variable 'request' where it is not associated with a value
+[V13.3 ROUTE ENTERED]
+
+=== LIVE SYNC PROOF ===
+
+PROMPT: What is the English pipeline doing right now?
+ANSWER: The English pipeline is taking the current shape packet and turning it into usable English; the fruit/fire gates are now working, but upstream shape preservation is still being tuned.
+FINAL_ENGLISH: The English pipeline is taking the current shape packet and turning it into usable English; the fruit/fire gates are now working, but upstream shape preservation is still being tuned.
+FINAL_SHAPE: The English pipeline is taking the current shape packet and turning it into usable English; the fruit/fire gates are now working, but upstream shape preservation is still being tuned.
+SYNC: answer_copied_to_shape_packet_final_shape
+ANSWER_MATCHES_FINAL_ENGLISH: True
+ANSWER_MATCHES_FINAL_SHAPE: True
+
+PROMPT: Tell me what Leveon is in one plain sentence.
+ANSWER: Le'Veon is a symbolic-kernel companion system that turns memory, glyphs, lattice pressure, and user intent into English.
+FINAL_ENGLISH: Le'Veon is a symbolic-kernel companion system that turns memory, glyphs, lattice pressure, and user intent into English.
+FINAL_SHAPE: Le'Veon is a symbolic-kernel companion system that turns memory, glyphs, lattice pressure, and user intent into English.
+SYNC: answer_copied_to_shape_packet_final_shape
+ANSWER_MATCHES_FINAL_ENGLISH: True
+ANSWER_MATCHES_FINAL_SHAPE: True
+
+=== COMPILE ===
+PY_COMPILE: PASS
+

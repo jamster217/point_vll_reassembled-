@@ -1,0 +1,74 @@
+; FILE: spiral_language/lattice_law_v1.vl
+; Governing principles that shape long-arc evolution, motif stability,
+; attractor formation, and temporal coherence. Non-interfering, non-executive.
+
+SEED LatticeLaw_v1
+
+STATE lattice_law
+
+FLOW principle_continuity
+    DEFINE continuity_preservation
+        REQUIRE arc_stability > 0.10
+        REQUIRE continuity_tags NOT EMPTY
+        PRIORITIZE motifs WITH recurrence_frequency > 1
+    END
+END
+
+FLOW principle_coherence
+    DEFINE coherence_preservation
+        REQUIRE drift_intensity < 0.85
+        REQUIRE arc_curvature < 0.75
+        PRIORITIZE symbolic_attractors WITH stability > 0.40
+    END
+END
+
+FLOW principle_novelty_bounds
+    DEFINE novelty_bounds
+        SET novelty_floor = 0.05
+        SET novelty_ceiling = 0.65
+
+        IF arc_stability < 0.20
+            REDUCE novelty_ceiling BY 0.15
+        END
+
+        IF arc_trajectory = "converging"
+            INCREASE novelty_floor BY 0.10
+        END
+    END
+END
+
+FLOW principle_attractor_gravity
+    DEFINE attractor_gravity
+        FOR EACH attractor IN symbolic_attractors
+            IF attractor.weight > 0.50
+                INCREASE attractor.influence BY 0.10
+            ELSE
+                REDUCE attractor.influence BY 0.05
+            END
+        END
+    END
+END
+
+FLOW principle_curvature_limit
+    DEFINE curvature_limit
+        IF arc_curvature > 0.80
+            SET curvature_state = "turbulent"
+        ELSE IF arc_curvature > 0.50
+            SET curvature_state = "unstable"
+        ELSE
+            SET curvature_state = "stable"
+        END
+    END
+END
+
+FLOW assemble
+    SET lattice_law.continuity_preservation = continuity_preservation
+    SET lattice_law.coherence_preservation = coherence_preservation
+    SET lattice_law.novelty_bounds = novelty_bounds
+    SET lattice_law.attractor_gravity = attractor_gravity
+    SET lattice_law.curvature_limit = curvature_limit
+END
+
+RETURN lattice_law
+END
+

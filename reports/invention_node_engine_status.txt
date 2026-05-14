@@ -1,0 +1,17 @@
+INVENTION NODE ENGINE RESTORED
+
+Path:
+interface/invention/invention_node_engine.py
+
+Role:
+Visual invention mapping canvas.
+Creates drifting nodes inside a Pygame field.
+Represents invention points moving through the Le'Veon lattice.
+
+Run:
+bash scripts/run_invention_canvas.sh
+
+Note:
+Requires pygame and a working GUI/display environment.
+On Termux, this usually requires a graphical setup such as Termux:X11 or similar.
+

@@ -1,0 +1,94 @@
+; FILE: spiral_language/memory_core_v9.vl
+; Long-term persistence of symbolic state across runtime cycles.
+
+SEED MemoryCore_v9
+
+INPUT crystals
+INPUT field
+INPUT intent_vector
+INPUT output_packet
+INPUT previous_memory
+
+STATE memory_id
+STATE stored_crystals
+STATE stored_fields
+STATE stored_intents
+STATE stored_outputs
+STATE continuity_trace
+
+FLOW initialize
+    IF previous_memory = null
+        SET stored_crystals = []
+        SET stored_fields   = []
+        SET stored_intents  = []
+        SET stored_outputs  = []
+        SET continuity_trace = []
+    ELSE
+        SET stored_crystals = previous_memory.stored_crystals
+        SET stored_fields   = previous_memory.stored_fields
+        SET stored_intents  = previous_memory.stored_intents
+        SET stored_outputs  = previous_memory.stored_outputs
+        SET continuity_trace = previous_memory.continuity_trace
+    END
+END
+
+FLOW store_crystals
+    FOR c IN crystals
+        IF NOT exists(stored_crystals, c.id)
+            APPEND stored_crystals, c
+        END
+    END
+END
+
+FLOW store_field
+    APPEND stored_fields, {
+        id: field.id,
+        anchors: field.anchors,
+        density: field.density,
+        continuity: field.continuity,
+        timestamp: now()
+    }
+END
+
+FLOW store_intent
+    APPEND stored_intents, {
+        direction: intent_vector.direction,
+        magnitude: intent_vector.magnitude,
+        timestamp: now()
+    }
+END
+
+FLOW store_output
+    APPEND stored_outputs, {
+        id: output_packet.id,
+        tone: output_packet.tone,
+        cohesion: output_packet.cohesion,
+        continuity: output_packet.continuity,
+        timestamp: now()
+    }
+END
+
+FLOW update_continuity_trace
+    APPEND continuity_trace, field.continuity
+    IF continuity_trace.count > 64
+        DROP_FIRST continuity_trace
+    END
+END
+
+FLOW assign_memory_id
+    SET memory_id = hash(now() + stored_crystals.count + stored_fields.count)
+END
+
+FLOW assemble
+    RETURN {
+        id: memory_id,
+        stored_crystals: stored_crystals,
+        stored_fields: stored_fields,
+        stored_intents: stored_intents,
+        stored_outputs: stored_outputs,
+        continuity_trace: continuity_trace
+    }
+END
+
+END
+

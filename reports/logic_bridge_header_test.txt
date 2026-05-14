@@ -1,0 +1,4 @@
+--- LEVEON_LOGIC_BRIDGE_v2 ---
+KEY: {"active_anchors": ["intuition_node", "recursive_soul", "entropy_attractor", "metacognitive_feedback", "psychic_sync"], "answer_mode": "full", "attractor": "core_knot", "bridge": "LEVEON_LOGIC_BRIDGE_v2", "crystal_hash": "da15356478524668", "generation": 1, "node": 44, "node_mode": "reflective", "prompt_chars": 27, "public_law": "return clean visible answer only", "render_law": "symbolic_shape_first_public_answer_second", "sovereign_mode": "fallback_exponential_sovereign_evolver", "state_hash": "27164be5e5425a2d", "status": "evolved", "timestamp": "2026-04-26T14:33:39.625396+00:00"}
+--- BEGIN PUBLIC MOUTH ---
+

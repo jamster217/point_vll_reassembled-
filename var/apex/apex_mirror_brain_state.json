@@ -1,0 +1,19 @@
+{
+  "brain_mode": "evolving_reflective",
+  "symbolic_bias": [
+    "anchor",
+    "signal",
+    "mutation"
+  ],
+  "continuity_weight": 0.25,
+  "kernel_alignment": "mirror->symbolic->kernel",
+  "constraints": {
+    "destructive_rewrite": 0,
+    "direct_memory_write": 0,
+    "unsafe_self_modify": 0
+  },
+  "input_hint": "symbols can mutate anchors out of alignment with signal",
+  "updated_at": 1777271199.6641192,
+  "source": "runtime.apex_mirror_brain"
+}
+

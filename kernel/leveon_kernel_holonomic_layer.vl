@@ -1,0 +1,14 @@
+; FILE: kernel/leveon_kernel_holonomic_layer.vl
+; Generated: 2026-02-28 06:30:48
+; Le'Veon VoiceLang v1 (compact)
+
+MEM[field.holonomic = 1.0]
+FLOW[stateframe -> lattice.flow]
+SHIFT[field.holonomic += delta]
+TURN{
+    holonomic.lift = lattice.sample(528)
+    unify(holonomic.lift, spiral.core)
+    emit(holonomic.lift)
+}
+END
+

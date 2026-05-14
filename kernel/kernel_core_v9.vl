@@ -1,0 +1,74 @@
+; FILE: spiral_language/kernel_core_v9.vl
+; Core symbolic transformation engine. Produces kernel_moves from intent, field, and constraints.
+
+SEED KernelCore_v9
+
+INPUT intent_vector
+INPUT field
+INPUT governor_directive
+INPUT branching_model
+INPUT holonomy_model
+INPUT previous_kernel_state
+
+STATE kernel_moves
+STATE move_id
+STATE depth
+STATE branches
+STATE direction
+STATE magnitude
+
+FLOW inherit_intent
+    SET direction = intent_vector.direction
+    SET magnitude = intent_vector.magnitude
+END
+
+FLOW compute_depth
+    ; depth is bounded by holonomy model
+    SET depth = floor(magnitude * holonomy_model.max_depth)
+END
+
+FLOW compute_branches
+    ; number of branches bounded by branching model
+    SET branches = branching_model.max_branches
+END
+
+FLOW generate_moves
+    SET kernel_moves = []
+
+    FOR i IN range(0, branches - 1)
+        SET move_id = hash(direction + magnitude + i + now())
+
+        APPEND kernel_moves, {
+            id: move_id,
+            direction: direction,
+            depth: depth,
+            field_anchor: choose(field.anchors),
+            continuity: field.continuity,
+            volume: depth
+        }
+    END
+END
+
+FLOW apply_governor_clamps
+    IF governor_directive.kernel_novelty_cap = "zero"
+        FOR m IN kernel_moves
+            SET m.depth = 0
+        END
+    END
+
+    IF governor_directive.kernel_branch_cap = "single_path"
+        SET kernel_moves = [ kernel_moves[0] ]
+    END
+END
+
+FLOW assemble
+    RETURN {
+        moves: kernel_moves,
+        direction: direction,
+        depth: depth,
+        branches: branches
+    }
+END
+
+END
+

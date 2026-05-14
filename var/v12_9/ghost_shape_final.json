@@ -1,0 +1,31 @@
+[
+  {
+    "ts": "2026-05-05T19:18:24",
+    "api_url": "http://127.0.0.1:5056/api/chat",
+    "status": "api_alive",
+    "live_mouth_bridge_status": "governed_route_checked",
+    "ordinary_bridge_status": "not_needed",
+    "renderer_source": "language_pass",
+    "answer_mode": "full",
+    "essence_key": "ordinary|observer|clarify|present|neutral|present|direct_clause",
+    "language_key": "STRUCTURE::COHERENCE",
+    "language_domain": "structure",
+    "coherence_estimate": 0.7134,
+    "aura": 0.98,
+    "shape_vector": {
+      "boundary": 0.45,
+      "memory": 0.4,
+      "novelty": 0.35,
+      "glyph": 0.64,
+      "emotion": 0.35,
+      "containment": 0.642,
+      "motion": 0.56,
+      "novelty_memory": 0.65,
+      "governor_boundary": 0.5916
+    },
+    "answer": "Structure holds when constraints align across layers. Each layer limits the next just enough to keep motion coherent.",
+    "final_english": "Structure holds when constraints align across layers. Each layer limits the next just enough to keep motion coherent.",
+    "legacy_answer": "The system reflects itself and stabilizes through return."
+  }
+]
+

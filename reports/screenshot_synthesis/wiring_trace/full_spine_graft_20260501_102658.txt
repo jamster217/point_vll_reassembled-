@@ -1,0 +1,13 @@
+[TRACE] entering runtime/leveon_renderer.py
+ID                                 | ESSENCE            | ORDINARY           | GENERIC_LEFT | FINAL PREVIEW
+--------------------------------------------------------------------------------------------------------------------------------------------
+gravity_grief_high_pressure        | not_needed         | not_needed         | True         | The prompt is outside the current routed patterns, so the next step is to map it to the cl
+plain_lattice_low_pressure         | not_needed         | not_needed         | False        | {'family': 'ordinary', 'pressures': {'memory': {'emotional': 0.2, 'emotion': 0.2, 'memory'
+technical_route_low_pressure       | not_needed         | not_needed         | False        | {'family': 'ordinary', 'pressures': {'memory': {'emotional': 0.1, 'emotion': 0.1, 'memory'
+structure_routing_low_pressure     | not_needed         | not_needed         | False        | {'family': 'technical_clarity', 'pressures': {'memory': {'emotional': 0.2, 'emotion': 0.2,
+
+JSON_REPORT: reports/screenshot_synthesis/wiring_trace/full_spine_graft_20260501_102658.json
+PASS_COUNT: 3 / 4
+FAILURES:
+- gravity_grief_high_pressure: generic fallback still present
+

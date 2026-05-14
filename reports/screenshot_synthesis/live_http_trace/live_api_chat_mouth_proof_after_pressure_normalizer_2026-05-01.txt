@@ -1,0 +1,8 @@
+ID                                 | HTTP  | ESSENCE            | ORDINARY           | FINAL
+------------------------------------------------------------------------------------------------------------------------------------
+plain_lattice_low_pressure         | 200   | not_needed         | ordinary_replaced  | The lattice is the relation map the system moves through before an answer becomes English.
+technical_route_low_pressure       | 200   | not_needed         | ordinary_replaced  | Use this ordinary route: `find . -type f -name '*.py' | sort`.
+gravity_grief_high_pressure        | 200   | fallback_replaced  | not_needed         | A small signal can turn the old ache back on because the memory is still carrying pressure
+
+REPORT: reports/screenshot_synthesis/live_http_trace/live_api_chat_mouth_proof_after_pressure_normalizer_2026-05-01.json
+

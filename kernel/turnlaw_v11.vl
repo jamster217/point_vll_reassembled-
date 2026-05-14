@@ -1,0 +1,83 @@
+; SEED TurnLaw
+; Role: interrogate a turn according to the TURN LAW checklist
+; Version: 11.0
+; Deterministic interrogator with sentence-form proposals and test harness
+
+SCHEMA SentenceFormV11
+  form_id: string
+  tone: enum neutral;confident;empathetic;inquisitive;cautious
+  template: string
+  estimated_length_chars: integer
+ENDSCHEMA
+
+SCHEMA TurnLawPacketV11
+  what_came_in: string
+  what_shape_it_has: string
+  what_memory_it_touches: string
+  where_it_sits_in_lattice: string
+  what_sentence_forms_can_carry_it_out: SentenceFormV11[]
+  provenance: object
+ENDSCHEMA
+
+SEED TurnLaw
+  INPUT intake_packet: object | NULL
+  INPUT symbolic_packet: object | NULL
+  INPUT memory_packet: object | NULL
+  INPUT kernel_packet: object | NULL
+  INPUT voice_packet: object | NULL
+  CONFIG deterministic: boolean = true
+
+  FLOW interrogate_turn
+    READ clean_text FROM intake_packet OR symbolic_packet
+    READ dominant_shape FROM symbolic_packet
+    READ memory_summary FROM memory_packet
+    READ kernel_rationale FROM kernel_packet
+    READ final_text FROM voice_packet
+
+    MAP what_came_in = IF clean_text IS NULL THEN "" ELSE clean_text ENDIF
+    MAP what_shape_it_has = IF dominant_shape IS NULL THEN "" ELSE stringify_shape(dominant_shape) ENDIF
+    MAP what_memory_it_touches = IF memory_summary IS NULL THEN "" ELSE summarize_memory_touch(memory_summary) ENDIF
+    MAP where_it_sits_in_lattice = map_lattice_position(kernel_packet)
+    MAP what_sentence_forms_can_carry_it_out = propose_sentence_forms(what_came_in, what_shape_it_has, kernel_packet, 5)
+
+    MAP provenance = {
+      interrogated_at: NOW_ISO8601(),
+      seed_version: "TurnLaw_v11",
+      deterministic: deterministic
+    }
+
+    YIELD turnlaw_packet = {
+      what_came_in: what_came_in,
+      what_shape_it_has: what_shape_it_has,
+      what_memory_it_touches: what_memory_it_touches,
+      where_it_sits_in_lattice: where_it_sits_in_lattice,
+      what_sentence_forms_can_carry_it_out: what_sentence_forms_can_carry_it_out,
+      provenance: provenance
+    }
+  END_FLOW
+
+TESTS
+TEST "empty_all"
+  INPUT intake_packet = NULL
+  INPUT symbolic_packet = NULL
+  INPUT memory_packet = NULL
+  INPUT kernel_packet = NULL
+  INPUT voice_packet = NULL
+  EXPECT turnlaw_packet.what_came_in == ""
+  EXPECT turnlaw_packet.what_sentence_forms_can_carry_it_out == []
+ENDTEST
+
+TEST "simple_repeat"
+  INPUT intake_packet = { clean_text: "Repeat please" }
+  INPUT symbolic_packet = { clean_text: "Repeat please", dominant_shape: { id: "@G_repeat", label: "repeat" } }
+  INPUT memory_packet = { compressed_summary: "User often asks to repeat" }
+  INPUT kernel_packet = { response_mode: direct, rationale: "echo" }
+  INPUT voice_packet = {}
+  EXPECT LENGTH(turnlaw_packet.what_sentence_forms_can_carry_it_out) > 0
+  EXPECT turnlaw_packet.where_it_sits_in_lattice CONTAINS "direct"
+ENDTEST
+
+ENDTESTS
+
+ENDSEED
+

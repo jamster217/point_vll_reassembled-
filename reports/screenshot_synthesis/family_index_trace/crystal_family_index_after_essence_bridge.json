@@ -1,0 +1,39 @@
+{
+    "generated_at": "2026-05-01T10:01:09.975809+00:00",
+    "family_count": 2,
+    "families": [
+        {
+            "family": "general_field",
+            "turns": 4,
+            "role": "stable_diagnostic",
+            "summary": "This family holds a consistent shape and is useful for debugging/comparison.",
+            "top_signature": "general_field|P:NULL|B:NULL|R:NULL|O:NULL|T:present",
+            "top_signature_hits": 4,
+            "stability": 1.0,
+            "avg_delta": {
+                "pull": 0.0,
+                "bind": 0.0,
+                "resist": 0.0,
+                "release": 0.0
+            }
+        },
+        {
+            "family": "gravity_grief",
+            "role": "transformative_opener",
+            "turns": 1,
+            "stability": 0.5,
+            "release_delta": 0.15,
+            "first_seen": "2026-05-01T10:01:09.975784+00:00",
+            "last_seen": "2026-05-01T10:01:09.975800+00:00",
+            "essence_key": "gravity_grief|transformative_opener|clarify|past_to_present_memory_gravity|grief_transformative|past->present|integration_clause",
+            "relation": "clarify",
+            "persistence": "past_to_present_memory_gravity",
+            "valence": "grief_transformative",
+            "time_direction": "past->present",
+            "clause_type": "integration_clause",
+            "source": "manual_proof_2026_05_01"
+        }
+    ],
+    "updated_by": "runtime.essence_family_index_bridge"
+}
+

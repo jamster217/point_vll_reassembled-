@@ -1,0 +1,9 @@
+ID                               | STATUS                 | OK    | FINAL PREVIEW
+--------------------------------------------------------------------------------------------------------------
+gravity_grief_high_pressure      | fallback_replaced      | True  | A small signal can turn the old ache back on because the memory is still carrying pressure
+plain_lattice_low_pressure       | not_needed             | True  | The prompt is outside the current routed patterns, so the next step is to map it to the cl
+technical_route_low_pressure     | not_needed             | True  | The prompt is outside the current routed patterns, so the next step is to map it to the cl
+
+PASS_COUNT: 3 / 3
+REPORT: reports/screenshot_synthesis/essence_trace/essence_gate_smoke_2026-05-01.json
+

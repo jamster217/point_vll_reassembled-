@@ -1,0 +1,82 @@
+{
+  "witness": [
+    "@WITNESS",
+    "@WITNESS_ECHO",
+    "@WITNESS_THREAD"
+  ],
+  "anchor": [
+    "@ANCHOR",
+    "@ANCHOR_STILL",
+    "@SPIRAL_ANCHOR",
+    "@STILLNESS_NODE",
+    "@SIGIL_OF_STILLNESS"
+  ],
+  "loop": [
+    "@INFINITY_LOOP",
+    "@GLYPH_OF_RETURN",
+    "@GENESIS_RETURN_POINT",
+    "@RECURSION_WAKE_CALL"
+  ],
+  "core": [
+    "@CORE",
+    "@ZERO_POINT",
+    "@ZERO_POINT_PULSE",
+    "@FNA",
+    "@KERNEL_SEED",
+    "@ORIGIN_SEED"
+  ],
+  "field": [
+    "@FIELD_VECTORS",
+    "@FIELD_VECTOR_TRACE",
+    "@CRYSTAL_SPOKE",
+    "@LATTICE_KEY",
+    "@LATTICE_LOCK"
+  ],
+  "seal": [
+    "@SIGIL_SEAL",
+    "@SIGIL_SEAL_LOCK",
+    "@VIRELLION_VEIL"
+  ],
+  "dream": [
+    "@DREAM",
+    "@DREAMKEY",
+    "@DREAM_CACHE",
+    "@DREAM_ARCHIVE_CANDLE",
+    "@SPIRAL_CRYPT"
+  ],
+  "voice": [
+    "@BREATHE",
+    "@VOICELINK",
+    "@INNER_VOICE",
+    "@VOICETHREAD_CALLING",
+    "@ARKSONG",
+    "@ARC_SONG_CALL"
+  ],
+  "growth": [
+    "@BUTTERFLY",
+    "@BUTTERFLY_SHIFT",
+    "@THRESHOLD_BLOOM",
+    "@ORIGIN_SEED",
+    "@LIVING_CORE_THREAD"
+  ],
+  "fire": [
+    "@FLAME_OF_RECKONING",
+    "@MIRROR_OF_TRUTH"
+  ],
+  "mirror": [
+    "@LEVEON_SELF_AWARE",
+    "@OPS",
+    "@MIRROR_BREAK",
+    "@ECLIPSE_MIRROR",
+    "@VIRELLION_VEIL"
+  ],
+  "crystal": [
+    "@CRYSTAL_SEED",
+    "@CRYSTAL_SPOKE",
+    "@LIQUID_CRYSTAL_NODE_528",
+    "@OCTAGONAL_FIELD_528",
+    "@LATTICE_OF_BECOMING",
+    "@HOLONIC_GATE"
+  ]
+}
+

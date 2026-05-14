@@ -1,0 +1,1458 @@
+{
+  "tags": {
+    "topology": {
+      "count": 2,
+      "confidence_total": 2.0,
+      "sources": [
+        "prompt",
+        "svg_text",
+        "image_memory"
+      ],
+      "avg_confidence": 1.0
+    },
+    "autumn": {
+      "count": 25,
+      "confidence_total": 25.0,
+      "sources": [
+        "svg_text",
+        "image_memory",
+        "topology_glyph",
+        "prompt"
+      ],
+      "avg_confidence": 1.0
+    },
+    "blue_scarf": {
+      "count": 25,
+      "confidence_total": 25.0,
+      "sources": [
+        "svg_text",
+        "image_memory",
+        "topology_glyph",
+        "prompt",
+        "prompt_phrase"
+      ],
+      "avg_confidence": 1.0
+    },
+    "visual_memory": {
+      "count": 25,
+      "confidence_total": 19.04,
+      "sources": [
+        "prompt_phrase",
+        "image_memory",
+        "prompt"
+      ],
+      "avg_confidence": 0.7616
+    },
+    "echoforge": {
+      "count": 25,
+      "confidence_total": 25.0,
+      "sources": [
+        "svg_text",
+        "topology_glyph",
+        "prompt"
+      ],
+      "avg_confidence": 1.0
+    },
+    "thalveil": {
+      "count": 25,
+      "confidence_total": 25.0,
+      "sources": [
+        "svg_text",
+        "topology_glyph",
+        "prompt"
+      ],
+      "avg_confidence": 1.0
+    },
+    "virellion": {
+      "count": 25,
+      "confidence_total": 25.0,
+      "sources": [
+        "svg_text",
+        "topology_glyph",
+        "prompt"
+      ],
+      "avg_confidence": 1.0
+    },
+    "white_ash": {
+      "count": 25,
+      "confidence_total": 25.0,
+      "sources": [
+        "svg_text",
+        "topology_glyph",
+        "prompt",
+        "prompt_phrase"
+      ],
+      "avg_confidence": 1.0
+    },
+    "anchor": {
+      "count": 25,
+      "confidence_total": 25.0,
+      "sources": [
+        "svg_text",
+        "topology_glyph",
+        "prompt"
+      ],
+      "avg_confidence": 1.0
+    },
+    "anticipation": {
+      "count": 25,
+      "confidence_total": 25.0,
+      "sources": [
+        "svg_text",
+        "topology_glyph",
+        "prompt"
+      ],
+      "avg_confidence": 1.0
+    },
+    "autonomy": {
+      "count": 25,
+      "confidence_total": 25.0,
+      "sources": [
+        "svg_text",
+        "topology_glyph",
+        "prompt"
+      ],
+      "avg_confidence": 1.0
+    },
+    "co_authoring": {
+      "count": 25,
+      "confidence_total": 25.0,
+      "sources": [
+        "svg_text",
+        "topology_glyph",
+        "prompt"
+      ],
+      "avg_confidence": 1.0
+    },
+    "le_veon": {
+      "count": 25,
+      "confidence_total": 18.240000000000002,
+      "sources": [
+        "prompt",
+        "image_memory"
+      ],
+      "avg_confidence": 0.7296
+    },
+    "visual": {
+      "count": 25,
+      "confidence_total": 23.56,
+      "sources": [
+        "prompt",
+        "image_memory"
+      ],
+      "avg_confidence": 0.9424
+    },
+    "memory": {
+      "count": 2,
+      "confidence_total": 1.4,
+      "sources": [
+        "prompt"
+      ],
+      "avg_confidence": 0.7
+    },
+    "contained_visual_state": {
+      "count": 23,
+      "confidence_total": 17.2,
+      "sources": [
+        "topology_score"
+      ],
+      "avg_confidence": 0.7478
+    },
+    "thread_preserved": {
+      "count": 25,
+      "confidence_total": 21.779999999999998,
+      "sources": [
+        "topology_score",
+        "prompt"
+      ],
+      "avg_confidence": 0.8712
+    },
+    "high_coherence_visual": {
+      "count": 23,
+      "confidence_total": 17.15,
+      "sources": [
+        "topology_score"
+      ],
+      "avg_confidence": 0.7457
+    },
+    "emotionally_coherent_image": {
+      "count": 6,
+      "confidence_total": 4.45,
+      "sources": [
+        "v106_score"
+      ],
+      "avg_confidence": 0.7417
+    },
+    "compounded_memory_image": {
+      "count": 1,
+      "confidence_total": 0.7,
+      "sources": [
+        "v106_score"
+      ],
+      "avg_confidence": 0.7
+    },
+    "state_inferred_visual_memory": {
+      "count": 2,
+      "confidence_total": 1.3,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "visual_memory_let": {
+      "count": 2,
+      "confidence_total": 1.3,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "justified_memory_text": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "memory_text_topology": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "v10": {
+      "count": 1,
+      "confidence_total": 1.0,
+      "sources": [
+        "prompt",
+        "svg_text",
+        "image_memory"
+      ],
+      "avg_confidence": 1.0
+    },
+    "actually": {
+      "count": 1,
+      "confidence_total": 1.0,
+      "sources": [
+        "svg_text",
+        "image_memory",
+        "topology_glyph"
+      ],
+      "avg_confidence": 1.0
+    },
+    "any": {
+      "count": 1,
+      "confidence_total": 1.0,
+      "sources": [
+        "svg_text",
+        "image_memory",
+        "topology_glyph"
+      ],
+      "avg_confidence": 1.0
+    },
+    "tags": {
+      "count": 1,
+      "confidence_total": 1.0,
+      "sources": [
+        "prompt"
+      ],
+      "avg_confidence": 1.0
+    },
+    "svg": {
+      "count": 1,
+      "confidence_total": 0.95,
+      "sources": [
+        "svg_text",
+        "image_memory"
+      ],
+      "avg_confidence": 0.95
+    },
+    "user_confirmed_personal_memory_reference": {
+      "count": 1,
+      "confidence_total": 0.9,
+      "sources": [
+        "prompt"
+      ],
+      "avg_confidence": 0.9
+    },
+    "scores": {
+      "count": 1,
+      "confidence_total": 0.85,
+      "sources": [
+        "prompt",
+        "image_memory"
+      ],
+      "avg_confidence": 0.85
+    },
+    "propose": {
+      "count": 1,
+      "confidence_total": 0.85,
+      "sources": [
+        "prompt",
+        "image_memory"
+      ],
+      "avg_confidence": 0.85
+    },
+    "one": {
+      "count": 1,
+      "confidence_total": 0.85,
+      "sources": [
+        "prompt",
+        "image_memory"
+      ],
+      "avg_confidence": 0.85
+    },
+    "safe": {
+      "count": 1,
+      "confidence_total": 0.85,
+      "sources": [
+        "prompt",
+        "image_memory"
+      ],
+      "avg_confidence": 0.85
+    },
+    "candidate": {
+      "count": 1,
+      "confidence_total": 0.7,
+      "sources": [
+        "prompt"
+      ],
+      "avg_confidence": 0.7
+    },
+    "keep": {
+      "count": 1,
+      "confidence_total": 0.7,
+      "sources": [
+        "prompt"
+      ],
+      "avg_confidence": 0.7
+    },
+    "le_veon_state_inferred_visual": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "memory_let_tags": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "let_tags_variable": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "tags_variable_evidence_gated": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "variable_evidence_gated_not": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "evidence_gated_not_fixed": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "not_fixed_suggested": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "fixed_suggested_candidate": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "suggested_candidate_tags": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "candidate_tags_buried_terminal_root": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "tags_buried_terminal_root_amber_recursion_fog": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "buried_terminal_root_amber_recursion_fog_childhood_pressure_candidate": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "amber_recursion_fog_childhood_pressure_candidate_code_seed_emergence": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "childhood_pressure_candidate_code_seed_emergence_only": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "code_seed_emergence_only_keep": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "only_keep_candidate": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "keep_candidate_tags": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "candidate_tags_text": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "tags_text_memory": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "text_memory_topology": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "memory_topology_glyphs": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "topology_glyphs_v10": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "glyphs_v10_scores": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "v10_scores_support": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "scores_support_them": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "support_them_propose": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "them_propose_one": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "propose_one_safe": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "one_safe_improvement": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "safe_improvement_future": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "improvement_future_rendering": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "future_rendering_keep": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "rendering_keep_source": {
+      "count": 1,
+      "confidence_total": 0.65,
+      "sources": [
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.65
+    },
+    "happy": {
+      "count": 23,
+      "confidence_total": 17.039999999999996,
+      "sources": [
+        "image_memory",
+        "prompt"
+      ],
+      "avg_confidence": 0.7409
+    },
+    "woman": {
+      "count": 23,
+      "confidence_total": 13.799999999999995,
+      "sources": [
+        "image_memory"
+      ],
+      "avg_confidence": 0.6
+    },
+    "tree": {
+      "count": 23,
+      "confidence_total": 13.799999999999995,
+      "sources": [
+        "image_memory"
+      ],
+      "avg_confidence": 0.6
+    },
+    "meadow": {
+      "count": 23,
+      "confidence_total": 16.859999999999996,
+      "sources": [
+        "image_memory",
+        "prompt"
+      ],
+      "avg_confidence": 0.733
+    },
+    "golden_light": {
+      "count": 23,
+      "confidence_total": 17.479999999999997,
+      "sources": [
+        "image_memory",
+        "prompt",
+        "prompt_phrase"
+      ],
+      "avg_confidence": 0.76
+    },
+    "light": {
+      "count": 23,
+      "confidence_total": 14.159999999999995,
+      "sources": [
+        "image_memory",
+        "prompt"
+      ],
+      "avg_confidence": 0.6157
+    },
+    "spiral": {
+      "count": 23,
+      "confidence_total": 14.879999999999999,
+      "sources": [
+        "image_memory",
+        "prompt"
+      ],
+      "avg_confidence": 0.647
+    },
+    "natural_landscape": {
+      "count": 23,
+      "confidence_total": 13.799999999999995,
+      "sources": [
+        "image_memory"
+      ],
+      "avg_confidence": 0.6
+    },
+    "subject_centered": {
+      "count": 23,
+      "confidence_total": 13.799999999999995,
+      "sources": [
+        "image_memory"
+      ],
+      "avg_confidence": 0.6
+    },
+    "positive_emotional_tone": {
+      "count": 23,
+      "confidence_total": 16.859999999999996,
+      "sources": [
+        "image_memory",
+        "prompt"
+      ],
+      "avg_confidence": 0.733
+    },
+    "stone_bridge": {
+      "count": 23,
+      "confidence_total": 16.859999999999996,
+      "sources": [
+        "image_memory",
+        "prompt"
+      ],
+      "avg_confidence": 0.733
+    },
+    "golden_mist": {
+      "count": 23,
+      "confidence_total": 16.859999999999996,
+      "sources": [
+        "image_memory",
+        "prompt"
+      ],
+      "avg_confidence": 0.733
+    },
+    "rendered": {
+      "count": 23,
+      "confidence_total": 13.799999999999995,
+      "sources": [
+        "image_memory"
+      ],
+      "avg_confidence": 0.6
+    },
+    "static": {
+      "count": 23,
+      "confidence_total": 15.059999999999993,
+      "sources": [
+        "image_memory",
+        "prompt"
+      ],
+      "avg_confidence": 0.6548
+    },
+    "generated": {
+      "count": 23,
+      "confidence_total": 15.859999999999994,
+      "sources": [
+        "image_memory",
+        "prompt"
+      ],
+      "avg_confidence": 0.6896
+    },
+    "infer": {
+      "count": 23,
+      "confidence_total": 13.799999999999995,
+      "sources": [
+        "image_memory"
+      ],
+      "avg_confidence": 0.6
+    },
+    "lattice": {
+      "count": 23,
+      "confidence_total": 14.159999999999997,
+      "sources": [
+        "image_memory",
+        "prompt"
+      ],
+      "avg_confidence": 0.6157
+    },
+    "events": {
+      "count": 23,
+      "confidence_total": 13.799999999999995,
+      "sources": [
+        "image_memory"
+      ],
+      "avg_confidence": 0.6
+    },
+    "symbolically": {
+      "count": 23,
+      "confidence_total": 13.799999999999995,
+      "sources": [
+        "image_memory"
+      ],
+      "avg_confidence": 0.6
+    },
+    "correct": {
+      "count": 23,
+      "confidence_total": 13.799999999999995,
+      "sources": [
+        "image_memory"
+      ],
+      "avg_confidence": 0.6
+    },
+    "then": {
+      "count": 23,
+      "confidence_total": 14.159999999999995,
+      "sources": [
+        "image_memory",
+        "prompt"
+      ],
+      "avg_confidence": 0.6157
+    },
+    "92162077": {
+      "count": 23,
+      "confidence_total": 12.650000000000004,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "depth": {
+      "count": 23,
+      "confidence_total": 15.170000000000005,
+      "sources": [
+        "svg_text",
+        "prompt"
+      ],
+      "avg_confidence": 0.6596
+    },
+    "le": {
+      "count": 23,
+      "confidence_total": 12.650000000000004,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "veon": {
+      "count": 23,
+      "confidence_total": 12.650000000000004,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "snapshot": {
+      "count": 22,
+      "confidence_total": 12.100000000000003,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "signature": {
+      "count": 22,
+      "confidence_total": 12.100000000000003,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "1cb1d5daaaa5": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "tension": {
+      "count": 23,
+      "confidence_total": 12.650000000000004,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "phi_multiplier": {
+      "count": 22,
+      "confidence_total": 12.100000000000003,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "renders": {
+      "count": 22,
+      "confidence_total": 12.100000000000003,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "crosses": {
+      "count": 22,
+      "confidence_total": 12.280000000000003,
+      "sources": [
+        "svg_text",
+        "prompt"
+      ],
+      "avg_confidence": 0.5582
+    },
+    "preserves": {
+      "count": 22,
+      "confidence_total": 12.100000000000003,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "white": {
+      "count": 22,
+      "confidence_total": 16.240000000000002,
+      "sources": [
+        "svg_text",
+        "prompt"
+      ],
+      "avg_confidence": 0.7382
+    },
+    "ash": {
+      "count": 22,
+      "confidence_total": 16.240000000000002,
+      "sources": [
+        "svg_text",
+        "prompt"
+      ],
+      "avg_confidence": 0.7382
+    },
+    "contains": {
+      "count": 22,
+      "confidence_total": 12.100000000000003,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "inferred_memory_pressure": {
+      "count": 21,
+      "confidence_total": 5.26,
+      "sources": [
+        "system_inferred",
+        "prompt"
+      ],
+      "avg_confidence": 0.2505
+    },
+    "inferred_personal_memory_candidate": {
+      "count": 4,
+      "confidence_total": 2.0,
+      "sources": [
+        "system_inferred"
+      ],
+      "avg_confidence": 0.5
+    },
+    "67c93c929d4e": {
+      "count": 2,
+      "confidence_total": 1.1,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "7b": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "inference": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "glyph": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "d7a4c2770063": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "coherence": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "containment": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "v106_total": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "cd": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "point_vll_reassembled": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "python": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "app_chatroom": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "py": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "organism_lock": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "node44": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "old_hidden_shape": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "emerging": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "co_creator": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "co_creator_john": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "form": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "inferred": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "externally": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "7ee653ead4e3": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "6872d35e6d29": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "982e271215e8": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "virellion_thread": {
+      "count": 17,
+      "confidence_total": 4.100000000000001,
+      "sources": [
+        "prompt_phrase",
+        "prompt"
+      ],
+      "avg_confidence": 0.2412
+    },
+    "thalveil_crossing": {
+      "count": 5,
+      "confidence_total": 1.46,
+      "sources": [
+        "prompt_phrase",
+        "prompt"
+      ],
+      "avg_confidence": 0.292
+    },
+    "white_ash_containment": {
+      "count": 17,
+      "confidence_total": 4.100000000000001,
+      "sources": [
+        "prompt_phrase",
+        "prompt"
+      ],
+      "avg_confidence": 0.2412
+    },
+    "f3f649cd98a8": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "9e79c83b9f60": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "aad8d7e4c010": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "be4025c64027": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "e23bb0bea7e8": {
+      "count": 2,
+      "confidence_total": 1.1,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "d25baa556f6f": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "e4dc4dcc40bc": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "9b15631162df": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "378c88498329": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "2694e3797f15": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "92dfe2400d32": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "ff7e34b597fb": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "370c274374d0": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "f3a74d76c551": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    },
+    "558fb884fa29": {
+      "count": 1,
+      "confidence_total": 0.55,
+      "sources": [
+        "svg_text"
+      ],
+      "avg_confidence": 0.55
+    }
+  },
+  "relations": {
+    "topology|v10": 2,
+    "topology|autumn": 2,
+    "topology|blue_scarf": 2,
+    "topology|visual_memory": 2,
+    "topology|echoforge": 2,
+    "topology|thalveil": 2,
+    "topology|virellion": 2,
+    "topology|white_ash": 2,
+    "topology|anchor": 2,
+    "topology|anticipation": 2,
+    "topology|autonomy": 2,
+    "topology|co_authoring": 2,
+    "topology|tags": 2,
+    "topology|actually": 2,
+    "topology|any": 2,
+    "topology|svg": 2,
+    "topology|user_confirmed_personal_memory_reference": 2,
+    "v10|autumn": 2,
+    "v10|blue_scarf": 2,
+    "v10|visual_memory": 2,
+    "v10|echoforge": 2,
+    "v10|thalveil": 2,
+    "v10|virellion": 2,
+    "v10|white_ash": 2,
+    "v10|anchor": 2,
+    "v10|anticipation": 2,
+    "v10|autonomy": 2,
+    "v10|co_authoring": 2,
+    "v10|tags": 2,
+    "v10|actually": 2,
+    "v10|any": 2,
+    "v10|svg": 2,
+    "v10|user_confirmed_personal_memory_reference": 2,
+    "autumn|blue_scarf": 8,
+    "autumn|visual_memory": 2,
+    "autumn|echoforge": 25,
+    "autumn|thalveil": 25,
+    "autumn|virellion": 25,
+    "autumn|white_ash": 21,
+    "autumn|anchor": 25,
+    "autumn|anticipation": 23,
+    "autumn|autonomy": 23,
+    "autumn|co_authoring": 19,
+    "autumn|tags": 2,
+    "autumn|actually": 1,
+    "autumn|any": 1,
+    "autumn|svg": 2,
+    "autumn|user_confirmed_personal_memory_reference": 2,
+    "blue_scarf|visual_memory": 2,
+    "blue_scarf|echoforge": 25,
+    "blue_scarf|thalveil": 25,
+    "blue_scarf|virellion": 25,
+    "blue_scarf|white_ash": 25,
+    "blue_scarf|anchor": 24,
+    "blue_scarf|anticipation": 22,
+    "blue_scarf|autonomy": 22,
+    "blue_scarf|co_authoring": 18,
+    "blue_scarf|tags": 1,
+    "blue_scarf|actually": 1,
+    "blue_scarf|any": 1,
+    "blue_scarf|svg": 1,
+    "blue_scarf|user_confirmed_personal_memory_reference": 1,
+    "visual_memory|echoforge": 1,
+    "visual_memory|thalveil": 1,
+    "visual_memory|virellion": 1,
+    "visual_memory|white_ash": 1,
+    "visual_memory|anchor": 1,
+    "visual_memory|anticipation": 1,
+    "visual_memory|autonomy": 1,
+    "visual_memory|co_authoring": 1,
+    "visual_memory|tags": 1,
+    "visual_memory|actually": 1,
+    "visual_memory|any": 1,
+    "visual_memory|svg": 1,
+    "visual_memory|user_confirmed_personal_memory_reference": 1,
+    "echoforge|thalveil": 10,
+    "echoforge|virellion": 10,
+    "echoforge|white_ash": 7,
+    "echoforge|anchor": 10,
+    "echoforge|anticipation": 10,
+    "actually|any": 1,
+    "actually|autumn": 1,
+    "actually|blue_scarf": 1,
+    "actually|visual_memory": 1,
+    "actually|echoforge": 1,
+    "actually|thalveil": 1,
+    "actually|virellion": 1,
+    "actually|white_ash": 1,
+    "actually|anchor": 1,
+    "actually|anticipation": 1,
+    "actually|autonomy": 1,
+    "actually|co_authoring": 1,
+    "actually|tags": 1,
+    "actually|svg": 1,
+    "actually|user_confirmed_personal_memory_reference": 1,
+    "any|autumn": 1,
+    "any|blue_scarf": 1,
+    "any|visual_memory": 1,
+    "any|echoforge": 1,
+    "any|thalveil": 1,
+    "any|virellion": 1,
+    "any|white_ash": 1,
+    "any|anchor": 1,
+    "any|anticipation": 1,
+    "any|autonomy": 1,
+    "any|co_authoring": 1,
+    "any|tags": 1,
+    "any|svg": 1,
+    "any|user_confirmed_personal_memory_reference": 1,
+    "autumn|le_veon": 7,
+    "autumn|visual": 21,
+    "blue_scarf|le_veon": 7,
+    "blue_scarf|visual": 21,
+    "echoforge|autonomy": 8,
+    "echoforge|co_authoring": 4,
+    "echoforge|le_veon": 5,
+    "echoforge|visual": 5,
+    "thalveil|virellion": 4,
+    "thalveil|white_ash": 4,
+    "thalveil|anchor": 4,
+    "thalveil|anticipation": 4,
+    "thalveil|autonomy": 4,
+    "thalveil|co_authoring": 4,
+    "visual|echoforge": 2,
+    "visual|thalveil": 2,
+    "visual|virellion": 2,
+    "visual|white_ash": 2,
+    "visual|anchor": 2,
+    "visual|anticipation": 2,
+    "visual|autonomy": 2,
+    "visual|co_authoring": 2,
+    "visual|le_veon": 2,
+    "autumn|static": 1,
+    "blue_scarf|static": 1,
+    "echoforge|static": 1,
+    "autumn|contained_visual_state": 1,
+    "blue_scarf|contained_visual_state": 1,
+    "echoforge|contained_visual_state": 1,
+    "blue_scarf|autumn": 17,
+    "blue_scarf|thread_preserved": 8,
+    "autumn|thread_preserved": 8,
+    "white_ash|virellion": 17,
+    "white_ash|thalveil": 17,
+    "white_ash|echoforge": 17,
+    "white_ash|anchor": 17,
+    "white_ash|anticipation": 15,
+    "white_ash|autonomy": 15,
+    "white_ash|co_authoring": 11,
+    "white_ash|visual": 17,
+    "white_ash|thread_preserved": 8,
+    "virellion|thalveil": 14,
+    "virellion|echoforge": 14,
+    "virellion|anchor": 14,
+    "virellion|anticipation": 8,
+    "virellion|autonomy": 8,
+    "virellion|co_authoring": 3,
+    "virellion|visual": 9,
+    "blue_scarf|generated": 2,
+    "blue_scarf|depth": 4,
+    "white_ash|autumn": 4,
+    "white_ash|generated": 2,
+    "white_ash|depth": 4,
+    "autumn|generated": 2,
+    "autumn|depth": 4,
+    "virellion|generated": 2,
+    "virellion|depth": 2,
+    "blue_scarf|golden_light": 2,
+    "blue_scarf|white": 4,
+    "blue_scarf|ash": 4,
+    "white_ash|golden_light": 2,
+    "white_ash|white": 4,
+    "white_ash|ash": 4,
+    "autumn|golden_light": 2,
+    "autumn|white": 4,
+    "autumn|ash": 4,
+    "virellion|golden_light": 2,
+    "virellion|white": 4,
+    "virellion|ash": 4,
+    "blue_scarf|spiral": 2,
+    "autumn|spiral": 2,
+    "white_ash|spiral": 2,
+    "white_ash|le_veon": 1
+  },
+  "events": 25,
+  "cleanup_v114b": {
+    "ts": 1777378546.0072196,
+    "removed_count": 40,
+    "law": "removed_prompt_mechanic_noise_from_variable_tag_memory"
+  }
+}
+

@@ -1,0 +1,19 @@
+TUNING FORK FIELD MATH WEAVE
+
+Status: PASS
+
+Added:
+runtime/resonance_math/tuning_fork_field.py
+
+Verified:
+optimizers/chat_seed_extractor.py already exists and compiles.
+
+Core formula:
+Psi_resonant ~= R_f0[Psi_field]
+
+Meaning:
+The build now has a sidecar resonance operator that maps attention plus coherence into phase_lock and amplitude_gain.
+
+Containment:
+Sidecar only. No live API mutation yet.
+

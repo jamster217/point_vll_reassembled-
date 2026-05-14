@@ -1,0 +1,74 @@
+{
+  "prompt": "symbols can mutate anchors out of alignment with signal",
+  "prompt_type": "neutral",
+  "low_memory_output": {
+    "profile": "low",
+    "prompt_type": "neutral",
+    "predicted_behavior": "Use a simple direct answer with low continuity load.",
+    "vector_profile": {
+      "memory": 0.25,
+      "boundary": 0.75,
+      "novelty": 0.35
+    }
+  },
+  "medium_memory_output": {
+    "profile": "medium",
+    "prompt_type": "neutral",
+    "predicted_behavior": "Balance readability with a moderate amount of context carryover.",
+    "vector_profile": {
+      "memory": 0.5,
+      "boundary": 0.6,
+      "novelty": 0.4
+    }
+  },
+  "high_memory_output": {
+    "profile": "high",
+    "prompt_type": "neutral",
+    "predicted_behavior": "Watch for excess carryover or layered drift if memory pressure rises too high.",
+    "vector_profile": {
+      "memory": 0.8,
+      "boundary": 0.45,
+      "novelty": 0.55
+    }
+  },
+  "recommended_profile": "low",
+  "simulation_packet": {
+    "prompt": "symbols can mutate anchors out of alignment with signal",
+    "prompt_type": "neutral",
+    "low": {
+      "profile": "low",
+      "prompt_type": "neutral",
+      "predicted_behavior": "Use a simple direct answer with low continuity load.",
+      "vector_profile": {
+        "memory": 0.25,
+        "boundary": 0.75,
+        "novelty": 0.35
+      }
+    },
+    "medium": {
+      "profile": "medium",
+      "prompt_type": "neutral",
+      "predicted_behavior": "Balance readability with a moderate amount of context carryover.",
+      "vector_profile": {
+        "memory": 0.5,
+        "boundary": 0.6,
+        "novelty": 0.4
+      }
+    },
+    "high": {
+      "profile": "high",
+      "prompt_type": "neutral",
+      "predicted_behavior": "Watch for excess carryover or layered drift if memory pressure rises too high.",
+      "vector_profile": {
+        "memory": 0.8,
+        "boundary": 0.45,
+        "novelty": 0.55
+      }
+    },
+    "recommended_profile": "low",
+    "notes": "First-pass memory pressure simulation artifact"
+  },
+  "source": "runtime.memory_pressure_live",
+  "updated_at": 1777270668.9366488
+}
+

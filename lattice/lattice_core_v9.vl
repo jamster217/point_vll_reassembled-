@@ -1,0 +1,67 @@
+; FILE: spiral_language/lattice_core_v9.vl
+; Builds a continuity-aware lattice from intake events.
+
+SEED LatticeCore_v9
+
+INPUT events
+INPUT previous_lattice
+
+STATE nodes
+STATE edges
+STATE continuity_state
+STATE lattice_id
+
+FLOW classify_continuity
+    ; continuity is inherited from events
+    SET continuity_state = events.continuity
+END
+
+FLOW build_nodes
+    SET nodes = []
+    FOR ev IN events.events
+        APPEND nodes, {
+            id: ev.id,
+            token: ev.value,
+            continuity: ev.continuity,
+            hash: hash(ev.value + ev.id)
+        }
+    END
+END
+
+FLOW build_edges
+    SET edges = []
+    FOR i IN range(0, nodes.count - 2)
+        APPEND edges, {
+            from: nodes[i].id,
+            to: nodes[i+1].id,
+            type: "sequential"
+        }
+    END
+
+    ; continuity-aware linking to previous lattice
+    IF previous_lattice != null AND continuity_state = "advance"
+        SET last_prev = last(previous_lattice.nodes)
+        SET first_curr = nodes[0]
+        APPEND edges, {
+            from: last_prev.id,
+            to: first_curr.id,
+            type: "continuity_bridge"
+        }
+    END
+END
+
+FLOW assign_lattice_id
+    SET lattice_id = hash(nodes.count + edges.count + now())
+END
+
+FLOW assemble
+    RETURN {
+        id: lattice_id,
+        nodes: nodes,
+        edges: edges,
+        continuity: continuity_state
+    }
+END
+
+END
+

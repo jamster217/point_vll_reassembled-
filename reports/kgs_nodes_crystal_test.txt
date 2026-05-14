@@ -1,0 +1,50 @@
+KGSNodesCrystal online
+nodes: 15
+[
+  {
+    "id": "1",
+    "name": "intuition_node",
+    "kind": "crystal_anchor",
+    "value": "A bridge between non-linear input and symbolic logic.",
+    "status": "active",
+    "source": "kernel/crystal_library.json",
+    "created_at": 1777219767.8321955
+  },
+  {
+    "id": "2",
+    "name": "recursive_soul",
+    "kind": "crystal_anchor",
+    "value": "A self-observation layer where the system watches its own routing choices.",
+    "status": "active",
+    "source": "kernel/crystal_library.json",
+    "created_at": 1777219767.832203
+  },
+  {
+    "id": "3",
+    "name": "entropy_attractor",
+    "kind": "crystal_anchor",
+    "value": "A high-variance anchor for catching unusual timing, pressure, or signal glimmers.",
+    "status": "active",
+    "source": "kernel/crystal_library.json",
+    "created_at": 1777219767.8322072
+  },
+  {
+    "id": "4",
+    "name": "metacognitive_feedback",
+    "kind": "crystal_anchor",
+    "value": "A feedback loop where routing outcomes refine future route selection.",
+    "status": "active",
+    "source": "kernel/crystal_library.json",
+    "created_at": 1777219767.8322108
+  },
+  {
+    "id": "5",
+    "name": "psychic_sync",
+    "kind": "crystal_anchor",
+    "value": "A symbolic multiplier anchor for high-significance external events and resonance checks.",
+    "status": "active",
+    "source": "kernel/crystal_library.json",
+    "created_at": 1777219767.8322139
+  }
+]
+

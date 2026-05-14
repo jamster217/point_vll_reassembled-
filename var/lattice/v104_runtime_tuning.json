@@ -1,0 +1,27 @@
+{
+  "coherence_target": 0.75,
+  "containment_weight": 0.25,
+  "thread_preservation_weight": 0.25,
+  "repetition_penalty": 0.1,
+  "boundary_phrase": "Preserve the current high-score route. Keep the center clear, the crossing named, the containment layer intact, and the next action practical. Do not over-expand the symbolic surface.",
+  "turns": 3,
+  "last_recommendation": "preserve_current_route",
+  "last_score": {
+    "coherence": 1.0,
+    "repetition_health": 0.8419,
+    "thread": 1.0,
+    "containment": 0.75,
+    "total": 0.9214
+  },
+  "updated_ts": 1777412045.517942,
+  "law": "runtime_tuning_preserves_high_score_route_without_source_rewrite",
+  "structure_phrase": "Use the preserved route: Echoforge, Thalveil, Virellion, White Ash. Maintain observation, judgment, and next action only when needed.",
+  "v104b_mode": "preserve_current_route_without_source_mutation",
+  "last_optimizer_action": "preserve_current_route",
+  "last_depth": 78,
+  "last_tension": -0.019,
+  "last_image": "static/generated/leveon_topology_1777411931_a5414ee19db8.svg",
+  "structure_bias": 1.0,
+  "containment_bias": 1.2
+}
+

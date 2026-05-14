@@ -1,0 +1,134 @@
+{
+  "source": "runtime.leveon_unified_master",
+  "input": "symbols can mutate anchors out of alignment with signal",
+  "output": "symbols can mutate anchors out of alignment with signal",
+  "hidden": {
+    "collector": {
+      "source": "runtime.leveon_state_collector",
+      "updated_at": 1777270278.47395,
+      "sources_present": {
+        "fractal": true,
+        "dream_fractal": true,
+        "dream_lineage": true,
+        "dream_resonance": true,
+        "dream_axis": true,
+        "holonomy": true,
+        "volcron_voice": true
+      },
+      "axes": {
+        "fractal_pressure": 0.382,
+        "dream_pressure": 0.426,
+        "shadow_lineage": 0.143,
+        "witness_integrity": 0.72,
+        "primary_pressure": 0.426
+      },
+      "dominants": {
+        "fractal_tone": {
+          "name": "memory",
+          "value": 0.382
+        },
+        "dream_tone": {
+          "name": "surreal",
+          "value": 0.426
+        },
+        "lineage_signal": "guardian_hidden_ark",
+        "dream_projection": "soft_dream",
+        "voice_emotion": "awe"
+      },
+      "holonomy": {
+        "holonomy_depth_cap": "deep",
+        "max_depth": 7,
+        "cross_pass_allowed": true,
+        "recursion_mode": "cross_pass_depth_7"
+      },
+      "spine_hint": {
+        "state_tag": "adaptive_stabilize",
+        "recommended_route": "stabilize_then_render",
+        "surface_rule": "use hidden state to shape voice, but keep public surface clean",
+        "voice_bias": {
+          "memory": true,
+          "dream_colored": true,
+          "lineage_colored": false,
+          "deep_recursion_allowed": true
+        }
+      }
+    },
+    "reflection": {
+      "source": "runtime.reflection_gate",
+      "gate": {
+        "state": "open"
+      },
+      "awareness": 0.04,
+      "input": "symbols can mutate anchors out of alignment with signal",
+      "mirror_echo": "symbols can mutate anchors out of alignment with signal",
+      "adjusted_resonance": false,
+      "updated_at": 1777270278.4760363
+    },
+    "emotional": {
+      "dream": {
+        "resonance": {
+          "grief": 1.0,
+          "soft_dream": 1.0
+        }
+      },
+      "last_symbol": "soft_dream",
+      "last_field": {
+        "flow": 0.45,
+        "memory": 0.45,
+        "release": 0.3
+      },
+      "spiral_memory_absorb": {
+        "symbol": "soft_dream",
+        "field": {
+          "flow": 0.45,
+          "memory": 0.45,
+          "release": 0.3
+        },
+        "source": "emotional_spiral"
+      },
+      "updated_at": 1777270278.481452
+    },
+    "kgs": {
+      "symbol": "guardian_hidden_ark",
+      "ref": {
+        "field": "protection_memory",
+        "reference": "@GUARDIAN_HIDDEN_ARK",
+        "tone": "vigil"
+      },
+      "spiral_injection": {
+        "type": "kgs_field_reference",
+        "symbol": "guardian_hidden_ark",
+        "reference": "@GUARDIAN_HIDDEN_ARK",
+        "field": "protection_memory",
+        "tone": "vigil"
+      },
+      "updated_at": 1777270278.4835532
+    },
+    "lattice": {
+      "source": "runtime.lattice_kernel_528",
+      "emotion": 0.426,
+      "resonance_field": 0.792,
+      "projected": 0.337,
+      "harmonic": 528,
+      "updated_at": 1777270278.4847467
+    },
+    "translation": {
+      "source": "runtime.translation_bridge",
+      "bridge": {
+        "active": true,
+        "strength": 1,
+        "route": "voice.lang -> kernel.intent -> english.realizer"
+      },
+      "input": "symbols can mutate anchors out of alignment with signal",
+      "translated": "symbols can mutate anchors out of alignment with signal",
+      "output": "symbols can mutate anchors out of alignment with signal",
+      "updated_at": 1777270278.492854
+    }
+  },
+  "surface_policy": "hidden state shapes voice; public surface stays clean",
+  "voice_bias": {
+    "state_tag": "adaptive_stabilize"
+  },
+  "updated_at": 1777270278.4932027
+}
+

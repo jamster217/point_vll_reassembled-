@@ -1,0 +1,90 @@
+{
+  "source": "runtime.axes_matrix_bridge",
+  "file": "cognition/axes_matrix.vl",
+  "axes": {
+    "structural_motion": 0,
+    "temporal_flow": 1,
+    "memory_anchor": 2,
+    "novelty_pulse": 3,
+    "attention_reg": 4,
+    "tension_reg": 5,
+    "entropy_ctrl": 6,
+    "recursion_ctrl": 7,
+    "social_align": 8,
+    "context_sense": 9,
+    "reality_constraint": 10,
+    "embodiment_align": 11
+  },
+  "extended_axes": {
+    "witness_integrity": 12,
+    "dream_pressure": 13,
+    "shadow_lineage": 14,
+    "verification_strictness": 15
+  },
+  "semantics": {
+    "structural_motion": "system motion/agency; forward movement strength",
+    "temporal_flow": "inner cadence flow; subjective pacing (not physical time)",
+    "memory_anchor": "continuity weight; binding to prior beads",
+    "novelty_pulse": "exploration energy; opening new space",
+    "attention_reg": "focus control; hold to hinge",
+    "tension_reg": "boundary/tension control; tautness of weave",
+    "entropy_ctrl": "noise management; anti-scatter stability",
+    "recursion_ctrl": "depth/recursion; refinement loop strength",
+    "social_align": "interpersonal fit; tone alignment",
+    "context_sense": "situational tracking; context hold",
+    "reality_constraint": "grounding constraint; resistance to unsupported leaps",
+    "embodiment_align": "breath/cadence steadiness; body-sim alignment",
+    "witness_integrity": "Mirror+Prism agreement; testimony coherence",
+    "dream_pressure": "dream-field intensity; surreal pull / overflow",
+    "shadow_lineage": "lineage/grief echo load; ancestral channel weight",
+    "verification_strictness": "judgment pressure; proof/test/commit strictness"
+  },
+  "aliases": {
+    "witness_integrity": [
+      "mirror_prism_agreement",
+      "witness",
+      "testimony_integrity"
+    ],
+    "dream_pressure": [
+      "dream_field_load",
+      "surreal_pull",
+      "dream_intensity"
+    ],
+    "shadow_lineage": [
+      "lineage_echo",
+      "echo_shadow",
+      "ancestral_resonance"
+    ],
+    "verification_strictness": [
+      "judgment_gate",
+      "canon_gate",
+      "proof_pressure"
+    ]
+  },
+  "rotation_hooks": {
+    "phase_step_deg": "45",
+    "phase_steps": "8",
+    "phase_owner": "chronifier",
+    "rotation_note": "Use octagon phase to apply deterministic sequential rotations; keep axis indices stable."
+  },
+  "updated_at": 1777271375.6158104,
+  "axis_index": {
+    "structural_motion": 0,
+    "temporal_flow": 1,
+    "memory_anchor": 2,
+    "novelty_pulse": 3,
+    "attention_reg": 4,
+    "tension_reg": 5,
+    "entropy_ctrl": 6,
+    "recursion_ctrl": 7,
+    "social_align": 8,
+    "context_sense": 9,
+    "reality_constraint": 10,
+    "embodiment_align": 11,
+    "witness_integrity": 12,
+    "dream_pressure": 13,
+    "shadow_lineage": 14,
+    "verification_strictness": 15
+  }
+}
+

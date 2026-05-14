@@ -1,0 +1,38 @@
+{
+  "law": "renderer_receives_reason_pressure_not_just_output",
+  "ts": 1778110424.6224937,
+  "prompt": "What remains after grief?",
+  "winner": {
+    "spoke": "dream_spoke",
+    "gesture": "perturb",
+    "relational_pressure": "dream-bearing",
+    "boundary_tension": 0.42,
+    "novelty_pull": 0.66,
+    "dream_perturbation": 0.16
+  },
+  "shape_packet": {
+    "question_type": "reflective",
+    "semantic_intent": "reflect",
+    "tone": null,
+    "glyph_pressure": 0.48,
+    "memory_pull": null,
+    "boundary_tension": null,
+    "novelty_pull": null
+  },
+  "candidate_summary": [],
+  "renderer_guidance": [
+    "Preserve the winning pressure.",
+    "Do not flatten symbolic content.",
+    "Do not replace the answer with generic prose.",
+    "Keep the final English coherent and natural.",
+    "Use the shape packet as semantic gravity."
+  ],
+  "telemetry": {},
+  "constraints": {
+    "append_only": true,
+    "reviewable": true,
+    "no_auto_mutation": true,
+    "preserve_signal_before_language": true
+  }
+}
+

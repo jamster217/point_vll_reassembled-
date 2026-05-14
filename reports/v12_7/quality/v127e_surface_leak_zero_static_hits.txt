@@ -1,0 +1,21 @@
+V12.7e SURFACE LEAK STATIC SEARCH RESULT
+
+Search:
+- "Answer this ordinary question directly"
+- "V12 is the doorway"
+- "designed for specific functions such as containment"
+
+Result:
+- No static .py hits in runtime, kernel, app_chatroom.py, app.py, or api_server.py.
+
+Meaning:
+The bad surface is likely dynamic:
+- assembled by fragments,
+- produced from a prompt template,
+- emitted by local node generation,
+- or stored in a non-.py asset/log/config path.
+
+Law:
+Do not patch blindly.
+Find the dynamic source path first.
+

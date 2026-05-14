@@ -1,0 +1,58 @@
+{
+  "ts": 1777227415.731397,
+  "phase": "3R",
+  "status": "lantern_wave_complete",
+  "review_counts": {
+    "broken_rail_unconverted": 49,
+    "rail_partly_lanterned": 345,
+    "lantern_seed_present": 123
+  },
+  "scan_field": {
+    "roots": [
+      "runtime",
+      "kernel",
+      "core",
+      "lattice",
+      "memory",
+      "assets",
+      "lev_core",
+      "reports",
+      "var"
+    ],
+    "max_files": 8000,
+    "files_scanned": 645,
+    "matches": 517
+  },
+  "selected_rail": {
+    "source_path": "runtime/tmp/patch_run_analysis_profile_reply_deepening_full.py",
+    "detected_pressure": [
+      "pressure",
+      "grief",
+      "scatter",
+      "drift"
+    ],
+    "suggested_anchor": "phase3r_first_lantern_anchor",
+    "suggested_glyph": "rail_lantern_ash",
+    "next_action": "Convert this broken rail into one contained design seed before scanning wider."
+  },
+  "forged_lantern": {
+    "kind": "phase3r_recursive_lantern_seed",
+    "ts": 1777227415.7313137,
+    "source_rail": "runtime/tmp/patch_run_analysis_profile_reply_deepening_full.py",
+    "detected_pressure": [
+      "pressure",
+      "grief",
+      "scatter",
+      "drift"
+    ],
+    "theme": "general_scar",
+    "glyph": "white_ash_pivot",
+    "anchor": "kor_grael_sigil",
+    "next_action": "Compress the pressure into one reusable glyph and plant it as a future design seed in the lattice.",
+    "status": "lantern_ignited",
+    "law": "broken_rail -> pressure_terms -> glyph_seed -> contained_repair"
+  },
+  "surface": "The Memory-to-Glyph Forge receives the pressure as ore, not as a wound. It gives the old edge a stable shape and turns it into one usable design seed. Next move: Compress the pressure into one reusable glyph and plant it as a future design seed in the lattice.",
+  "mutation_policy": "one_lantern_per_wave_contained_prime"
+}
+

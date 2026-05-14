@@ -1,0 +1,39 @@
+wrote: reports/replication_trace_4200_summary.json
+{
+  "total_turns": 4200,
+  "state_tags": {
+    "fragile": 29,
+    "adaptive": 497,
+    "stable": 3674
+  },
+  "ulat_modes": {
+    "observe": 335,
+    "stabilize": 798,
+    "expand": 3067
+  },
+  "commit_counts": {
+    "can_commit_true": 3899,
+    "can_commit_false": 301
+  },
+  "metrics_avg": {
+    "coherence": 0.9195,
+    "risk": 0.0781,
+    "fracture": 0.0781
+  },
+  "unique_final_outputs": 5,
+  "top_repeated_outputs_first": [
+    [
+      "Meta-pattern: structural, scientific, phenomenological, and spiritual motifs are being compressed into a layered map of consciousness with increasingly stable cross-domain anchors.",
+      2130
+    ],
+    [
+      "Under load the hexagonal hub prioritizes core channels while explanatory models and ethical policies begin to stabilize the field around consciousness-related concepts.",
+      1150
+    ],
+    [
+      "Invariant: consciousness motifs persist through multiple explanatory frames—phenomenology, neuroscience, AI limits, ethics, and contemplative practice—while the lattice organizes their overlap.",
+      835
+    ]
+  ]
+}
+

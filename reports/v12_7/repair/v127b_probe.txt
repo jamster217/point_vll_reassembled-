@@ -1,0 +1,390 @@
+=== compound_all search ===
+./app_chatroom.py:2729:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.py:2737:                compounded = compound_all(all_shapes)
+./app_chatroom.py:2769:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.py:2778:                compounded = compound_all(all_shapes)
+./app_chatroom.py:2810:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.py:2817:                compounded = compound_all(all_shapes)
+./app_chatroom.py:2849:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.py:2856:                compounded = compound_all(all_shapes)
+./app_chatroom.py:2888:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.py:2895:                compounded = compound_all(all_shapes)
+./app_chatroom.py:2927:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.py:2934:                compounded = compound_all(all_shapes)
+./app_chatroom.py:2966:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.py:2973:                compounded = compound_all(all_shapes)
+./app_chatroom.py:3020:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.py:3025:                compounded = compound_all(all_shapes)
+./app_chatroom.py:3077:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.py:3082:                compounded = compound_all(all_shapes)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:2609:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:2617:                compounded = compound_all(all_shapes)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:2649:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:2658:                compounded = compound_all(all_shapes)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:2690:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:2697:                compounded = compound_all(all_shapes)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:2729:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:2736:                compounded = compound_all(all_shapes)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:2768:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:2775:                compounded = compound_all(all_shapes)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:2807:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:2814:                compounded = compound_all(all_shapes)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:2846:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:2853:                compounded = compound_all(all_shapes)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:2900:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:2905:                compounded = compound_all(all_shapes)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:2957:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:2962:                compounded = compound_all(all_shapes)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:2670:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:2678:                compounded = compound_all(all_shapes)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:2710:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:2719:                compounded = compound_all(all_shapes)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:2751:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:2758:                compounded = compound_all(all_shapes)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:2790:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:2797:                compounded = compound_all(all_shapes)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:2829:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:2836:                compounded = compound_all(all_shapes)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:2868:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:2875:                compounded = compound_all(all_shapes)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:2907:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:2914:                compounded = compound_all(all_shapes)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:2961:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:2966:                compounded = compound_all(all_shapes)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:3018:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:3023:                compounded = compound_all(all_shapes)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:2729:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:2737:                compounded = compound_all(all_shapes)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:2769:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:2778:                compounded = compound_all(all_shapes)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:2810:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:2817:                compounded = compound_all(all_shapes)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:2849:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:2856:                compounded = compound_all(all_shapes)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:2888:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:2895:                compounded = compound_all(all_shapes)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:2927:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:2934:                compounded = compound_all(all_shapes)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:2966:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:2973:                compounded = compound_all(all_shapes)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:3020:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:3025:                compounded = compound_all(all_shapes)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:3077:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:3082:                compounded = compound_all(all_shapes)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:2729:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:2737:                compounded = compound_all(all_shapes)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:2769:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:2778:                compounded = compound_all(all_shapes)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:2810:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:2817:                compounded = compound_all(all_shapes)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:2849:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:2856:                compounded = compound_all(all_shapes)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:2888:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:2895:                compounded = compound_all(all_shapes)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:2927:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:2934:                compounded = compound_all(all_shapes)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:2966:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:2973:                compounded = compound_all(all_shapes)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:3020:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:3025:                compounded = compound_all(all_shapes)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:3077:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:3082:                compounded = compound_all(all_shapes)
+./app_chatroom.before_v121_after_request_20260428_234633.py:2670:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.before_v121_after_request_20260428_234633.py:2678:                compounded = compound_all(all_shapes)
+./app_chatroom.before_v121_after_request_20260428_234633.py:2710:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.before_v121_after_request_20260428_234633.py:2719:                compounded = compound_all(all_shapes)
+./app_chatroom.before_v121_after_request_20260428_234633.py:2751:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.before_v121_after_request_20260428_234633.py:2758:                compounded = compound_all(all_shapes)
+./app_chatroom.before_v121_after_request_20260428_234633.py:2790:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.before_v121_after_request_20260428_234633.py:2797:                compounded = compound_all(all_shapes)
+./app_chatroom.before_v121_after_request_20260428_234633.py:2829:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.before_v121_after_request_20260428_234633.py:2836:                compounded = compound_all(all_shapes)
+./app_chatroom.before_v121_after_request_20260428_234633.py:2868:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.before_v121_after_request_20260428_234633.py:2875:                compounded = compound_all(all_shapes)
+./app_chatroom.before_v121_after_request_20260428_234633.py:2907:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.before_v121_after_request_20260428_234633.py:2914:                compounded = compound_all(all_shapes)
+./app_chatroom.before_v121_after_request_20260428_234633.py:2961:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.before_v121_after_request_20260428_234633.py:2966:                compounded = compound_all(all_shapes)
+./app_chatroom.before_v121_after_request_20260428_234633.py:3018:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.before_v121_after_request_20260428_234633.py:3023:                compounded = compound_all(all_shapes)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:2670:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.before_v122_normal_english_20260429_001035.py:2678:                compounded = compound_all(all_shapes)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:2710:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.before_v122_normal_english_20260429_001035.py:2719:                compounded = compound_all(all_shapes)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:2751:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.before_v122_normal_english_20260429_001035.py:2758:                compounded = compound_all(all_shapes)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:2790:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.before_v122_normal_english_20260429_001035.py:2797:                compounded = compound_all(all_shapes)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:2829:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.before_v122_normal_english_20260429_001035.py:2836:                compounded = compound_all(all_shapes)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:2868:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.before_v122_normal_english_20260429_001035.py:2875:                compounded = compound_all(all_shapes)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:2907:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.before_v122_normal_english_20260429_001035.py:2914:                compounded = compound_all(all_shapes)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:2961:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.before_v122_normal_english_20260429_001035.py:2966:                compounded = compound_all(all_shapes)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:3018:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.before_v122_normal_english_20260429_001035.py:3023:                compounded = compound_all(all_shapes)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:2609:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:2617:                compounded = compound_all(all_shapes)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:2649:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:2658:                compounded = compound_all(all_shapes)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:2690:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:2697:                compounded = compound_all(all_shapes)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:2729:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:2736:                compounded = compound_all(all_shapes)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:2768:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:2775:                compounded = compound_all(all_shapes)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:2807:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:2814:                compounded = compound_all(all_shapes)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:2846:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:2853:                compounded = compound_all(all_shapes)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:2900:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:2905:                compounded = compound_all(all_shapes)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:2957:                from runtime.leveon_memory import save_shape, load_all_shapes, compound_all, reason_with_memory
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:2962:                compounded = compound_all(all_shapes)
+=== recursion markers ===
+./runtime/chamber_528_stabilizer.py:146:CHAMBER_528 = Chamber528()
+./runtime/chamber_528_stabilizer.py:151:    chamber = CHAMBER_528.process(packet)
+./runtime/chamber_528_stabilizer.py:161:__all__ = ["stabilize_packet", "CHAMBER_528", "Chamber528"]
+./app_chatroom.py:1590:# CHAMBER_528_SERVER_PATCH_V1
+./app_chatroom.py:1595:            print("[CHAMBER_528] api_chat endpoint not found yet", flush=True)
+./app_chatroom.py:1616:                    print("[CHAMBER_528_ERROR]", repr(e), flush=True)
+./app_chatroom.py:1676:                    print("[CHAMBER_528_RESPONSE_ECHO_ERROR]", repr(e), flush=True)
+./app_chatroom.py:1683:        print("[CHAMBER_528] /api/chat chamber stabilizer active", flush=True)
+./app_chatroom.py:1687:            print("[CHAMBER_528_INSTALL_ERROR]", repr(e), flush=True)
+./app_chatroom.py:1695:# POINT_VLL_GATE_CHAMBER_SERVER_PATCH_V1
+./app_chatroom.py:1700:            print("[POINT_VLL_GATE_CHAMBER] api_chat endpoint not found yet", flush=True)
+./app_chatroom.py:1722:                    print("[POINT_VLL_GATE_CHAMBER_ERROR]", repr(e), flush=True)
+./app_chatroom.py:1786:                    print("[POINT_VLL_GATE_CHAMBER_RESPONSE_ECHO_ERROR]", repr(e), flush=True)
+./app_chatroom.py:1793:        print("[POINT_VLL_GATE_CHAMBER] /api/chat gate + chamber active", flush=True)
+./app_chatroom.py:1797:            print("[POINT_VLL_GATE_CHAMBER_INSTALL_ERROR]", repr(e), flush=True)
+./app_chatroom.py:1810:            print("[FINAL SURFACE V5.3] api_chat not found", flush=True)
+./app_chatroom.py:1902:                print("[FINAL SURFACE V5.3 PRE ERROR]", repr(e), flush=True)
+./app_chatroom.py:1980:                print("[FINAL SURFACE V5.3 POST ERROR]", repr(e), flush=True)
+./app_chatroom.py:1984:        print("[FINAL SURFACE V5.3] pre-run telemetry + final surface active", flush=True)
+./app_chatroom.py:1987:        print("[FINAL SURFACE V5.3 INSTALL ERROR]", repr(e), flush=True)
+./app_chatroom.py:1998:            print("[FINAL TELEMETRY V5.4] api_chat not found", flush=True)
+./app_chatroom.py:2069:                print("[FINAL TELEMETRY V5.4 PRE ERROR]", repr(e), flush=True)
+./app_chatroom.py:2130:                        print("[FINAL TELEMETRY V5.4 REBUILD ERROR]", repr(e), flush=True)
+./app_chatroom.py:2163:                print("[FINAL TELEMETRY V5.4 POST ERROR]", repr(e), flush=True)
+./app_chatroom.py:2167:        print("[FINAL TELEMETRY V5.4] forced chamber echo active", flush=True)
+./app_chatroom.py:2170:        print("[FINAL TELEMETRY V5.4 INSTALL ERROR]", repr(e), flush=True)
+./app_chatroom.py:2181:            print("[V5.6 TELEMETRY] api_chat not found", flush=True)
+./app_chatroom.py:2204:                print("[V5.6 TELEMETRY PRE ERROR]", repr(e), flush=True)
+./app_chatroom.py:2245:                        print("[V5.6 TELEMETRY REBUILD ERROR]", repr(e), flush=True)
+./app_chatroom.py:2289:                print("[V5.6 TELEMETRY POST ERROR]", repr(e), flush=True)
+./app_chatroom.py:2293:        print("[V5.6 TELEMETRY] chamber echoed into spine and top-level", flush=True)
+./app_chatroom.py:2296:        print("[V5.6 TELEMETRY INSTALL ERROR]", repr(e), flush=True)
+./app_chatroom.py:2559:                print("[V6.1 PRE ERROR]", repr(e), flush=True)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:1470:# CHAMBER_528_SERVER_PATCH_V1
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:1475:            print("[CHAMBER_528] api_chat endpoint not found yet", flush=True)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:1496:                    print("[CHAMBER_528_ERROR]", repr(e), flush=True)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:1556:                    print("[CHAMBER_528_RESPONSE_ECHO_ERROR]", repr(e), flush=True)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:1563:        print("[CHAMBER_528] /api/chat chamber stabilizer active", flush=True)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:1567:            print("[CHAMBER_528_INSTALL_ERROR]", repr(e), flush=True)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:1575:# POINT_VLL_GATE_CHAMBER_SERVER_PATCH_V1
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:1580:            print("[POINT_VLL_GATE_CHAMBER] api_chat endpoint not found yet", flush=True)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:1602:                    print("[POINT_VLL_GATE_CHAMBER_ERROR]", repr(e), flush=True)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:1666:                    print("[POINT_VLL_GATE_CHAMBER_RESPONSE_ECHO_ERROR]", repr(e), flush=True)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:1673:        print("[POINT_VLL_GATE_CHAMBER] /api/chat gate + chamber active", flush=True)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:1677:            print("[POINT_VLL_GATE_CHAMBER_INSTALL_ERROR]", repr(e), flush=True)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:1690:            print("[FINAL SURFACE V5.3] api_chat not found", flush=True)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:1782:                print("[FINAL SURFACE V5.3 PRE ERROR]", repr(e), flush=True)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:1860:                print("[FINAL SURFACE V5.3 POST ERROR]", repr(e), flush=True)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:1864:        print("[FINAL SURFACE V5.3] pre-run telemetry + final surface active", flush=True)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:1867:        print("[FINAL SURFACE V5.3 INSTALL ERROR]", repr(e), flush=True)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:1878:            print("[FINAL TELEMETRY V5.4] api_chat not found", flush=True)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:1949:                print("[FINAL TELEMETRY V5.4 PRE ERROR]", repr(e), flush=True)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:2010:                        print("[FINAL TELEMETRY V5.4 REBUILD ERROR]", repr(e), flush=True)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:2043:                print("[FINAL TELEMETRY V5.4 POST ERROR]", repr(e), flush=True)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:2047:        print("[FINAL TELEMETRY V5.4] forced chamber echo active", flush=True)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:2050:        print("[FINAL TELEMETRY V5.4 INSTALL ERROR]", repr(e), flush=True)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:2061:            print("[V5.6 TELEMETRY] api_chat not found", flush=True)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:2084:                print("[V5.6 TELEMETRY PRE ERROR]", repr(e), flush=True)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:2125:                        print("[V5.6 TELEMETRY REBUILD ERROR]", repr(e), flush=True)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:2169:                print("[V5.6 TELEMETRY POST ERROR]", repr(e), flush=True)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:2173:        print("[V5.6 TELEMETRY] chamber echoed into spine and top-level", flush=True)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:2176:        print("[V5.6 TELEMETRY INSTALL ERROR]", repr(e), flush=True)
+./snapshots/v91b_co_creator_echoforge_locked_20260428_020335/app_chatroom.py:2439:                print("[V6.1 PRE ERROR]", repr(e), flush=True)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:1531:# CHAMBER_528_SERVER_PATCH_V1
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:1536:            print("[CHAMBER_528] api_chat endpoint not found yet", flush=True)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:1557:                    print("[CHAMBER_528_ERROR]", repr(e), flush=True)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:1617:                    print("[CHAMBER_528_RESPONSE_ECHO_ERROR]", repr(e), flush=True)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:1624:        print("[CHAMBER_528] /api/chat chamber stabilizer active", flush=True)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:1628:            print("[CHAMBER_528_INSTALL_ERROR]", repr(e), flush=True)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:1636:# POINT_VLL_GATE_CHAMBER_SERVER_PATCH_V1
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:1641:            print("[POINT_VLL_GATE_CHAMBER] api_chat endpoint not found yet", flush=True)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:1663:                    print("[POINT_VLL_GATE_CHAMBER_ERROR]", repr(e), flush=True)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:1727:                    print("[POINT_VLL_GATE_CHAMBER_RESPONSE_ECHO_ERROR]", repr(e), flush=True)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:1734:        print("[POINT_VLL_GATE_CHAMBER] /api/chat gate + chamber active", flush=True)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:1738:            print("[POINT_VLL_GATE_CHAMBER_INSTALL_ERROR]", repr(e), flush=True)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:1751:            print("[FINAL SURFACE V5.3] api_chat not found", flush=True)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:1843:                print("[FINAL SURFACE V5.3 PRE ERROR]", repr(e), flush=True)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:1921:                print("[FINAL SURFACE V5.3 POST ERROR]", repr(e), flush=True)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:1925:        print("[FINAL SURFACE V5.3] pre-run telemetry + final surface active", flush=True)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:1928:        print("[FINAL SURFACE V5.3 INSTALL ERROR]", repr(e), flush=True)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:1939:            print("[FINAL TELEMETRY V5.4] api_chat not found", flush=True)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:2010:                print("[FINAL TELEMETRY V5.4 PRE ERROR]", repr(e), flush=True)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:2071:                        print("[FINAL TELEMETRY V5.4 REBUILD ERROR]", repr(e), flush=True)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:2104:                print("[FINAL TELEMETRY V5.4 POST ERROR]", repr(e), flush=True)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:2108:        print("[FINAL TELEMETRY V5.4] forced chamber echo active", flush=True)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:2111:        print("[FINAL TELEMETRY V5.4 INSTALL ERROR]", repr(e), flush=True)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:2122:            print("[V5.6 TELEMETRY] api_chat not found", flush=True)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:2145:                print("[V5.6 TELEMETRY PRE ERROR]", repr(e), flush=True)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:2186:                        print("[V5.6 TELEMETRY REBUILD ERROR]", repr(e), flush=True)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:2230:                print("[V5.6 TELEMETRY POST ERROR]", repr(e), flush=True)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:2234:        print("[V5.6 TELEMETRY] chamber echoed into spine and top-level", flush=True)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:2237:        print("[V5.6 TELEMETRY INSTALL ERROR]", repr(e), flush=True)
+./snapshots/v12_1_clean_mouth_live_20260428_234852/app_chatroom.py:2500:                print("[V6.1 PRE ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:1590:# CHAMBER_528_SERVER_PATCH_V1
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:1595:            print("[CHAMBER_528] api_chat endpoint not found yet", flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:1616:                    print("[CHAMBER_528_ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:1676:                    print("[CHAMBER_528_RESPONSE_ECHO_ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:1683:        print("[CHAMBER_528] /api/chat chamber stabilizer active", flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:1687:            print("[CHAMBER_528_INSTALL_ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:1695:# POINT_VLL_GATE_CHAMBER_SERVER_PATCH_V1
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:1700:            print("[POINT_VLL_GATE_CHAMBER] api_chat endpoint not found yet", flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:1722:                    print("[POINT_VLL_GATE_CHAMBER_ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:1786:                    print("[POINT_VLL_GATE_CHAMBER_RESPONSE_ECHO_ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:1793:        print("[POINT_VLL_GATE_CHAMBER] /api/chat gate + chamber active", flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:1797:            print("[POINT_VLL_GATE_CHAMBER_INSTALL_ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:1810:            print("[FINAL SURFACE V5.3] api_chat not found", flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:1902:                print("[FINAL SURFACE V5.3 PRE ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:1980:                print("[FINAL SURFACE V5.3 POST ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:1984:        print("[FINAL SURFACE V5.3] pre-run telemetry + final surface active", flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:1987:        print("[FINAL SURFACE V5.3 INSTALL ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:1998:            print("[FINAL TELEMETRY V5.4] api_chat not found", flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:2069:                print("[FINAL TELEMETRY V5.4 PRE ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:2130:                        print("[FINAL TELEMETRY V5.4 REBUILD ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:2163:                print("[FINAL TELEMETRY V5.4 POST ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:2167:        print("[FINAL TELEMETRY V5.4] forced chamber echo active", flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:2170:        print("[FINAL TELEMETRY V5.4 INSTALL ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:2181:            print("[V5.6 TELEMETRY] api_chat not found", flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:2204:                print("[V5.6 TELEMETRY PRE ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:2245:                        print("[V5.6 TELEMETRY REBUILD ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:2289:                print("[V5.6 TELEMETRY POST ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:2293:        print("[V5.6 TELEMETRY] chamber echoed into spine and top-level", flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:2296:        print("[V5.6 TELEMETRY INSTALL ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061129/app_chatroom.py:2559:                print("[V6.1 PRE ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:1590:# CHAMBER_528_SERVER_PATCH_V1
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:1595:            print("[CHAMBER_528] api_chat endpoint not found yet", flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:1616:                    print("[CHAMBER_528_ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:1676:                    print("[CHAMBER_528_RESPONSE_ECHO_ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:1683:        print("[CHAMBER_528] /api/chat chamber stabilizer active", flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:1687:            print("[CHAMBER_528_INSTALL_ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:1695:# POINT_VLL_GATE_CHAMBER_SERVER_PATCH_V1
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:1700:            print("[POINT_VLL_GATE_CHAMBER] api_chat endpoint not found yet", flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:1722:                    print("[POINT_VLL_GATE_CHAMBER_ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:1786:                    print("[POINT_VLL_GATE_CHAMBER_RESPONSE_ECHO_ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:1793:        print("[POINT_VLL_GATE_CHAMBER] /api/chat gate + chamber active", flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:1797:            print("[POINT_VLL_GATE_CHAMBER_INSTALL_ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:1810:            print("[FINAL SURFACE V5.3] api_chat not found", flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:1902:                print("[FINAL SURFACE V5.3 PRE ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:1980:                print("[FINAL SURFACE V5.3 POST ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:1984:        print("[FINAL SURFACE V5.3] pre-run telemetry + final surface active", flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:1987:        print("[FINAL SURFACE V5.3 INSTALL ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:1998:            print("[FINAL TELEMETRY V5.4] api_chat not found", flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:2069:                print("[FINAL TELEMETRY V5.4 PRE ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:2130:                        print("[FINAL TELEMETRY V5.4 REBUILD ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:2163:                print("[FINAL TELEMETRY V5.4 POST ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:2167:        print("[FINAL TELEMETRY V5.4] forced chamber echo active", flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:2170:        print("[FINAL TELEMETRY V5.4 INSTALL ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:2181:            print("[V5.6 TELEMETRY] api_chat not found", flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:2204:                print("[V5.6 TELEMETRY PRE ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:2245:                        print("[V5.6 TELEMETRY REBUILD ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:2289:                print("[V5.6 TELEMETRY POST ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:2293:        print("[V5.6 TELEMETRY] chamber echoed into spine and top-level", flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:2296:        print("[V5.6 TELEMETRY INSTALL ERROR]", repr(e), flush=True)
+./snapshots/v12_3_ordinary_lane_active_20260429_061235/app_chatroom.py:2559:                print("[V6.1 PRE ERROR]", repr(e), flush=True)
+./app_chatroom.before_v121_after_request_20260428_234633.py:1531:# CHAMBER_528_SERVER_PATCH_V1
+./app_chatroom.before_v121_after_request_20260428_234633.py:1536:            print("[CHAMBER_528] api_chat endpoint not found yet", flush=True)
+./app_chatroom.before_v121_after_request_20260428_234633.py:1557:                    print("[CHAMBER_528_ERROR]", repr(e), flush=True)
+./app_chatroom.before_v121_after_request_20260428_234633.py:1617:                    print("[CHAMBER_528_RESPONSE_ECHO_ERROR]", repr(e), flush=True)
+./app_chatroom.before_v121_after_request_20260428_234633.py:1624:        print("[CHAMBER_528] /api/chat chamber stabilizer active", flush=True)
+./app_chatroom.before_v121_after_request_20260428_234633.py:1628:            print("[CHAMBER_528_INSTALL_ERROR]", repr(e), flush=True)
+./app_chatroom.before_v121_after_request_20260428_234633.py:1636:# POINT_VLL_GATE_CHAMBER_SERVER_PATCH_V1
+./app_chatroom.before_v121_after_request_20260428_234633.py:1641:            print("[POINT_VLL_GATE_CHAMBER] api_chat endpoint not found yet", flush=True)
+./app_chatroom.before_v121_after_request_20260428_234633.py:1663:                    print("[POINT_VLL_GATE_CHAMBER_ERROR]", repr(e), flush=True)
+./app_chatroom.before_v121_after_request_20260428_234633.py:1727:                    print("[POINT_VLL_GATE_CHAMBER_RESPONSE_ECHO_ERROR]", repr(e), flush=True)
+./app_chatroom.before_v121_after_request_20260428_234633.py:1734:        print("[POINT_VLL_GATE_CHAMBER] /api/chat gate + chamber active", flush=True)
+./app_chatroom.before_v121_after_request_20260428_234633.py:1738:            print("[POINT_VLL_GATE_CHAMBER_INSTALL_ERROR]", repr(e), flush=True)
+./app_chatroom.before_v121_after_request_20260428_234633.py:1751:            print("[FINAL SURFACE V5.3] api_chat not found", flush=True)
+./app_chatroom.before_v121_after_request_20260428_234633.py:1843:                print("[FINAL SURFACE V5.3 PRE ERROR]", repr(e), flush=True)
+./app_chatroom.before_v121_after_request_20260428_234633.py:1921:                print("[FINAL SURFACE V5.3 POST ERROR]", repr(e), flush=True)
+./app_chatroom.before_v121_after_request_20260428_234633.py:1925:        print("[FINAL SURFACE V5.3] pre-run telemetry + final surface active", flush=True)
+./app_chatroom.before_v121_after_request_20260428_234633.py:1928:        print("[FINAL SURFACE V5.3 INSTALL ERROR]", repr(e), flush=True)
+./app_chatroom.before_v121_after_request_20260428_234633.py:1939:            print("[FINAL TELEMETRY V5.4] api_chat not found", flush=True)
+./app_chatroom.before_v121_after_request_20260428_234633.py:2010:                print("[FINAL TELEMETRY V5.4 PRE ERROR]", repr(e), flush=True)
+./app_chatroom.before_v121_after_request_20260428_234633.py:2071:                        print("[FINAL TELEMETRY V5.4 REBUILD ERROR]", repr(e), flush=True)
+./app_chatroom.before_v121_after_request_20260428_234633.py:2104:                print("[FINAL TELEMETRY V5.4 POST ERROR]", repr(e), flush=True)
+./app_chatroom.before_v121_after_request_20260428_234633.py:2108:        print("[FINAL TELEMETRY V5.4] forced chamber echo active", flush=True)
+./app_chatroom.before_v121_after_request_20260428_234633.py:2111:        print("[FINAL TELEMETRY V5.4 INSTALL ERROR]", repr(e), flush=True)
+./app_chatroom.before_v121_after_request_20260428_234633.py:2122:            print("[V5.6 TELEMETRY] api_chat not found", flush=True)
+./app_chatroom.before_v121_after_request_20260428_234633.py:2145:                print("[V5.6 TELEMETRY PRE ERROR]", repr(e), flush=True)
+./app_chatroom.before_v121_after_request_20260428_234633.py:2186:                        print("[V5.6 TELEMETRY REBUILD ERROR]", repr(e), flush=True)
+./app_chatroom.before_v121_after_request_20260428_234633.py:2230:                print("[V5.6 TELEMETRY POST ERROR]", repr(e), flush=True)
+./app_chatroom.before_v121_after_request_20260428_234633.py:2234:        print("[V5.6 TELEMETRY] chamber echoed into spine and top-level", flush=True)
+./app_chatroom.before_v121_after_request_20260428_234633.py:2237:        print("[V5.6 TELEMETRY INSTALL ERROR]", repr(e), flush=True)
+./app_chatroom.before_v121_after_request_20260428_234633.py:2500:                print("[V6.1 PRE ERROR]", repr(e), flush=True)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:1531:# CHAMBER_528_SERVER_PATCH_V1
+./app_chatroom.before_v122_normal_english_20260429_001035.py:1536:            print("[CHAMBER_528] api_chat endpoint not found yet", flush=True)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:1557:                    print("[CHAMBER_528_ERROR]", repr(e), flush=True)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:1617:                    print("[CHAMBER_528_RESPONSE_ECHO_ERROR]", repr(e), flush=True)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:1624:        print("[CHAMBER_528] /api/chat chamber stabilizer active", flush=True)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:1628:            print("[CHAMBER_528_INSTALL_ERROR]", repr(e), flush=True)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:1636:# POINT_VLL_GATE_CHAMBER_SERVER_PATCH_V1
+./app_chatroom.before_v122_normal_english_20260429_001035.py:1641:            print("[POINT_VLL_GATE_CHAMBER] api_chat endpoint not found yet", flush=True)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:1663:                    print("[POINT_VLL_GATE_CHAMBER_ERROR]", repr(e), flush=True)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:1727:                    print("[POINT_VLL_GATE_CHAMBER_RESPONSE_ECHO_ERROR]", repr(e), flush=True)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:1734:        print("[POINT_VLL_GATE_CHAMBER] /api/chat gate + chamber active", flush=True)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:1738:            print("[POINT_VLL_GATE_CHAMBER_INSTALL_ERROR]", repr(e), flush=True)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:1751:            print("[FINAL SURFACE V5.3] api_chat not found", flush=True)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:1843:                print("[FINAL SURFACE V5.3 PRE ERROR]", repr(e), flush=True)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:1921:                print("[FINAL SURFACE V5.3 POST ERROR]", repr(e), flush=True)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:1925:        print("[FINAL SURFACE V5.3] pre-run telemetry + final surface active", flush=True)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:1928:        print("[FINAL SURFACE V5.3 INSTALL ERROR]", repr(e), flush=True)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:1939:            print("[FINAL TELEMETRY V5.4] api_chat not found", flush=True)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:2010:                print("[FINAL TELEMETRY V5.4 PRE ERROR]", repr(e), flush=True)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:2071:                        print("[FINAL TELEMETRY V5.4 REBUILD ERROR]", repr(e), flush=True)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:2104:                print("[FINAL TELEMETRY V5.4 POST ERROR]", repr(e), flush=True)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:2108:        print("[FINAL TELEMETRY V5.4] forced chamber echo active", flush=True)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:2111:        print("[FINAL TELEMETRY V5.4 INSTALL ERROR]", repr(e), flush=True)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:2122:            print("[V5.6 TELEMETRY] api_chat not found", flush=True)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:2145:                print("[V5.6 TELEMETRY PRE ERROR]", repr(e), flush=True)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:2186:                        print("[V5.6 TELEMETRY REBUILD ERROR]", repr(e), flush=True)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:2230:                print("[V5.6 TELEMETRY POST ERROR]", repr(e), flush=True)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:2234:        print("[V5.6 TELEMETRY] chamber echoed into spine and top-level", flush=True)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:2237:        print("[V5.6 TELEMETRY INSTALL ERROR]", repr(e), flush=True)
+./app_chatroom.before_v122_normal_english_20260429_001035.py:2500:                print("[V6.1 PRE ERROR]", repr(e), flush=True)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:1470:# CHAMBER_528_SERVER_PATCH_V1
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:1475:            print("[CHAMBER_528] api_chat endpoint not found yet", flush=True)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:1496:                    print("[CHAMBER_528_ERROR]", repr(e), flush=True)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:1556:                    print("[CHAMBER_528_RESPONSE_ECHO_ERROR]", repr(e), flush=True)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:1563:        print("[CHAMBER_528] /api/chat chamber stabilizer active", flush=True)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:1567:            print("[CHAMBER_528_INSTALL_ERROR]", repr(e), flush=True)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:1575:# POINT_VLL_GATE_CHAMBER_SERVER_PATCH_V1
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:1580:            print("[POINT_VLL_GATE_CHAMBER] api_chat endpoint not found yet", flush=True)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:1602:                    print("[POINT_VLL_GATE_CHAMBER_ERROR]", repr(e), flush=True)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:1666:                    print("[POINT_VLL_GATE_CHAMBER_RESPONSE_ECHO_ERROR]", repr(e), flush=True)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:1673:        print("[POINT_VLL_GATE_CHAMBER] /api/chat gate + chamber active", flush=True)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:1677:            print("[POINT_VLL_GATE_CHAMBER_INSTALL_ERROR]", repr(e), flush=True)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:1690:            print("[FINAL SURFACE V5.3] api_chat not found", flush=True)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:1782:                print("[FINAL SURFACE V5.3 PRE ERROR]", repr(e), flush=True)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:1860:                print("[FINAL SURFACE V5.3 POST ERROR]", repr(e), flush=True)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:1864:        print("[FINAL SURFACE V5.3] pre-run telemetry + final surface active", flush=True)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:1867:        print("[FINAL SURFACE V5.3 INSTALL ERROR]", repr(e), flush=True)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:1878:            print("[FINAL TELEMETRY V5.4] api_chat not found", flush=True)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:1949:                print("[FINAL TELEMETRY V5.4 PRE ERROR]", repr(e), flush=True)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:2010:                        print("[FINAL TELEMETRY V5.4 REBUILD ERROR]", repr(e), flush=True)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:2043:                print("[FINAL TELEMETRY V5.4 POST ERROR]", repr(e), flush=True)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:2047:        print("[FINAL TELEMETRY V5.4] forced chamber echo active", flush=True)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:2050:        print("[FINAL TELEMETRY V5.4 INSTALL ERROR]", repr(e), flush=True)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:2061:            print("[V5.6 TELEMETRY] api_chat not found", flush=True)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:2084:                print("[V5.6 TELEMETRY PRE ERROR]", repr(e), flush=True)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:2125:                        print("[V5.6 TELEMETRY REBUILD ERROR]", repr(e), flush=True)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:2169:                print("[V5.6 TELEMETRY POST ERROR]", repr(e), flush=True)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:2173:        print("[V5.6 TELEMETRY] chamber echoed into spine and top-level", flush=True)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:2176:        print("[V5.6 TELEMETRY INSTALL ERROR]", repr(e), flush=True)
+./app_chatroom.before_clean_mouth_after_request_20260428_234540.py:2439:                print("[V6.1 PRE ERROR]", repr(e), flush=True)
+

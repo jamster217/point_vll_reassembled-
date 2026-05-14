@@ -1,0 +1,24 @@
+{
+  "ts": 1778123077.197009,
+  "renderer_conflicts": [
+    {
+      "type": "multi_renderer_presence",
+      "renderers": {
+        "language_pass": 18,
+        "null": 2
+      }
+    }
+  ],
+  "containment_conflicts": [],
+  "authority_conflicts": [],
+  "sidecar_conflicts": [],
+  "dominant_pressures": {
+    "avg_coherence": 0.6575,
+    "avg_containment": 0.5778
+  },
+  "stability_assessment": "stable_governed_route",
+  "recommended_actions": [
+    "consolidate renderer authority"
+  ]
+}
+

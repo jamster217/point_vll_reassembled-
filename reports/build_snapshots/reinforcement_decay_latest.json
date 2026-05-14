@@ -1,0 +1,11 @@
+{
+  "timestamp": 1777958128.4564254,
+  "total_compounds": 2384,
+  "reinforced_behavior": 4,
+  "reinforced_reports_limited": 1300,
+  "decayed": 0,
+  "archived": 0,
+  "skipped": 1080,
+  "law": "full amplification only for behavior compounds; reports capped as support memory"
+}
+

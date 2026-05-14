@@ -1,0 +1,12 @@
+answer: Leveon preserves core meaning by treating the shape packet, lattice route, memory pressure, and symbolic spine as the authority before any model phrasing happens. TinyLlama is only a surface polisher: it can smooth wording, add fluency, or make the sentence sound more natural, but it is not allowed to change the route, erase the pressure, replace the meaning, or invent a new answer. The final mouth reads the shaped meaning first, then accepts only wording that stays faithful to the original signal.
+final_english: Leveon preserves core meaning by treating the shape packet, lattice route, memory pressure, and symbolic spine as the authority before any model phrasing happens. TinyLlama is only a surface polisher: it can smooth wording, add fluency, or make the sentence sound more natural, but it is not allowed to change the route, erase the pressure, replace the meaning, or invent a new answer. The final mouth reads the shaped meaning first, then accepts only wording that stays faithful to the original signal.
+shape_packet.final_shape: The system reflects itself and stabilizes through return.
+shape_packet.source: kernel_shape_bridge_v131
+shape_packet.previous_final_shape: 
+renderer_source: meaning_density_shape_packet
+ordinary_bridge_status: not_needed
+meaning_density_body_status: shape_packet_final_shape_injected
+meaning_density_debug_sync_status: 
+meaning_density_debug_sync_source: 
+debug_packet_sync_status: 
+

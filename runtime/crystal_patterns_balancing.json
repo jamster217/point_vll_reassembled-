@@ -1,0 +1,24 @@
+[
+  {
+    "id": "bal_tradeoff",
+    "type": "balancing",
+    "concept": ["tradeoff", "balance"],
+    "keywords": ["tradeoff", "balance", "one side", "other", "weaken", "improving"],
+    "templates": ["A tradeoff appears when X starts to weaken Y"]
+  },
+  {
+    "id": "bal_constraint_release",
+    "type": "balancing",
+    "concept": ["constraint", "release"],
+    "keywords": ["constraint", "release", "tighten", "loosen", "stability"],
+    "templates": ["Stability comes from X without freezing Y"]
+  },
+  {
+    "id": "bal_memory_novelty",
+    "type": "balancing",
+    "concept": ["memory", "novelty"],
+    "keywords": ["memory", "novelty", "past", "new", "carry", "drift"],
+    "templates": ["The answer stays stable when X carries Y without collapsing into Z"]
+  }
+]
+

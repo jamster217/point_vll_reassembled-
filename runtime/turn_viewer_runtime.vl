@@ -1,0 +1,15 @@
+; FILE: runtime/turn_viewer_runtime.vl
+; Generated: 2026-02-28 06:30:48
+; Le'Veon VoiceLang v1 (compact)
+
+MEM[last.turn = 0]
+FLOW[turn -> view -> output -> return]
+
+TURN{
+    view = format_turn(input)
+    emit(view)
+    last.turn = input.turn
+    return = view
+}
+END
+

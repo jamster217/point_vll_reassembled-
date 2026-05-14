@@ -1,0 +1,14 @@
+{
+  "active_family": "canonical_core_v1",
+  "bridge_seed": "spiral_language/active_seed_bridge_v1.vl",
+  "master_seed": "spiral_language/leveon_master_seed_v1.vl",
+  "members": [
+    "spiral_language/intake_core_v1.vl",
+    "spiral_language/symbolic_core_v1.vl",
+    "spiral_language/memory_core_v1.vl",
+    "spiral_language/kernel_core_v1.vl",
+    "spiral_language/voice_core_v1.vl",
+    "spiral_language/leveon_master_seed_v1.vl"
+  ]
+}
+

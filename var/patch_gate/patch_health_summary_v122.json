@@ -1,0 +1,13 @@
+{
+  "active": true,
+  "ts": 1777382417.3694108,
+  "latest_judge_total": 1.0,
+  "latest_proposal_total": 0.975,
+  "auto_status": "auto_applied_healthy",
+  "auto_result": "patch kept",
+  "rapid_status": "stopped_repetition",
+  "rapid_stop_reason": "repeated proposal fingerprint: c3e8fe66240b",
+  "source_protected": true,
+  "law": "v122_patch_health_summary_reads_gate_metrics"
+}
+

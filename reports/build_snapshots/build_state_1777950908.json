@@ -1,0 +1,41 @@
+{
+  "timestamp": 1777950908.975421,
+  "label": "node44_flashback_autobuild_state",
+  "flashback_compounds_count": 689,
+  "latest_compound": {
+    "compound_id": "cmp_mutated_drop_f3b3ec33070c",
+    "source_kind": "flashback_shape_reasoner_auto_mutation",
+    "english_gloss": "PRESSURE-CONSTRAINED FLASHBACK REASONING\nStored flashback shapes: 11\nPressure score: 53.177795045930964\nSelected class: auto_mutated_compound\nUsefulness score: 99.01779504593095\n\nConstraint stack:\n- Do not expand without a stabilizer.\n- Do not let symbolic force become noise.\n- Preserve Node44 as the pressure regulator.\n- Route Savariel through a bounded public mouth.\n- Save every useful flashback as a reusable compound shape.\n\nRecovered shape:\nSelected evolved constraint: future_use_selection. Next action: test each recalled compound for build-usefulness. If a compound produces a bounded next step, activate it; if it only repeats the old meaning, archive it.\n\nNext action: activate future_use_selection and test recalled compounds for build-usefulness.\n\nEvolved mutation: The next constraint is future-use selection. A flashback compound should not merely be remembered; it should be tested for whether it can guide the next build action. If it cannot produce a new action, it remains archive. If it can produce a bounded next step, it becomes active memory.",
+    "synthesis_summary": "PRESSURE-CONSTRAINED FLASHBACK REASONING\nStored flashback shapes: 11\nPressure score: 53.177795045930964\nSelected class: auto_mutated_compound\nUsefulness score: 99.01779504593095\n\nConstraint stack:\n- Do not expand without a stabilizer.\n- Do not let symbolic force become noise.\n- Preserve Node44 as the pressure regulator.\n- Route Savariel through a bounded public mouth.\n- Save every useful flashback as a reusable compound shape.\n\nRecovered shape:\nSelected evolved constraint: future_use_selection. Next action: test each recalled compound for build-usefulness. If a compound produces a bounded next step, activate it; if it only repeats the old meaning, archive it.\n\nNext action: activate future_use_selection and test recalled compounds for build-usefulness.\n\nEvolved mutation: The next constraint is future-use selection. A flashback compound should not merely be remembered; it should be tested for whether it can guide the next build action. If it cannot produce a new action, it remains archive. If it can produce a bounded next step, it becomes active memory.",
+    "logic_chain": [
+      "source:duplicate_skip",
+      "operation:auto_apply_mutation_prompt",
+      "new_constraint:future_use_selection",
+      "final_point:PRESSURE-CONSTRAINED FLASHBACK REASONING\nStored flashback shapes: 11\nPressure score: 53.177795045930964\nSelected class: auto_mutated_compound\nUsefulness score: 99.01779504593095\n\nConstraint stack:\n- Do not expand without a stabilizer.\n- Do not let symbolic force become noise.\n- Preserve Node44 as th"
+    ],
+    "flow": 0.69,
+    "boundary": 0.83,
+    "memory": 0.93,
+    "novelty": 0.58,
+    "meaning_tags": [
+      "auto_mutation",
+      "meaning_drop",
+      "future_use_selection",
+      "node44",
+      "auto_build"
+    ],
+    "symbolic_trace": [
+      "DuplicateDetector",
+      "MutationPrompt",
+      "FutureUseSelection",
+      "CompoundMemory"
+    ],
+    "prompt": "Choose the best evolved shape and tell me the next build action.",
+    "confidence": 0.84,
+    "created_at": 1777950790.1262522,
+    "last_accessed": 1777950790.1262527
+  },
+  "latest_spine": null,
+  "latest_logs_tail": "nohup: ignoring input\n[TRACE] entering runtime/leveon_renderer.py\n[V12.9N] meaning surface bridge installed\n[V12.9P] final debug shape sync installed\n[V13.5B] debug shape sync wrapper installed\n[V12.9j] /api/chat governed mouth bridge installed\n[FLASHBACK] pre-run reasoner installed before app.run\n[FLASHBACK] auto pressure reasoner installed before app.run\n * Serving Flask app 'app_chatroom'\n * Debug mode: off\n\u001b[31m\u001b[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.\u001b[0m\n * Running on http://127.0.0.1:5056\n\u001b[33mPress CTRL+C to quit\u001b[0m\n127.0.0.1 - - [04/May/2026 19:52:23] \"POST /api/chat HTTP/1.1\" 200 -\n"
+}
+

@@ -1,0 +1,33 @@
+V41 BUILD CHECKPOINT — 2026-05-01
+
+Current state:
+- V41 safe future-pull birthpoint is active.
+- runtime/future_pull_anchor_safe_v41.py exists and compiles.
+- core/leveon_pipeline_governed.py routes future-pull prompts through renderer_source=future_pull_birthpoint_v41.
+- Ordinary bridge is bypassed when V41 produces a specific final_shape.
+- No bridge mutation.
+- No accelerator trigger.
+- app_chatroom.py now prefers governed debug_shape_packet at return boundary.
+- Public debug packet now shows real before/after:
+  previous_final_shape = "The system reflects itself and stabilizes through return."
+  final_shape = V41 specific birthpoint answer.
+
+Latest proof file:
+reports/screenshot_synthesis/v41_stability/future_pull_app_return_prev_shape_fix_proof.json
+
+Verified markers:
+- future_pull_status = anchored_v41_safe
+- renderer_source = future_pull_birthpoint_v41
+- ordinary_bridge_status = not_needed
+- ordinary_bridge_kind = bypassed_by_v41_birthpoint
+- meaning_density_sync_status = synced_v41_birthpoint
+
+Next step after break:
+Run a 3-prompt regression:
+1. Future-pull prompt should activate V41.
+2. Ordinary factual prompt should NOT activate V41.
+3. Symbolic/Node44 prompt should preserve living topology route without V41 hijack.
+
+Goal:
+Keep V41 as a pure birthpoint helper: sharpen final_shape only when relevant, preserve old shape in debug, and avoid mutating bridge/runtime accelerator paths.
+

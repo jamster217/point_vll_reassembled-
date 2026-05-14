@@ -1,0 +1,45 @@
+ROUTE PRESSURE + CONTINUITY MEMORY PROOF
+
+Status: PASS
+
+Confirmed:
+- runtime/route_pressure_engine.py compiles
+- runtime/continuity_pressure_memory.py compiles
+- weighted route pressure arbitration works
+- continuity bias updates across calls
+- ordinary_surface remains dominant for ordinary prompts
+- build_surface still wins for Leveon/build prompts
+- mirror_surface remains available for consciousness/qualia prompts
+- no live API routing mutated yet
+
+Current continuity state:
+{
+  "ts": 1778124269.797808,
+  "history": [
+    "ordinary_surface",
+    "ordinary_surface",
+    "build_surface",
+    "ordinary_surface",
+    "mirror_surface",
+    "ordinary_surface",
+    "ordinary_surface",
+    "ordinary_surface",
+    "build_surface",
+    "ordinary_surface"
+  ],
+  "dominant_route": "ordinary_surface",
+  "continuity_bias": {
+    "ordinary_surface": 0.7,
+    "build_surface": 0.2,
+    "mirror_surface": 0.1
+  },
+  "law": "temporal_route_continuity_v1"
+}
+
+Law:
+weighted_route_pressure_arbitration_v1
+temporal_route_continuity_v1
+
+Meaning:
+The build now has a safe sidecar route-memory organ. It stabilizes prompt posture over time without flattening specialized routes.
+

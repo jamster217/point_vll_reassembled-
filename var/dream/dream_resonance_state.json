@@ -1,0 +1,33 @@
+{
+  "primary_axis": "dream_pressure",
+  "axis_id": 13,
+  "components": {
+    "fast_component": 0.875,
+    "mid_component": 0.096,
+    "slow_component": 0.015,
+    "composite": 0.426
+  },
+  "secondary_axes": {
+    "tension_reg": {
+      "axis_id": 5,
+      "micro_shift": 0.875
+    },
+    "context_sense": {
+      "axis_id": 9,
+      "meso_shift": 0.096
+    },
+    "memory_anchor": {
+      "axis_id": 2,
+      "long_shift": 0.015
+    }
+  },
+  "projection": "soft_dream",
+  "symbolic_contract": {
+    "moment": "fast dream-tone fluctuation",
+    "chapter": "mid-term symbolic tone",
+    "arc": "long-term drift",
+    "DREAM_TONE": "weighted composite dream-pressure signal"
+  },
+  "updated_at": 1777267033.754742
+}
+

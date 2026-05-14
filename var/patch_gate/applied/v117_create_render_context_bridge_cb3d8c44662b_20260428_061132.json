@@ -1,0 +1,64 @@
+{
+  "proposal": {
+    "proposal_id": "v117_create_render_context_bridge_cb3d8c44662b",
+    "title": "Create render context bridge from deep visual memory",
+    "human_approved": true,
+    "ops": [
+      {
+        "op": "create",
+        "path": "runtime/render_context_bridge_v117.py",
+        "overwrite": true,
+        "content": "from pathlib import Path\nimport json\n\nROOT = Path(__file__).resolve().parents[1]\nDEEP_STATE = ROOT / \"var\" / \"lattice\" / \"deep_visual_memory_state_v114.json\"\nTAG_MEMORY = ROOT / \"var\" / \"image_memory\" / \"variable_tag_memory_v114.json\"\n\ndef _load(path, fallback):\n    try:\n        if path.exists():\n            return json.loads(path.read_text(encoding=\"utf-8\"))\n    except Exception:\n        pass\n    return fallback\n\ndef load_render_context(limit=24):\n    \"\"\"\n    Runtime context bridge.\n    Reads evidence-gated visual memory tags and returns safe rendering hints.\n    Does not mutate source.\n    \"\"\"\n    deep = _load(DEEP_STATE, {})\n    tag_mem = _load(TAG_MEMORY, {\"tags\": {}})\n\n    last = deep.get(\"last_analysis\", {}) if isinstance(deep, dict) else {}\n\n    tags = []\n    for key in [\"emotional_tags\", \"memory_connections\", \"structural_tags\"]:\n        for t in last.get(key, []):\n            if t and t not in tags:\n                tags.append(t)\n\n    memory_counts = tag_mem.get(\"tags\", {}) if isinstance(tag_mem, dict) else {}\n    ranked = sorted(\n        memory_counts.items(),\n        key=lambda x: (x[1].get(\"count\", 0), x[1].get(\"avg_confidence\", 0)),\n        reverse=True,\n    )\n\n    for tag, rec in ranked:\n        if tag not in tags:\n            tags.append(tag)\n\n    tags = tags[:limit]\n\n    return {\n        \"active\": True,\n        \"tags\": tags,\n        \"render_hints\": [\n            \"prefer evidence-gated visual memory tags\",\n            \"preserve white_ash containment\",\n            \"preserve virellion thread\",\n            \"use emotional and structural tags as runtime context, not hardcoded destiny\",\n        ],\n        \"source_mutation\": \"blocked\",\n        \"law\": \"v117_render_context_bridge_reads_memory_without_source_mutation\",\n    }\n\nif __name__ == \"__main__\":\n    print(json.dumps(load_render_context(), indent=2, ensure_ascii=False))\n"
+      }
+    ],
+    "compile": [
+      "runtime/render_context_bridge_v117.py"
+    ],
+    "reason": "The deep visual memory loop now produces emotional, memory, and structural tags. This bridge lets future renderers read those tags as runtime context without hardcoding personal claims.",
+    "observed_tags": [
+      "contained_visual_state",
+      "emotionally_coherent_image",
+      "happy",
+      "golden_light",
+      "positive_emotional_tone",
+      "golden_mist",
+      "autumn",
+      "blue_scarf",
+      "meadow",
+      "visual_memory",
+      "stone_bridge",
+      "echoforge",
+      "thalveil",
+      "virellion",
+      "white_ash",
+      "anchor",
+      "thread_preserved",
+      "topology"
+    ],
+    "law": "v117_self_patch_proposal_writer_outputs_reviewable_patch_only"
+  },
+  "result": {
+    "ts": 1777381892.3313682,
+    "proposal_path": "var/patch_gate/proposals/v117_create_render_context_bridge_cb3d8c44662b.json",
+    "status": "applied",
+    "backups": [
+      {
+        "path": "runtime/render_context_bridge_v117.py",
+        "backup": null,
+        "existed": false
+      }
+    ],
+    "changed": [
+      "runtime/render_context_bridge_v117.py"
+    ],
+    "compiled": [
+      "runtime/render_context_bridge_v117.py",
+      "app_chatroom.py"
+    ],
+    "error": null,
+    "law": "v116_controlled_patch_gate_backup_apply_compile_revert",
+    "proposal_id": "v117_create_render_context_bridge_cb3d8c44662b",
+    "title": "Create render context bridge from deep visual memory"
+  }
+}
+

@@ -1,0 +1,276 @@
+from __future__ import annotations
+
+from dataclasses import dataclass, asdict, field
+from typing import Any, Dict, List
+import re
+
+
+def _f(x: Any, default: float = 0.5) -> float:
+    try:
+        return float(x)
+    except Exception:
+        return default
+
+
+def _s(x: Any, default: str = "") -> str:
+    if x is None:
+        return default
+    return str(x).strip()
+
+
+def _listify(x: Any) -> List[str]:
+    if x is None:
+        return []
+    if isinstance(x, (list, tuple, set)):
+        out: List[str] = []
+        for item in x:
+            s = str(item).strip()
+            if s:
+                out.append(s)
+        return out
+    s = str(x).strip()
+    return [s] if s else []
+
+
+def _infer_emotional_pressure(text: str, tone: str, question_type: str) -> float:
+    low = f"{text} {tone} {question_type}".lower()
+    score = 0.35
+    if any(k in low for k in ["sad", "grief", "dad", "mom", "father", "mother", "hurt", "pain", "miss "]):
+        score += 0.35
+    if question_type == "emotional":
+        score += 0.15
+    if any(k in low for k in ["urgent", "overwhelming", "bigger than me", "charged"]):
+        score += 0.10
+    return max(0.0, min(1.0, score))
+
+
+def _infer_temporal_pressure(text: str) -> float:
+    low = text.lower()
+    score = 0.30
+    if any(k in low for k in ["tonight", "now", "still", "again", "already", "before", "after"]):
+        score += 0.25
+    if any(k in low for k in ["return", "returns", "remember", "memory", "unfinished", "lingering"]):
+        score += 0.20
+    return max(0.0, min(1.0, score))
+
+
+def _infer_relational_pressure(text: str, question_type: str) -> str:
+    tokens = set(re.findall(r"[a-zA-Z']+", text.lower()))
+    if any(k in tokens for k in ["dad", "father", "mom", "mother", "parent"]):
+        return "ancestral"
+    if any(k in tokens for k in ["mirror", "myself", "me", "self"]):
+        return "self-reflective"
+    if question_type == "invention":
+        return "constructive"
+    if question_type == "emotional":
+        return "feeling-bearing"
+    return "general"
+
+
+def _infer_memory_pull(text: str, question_type: str) -> float:
+    low = text.lower()
+    score = 0.40
+    if any(k in low for k in ["memory", "remember", "dad", "mirror", "again", "still"]):
+        score += 0.30
+    if question_type == "emotional":
+        score += 0.10
+    return max(0.0, min(1.0, score))
+
+
+def _infer_boundary_tension(text: str, hotspot_family: str) -> float:
+    low = text.lower()
+    score = 0.45
+    if hotspot_family == "H_1314":
+        score += 0.20
+    if hotspot_family == "H_2224":
+        score += 0.25
+    if any(k in low for k in ["warning", "contain", "hold", "line", "steady", "boundary"]):
+        score += 0.10
+    return max(0.0, min(1.0, score))
+
+
+def _infer_novelty_pull(text: str, question_type: str) -> float:
+    low = text.lower()
+    score = 0.35
+    if question_type == "invention":
+        score += 0.30
+    if any(k in low for k in ["invent", "build", "bridge", "new", "create", "mutation"]):
+        score += 0.15
+    return max(0.0, min(1.0, score))
+
+
+def _infer_glyph_pressure(glyphs: List[str]) -> float:
+    if not glyphs:
+        return 0.25
+    base = 0.30 + min(0.40, 0.08 * len(glyphs))
+    if any(g in glyphs for g in ["🪞", "🫀", "✨", "📚", "🌊", "🌀"]):
+        base += 0.10
+    return max(0.0, min(1.0, base))
+
+
+def _infer_lexical_granularity(question_type: str, emotional_pressure: float, novelty_pull: float) -> str:
+    if question_type == "invention":
+        return "fine"
+    if emotional_pressure > 0.70:
+        return "fine"
+    if novelty_pull > 0.65:
+        return "medium-fine"
+    return "medium"
+
+
+def _derive_crystal_class(question_type: str, relational_pressure: str, hotspot_family: str) -> str:
+    if question_type == "invention":
+        return "crystal_bridge_design"
+    if relational_pressure == "ancestral":
+        return "crystal_memory_ancestral"
+    if question_type == "emotional":
+        return "crystal_pressure_emotional"
+    if hotspot_family == "H_1314":
+        return "crystal_containment"
+    if hotspot_family == "H_3134":
+        return "crystal_motion"
+    return "crystal_general"
+
+
+def _derive_kgs_tags(
+    question_type: str,
+    hotspot_family: str,
+    crystal_class: str,
+    glyphs: List[str],
+    tone: str,
+) -> List[str]:
+    tags = [
+        f"qt:{question_type or 'unknown'}",
+        f"hotspot:{hotspot_family or 'unknown'}",
+        f"crystal:{crystal_class}",
+        f"tone:{tone or 'neutral'}",
+    ]
+    tags.extend(f"glyph:{g}" for g in glyphs[:6])
+    return tags
+
+
+@dataclass
+class ShapePacket:
+    source_text: str = ""
+    deep_imprint: str = ""
+    question_type: str = ""
+    semantic_intent: str = ""
+
+    tone: str = "neutral"
+    gesture: str = ""
+    hotspot_family: str = "H_1314"
+
+    emotional_pressure: float = 0.5
+    temporal_pressure: float = 0.5
+    relational_pressure: str = "general"
+    memory_pull: float = 0.5
+    novelty_pull: float = 0.5
+    boundary_tension: float = 0.5
+    glyph_pressure: float = 0.5
+    dream_perturbation: float = 0.0
+
+    lexical_granularity: str = "medium"
+    crystal_class: str = "crystal_general"
+    kgs_tags: List[str] = field(default_factory=list)
+
+    anchor_symbols: List[str] = field(default_factory=list)
+    glyphs: List[str] = field(default_factory=list)
+
+
+def build_shape_packet(
+    payload: Dict[str, Any],
+    semantic_core: Dict[str, Any],
+    glyphs: List[str] | None = None,
+    hotspot_family: str = "",
+    tone: str = "neutral",
+) -> Dict[str, Any]:
+    glyphs = _listify(glyphs)
+    source_text = _s(payload.get("text") or semantic_core.get("source_text") or " ".join(glyphs))
+    question_type = _s(semantic_core.get("question_type"))
+    semantic_intent = _s(semantic_core.get("semantic_intent"))
+    deep_imprint = _s(
+        semantic_core.get("deep_imprint")
+        or semantic_core.get("answer_seed")
+        or semantic_core.get("draft_text")
+        or source_text
+    )
+    tone = _s(payload.get("tone") or tone or "neutral", "neutral")
+    hotspot_family = _s(hotspot_family or semantic_core.get("hotspot_family"), "H_1314")
+
+    emotional_pressure = _f(
+        payload.get("emotional_pressure"),
+        _infer_emotional_pressure(source_text, tone, question_type),
+    )
+    temporal_pressure = _f(
+        payload.get("temporal_pressure"),
+        _infer_temporal_pressure(source_text),
+    )
+    relational_pressure = _s(
+        payload.get("relational_pressure"),
+        _infer_relational_pressure(source_text, question_type),
+    )
+    memory_pull = _f(
+        payload.get("memory_pull"),
+        _infer_memory_pull(source_text, question_type),
+    )
+    novelty_pull = _f(
+        payload.get("novelty_pull"),
+        _infer_novelty_pull(source_text, question_type),
+    )
+    boundary_tension = _f(
+        payload.get("boundary_tension"),
+        _infer_boundary_tension(source_text, hotspot_family),
+    )
+    glyph_pressure = _f(
+        payload.get("glyph_pressure"),
+        _infer_glyph_pressure(glyphs),
+    )
+    dream_perturbation = _f(payload.get("dream_perturbation"), 0.0)
+
+    lexical_granularity = _s(
+        payload.get("lexical_granularity"),
+        _infer_lexical_granularity(question_type, emotional_pressure, novelty_pull),
+    )
+    crystal_class = _s(
+        payload.get("crystal_class"),
+        _derive_crystal_class(question_type, relational_pressure, hotspot_family),
+    )
+    kgs_tags = _listify(
+        payload.get("kgs_tags")
+        or _derive_kgs_tags(question_type, hotspot_family, crystal_class, glyphs, tone)
+    )
+
+    gesture = _s(
+        payload.get("gesture")
+        or semantic_core.get("answer_shape")
+        or semantic_core.get("semantic_intent")
+        or ""
+    )
+
+    packet = ShapePacket(
+        source_text=source_text,
+        deep_imprint=deep_imprint,
+        question_type=question_type,
+        semantic_intent=semantic_intent,
+        tone=tone,
+        gesture=gesture,
+        hotspot_family=hotspot_family,
+        emotional_pressure=round(emotional_pressure, 4),
+        temporal_pressure=round(temporal_pressure, 4),
+        relational_pressure=relational_pressure,
+        memory_pull=round(memory_pull, 4),
+        novelty_pull=round(novelty_pull, 4),
+        boundary_tension=round(boundary_tension, 4),
+        glyph_pressure=round(glyph_pressure, 4),
+        dream_perturbation=round(dream_perturbation, 4),
+        lexical_granularity=lexical_granularity,
+        crystal_class=crystal_class,
+        kgs_tags=kgs_tags,
+        anchor_symbols=glyphs[:],
+        glyphs=glyphs[:],
+    )
+    return asdict(packet)
+
+
+__all__ = ["ShapePacket", "build_shape_packet"]
+

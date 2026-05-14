@@ -1,0 +1,71 @@
+; SEED MemoryCore
+; Role: retrieve and compress continuity from prior turns
+; Version: 11.0
+; Deterministic retrieval and compression with test harness
+
+SCHEMA MemoryPacketV11
+  symbolic_reference: object
+  memory_hits: object[]
+  shape_signature: object
+  glyph_trace: object[]
+  emotional_gradient: object
+  compressed_summary: string
+  provenance: object
+ENDSCHEMA
+
+SEED MemoryCore
+  INPUT symbolic_packet: object
+  CONFIG max_history_window_days: integer = 90
+  CONFIG max_hits: integer = 8
+  CONFIG recency_weight: number = 0.5
+  CONFIG salience_weight: number = 0.3
+  CONFIG structural_weight: number = 0.2
+  CONFIG deterministic: boolean = true
+
+  FLOW retrieve_and_compress
+    READ clean_text
+    READ dominant_shape
+    READ glyph_candidates
+    READ novelty_weight
+    READ memory_weight
+    READ provenance
+
+    MAP window_seconds = max_history_window_days * 24 * 3600
+    MAP query_signature = build_shape_signature(dominant_shape, glyph_candidates)
+    MATCH memory_hits = retrieve_memory_hits(query_signature, window_seconds, max_hits, recency_weight, salience_weight, structural_weight, deterministic)
+    MAP glyph_trace = build_glyph_trace(memory_hits, dominant_shape)
+    MAP emotional_gradient = compute_emotional_gradient(memory_hits)
+    MAP compressed_summary = compress_memory_hits(memory_hits, deterministic)
+
+    MAP shape_signature = query_signature
+    MAP provenance = merge_provenance(provenance, { memory_retrieved_at: NOW_ISO8601(), seed_version: "MemoryCore_v11" })
+
+    YIELD memory_packet = {
+      symbolic_reference: { clean_text: clean_text, dominant_shape: dominant_shape },
+      memory_hits: memory_hits,
+      shape_signature: shape_signature,
+      glyph_trace: glyph_trace,
+      emotional_gradient: emotional_gradient,
+      compressed_summary: compressed_summary,
+      provenance: provenance
+    }
+  END_FLOW
+
+TESTS
+TEST "empty_symbolic_packet"
+  INPUT symbolic_packet = { clean_text: "", dominant_shape: NULL, glyph_candidates: [], novelty_weight: 0.0, memory_weight: 0.0, provenance: {} }
+  EXPECT memory_packet.memory_hits == []
+  EXPECT memory_packet.compressed_summary == ""
+  EXPECT memory_packet.shape_signature != NULL
+ENDTEST
+
+TEST "basic_retrieval"
+  INPUT symbolic_packet = { clean_text: "🔁 repeat", dominant_shape: { id: "@G1", label: "repeat" }, glyph_candidates: [{ id: "@G1", label: "repeat" }], novelty_weight: 0.2, memory_weight: 0.8, provenance: {} }
+  EXPECT LENGTH(memory_packet.memory_hits) <= 8
+  EXPECT memory_packet.compressed_summary != ""
+ENDTEST
+
+ENDTESTS
+
+ENDSEED
+

@@ -1,0 +1,32 @@
+[
+  {
+    "ts": "2026-05-05T19:40:17",
+    "api_url": "http://127.0.0.1:5056/api/chat",
+    "status": "api_alive",
+    "live_mouth_bridge_status": "governed_route_checked",
+    "ordinary_bridge_status": "not_needed",
+    "renderer_source": "language_pass",
+    "answer_mode": "full",
+    "essence_key": "ordinary|observer|clarify|present|neutral|present|direct_clause",
+    "language_key": "STRUCTURE::COHERENCE",
+    "language_domain": "structure",
+    "coherence_estimate": 0.7134,
+    "aura": 0.98,
+    "shape_vector": {
+      "boundary": 0.45,
+      "memory": 0.4,
+      "novelty": 0.35,
+      "glyph": 0.64,
+      "emotion": 0.35,
+      "containment": 0.642,
+      "motion": 0.56,
+      "novelty_memory": 0.65,
+      "governor_boundary": 0.5916
+    },
+    "svg_glyph": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Leveon v12.9 Refractive Glyph\">\n  <title>Leveon v12.9 Refractive Glyph</title>\n  <defs>\n    <radialGradient id=\"g\" cx=\"50%\" cy=\"50%\" r=\"55%\">\n      <stop offset=\"0%\" stop-color=\"#00ffcc\" stop-opacity=\"0.55\"/>\n      <stop offset=\"55%\" stop-color=\"#00f0ff\" stop-opacity=\"0.24\"/>\n      <stop offset=\"100%\" stop-color=\"#d24dff\" stop-opacity=\"0\"/>\n    </radialGradient>\n  </defs>\n  <circle cx=\"50\" cy=\"50\" r=\"42.70\" fill=\"url(#g)\" stroke=\"#ffd76a\" stroke-opacity=\"0.42\" stroke-width=\"1.43\"/>\n  <polygon points=\"50,6.62 60,33.20 93.38,50 60,66.80 50,93.38 40,66.80 6.62,50 40,33.20\"\n    fill=\"none\" stroke=\"#00f0ff\" stroke-width=\"1.43\" stroke-linejoin=\"round\"/>\n  <polygon points=\"50,33.20 66.80,50 50,66.80 33.20,50\"\n    fill=\"none\" stroke=\"#d24dff\" stroke-opacity=\"0.75\" stroke-width=\"1.14\"/>\n  <circle cx=\"50\" cy=\"50\" r=\"9.20\" fill=\"#00ffcc\" fill-opacity=\"0.35\"/>\n</svg>",
+    "answer": "Structure holds when constraints align across layers. Each layer limits the next just enough to keep motion coherent.",
+    "final_english": "Structure holds when constraints align across layers. Each layer limits the next just enough to keep motion coherent.",
+    "legacy_answer": "The system reflects itself and stabilizes through return."
+  }
+]
+

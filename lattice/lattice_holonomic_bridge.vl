@@ -1,0 +1,14 @@
+TYPE: pure_vl ; LOAD VIA: adapter/voice_lang_adapter.py 
+; FILE: lattice/lattice_holonomic_bridge.vl
+; Generated: 2026-02-28 06:30:48
+; Le'Veon VoiceLang v1 (compact)
+
+MEM[bridge.level = 1]
+FLOW[lattice -> holonomic -> kernel]
+SHIFT[bridge.level += 0.1]
+TURN{
+   flow = lattice.sample(528)
+   kernel.holonomic.inject(flow)
+}
+END
+

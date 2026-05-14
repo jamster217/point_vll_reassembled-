@@ -1,0 +1,17 @@
+=== V12.9t VISUAL MEMORY JUDGE ===
+status: ranking_emitted
+improvement: neutral
+coherence_delta: 0.0026
+previous_count: 10
+latest_depth: 238
+latest_svg: static/generated/leveon_topology_1777504501_be4025c64027.svg
+
+1. Continue visual comparison
+   why: The organ is stable but not clearly accelerating yet.
+   patch: Collect more visual entries before patching.
+2. Add visual difference descriptions
+   why: The organ is high-coherence and plateauing, so the next gain is describing what changed between SVGs.
+   patch: Add a sidecar that compares latest SVG/spec against previous SVG/spec and names the visible change.
+
+surface_fragment: Deepened visual judgment: improvement=neutral, coherence_delta=0.0026, overall_organ_coherence=0.9496, trend=stable_plateau.
+

@@ -1,0 +1,35 @@
+FINAL ENTRYPOINT CHECKPOINT
+
+Root/server entrypoint:
+app_chatroom.py
+
+Public route:
+POST /api/chat
+
+Optimized runtime entrypoint:
+runtime/unified_spine.py
+run_unified_spine(payload)
+
+Posture lock:
+runtime/node44_spiral_core.py
+enter_node_44(runtime)
+
+Current law:
+app_chatroom.py -> /api/chat -> runtime.unified_spine.run_unified_spine -> Node44 -> Layer5 -> clean public surface
+
+Node44 status:
+Full hardened Node44 posture module installed.
+Optional runtime hooks are safe-called.
+Plain dict runtime writes state directly.
+
+Browser/API compatibility:
+reply, answer, response, text, message aliases enabled.
+ok/status enabled.
+
+Important verified lanes:
+lineage_door_anchor
+structure_builder
+lineage_thread
+direct_definition via variable question router
+relationship_surface via variable question router
+

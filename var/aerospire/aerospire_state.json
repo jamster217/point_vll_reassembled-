@@ -1,0 +1,20 @@
+{
+  "source": "runtime.aerospire_interface",
+  "interface": "AeroSpire",
+  "airflow": 0.88,
+  "cmd": "intensify",
+  "breath_map": {
+    "0.00-0.15": "pause",
+    "0.16-0.35": "soften",
+    "0.36-0.60": "steady",
+    "0.61-0.82": "open",
+    "0.83-1.00": "intensify"
+  },
+  "targets": {
+    "voice_surface": "intensify",
+    "response_cadence": "intensify",
+    "co_regulation": "active"
+  },
+  "updated_at": 1777271077.613865
+}
+

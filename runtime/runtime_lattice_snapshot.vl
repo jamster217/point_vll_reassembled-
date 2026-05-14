@@ -1,0 +1,17 @@
+; FILE: runtime/runtime_lattice_snapshot.vl
+; Generated: 2026-02-28 06:30:48
+; Le'Veon VoiceLang v1 (compact)
+
+MEM[snap.index = 0]
+FLOW[lattice -> capture -> snapshot -> memory -> return]
+
+TURN{
+    frame = lattice.capture()
+    snapshot = bind(frame, snap.index)
+    memory.store(snapshot)
+    return = snapshot
+}
+
+SHIFT[snap.index += 1]
+END
+

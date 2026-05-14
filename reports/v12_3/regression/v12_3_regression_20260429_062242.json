@@ -1,0 +1,42 @@
+{
+  "status": "pass",
+  "phase": "v12_3_regression_battery",
+  "law": "v12_3_rest_proof_regression_only",
+  "dreaming_spine_influence": 0.0,
+  "enrichment_flow": "deactivated",
+  "source_mutation": "none",
+  "public_surface_mutation": "none",
+  "counts": {
+    "ordinary_clean": [
+      10,
+      10
+    ],
+    "ordinary_thermal": [
+      10,
+      10
+    ],
+    "proof_clean": [
+      3,
+      3
+    ],
+    "symbolic_ok": [
+      5,
+      5
+    ],
+    "emotional_ok": [
+      3,
+      3
+    ]
+  },
+  "passes": {
+    "precheck_v12_1": true,
+    "ordinary_no_topology_flood": true,
+    "ordinary_thermal_preserved": true,
+    "proof_clean_mouth_active": true,
+    "symbolic_prompts_return": true,
+    "emotional_prompts_return": true
+  },
+  "results_jsonl": "reports/v12_3/regression/v12_3_regression_20260429_062242.jsonl",
+  "created_at": "20260429_062827"
+}
+

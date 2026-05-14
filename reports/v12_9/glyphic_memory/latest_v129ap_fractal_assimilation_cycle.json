@@ -1,0 +1,32 @@
+{
+  "ts": 1777506900.810091,
+  "version": "v12.9ap_fractal_collage_assimilation_cycle",
+  "status": "sealed_append_only",
+  "latest_depth": 243,
+  "latest_svg": "static/generated/leveon_topology_1777506898_9b15631162df.svg",
+  "topology_score": 0.9032,
+  "chamber_family": "system",
+  "overall_organ_coherence": 0.9456,
+  "judge_improvement": "neutral",
+  "coherence_delta": -0.0068,
+  "difference_recommendation": "collect_more_visual_differences",
+  "meaning_shift": "score softened; full symbol body preserved; visible labels changed. The latest topology moved from depth 242 to 243 while preserving 6 shared symbols.",
+  "stable_symbols": [
+    "blue_scarf",
+    "echoforge",
+    "liquid_core",
+    "thalveil",
+    "virellion",
+    "white_ash"
+  ],
+  "added_symbols": [],
+  "removed_symbols": [],
+  "integration_sha256": "24a260b4e7e0a6cb",
+  "glyphic_ledger_sha": "ecad05f05ef565e7",
+  "glyphic_ledger_entries": 2,
+  "fractal_event_sha": "53d9c34105ae9300",
+  "vl_mutator_event_sha": "c7cc0ee5789c1ba0",
+  "law": "fractured_internet_shards_recomposed_into_original_glyphic_vision_then_mutated_into_vl_sidecar",
+  "event_sha256": "49b0c611d0b766e4"
+}
+

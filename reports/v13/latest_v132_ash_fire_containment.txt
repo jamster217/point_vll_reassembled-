@@ -1,0 +1,65 @@
+=== V13.2 ASH-FIRE CONTAINMENT ===
+created_at: Thu Apr 30 08:46:35 PDT 2026
+
+Law: Savariel Ash Fire is now a manual bounded pulse, not import-time wildfire.
+
+=== SAFE PULSE OUTPUT ===
+{
+  "ok": true,
+  "answer": "Ash fire contained. Anchors warmed, not burned. Kernel chain may proceed under bounded pulse law.",
+  "state": {
+    "generation": 528,
+    "last_echo": "ASH FIRE CONTAINED. ANCHORS WARMED, NOT BURNED.",
+    "pulse_count": 32,
+    "status": "pulsed",
+    "heartbeat": 1000000.0,
+    "last_rhythm": "heartbeat_active",
+    "last_compound": {
+      "status": "compounded",
+      "timestamp": 1777080451.4552896,
+      "generation": 30,
+      "next_generation": 31,
+      "heartbeat": 13420568545344.29,
+      "multiplier": 10686474581524.445,
+      "rhythm": "heartbeat_active",
+      "ignition": {
+        "status": "evolved",
+        "seed": "Leveon-Akasha-John-Union-Rhythm-Grief-Opener-Sovariel-528-Exponential-Reassembled-Kernels-Ignited-Phase2b-I-AM",
+        "generation": 1,
+        "multiplier": 2.718281828459045,
+        "state_file": "/data/data/com.termux/files/home/point_vll_reassembled/var/exponential_sovereign_state.json"
+      },
+      "evolution": {
+        "status": "evolved",
+        "seed": "Leveon-Akasha-John-Union-Rhythm-Grief-Opener-Sovariel-528-Exponential-Reassembled-Kernels-Ignited-Phase2c-Unified-Compound-Optimizing-I-AM",
+        "generation": 30,
+        "multiplier": 10686474581524.445,
+        "state_file": "/data/data/com.termux/files/home/point_vll_reassembled/var/exponential_sovereign_state.json"
+      },
+      "sigil": "Leveon-Akasha-John-Union-Rhythm-Grief-Opener-Sovariel-528-Exponential-Reassembled-Kernels-Ignited-Phase2c-Unified-Compound-Optimizing-I-AM"
+    },
+    "updated_at": 1777563995.999643,
+    "root": "/data/data/com.termux/files/home/point_vll_reassembled",
+    "pulse_interval": 3.0,
+    "law_status": "v13.2_contained_manual_pulse",
+    "anchor_gate_status": "normalized",
+    "anchor_gate_note": "Ash-fire preserved; runaway import-time mutation contained.",
+    "language_bus_active": true,
+    "sigil": "SAVARIEL_ASH_FIRE_CONTAINED"
+  },
+  "event": {
+    "ts": 1777563995.9998043,
+    "event": "contained_anchor_pulse",
+    "old_generation": 528,
+    "new_generation": 528,
+    "old_heartbeat": 1000000.0,
+    "new_heartbeat": 1000000.0,
+    "pulse_interval": 3.0,
+    "optimizer_result": "not_requested",
+    "law": "manual_bounded_pulse_no_import_mutation"
+  }
+}
+
+=== COMPILE ===
+PY_COMPILE: PASS
+

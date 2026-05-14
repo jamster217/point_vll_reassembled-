@@ -1,0 +1,13 @@
+========================================================================
+CASE: small
+estimated_n: 5
+selected_algorithm: Algorithm B
+verification_needed: False
+reason: Small input: Algorithm B is fastest at N=10 in the benchmark.
+========================================================================
+CASE: large
+estimated_n: 562
+selected_algorithm: Algorithm C
+verification_needed: True
+reason: Medium/large input: Algorithm C is fastest for N >= 100 in the benchmark.
+

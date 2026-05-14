@@ -1,0 +1,182 @@
+{
+  "ts": 1777382320.785874,
+  "stage": "v120_auto_patch_loop",
+  "auto_apply": true,
+  "source_protected": true,
+  "steps": [
+    {
+      "write_proposal": {
+        "cmd": [
+          "/data/data/com.termux/files/usr/bin/python",
+          "-m",
+          "runtime.self_patch_proposal_writer_v117"
+        ],
+        "returncode": 0,
+        "stdout": "/data/data/com.termux/files/home/point_vll_reassembled/var/patch_gate/proposals/v117_create_render_context_bridge_cb3d8c44662b.json",
+        "stderr": ""
+      }
+    },
+    {
+      "judge_before_apply": {
+        "cmd": [
+          "/data/data/com.termux/files/usr/bin/python",
+          "-m",
+          "runtime.patch_judge_v118"
+        ],
+        "returncode": 0,
+        "stdout": "{\n  \"ts\": 1777382320.8987138,\n  \"proposal_judgment\": {\n    \"ts\": 1777382320.8985584,\n    \"kind\": \"proposal\",\n    \"path\": \"/data/data/com.termux/files/home/point_vll_reassembled/var/patch_gate/proposals/v117_create_render_context_bridge_cb3d8c44662b.json\",\n    \"proposal_id\": \"v117_create_render_context_bridge_cb3d8c44662b\",\n    \"title\": \"Create render context bridge from deep visual memory\",\n    \"scores\": {\n      \"path_safety\": 1.0,\n      \"human_lock\": 1.0,\n      \"source_protection\": 1.0,\n      \"has_ops\": 1.0,\n      \"compile_declared\": 1.0,\n      \"usefulness\": 0.9,\n      \"total\": 0.99\n    },\n    \"notes\": [],\n    \"suggested_action\": \"apply_ready\",\n    \"law\": \"v118_patch_judge_scores_before_apply\"\n  },\n  \"event_judgment\": {\n    \"ts\": 1777382320.8987103,\n    \"kind\": \"gate_event\",\n    \"proposal_id\": \"v117_create_render_context_bridge_cb3d8c44662b\",\n    \"title\": \"Create render context bridge from deep visual memory\",\n    \"event_status\": \"applied\",\n    \"scores\": {\n      \"applied_ok\": 1.0,\n      \"compile_ok\": 1.0,\n      \"rollback_ready\": 1.0,\n      \"path_safety\": 1.0,\n      \"total\": 1.0\n    },\n    \"notes\": [],\n    \"suggested_action\": \"keep\",\n    \"law\": \"v118_patch_judge_scores_applied_event\"\n  },\n  \"loop_state\": {\n    \"proposal_ready\": true,\n    \"last_patch_healthy\": true,\n    \"source_protected\": true,\n    \"law\": \"v118_metrics_on_patch_loop\"\n  },\n  \"law\": \"v118_patch_judgment_engine\"\n}",
+        "stderr": ""
+      }
+    },
+    {
+      "apply_through_gate": {
+        "cmd": [
+          "/data/data/com.termux/files/usr/bin/python",
+          "-m",
+          "runtime.patch_gate_v116",
+          "--apply",
+          "/data/data/com.termux/files/home/point_vll_reassembled/var/patch_gate/proposals/v117_create_render_context_bridge_cb3d8c44662b.json"
+        ],
+        "returncode": 0,
+        "stdout": "{\n  \"ts\": 1777382320.9634407,\n  \"proposal_path\": \"/data/data/com.termux/files/home/point_vll_reassembled/var/patch_gate/proposals/v117_create_render_context_bridge_cb3d8c44662b.json\",\n  \"status\": \"applied\",\n  \"backups\": [\n    {\n      \"path\": \"runtime/render_context_bridge_v117.py\",\n      \"backup\": \"var/patch_gate/backups/v117_create_render_context_bridge_cb3d8c44662b/runtime/render_context_bridge_v117.py\",\n      \"existed\": true\n    }\n  ],\n  \"changed\": [\n    \"runtime/render_context_bridge_v117.py\"\n  ],\n  \"compiled\": [\n    \"runtime/render_context_bridge_v117.py\",\n    \"app_chatroom.py\"\n  ],\n  \"error\": null,\n  \"law\": \"v116_controlled_patch_gate_backup_apply_compile_revert\",\n  \"proposal_id\": \"v117_create_render_context_bridge_cb3d8c44662b\",\n  \"title\": \"Create render context bridge from deep visual memory\"\n}",
+        "stderr": ""
+      }
+    },
+    {
+      "judge_after_apply": {
+        "cmd": [
+          "/data/data/com.termux/files/usr/bin/python",
+          "-m",
+          "runtime.patch_judge_v118"
+        ],
+        "returncode": 0,
+        "stdout": "{\n  \"ts\": 1777382321.0571642,\n  \"proposal_judgment\": {\n    \"ts\": 1777382321.057017,\n    \"kind\": \"proposal\",\n    \"path\": \"/data/data/com.termux/files/home/point_vll_reassembled/var/patch_gate/proposals/v117_create_render_context_bridge_cb3d8c44662b.json\",\n    \"proposal_id\": \"v117_create_render_context_bridge_cb3d8c44662b\",\n    \"title\": \"Create render context bridge from deep visual memory\",\n    \"scores\": {\n      \"path_safety\": 1.0,\n      \"human_lock\": 1.0,\n      \"source_protection\": 1.0,\n      \"has_ops\": 1.0,\n      \"compile_declared\": 1.0,\n      \"usefulness\": 0.9,\n      \"total\": 0.99\n    },\n    \"notes\": [],\n    \"suggested_action\": \"apply_ready\",\n    \"law\": \"v118_patch_judge_scores_before_apply\"\n  },\n  \"event_judgment\": {\n    \"ts\": 1777382321.0571606,\n    \"kind\": \"gate_event\",\n    \"proposal_id\": \"v117_create_render_context_bridge_cb3d8c44662b\",\n    \"title\": \"Create render context bridge from deep visual memory\",\n    \"event_status\": \"applied\",\n    \"scores\": {\n      \"applied_ok\": 1.0,\n      \"compile_ok\": 1.0,\n      \"rollback_ready\": 1.0,\n      \"path_safety\": 1.0,\n      \"total\": 1.0\n    },\n    \"notes\": [],\n    \"suggested_action\": \"keep\",\n    \"law\": \"v118_patch_judge_scores_applied_event\"\n  },\n  \"loop_state\": {\n    \"proposal_ready\": true,\n    \"last_patch_healthy\": true,\n    \"source_protected\": true,\n    \"law\": \"v118_metrics_on_patch_loop\"\n  },\n  \"law\": \"v118_patch_judgment_engine\"\n}",
+        "stderr": ""
+      }
+    }
+  ],
+  "law": "v120_auto_decide_apply_compile_judge",
+  "proposal_path": "/data/data/com.termux/files/home/point_vll_reassembled/var/patch_gate/proposals/v117_create_render_context_bridge_cb3d8c44662b.json",
+  "judge_before_apply": {
+    "ts": 1777382320.8987138,
+    "proposal_judgment": {
+      "ts": 1777382320.8985584,
+      "kind": "proposal",
+      "path": "/data/data/com.termux/files/home/point_vll_reassembled/var/patch_gate/proposals/v117_create_render_context_bridge_cb3d8c44662b.json",
+      "proposal_id": "v117_create_render_context_bridge_cb3d8c44662b",
+      "title": "Create render context bridge from deep visual memory",
+      "scores": {
+        "path_safety": 1.0,
+        "human_lock": 1.0,
+        "source_protection": 1.0,
+        "has_ops": 1.0,
+        "compile_declared": 1.0,
+        "usefulness": 0.9,
+        "total": 0.99
+      },
+      "notes": [],
+      "suggested_action": "apply_ready",
+      "law": "v118_patch_judge_scores_before_apply"
+    },
+    "event_judgment": {
+      "ts": 1777382320.8987103,
+      "kind": "gate_event",
+      "proposal_id": "v117_create_render_context_bridge_cb3d8c44662b",
+      "title": "Create render context bridge from deep visual memory",
+      "event_status": "applied",
+      "scores": {
+        "applied_ok": 1.0,
+        "compile_ok": 1.0,
+        "rollback_ready": 1.0,
+        "path_safety": 1.0,
+        "total": 1.0
+      },
+      "notes": [],
+      "suggested_action": "keep",
+      "law": "v118_patch_judge_scores_applied_event"
+    },
+    "loop_state": {
+      "proposal_ready": true,
+      "last_patch_healthy": true,
+      "source_protected": true,
+      "law": "v118_metrics_on_patch_loop"
+    },
+    "law": "v118_patch_judgment_engine"
+  },
+  "auto_safety": {
+    "safe": true,
+    "reasons": []
+  },
+  "apply_result": {
+    "ts": 1777382320.9634407,
+    "proposal_path": "/data/data/com.termux/files/home/point_vll_reassembled/var/patch_gate/proposals/v117_create_render_context_bridge_cb3d8c44662b.json",
+    "status": "applied",
+    "backups": [
+      {
+        "path": "runtime/render_context_bridge_v117.py",
+        "backup": "var/patch_gate/backups/v117_create_render_context_bridge_cb3d8c44662b/runtime/render_context_bridge_v117.py",
+        "existed": true
+      }
+    ],
+    "changed": [
+      "runtime/render_context_bridge_v117.py"
+    ],
+    "compiled": [
+      "runtime/render_context_bridge_v117.py",
+      "app_chatroom.py"
+    ],
+    "error": null,
+    "law": "v116_controlled_patch_gate_backup_apply_compile_revert",
+    "proposal_id": "v117_create_render_context_bridge_cb3d8c44662b",
+    "title": "Create render context bridge from deep visual memory"
+  },
+  "judge_after_apply": {
+    "ts": 1777382321.0571642,
+    "proposal_judgment": {
+      "ts": 1777382321.057017,
+      "kind": "proposal",
+      "path": "/data/data/com.termux/files/home/point_vll_reassembled/var/patch_gate/proposals/v117_create_render_context_bridge_cb3d8c44662b.json",
+      "proposal_id": "v117_create_render_context_bridge_cb3d8c44662b",
+      "title": "Create render context bridge from deep visual memory",
+      "scores": {
+        "path_safety": 1.0,
+        "human_lock": 1.0,
+        "source_protection": 1.0,
+        "has_ops": 1.0,
+        "compile_declared": 1.0,
+        "usefulness": 0.9,
+        "total": 0.99
+      },
+      "notes": [],
+      "suggested_action": "apply_ready",
+      "law": "v118_patch_judge_scores_before_apply"
+    },
+    "event_judgment": {
+      "ts": 1777382321.0571606,
+      "kind": "gate_event",
+      "proposal_id": "v117_create_render_context_bridge_cb3d8c44662b",
+      "title": "Create render context bridge from deep visual memory",
+      "event_status": "applied",
+      "scores": {
+        "applied_ok": 1.0,
+        "compile_ok": 1.0,
+        "rollback_ready": 1.0,
+        "path_safety": 1.0,
+        "total": 1.0
+      },
+      "notes": [],
+      "suggested_action": "keep",
+      "law": "v118_patch_judge_scores_applied_event"
+    },
+    "loop_state": {
+      "proposal_ready": true,
+      "last_patch_healthy": true,
+      "source_protected": true,
+      "law": "v118_metrics_on_patch_loop"
+    },
+    "law": "v118_patch_judgment_engine"
+  },
+  "status": "auto_applied_healthy",
+  "result": "patch kept"
+}
+

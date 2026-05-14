@@ -1,0 +1,54 @@
+PHASE 3L — UNIVERSAL LARYNX COVERAGE AUDIT
+========================================================================
+final_pass: False
+
+FILES
+  ✅ app_chatroom.py: app_chatroom.py
+  ✅ live_master_api_response: runtime/live_master_api_response.py
+  ✅ unified_voice: runtime/unified_voice.py
+  ✅ terminal_larynx: runtime/terminal_larynx.py
+  ✅ terminal_kernel_v3: runtime/terminal_kernel_v3.py
+  ✅ terminal_larynx_launcher: scripts/terminal_larynx.sh
+  ✅ terminal_kernel_v3_launcher: scripts/terminal_kernel_v3.sh
+  ✅ kgs_nodes_crystal: runtime/kgs_nodes_crystal.py
+  ❌ knowledge_node: runtime/knowledge_node.py
+  ✅ invention_node_engine: interface/invention/invention_node_engine.py
+
+MARKERS
+  runtime/live_master_api_response.py
+    ✅ UNIVERSAL LARYNX
+    ✅ master_reply
+    ✅ sealed_speak
+  runtime/unified_voice.py
+    ✅ def sealed_speak
+    ✅ public_scrub
+    ✅ Universal Larynx
+  runtime/terminal_larynx.py
+    ✅ /api/chat
+    ✅ ask_public_api
+  runtime/terminal_kernel_v3.py
+    ✅ Node44 Wind Tunnel
+    ✅ final_larynx_render
+    ✅ /api/chat
+
+API PROBE
+  ok: True
+  keys: ['answer', 'answer_mode', 'ok']
+  clean: True
+  answer: The lattice is the build’s living structure: the connected field of nodes, anchors, memory traces, routing paths, and visual/emotional signals. In plain English, it is the map of how Le’Veon holds meaning together. Node44 stabilizes it, the Crystal Library gives it symbolic organs, and the Universal Larynx turns its pressure into clean speech.
+
+DIRECT PROBES
+  ✅ unified_voice_direct
+    stdout: [VOICE] Universal Larynx Integrated. The lattice is the build’s living structure: the connected field of nodes, anchors, memory traces, routing paths, and visual/emotional signals. In plain English, it is the map of how Le’Veon holds meaning together. Node44 stabilizes it, the Crystal Library gives it symbolic organs, and the Universal Larynx turns its pressure into clean speech. 
+  ✅ terminal_kernel_v3_once
+    stdout:  being asked to turn symbolic pressure into visible topology, then reopen it as understandable English.  [BOOT RESULT] node44_wind_tunnel := stable universal_larynx := sealed english_rendering_mode := ai_interpreter semantic_control_plane := crystal_library  LeveonMasterAPI v1 | phase: final_larynx_render | node: 44_SPIRAL_CORE | status: sealed text: The lattice is the build’s living structure: the connected field of nodes, anchors, memory traces, routing paths, and visual/emotional signals. In 
+  ✅ kgs_nodes_crystal
+    stdout: 15 
+  ❌ knowledge_node
+    stderr: Traceback (most recent call last):   File "<string>", line 1, in <module>     from runtime.knowledge_node import KnowledgeNode; n=KnowledgeNode.new('concept','test','source'); print(n.node_type, n.status)     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ModuleNotFoundError: No module named 'runtime.knowledge_node' 
+  ✅ invention_import
+    stdout: 3 
+
+saved: reports/phase3l/universal_larynx_coverage_audit.json
+saved: reports/phase3l/universal_larynx_coverage_audit.txt
+

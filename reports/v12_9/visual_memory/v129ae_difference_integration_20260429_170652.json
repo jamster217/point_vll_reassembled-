@@ -1,0 +1,45 @@
+{
+  "ts": 1777507612.8871164,
+  "version": "v12.9ae_visual_difference_integration",
+  "status": "sealed_append_only",
+  "depth": 244,
+  "latest_svg": "static/generated/leveon_topology_1777507612_378c88498329.svg",
+  "topology_score": 0.925,
+  "chamber_family": "occult",
+  "judge_improvement": "neutral",
+  "judge_coherence_delta": -0.0044,
+  "overall_organ_coherence": 0.9448,
+  "difference_recommendation": "preserve_and_deepen",
+  "meaning_shift": "score rose; full symbol body preserved; visible labels changed. The latest topology moved from depth 243 to 244 while preserving 6 shared symbols.",
+  "stable_symbols": [
+    "blue_scarf",
+    "echoforge",
+    "liquid_core",
+    "thalveil",
+    "virellion",
+    "white_ash"
+  ],
+  "added_symbols": [],
+  "removed_symbols": [],
+  "label_delta": {
+    "added": [
+      "depth 244",
+      "phi_multiplier: 6.854102",
+      "prompt_hash: 378c88498329",
+      "signature: white_ash_phi_244_tension_-0.017",
+      "tension: -0.017"
+    ],
+    "removed": [
+      "depth 243",
+      "phi_multiplier: 4.236068",
+      "prompt_hash: 9b15631162df",
+      "signature: white_ash_phi_243_tension_-0.018",
+      "tension: -0.018"
+    ],
+    "shared_count": 4
+  },
+  "surface_fragment": "Visual difference: score rose; full symbol body preserved; visible labels changed. The latest topology moved from depth 243 to 244 while preserving 6 shared symbols. Recommendation: preserve and deepen.",
+  "law": "visual_difference_is_persistently_integrated_after_each_cycle_without_touching_live_route",
+  "integration_sha256": "738ab66c3d401463"
+}
+

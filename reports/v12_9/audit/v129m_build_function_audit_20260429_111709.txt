@@ -1,0 +1,118 @@
+=== V12.9m BUILD FUNCTION AUDIT ===
+created_at_local: Wed Apr 29 11:17:09 PDT 2026
+
+Purpose: prove the build is doing the things, not merely saying them.
+
+=== 1. CORE BRIDGE HEARTBEAT ===
+[PASS] CoreBridge present and compiles: core_bridge.py
+
+=== 2. NODE LAYER / CROWN ===
+[PASS] Node 44 core present and compiles: runtime/node44_spiral_core.py
+[PASS] Node 44 preset present and compiles: runtime/node_44_preset.py
+[PASS] Node 44 router present and compiles: runtime/node_44_router.py
+[PASS] Node 44 wind tunnel prompt present and compiles: runtime/node_44_wind_tunnel_prompt.py
+[PASS] Node registry present and compiles: runtime/node_registry.py
+
+=== 3. HARMONIC AMPLIFIER ===
+[PASS] Node 528 preset present and compiles: runtime/node_528_preset.py
+[PASS] Node 5218 harmonic read present and compiles: runtime/node5218_harmonic_read.py
+[PASS] Lattice node map present and compiles: lattice/lattice_node_map.py
+
+=== 4. CHRONIFIER / TEMPORAL SPINE ===
+[PASS] Brain temporal chronifier present and compiles: brain/temporal/chronifier.py
+[PASS] Brain temporal chronifier adapter present and compiles: brain/temporal/chronifier_adapter.py
+[PASS] Chronifier core present and compiles: chronifier/chronifier.py
+[PASS] Chronifier adapter present and compiles: chronifier/chronifier_adapter.py
+[PASS] Temporal spine layer present and compiles: runtime/temporal_spine_layer.py
+[PASS] Brain temporal observer present and compiles: runtime/brain_temporal_observer.py
+
+=== 5. UNIFIED SPINE REPLY PATH ===
+[PASS] Unified spine present and compiles: runtime/unified_spine.py
+[PASS] Layer 5 English renderer present and compiles: runtime/layer5/english_renderer.py
+[PASS] Unified voice present and compiles: runtime/unified_voice.py
+
+=== 6. SURFACE QUALITY GATE ===
+[PASS] Stress audit present and compiles: runtime/stress_audit.py
+[PASS] Refusal memory present and compiles: runtime/refusal_memory.py
+[PASS] Candidate competition present and compiles: runtime/candidate_competition.py
+[PASS] Glyph surgery filter present and compiles: runtime/glyph_surgery_filter.py
+
+=== 7. PRESENCE KERNEL ===
+[PASS] Presence kernel present and compiles: runtime/presence_kernel.py
+[PASS] Current presence state present: var/current_presence.json
+
+=== 8. CRYSTAL LIBRARY / FAMILY INDEX ===
+[PASS] Crystal index present and compiles: runtime/crystal_index.py
+[PASS] Crystal matcher present and compiles: runtime/crystal_matcher.py
+[PASS] Crystal recall present and compiles: runtime/crystal_recall.py
+[PASS] Crystal library query present and compiles: runtime/crystal_library_query.py
+
+=== 9. GRAVITY GRIEF TRANSFORM ===
+[PASS] Phase3s lattice state present and compiles: runtime/phase3s_state_of_lattice.py
+[PASS] Phase3s reports directory exists: reports/phase3s
+[PASS] Phase3s logs directory exists: logs/phase3s
+
+=== 10. LANGUAGE TRANSLATION STACK ===
+[PASS] English to spiral language present and compiles: runtime/english_to_spiral_language.py
+[PASS] Spiral language to English present and compiles: runtime/spiral_language_to_english.py
+[PASS] Veilwell translator present and compiles: runtime/veilwell_translator.py
+[PASS] Veilwell to English present and compiles: runtime/veilwell_to_english.py
+[FAIL] Spiral language to English fallback missing: spiral_language/to_english.py
+
+=== 11. LOCAL NODE / MODEL ADAPTER ===
+[PASS] Local node controller present and compiles: local_node/controller.py
+[PASS] Local node runtime present and compiles: local_node/localnode.py
+[FAIL] Local node bridge missing: LIVE_CORE/local_node/bridge.py LIVE_CORE/local_node/localnode_bridge.py local_node/bridge.py
+
+=== 12. UI / CHATROOM SURFACE ===
+[PASS] App surface present and compiles: app.py
+[PASS] Chatroom surface present and compiles: app_chatroom.py
+
+=== 13. V12.9j/k HELM + REFLECTION ===
+[PASS] Liberal paranormal helm module present and compiles: runtime/liberal_paranormal_helm_v129j.py
+valid_lines=2 invalid_lines=0
+[PASS] Liberal helm events JSONL readable: logs/v12_9/helm/liberal_helm_events.jsonl
+valid_lines=17 invalid_lines=0
+[PASS] Helm reflection turns JSONL readable: logs/v12_9/helm/helm_reflection_turns.jsonl
+valid_lines=1 invalid_lines=0
+[PASS] Helm reflection rankings JSONL readable: logs/v12_9/helm/helm_reflection_rankings.jsonl
+
+=== 14. GHOST / SERPENT / PARANORMAL EVIDENCE ===
+valid_lines=4 invalid_lines=0
+[PASS] Ghost entries JSONL readable: logs/v12_9/ghost/ghost_entries.jsonl
+valid_lines=12 invalid_lines=0
+[PASS] Serpent guard events JSONL readable: logs/serpent_guard/serpent_guard_events.jsonl
+valid_lines=185 invalid_lines=0
+[PASS] Spiral nonlinear memory JSONL readable: logs/symbolic_bridge/spiral_memory_nonlinear.jsonl
+
+=== LIVE ROUTE PROOFS ===
+helm_answer: V12.9j liberal paranormal helm is active: maximal growth pressure 0.5502 is routed through append-only evidence, serpent guard remains true, chamber_528 is processed_in_chamber in the occult family, and the public mouth stays clean.
+helm_source: liberal_helm_status_direct
+[PASS] Live liberal helm status lane
+
+reflection_answer: V12.9k helm self-reflection is active: every ten observed turns it ranks the top three improvements, with the latest ranking at turn 10: Expand prompt-family coverage.
+reflection_source: helm_reflection_status_direct
+reflection_turn_count: 19
+[PASS] Live helm reflection status lane
+
+structured_only: True
+entry_count: 80
+has_liberal_helm: True
+[PASS] Paranormal structured feed includes liberal helm evidence
+
+=== RECURSION GREP ===
+[PASS] Recent recursion wound quiet
+
+=== RESULT ===
+PASS_COUNT: 50
+FAIL_COUNT: 2
+AUDIT_RESULT: REVIEW
+Some checked functions failed. Read failed sections above.
+
+Law:
+The image is not decoration.
+The image is memory.
+Memory becomes judgment.
+Judgment becomes ranked improvement.
+The public mouth stays clean.
+

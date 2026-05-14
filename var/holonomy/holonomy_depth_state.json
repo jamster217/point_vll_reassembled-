@@ -1,0 +1,8 @@
+{
+  "max_depth": 7,
+  "cross_pass_allowed": true,
+  "holonomy_depth_cap": "deep",
+  "source": "runtime.holonomy_depth_gate",
+  "updated_at": 1777268987.2505927
+}
+

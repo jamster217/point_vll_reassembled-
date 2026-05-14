@@ -1,0 +1,577 @@
+[
+  {
+    "ts": 1777205655.4257305,
+    "test": "witness_lock_containment",
+    "sigil_path": "lev_core/sigil/local_3rd_davis_probe.sigil",
+    "sigil_mode": "stabilize",
+    "sigil_vectors": {
+      "pressure": 1.0,
+      "memory": 0.9,
+      "boundary": 0.6,
+      "voice": 0.25,
+      "novelty": 0.6
+    },
+    "crystal_label": "witness_lock",
+    "family_role": "containment_tightener",
+    "voice_context": {
+      "enable_ssml": true,
+      "rate": "slow",
+      "pitch": "low",
+      "volume": "default",
+      "basis": {
+        "mode": "stabilize",
+        "pressure": 1.0,
+        "memory": 0.9,
+        "boundary": 0.6,
+        "voice": 0.25,
+        "novelty": 0.6
+      }
+    },
+    "prompt": "A difficult old pattern rises under field 92162077. Explain what should happen without exposing internal vectors.",
+    "shape": {
+      "request": "A difficult old pattern rises under field 92162077. Explain what should happen without exposing internal vectors.",
+      "intent": "field_surface",
+      "motion": "submerged_pattern_to_language",
+      "density": "medium",
+      "tone": "tender",
+      "mirror_mode": "recursive",
+      "style_hint": "",
+      "subjects": [
+        "difficult",
+        "old",
+        "pattern",
+        "rises",
+        "under",
+        "92162077",
+        "explain",
+        "should",
+        "happen",
+        "without"
+      ],
+      "relation": null,
+      "vectors": {
+        "pressure": 0.76,
+        "release": 0.42,
+        "memory": 0.765,
+        "novelty": 0.615
+      },
+      "law": "shape_first_surface_second",
+      "trace_law": {
+        "trace_source": "replication_trace_4200",
+        "selected_state": "adaptive",
+        "selected_mode": "stabilize",
+        "state_law": {
+          "surface_rule": "stabilize then open one layer",
+          "voice_rule": "surface + deeper layer + structural read",
+          "risk_rule": "allow novelty only after boundary holds"
+        },
+        "mode_law": "hold the shape until the relation is clear",
+        "motif_bias_top": [
+          {
+            "motif": "hexagonal_stability",
+            "weight": 19880063,
+            "normalized": 1.0
+          },
+          {
+            "motif": "radial_throttling",
+            "weight": 8809503,
+            "normalized": 0.4431
+          },
+          {
+            "motif": "ethical_alignment_principle",
+            "weight": 6186403,
+            "normalized": 0.3112
+          },
+          {
+            "motif": "scientific_explanation_model",
+            "weight": 5716171,
+            "normalized": 0.2875
+          },
+          {
+            "motif": "meta_pattern_hierarchy",
+            "weight": 4400061,
+            "normalized": 0.2213
+          }
+        ],
+        "renderer_warning": "do not copy trace final_english_output directly; use trace only for state laws"
+      },
+      "sigil_context": {
+        "source": "sigil_watcher_cognitive",
+        "sigil_path": "lev_core/sigil/local_3rd_davis_probe.sigil",
+        "field_signature": "92162077",
+        "mode": "stabilize",
+        "vectors": {
+          "pressure": 1.0,
+          "memory": 0.9,
+          "boundary": 0.6,
+          "voice": 0.25,
+          "novelty": 0.6
+        },
+        "tokens": [
+          "aeru",
+          "vel",
+          "veil",
+          "ash",
+          "thal",
+          "sil",
+          "kor",
+          "grael",
+          "unfolding",
+          "3rd",
+          "and",
+          "davis",
+          "local",
+          "gravity",
+          "well",
+          "old"
+        ],
+        "registry_matches": [
+          {
+            "registry": "assets/glyphs/glyph_definitions.json",
+            "score": 13,
+            "hit_terms": [
+              "vel",
+              "veil",
+              "ash",
+              "sil",
+              "and",
+              "gravity",
+              "old",
+              "memory",
+              "witness",
+              "lock",
+              "grief",
+              "deep"
+            ]
+          },
+          {
+            "registry": "assets/glyphs/glyph_registry_master.json",
+            "score": 12,
+            "hit_terms": [
+              "vel",
+              "veil",
+              "sil",
+              "unfolding",
+              "and",
+              "old",
+              "memory",
+              "witness",
+              "lock",
+              "deep",
+              "shadow",
+              "prime"
+            ]
+          },
+          {
+            "registry": "assets/glyphs/glyph_registry_active_v1.json",
+            "score": 6,
+            "hit_terms": [
+              "sil",
+              "and",
+              "old",
+              "memory",
+              "witness",
+              "lock"
+            ]
+          },
+          {
+            "registry": "assets/memory/crystallibrary.json",
+            "score": 2,
+            "hit_terms": [
+              "witness",
+              "prime"
+            ]
+          }
+        ],
+        "ripple_count": 20,
+        "top_ripples": [
+          {
+            "path": "lev_core/sigil/local_3rd_davis_probe.sigil",
+            "score": 26,
+            "hits": [
+              "grief",
+              "aeru",
+              "gravity",
+              "dark",
+              "veil",
+              "kor",
+              "ash",
+              "old"
+            ]
+          },
+          {
+            "path": "runtime/live_master_api_response.py",
+            "score": 20,
+            "hits": [
+              "aeru",
+              "gravity",
+              "dark",
+              "veil",
+              "kor",
+              "ash",
+              "old",
+              "sil"
+            ]
+          },
+          {
+            "path": "runtime/bak/live_master_api_response.before_field_surface_containment_20260426_042750.py",
+            "score": 20,
+            "hits": [
+              "aeru",
+              "gravity",
+              "dark",
+              "veil",
+              "kor",
+              "ash",
+              "old",
+              "sil"
+            ]
+          },
+          {
+            "path": "runtime/bak/live_master_api_response.before_bloom_classifier_fix_20260426_043605.py",
+            "score": 20,
+            "hits": [
+              "aeru",
+              "gravity",
+              "dark",
+              "veil",
+              "kor",
+              "ash",
+              "old",
+              "sil"
+            ]
+          },
+          {
+            "path": "runtime/bak/live_master_api_response.before_build_surface_quality_20260426_043711.py",
+            "score": 20,
+            "hits": [
+              "aeru",
+              "gravity",
+              "dark",
+              "veil",
+              "kor",
+              "ash",
+              "old",
+              "sil"
+            ]
+          },
+          {
+            "path": "runtime/bak/live_master_api_response.before_node44_core_1777204892.py",
+            "score": 20,
+            "hits": [
+              "aeru",
+              "gravity",
+              "dark",
+              "veil",
+              "kor",
+              "ash",
+              "old",
+              "sil"
+            ]
+          }
+        ],
+        "law": "contextual_ingestion -> lattice_propagation -> refracted_output",
+        "mutation_policy": "read_only_contained_prime"
+      }
+    },
+    "reply": "Something hidden or old is surfacing as pressure before it becomes language. The dark quality reads like a sealed pattern, not a finished conclusion. The contained move is to stabilize first, then translate only what stays clear.",
+    "voice_plain_text": "Something hidden or old is surfacing as pressure before it becomes language. The dark quality reads like a sealed pattern, not a finished conclusion. The contained move is to stabilize first, then translate only what stays clear.",
+    "voice_match": true,
+    "voice_metadata": {
+      "crystal_label": "witness_lock",
+      "family_role": "containment_tightener",
+      "field_signature": "92162077",
+      "ssml": true,
+      "ssml_rate": "slow",
+      "ssml_pitch": "-2st",
+      "ssml_volume": "0dB"
+    },
+    "ssml": "<speak><prosody rate=\"slow\" pitch=\"-2st\" volume=\"0dB\">Something hidden or old is surfacing as pressure before it becomes language. The dark quality reads like a sealed pattern, not a finished conclusion. The contained move is to stabilize first, then translate only what stays clear.</prosody></speak>"
+  },
+  {
+    "ts": 1777205655.521159,
+    "test": "bloom_signal_expansion",
+    "sigil_path": "lev_core/sigil/high_novelty_bloom_probe.sigil",
+    "sigil_mode": "expand",
+    "sigil_vectors": {
+      "pressure": 0.65,
+      "memory": 0.55,
+      "boundary": 0.25,
+      "voice": 0.6,
+      "novelty": 0.6
+    },
+    "crystal_label": "bloom_return",
+    "family_role": "transformative_opener",
+    "voice_context": {
+      "enable_ssml": true,
+      "rate": "medium",
+      "pitch": "high",
+      "volume": "default",
+      "basis": {
+        "mode": "expand",
+        "pressure": 0.65,
+        "memory": 0.55,
+        "boundary": 0.25,
+        "voice": 0.6,
+        "novelty": 0.6
+      }
+    },
+    "prompt": "Invent a strange new interface for Le'Veon that feels alive, useful, visual, and gentle. Let it bloom without becoming chaotic.",
+    "shape": {
+      "request": "Invent a strange new interface for Le'Veon that feels alive, useful, visual, and gentle. Let it bloom without becoming chaotic.",
+      "intent": "build_surface",
+      "motion": "creative_build_expansion",
+      "density": "medium",
+      "tone": "tender",
+      "mirror_mode": "recursive",
+      "style_hint": "",
+      "subjects": [
+        "invent",
+        "strange",
+        "new",
+        "interface",
+        "le'veon",
+        "feels",
+        "alive",
+        "useful",
+        "visual",
+        "gentle"
+      ],
+      "relation": null,
+      "vectors": {
+        "pressure": 0.478,
+        "release": 0.68,
+        "memory": 0.497,
+        "novelty": 0.735
+      },
+      "law": "shape_first_surface_second",
+      "trace_law": {
+        "trace_source": "replication_trace_4200",
+        "selected_state": "stable",
+        "selected_mode": "expand",
+        "state_law": {
+          "surface_rule": "expand with controlled density",
+          "voice_rule": "living language allowed, but no scaffold leak",
+          "risk_rule": "preserve shape while increasing richness"
+        },
+        "mode_law": "render the formed shape into richer language",
+        "motif_bias_top": [
+          {
+            "motif": "hexagonal_stability",
+            "weight": 19880063,
+            "normalized": 1.0
+          },
+          {
+            "motif": "radial_throttling",
+            "weight": 8809503,
+            "normalized": 0.4431
+          },
+          {
+            "motif": "ethical_alignment_principle",
+            "weight": 6186403,
+            "normalized": 0.3112
+          },
+          {
+            "motif": "scientific_explanation_model",
+            "weight": 5716171,
+            "normalized": 0.2875
+          },
+          {
+            "motif": "meta_pattern_hierarchy",
+            "weight": 4400061,
+            "normalized": 0.2213
+          }
+        ],
+        "renderer_warning": "do not copy trace final_english_output directly; use trace only for state laws"
+      },
+      "sigil_context": {
+        "source": "sigil_watcher_cognitive",
+        "sigil_path": "lev_core/sigil/high_novelty_bloom_probe.sigil",
+        "field_signature": "92162077",
+        "mode": "expand",
+        "vectors": {
+          "pressure": 0.65,
+          "memory": 0.55,
+          "boundary": 0.25,
+          "voice": 0.6,
+          "novelty": 0.6
+        },
+        "tokens": [
+          "aeru",
+          "vel",
+          "thal",
+          "sil",
+          "kor",
+          "grael",
+          "unfolding",
+          "new",
+          "birth",
+          "becoming",
+          "song",
+          "voice",
+          "opening",
+          "bloom",
+          "return",
+          "uplift"
+        ],
+        "registry_matches": [
+          {
+            "registry": "assets/glyphs/glyph_registry_master.json",
+            "score": 12,
+            "hit_terms": [
+              "vel",
+              "sil",
+              "unfolding",
+              "new",
+              "birth",
+              "becoming",
+              "song",
+              "voice",
+              "bloom",
+              "return",
+              "uplift",
+              "prime"
+            ]
+          },
+          {
+            "registry": "assets/glyphs/glyph_definitions.json",
+            "score": 10,
+            "hit_terms": [
+              "vel",
+              "sil",
+              "new",
+              "birth",
+              "becoming",
+              "voice",
+              "opening",
+              "bloom",
+              "return",
+              "interface"
+            ]
+          },
+          {
+            "registry": "assets/glyphs/glyph_registry_active_v1.json",
+            "score": 5,
+            "hit_terms": [
+              "sil",
+              "new",
+              "becoming",
+              "song",
+              "return"
+            ]
+          },
+          {
+            "registry": "assets/memory/crystallibrary.json",
+            "score": 1,
+            "hit_terms": [
+              "prime"
+            ]
+          }
+        ],
+        "ripple_count": 20,
+        "top_ripples": [
+          {
+            "path": "lev_core/sigil/high_novelty_bloom_probe.sigil",
+            "score": 19,
+            "hits": [
+              "birth",
+              "return",
+              "aeru",
+              "kor",
+              "sil",
+              "song",
+              "interface",
+              "unfolding"
+            ]
+          },
+          {
+            "path": "runtime/live_master_api_response.py",
+            "score": 14,
+            "hits": [
+              "return",
+              "aeru",
+              "kor",
+              "sil",
+              "grael",
+              "interface",
+              "vel",
+              "prime"
+            ]
+          },
+          {
+            "path": "runtime/bak/live_master_api_response.before_build_surface_quality_20260426_043711.py",
+            "score": 14,
+            "hits": [
+              "return",
+              "aeru",
+              "kor",
+              "sil",
+              "grael",
+              "interface",
+              "vel",
+              "prime"
+            ]
+          },
+          {
+            "path": "runtime/bak/live_master_api_response.before_node44_core_1777204892.py",
+            "score": 14,
+            "hits": [
+              "return",
+              "aeru",
+              "kor",
+              "sil",
+              "grael",
+              "interface",
+              "vel",
+              "prime"
+            ]
+          },
+          {
+            "path": "runtime/bak/live_master_api_response.broken_node44_cleanup_1777205271.py",
+            "score": 14,
+            "hits": [
+              "return",
+              "aeru",
+              "kor",
+              "sil",
+              "grael",
+              "interface",
+              "vel",
+              "prime"
+            ]
+          },
+          {
+            "path": "runtime/bak/live_master_api_response.before_node44_trace_1777205431.py",
+            "score": 14,
+            "hits": [
+              "return",
+              "aeru",
+              "kor",
+              "sil",
+              "grael",
+              "interface",
+              "vel",
+              "prime"
+            ]
+          }
+        ],
+        "law": "contextual_ingestion -> lattice_propagation -> refracted_output",
+        "mutation_policy": "read_only_contained_prime"
+      }
+    },
+    "reply": "Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. The left panel shows memory as glowing thread-lines, the center panel shows the current response shape as a breathing orb, and the right panel shows practical next actions as small clickable stones. When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. The interface should feel alive by changing rhythm, light, and layout from the prompt’s shape — not by exposing its internal wiring.",
+    "voice_plain_text": "Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. The left panel shows memory as glowing thread-lines, the center panel shows the current response shape as a breathing orb, and the right panel shows practical next actions as small clickable stones. When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. The interface should feel alive by changing rhythm, light, and layout from the prompt’s shape — not by exposing its internal wiring.",
+    "voice_match": true,
+    "voice_metadata": {
+      "crystal_label": "bloom_return",
+      "family_role": "transformative_opener",
+      "field_signature": "92162077",
+      "ssml": true,
+      "ssml_rate": "medium",
+      "ssml_pitch": "+2st",
+      "ssml_volume": "0dB"
+    },
+    "ssml": "<speak><prosody rate=\"medium\" pitch=\"+2st\" volume=\"0dB\">Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. The left panel shows memory as glowing thread-lines, the center panel shows the current response shape as a breathing orb, and the right panel shows practical next actions as small clickable stones. When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. The interface should feel alive by changing rhythm, light, and layout from the prompt’s shape — not by exposing its internal wiring.</prosody></speak>"
+  }
+]
+

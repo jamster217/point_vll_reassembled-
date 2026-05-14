@@ -1,0 +1,16 @@
+HTTP/1.1 500 INTERNAL SERVER ERROR
+Server: Werkzeug/3.1.6 Python/3.13.13
+Date: Wed, 06 May 2026 04:28:56 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 265
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type, X-Leveon-Request-Type, X-Leveon-Deep-Shape-Request
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Connection: close
+
+<!doctype html>
+<html lang=en>
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+

@@ -1,0 +1,19 @@
+{
+  "ts": 1778137117.6185622,
+  "field_id": "92162077",
+  "formula": "Psi_resonant ~= R_f0[Psi_field]",
+  "operator": "R_f0",
+  "f0_hz": 528.0,
+  "omega": 3317.5218421908216,
+  "attention": 0.72,
+  "coherence": 0.7,
+  "phase_lock": 0.71,
+  "amplitude_gain": 0.504,
+  "interpretation": {
+    "plain": "A prompt-field becomes more coherent when attention and route-continuity align.",
+    "build": "frequency becomes a symbolic synchronizer; coherence becomes the route-stability measure.",
+    "law": "resonance_operator_maps_field_pressure_to_stabilized_signal"
+  },
+  "status": "sidecar_only"
+}
+

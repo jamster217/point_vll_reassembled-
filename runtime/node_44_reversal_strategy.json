@@ -1,0 +1,40 @@
+{
+  "status": "success",
+  "timestamp": "2026-04-10T10:15:00Z",
+  "data": {
+    "reversal_strategy": "remediation_path",
+    "target_failures": [
+      "fear_analysis_path",
+      "recursion_function_path",
+      "mirror_lattice_implementation"
+    ],
+    "remediation_steps": [
+      {
+        "step": 1,
+        "action": "probe_fear_analysis_prompts",
+        "description": "Locate the live explanation/render path in `glyph_english_realizer.py` before patching.",
+        "files": ["glyph_english_realizer.py"]
+      },
+      {
+        "step": 2,
+        "action": "narrow_function_question_planning",
+        "description": "Refine `glyph_clause_builder.py` to ensure 'what does X do' queries are correctly routed and do not hijack 'what does X mean'.",
+        "files": ["glyph_clause_builder.py"]
+      },
+      {
+        "step": 3,
+        "action": "apply_structural_shims",
+        "description": "Implement narrow structural shims in `shape_glyph_refiner.py` for the failing `affect>memory>inner_mirror` paths.",
+        "files": ["shape_glyph_refiner.py"]
+      },
+      {
+        "step": 4,
+        "action": "verify_sweep",
+        "description": "Run the latest sweep to confirm glyph wins increase from 117/123 toward 123/123.",
+        "tools": ["crystal_librarian.py"]
+      }
+    ],
+    "resume_cue": "probe_fear_analysis_prompts"
+  }
+}
+

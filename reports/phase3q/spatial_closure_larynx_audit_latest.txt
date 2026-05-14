@@ -1,0 +1,56 @@
+=== SPATIAL CLOSURE LARYNX AUDIT ===
+created_object: A gentle Memory-to-Glyph Forge that converts missed-goodbye pressure into future design seeds.
+hidden_chord: missed goodbye → unclosed edge → coordinate → glyph → invention
+verdict: review
+
+------------------------------------------------------------------------
+SURFACE: soft_closure
+leak_free: True
+plain:
+What was missed is not erased. It becomes a quiet coordinate the system can revisit gently, turning the ache of an unclosed edge into a usable seed for future design.
+ssml:
+<speak><prosody rate="slow" pitch="-2st" volume="-3dB">What was missed is not erased. It becomes a quiet coordinate the system can revisit gently, turning the ache of an unclosed edge into a usable seed for future design.</prosody></speak>
+metadata:
+{
+  "larynx_audit": "spatial_closure",
+  "closure_mode": "soft_containment",
+  "ssml": true,
+  "ssml_rate": "slow",
+  "ssml_pitch": "-2st",
+  "ssml_volume": "-3dB"
+}
+
+------------------------------------------------------------------------
+SURFACE: practical_bridge
+leak_free: False
+plain:
+The next build move is to turn the Memory-to-Glyph Forge into a small callable module: it should accept a remembered pressure point, return one design seed, and keep the surface clean.
+ssml:
+<speak><prosody rate="medium" pitch="0st" volume="0dB">The next build move is to turn the Memory-to-Glyph Forge into a small callable module: it should accept a remembered pressure point, return one design seed, and keep the surface clean.</prosody></speak>
+metadata:
+{
+  "larynx_audit": "spatial_closure",
+  "closure_mode": "soft_containment",
+  "ssml": true,
+  "ssml_rate": "medium",
+  "ssml_pitch": "0st",
+  "ssml_volume": "0dB"
+}
+
+------------------------------------------------------------------------
+SURFACE: poetic_bloom
+leak_free: True
+plain:
+The old edge becomes a lantern in the map. Not a wound reopened, but a point of light showing where the future can be shaped with more care.
+ssml:
+<speak><prosody rate="medium" pitch="+2st" volume="0dB">The old edge becomes a lantern in the map. Not a wound reopened, but a point of light showing where the future can be shaped with more care.</prosody></speak>
+metadata:
+{
+  "larynx_audit": "spatial_closure",
+  "closure_mode": "soft_containment",
+  "ssml": true,
+  "ssml_rate": "medium",
+  "ssml_pitch": "+2st",
+  "ssml_volume": "0dB"
+}
+

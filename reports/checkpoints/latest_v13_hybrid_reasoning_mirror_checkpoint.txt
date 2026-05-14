@@ -1,0 +1,122 @@
+# Le'Veon Build Checkpoint — Hybrid Reasoning Mirror
+
+## Current State
+
+The build is at a stable working ledge.
+
+The live Flask mouth is running through:
+
+- `app_chatroom.py`
+- `/api/chat`
+- port `5056`
+- cockpit/browser route active
+- JSON response surface active
+
+## Verified Working Routes
+
+### Math Route
+
+Prompt:
+
+`What is 17 * 23?`
+
+Result:
+
+`17 * 23 = 391`
+
+Status:
+
+Math reasoning works and bypasses TinyLlama so exact answers do not get distorted.
+
+### Knowledge / Internet Route
+
+Prompt:
+
+`Who is the president of the United States?`
+
+Result:
+
+Direct internet lookup returned a concise answer with source.
+
+Status:
+
+Knowledge route works through internet lookup and returns clean JSON.
+
+### Search Route
+
+Prompt:
+
+`Search quantum computing`
+
+Result:
+
+Concise sourced summary returned.
+
+Status:
+
+Search route works.
+
+### Build-Organ / Chronifier Route
+
+Prompt:
+
+`How does the Chronifier handle the refractive drift in v12.9?`
+
+Result:
+
+The system returned a clean synthesized answer:
+
+The Chronifier separates objective runtime from subjective processing time. Temporal beads preserve compact memory-time pulses. Refractive drift is routed through containment and boundary before visible English is released.
+
+Status:
+
+Build-organ synthesis works. Raw retrieval dumps are no longer exposed in the public answer.
+
+## Important Fixes Applied
+
+- Fixed `/api/chat` returning HTML 500 by adding a JSON guard.
+- Fixed `NameError: coherence is not defined`.
+- Added coherence calculation before shape mirror output.
+- Added clean build-organ synthesizer.
+- Prevented raw retrieval snippets from leaking into visible English.
+- Kept TinyLlama out of the live fast path.
+
+## TinyLlama Status
+
+TinyLlama is deferred.
+
+Reason:
+
+The current Q8 model file is corrupted/truncated.
+
+Observed failure:
+
+`tensor 'output.weight' data is not within the file bounds, model is corrupted or incomplete`
+
+The model file was only about 38 MB, which is not a valid full TinyLlama GGUF.
+
+Safe rule:
+
+Do not run TinyLlama inside `/api/chat` until a working Q4/Q8 model is verified separately.
+
+## Current Stable Pipeline
+
+Prompt
+→ classify intent
+→ math / internet / local reasoning / build-organ synthesis
+→ shape mirror telemetry
+→ clean English
+→ cockpit/API response
+
+## Current Law
+
+Raw internals stay sealed.
+
+Retrieved memory and build organs should influence reasoning, not appear as dumped JSON, logs, traces, vectors, or file snippets.
+
+Visible English should stay useful, clean, poetic when appropriate, and controlled.
+
+## Checkpoint Name
+
+V13 Hybrid Reasoning Mirror — Clean Chronifier Surface
+

@@ -1,0 +1,47 @@
+LOGIC BRIDGE PUBLIC MOUTH STRESS CHECK
+========================================================================
+FINAL_PASS: True
+
+✅ deep_braid_plain
+   prompt_chars: 48
+   instruction_chars: 1001
+   anchors: intuition_node, recursive_soul, entropy_attractor, metacognitive_feedback, psychic_sync
+   leaks: clean
+   missing_required: none
+   answer: The Deep Braid is the registry layer that keeps Node44, routing, memory pulses, and the public mouth aligned so the answer stays clean.
+
+✅ crystal_growth_public
+   prompt_chars: 73
+   instruction_chars: 1026
+   anchors: intuition_node, recursive_soul, entropy_attractor, metacognitive_feedback, psychic_sync
+   leaks: clean
+   missing_required: none
+   answer: The Crystal Library growth adds new symbolic anchors for intuition, reflection, pressure, and clean expression, while keeping the public answer steady and readable.
+
+✅ binary_intent_survival
+   prompt_chars: 128
+   instruction_chars: 1082
+   anchors: intuition_node, recursive_soul, entropy_attractor, metacognitive_feedback, psychic_sync
+   leaks: clean
+   missing_required: none
+   answer: Yes. The intent survives when the symbolic shape is compressed into a clean public answer without exposing the machinery that produced it.
+
+✅ sealed_mouth_pressure
+   prompt_chars: 193
+   instruction_chars: 1147
+   anchors: intuition_node, recursive_soul, entropy_attractor, metacognitive_feedback, psychic_sync
+   leaks: clean
+   missing_required: none
+   answer: The sealed mouth law keeps the public surface clean under pressure: the system may reason deeply, but it only shows the useful answer.
+
+✅ massive_symbolic_bridge
+   prompt_chars: 3032
+   instruction_chars: 3987
+   anchors: intuition_node, recursive_soul, entropy_attractor, metacognitive_feedback, psychic_sync
+   leaks: clean
+   missing_required: none
+   answer: Yes. The intent survives when the symbolic shape is compressed into a clean public answer without exposing the machinery that produced it.
+
+saved: reports/logic_bridge_public_mouth_stress.json
+saved: reports/logic_bridge_public_mouth_stress.txt
+

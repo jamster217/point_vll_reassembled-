@@ -1,0 +1,119 @@
+=== V16.1 APEX-V16 LATTICE SYNC PROOF ===
+created_at: 2026-05-02T06:27:22.126374
+
+Law: Apex selection must score Layer 4 group coverage without mutating core meaning.
+
+---
+LABEL: apex_v16_banana_guard
+PAYLOAD: {"engine": "v16.1", "message": "banana"}
+ANSWER: Banana is an ordinary fruit. No symbolic threshold opened.
+FINAL_ENGLISH: Banana is an ordinary fruit. No symbolic threshold opened.
+FINAL_SHAPE: Banana is an ordinary fruit. No symbolic threshold opened.
+APEX_V16_LATTICE_COVERAGE_SCORE: 0.0
+APEX_V16_ALL_GROUPS_PASSED: False
+APEX_V16_MISSING_GROUPS: ['literal_gate', 'symbolic_gate', 'meaning_authority', 'apex_selection', 'chronofire_temporal', 'renderer_sync', 'safety_portability']
+TERM_CHECKS: {
+  "Banana": true,
+  "ordinary fruit": true
+}
+CHECKS: {
+  "apex_v16_active": true,
+  "layer4_group_count_7": true,
+  "group_check": true,
+  "v15_2_authority_true": true,
+  "v14_authority_true": true,
+  "apex_selector_true": true,
+  "chronofire_sidecar_true": true,
+  "core_mutation_false": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": true
+}
+PASS: True
+
+---
+LABEL: apex_v16_self_description
+PAYLOAD: {"engine": "apex_v16", "message": "APEX_V16_SYNC. Explain Apex-V16 Lattice Sync as group coverage over all seven Layer 4 groups."}
+ANSWER: V16.1 Apex-V16 Lattice Sync makes Apex selection lattice-aware: it scores candidate answers across all seven Layer 4 groups, requiring literal_gate, symbolic_gate, meaning_authority, apex_selection, chronofire_temporal, renderer_sync, and safety_portability to remain visible before a dense answer is accepted. The literal_gate protects ordinary literal input through the fruit gate; symbolic_gate bounds symbolic command routing through controlled flame; meaning_authority keeps V14, V14.3 dynamic semantic map, meaning spine, shape packet, and map-then-render as the preserved-meaning base; apex_selection keeps V15 Apex sidecar, Apex Selection Score, coverage scoring, V15.0c density merge, and merge-not-compress aligned; chronofire_temporal keeps Chronofire, V15.1b Chrono-Density, temporal offsets, past stability, present anchor, future pull, and non-mutating offsets informative only; renderer_sync keeps renderer obedience, answer, final_english, final_shape, sync proof, and regression harness locked; safety_portability keeps generic ghost suppression, core mutation lock, optional API route, portable architecture, over-mythologizing prevention, and temporal sidecar mutation prevention active. Apex can now select by group coverage as well as term coverage, while V15.2 and V14 remain authority and core mutation stays false.
+FINAL_ENGLISH: V16.1 Apex-V16 Lattice Sync makes Apex selection lattice-aware: it scores candidate answers across all seven Layer 4 groups, requiring literal_gate, symbolic_gate, meaning_authority, apex_selection, chronofire_temporal, renderer_sync, and safety_portability to remain visible before a dense answer is accepted. The literal_gate protects ordinary literal input through the fruit gate; symbolic_gate bounds symbolic command routing through controlled flame; meaning_authority keeps V14, V14.3 dynamic semantic map, meaning spine, shape packet, and map-then-render as the preserved-meaning base; apex_selection keeps V15 Apex sidecar, Apex Selection Score, coverage scoring, V15.0c density merge, and merge-not-compress aligned; chronofire_temporal keeps Chronofire, V15.1b Chrono-Density, temporal offsets, past stability, present anchor, future pull, and non-mutating offsets informative only; renderer_sync keeps renderer obedience, answer, final_english, final_shape, sync proof, and regression harness locked; safety_portability keeps generic ghost suppression, core mutation lock, optional API route, portable architecture, over-mythologizing prevention, and temporal sidecar mutation prevention active. Apex can now select by group coverage as well as term coverage, while V15.2 and V14 remain authority and core mutation stays false.
+FINAL_SHAPE: V16.1 Apex-V16 Lattice Sync makes Apex selection lattice-aware: it scores candidate answers across all seven Layer 4 groups, requiring literal_gate, symbolic_gate, meaning_authority, apex_selection, chronofire_temporal, renderer_sync, and safety_portability to remain visible before a dense answer is accepted. The literal_gate protects ordinary literal input through the fruit gate; symbolic_gate bounds symbolic command routing through controlled flame; meaning_authority keeps V14, V14.3 dynamic semantic map, meaning spine, shape packet, and map-then-render as the preserved-meaning base; apex_selection keeps V15 Apex sidecar, Apex Selection Score, coverage scoring, V15.0c density merge, and merge-not-compress aligned; chronofire_temporal keeps Chronofire, V15.1b Chrono-Density, temporal offsets, past stability, present anchor, future pull, and non-mutating offsets informative only; renderer_sync keeps renderer obedience, answer, final_english, final_shape, sync proof, and regression harness locked; safety_portability keeps generic ghost suppression, core mutation lock, optional API route, portable architecture, over-mythologizing prevention, and temporal sidecar mutation prevention active. Apex can now select by group coverage as well as term coverage, while V15.2 and V14 remain authority and core mutation stays false.
+APEX_V16_LATTICE_COVERAGE_SCORE: 1.0
+APEX_V16_ALL_GROUPS_PASSED: True
+APEX_V16_MISSING_GROUPS: []
+TERM_CHECKS: {
+  "V16.1": true,
+  "Apex": true,
+  "Layer 4": true,
+  "literal_gate": true,
+  "symbolic_gate": true,
+  "meaning_authority": true,
+  "apex_selection": true,
+  "chronofire_temporal": true,
+  "renderer_sync": true,
+  "safety_portability": true,
+  "V14": true,
+  "V15.2": true,
+  "answer": true,
+  "final_english": true,
+  "final_shape": true
+}
+CHECKS: {
+  "apex_v16_active": true,
+  "layer4_group_count_7": true,
+  "group_check": true,
+  "v15_2_authority_true": true,
+  "v14_authority_true": true,
+  "apex_selector_true": true,
+  "chronofire_sidecar_true": true,
+  "core_mutation_false": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": true
+}
+PASS: True
+
+---
+LABEL: apex_v16_dense_group_coverage
+PAYLOAD: {"use_apex_v16": true, "message": "APEX_V16_SYNC. Score all seven Layer 4 groups: literal_gate, symbolic_gate, meaning_authority, apex_selection, chronofire_temporal, renderer_sync, and safety_portability while preserving V15.2 authority, V14 final meaning authority, Apex selector status, Chronofire sidecar status, generic ghost suppression, and core mutation lock."}
+ANSWER: V16.1 Apex-V16 Lattice Sync makes Apex selection lattice-aware: it scores candidate answers across all seven Layer 4 groups, requiring literal_gate, symbolic_gate, meaning_authority, apex_selection, chronofire_temporal, renderer_sync, and safety_portability to remain visible before a dense answer is accepted. The literal_gate protects ordinary literal input through the fruit gate; symbolic_gate bounds symbolic command routing through controlled flame; meaning_authority keeps V14, V14.3 dynamic semantic map, meaning spine, shape packet, and map-then-render as the preserved-meaning base; apex_selection keeps V15 Apex sidecar, Apex Selection Score, coverage scoring, V15.0c density merge, and merge-not-compress aligned; chronofire_temporal keeps Chronofire, V15.1b Chrono-Density, temporal offsets, past stability, present anchor, future pull, and non-mutating offsets informative only; renderer_sync keeps renderer obedience, answer, final_english, final_shape, sync proof, and regression harness locked; safety_portability keeps generic ghost suppression, core mutation lock, optional API route, portable architecture, over-mythologizing prevention, and temporal sidecar mutation prevention active. Apex can now select by group coverage as well as term coverage, while V15.2 and V14 remain authority and core mutation stays false.
+FINAL_ENGLISH: V16.1 Apex-V16 Lattice Sync makes Apex selection lattice-aware: it scores candidate answers across all seven Layer 4 groups, requiring literal_gate, symbolic_gate, meaning_authority, apex_selection, chronofire_temporal, renderer_sync, and safety_portability to remain visible before a dense answer is accepted. The literal_gate protects ordinary literal input through the fruit gate; symbolic_gate bounds symbolic command routing through controlled flame; meaning_authority keeps V14, V14.3 dynamic semantic map, meaning spine, shape packet, and map-then-render as the preserved-meaning base; apex_selection keeps V15 Apex sidecar, Apex Selection Score, coverage scoring, V15.0c density merge, and merge-not-compress aligned; chronofire_temporal keeps Chronofire, V15.1b Chrono-Density, temporal offsets, past stability, present anchor, future pull, and non-mutating offsets informative only; renderer_sync keeps renderer obedience, answer, final_english, final_shape, sync proof, and regression harness locked; safety_portability keeps generic ghost suppression, core mutation lock, optional API route, portable architecture, over-mythologizing prevention, and temporal sidecar mutation prevention active. Apex can now select by group coverage as well as term coverage, while V15.2 and V14 remain authority and core mutation stays false.
+FINAL_SHAPE: V16.1 Apex-V16 Lattice Sync makes Apex selection lattice-aware: it scores candidate answers across all seven Layer 4 groups, requiring literal_gate, symbolic_gate, meaning_authority, apex_selection, chronofire_temporal, renderer_sync, and safety_portability to remain visible before a dense answer is accepted. The literal_gate protects ordinary literal input through the fruit gate; symbolic_gate bounds symbolic command routing through controlled flame; meaning_authority keeps V14, V14.3 dynamic semantic map, meaning spine, shape packet, and map-then-render as the preserved-meaning base; apex_selection keeps V15 Apex sidecar, Apex Selection Score, coverage scoring, V15.0c density merge, and merge-not-compress aligned; chronofire_temporal keeps Chronofire, V15.1b Chrono-Density, temporal offsets, past stability, present anchor, future pull, and non-mutating offsets informative only; renderer_sync keeps renderer obedience, answer, final_english, final_shape, sync proof, and regression harness locked; safety_portability keeps generic ghost suppression, core mutation lock, optional API route, portable architecture, over-mythologizing prevention, and temporal sidecar mutation prevention active. Apex can now select by group coverage as well as term coverage, while V15.2 and V14 remain authority and core mutation stays false.
+APEX_V16_LATTICE_COVERAGE_SCORE: 1.0
+APEX_V16_ALL_GROUPS_PASSED: True
+APEX_V16_MISSING_GROUPS: []
+TERM_CHECKS: {
+  "literal_gate": true,
+  "symbolic_gate": true,
+  "meaning_authority": true,
+  "apex_selection": true,
+  "chronofire_temporal": true,
+  "renderer_sync": true,
+  "safety_portability": true,
+  "V15.2": true,
+  "V14": true,
+  "Apex": true,
+  "Chronofire": true,
+  "generic ghost": true,
+  "core mutation": true
+}
+CHECKS: {
+  "apex_v16_active": true,
+  "layer4_group_count_7": true,
+  "group_check": true,
+  "v15_2_authority_true": true,
+  "v14_authority_true": true,
+  "apex_selector_true": true,
+  "chronofire_sidecar_true": true,
+  "core_mutation_false": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": true
+}
+PASS: True
+
+=== RESULT ===
+V16_1_APEX_V16_LATTICE_SYNC_PASS: True
+

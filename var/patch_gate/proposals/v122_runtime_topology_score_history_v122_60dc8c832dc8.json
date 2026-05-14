@@ -1,0 +1,22 @@
+{
+  "proposal_id": "v122_runtime_topology_score_history_v122_60dc8c832dc8",
+  "title": "Create topology score history for self-improvement",
+  "human_approved": true,
+  "ops": [
+    {
+      "op": "create",
+      "path": "runtime/topology_score_history_v122.py",
+      "overwrite": true,
+      "content": "from pathlib import Path\nimport json, time\n\nROOT = Path(__file__).resolve().parents[1]\nLOG = ROOT / \"var\" / \"lattice\" / \"autogenous_topology_v103.jsonl\"\nOUT = ROOT / \"var\" / \"lattice\" / \"topology_score_history_v122.json\"\n\ndef _rows():\n    if not LOG.exists():\n        return []\n    out = []\n    for line in LOG.read_text(encoding=\"utf-8\", errors=\"replace\").splitlines():\n        try:\n            out.append(json.loads(line))\n        except Exception:\n            pass\n    return out\n\ndef summarize(limit=40):\n    rows = _rows()[-limit:]\n    scores = []\n\n    for row in rows:\n        score = row.get(\"score\", {})\n        if isinstance(score, dict):\n            scores.append({\n                \"ts\": row.get(\"ts\"),\n                \"image\": row.get(\"image\"),\n                \"depth\": row.get(\"node\", {}).get(\"depth\"),\n                \"total\": score.get(\"total\"),\n                \"coherence\": score.get(\"coherence\"),\n                \"containment\": score.get(\"containment\"),\n                \"thread\": score.get(\"thread\"),\n            })\n\n    totals = [x[\"total\"] for x in scores if isinstance(x.get(\"total\"), (int, float))]\n    trend = \"unknown\"\n    if len(totals) >= 2:\n        trend = \"rising\" if totals[-1] >= totals[0] else \"falling\"\n\n    packet = {\n        \"active\": True,\n        \"ts\": time.time(),\n        \"count\": len(scores),\n        \"latest\": scores[-1] if scores else None,\n        \"avg_total\": round(sum(totals) / len(totals), 4) if totals else None,\n        \"trend\": trend,\n        \"scores\": scores,\n        \"law\": \"v122_topology_score_history_for_self_improvement\",\n    }\n\n    OUT.parent.mkdir(parents=True, exist_ok=True)\n    OUT.write_text(json.dumps(packet, indent=2, ensure_ascii=False), encoding=\"utf-8\")\n    return packet\n\nif __name__ == \"__main__\":\n    print(json.dumps(summarize(), indent=2, ensure_ascii=False))\n"
+    }
+  ],
+  "compile": [
+    "runtime/topology_score_history_v122.py"
+  ],
+  "reason": "Diversify rapid self-improvement proposals so V12.1 does not repeat the same patch fingerprint.",
+  "target_file": "runtime/topology_score_history_v122.py",
+  "law": "v122_diversified_patch_proposal_writer",
+  "auto_approved_by_v122": true,
+  "auto_rule": "diversified_writer_plus_judge_total>=0.90"
+}
+

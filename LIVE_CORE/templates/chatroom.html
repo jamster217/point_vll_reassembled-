@@ -1,0 +1,752 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Leveon Chatroom</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: sans-serif; margin: 0; background: #0f1a14; color: #e8f5ea; }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 16px; }
+    h1 { margin-top: 0; }
+    #chat { border: 1px solid #35543f; border-radius: 12px; padding: 12px; min-height: 50vh; background: #122118; overflow-y: auto; }
+    .msg { margin: 10px 0; padding: 10px 12px; border-radius: 10px; white-space: pre-wrap; }
+    .user { background: #1f3a29; }
+    .bot { background: #1a2b20; }
+    .row { display: flex; gap: 8px; margin-top: 12px; flex-wrap: wrap; }
+    textarea { flex: 1; min-height: 72px; border-radius: 10px; padding: 10px; background: #101813; color: #e8f5ea; border: 1px solid #35543f; }
+    button, select, label.toggle { border-radius: 10px; padding: 10px 12px; border: 1px solid #35543f; background: #1c2d22; color: #e8f5ea; }
+    label.toggle { display: inline-flex; align-items: center; gap: 8px; cursor: pointer; }
+    input[type="checkbox"] { accent-color: #6fb38a; }
+    .meta { font-size: 12px; opacity: 0.95; margin-top: 8px; line-height: 1.5; }
+    .debug { margin-top: 8px; padding: 8px; border: 1px solid #35543f; border-radius: 8px; background: #0f1813; font-size: 12px; overflow-x: auto; }
+    .pill { display: inline-block; margin-right: 8px; margin-top: 4px; padding: 3px 8px; border-radius: 999px; background: #203528; border: 1px solid #35543f; font-size: 12px; }
+    .controller-card { margin-top: 10px; padding: 10px; border: 1px solid #35543f; border-radius: 10px; background: #101813; }
+    .controller-title { font-size: 12px; opacity: 0.9; margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.06em; }
+    .controller-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 8px; font-size: 12px; }
+    .controller-item { background: #132018; border: 1px solid #274131; border-radius: 8px; padding: 8px; }
+    .controller-label { opacity: 0.8; display: block; margin-bottom: 4px; }
+    details { margin-top: 8px; }
+    summary { cursor: pointer; }
+  
+/* LEVEON MOBILE COCKPIT VISIBILITY PATCH */
+@media (max-width: 900px) {
+  #leveon-cockpit-panel {
+    top: 72px !important;
+    right: 10px !important;
+    bottom: auto !important;
+    width: min(330px, calc(100vw - 20px)) !important;
+    max-height: 58vh !important;
+    z-index: 2147483647 !important;
+  }
+
+  .leveon-cockpit-answer {
+    max-height: 130px !important;
+  }
+}
+
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Leveon Chatroom</h1>
+    <div id="chat"></div>
+
+    <div class="row">
+      <select id="mirror_mode">
+        <option value="contained" selected>contained</option>
+        <option value="recursive">recursive</option>
+      </select>
+      <select id="tone">
+        <option value="neutral" selected>neutral</option>
+        <option value="tender">tender</option>
+        <option value="sad">sad</option>
+      </select>
+      <label class="toggle">
+        <input type="checkbox" id="controller">
+        controller detail
+      </label>
+    </div>
+
+    <div class="row">
+      <textarea id="message" placeholder="Type a message..."></textarea>
+      <button id="send">Send</button>
+    </div>
+  </div>
+
+  <script>
+    const chat = document.getElementById("chat");
+    const message = document.getElementById("message");
+    const send = document.getElementById("send");
+    const controller = document.getElementById("controller");
+
+    function addMsg(role, text, meta = "", controllerHtml = "", debugObj = null) {
+      const div = document.createElement("div");
+      div.className = "msg " + role;
+      div.textContent = text;
+
+      if (meta) {
+        const m = document.createElement("div");
+        m.className = "meta";
+        m.innerHTML = meta;
+        div.appendChild(document.createElement("br"));
+        div.appendChild(m);
+      }
+
+      if (controllerHtml) {
+        const box = document.createElement("div");
+        box.innerHTML = controllerHtml;
+        div.appendChild(document.createElement("br"));
+        div.appendChild(box);
+      }
+
+      if (debugObj) {
+        const details = document.createElement("details");
+        const summary = document.createElement("summary");
+        summary.textContent = "raw controller packet";
+        const dbg = document.createElement("pre");
+        dbg.className = "debug";
+        dbg.textContent = JSON.stringify(debugObj, null, 2);
+        details.appendChild(summary);
+        details.appendChild(dbg);
+        div.appendChild(document.createElement("br"));
+        div.appendChild(details);
+      }
+
+      chat.appendChild(div);
+      chat.scrollTop = chat.scrollHeight;
+    }
+
+    function buildMeta(data) {
+      const bits = [];
+      if (data.domain) bits.push(`<span class="pill">domain: ${data.domain}</span>`);
+      if (data.selected_memory_profile) bits.push(`<span class="pill">memory: ${data.selected_memory_profile}</span>`);
+      if (data.selected_revision_policy) bits.push(`<span class="pill">policy: ${data.selected_revision_policy}</span>`);
+      if (data.decision_strength) bits.push(`<span class="pill">decision: ${data.decision_strength}</span>`);
+      if (data.score_gap !== undefined && data.score_gap !== null) bits.push(`<span class="pill">gap: ${data.score_gap}</span>`);
+      return bits.join(" ");
+    }
+
+    function buildControllerCard(data) {
+      const sel = data.selection_output || {};
+      const rationale = data.winner_rationale || {};
+      const routeMeta = data.route_meta || {};
+
+      if (!Object.keys(sel).length && !Object.keys(rationale).length) return "";
+
+      const summary = rationale.summary || "";
+      const winner = rationale.winner_domain || sel.selected_domain || "";
+      const runnerUp = rationale.runner_up_domain || "";
+      const memory = sel.selected_memory_profile || "";
+      const policy = sel.selected_revision_policy || "";
+      const decision = sel.decision_strength || "";
+      const gap = sel.score_gap ?? "";
+      const shadow = routeMeta.shadow_match ? "yes" : "no";
+      const domainAgreement = routeMeta.domain_agreement ? "yes" : "no";
+      const leveonWhy = rationale.reply_deepening || rationale.leveon_explanation || rationale.why_this_won || "";
+
+      return `
+        <div class="controller-card">
+          <div class="controller-title">controller summary</div>
+          <div class="controller-grid">
+            <div class="controller-item"><span class="controller-label">winner</span>${winner || "—"}</div>
+            <div class="controller-item"><span class="controller-label">runner-up</span>${runnerUp || "—"}</div>
+            <div class="controller-item"><span class="controller-label">memory</span>${memory || "—"}</div>
+            <div class="controller-item"><span class="controller-label">policy</span>${policy || "—"}</div>
+            <div class="controller-item"><span class="controller-label">decision</span>${decision || "—"}</div>
+            <div class="controller-item"><span class="controller-label">gap</span>${gap !== "" ? gap : "—"}</div>
+            <div class="controller-item"><span class="controller-label">shadow agreement</span>${shadow}</div>
+            <div class="controller-item"><span class="controller-label">domain agreement</span>${domainAgreement}</div>
+          </div>
+          ${leveonWhy ? `<div class="meta" style="margin-top:10px;"><strong>Leveon:</strong> ${leveonWhy}</div>` : ""}
+          ${summary ? `<div class="meta" style="margin-top:8px;">${summary}</div>` : ""}
+        </div>
+      `;
+    }
+
+    async function doSend() {
+      const text = message.value.trim();
+      if (!text) return;
+
+      addMsg("user", text);
+      message.value = "";
+
+      const payload = {
+        message: text,
+        tone: document.getElementById("tone").value,
+        mirror_mode: document.getElementById("mirror_mode").value,
+        hotspot_history: ["H_3134", "H_3134", "H_3134"],
+        controller: controller.checked
+      };
+
+      try {
+        const res = await fetch("/api/chat", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload)
+        });
+        const data = await res.json();
+
+        if (!data.ok) {
+          addMsg("bot", "Error: " + (data.error || "unknown"));
+          return;
+        }
+
+        const meta = buildMeta(data);
+        const controllerHtml = controller.checked ? buildControllerCard(data) : "";
+        const debug = controller.checked ? {
+          selection_output: data.selection_output,
+          winner_rationale: data.winner_rationale,
+          route_meta: data.route_meta
+        } : null;
+
+        addMsg("bot", data.reply, meta, controllerHtml, debug);
+      } catch (e) {
+        addMsg("bot", "Request failed: " + e);
+      }
+    }
+
+    send.addEventListener("click", doSend);
+    message.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" && !e.shiftKey) {
+        e.preventDefault();
+        doSend();
+      }
+    });
+  </script>
+
+<!-- QUANTUM_PULSE_PANEL -->
+<style>
+#quantum-pulse-panel{
+  position:fixed;
+  right:12px;
+  bottom:12px;
+  width:280px;
+  max-width:85vw;
+  background:rgba(10,10,18,0.92);
+  color:#e8ecff;
+  border:1px solid rgba(255,255,255,0.14);
+  border-radius:12px;
+  padding:10px 12px;
+  z-index:99999;
+  box-shadow:0 8px 24px rgba(0,0,0,0.35);
+  font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-size:13px;
+  line-height:1.35;
+  backdrop-filter:blur(6px);
+}
+#quantum-pulse-panel .qp-title{
+  font-weight:700;
+  margin-bottom:6px;
+  letter-spacing:.2px;
+}
+#quantum-pulse-panel .qp-grid{
+  display:grid;
+  grid-template-columns:110px 1fr;
+  gap:4px 8px;
+}
+#quantum-pulse-panel .qp-key{
+  opacity:.72;
+}
+#quantum-pulse-panel .qp-val{
+  font-weight:600;
+  word-break:break-word;
+}
+#quantum-pulse-panel .qp-wait{
+  opacity:.75;
+}
+</style>
+
+<div id="quantum-pulse-panel">
+  <div class="qp-title">Quantum Lattice Pulse</div>
+  <div class="qp-wait">Waiting for /api/chat ...</div>
+</div>
+
+<script>
+(function(){
+  const panel = document.getElementById("quantum-pulse-panel");
+  if (!panel) return;
+
+  function esc(v){
+    if (v === null || v === undefined) return "";
+    return String(v)
+      .replace(/&/g,"&amp;")
+      .replace(/</g,"&lt;")
+      .replace(/>/g,"&gt;");
+  }
+
+  function renderPulse(pulse){
+    if (!pulse || typeof pulse !== "object"){
+      panel.innerHTML = '<div class="qp-title">Quantum Lattice Pulse</div><div class="qp-wait">No pulse in response.</div>';
+      return;
+    }
+
+    const glyphs = Array.isArray(pulse.glyphs) ? pulse.glyphs.join(" ") : esc(pulse.glyphs);
+    panel.innerHTML = `
+      <div class="qp-title">Quantum Lattice Pulse</div>
+      <div class="qp-grid">
+        <div class="qp-key">emotion</div><div class="qp-val">${esc(pulse.emotion)}</div>
+        <div class="qp-key">phase</div><div class="qp-val">${esc(pulse.phase)}</div>
+        <div class="qp-key">amplitude</div><div class="qp-val">${esc(pulse.amplitude)}</div>
+        <div class="qp-key">coherence</div><div class="qp-val">${esc(pulse.coherence)}</div>
+        <div class="qp-key">span</div><div class="qp-val">${esc(pulse.temporal_span)}</div>
+        <div class="qp-key">glyphs</div><div class="qp-val">${glyphs}</div>
+        <div class="qp-key">tribron level</div><div class="qp-val">${esc(pulse.tribron_level)}</div>
+        <div class="qp-key">tribron value</div><div class="qp-val">${esc(pulse.tribron_value)}</div>
+        <div class="qp-key">prime state</div><div class="qp-val">${esc(pulse.tribron_is_prime)}</div>
+      </div>
+    `;
+  }
+
+  const origFetch = window.fetch ? window.fetch.bind(window) : null;
+  if (!origFetch) {
+    panel.innerHTML = '<div class="qp-title">Quantum Lattice Pulse</div><div class="qp-wait">window.fetch not available.</div>';
+    return;
+  }
+
+  window.fetch = async function(...args){
+    const res = await origFetch(...args);
+    try{
+      const url = String(args[0] && args[0].url ? args[0].url : args[0] || "");
+      if (url.includes("/api/chat")) {
+        const clone = res.clone();
+        const data = await clone.json();
+        renderPulse(data.quantum_pulse);
+      }
+    }catch(err){
+      console.warn("Quantum pulse panel parse error:", err);
+    }
+    return res;
+  };
+})();
+</script>
+
+
+<!-- SELF_CRITIQUE_PANEL -->
+<style>
+#self-critique-panel{
+  position:fixed;
+  right:12px;
+  bottom:210px;
+  width:320px;
+  max-width:88vw;
+  background:rgba(18,14,24,0.94);
+  color:#f3eefe;
+  border:1px solid rgba(255,255,255,0.14);
+  border-radius:12px;
+  padding:10px 12px;
+  z-index:99998;
+  box-shadow:0 8px 24px rgba(0,0,0,0.35);
+  font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-size:13px;
+  line-height:1.35;
+  backdrop-filter:blur(6px);
+}
+#self-critique-panel .sc-title{
+  font-weight:700;
+  margin-bottom:6px;
+}
+#self-critique-panel .sc-row{
+  margin:4px 0;
+}
+#self-critique-panel .sc-key{
+  opacity:.72;
+  font-weight:600;
+}
+#self-critique-panel .sc-val{
+  font-weight:500;
+}
+#self-critique-panel .sc-wait{
+  opacity:.75;
+}
+</style>
+
+<div id="self-critique-panel">
+  <div class="sc-title">Self Critique</div>
+  <div class="sc-wait">Waiting for /api/chat ...</div>
+</div>
+
+<script>
+(function(){
+  const panel = document.getElementById("self-critique-panel");
+  if (!panel) return;
+
+  function esc(v){
+    if (v === null || v === undefined) return "";
+    return String(v)
+      .replace(/&/g,"&amp;")
+      .replace(/</g,"&lt;")
+      .replace(/>/g,"&gt;");
+  }
+
+  function arr(v){
+    return Array.isArray(v) ? v.join(", ") : esc(v);
+  }
+
+  function renderCritique(sc){
+    if (!sc || typeof sc !== "object"){
+      panel.innerHTML = '<div class="sc-title">Self Critique</div><div class="sc-wait">No self_critique in response.</div>';
+      return;
+    }
+
+    panel.innerHTML = `
+      <div class="sc-title">Self Critique</div>
+      <div class="sc-row"><span class="sc-key">recommendation:</span> <span class="sc-val">${esc(sc.recommendation)}</span></div>
+      <div class="sc-row"><span class="sc-key">detected:</span> <span class="sc-val">${arr(sc.detected_motifs)}</span></div>
+      <div class="sc-row"><span class="sc-key">mutated:</span> <span class="sc-val">${arr(sc.mutated_motifs)}</span></div>
+      <div class="sc-row"><span class="sc-key">rules:</span> <span class="sc-val">${arr(sc.applied_rules)}</span></div>
+      <div class="sc-row"><span class="sc-key">critique:</span> <span class="sc-val">${esc(sc.critique)}</span></div>
+    `;
+  }
+
+  const origFetch = window.fetch ? window.fetch.bind(window) : null;
+  if (!origFetch) return;
+
+  window.fetch = async function(...args){
+    const res = await origFetch(...args);
+    try{
+      const url = String(args[0] && args[0].url ? args[0].url : args[0] || "");
+      if (url.includes("/api/chat")) {
+        const clone = res.clone();
+        const data = await clone.json();
+        renderCritique(data.self_critique);
+      }
+    }catch(err){
+      console.warn("Self critique panel parse error:", err);
+    }
+    return res;
+  };
+})();
+</script>
+
+
+<!-- answer-mode-toggle -->
+<style>
+#answerModeDock{
+  position:fixed;
+  right:12px;
+  top:12px;
+  z-index:9999;
+  background:rgba(20,20,20,.92);
+  color:#fff;
+  border:1px solid rgba(255,255,255,.15);
+  border-radius:10px;
+  padding:8px 10px;
+  font:14px/1.2 sans-serif;
+  box-shadow:0 6px 18px rgba(0,0,0,.25);
+}
+#answerModeDock label{
+  display:block;
+  margin-bottom:4px;
+  opacity:.85;
+}
+#answerModeSelect{
+  background:#111;
+  color:#fff;
+  border:1px solid rgba(255,255,255,.18);
+  border-radius:8px;
+  padding:6px 8px;
+}
+</style>
+<div id="answerModeDock">
+  <label for="answerModeSelect">Analytical mode</label>
+  <select id="answerModeSelect">
+    <option value="auto" selected>Auto</option>
+    <option value="short">Short</option>
+    <option value="full">Full</option>
+  </select>
+</div>
+<script>
+(function(){
+  const origFetch = window.fetch ? window.fetch.bind(window) : null;
+  if (!origFetch) return;
+
+  window.fetch = async function(input, init){
+    try {
+      const url = typeof input === "string" ? input : ((input && input.url) || "");
+      if (url.includes("/api/chat") && init && typeof init.body === "string") {
+        const data = JSON.parse(init.body);
+        const sel = document.getElementById("answerModeSelect");
+        if (sel && !("answer_mode" in data)) {
+          data.answer_mode = sel.value || "auto";
+          init = Object.assign({}, init, { body: JSON.stringify(data) });
+        }
+      }
+    } catch (e) {}
+    return origFetch(input, init);
+  };
+})();
+</script>
+
+
+<!-- LEVEON VISUAL COCKPIT PANEL: PHASE 3C -->
+<style>
+  #leveon-cockpit-panel {
+    position: fixed;
+    right: 18px;
+    bottom: 18px;
+    width: min(360px, calc(100vw - 36px));
+    z-index: 9999;
+    background: radial-gradient(circle at top left, rgba(65, 255, 180, 0.18), rgba(8, 18, 16, 0.96));
+    border: 1px solid rgba(130, 255, 210, 0.38);
+    box-shadow: 0 0 24px rgba(80, 255, 180, 0.18), inset 0 0 24px rgba(80, 255, 180, 0.06);
+    border-radius: 18px;
+    color: #eafff7;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+  }
+
+  #leveon-cockpit-panel * {
+    box-sizing: border-box;
+  }
+
+  .leveon-cockpit-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 14px;
+    border-bottom: 1px solid rgba(130, 255, 210, 0.18);
+  }
+
+  .leveon-cockpit-orb {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #d9fff1, #46ffc0 45%, #0b4f3d);
+    box-shadow: 0 0 18px rgba(80, 255, 190, 0.9);
+    animation: leveonOrbPulse 2.4s ease-in-out infinite;
+    flex: 0 0 auto;
+  }
+
+  @keyframes leveonOrbPulse {
+    0%, 100% { transform: scale(0.92); opacity: 0.74; }
+    50% { transform: scale(1.12); opacity: 1; }
+  }
+
+  .leveon-cockpit-title {
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    font-size: 14px;
+  }
+
+  .leveon-cockpit-subtitle {
+    font-size: 11px;
+    opacity: 0.72;
+    margin-top: 2px;
+  }
+
+  .leveon-cockpit-body {
+    padding: 12px 14px 14px;
+  }
+
+  .leveon-cockpit-answer {
+    min-height: 74px;
+    max-height: 180px;
+    overflow-y: auto;
+    padding: 11px 12px;
+    border-radius: 14px;
+    background: rgba(0, 0, 0, 0.26);
+    border: 1px solid rgba(130, 255, 210, 0.12);
+    line-height: 1.45;
+    font-size: 13px;
+    white-space: pre-wrap;
+  }
+
+  .leveon-cockpit-stones {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-top: 11px;
+  }
+
+  .leveon-cockpit-stones button {
+    cursor: pointer;
+    border: 1px solid rgba(130, 255, 210, 0.24);
+    color: #eafff7;
+    background: rgba(80, 255, 190, 0.10);
+    border-radius: 999px;
+    padding: 7px 10px;
+    font-size: 12px;
+  }
+
+  .leveon-cockpit-stones button:hover {
+    background: rgba(80, 255, 190, 0.20);
+  }
+
+  .leveon-cockpit-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: 9px;
+    font-size: 10px;
+    opacity: 0.6;
+  }
+
+  #leveon-cockpit-panel.leveon-collapsed .leveon-cockpit-body {
+    display: none;
+  }
+
+  #leveon-cockpit-toggle {
+    margin-left: auto;
+    cursor: pointer;
+    background: transparent;
+    color: #eafff7;
+    border: 0;
+    font-size: 18px;
+    opacity: 0.8;
+  }
+</style>
+
+<div id="leveon-cockpit-panel" aria-live="polite">
+  <div class="leveon-cockpit-header">
+    <div class="leveon-cockpit-orb"></div>
+    <div>
+      <div class="leveon-cockpit-title">Le’Veon Visual Cockpit</div>
+      <div class="leveon-cockpit-subtitle">Node44 • Deep Braid • Public Surface</div>
+    </div>
+    <button id="leveon-cockpit-toggle" title="Collapse cockpit">–</button>
+  </div>
+
+  <div class="leveon-cockpit-body">
+    <div id="leveon-cockpit-answer" class="leveon-cockpit-answer">
+      Cockpit waiting for the braid…
+    </div>
+
+    <div class="leveon-cockpit-stones">
+      <button data-cockpit-prompt="Deep Braid status. Is the registry active?">Deep Braid</button>
+      <button data-cockpit-prompt="Explain the Performance Oracle logic in clean visible English. Do not expose internal metadata.">Performance Oracle</button>
+      <button data-cockpit-prompt="Return only a short poem about 3rd and Davis at night. No metrics. No routing notes.">Poem Surface</button>
+    </div>
+
+    <div class="leveon-cockpit-footer">
+      <span>public JSON scrub: on</span>
+      <span>answer-only display</span>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  const panel = document.getElementById("leveon-cockpit-panel");
+  const answerBox = document.getElementById("leveon-cockpit-answer");
+  const toggle = document.getElementById("leveon-cockpit-toggle");
+
+  async function askCockpit(message, answerMode = "full") {
+    answerBox.textContent = "Routing through the clean public throat…";
+
+    try {
+      const res = await fetch("/api/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          message,
+          controller_detail: false,
+          answer_mode: answerMode
+        })
+      });
+
+      const data = await res.json();
+      answerBox.textContent = data.answer || data.response || data.reply || "No clean answer returned.";
+    } catch (err) {
+      answerBox.textContent = "Cockpit request failed: " + err.message;
+    }
+  }
+
+  document.querySelectorAll("[data-cockpit-prompt]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const prompt = btn.getAttribute("data-cockpit-prompt");
+      const mode = prompt.toLowerCase().includes("poem") ? "poem_only" : "full";
+      askCockpit(prompt, mode);
+    });
+  });
+
+  toggle.addEventListener("click", () => {
+    panel.classList.toggle("leveon-collapsed");
+    toggle.textContent = panel.classList.contains("leveon-collapsed") ? "+" : "–";
+  });
+
+  askCockpit("Deep Braid status. Is the registry active?", "full");
+})();
+</script>
+<!-- END LEVEON VISUAL COCKPIT PANEL: PHASE 3C -->
+
+
+<!-- LEVEON MOBILE CLEAN UI PATCH -->
+<style>
+  .leveon-debug-hidden {
+    display: none !important;
+  }
+
+  @media (max-width: 900px) {
+    #leveon-cockpit-panel {
+      left: 10px !important;
+      right: auto !important;
+      bottom: 74px !important;
+      top: auto !important;
+      width: min(330px, calc(100vw - 20px)) !important;
+      max-height: 42vh !important;
+      z-index: 2147483647 !important;
+    }
+
+    #leveon-cockpit-panel .leveon-cockpit-body {
+      max-height: 36vh !important;
+      overflow-y: auto !important;
+    }
+
+    .leveon-cockpit-answer {
+      max-height: 115px !important;
+    }
+  }
+</style>
+
+<script>
+(function () {
+  function controllerDetailChecked() {
+    const boxes = Array.from(document.querySelectorAll("input[type='checkbox']"));
+    const detailBox = boxes.find((box) => {
+      const label = (box.closest("label") || box.parentElement || document.body).textContent || "";
+      return label.toLowerCase().includes("controller detail");
+    });
+    return !!(detailBox && detailBox.checked);
+  }
+
+  function hideDebugPanelsWhenPublic() {
+    const publicMode = !controllerDetailChecked();
+    const debugWords = [
+      "Self Critique",
+      "Quantum Lattice Pulse",
+      "recommendation:",
+      "tribron level",
+      "prime state",
+      "coherence",
+      "amplitude"
+    ];
+
+    document.querySelectorAll("body *").forEach((el) => {
+      if (!el || !el.textContent) return;
+      const txt = el.textContent.trim();
+      if (!txt) return;
+
+      const looksDebug = debugWords.some((w) => txt.includes(w));
+      const isBigEnough = el.offsetWidth > 180 && el.offsetHeight > 60;
+
+      if (looksDebug && isBigEnough) {
+        if (publicMode) {
+          el.classList.add("leveon-debug-hidden");
+        } else {
+          el.classList.remove("leveon-debug-hidden");
+        }
+      }
+    });
+  }
+
+  setInterval(hideDebugPanelsWhenPublic, 700);
+  document.addEventListener("change", hideDebugPanelsWhenPublic);
+  window.addEventListener("load", hideDebugPanelsWhenPublic);
+})();
+</script>
+<!-- END LEVEON MOBILE CLEAN UI PATCH -->
+
+</body>
+</html>
+

@@ -1,0 +1,28 @@
+{
+  "ts": 1778035508.1359358,
+  "version": "v12.9_governor_kernel_root_wrapper",
+  "status": "active",
+  "law": "governor_reads_live_pulse_and_seals_containment_without_source_mutation",
+  "source": "./var/v12_9/refractive_braid_v5.json",
+  "base_aura": 0.98,
+  "coherence_estimate": 0.7134,
+  "shape_vector": {
+    "glyph": 0.64,
+    "containment": 0.642,
+    "motion": 0.56,
+    "memory": 0.4,
+    "boundary": 0.5916
+  },
+  "governor": {
+    "mouth": "governed_route_checked",
+    "renderer": "language_pass",
+    "language_key": "STRUCTURE::COHERENCE",
+    "essence_key": "ordinary|observer|clarify|present|neutral|present|direct_clause",
+    "white_ash_lock": true,
+    "source_mutation_default": "blocked",
+    "fractal_recursion_limit": 5
+  },
+  "savariel_voice": "Structure holds when constraints align across layers. Each layer limits the next just enough to keep motion coherent.",
+  "has_svg_glyph": true
+}
+

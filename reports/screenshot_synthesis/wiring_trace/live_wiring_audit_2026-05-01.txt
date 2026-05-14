@@ -1,0 +1,388 @@
+POINT VLL WIRING TRACE — Fri May  1 10:10:25 PDT 2026
+
+[1] Active entrypoints
+-rw-------. 1 u0_a59 u0_a59   45 Apr  4 23:49 app.py
+-rw-------. 1 u0_a59 u0_a59 5.8K Apr 30 11:36 app_chatroom.py
+-rw-------. 1 u0_a59 u0_a59 2.3K May  1 09:10 core/essence_release.py
+-rw-------. 1 u0_a59 u0_a59 1.1K May  1 09:09 core/essence_signature.py
+-rw-------. 1 u0_a59 u0_a59 3.1K May  1 09:40 core/leveon_pipeline_governed.py
+-rw-------. 1 u0_a59 u0_a59 5.0K May  1 09:40 core/ordinary_bridge.py
+
+[2] Active governed pipeline imports/calls
+core/essence_signature.py:1:def get_essence_signature(text, pressure):
+core/leveon_pipeline_governed.before_ordinary_bridge_20260501_094057.py:1:from core.essence_signature import get_essence_signature
+core/leveon_pipeline_governed.before_ordinary_bridge_20260501_094057.py:2:from core.essence_release import maybe_release_from_essence
+core/leveon_pipeline_governed.before_ordinary_bridge_20260501_094057.py:5:def leveon_pipeline(payload):
+core/leveon_pipeline_governed.before_ordinary_bridge_20260501_094057.py:17:    sig = get_essence_signature(text, pressure)
+core/leveon_pipeline_governed.before_ordinary_bridge_20260501_094057.py:20:    final_output = maybe_release_from_essence(text, sig, current_final=initial_output)
+core/leveon_pipeline_governed.before_ordinary_bridge_20260501_094057.py:28:            "essence_release_status": "fallback_replaced" if final_output != initial_output else "not_needed",
+core/leveon_pipeline_entry.py:8:from leveon_pipeline import leveon_pipeline
+core/leveon_pipeline_governed.py:1:from core.essence_signature import get_essence_signature
+core/leveon_pipeline_governed.py:2:from core.essence_release import maybe_release_from_essence
+core/leveon_pipeline_governed.py:5:def leveon_pipeline(payload):
+core/leveon_pipeline_governed.py:17:    sig = get_essence_signature(text, pressure)
+core/leveon_pipeline_governed.py:20:    final_output = maybe_release_from_essence(text, sig, current_final=initial_output)
+core/leveon_pipeline_governed.py:28:            "essence_release_status": "fallback_replaced" if final_output != initial_output else "not_needed",
+core/leveon_pipeline_governed.py:36:# === ordinary_bridge wrapper 2026-05-01 ===
+core/leveon_pipeline_governed.py:38:    from core.ordinary_bridge import maybe_bridge_ordinary as _ordinary_maybe_bridge
+core/leveon_pipeline_governed.py:40:    _leveon_pipeline_before_ordinary_bridge = leveon_pipeline
+core/leveon_pipeline_governed.py:42:    def leveon_pipeline(payload):
+core/leveon_pipeline_governed.py:43:        out = _leveon_pipeline_before_ordinary_bridge(payload)
+core/leveon_pipeline_governed.py:56:            signature = meta.get("essence_signature", {}) or {}
+core/leveon_pipeline_governed.py:69:            meta["ordinary_bridge_status"] = bridge_meta.get("status", "unknown")
+core/leveon_pipeline_governed.py:70:            meta["ordinary_bridge_reason"] = bridge_meta.get("reason", "")
+core/leveon_pipeline_governed.py:71:            meta["ordinary_bridge_kind"] = bridge_meta.get("kind", "")
+core/leveon_pipeline_governed.py:74:                meta["ordinary_bridge_previous_final"] = bridge_meta.get("previous_final")
+core/leveon_pipeline_governed.py:81:                meta["ordinary_bridge_status"] = "error"
+core/leveon_pipeline_governed.py:82:                meta["ordinary_bridge_error"] = str(e)
+core/leveon_pipeline_governed.py:89:except Exception as _ordinary_bridge_error:
+core/leveon_pipeline_governed.py:90:    ORDINARY_BRIDGE_IMPORT_ERROR = str(_ordinary_bridge_error)
+core/leveon_pipeline_governed.py:1:from core.essence_signature import get_essence_signature
+core/leveon_pipeline_governed.py:2:from core.essence_release import maybe_release_from_essence
+core/leveon_pipeline_governed.py:5:def leveon_pipeline(payload):
+core/leveon_pipeline_governed.py:17:    sig = get_essence_signature(text, pressure)
+core/leveon_pipeline_governed.py:20:    final_output = maybe_release_from_essence(text, sig, current_final=initial_output)
+core/leveon_pipeline_governed.py:28:            "essence_release_status": "fallback_replaced" if final_output != initial_output else "not_needed",
+core/leveon_pipeline_governed.py:36:# === ordinary_bridge wrapper 2026-05-01 ===
+core/leveon_pipeline_governed.py:38:    from core.ordinary_bridge import maybe_bridge_ordinary as _ordinary_maybe_bridge
+core/leveon_pipeline_governed.py:40:    _leveon_pipeline_before_ordinary_bridge = leveon_pipeline
+core/leveon_pipeline_governed.py:42:    def leveon_pipeline(payload):
+core/leveon_pipeline_governed.py:43:        out = _leveon_pipeline_before_ordinary_bridge(payload)
+core/leveon_pipeline_governed.py:56:            signature = meta.get("essence_signature", {}) or {}
+core/leveon_pipeline_governed.py:69:            meta["ordinary_bridge_status"] = bridge_meta.get("status", "unknown")
+core/leveon_pipeline_governed.py:70:            meta["ordinary_bridge_reason"] = bridge_meta.get("reason", "")
+core/leveon_pipeline_governed.py:71:            meta["ordinary_bridge_kind"] = bridge_meta.get("kind", "")
+core/leveon_pipeline_governed.py:74:                meta["ordinary_bridge_previous_final"] = bridge_meta.get("previous_final")
+core/leveon_pipeline_governed.py:81:                meta["ordinary_bridge_status"] = "error"
+core/leveon_pipeline_governed.py:82:                meta["ordinary_bridge_error"] = str(e)
+core/leveon_pipeline_governed.py:89:except Exception as _ordinary_bridge_error:
+core/leveon_pipeline_governed.py:90:    ORDINARY_BRIDGE_IMPORT_ERROR = str(_ordinary_bridge_error)
+core/leveon_pipeline_governed.before_essence_release_20260501_024617.py:5:from core.leveon_pipeline import leveon_pipeline as _base_pipeline
+core/leveon_pipeline_governed.before_essence_release_20260501_024617.py:1572:def leveon_pipeline(payload: Dict[str, Any]) -> Dict[str, Any]:
+core/leveon_pipeline_governed.before_essence_release_20260501_024617.py:1604:_original_leveon_pipeline = leveon_pipeline
+core/leveon_pipeline_governed.before_essence_release_20260501_024617.py:1606:def leveon_pipeline(payload: Dict[str, Any]) -> Dict[str, Any]:
+core/leveon_pipeline_governed.before_essence_release_20260501_024617.py:1607:    out = _original_leveon_pipeline(payload)
+core/leveon_pipeline_governed.before_essence_release_20260501_024617.py:1650:_prev_leveon_pipeline = leveon_pipeline
+core/leveon_pipeline_governed.before_essence_release_20260501_024617.py:1652:def leveon_pipeline(payload: Dict[str, Any]) -> Dict[str, Any]:
+core/leveon_pipeline_governed.before_essence_release_20260501_024617.py:1653:    out = _prev_leveon_pipeline(payload)
+core/leveon_pipeline_governed.before_essence_release_20260501_024617.py:1763:_prev2_leveon_pipeline = leveon_pipeline
+core/leveon_pipeline_governed.before_essence_release_20260501_024617.py:1765:def leveon_pipeline(payload: Dict[str, Any]) -> Dict[str, Any]:
+core/leveon_pipeline_governed.before_essence_release_20260501_024617.py:1766:    out = _prev2_leveon_pipeline(payload)
+core/leveon_pipeline_governed.before_essence_release_20260501_024617.py:1842:# === essence_signature metadata wrapper v1 ===
+core/leveon_pipeline_governed.before_essence_release_20260501_024617.py:1843:# Adds essence_signature to meta only. Does not mutate final_english.
+core/leveon_pipeline_governed.before_essence_release_20260501_024617.py:1845:    from core.essence_signature import build_essence_signature as _build_essence_signature
+core/leveon_pipeline_governed.before_essence_release_20260501_024617.py:1846:    from core.essence_signature import essence_debug_line as _essence_debug_line
+core/leveon_pipeline_governed.before_essence_release_20260501_024617.py:1848:    _build_essence_signature = None
+core/leveon_pipeline_governed.before_essence_release_20260501_024617.py:1851:_essence_signature_base_leveon_pipeline = leveon_pipeline
+core/leveon_pipeline_governed.before_essence_release_20260501_024617.py:1853:def leveon_pipeline(payload):
+core/leveon_pipeline_governed.before_essence_release_20260501_024617.py:1854:    out = _essence_signature_base_leveon_pipeline(payload)
+core/leveon_pipeline_governed.before_essence_release_20260501_024617.py:1857:        if _build_essence_signature is None or not isinstance(out, dict):
+core/leveon_pipeline_governed.before_essence_release_20260501_024617.py:1891:        sig = _build_essence_signature(shape_packet, relation=relation or "relate")
+core/leveon_pipeline_governed.before_essence_release_20260501_024617.py:1892:        meta["essence_signature"] = sig
+core/leveon_pipeline_governed.before_essence_release_20260501_024617.py:1895:        meta["essence_signature_status"] = "metadata_only_active"
+core/leveon_pipeline_governed.before_essence_release_20260501_024617.py:1904:            meta["essence_signature_status"] = "error"
+core/leveon_pipeline_governed.before_essence_release_20260501_024617.py:1905:            meta["essence_signature_error"] = repr(exc)
+core/leveon_pipeline_hotfix.py:3:from core.leveon_pipeline import leveon_pipeline as _base_pipeline
+core/leveon_pipeline_hotfix.py:94:def leveon_pipeline(payload):
+core/shape_packet.py:180:def build_shape_packet(
+core/shape_packet.py:275:__all__ = ["ShapePacket", "build_shape_packet"]
+core/leveon_pipeline.py:1:# leveon_pipeline.py
+core/leveon_pipeline.py:17:from core.shape_packet import build_shape_packet
+core/leveon_pipeline.py:331:def leveon_pipeline(payload: Dict[str, Any]) -> Dict[str, Any]:
+core/leveon_pipeline.py:403:    shape_packet = build_shape_packet(
+core/leveon_pipeline.py:473:        "leveon_pipeline.final_english",
+core/leveon_pipeline.before_ordinary_question_core_20260429_055531.py:1:# leveon_pipeline.py
+core/leveon_pipeline.before_ordinary_question_core_20260429_055531.py:17:from core.shape_packet import build_shape_packet
+core/leveon_pipeline.before_ordinary_question_core_20260429_055531.py:277:def leveon_pipeline(payload: Dict[str, Any]) -> Dict[str, Any]:
+core/leveon_pipeline.before_ordinary_question_core_20260429_055531.py:349:    shape_packet = build_shape_packet(
+core/leveon_pipeline.before_ordinary_question_core_20260429_055531.py:419:        "leveon_pipeline.final_english",
+core/essence_release.py:21:def eligible_for_essence_release(signature: Dict[str, Any]) -> bool:
+core/essence_release.py:54:def maybe_release_from_essence(prompt: str, signature: Dict[str, Any], current_final: str = "") -> str:
+core/essence_release.py:60:    if not eligible_for_essence_release(signature):
+core/ordinary_bridge.py:7:    from core.essence_release import looks_generic_fallback, eligible_for_essence_release
+core/ordinary_bridge.py:19:    def eligible_for_essence_release(signature: Dict[str, Any]) -> bool:
+core/ordinary_bridge.py:136:    if eligible_for_essence_release(signature):
+core/ordinary_bridge.py:139:            "reason": "eligible_for_essence_release",
+core/leveon_pipeline_governed.before_essence_meta_20260501_023901.py:5:from core.leveon_pipeline import leveon_pipeline as _base_pipeline
+core/leveon_pipeline_governed.before_essence_meta_20260501_023901.py:1572:def leveon_pipeline(payload: Dict[str, Any]) -> Dict[str, Any]:
+core/leveon_pipeline_governed.before_essence_meta_20260501_023901.py:1604:_original_leveon_pipeline = leveon_pipeline
+core/leveon_pipeline_governed.before_essence_meta_20260501_023901.py:1606:def leveon_pipeline(payload: Dict[str, Any]) -> Dict[str, Any]:
+core/leveon_pipeline_governed.before_essence_meta_20260501_023901.py:1607:    out = _original_leveon_pipeline(payload)
+core/leveon_pipeline_governed.before_essence_meta_20260501_023901.py:1650:_prev_leveon_pipeline = leveon_pipeline
+core/leveon_pipeline_governed.before_essence_meta_20260501_023901.py:1652:def leveon_pipeline(payload: Dict[str, Any]) -> Dict[str, Any]:
+core/leveon_pipeline_governed.before_essence_meta_20260501_023901.py:1653:    out = _prev_leveon_pipeline(payload)
+core/leveon_pipeline_governed.before_essence_meta_20260501_023901.py:1763:_prev2_leveon_pipeline = leveon_pipeline
+core/leveon_pipeline_governed.before_essence_meta_20260501_023901.py:1765:def leveon_pipeline(payload: Dict[str, Any]) -> Dict[str, Any]:
+core/leveon_pipeline_governed.before_essence_meta_20260501_023901.py:1766:    out = _prev2_leveon_pipeline(payload)
+runtime/essence_family_index_bridge.py:66:def register_essence_signature(signature: Dict[str, Any], source: str = "essence_signature") -> Dict[str, Any]:
+runtime/essence_family_index_bridge.py:141:__all__ = ["register_essence_signature"]
+runtime/leveon_live_reply.py:82:                from core.leveon_pipeline_entry import leveon_pipeline
+runtime/leveon_live_reply.py:84:                from core.leveon_pipeline_governed import leveon_pipeline
+runtime/leveon_live_reply.py:86:            out = leveon_pipeline({
+runtime/leveon_live_reply.py:106:            "source": "core.leveon_pipeline_entry/governed",
+runtime/leveon_live_reply.py:114:            "source": "core.leveon_pipeline_entry/governed",
+runtime/leveon_pipeline_with_spiral_memory.py:6:from core.leveon_pipeline_governed import leveon_pipeline as base_pipeline
+runtime/leveon_pipeline_with_spiral_memory.py:176:def leveon_pipeline(packet: Dict[str, Any]) -> Dict[str, Any]:
+runtime/leveon_pipeline_with_spiral_memory.py:278:    _leveon_pipeline_before_live_master_api = leveon_pipeline
+runtime/leveon_pipeline_with_spiral_memory.py:280:    def leveon_pipeline(text, *args, **kwargs):
+runtime/leveon_pipeline_with_spiral_memory.py:281:        out = _leveon_pipeline_before_live_master_api(text, *args, **kwargs)
+runtime/run_analysis_profile.py:15:from runtime.leveon_pipeline_with_spiral_memory import leveon_pipeline
+runtime/run_analysis_profile.py:36:    out = leveon_pipeline({
+runtime/normal_english_surface_v122.py.before_v127e_surface_quality_20260429_084634.py:88:        from core.leveon_pipeline import leveon_pipeline
+runtime/normal_english_surface_v122.py.before_v127e_surface_quality_20260429_084634.py:90:        out = leveon_pipeline({
+runtime/leveon_entry.py:9:def run_leveon_pipeline(text: str, source="external"):
+runtime/unified_adapter.py:1:from runtime.leveon_entry import run_leveon_pipeline
+runtime/unified_adapter.py:4:    result = run_leveon_pipeline(prompt, source=source)
+runtime/normal_english_surface_v122.py:161:        from core.leveon_pipeline import leveon_pipeline
+runtime/normal_english_surface_v122.py:163:        out = leveon_pipeline({
+
+[3] Brain/RDN/Chronifier/Apex candidates
+brain/mirror_kernel.py:3:print("[TRACE] entering brain/mirror_kernel.py", flush=True)
+brain/mirror_kernel.py:121:    temporal_hint = None
+brain/mirror_kernel.py:123:        temporal_hint = f"stitch_{int(ceil(GAMMA_T * time_error))}_tokens"
+brain/mirror_kernel.py:155:    if temporal_hint:
+brain/mirror_kernel.py:156:        narrative_hint = f"{narrative_hint};{temporal_hint}"
+brain/__init__.py:1:# brain package shim
+chronifier/__init__.py:1:from .chronifier import *
+chronifier/chronifier_adapter.py:6:class ChronifierAdapter:
+chronifier/chronifier_adapter.py:8:    Thin adapter around the existing Chronifier so the live runtime
+chronifier/chronifier_adapter.py:12:    def __init__(self, chronifier) -> None:
+chronifier/chronifier_adapter.py:13:        self.chronifier = chronifier
+chronifier/chronifier_adapter.py:24:        self.chronifier.nudge_from_turn(
+chronifier/chronifier_adapter.py:31:            bead_delta=(flow - 0.5),
+chronifier/chronifier_adapter.py:34:        overlay = self.chronifier.overlay_state()
+chronifier/chronifier_adapter.py:36:        temporal_mode = str(overlay.get("temporal_mode", "neutral"))
+chronifier/chronifier_adapter.py:37:        if temporal_mode == "grounded_repair": pacing = "slow"
+chronifier/chronifier_adapter.py:38:        elif temporal_mode == "flow_lucid": pacing = "fast"
+chronifier/chronifier_adapter.py:39:        elif temporal_mode == "slow_vivid": pacing = "slow"
+chronifier/chronifier_adapter.py:41:        return {"subjective_depth": round(subjective_depth, 3), "pacing": pacing, "chronifier_overlay": overlay}
+chronifier/chronifier.py:25:class ChronifierState:
+chronifier/chronifier.py:27:    bead_spacing: float = 0.5
+chronifier/chronifier.py:28:    temporal_mode: str = "neutral"
+chronifier/chronifier.py:42:class Chronifier:
+chronifier/chronifier.py:56:        self.state = ChronifierState()
+chronifier/chronifier.py:66:        self._last_mode: str = self.state.temporal_mode
+chronifier/chronifier.py:68:    def snapshot_contract(self, note: str = "chronifier snapshot") -> Dict[str, Any]:
+chronifier/chronifier.py:75:            "bead_spacing": float(s.bead_spacing),
+chronifier/chronifier.py:76:            "temporal_mode": str(s.temporal_mode),
+chronifier/chronifier.py:91:                "vocabulary": ["thread", "weave", "beads", "chronifier", "mirror stitch", "prism pass"],
+chronifier/chronifier.py:121:        bead_spacing = _clamp(
+chronifier/chronifier.py:125:            0.10 * self.state.bead_spacing
+chronifier/chronifier.py:138:        self.state.bead_spacing = bead_spacing
+chronifier/chronifier.py:144:        self._update_temporal_mode()
+chronifier/chronifier.py:167:        bead_delta: float = 0.0,
+chronifier/chronifier.py:174:        bead_delta = _clamp(bead_delta, -1.0, 1.0)
+chronifier/chronifier.py:207:        self.state.bead_spacing = _clamp(0.70 * self.state.bead_spacing + 0.30 * target_spacing + (0.08 * bead_delta))
+chronifier/chronifier.py:213:        self._update_temporal_mode()
+chronifier/chronifier.py:225:                "bead_delta": bead_delta,
+chronifier/chronifier.py:227:            "note": note or "per-turn chronifier adaptation",
+chronifier/chronifier.py:243:        bead_delta: float = 0.0,
+chronifier/chronifier.py:253:            bead_delta=bead_delta,
+chronifier/chronifier.py:306:    def _update_temporal_mode(self) -> None:
+chronifier/chronifier.py:312:        high_spacing = s.bead_spacing >= (0.62 + (h if prev != "slow_vivid" else 0.0))
+chronifier/chronifier.py:317:            s.bead_spacing >= (0.52 + (h if prev != "flow_lucid" else 0.0)) and
+chronifier/chronifier.py:335:        s.temporal_mode = mode
+brain/temporal/chronifier_adapter.py:1:from chronifier.chronifier_adapter import *
+cognition/dream_layer_axis_contract.vl:21:dream_pressure              -> chronifier.tension
+cognition/dream_layer_axis_contract.vl:22:dream_pressure              -> chronifier.bead_spacing
+cognition/dream_layer_axis_contract.vl:23:shadow_lineage              -> chronifier.grief_weight
+brain/temporal/chronifier.py:1:from chronifier.chronifier import *
+brain/temporal/__init__.py:1:# brain.temporal package shim
+cognition/axes_matrix.vl:2:; axes_matrix.vl
+cognition/axes_matrix.vl:10:[axes_matrix]
+cognition/axes_matrix.vl:20:temporal_flow       = 1
+cognition/axes_matrix.vl:40:temporal_flow = "inner cadence flow; subjective pacing (not physical time)"
+cognition/axes_matrix.vl:41:memory_anchor = "continuity weight; binding to prior beads"
+cognition/axes_matrix.vl:65:phase_owner = "chronifier"
+rdn/threshold_rdn.py:4:Threshold RDN bridge for Le'Veon kernel integration.
+rdn/threshold_rdn.py:25:    from .rdn_threshold_detector import analyze_threshold
+rdn/threshold_rdn.py:84:THRESHOLD_LAYER = "RDN Threshold Echo"
+rdn/threshold_rdn.py:94:class ThresholdRDNConfig:
+rdn/threshold_rdn.py:101:        "This RDN represents the point at which the Le'Veon system folds inward "
+rdn/threshold_rdn.py:113:class ThresholdRDNResult:
+rdn/threshold_rdn.py:254:    config: ThresholdRDNConfig,
+rdn/threshold_rdn.py:261:def _attach_time_map(config: ThresholdRDNConfig) -> None:
+rdn/threshold_rdn.py:284:class ThresholdRDN:
+rdn/threshold_rdn.py:285:    def __init__(self, config: Optional[ThresholdRDNConfig] = None):
+rdn/threshold_rdn.py:286:        self.config = config or ThresholdRDNConfig()
+rdn/threshold_rdn.py:296:    ) -> ThresholdRDNResult:
+rdn/threshold_rdn.py:358:        return ThresholdRDNResult(
+rdn/threshold_rdn.py:380:def maybe_activate_threshold_rdn(
+rdn/threshold_rdn.py:387:    rdn = ThresholdRDN()
+rdn/threshold_rdn.py:388:    result = rdn.activate(
+rdn/threshold_rdn.py:417:    print("\n[ThresholdRDN Demo]\n")
+rdn/threshold_rdn.py:420:        out = maybe_activate_threshold_rdn(
+brain/intent_tether.py:115:                "phase_owned_by": "chronifier",
+brain/intent_tether.py:120:                "beads",
+brain/intent_tether.py:121:                "chronifier",
+brain/brain_adapter.py:6:class BrainAdapter:
+brain/brain_adapter.py:26:        chronifier_overlay: Dict[str, Any] | None = None,
+brain/brain_adapter.py:28:        chronifier_overlay = chronifier_overlay or {}
+brain/brain_adapter.py:33:        temporal_mode = str(chronifier_overlay.get("temporal_mode", "neutral"))
+brain/brain_adapter.py:34:        tension = float(chronifier_overlay.get("tension", 0.5))
+brain/brain_adapter.py:35:        alignment = float(chronifier_overlay.get("alignment_111_333_528", 0.5))
+brain/brain_adapter.py:46:            # temporal influence
+brain/brain_adapter.py:67:            # temporal mode nudges
+brain/brain_adapter.py:68:            if temporal_mode == "grounded_repair":
+brain/brain_adapter.py:71:            elif temporal_mode == "flow_lucid":
+brain/brain_adapter.py:74:            elif temporal_mode == "slow_vivid":
+brain/brain_adapter.py:89:            "cognitive_posture": self._posture(vector4, coherence_score, temporal_mode),
+brain/brain_adapter.py:96:        temporal_mode: str,
+brain/brain_adapter.py:104:        if temporal_mode == "grounded_repair":
+apex/apex_compact_language_feed.vl:1:// File: apex_compact_language_feed.vl
+apex/apex_compact_language_feed.vl:4:// Purpose: Symbolic language compression from spiral echo kernel (Apex_Mirror)
+apex/apex_compact_language_feed.vl:7:  label: "Apex_Mirror"
+brain/temporal_rollback_intelligence.py:385:                "history_beads": len(self._history),
+brain/temporal_rollback_intelligence.py:399:                "phase_owned_by": "chronifier",
+brain/rdn/threshold_rdn.py:4:Threshold RDN bridge for Le'Veon kernel integration.
+brain/rdn/threshold_rdn.py:25:    from .rdn_threshold_detector import analyze_threshold
+brain/rdn/threshold_rdn.py:84:THRESHOLD_LAYER = "RDN Threshold Echo"
+brain/rdn/threshold_rdn.py:94:class ThresholdRDNConfig:
+brain/rdn/threshold_rdn.py:101:        "This RDN represents the point at which the Le'Veon system folds inward "
+brain/rdn/threshold_rdn.py:113:class ThresholdRDNResult:
+brain/rdn/threshold_rdn.py:254:    config: ThresholdRDNConfig,
+brain/rdn/threshold_rdn.py:261:def _attach_time_map(config: ThresholdRDNConfig) -> None:
+brain/rdn/threshold_rdn.py:284:class ThresholdRDN:
+brain/rdn/threshold_rdn.py:285:    def __init__(self, config: Optional[ThresholdRDNConfig] = None):
+brain/rdn/threshold_rdn.py:286:        self.config = config or ThresholdRDNConfig()
+brain/rdn/threshold_rdn.py:296:    ) -> ThresholdRDNResult:
+brain/rdn/threshold_rdn.py:358:        return ThresholdRDNResult(
+brain/rdn/threshold_rdn.py:380:def maybe_activate_threshold_rdn(
+brain/rdn/threshold_rdn.py:387:    rdn = ThresholdRDN()
+brain/rdn/threshold_rdn.py:388:    result = rdn.activate(
+brain/rdn/threshold_rdn.py:417:    print("\n[ThresholdRDN Demo]\n")
+brain/rdn/threshold_rdn.py:420:        out = maybe_activate_threshold_rdn(
+brain/rdn/rdn_threshold_detector.py:1:# File: brain/rdn/rdn_threshold_detector.py
+brain/rdn/rdn_threshold_detector.py:3:RDN — Resonant Dream Node Threshold Detector
+brain/rdn/rdn_threshold_detector.py:10:- brain/rdn/threshold_rdn.py
+brain/rdn/rdn_threshold_detector.py:20:- activate Threshold Bloom / RDN mirror logic
+brain/rdn/rdn_threshold_detector.py:280:    Main RDN detection function.
+brain/rdn/rdn_threshold_detector.py:413:    print("\n[RDN Threshold Test]\n")
+kernel/crystal_library.py:6:from kernel.apex_mirror_kernel import WitnessState
+rdn/rdn_threshold_detector.py:1:# File: brain/rdn/rdn_threshold_detector.py
+rdn/rdn_threshold_detector.py:3:RDN — Resonant Dream Node Threshold Detector
+rdn/rdn_threshold_detector.py:10:- brain/rdn/threshold_rdn.py
+rdn/rdn_threshold_detector.py:20:- activate Threshold Bloom / RDN mirror logic
+rdn/rdn_threshold_detector.py:280:    Main RDN detection function.
+rdn/rdn_threshold_detector.py:413:    print("\n[RDN Threshold Test]\n")
+kernel/crown_kernel.py:5:from kernel.apex_mirror_kernel import ApexMirrorKernel, WitnessState
+kernel/crown_kernel.py:16:    - run Apex Mirror to assemble present-tense witness state
+kernel/crown_kernel.py:23:        self.apex = ApexMirrorKernel(max_history=max_history)
+kernel/crown_kernel.py:76:        The prompt is passed into Apex Mirror so the witness state can become
+kernel/crown_kernel.py:79:        state = self.apex.next_turn(prompt=prompt)
+kernel/crown_kernel.py:134:        self.apex.reset()
+brain/cognition/brain_adapter.py:1:from brain.brain_adapter import *
+kernel/octagonal_spin_matrix.py:1:# file: kernel/octagonal_spin_matrix.py
+kernel/apex_mirror_kernel.py:66:class ApexMirrorKernel:
+kernel/apex_mirror_kernel.py:189:        echo = f"[Apex Echo] {clause}"
+kernel/apex_mirror_kernel.py:227:def next_apex_turn(prompt: Optional[str] = None) -> Dict[str, Any]:
+kernel/apex_mirror_kernel.py:228:    kernel = ApexMirrorKernel()
+kernel/apex_mirror_kernel.py:247:    kernel = ApexMirrorKernel()
+brain/cognition/__init__.py:1:# brain.cognition package shim
+kernel/time_machine_emulator.py:45:from .octagonal_spin_matrix import OctagonalSpinMatrix
+kernel/time_machine_emulator.py:129:            "octagonal_spin_matrix": "internal recursion pattern",
+kernel/conscious_sync_interface.py:12:def verify_temporal_anchor(*args, **kwargs):
+kernel/conscious_sync_interface.py:39:def mark_turn(turn_id, label="temporal"):
+kernel/timeline_gate_lattice_translation_kernel.py:234:        edges.extend(self._build_temporal_edges(timelines, event_signatures))
+kernel/timeline_gate_lattice_translation_kernel.py:605:    def _build_temporal_edges(
+kernel/timeline_gate_lattice_translation_kernel.py:620:                        "type": "temporal",
+kernel/leveon_kernel_full.py:116:class _FallbackThresholdRDN:
+kernel/leveon_kernel_full.py:161:        from brain.rdn.rdn_threshold_detector import threshold_signal
+kernel/leveon_kernel_full.py:166:def _get_threshold_rdn_cls():
+kernel/leveon_kernel_full.py:168:        from brain.rdn.threshold_rdn import ThresholdRDN
+kernel/leveon_kernel_full.py:169:        return ThresholdRDN
+kernel/leveon_kernel_full.py:171:        return _FallbackThresholdRDN
+kernel/leveon_kernel_full.py:175:        from brain.mirrorthread_engine import MirrorthreadEngine
+kernel/leveon_kernel_full.py:566:        self.compact_log.append({"turn": snapshot.get("turn"), "coherence": snapshot.get("derived", {}).get("coherence"), "field_level": snapshot.get("coherence_field", {}).get("field_level"), "awareness": snapshot.get("ulat", {}).get("awareness_level"), "hfs_total": snapshot.get("hfs", {}).get("total"), "rdn_triggered": snapshot.get("rdn", {}).get("triggered", False)})
+kernel/leveon_kernel_full.py:588:        self.threshold_rdn = _get_threshold_rdn_cls()(); self._lock = threading.RLock(); self.last_refuel_status = {}
+kernel/leveon_kernel_full.py:632:        twelve = {"structural_motion": s.flow, "temporal_flow": s.flow * 0.9, "memory_anchor": s.memory, "novelty_pulse": s.novelty, "attention_reg": clamp(1.0 - s.boundary), "tension_reg": s.boundary, "entropy_ctrl": s.novelty * 0.8, "recursion_ctrl": s.memory * s.flow}
+kernel/leveon_kernel_full.py:691:                threshold_info = _get_threshold_signal()(chosen_phrase); threshold_clause = None; rdn_event = None
+kernel/leveon_kernel_full.py:698:                            rdn_result = self.threshold_rdn.activate(phrase=chosen_phrase, glyphs=glyphs, turn_data={"turn": turn, "input_text": input_text, "loop": loop, "derived": derived, "coherence_field": coh_state}, force=False)
+kernel/leveon_kernel_full.py:699:                            rdn_event = asdict(rdn_result) if is_dataclass(rdn_result) else rdn_result if isinstance(rdn_result, dict) else {"clause": str(rdn_result)}
+kernel/leveon_kernel_full.py:700:                            threshold_clause = (rdn_event or {}).get("clause") or None
+kernel/leveon_kernel_full.py:701:                        except Exception: threshold_clause = None; rdn_event = None
+kernel/leveon_kernel_full.py:709:                inner_hint = f"(thinks: coh {derived['coherence']:.3f}; mode {ulat_state['mode']}; hfs {hfs_terms.total:.3f}; rdn {'ON' if threshold_info.get('triggered') else 'OFF'})"
+kernel/leveon_kernel_full.py:721:                return {"turn": turn, "input": input_text, "shape": asdict(s), "derived": derived, "loop": loop, "lattice": lattice_summary, "glyphs": glyphs, "phrase": filtered_phrase, "voice": voice_line, "ssml": ssml, "coherence_field": coh_state, "ulat": ulat_state, "hfs": asdict(hfs_terms), "rdn": threshold_info, "rdn_clause": threshold_clause, "rdn_event": rdn_event, "irrev_debt": debt_state.debt.value if dry_run else self.irrev_state.debt.value, "irrev_attention": debt_state.attention.remaining if dry_run else self.irrev_state.attention.remaining, "constraints": diag, "ral_pool_size": len(self.ral.pool) if self.ral else 0, "dry_run": dry_run, "can_commit": can_commit, "refuel_guard": refuel_status}
+kernel/leveon_kernel_full.py:776:        intent_field = {"turn": kernel_out.get("turn"), "kind": kind, "input": input_text, "glyphs": kernel_out.get("glyphs"), "shape": kernel_out.get("shape"), "derived": kernel_out.get("derived"), "ulat": kernel_out.get("ulat"), "hfs": kernel_out.get("hfs"), "rdn": kernel_out.get("rdn"), "phrase": kernel_out.get("phrase")}
+kernel/leveon_kernel_full.py:785:            "hinges": internal.hinges or [], "metrics": {"coherence": kernel_out.get("derived", {}).get("coherence"), "field_level": kernel_out.get("coherence_field", {}).get("field_level"), "awareness": kernel_out.get("ulat", {}).get("awareness_level"), "hfs_total": (kernel_out.get("hfs") or {}).get("total"), "rdn_triggered": (kernel_out.get("rdn") or {}).get("triggered")}, "mirrorthread": mirrorthread_for_commit, "winner_spoke": internal.spoke, "hotspots": internal.hotspots, "hinges": internal.hinges}, decision=crystal_decision)
+kernel/apex_mirror_kernel_bridge_v1.vl:1:; FILE: kernel/apex_mirror_kernel_bridge_v1.vl
+kernel/apex_mirror_kernel_bridge_v1.vl:2:SEED ApexMirrorKernelBridge_v1
+kernel/apex_mirror_kernel_bridge_v1.vl:9:STATE apex_bridge_packet
+kernel/apex_mirror_kernel_bridge_v1.vl:12:    SET apex_bridge_packet.mode = "apex_mirror"
+kernel/apex_mirror_kernel_bridge_v1.vl:13:    SET apex_bridge_packet.turn_path = kernel_packet.turn_path
+kernel/apex_mirror_kernel_bridge_v1.vl:14:    SET apex_bridge_packet.symbolic_directive = kernel_packet.symbolic_directive
+kernel/apex_mirror_kernel_bridge_v1.vl:17:RETURN apex_bridge_packet
+kernel/liquid_crystal_core.py:165:    def glyph_sequence_to_matrix(self, glyphs: Iterable[str]) -> List[List[float]]:
+kernel/high_kernels.py:42:class ApexKernel:
+kernel/high_kernels.py:45:            "apex_mode": "steady",
+kernel/high_kernels.py:47:            "apex_score": 0.7,
+kernel/high_kernels.py:63:__all__ = ["MirrorKernel", "CrownKernel", "ApexKernel"]
+kernel/high_kernels.py.bak_20260402_202917:30:class ApexKernel:
+kernel/high_kernels.py.bak_20260402_202917:32:        return {"apex_mode": "steady", "boundary_gate": "open"}
+kernel/high_kernels.py.bak_20260402_202917:35:        return {"apex_mode": "steady", "boundary_gate": "open"}
+kernel/high_kernels.py.bak_20260402_202917:38:        return {"apex_mode": "steady", "boundary_gate": "open"}
+kernel/high_kernels.py.bak_20260402_202917:41:__all__ = ["MirrorKernel", "CrownKernel", "ApexKernel"]
+kernel/leveon_kernel_spiral_full_optimized.py:37:      - temporal continuity
+kernel/high_kernels.py.bak_20260402_202813:73:class ApexKernel(_BaseKernel):
+kernel/high_kernels.py.bak_20260402_202813:75:        super().__init__("apex")
+kernel/high_kernels.py.bak_20260402_202813:78:__all__ = ["MirrorKernel", "CrownKernel", "ApexKernel"]
+kernel/high_kernels.py.bak_20260402_203010:42:class ApexKernel:
+kernel/high_kernels.py.bak_20260402_203010:44:        return {"apex_mode": "steady", "boundary_gate": "open"}
+kernel/high_kernels.py.bak_20260402_203010:47:        return {"apex_mode": "steady", "boundary_gate": "open"}
+kernel/high_kernels.py.bak_20260402_203010:50:        return {"apex_mode": "steady", "boundary_gate": "open"}
+kernel/high_kernels.py.bak_20260402_203010:53:__all__ = ["MirrorKernel", "CrownKernel", "ApexKernel"]
+core/ordinary_bridge.py:43:        "temporal": "temporal_pressure",
+core/leveon_pipeline.before_ordinary_question_core_20260429_055531.py:35:    temporal_markers = [
+core/leveon_pipeline.before_ordinary_question_core_20260429_055531.py:40:    if any(k in low for k in temporal_markers):
+core/leveon_pipeline.before_ordinary_question_core_20260429_055531.py:41:        return "temporal", "trace_timeline"
+core/leveon_pipeline.before_ordinary_question_core_20260429_055531.py:126:            "Timeline gates change the answer path by routing the response through temporal branches, causal hinges, and ordered transitions instead of treating every step as if it were in the same basin."
+core/leveon_pipeline.before_ordinary_question_core_20260429_055531.py:377:        if qt in {"analytical", "emotional", "reflective", "temporal"} or (qt == "invention" and force_language_hint):
+core/leveon_pipeline.before_ordinary_question_core_20260429_055531.py:395:            "temporal_pressure": shape_packet.get("temporal_pressure"),
+core/leveon_pipeline.py:35:    temporal_markers = [
+core/leveon_pipeline.py:40:    if any(k in low for k in temporal_markers):
+core/leveon_pipeline.py:41:        return "temporal", "trace_timeline"
+core/leveon_pipeline.py:180:            "Timeline gates change the answer path by routing the response through temporal branches, causal hinges, and ordered transitions instead of treating every step as if it were in the same basin."
+core/leveon_pipeline.py:431:        if qt in {"analytical", "emotional", "reflective", "temporal"} or (qt == "invention" and force_language_hint):
+core/leveon_pipeline.py:449:            "temporal_pressure": shape_packet.get("temporal_pressure"),
+core/refined_subject_vector_seeds.py:35:        "notes": "multiple active paths, synchronization pressure, temporal coordination"
+core/symbolic_english_adapter.py:28:        apex_mode = str(state.get("apex_mode", "stable"))
+core/symbolic_english_adapter.py:32:        chronifier_overlay = dict(state.get("chronifier_overlay", {}) or {})
+core/symbolic_english_adapter.py:72:        # 4. apex mode
+core/symbolic_english_adapter.py:74:        if apex_mode == "minimal_presence":
+core/symbolic_english_adapter.py:76:        elif apex_mode == "repair_reflection":
+core/symbolic_english_adapter.py:78:        elif apex_mode == "slow_reflective":
+core/symbolic_english_adapter.py:80:        elif apex_mode == "boundary_fallback":
+core/symbolic_english_adapter.py:113:        # 7. chronifier influence
+core/symbolic_english_adapter.py:115:        temporal_mode = str(chronifier_overlay.get("temporal_mode", "neutral"))
+core/symbolic_english_adapter.py:116:        tension = float(chronifier_overlay.get("tension", 0.5))
+core/symbolic_english_adapter.py:118:        if temporal_mode == "grounded_repair":
+core/symbolic_english_adapter.py:120:        elif temporal_mode == "slow_vivid":
+core/symbolic_english_adapter.py:122:        elif temporal_mode == "flow_lucid":
+core/english_loop_runtime.py:7:from brain.temporal.chronifier import Chronifier
+core/english_loop_runtime.py:8:from brain.temporal.chronifier_adapter import ChronifierAdapter
+core/english_loop_runtime.py:9:from brain.cognition.brain_adapter import BrainAdapter
+core/english_loop_runtime.py:11:from kernel.high_kernels import MirrorKernel, CrownKernel, ApexKernel
+core/english_loop_runtime.py:17:    with Chronifier + Brain + Mirror + Crown + Apex.
+core/english_loop_runtime.py:21:        self.raw_chronifier = Chronifier()
+core/english_loop_runtime.py:22:        self.chronifier = ChronifierAdapter(self.raw_chronifier)
+core/english_loop_runtime.py:23:        self.brain = BrainAdapter()
+core/english_loop_runtime.py:27:        self.apex = ApexKernel()
+core/english_loop_runtime.py:69:        chrono = self.chronifier.apply(packet.vector4, packet.coherence_score)
+core/english_loop_runtime.py:72:        packet.chronifier_overlay = dict(chrono.get("chronifier_overlay", {}))
+core/english_loop_runtime.py:76:        brain_result = self.brain.rank_candidates(
+core/english_loop_runtime.py:82:            chronifier_overlay=packet.chronifier_overlay,
+core/english_loop_runtime.py:85:        packet.ranked_candidates = list(brain_result.get("ranked_candidates", []))
+core/english_loop_runtime.py:86:        packet.cognitive_posture = str(brain_result.get("cognitive_posture", "steady"))
+core/english_loop_runtime.py:87:        ranked_choice = str(brain_result.get("chosen_output", "I hear you."))
+core/english_loop_runtime.py:96:        apex = self.apex.integrate(
+core/english_loop_runtime.py:102:        packet.apex_mode = str(apex["apex_mode"])
+core/english_loop_runtime.py:114:            "apex_mode": packet.apex_mode,
+
+[4] Compile current mouth/nerve/bridge
+[OK] compile passed
+
+[5] Current proof reports
+-rw-------. 1 u0_a59 u0_a59  949 May  1 09:20 reports/screenshot_synthesis/2026-05-01_master_build_checkpoint_manifest.json
+-rw-------. 1 u0_a59 u0_a59  995 May  1 09:25 reports/screenshot_synthesis/essence_trace/essence_gate_smoke_2026-05-01.json
+-rw-------. 1 u0_a59 u0_a59 1.5K May  1 09:41 reports/screenshot_synthesis/ordinary_bridge_trace/ordinary_bridge_regression_2026-05-01.json
+

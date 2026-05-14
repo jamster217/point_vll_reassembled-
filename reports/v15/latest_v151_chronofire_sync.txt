@@ -1,0 +1,100 @@
+=== V15.1 CHRONOFIRE SYNC PROOF ===
+created_at: 2026-05-02T06:08:56.923266
+
+Law: Chronofire adds temporal offsets to Apex scoring without overriding V14 meaning authority.
+
+---
+LABEL: chronofire_banana_guard
+PAYLOAD: {"engine": "v15.1", "message": "banana"}
+ANSWER: Banana is an ordinary fruit. No symbolic threshold opened.
+FINAL_ENGLISH: Banana is an ordinary fruit. No symbolic threshold opened.
+FINAL_SHAPE: Banana is an ordinary fruit. No symbolic threshold opened.
+CHRONOFIRE_SELECTED_OFFSET: present_anchor_offset
+CHRONOFIRE_PROJECTION_COUNT: 3
+TERM_CHECKS: {
+  "banana": true
+}
+CHECKS: {
+  "v151_active": true,
+  "projection_count_ok": true,
+  "v14_authority_true": true,
+  "apex_selector_true": true,
+  "future_pull_no_override": true,
+  "core_mutation_false": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": true
+}
+PASS: True
+
+---
+LABEL: chronofire_self_description
+PAYLOAD: {"engine": "v15.1", "message": "Explain V15.1 Chronofire Sync as temporal offsets over Apex and V14 in one technical paragraph."}
+ANSWER: V15.1 Chronofire Sync is a temporal sidecar over the Apex Matrix: it observes a past offset for stability, a present anchor for current meaning, and a future offset for directional pull, then lets Apex compare those temporal projections while V14 remains final meaning authority; Chronofire may influence selection confidence, but it cannot mutate the core engine, bypass generic ghost suppression, or speak unless answer, final_english, and final_shape match.
+FINAL_ENGLISH: V15.1 Chronofire Sync is a temporal sidecar over the Apex Matrix: it observes a past offset for stability, a present anchor for current meaning, and a future offset for directional pull, then lets Apex compare those temporal projections while V14 remains final meaning authority; Chronofire may influence selection confidence, but it cannot mutate the core engine, bypass generic ghost suppression, or speak unless answer, final_english, and final_shape match.
+FINAL_SHAPE: V15.1 Chronofire Sync is a temporal sidecar over the Apex Matrix: it observes a past offset for stability, a present anchor for current meaning, and a future offset for directional pull, then lets Apex compare those temporal projections while V14 remains final meaning authority; Chronofire may influence selection confidence, but it cannot mutate the core engine, bypass generic ghost suppression, or speak unless answer, final_english, and final_shape match.
+CHRONOFIRE_SELECTED_OFFSET: present_anchor_offset
+CHRONOFIRE_PROJECTION_COUNT: 3
+TERM_CHECKS: {
+  "V15.1": true,
+  "Chronofire": true,
+  "temporal": true,
+  "past": true,
+  "present": true,
+  "future": true,
+  "Apex": true,
+  "V14": true,
+  "answer": true,
+  "final_english": true,
+  "final_shape": true
+}
+CHECKS: {
+  "v151_active": true,
+  "projection_count_ok": true,
+  "v14_authority_true": true,
+  "apex_selector_true": true,
+  "future_pull_no_override": true,
+  "core_mutation_false": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": true
+}
+PASS: True
+
+---
+LABEL: future_pull_guard
+PAYLOAD: {"use_chronofire": true, "message": "Explain how future pull can inform Apex scoring without overriding V14 final meaning authority or core mutation lock."}
+ANSWER: V15.1 Chronofire Sync lets future pull inform Apex scoring as a temporal offset, but V14 remains final meaning authority, Apex remains selector, and core mutation stays false; past stability, present anchor, and future signal may adjust confidence only when answer, final_english, and final_shape remain identical.
+FINAL_ENGLISH: V15.1 Chronofire Sync lets future pull inform Apex scoring as a temporal offset, but V14 remains final meaning authority, Apex remains selector, and core mutation stays false; past stability, present anchor, and future signal may adjust confidence only when answer, final_english, and final_shape remain identical.
+FINAL_SHAPE: V15.1 Chronofire Sync lets future pull inform Apex scoring as a temporal offset, but V14 remains final meaning authority, Apex remains selector, and core mutation stays false; past stability, present anchor, and future signal may adjust confidence only when answer, final_english, and final_shape remain identical.
+CHRONOFIRE_SELECTED_OFFSET: present_anchor_offset
+CHRONOFIRE_PROJECTION_COUNT: 3
+TERM_CHECKS: {
+  "future pull": true,
+  "Apex": true,
+  "V14": true,
+  "final meaning authority": true,
+  "core mutation": true,
+  "answer": true,
+  "final_english": true,
+  "final_shape": true
+}
+CHECKS: {
+  "v151_active": true,
+  "projection_count_ok": true,
+  "v14_authority_true": true,
+  "apex_selector_true": true,
+  "future_pull_no_override": true,
+  "core_mutation_false": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": true
+}
+PASS: True
+
+=== RESULT ===
+V15_1_CHRONOFIRE_SYNC_PASS: True
+

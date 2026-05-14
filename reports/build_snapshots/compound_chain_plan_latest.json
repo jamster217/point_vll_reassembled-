@@ -1,0 +1,95 @@
+{
+  "timestamp": 1777958128.0463524,
+  "status": "planned",
+  "planner": "compound_chain_planner",
+  "selected_chain": [
+    {
+      "compound_id": "cmp_mutated_drop_2ea5b23a77dd",
+      "source_kind": "flashback_shape_reasoner_auto_mutation",
+      "score": 1377.0,
+      "impact_score": 464.0,
+      "tags": [
+        "auto_mutation",
+        "meaning_drop",
+        "future_use_selection",
+        "node44",
+        "auto_build",
+        "impact_reinforced",
+        "reinforced_path",
+        "behavior_reinforced"
+      ],
+      "action_hint": "activate_as_primary_route"
+    },
+    {
+      "compound_id": "cmp_controlled_branch_b60c5c667195",
+      "source_kind": "flashback_shape_reasoner_auto_mutation",
+      "score": 51.0,
+      "impact_score": 8.0,
+      "tags": [
+        "auto_mutation",
+        "meaning_drop",
+        "future_use_selection",
+        "node44",
+        "auto_build",
+        "controlled_branch",
+        "temporal_continuity"
+      ],
+      "action_hint": "controlled_branch_candidate"
+    },
+    {
+      "compound_id": "cmp_controlled_branch_3e16843a27d9",
+      "source_kind": "flashback_shape_reasoner_auto_mutation",
+      "score": 51.0,
+      "impact_score": 8.0,
+      "tags": [
+        "auto_mutation",
+        "meaning_drop",
+        "future_use_selection",
+        "node44",
+        "auto_build",
+        "controlled_branch",
+        "emotional_resonance"
+      ],
+      "action_hint": "controlled_branch_candidate"
+    },
+    {
+      "compound_id": "cmp_controlled_branch_81f39c88dd99",
+      "source_kind": "flashback_shape_reasoner_auto_mutation",
+      "score": 51.0,
+      "impact_score": 8.0,
+      "tags": [
+        "auto_mutation",
+        "meaning_drop",
+        "future_use_selection",
+        "node44",
+        "auto_build",
+        "controlled_branch",
+        "language_chain"
+      ],
+      "action_hint": "controlled_branch_candidate"
+    },
+    {
+      "compound_id": "cmp_outcome_900072c30ed5",
+      "source_kind": "outcome_tracker",
+      "score": 784.0,
+      "impact_score": 12,
+      "tags": [
+        "impact",
+        "feedback",
+        "reinforcement",
+        "reinforced_path",
+        "report_support_memory"
+      ],
+      "action_hint": "support_report_only"
+    }
+  ],
+  "multi_step_plan": [
+    "1. Use strongest reinforced compound as primary route anchor.",
+    "2. Use next two compounds as support constraints.",
+    "3. Run active_build_executor.",
+    "4. Run outcome_tracker.",
+    "5. Run reinforcement_decay.",
+    "6. Save resulting plan feedback into compound memory."
+  ]
+}
+

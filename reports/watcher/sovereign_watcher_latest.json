@@ -1,0 +1,73 @@
+{
+  "ts": 1777229048.9836578,
+  "iso": "2026-04-26T18:44:08.983671Z",
+  "kind": "sovereign_watcher_pulse",
+  "elapsed_seconds": 18000.12,
+  "watch_duration_seconds": 86400,
+  "source_body": {
+    "file_count": 332,
+    "digest": "087215ee10ea89d913fd7e871c9ee68e74a41547ec9753409d30089ae7ed8d2c",
+    "changed_since_start": true
+  },
+  "api_probe": {
+    "ok": true,
+    "keys": [
+      "answer",
+      "answer_mode",
+      "ok"
+    ],
+    "clean": true,
+    "answer_chars": 132,
+    "answer_preview": "The deeper answer is the one that keeps the original shape intact while revealing the relation that was implicit rather than spoken."
+  },
+  "ledger": {
+    "exists": true,
+    "line_count": 251,
+    "recent_algorithms": [
+      "Algorithm B",
+      "Algorithm B",
+      "Algorithm B",
+      "Algorithm B",
+      "Algorithm B",
+      "Algorithm B",
+      "Algorithm B",
+      "Algorithm B",
+      "Algorithm B",
+      "Algorithm B"
+    ],
+    "recent_public_scrub": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "recent_estimated_n": [
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12
+    ]
+  },
+  "sovereign_state": {
+    "exists": true,
+    "timestamp": 1777225516.1419513,
+    "generation": 1,
+    "status": "evolved",
+    "mode": "fallback_exponential_sovereign_evolver",
+    "multiplier": 2.718281828459045
+  },
+  "law": "observe only; do not mutate source"
+}
+

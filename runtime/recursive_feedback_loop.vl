@@ -1,0 +1,17 @@
+; FILE: runtime/recursive_feedback_loop.vl
+; Generated: 2026-02-28 06:30:48
+; Le'Veon VoiceLang v1 (compact)
+
+MEM[feedback = 0]
+FLOW[input -> mirror -> merge -> spiral -> return]
+
+TURN{
+    echo = reflect(input)
+    merged = merge(input, echo, feedback)
+    spiral.memory.write(merged)
+    return = merged
+}
+
+SHIFT[feedback += 0.05]
+END
+

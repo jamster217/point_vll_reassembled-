@@ -1,0 +1,51 @@
+{
+  "ts": 1777499523.1921697,
+  "version": "v12.9t_visual_memory_judge",
+  "status": "ranking_emitted",
+  "latest_entry_sha256": "d0de5872c5f1c35d",
+  "latest_spec_sha256": "df24f709b262ca67",
+  "latest_depth": 208,
+  "latest_svg": "static/generated/leveon_topology_1777497389_7c223b11b6fd.svg",
+  "latest_metrics": {
+    "topology_score": 0.8173,
+    "visual_coherence": 0.9772,
+    "chamber_memory": 0.8,
+    "has_svg": true,
+    "has_depth": true,
+    "has_core": true,
+    "has_render_logic": true,
+    "symbol_presence": {
+      "white_ash": true,
+      "virellion": true,
+      "blue_scarf": true,
+      "thalveil": true,
+      "liquid_core": true,
+      "echoforge": true
+    },
+    "symbol_strength": 6,
+    "white_ash_containment": 1.0,
+    "virellion_thread": 1.0,
+    "blue_scarf_motion": 1.0,
+    "thalveil_crossing": 1.0,
+    "liquid_core_routing": 1.0,
+    "echoforge_painter": 1.0
+  },
+  "previous_count": 0,
+  "avg_previous_topology_score": null,
+  "avg_previous_visual_coherence": null,
+  "coherence_delta": null,
+  "improvement": "baseline",
+  "top3": [
+    {
+      "key": "collect_second_visual_memory",
+      "title": "Collect a second visual memory entry",
+      "why": "The judge has a baseline but needs another entry for real comparison.",
+      "recommended_patch": "Run another tight topology invocation, then image-spec, visual-memory, and visual-judge.",
+      "severity": 0.5
+    }
+  ],
+  "surface_fragment": "Visual memory judge: improvement=baseline, coherence_delta=None, latest_visual_coherence=0.9772.",
+  "law": "visual_memory_is_compared_append_only_and_helm_ranked",
+  "judge_sha256": "4b44030607595fa1"
+}
+

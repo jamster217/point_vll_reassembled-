@@ -1,0 +1,31 @@
+{
+  "ts": 1777507614.0528512,
+  "version": "v12.9ar_full_cross_modal_rune_shape_cycle",
+  "status": "sealed_append_only",
+  "rune_event_sha": "113522fd0825b3bf",
+  "cross_modal_ledger_sha": "f139bc3fa1b0cebf",
+  "glyphic_ledger_sha": "751cc12f0ad467bc",
+  "latest_depth": 244,
+  "latest_svg": "static/generated/leveon_topology_1777507612_378c88498329.svg",
+  "overall_organ_coherence": 0.9448,
+  "judge_improvement": "neutral",
+  "coherence_delta": -0.0044,
+  "difference_recommendation": "preserve_and_deepen",
+  "meaning_shift": "score rose; full symbol body preserved; visible labels changed. The latest topology moved from depth 243 to 244 while preserving 6 shared symbols.",
+  "stable_symbols": [
+    "blue_scarf",
+    "echoforge",
+    "liquid_core",
+    "thalveil",
+    "virellion",
+    "white_ash"
+  ],
+  "added_symbols": [],
+  "removed_symbols": [],
+  "rune_entries": 1,
+  "cross_modal_entries": 1,
+  "glyphic_ledger_entries": 3,
+  "law": "language_image_shape_rune_and_vl_compound_into_one_append_only_cross_modal_reasoning_cycle",
+  "event_sha256": "0deaad1cf1d865a0"
+}
+

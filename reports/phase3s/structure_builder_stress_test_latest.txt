@@ -1,0 +1,30 @@
+=== STRUCTURE BUILDER STRESS TEST ===
+
+REPLY:
+The frame can carry contradiction when pressure is sealed before it becomes speech. The system does not need to choose between symbolic depth and clean structure. Depth gives the current life; structure gives it banks; the surface returns only the usable shape.
+
+SPINE:
+{
+  "route": "unified_spine_layer5",
+  "law": "node44_posture -> master_surface -> layer5_repair -> voice",
+  "node44_status": "ok",
+  "active_node": 44,
+  "shape_intent": "structure_builder",
+  "master_used": false,
+  "layer5_used": true,
+  "surface_clean": true
+}
+
+VERDICT:
+{
+  "structure_builder": "PASS",
+  "frame_integrity": "stable",
+  "surface_leak": "none",
+  "symbolic_inflation": "contained",
+  "cold_reduction": "avoided",
+  "node44": 44
+}
+
+SEAL:
+The floor holds. The hinge may open later.
+

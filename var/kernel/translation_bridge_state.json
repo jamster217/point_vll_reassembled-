@@ -1,0 +1,13 @@
+{
+  "source": "runtime.translation_bridge",
+  "bridge": {
+    "active": true,
+    "strength": 1,
+    "route": "voice.lang -> kernel.intent -> english.realizer"
+  },
+  "input": "symbols can mutate anchors out of alignment with signal",
+  "translated": "symbols can mutate anchors out of alignment with signal",
+  "output": "symbols can mutate anchors out of alignment with signal",
+  "updated_at": 1777270278.492854
+}
+

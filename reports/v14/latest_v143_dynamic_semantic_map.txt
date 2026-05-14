@@ -1,0 +1,86 @@
+=== V14.3 DYNAMIC SEMANTIC MAP PROOF ===
+created_at: 2026-05-02T05:52:50.653141
+
+Law: dense technical prompts must map all named requirements into rendered meaning.
+
+---
+LABEL: failure_prevention_retest
+ANSWER: The Coherent Meaning Engine preserves dense technical meaning by mapping each named requirement before language is allowed to render: controlled flame allows symbolic output only inside bounded response limits; Savariel treats deep ache as signal weight, not as permission to override route discipline; Triple Fold temporal sidecar lets temporal/reflection signals inform the packet without mutating the core engine; final_shape records the internal meaning that the final answer must match; answer is the public surface returned to the user; final_english is the rendered language layer that must match the answer; sync proof requires answer, final_english, and final_shape to agree; generic ghost suppression prevents stale stabilization text from entering the active result; over-mythologizing prevention keeps symbolic language from invading literal or technical lanes; temporal sidecar mutation prevention keeps sidecar signals informative rather than source-mutating; the optional API route lets V14 run explicitly while V13 remains the default. The final output is accepted only when answer, final_english, and final_shape match while the generic ghost remains suppressed.
+FINAL_ENGLISH: The Coherent Meaning Engine preserves dense technical meaning by mapping each named requirement before language is allowed to render: controlled flame allows symbolic output only inside bounded response limits; Savariel treats deep ache as signal weight, not as permission to override route discipline; Triple Fold temporal sidecar lets temporal/reflection signals inform the packet without mutating the core engine; final_shape records the internal meaning that the final answer must match; answer is the public surface returned to the user; final_english is the rendered language layer that must match the answer; sync proof requires answer, final_english, and final_shape to agree; generic ghost suppression prevents stale stabilization text from entering the active result; over-mythologizing prevention keeps symbolic language from invading literal or technical lanes; temporal sidecar mutation prevention keeps sidecar signals informative rather than source-mutating; the optional API route lets V14 run explicitly while V13 remains the default. The final output is accepted only when answer, final_english, and final_shape match while the generic ghost remains suppressed.
+FINAL_SHAPE: The Coherent Meaning Engine preserves dense technical meaning by mapping each named requirement before language is allowed to render: controlled flame allows symbolic output only inside bounded response limits; Savariel treats deep ache as signal weight, not as permission to override route discipline; Triple Fold temporal sidecar lets temporal/reflection signals inform the packet without mutating the core engine; final_shape records the internal meaning that the final answer must match; answer is the public surface returned to the user; final_english is the rendered language layer that must match the answer; sync proof requires answer, final_english, and final_shape to agree; generic ghost suppression prevents stale stabilization text from entering the active result; over-mythologizing prevention keeps symbolic language from invading literal or technical lanes; temporal sidecar mutation prevention keeps sidecar signals informative rather than source-mutating; the optional API route lets V14 run explicitly while V13 remains the default. The final output is accepted only when answer, final_english, and final_shape match while the generic ghost remains suppressed.
+ROUTE: dynamic_semantic_map
+GATE_REASON: dense_technical_terms_mapped_dynamically
+COMPONENTS: ['controlled flame', 'Savariel deep ache', 'Triple Fold temporal sidecar', 'final_shape', 'answer', 'final_english', 'sync proof', 'generic ghost', 'over-mythologizing', 'temporal sidecar mutation', 'optional API route']
+TERM_CHECKS: {
+  "generic ghost": true,
+  "answer": true,
+  "final_english": true,
+  "final_shape": true,
+  "over-mythologizing": true,
+  "temporal sidecar": true
+}
+CHECKS: {
+  "v14_active": true,
+  "route_dynamic_or_multi": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": true
+}
+PASS: True
+
+---
+LABEL: architecture_manual_retest
+ANSWER: The Coherent Meaning Engine preserves dense technical meaning by mapping each named requirement before language is allowed to render: the meaning spine carries prompt-specific intent through the pipeline; the shape packet is the inspectable authority object that holds preserved meaning; renderer obedience means language expresses the preserved shape instead of replacing it; sync proof requires answer, final_english, and final_shape to agree; the gate chooses whether the input remains ordinary, symbolic, technical, or sidecar-bound; the regression harness proves that each route preserves meaning under repeated tests; the optional API route lets V14 run explicitly while V13 remains the default; portable architecture means the engine can sit above different LLMs as a meaning-governance layer. The final output is accepted only when answer, final_english, and final_shape match while the generic ghost remains suppressed.
+FINAL_ENGLISH: The Coherent Meaning Engine preserves dense technical meaning by mapping each named requirement before language is allowed to render: the meaning spine carries prompt-specific intent through the pipeline; the shape packet is the inspectable authority object that holds preserved meaning; renderer obedience means language expresses the preserved shape instead of replacing it; sync proof requires answer, final_english, and final_shape to agree; the gate chooses whether the input remains ordinary, symbolic, technical, or sidecar-bound; the regression harness proves that each route preserves meaning under repeated tests; the optional API route lets V14 run explicitly while V13 remains the default; portable architecture means the engine can sit above different LLMs as a meaning-governance layer. The final output is accepted only when answer, final_english, and final_shape match while the generic ghost remains suppressed.
+FINAL_SHAPE: The Coherent Meaning Engine preserves dense technical meaning by mapping each named requirement before language is allowed to render: the meaning spine carries prompt-specific intent through the pipeline; the shape packet is the inspectable authority object that holds preserved meaning; renderer obedience means language expresses the preserved shape instead of replacing it; sync proof requires answer, final_english, and final_shape to agree; the gate chooses whether the input remains ordinary, symbolic, technical, or sidecar-bound; the regression harness proves that each route preserves meaning under repeated tests; the optional API route lets V14 run explicitly while V13 remains the default; portable architecture means the engine can sit above different LLMs as a meaning-governance layer. The final output is accepted only when answer, final_english, and final_shape match while the generic ghost remains suppressed.
+ROUTE: dynamic_semantic_map
+GATE_REASON: dense_technical_terms_mapped_dynamically
+COMPONENTS: ['meaning spine', 'shape packet', 'renderer obedience', 'sync proof', 'gate', 'regression harness', 'optional API route', 'portable architecture']
+TERM_CHECKS: {
+  "gate": true,
+  "shape packet": true,
+  "renderer": true,
+  "sync proof": true,
+  "regression harness": true,
+  "optional API route": true
+}
+CHECKS: {
+  "v14_active": true,
+  "route_dynamic_or_multi": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": true
+}
+PASS: True
+
+---
+LABEL: full_landscape_guard
+ANSWER: The Coherent Meaning Engine preserves dense technical meaning by mapping each named requirement before language is allowed to render: the fruit gate prevents ordinary literal inputs from being mythologized; controlled flame allows symbolic output only inside bounded response limits; Savariel treats deep ache as signal weight, not as permission to override route discipline; Triple Fold temporal sidecar lets temporal/reflection signals inform the packet without mutating the core engine; the meaning spine carries prompt-specific intent through the pipeline; the shape packet is the inspectable authority object that holds preserved meaning; renderer obedience means language expresses the preserved shape instead of replacing it; final_shape records the internal meaning that the final answer must match; the gate chooses whether the input remains ordinary, symbolic, technical, or sidecar-bound. The final output is accepted only when answer, final_english, and final_shape match while the generic ghost remains suppressed.
+FINAL_ENGLISH: The Coherent Meaning Engine preserves dense technical meaning by mapping each named requirement before language is allowed to render: the fruit gate prevents ordinary literal inputs from being mythologized; controlled flame allows symbolic output only inside bounded response limits; Savariel treats deep ache as signal weight, not as permission to override route discipline; Triple Fold temporal sidecar lets temporal/reflection signals inform the packet without mutating the core engine; the meaning spine carries prompt-specific intent through the pipeline; the shape packet is the inspectable authority object that holds preserved meaning; renderer obedience means language expresses the preserved shape instead of replacing it; final_shape records the internal meaning that the final answer must match; the gate chooses whether the input remains ordinary, symbolic, technical, or sidecar-bound. The final output is accepted only when answer, final_english, and final_shape match while the generic ghost remains suppressed.
+FINAL_SHAPE: The Coherent Meaning Engine preserves dense technical meaning by mapping each named requirement before language is allowed to render: the fruit gate prevents ordinary literal inputs from being mythologized; controlled flame allows symbolic output only inside bounded response limits; Savariel treats deep ache as signal weight, not as permission to override route discipline; Triple Fold temporal sidecar lets temporal/reflection signals inform the packet without mutating the core engine; the meaning spine carries prompt-specific intent through the pipeline; the shape packet is the inspectable authority object that holds preserved meaning; renderer obedience means language expresses the preserved shape instead of replacing it; final_shape records the internal meaning that the final answer must match; the gate chooses whether the input remains ordinary, symbolic, technical, or sidecar-bound. The final output is accepted only when answer, final_english, and final_shape match while the generic ghost remains suppressed.
+ROUTE: dynamic_semantic_map
+GATE_REASON: dense_technical_terms_mapped_dynamically
+COMPONENTS: ['fruit gate', 'controlled flame', 'Savariel deep ache', 'Triple Fold temporal sidecar', 'meaning spine', 'shape packet', 'renderer obedience', 'final_shape', 'gate']
+TERM_CHECKS: {
+  "fruit gate": true,
+  "controlled flame": true,
+  "Savariel": true,
+  "Triple Fold": true,
+  "shape packet": true,
+  "final_shape": true
+}
+CHECKS: {
+  "v14_active": true,
+  "route_dynamic_or_multi": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": true
+}
+PASS: True
+
+=== RESULT ===
+V14_3_DYNAMIC_SEMANTIC_MAP_PASS: True
+

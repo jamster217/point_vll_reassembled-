@@ -1,0 +1,336 @@
+from __future__ import annotations
+
+import re
+from typing import Any, Dict, List
+
+try:
+    from core.answer_law_spec import ANSWER_LAW_SPEC
+    _OPT = ANSWER_LAW_SPEC.get("optimizer", {})
+    PLATEAU_DELTA = float(_OPT.get("plateau_delta", 0.03))
+    PLATEAU_PATIENCE = int(_OPT.get("plateau_patience", 2))
+    MAX_ITERS = int(_OPT.get("max_iters", 4))
+except Exception:
+    PLATEAU_DELTA = 0.03
+    PLATEAU_PATIENCE = 2
+    MAX_ITERS = 4
+
+def _clean_text(text: str) -> str:
+    text = str(text or "").strip()
+    text = re.sub(r"\s+", " ", text)
+    text = text.replace(" .", ".").replace(" ,", ",")
+    return text.strip()
+
+def _split_sentences(text: str) -> List[str]:
+    text = _clean_text(text)
+    if not text:
+        return []
+    parts = re.split(r'(?<=[.!?])\s+', text)
+    return [p.strip() for p in parts if p.strip()]
+
+def _glyph_names(glyphs: List[str]) -> List[str]:
+    names: List[str] = []
+    try:
+        from symbolic_memory.glyph_utils import get_glyph
+        for g in glyphs or []:
+            hit = get_glyph(g)
+            if hit and hit.get("name"):
+                name = str(hit["name"]).strip()
+                if name and name not in names:
+                    names.append(name)
+    except Exception:
+        pass
+    return names
+
+def _seed_candidate(seed_text: str, glyphs: List[str]) -> str:
+    text = _clean_text(seed_text)
+    if text:
+        return text
+
+    names = _glyph_names(glyphs)
+    if not names:
+        glyph_text = " ".join(str(g).strip() for g in glyphs if str(g).strip())
+        return _clean_text(glyph_text)
+
+    if len(names) == 1:
+        return f"{names[0]} comes forward."
+    if len(names) == 2:
+        return f"{names[0]} moves through {names[1]}."
+    return f"{names[0]} moves through {names[1]} and {names[2]}."
+
+def _replace_unresolved(text: str, glyphs: List[str]) -> str:
+    low = text.lower()
+    if "[unrecognized" not in low and "something unresolved" not in low:
+        return text
+
+    names = _glyph_names(glyphs)
+    if not names:
+        return text.replace("[unrecognized.", "something unresolved.")
+
+    if len(names) == 1:
+        return f"{names[0]} comes forward."
+    if len(names) == 2:
+        return f"{names[0]} moves through {names[1]}."
+    return f"{names[0]} moves through {names[1]} and {names[2]}."
+
+def _dedupe_sentences(text: str) -> str:
+    sents = _split_sentences(text)
+    out: List[str] = []
+    seen = set()
+    for s in sents:
+        k = s.lower().strip()
+        if k not in seen:
+            out.append(s)
+            seen.add(k)
+    return " ".join(out)
+
+def _refine_once(text: str, hotspot: str, glyphs: List[str], mirror_mode: str, iteration: int) -> str:
+    text = _clean_text(text)
+    text = _replace_unresolved(text, glyphs)
+    text = _dedupe_sentences(text)
+
+    sents = _split_sentences(text)
+    if not sents:
+        return text
+
+    if hotspot == "H_1314":
+        sents = sents[:2]
+        sents = [s.replace("It speaks softly.", "It holds steady.") for s in sents]
+        sents = [re.sub(r"\bperhaps\b|\bmaybe\b|\bkind of\b", "", s, flags=re.I).strip() for s in sents]
+
+    elif hotspot == "H_3134":
+        sents = sents[:2]
+        if len(sents) == 1 and mirror_mode == "recursive":
+            if not sents[0].endswith("."):
+                sents[0] += "."
+            sents.append("It keeps moving without losing the line.")
+
+    elif hotspot == "H_1224":
+        sents = sents[:2]
+        sents = [s.replace("It speaks softly.", "It returns gently.") for s in sents]
+
+    elif hotspot == "H_2224":
+        sents = sents[:1]
+
+    text = " ".join(s.strip() for s in sents if s.strip())
+    text = _clean_text(text)
+    if text and text[-1] not in ".!?":
+        text += "."
+    return text
+
+def _score_law(text: str, hotspot: str, glyphs: List[str], mirror_mode: str) -> float:
+    t = text.lower()
+    words = len(t.split())
+    sentences = len(_split_sentences(text))
+    unresolved = ("[unrecognized" in t) or ("something unresolved" in t)
+
+    score = 0.5
+
+    if hotspot == "H_1314":
+        if words <= 20:
+            score += 0.15
+        if sentences <= 2:
+            score += 0.15
+        if "holds steady" in t or "moves through" in t or "comes forward" in t:
+            score += 0.10
+        if "," not in text:
+            score += 0.05
+
+    elif hotspot == "H_3134":
+        if sentences <= 2:
+            score += 0.15
+        if any(x in t for x in ["moves through", "keeps moving", "wave", "tide", "returns"]):
+            score += 0.15
+        if mirror_mode == "recursive":
+            score += 0.05
+
+    elif hotspot == "H_1224":
+        if words <= 18:
+            score += 0.15
+        if any(x in t for x in ["returns gently", "returns", "gently"]):
+            score += 0.15
+
+    elif hotspot == "H_2224":
+        if words <= 14:
+            score += 0.15
+        if sentences <= 1:
+            score += 0.15
+
+    if unresolved:
+        score -= 0.35
+
+    return max(0.0, min(1.0, score))
+
+def _score_clarity(text: str) -> float:
+    t = _clean_text(text)
+    if not t:
+        return 0.0
+    score = 0.55
+    if "[" not in t and "]" not in t:
+        score += 0.15
+    if "  " not in t:
+        score += 0.10
+    if len(_split_sentences(t)) <= 2:
+        score += 0.10
+    if t[-1] in ".!?":
+        score += 0.10
+    return max(0.0, min(1.0, score))
+
+def _score_preservation(text: str, glyphs: List[str]) -> float:
+    names = _glyph_names(glyphs)
+    if not names:
+        return 0.6
+    t = text.lower()
+    hits = 0
+    for n in names[:3]:
+        if n.lower() in t:
+            hits += 1
+    return max(0.0, min(1.0, hits / max(1, min(3, len(names)))))
+
+def _score_rescue(text: str) -> float:
+    t = text.lower()
+    if "[unrecognized" in t or "something unresolved" in t:
+        return 0.0
+    if "[" in t or "]" in t:
+        return 0.2
+    return 1.0
+
+def _score_surface(text: str) -> float:
+    score = 0.5
+    t = _clean_text(text)
+    if t.endswith((".", "!", "?")):
+        score += 0.15
+    if len(_split_sentences(t)) <= 2:
+        score += 0.10
+    if "it speaks softly" in t.lower() or "it holds steady" in t.lower() or "it keeps moving" in t.lower():
+        score += 0.10
+    if len(t.split()) <= 24:
+        score += 0.15
+    return max(0.0, min(1.0, score))
+
+def _total(scores: Dict[str, float]) -> float:
+    return (
+        0.35 * scores["law"]
+        + 0.25 * scores["clarity"]
+        + 0.20 * scores["preservation"]
+        + 0.10 * scores["rescue"]
+        + 0.10 * scores["surface"]
+    )
+
+def _expand_once(text: str, hotspot: str, glyphs: List[str], mirror_mode: str) -> str:
+    text = _clean_text(text)
+    if not text:
+        return text
+
+    extra = ""
+    if hotspot == "H_1314":
+        extra = "It stays clear and contained."
+    elif hotspot == "H_3134":
+        extra = "It keeps moving without losing the line."
+    elif hotspot == "H_1224":
+        extra = "It returns in a gentler form."
+    elif hotspot == "H_2224":
+        extra = ""
+
+    if extra and extra.lower() not in text.lower():
+        if text[-1] not in ".!?":
+            text += "."
+        text += " " + extra
+
+    return _clean_text(text)
+
+def optimize_answer(
+    seed_text: str,
+    glyphs: List[str] | None = None,
+    hotspot_family: str = "",
+    mirror_mode: str = "",
+    question_type: str = "",
+    expand: bool = False,
+    max_iters: int = MAX_ITERS,
+    plateau_delta: float = PLATEAU_DELTA,
+    plateau_patience: int = PLATEAU_PATIENCE,
+) -> Dict[str, Any]:
+    glyphs = glyphs or []
+    try:
+        from core.answer_law_spec import ANSWER_LAW_SPEC
+        _default_hotspot = str(ANSWER_LAW_SPEC.get("default_hotspot_family", "H_1314"))
+    except Exception:
+        _default_hotspot = "H_1314"
+
+    hotspot_family = str(hotspot_family or "").strip() or _default_hotspot
+    mirror_mode = str(mirror_mode or "").strip()
+
+    candidate = _seed_candidate(seed_text, glyphs)
+    trace: List[Dict[str, Any]] = []
+
+    best_text = candidate
+    best_score = -1.0
+    plateau_hits = 0
+    plateau_reached = False
+
+    for i in range(max_iters):
+        candidate = _refine_once(candidate, hotspot_family, glyphs, mirror_mode, i)
+
+        scores = {
+            "law": _score_law(candidate, hotspot_family, glyphs, mirror_mode),
+            "clarity": _score_clarity(candidate),
+            "preservation": _score_preservation(candidate, glyphs),
+            "rescue": _score_rescue(candidate),
+            "surface": _score_surface(candidate),
+        }
+        total = _total(scores)
+
+        trace.append({
+            "iteration": i,
+            "text": candidate,
+            "scores": scores,
+            "total": round(total, 4),
+        })
+
+        if best_score >= 0 and (total - best_score) < plateau_delta:
+            plateau_hits += 1
+        else:
+            plateau_hits = 0
+
+        if total > best_score:
+            best_score = total
+            best_text = candidate
+
+        if plateau_hits >= plateau_patience and scores["law"] >= 0.90 and scores["rescue"] >= 0.95:
+            plateau_reached = True
+            break
+
+    final_text = best_text
+    expanded = False
+
+    if expand:
+        expanded_text = _expand_once(best_text, hotspot_family, glyphs, mirror_mode)
+        expanded_scores = {
+            "law": _score_law(expanded_text, hotspot_family, glyphs, mirror_mode),
+            "clarity": _score_clarity(expanded_text),
+            "preservation": _score_preservation(expanded_text, glyphs),
+            "rescue": _score_rescue(expanded_text),
+            "surface": _score_surface(expanded_text),
+        }
+        expanded_total = _total(expanded_scores)
+
+        if expanded_total >= (best_score - 0.03) and expanded_scores["law"] >= 0.85:
+            final_text = expanded_text
+            expanded = True
+            trace.append({
+                "iteration": "expand",
+                "text": expanded_text,
+                "scores": expanded_scores,
+                "total": round(expanded_total, 4),
+            })
+            best_score = expanded_total
+
+    return {
+        "final_text": final_text,
+        "trace": trace,
+        "iterations": len([t for t in trace if t["iteration"] != "expand"]),
+        "plateau_reached": plateau_reached,
+        "expanded": expanded,
+        "final_score": round(best_score, 4),
+        "hotspot_family": hotspot_family,
+    }
+

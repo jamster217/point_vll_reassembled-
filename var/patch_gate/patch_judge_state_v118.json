@@ -1,0 +1,47 @@
+{
+  "ts": 1777382606.9221435,
+  "proposal_judgment": {
+    "ts": 1777382606.921951,
+    "kind": "proposal",
+    "path": "/data/data/com.termux/files/home/point_vll_reassembled/var/patch_gate/proposals/v122_runtime_topology_score_history_v122_60dc8c832dc8.json",
+    "proposal_id": "v122_runtime_topology_score_history_v122_60dc8c832dc8",
+    "title": "Create topology score history for self-improvement",
+    "scores": {
+      "path_safety": 1.0,
+      "human_lock": 1.0,
+      "source_protection": 1.0,
+      "has_ops": 1.0,
+      "compile_declared": 1.0,
+      "usefulness": 0.5,
+      "total": 0.95
+    },
+    "notes": [],
+    "suggested_action": "apply_ready",
+    "law": "v118_patch_judge_scores_before_apply"
+  },
+  "event_judgment": {
+    "ts": 1777382606.9221394,
+    "kind": "gate_event",
+    "proposal_id": "v122_runtime_topology_score_history_v122_60dc8c832dc8",
+    "title": "Create topology score history for self-improvement",
+    "event_status": "applied",
+    "scores": {
+      "applied_ok": 1.0,
+      "compile_ok": 1.0,
+      "rollback_ready": 1.0,
+      "path_safety": 1.0,
+      "total": 1.0
+    },
+    "notes": [],
+    "suggested_action": "keep",
+    "law": "v118_patch_judge_scores_applied_event"
+  },
+  "loop_state": {
+    "proposal_ready": true,
+    "last_patch_healthy": true,
+    "source_protected": true,
+    "law": "v118_metrics_on_patch_loop"
+  },
+  "law": "v118_patch_judgment_engine"
+}
+

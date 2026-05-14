@@ -1,0 +1,19 @@
+{
+  "ts": 1778122988.6909716,
+  "runtime_posture": "transitional",
+  "dominant_renderer": "language_pass",
+  "coherence_trend": "unknown",
+  "containment_status": "weak",
+  "mouth_integrity": "stable",
+  "ghost_risk": "low",
+  "optimization_targets": [
+    "containment stabilization",
+    "coherence refinement",
+    "renderer consolidation"
+  ],
+  "signals": {
+    "avg_coherence": 0.588,
+    "avg_containment": 0.4815
+  }
+}
+

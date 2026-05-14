@@ -1,0 +1,19 @@
+{
+  "source": "runtime.apex_mirror_kernel_bridge",
+  "mode": "apex_mirror",
+  "turn_path": "intake->symbolic->apex_mirror->kernel",
+  "symbolic_directive": "preserve_signal_alignment",
+  "inputs_seen": {
+    "intake": true,
+    "symbolic": true,
+    "memory": true,
+    "kernel": true
+  },
+  "apex_bridge_packet": {
+    "mode": "apex_mirror",
+    "turn_path": "intake->symbolic->apex_mirror->kernel",
+    "symbolic_directive": "preserve_signal_alignment"
+  },
+  "updated_at": 1777271257.771956
+}
+

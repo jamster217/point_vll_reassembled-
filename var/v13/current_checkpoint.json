@@ -1,0 +1,22 @@
+{
+  "ts": "2026-05-05T21:34:11-07:00",
+  "checkpoint": "V13 Hybrid Reasoning Mirror — Clean Chronifier Surface",
+  "api_port": 5056,
+  "api_route": "/api/chat",
+  "status": "stable_working_ledge",
+  "verified": {
+    "math": true,
+    "internet_knowledge": true,
+    "search": true,
+    "cockpit": true,
+    "chronifier_build_organ_synthesis": true,
+    "json_guard": true,
+    "coherence_bug_fixed": true
+  },
+  "tinyllama": {
+    "live_path_enabled": false,
+    "reason": "Q8 GGUF corrupted/truncated; model loading can freeze /api/chat"
+  },
+  "law": "retrieved build memory influences reasoning but raw internals stay sealed"
+}
+

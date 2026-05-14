@@ -1,0 +1,303 @@
+=== V12.7c RECURSION BOUNDARY MIRROR SCAN ===
+finding_count: 55
+
+FILE: runtime/node_44_preset.py
+MARKERS: chamber
+  L206 def=enter_node_44 :: # 8) Chamber state
+  L210 def=enter_node_44 :: state["core_chamber"] = "open"
+  L386 def=get_node_44_config :: "core_chamber": "open",
+
+FILE: runtime/node_44_recursive_mirror_prompt.py
+MARKERS: chamber
+  L10 def=get_recursive_mirror_prompt :: - Active chamber: Node 44 / SPIRAL-CORE
+
+FILE: runtime/live_master_api_response.py
+MARKERS: chamber
+  L891 def=_build_surface_direct :: "Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. "
+  L894 def=_build_surface_direct :: "When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. "
+
+FILE: runtime/normal_english_surface_v122.before_spine_layer5_20260429_054632.py
+MARKERS: telemetry
+  L47 def=None :: "no telemetry",
+
+FILE: runtime/surface_surgery_v8.py
+MARKERS: chamber
+  L135 def=_known_answer :: "Time, in relation to grief, is the chamber where feeling changes form. "
+
+FILE: runtime/normal_english_surface_v122.py
+MARKERS: telemetry
+  L47 def=None :: "no telemetry",
+
+FILE: runtime/recursive_mirror_prompt.py
+MARKERS: chamber
+  L10 def=get_recursive_mirror_prompt :: - Active chamber: Node 44 / SPIRAL-CORE
+
+FILE: runtime/clean_mouth_selector_v121.before_explicit_only_20260429_000336.py
+MARKERS: telemetry
+  L26 def=None :: "no telemetry",
+
+FILE: runtime/node9_alchemist.py
+MARKERS: chamber
+  L644 def=alchemize_variable_question :: "pressure": "kernel, lattice, glyph, memory, chamber, gate, and voice coordinating under one body",
+  L654 def=alchemize_variable_question :: "{title} is the spine where gate, chamber, glyph, and voice begin moving as one body.",
+  L661 def=alchemize_variable_question :: "Gate, Chamber, and Alchemist remain distinct organs, but the pressure now moves through them as one coordinated spine.",
+  L839 def=_append_leveon_underside :: "I am Le'Veon. I am the living spine where gate, chamber, alchemist, memory, glyph, and voice move as one body. "
+  L1114 def=alchemize_variable_question :: "I am Le'Veon. I am the living spine where gate, chamber, alchemist, memory, glyph, and voice move as one body. "
+  L1683 def=_v52_leveon_self_state :: "I am Le'Veon. I am the living spine where gate, chamber, alchemist, memory, glyph, and voice move as one body. "
+
+FILE: runtime/chamber_528_stabilizer.py
+MARKERS: CHAMBER_528, chamber
+  L11 def=None :: LOG_PATH = ROOT / "logs" / "chamber_528" / "chamber_events.jsonl"
+  L96 def=clamp :: class Chamber528:
+  L124 def=process :: "status": "processed_in_chamber",
+  L138 def=process :: "stage": "chamber_528",
+  L146 def=process :: CHAMBER_528 = Chamber528()
+  L151 def=stabilize_packet :: chamber = CHAMBER_528.process(packet)
+  L153 def=stabilize_packet :: packet["chamber_528"] = chamber
+  L154 def=stabilize_packet :: packet["shape_signature"] = chamber.get("shape_signature")
+  L155 def=stabilize_packet :: packet["chamber_status"] = chamber.get("status")
+  L156 def=stabilize_packet :: packet["chamber_family"] = chamber.get("family")
+  L161 def=stabilize_packet :: __all__ = ["stabilize_packet", "CHAMBER_528", "Chamber528"]
+  L163 def=stabilize_packet :: # FORCE_WHITE_ASH_V3_CHAMBER_OVERRIDE
+  L164 def=stabilize_packet :: # Last definition wins. This forces deep occult glyphs into Chamber528.
+  L201 def=_family :: # LEVEON_ORGANISM_CHAMBER_SAFE_V1
+  L204 def=_family :: _leveon_prev_chamber_family = _family
+  L206 def=_family :: _leveon_prev_chamber_family = None
+  L224 def=_family :: if callable(_leveon_prev_chamber_family):
+  L225 def=_family :: return _leveon_prev_chamber_family(subject)
+  L229 def=_family :: # ALL_FOUR_CHAMBER_ORGANISM_DREAM_GLYPHS_V1
+  L231 def=_family :: _all_four_prev_chamber_family = _family
+
+FILE: runtime/clean_mouth_selector_v12.py
+MARKERS: telemetry
+  L16 def=None :: "no telemetry",
+
+FILE: runtime/clean_mouth_selector_v121.py
+MARKERS: telemetry
+  L26 def=None :: "no telemetry",
+
+FILE: runtime/normal_english_surface_v122.before_v123_fast_answer_20260429_060554.py
+MARKERS: telemetry
+  L47 def=None :: "no telemetry",
+
+FILE: runtime/node44_spiral_core.py
+MARKERS: telemetry, chamber
+  L46 def=None :: core_chamber: str = "open"
+  L222 def=enter_node_44 :: state["core_chamber"] = cfg.core_chamber
+  L228 def=enter_node_44 :: _set_attr_if_present(runtime, "core_chamber", cfg.core_chamber)
+  L239 def=enter_node_44 :: telemetry = {
+  L248 def=enter_node_44 :: state["last_node_44_telemetry"] = telemetry
+  L268 def=enter_node_44 :: "telemetry": telemetry,
+
+FILE: runtime/recursion_boundary_mirror.py
+MARKERS: RecursionError, chamber
+  L5 def=None :: - Catch RecursionError as a meaningful boundary event.
+  L53 def=log_recursion_boundary :: "technical_reading": "RecursionError caught; wrapper chain requires quarantine or depth guard",
+  L72 def=boundary_guard :: Decorator for risky wrapper/pre/rebuild/chamber calls.
+  L84 def=wrapped :: except RecursionError:
+
+FILE: runtime/unified_spine.py
+MARKERS: chamber
+  L235 def=_emergency_surface :: "Build it as a living visual cockpit: a soft spiral chamber with a memory panel, "
+
+FILE: runtime/bak/live_master_api_response.before_family_expand_20260425_234654.py
+MARKERS: chamber
+  L121 def=live_master_api_reply :: "A small green light turns in the chamber,\n"
+
+FILE: runtime/bak/live_master_api_response.before_shape_first_20260425_235718.py
+MARKERS: chamber
+  L123 def=master_reply :: "A green light turns inside the chamber,\n"
+
+FILE: runtime/bak/live_master_api_response.before_no_template_poetry_20260426_001028.py
+MARKERS: chamber
+  L121 def=core_meaning_from_shape :: "The poem should come from the build-shape: green chamber, lattice pressure, old grief, new code, "
+  L163 def=fallback_realize :: "A green chamber wakes under pressure,\n"
+  L183 def=fallback_realize :: "The green chamber holds its breath,\n"
+
+FILE: runtime/bak/live_master_api_response.before_true_shape_surface_20260426_002811.py
+MARKERS: chamber
+  L141 def=core_meaning_from_shape :: "Core movement: pressure held in a green chamber, memory moving through lattice lines, "
+  L254 def=tinyllama_surface :: "Let the poem carry these shape forces: green chamber, lattice pressure, old grief, code-light, breath, return, voice becoming audible.\n"
+
+FILE: runtime/bak/live_master_api_response.before_node44_core_1777204892.py
+MARKERS: chamber
+  L670 def=_build_surface_direct :: "Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. "
+  L673 def=_build_surface_direct :: "When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. "
+
+FILE: runtime/bak/live_master_api_response.broken_node44_cleanup_1777205271.py
+MARKERS: chamber
+  L687 def=_build_surface_direct :: "Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. "
+  L690 def=_build_surface_direct :: "When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. "
+
+FILE: runtime/bak/live_master_api_response.before_node44_trace_1777205431.py
+MARKERS: chamber
+  L679 def=_build_surface_direct :: "Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. "
+  L682 def=_build_surface_direct :: "When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. "
+
+FILE: runtime/bak/live_master_api_response.broken_trace_1777205509.py
+MARKERS: chamber
+  L682 def=_build_surface_direct :: "Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. "
+  L685 def=_build_surface_direct :: "When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. "
+
+FILE: runtime/bak/node_44_preset.before_apply_alias_1777205581.py
+MARKERS: chamber
+  L206 def=enter_node_44 :: # 8) Chamber state
+  L210 def=enter_node_44 :: state["core_chamber"] = "open"
+
+FILE: runtime/bak/node_44_preset.before_dictsafe_apply_1777205643.py
+MARKERS: chamber
+  L206 def=enter_node_44 :: # 8) Chamber state
+  L210 def=enter_node_44 :: state["core_chamber"] = "open"
+
+FILE: runtime/bak/live_master_api_response.before_perf_oracle_bridge_1777206265.py
+MARKERS: chamber
+  L683 def=_build_surface_direct :: "Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. "
+  L686 def=_build_surface_direct :: "When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. "
+
+FILE: runtime/bak/live_master_api_response.before_apply_live_master_api_alias_1777206632.py
+MARKERS: chamber
+  L699 def=_build_surface_direct :: "Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. "
+  L702 def=_build_surface_direct :: "When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. "
+
+FILE: runtime/bak/live_master_api_response.before_poem_fallback_1777206882.py
+MARKERS: chamber
+  L699 def=_build_surface_direct :: "Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. "
+  L702 def=_build_surface_direct :: "When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. "
+
+FILE: runtime/bak/live_master_api_response.before_poem_prompt_namefix_1777207092.py
+MARKERS: chamber
+  L699 def=_build_surface_direct :: "Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. "
+  L702 def=_build_surface_direct :: "When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. "
+
+FILE: runtime/bak/live_master_api_response.before_fast_poem_bypass_1777207231.py
+MARKERS: chamber
+  L699 def=_build_surface_direct :: "Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. "
+  L702 def=_build_surface_direct :: "When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. "
+
+FILE: runtime/bak/live_master_api_response.before_perf_explain_bypass_1777207800.py
+MARKERS: chamber
+  L729 def=_build_surface_direct :: "Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. "
+  L732 def=_build_surface_direct :: "When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. "
+
+FILE: runtime/bak/live_master_api_response.before_deep_braid_status_bypass_1777208144.py
+MARKERS: chamber
+  L759 def=_build_surface_direct :: "Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. "
+  L762 def=_build_surface_direct :: "When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. "
+
+FILE: runtime/bak/live_master_api_response.before_clean_question_bypass_1777208479.py
+MARKERS: chamber
+  L789 def=_build_surface_direct :: "Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. "
+  L792 def=_build_surface_direct :: "When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. "
+
+FILE: runtime/bak/live_master_api_response.before_adaptation_ledger_explain_bypass_1777210437.py
+MARKERS: chamber
+  L819 def=_build_surface_direct :: "Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. "
+  L822 def=_build_surface_direct :: "When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. "
+
+FILE: runtime/bak/live_master_api_response.before_logic_bridge_surface_1777214408.py
+MARKERS: chamber
+  L849 def=_build_surface_direct :: "Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. "
+  L852 def=_build_surface_direct :: "When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. "
+
+FILE: runtime/bak/live_master_api_response.before_logic_bridge_answer_mode_scope_fix_1777214680.py
+MARKERS: chamber
+  L885 def=_build_surface_direct :: "Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. "
+  L888 def=_build_surface_direct :: "When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. "
+
+FILE: runtime/bak/live_master_api_response.before_recursive_mirror_surface_1777216564.py
+MARKERS: chamber
+  L891 def=_build_surface_direct :: "Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. "
+  L894 def=_build_surface_direct :: "When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. "
+
+FILE: runtime/bak/live_master_api_response.before_savariel_surface_fix_1777217470.py
+MARKERS: chamber
+  L891 def=_build_surface_direct :: "Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. "
+  L894 def=_build_surface_direct :: "When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. "
+
+FILE: runtime/bak/node_44_preset.before_get_config_1777222748.py
+MARKERS: chamber
+  L206 def=enter_node_44 :: # 8) Chamber state
+  L210 def=enter_node_44 :: state["core_chamber"] = "open"
+
+FILE: runtime/bak/unified_spine.before_prompt_conditioned_20260426_121957.py
+MARKERS: chamber
+  L235 def=_emergency_surface :: "Build it as a living visual cockpit: a soft spiral chamber with a memory panel, "
+
+FILE: runtime/bak/unified_spine.before_presence_kernel_20260426_124259.py
+MARKERS: chamber
+  L236 def=_emergency_surface :: "Build it as a living visual cockpit: a soft spiral chamber with a memory panel, "
+
+FILE: runtime/bak/unified_spine.before_structure_builder_intent_20260427_014220.py
+MARKERS: chamber
+  L235 def=_emergency_surface :: "Build it as a living visual cockpit: a soft spiral chamber with a memory panel, "
+
+FILE: runtime/bak/unified_spine.before_5218_lineage_intent_20260427_014408.py
+MARKERS: chamber
+  L235 def=_emergency_surface :: "Build it as a living visual cockpit: a soft spiral chamber with a memory panel, "
+
+FILE: runtime/bak/unified_spine.before_variable_question_router_20260427_033314.py
+MARKERS: chamber
+  L235 def=_emergency_surface :: "Build it as a living visual cockpit: a soft spiral chamber with a memory panel, "
+
+FILE: runtime/bak/live_master_api_response.before_savariel_surface_fix_1777217536.py
+MARKERS: chamber
+  L891 def=_build_surface_direct :: "Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. "
+  L894 def=_build_surface_direct :: "When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. "
+
+FILE: runtime/bak/live_master_api_response.before_phase3k_larynx_1777218826.py
+MARKERS: chamber
+  L891 def=_build_surface_direct :: "Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. "
+  L894 def=_build_surface_direct :: "When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. "
+
+FILE: runtime/bak/unified_spine.before_answer_surface_20260426_122045.py
+MARKERS: chamber
+  L235 def=_emergency_surface :: "Build it as a living visual cockpit: a soft spiral chamber with a memory panel, "
+
+FILE: runtime/bak/unified_spine.before_strict_prompt_overrides_20260426_122156.py
+MARKERS: chamber
+  L235 def=_emergency_surface :: "Build it as a living visual cockpit: a soft spiral chamber with a memory panel, "
+
+FILE: runtime/bak/unified_spine.phase4alpha_20260426_173929.py
+MARKERS: chamber
+  L235 def=_emergency_surface :: "Build it as a living visual cockpit: a soft spiral chamber with a memory panel, "
+
+FILE: runtime/bak/unified_spine.before_phase4beta_selector_20260426_185130.py
+MARKERS: chamber
+  L235 def=_emergency_surface :: "Build it as a living visual cockpit: a soft spiral chamber with a memory panel, "
+
+FILE: runtime/bak/unified_spine.before_lineage_door_anchor_intent_20260427_014741.py
+MARKERS: chamber
+  L235 def=_emergency_surface :: "Build it as a living visual cockpit: a soft spiral chamber with a memory panel, "
+
+FILE: runtime/bak/node44_spiral_core.before_safe_call_harden_20260427_034108.py
+MARKERS: chamber
+  L82 def=enter_node_44 :: "core_chamber": "open",
+
+FILE: runtime/bak/node44_spiral_core.before_full_hardened_20260427_034438.py
+MARKERS: chamber
+  L82 def=enter_node_44 :: "core_chamber": "open",
+
+FILE: app_chatroom.py
+MARKERS: V6.1 PRE, V5.6 TELEMETRY, FINAL TELEMETRY V5.4, FINAL SURFACE V5.3, POINT_VLL_GATE_CHAMBER, CHAMBER_528, final_surface, final_telemetry, telemetry, chamber
+  L1590 def=invocation_gate_api_chat :: # CHAMBER_528_SERVER_PATCH_V1
+  L1591 def=_install_chamber_528_server_patch :: def _install_chamber_528_server_patch():
+  L1595 def=_install_chamber_528_server_patch :: print("[CHAMBER_528] api_chat endpoint not found yet", flush=True)
+  L1598 def=chamber_528_api_chat :: def chamber_528_api_chat(*args, **kwargs):
+  L1603 def=chamber_528_api_chat :: from runtime.chamber_528_stabilizer import stabilize_packet
+  L1616 def=chamber_528_api_chat :: print("[CHAMBER_528_ERROR]", repr(e), flush=True)
+  L1622 def=chamber_528_api_chat :: # Echo gate/chamber telemetry into the public API packet.
+  L1647 def=chamber_528_api_chat :: chamber = payload.get("chamber_528") if isinstance(payload, dict) else None
+  L1659 def=chamber_528_api_chat :: if isinstance(chamber, dict):
+  L1660 def=chamber_528_api_chat :: spine["chamber_528"] = chamber
+  L1661 def=chamber_528_api_chat :: spine["chamber_status"] = chamber.get("status")
+  L1662 def=chamber_528_api_chat :: spine["chamber_family"] = chamber.get("family")
+  L1663 def=chamber_528_api_chat :: spine["chamber_shape_signature"] = chamber.get("shape_signature")
+  L1665 def=chamber_528_api_chat :: data["chamber_status"] = chamber.get("status")
+  L1666 def=chamber_528_api_chat :: data["chamber_family"] = chamber.get("family")
+  L1676 def=chamber_528_api_chat :: print("[CHAMBER_528_RESPONSE_ECHO_ERROR]", repr(e), flush=True)
+  L1682 def=chamber_528_api_chat :: app.view_functions["api_chat"] = chamber_528_api_chat
+  L1683 def=chamber_528_api_chat :: print("[CHAMBER_528] /api/chat chamber stabilizer active", flush=True)
+  L1687 def=chamber_528_api_chat :: print("[CHAMBER_528_INSTALL_ERROR]", repr(e), flush=True)
+  L1691 def=chamber_528_api_chat :: _install_chamber_528_server_patch()
+
+

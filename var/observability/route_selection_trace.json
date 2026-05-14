@@ -1,0 +1,15 @@
+{
+  "ts": 1778123711.8687203,
+  "route_selection": {
+    "prompt_type": "unknown",
+    "selected_route": "language_pass",
+    "ordinary_escalation": true,
+    "narration_pressure": 0.0,
+    "knowledge_pressure": 0.0
+  },
+  "reasoning_observation": [
+    "ordinary knowledge mouth engaged successfully"
+  ],
+  "recommendations": []
+}
+

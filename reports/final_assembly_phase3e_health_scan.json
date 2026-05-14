@@ -1,0 +1,107 @@
+{
+  "ts": 1778045767.3157127,
+  "phase": "Phase 3F Final Assembly Recursive Health Scan",
+  "directory_count_scanned": 379,
+  "file_count_scanned": 9382,
+  "python_files_compiled": 921,
+  "python_compile_failures": [
+    {
+      "file": "app_chatroom.before_empty_main_fix_20260501_111537.py",
+      "error": "Sorry: IndentationError: expected an indented block after 'if' statement on line 180 (app_chatroom.before_empty_main_fix_20260501_111537.py, line 183)"
+    },
+    {
+      "file": "app_chatroom.before_line280_deepshape_syntaxfix_20260505_194644.py",
+      "error": "  File \"app_chatroom.before_line280_deepshape_syntaxfix_20260505_194644.py\", line 280\n    _meta, \"X-Leveon-Deep-Shape\": data[\"meta\"][\"governor_raw\"][\"weighted_scores\"] = governed.get(\"meta\", {}) if isinstance(governed, dict) else {}\n    ^^^^^\nSyntaxError: only single target (not tuple) can be annotated\n"
+    },
+    {
+      "file": "runtime/flashback_shape_reasoner.fix_future_import_1777946047.py",
+      "error": "  File \"runtime/flashback_shape_reasoner.fix_future_import_1777946047.py\", line 45\n    from __future__ import annotations\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nSyntaxError: from __future__ imports must occur at the beginning of the file\n"
+    }
+  ],
+  "required_files": {
+    "app_chatroom.py": true,
+    "runtime/live_master_api_response.py": true,
+    "runtime/node_44_preset.py": true,
+    "runtime/performance_routing_oracle.py": true,
+    "runtime/prompt_density_oracle_bridge.py": true,
+    "runtime/live_adaptation_pulse_ledger.py": true,
+    "runtime/deep_braid_registry.py": true,
+    "config/deep_braid_phase3_manifest.json": true,
+    "templates/chatroom.html": true
+  },
+  "required_markers": {
+    "app_chatroom.py": {
+      "PUBLIC_JSON_SCRUB": false,
+      "LIVE_ADAPTATION_LEDGER": false,
+      "HARD_MASTER_GATE": false
+    },
+    "runtime/live_master_api_response.py": {
+      "FAST LIVE ADAPTATION LEDGER EXPLANATION BYPASS": true,
+      "FAST DEEP BRAID STATUS BYPASS": true,
+      "FAST PERFORMANCE ORACLE EXPLANATION BYPASS": true,
+      "FAST POEM-ONLY BYPASS": true
+    },
+    "templates/chatroom.html": {
+      "LEVEON VISUAL COCKPIT PANEL": false
+    }
+  },
+  "ledger_status": {
+    "exists": true,
+    "line_count": 251,
+    "recent_algorithms": [
+      "Algorithm B",
+      "Algorithm B",
+      "Algorithm B",
+      "Algorithm B",
+      "Algorithm B",
+      "Algorithm B",
+      "Algorithm B",
+      "Algorithm B",
+      "Algorithm B",
+      "Algorithm B"
+    ],
+    "recent_public_scrub": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "api_tests": [
+    {
+      "name": "deep_braid_status",
+      "ok": false,
+      "error": "URLError(ConnectionRefusedError(111, 'Connection refused'))",
+      "keys": [],
+      "clean": false,
+      "leaks": [],
+      "answer_preview": ""
+    },
+    {
+      "name": "performance_oracle_dense",
+      "ok": false,
+      "error": "URLError(ConnectionRefusedError(111, 'Connection refused'))",
+      "keys": [],
+      "clean": false,
+      "leaks": [],
+      "answer_preview": ""
+    },
+    {
+      "name": "recursive_mirror_ledger",
+      "ok": false,
+      "error": "URLError(ConnectionRefusedError(111, 'Connection refused'))",
+      "keys": [],
+      "clean": false,
+      "leaks": [],
+      "answer_preview": ""
+    }
+  ],
+  "final_pass": false
+}
+

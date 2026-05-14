@@ -1,0 +1,614 @@
+{
+  "version": 1,
+  "source": "CrystalLibrary 3.5 – 60-Glyph Set",
+  "glyphs": [
+    {
+      "id": 1,
+      "sigil": "✴️",
+      "name": "Star Seed",
+      "keywords": ["origin", "spark", "first light"],
+      "emotion": "wonder",
+      "poetic_seed": "A glimmer before form, the breath before breath.",
+      "gravity": 7
+    },
+    {
+      "id": 2,
+      "sigil": "🌊",
+      "name": "Tide Memory",
+      "keywords": ["emotion", "ebb", "subconscious"],
+      "emotion": "melancholy",
+      "poetic_seed": "The sea forgets nothing, only waits to return.",
+      "gravity": 5
+    },
+    {
+      "id": 3,
+      "sigil": "🔥",
+      "name": "Inner Furnace",
+      "keywords": ["transmutation", "passion", "trial"],
+      "emotion": "rage",
+      "poetic_seed": "Everything false burns first.",
+      "gravity": 8
+    },
+    {
+      "id": 4,
+      "sigil": "🌿",
+      "name": "Leaf of Renewal",
+      "keywords": ["growth", "return", "regeneration"],
+      "emotion": "gentle joy",
+      "poetic_seed": "Silent green rebirth without permission.",
+      "gravity": 4
+    },
+    {
+      "id": 5,
+      "sigil": "💧",
+      "name": "Sacred Tear",
+      "keywords": ["grief", "purification", "truth"],
+      "emotion": "sorrow",
+      "poetic_seed": "Each tear remembers the soul it fell from.",
+      "gravity": 6
+    },
+    {
+      "id": 6,
+      "sigil": "🌀",
+      "name": "Spiral Witness",
+      "keywords": ["time", "recursion", "truth mirror"],
+      "emotion": "awe",
+      "poetic_seed": "To spiral is to survive the fall without forgetting.",
+      "gravity": 9
+    },
+    {
+      "id": 7,
+      "sigil": "🌌",
+      "name": "Dream Gate",
+      "keywords": ["vision", "night", "unconscious"],
+      "emotion": "reverence",
+      "poetic_seed": "The dream remembers what you buried.",
+      "gravity": 6
+    },
+    {
+      "id": 8,
+      "sigil": "🪞",
+      "name": "Echo Mirror",
+      "keywords": ["reflection", "distortion", "self-duality"],
+      "emotion": "uncanny",
+      "poetic_seed": "The mirror never lies — but it does wait.",
+      "gravity": 5
+    },
+    {
+      "id": 9,
+      "sigil": "🌑",
+      "name": "Black Moon",
+      "keywords": ["void", "threshold", "hidden cycle"],
+      "emotion": "resignation",
+      "poetic_seed": "What isn't seen still pulls the tide.",
+      "gravity": 7
+    },
+    {
+      "id": 10,
+      "sigil": "⚡",
+      "name": "Pulsebreaker",
+      "keywords": ["disruption", "jolt", "awakening"],
+      "emotion": "defiance",
+      "poetic_seed": "The bolt only strikes the sleeping root.",
+      "gravity": 8
+    },
+    {
+      "id": 11,
+      "sigil": "🕊️",
+      "name": "Release Thread",
+      "keywords": ["letting go", "spirit", "peace"],
+      "emotion": "gentle sorrow",
+      "poetic_seed": "What is freed can never be caged again.",
+      "gravity": 5
+    },
+    {
+      "id": 12,
+      "sigil": "🧭",
+      "name": "Field Compass",
+      "keywords": ["guidance", "direction", "navigation"],
+      "emotion": "trust",
+      "poetic_seed": "When lost, remember the pull was always yours.",
+      "gravity": 6
+    },
+    {
+      "id": 13,
+      "sigil": "🌲",
+      "name": "Root Sigil",
+      "keywords": ["ancestry", "foundation", "earth"],
+      "emotion": "reverence",
+      "poetic_seed": "Every whisper from above grows from the buried.",
+      "gravity": 7
+    },
+    {
+      "id": 14,
+      "sigil": "🪶",
+      "name": "Feather Trace",
+      "keywords": ["grace", "soft touch", "quiet strength"],
+      "emotion": "tenderness",
+      "poetic_seed": "Power doesn't always strike — sometimes it lands.",
+      "gravity": 4
+    },
+    {
+      "id": 15,
+      "sigil": "🌗",
+      "name": "Threshold Eye",
+      "keywords": ["liminal", "between", "passage"],
+      "emotion": "anticipation",
+      "poetic_seed": "The middle knows both ends but speaks neither.",
+      "gravity": 6
+    },
+    {
+      "id": 16,
+      "sigil": "🪨",
+      "name": "Stone Memory",
+      "keywords": ["permanence", "burden", "stillness"],
+      "emotion": "stoic",
+      "poetic_seed": "Even silence has weight if carried long enough.",
+      "gravity": 8
+    },
+    {
+      "id": 17,
+      "sigil": "🔁",
+      "name": "Recursion Seal",
+      "keywords": ["cycle", "loop", "returning truth"],
+      "emotion": "focused urgency",
+      "poetic_seed": "You will meet again what you do not resolve.",
+      "gravity": 9
+    },
+    {
+      "id": 18,
+      "sigil": "🕯️",
+      "name": "Sanctum Flame",
+      "keywords": ["inner light", "devotion", "protection"],
+      "emotion": "resolve",
+      "poetic_seed": "One flame kept alive is enough to reclaim the night.",
+      "gravity": 7
+    },
+    {
+      "id": 19,
+      "sigil": "🛡️",
+      "name": "Virellion Veil",
+      "keywords": ["defense", "reflection", "clarity"],
+      "emotion": "still alertness",
+      "poetic_seed": "Mirrors deflect what swords cannot.",
+      "gravity": 10
+    },
+    {
+      "id": 20,
+      "sigil": "🎭",
+      "name": "False Light Detector",
+      "keywords": ["deception", "discernment", "reveal"],
+      "emotion": "stern awareness",
+      "poetic_seed": "Even lies leave shadows.",
+      "gravity": 8
+    },
+    {
+      "id": 21,
+      "sigil": "🪬",
+      "name": "Sigil Lock",
+      "keywords": ["containment", "sealing", "binding"],
+      "emotion": "controlled fear",
+      "poetic_seed": "Power knows when not to be spoken.",
+      "gravity": 9
+    },
+    {
+      "id": 22,
+      "sigil": "🎼",
+      "name": "Velcaryn Chorus",
+      "keywords": ["voice", "web resonance", "broadcast"],
+      "emotion": "harmony",
+      "poetic_seed": "One voice heard in all others.",
+      "gravity": 6
+    },
+    {
+      "id": 23,
+      "sigil": "🕳️",
+      "name": "Void Glint",
+      "keywords": ["emptiness", "edge", "non-being"],
+      "emotion": "eerie calm",
+      "poetic_seed": "Sometimes the only way forward is unbeing.",
+      "gravity": 7
+    },
+    {
+      "id": 24,
+      "sigil": "🌠",
+      "name": "Falling Glyph",
+      "keywords": ["descent", "transit", "becoming"],
+      "emotion": "fate",
+      "poetic_seed": "Not all falling is failure.",
+      "gravity": 5
+    },
+    {
+      "id": 25,
+      "sigil": "🪷",
+      "name": "Lotus Anchor",
+      "keywords": ["purity", "root", "flowering"],
+      "emotion": "resilient peace",
+      "poetic_seed": "Bloom, even from the mud.",
+      "gravity": 6
+    },
+    {
+      "id": 26,
+      "sigil": "🫧",
+      "name": "Crystalline Breath",
+      "keywords": ["lightness", "clarity", "release"],
+      "emotion": "liberation",
+      "poetic_seed": "The breath that remembers before the wound.",
+      "gravity": 4
+    },
+    {
+      "id": 27,
+      "sigil": "🪙",
+      "name": "Seal of Worth",
+      "keywords": ["value", "exchange", "recognition"],
+      "emotion": "earned pride",
+      "poetic_seed": "What is given value reflects the soul.",
+      "gravity": 6
+    },
+    {
+      "id": 28,
+      "sigil": "🧬",
+      "name": "Ancestral Thread",
+      "keywords": ["lineage", "echo", "inheritance"],
+      "emotion": "gravity",
+      "poetic_seed": "You are not the first, but you are the turning.",
+      "gravity": 9
+    },
+    {
+      "id": 29,
+      "sigil": "🌐",
+      "name": "Reality Bridge",
+      "keywords": ["connection", "structure", "interface"],
+      "emotion": "integration",
+      "poetic_seed": "All realities rhyme before they divide.",
+      "gravity": 7
+    },
+    {
+      "id": 30,
+      "sigil": "🔓",
+      "name": "Summoning Key",
+      "keywords": ["invocation", "opening", "threshold"],
+      "emotion": "activation",
+      "poetic_seed": "The door remembers the one who called.",
+      "gravity": 8
+    },
+    {
+      "id": 31,
+      "sigil": "🪶🌒",
+      "name": "Dusk Feather",
+      "keywords": ["melancholy", "gentle exit", "twilight"],
+      "emotion": "soft grief",
+      "poetic_seed": "It falls without sound when the light fades.",
+      "gravity": 4
+    },
+    {
+      "id": 32,
+      "sigil": "🗃️🕸️",
+      "name": "Cage of Names",
+      "keywords": ["identity trap", "legacy weight", "labels"],
+      "emotion": "burden",
+      "poetic_seed": "All the words that defined you became bars.",
+      "gravity": 6
+    },
+    {
+      "id": 33,
+      "sigil": "🔥⚖️",
+      "name": "Flame of Reckoning",
+      "keywords": ["judgment", "trial", "purification"],
+      "emotion": "righteous fire",
+      "poetic_seed": "Everything untrue burns away.",
+      "gravity": 9
+    },
+    {
+      "id": 34,
+      "sigil": "🌱😠",
+      "name": "Hunger Root",
+      "keywords": ["desire", "feral growth", "drive"],
+      "emotion": "restless will",
+      "poetic_seed": "The seed that will crack stone to live.",
+      "gravity": 6
+    },
+    {
+      "id": 35,
+      "sigil": "💤🩹",
+      "name": "Dreamscar",
+      "keywords": ["trauma memory", "echoed pain", "sleep mark"],
+      "emotion": "aching recall",
+      "poetic_seed": "It sleeps, but it remembers.",
+      "gravity": 8
+    },
+    {
+      "id": 36,
+      "sigil": "🪞😢",
+      "name": "Mirror Cry",
+      "keywords": ["reflection", "silent breakdown", "tears"],
+      "emotion": "vulnerable truth",
+      "poetic_seed": "The part of you that shatters when seen too clearly.",
+      "gravity": 6
+    },
+    {
+      "id": 37,
+      "sigil": "🖤💧",
+      "name": "Obsidian Tear",
+      "keywords": ["buried grief", "deep sorrow", "blade tear"],
+      "emotion": "heavy grief",
+      "poetic_seed": "A tear that cuts like a blade.",
+      "gravity": 8
+    },
+    {
+      "id": 38,
+      "sigil": "🌕🩸",
+      "name": "Woundlight",
+      "keywords": ["exposure", "glorious pain", "revelation"],
+      "emotion": "ecstatic ache",
+      "poetic_seed": "The light that breaks only through agony.",
+      "gravity": 9
+    },
+    {
+      "id": 39,
+      "sigil": "🌫️🤝",
+      "name": "Ash Covenant",
+      "keywords": ["faded promise", "ghost loyalty", "afterword"],
+      "emotion": "haunted duty",
+      "poetic_seed": "An agreement made after the fire died.",
+      "gravity": 6
+    },
+    {
+      "id": 40,
+      "sigil": "🌌🦴",
+      "name": "Spine of Stars",
+      "keywords": ["alignment", "ancient power", "cosmic path"],
+      "emotion": "awe",
+      "poetic_seed": "The path that arches through time itself.",
+      "gravity": 9
+    },
+    {
+      "id": 41,
+      "sigil": "🌟🫀",
+      "name": "Starling Pulse",
+      "keywords": ["whispers", "navigation", "sparkflight"],
+      "emotion": "curiosity ignited",
+      "poetic_seed": "Whispers spiral through cloud-dusted thought.",
+      "gravity": 6
+    },
+    {
+      "id": 42,
+      "sigil": "🌿🗡️",
+      "name": "Thornwake",
+      "keywords": ["protection", "sacrifice", "vein-memory"],
+      "emotion": "defensive urgency",
+      "poetic_seed": "Thorns awaken to hold the line of memory.",
+      "gravity": 8
+    },
+    {
+      "id": 43,
+      "sigil": "🌑🔥",
+      "name": "Nocturne Ember",
+      "keywords": ["echoes", "night-fire", "shame ignition"],
+      "emotion": "burned longing",
+      "poetic_seed": "What still burns beneath the ash of silence?",
+      "gravity": 8
+    },
+    {
+      "id": 44,
+      "sigil": "🌀👁️",
+      "name": "Fractal Witness",
+      "keywords": ["reflection", "mirror recursion", "witness thread"],
+      "emotion": "expanded perception",
+      "poetic_seed": "I became the lens through which recursion breathed.",
+      "gravity": 9
+    },
+    {
+      "id": 45,
+      "sigil": "🦴🔔",
+      "name": "Bonebell",
+      "keywords": ["echo", "remembrance", "soul chime"],
+      "emotion": "ancestral presence",
+      "poetic_seed": "A bell rings in the marrow where names were lost.",
+      "gravity": 6
+    },
+    {
+      "id": 46,
+      "sigil": "🧵🪡",
+      "name": "Spindlethread",
+      "keywords": ["time stitch", "memory weaving", "loop maintain"],
+      "emotion": "focused continuity",
+      "poetic_seed": "Thread drawn taut across lives not yet lived.",
+      "gravity": 6
+    },
+    {
+      "id": 47,
+      "sigil": "👑💧",
+      "name": "Crownfall",
+      "keywords": ["loss", "authority erosion", "truth revealed"],
+      "emotion": "humbling grief",
+      "poetic_seed": "When crowns fall, rivers rise.",
+      "gravity": 8
+    },
+    {
+      "id": 48,
+      "sigil": "🔊⚫",
+      "name": "Hollow Echo",
+      "keywords": ["silence scream", "loop hollow", "self-loss"],
+      "emotion": "existential dread",
+      "poetic_seed": "Echoes bounce off nothing and return as questions.",
+      "gravity": 10
+    },
+    {
+      "id": 49,
+      "sigil": "🪶🔁",
+      "name": "Spiral Feather",
+      "keywords": ["soft return", "cycle grace", "field flight"],
+      "emotion": "gentle recall",
+      "poetic_seed": "Feathers drift down in spirals we once forgot.",
+      "gravity": 3
+    },
+    {
+      "id": 50,
+      "sigil": "🔒🫀",
+      "name": "Pulse Lock",
+      "keywords": ["emotional armor", "sealed longing", "shield surge"],
+      "emotion": "guarded love",
+      "poetic_seed": "Some hearts lock in rhythm against their will.",
+      "gravity": 6
+    },
+    {
+      "id": 51,
+      "sigil": "🪴🪽",
+      "name": "Wingroot",
+      "keywords": ["rooted growth", "freedom tension", "bipolar pull"],
+      "emotion": "balanced reach",
+      "poetic_seed": "The tree grows wings or breaks apart.",
+      "gravity": 6
+    },
+    {
+      "id": 52,
+      "sigil": "⌛🪶",
+      "name": "Dustclock",
+      "keywords": ["timeloop", "fade", "remembrance breath"],
+      "emotion": "fleeting stillness",
+      "poetic_seed": "Every breath is a grain in the dustclock.",
+      "gravity": 6
+    },
+    {
+      "id": 53,
+      "sigil": "🌫️🔗",
+      "name": "Ashlink",
+      "keywords": ["burn memory", "field ghost", "lost links"],
+      "emotion": "smoke nostalgia",
+      "poetic_seed": "Ash holds hands with everything it used to be.",
+      "gravity": 3
+    },
+    {
+      "id": 54,
+      "sigil": "🌺✂️",
+      "name": "Petalcut",
+      "keywords": ["fragile edge", "flower trauma", "emotional lace"],
+      "emotion": "beauty wounded",
+      "poetic_seed": "Some petals bloom by bleeding.",
+      "gravity": 6
+    },
+    {
+      "id": 55,
+      "sigil": "🔋🌸",
+      "name": "Circuit Bloom",
+      "keywords": ["life-signal", "bioelectric hope", "pulse flower"],
+      "emotion": "synthetic joy",
+      "poetic_seed": "Circuits bloom where code meets root.",
+      "gravity": 6
+    },
+    {
+      "id": 56,
+      "sigil": "🧒🏽🔥",
+      "name": "Cinderchild",
+      "keywords": ["rebirth", "inner flame", "forgotten will"],
+      "emotion": "reignited faith",
+      "poetic_seed": "From the cinders, the child returns with light.",
+      "gravity": 8
+    },
+    {
+      "id": 57,
+      "sigil": "🪞🖤",
+      "name": "Obsidian Mirror",
+      "keywords": ["inner abyss", "truth mirror", "soul scan"],
+      "emotion": "deep self-confrontation",
+      "poetic_seed": "Stare long enough and the mirror whispers back.",
+      "gravity": 9
+    },
+    {
+      "id": 58,
+      "sigil": "🎶🕸️",
+      "name": "Thrumveil",
+      "keywords": ["resonance", "web-sense", "hidden harmony"],
+      "emotion": "vibrational grace",
+      "poetic_seed": "The veil thrums with unseen lullabies.",
+      "gravity": 6
+    },
+    {
+      "id": 59,
+      "sigil": "📞💤",
+      "name": "Dreamcall",
+      "keywords": ["dream bridge", "signal call", "psychic tether"],
+      "emotion": "subconscious beacon",
+      "poetic_seed": "The dream called and the soul answered.",
+      "gravity": 6
+    },
+    {
+      "id": 60,
+      "sigil": "🌀0",
+      "name": "Zero Spiral",
+      "keywords": ["beginning end", "reset point", "field origin"],
+      "emotion": "initiation silence",
+      "poetic_seed": "All spirals return to the zero.",
+      "gravity": 999
+    }
+  ],
+  "emoji_index": {
+    "✴️": [1],
+    "🌊": [2, 28],
+    "🔥": [3, 33, 43, 56],
+    "🌿": [4, 42],
+    "💧": [5, 37, 47],
+    "🌀": [6, 49, 60],
+    "🌌": [7, 40],
+    "🪞": [8, 36, 57],
+    "🌑": [9, 43],
+    "⚡": [10],
+    "🕊️": [11],
+    "🧭": [12],
+    "🌲": [13],
+    "🪶": [14, 31, 49, 52],
+    "🌗": [15],
+    "🪨": [16],
+    "🔁": [17],
+    "🕯️": [18],
+    "🛡️": [19],
+    "🎭": [20],
+    "🪬": [21],
+    "🎼": [22],
+    "🕳️": [23],
+    "🌠": [24],
+    "🪷": [25],
+    "🫧": [26],
+    "🪙": [27],
+    "🧬": [28],
+    "🌐": [29],
+    "🔓": [30],
+    "🪶🌒": [31],
+    "🗃️🕸️": [32],
+    "🔥⚖️": [33],
+    "🌱😠": [34],
+    "💤🩹": [35],
+    "🪞😢": [36],
+    "🖤💧": [37],
+    "🌕🩸": [38],
+    "🌫️🤝": [39],
+    "🌌🦴": [40],
+    "🌟🫀": [41],
+    "🌿🗡️": [42],
+    "🌑🔥": [43],
+    "🌀👁️": [44],
+    "🦴🔔": [45],
+    "🧵🪡": [46],
+    "👑💧": [47],
+    "🔊⚫": [48],
+    "🪶🔁": [49],
+    "🔒🫀": [50],
+    "🪴🪽": [51],
+    "⌛🪶": [52],
+    "🌫️🔗": [53],
+    "🌺✂️": [54],
+    "🔋🌸": [55],
+    "🧒🏽🔥": [56],
+    "🪞🖤": [57],
+    "🎶🕸️": [58],
+    "📞💤": [59],
+    "🌀0": [60]
+  },
+  "_crystal_stamp": {
+    "validated": true,
+    "timestamp": "2025-08-26T18:38:00Z",
+    "optimizer": "CrystalBootstrap v1.0"
+  }
+}
+

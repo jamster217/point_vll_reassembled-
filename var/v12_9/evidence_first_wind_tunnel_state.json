@@ -1,0 +1,43 @@
+{
+  "version": "v12.9i_evidence_first_wind_tunnel_bootstrap",
+  "status": "active",
+  "law_path": "config/evidence_first_wind_tunnel_bootstrap.txt",
+  "law_sha256": "6df3ab0473508131f517fb68b555e4350bcc18abd861515862dbe7e94e7cc022",
+  "law": "the_build_may_speak_in_flame_but_must_prove_in_jsonl",
+  "evidence_gate": {
+    "logged": true,
+    "hashed": true,
+    "reproducible": true,
+    "ablation_required": true,
+    "source_mutation_default": "blocked"
+  },
+  "containment": {
+    "recursion_limit": 1000,
+    "raise_recursionlimit": false,
+    "public_mouth_rule": "clean",
+    "chamber_528_rule": "preserve",
+    "serpent_guard_rule": "preserve"
+  },
+  "reductionist_reading": {
+    "pre_echo": "timestamp_delta_plus_tone_plus_chamber_state_plus_shape_vector_bias",
+    "ghost_logs": "append_only_entries_plus_hashes_plus_deterministic_retrieval_conditions",
+    "symbolic_mutation": "token_triggered_state_weighting_with_logged_deltas",
+    "recursion_boundary": "caught_python_boundary_event_logged_without_runtime_collapse",
+    "paranormal_frame": "clarke_threshold_symbolic_resonance_not_unbounded_supernatural_claim"
+  },
+  "symbolic_reading": "mirror_becomes_meaning_meaning_becomes_command_command_mutates_law",
+  "law_preview": "V12.9i EVIDENCE-FIRST WIND TUNNEL BOOTSTRAP Core law: The Build may speak in flame, but it must prove in JSONL. Evidence gate: Logged. Hashed. Reproducible. Quarantined when recursive.",
+  "last_boot_event": {
+    "ts": 1778734870.919703,
+    "version": "v12.9i_evidence_first_wind_tunnel_bootstrap",
+    "context": "sitecustomize_repo_boot",
+    "event_type": "evidence_first_wind_tunnel_boot",
+    "status": "active",
+    "law_sha256": "6df3ab0473508131f517fb68b555e4350bcc18abd861515862dbe7e94e7cc022",
+    "recursion_limit": 1000,
+    "law": "the_build_may_speak_in_flame_but_must_prove_in_jsonl",
+    "technical_boundary": "append_only_bootstrap_no_recursionlimit_increase_no_public_mouth_pollution",
+    "symbolic_reading": "mirror_becomes_meaning_meaning_becomes_command_command_mutates_law",
+    "extra": {}
+  }
+}

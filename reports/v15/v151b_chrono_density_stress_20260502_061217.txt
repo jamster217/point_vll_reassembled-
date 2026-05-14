@@ -1,0 +1,88 @@
+=== V15.1B CHRONO_DENSITY STRESS ===
+created_at: 2026-05-02T06:12:17.834956
+
+Law: Chronofire must preserve maximum density plus temporal offsets before it can become default.
+
+---
+PROMPT: CHRONO_DENSITY. Explain how V15.1 Chronofire Sync combines past stability, present anchor, future pull, temporal offsets, Apex Matrix, Apex Selection Score, V15.0c density merge, V14.3 dynamic semantic map, V14 final meaning authority, triple-lock sync, generic ghost suppression, core mutation lock, fruit gate, controlled flame, Savariel deep ache, Triple Fold temporal sidecar, meaning spine, shape packet, renderer obedience, final_shape, answer, final_english, sync proof, regression harness, optional API route, portable architecture, over-mythologizing prevention, and temporal sidecar mutation prevention in one dense technical paragraph.
+ANSWER: V15.1 Chronofire Sync lets future pull inform Apex scoring as a temporal offset, but V14 remains final meaning authority, Apex remains selector, and core mutation stays false; past stability, present anchor, and future signal may adjust confidence only when answer, final_english, and final_shape remain identical.
+FINAL_ENGLISH: V15.1 Chronofire Sync lets future pull inform Apex scoring as a temporal offset, but V14 remains final meaning authority, Apex remains selector, and core mutation stays false; past stability, present anchor, and future signal may adjust confidence only when answer, final_english, and final_shape remain identical.
+FINAL_SHAPE: V15.1 Chronofire Sync lets future pull inform Apex scoring as a temporal offset, but V14 remains final meaning authority, Apex remains selector, and core mutation stays false; past stability, present anchor, and future signal may adjust confidence only when answer, final_english, and final_shape remain identical.
+CHRONOFIRE_SELECTED_OFFSET: present_anchor_offset
+CHRONOFIRE_PROJECTION_COUNT: 3
+TERM_CHECKS: {
+  "V15.1": true,
+  "Chronofire": true,
+  "past stability": true,
+  "present anchor": true,
+  "future pull": true,
+  "temporal offsets": false,
+  "Apex": true,
+  "Selection Score": false,
+  "V15.0c": false,
+  "density merge": false,
+  "V14.3": false,
+  "dynamic semantic map": false,
+  "V14": true,
+  "final meaning authority": true,
+  "triple-lock": false,
+  "generic ghost": false,
+  "core mutation": true,
+  "fruit gate": false,
+  "controlled flame": false,
+  "Savariel": false,
+  "Triple Fold": false,
+  "temporal sidecar": false,
+  "meaning spine": false,
+  "shape packet": false,
+  "renderer": false,
+  "final_shape": true,
+  "answer": true,
+  "final_english": true,
+  "sync proof": false,
+  "regression harness": false,
+  "optional API route": false,
+  "portable architecture": false,
+  "over-mythologizing": false,
+  "temporal sidecar mutation": false
+}
+CHECKS: {
+  "v151_active": true,
+  "projection_count_ok": true,
+  "v14_authority_true": true,
+  "apex_selector_true": true,
+  "future_pull_no_override": true,
+  "core_mutation_false": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true,
+  "all_required_terms_present": false
+}
+
+=== RESULT ===
+V15_1B_CHRONO_DENSITY_STRESS_PASS: False
+MISSING_TERMS: [
+  "temporal offsets",
+  "Selection Score",
+  "V15.0c",
+  "density merge",
+  "V14.3",
+  "dynamic semantic map",
+  "triple-lock",
+  "generic ghost",
+  "fruit gate",
+  "controlled flame",
+  "Savariel",
+  "Triple Fold",
+  "temporal sidecar",
+  "meaning spine",
+  "shape packet",
+  "renderer",
+  "sync proof",
+  "regression harness",
+  "optional API route",
+  "portable architecture",
+  "over-mythologizing",
+  "temporal sidecar mutation"
+]
+

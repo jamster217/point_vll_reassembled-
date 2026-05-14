@@ -1,0 +1,92 @@
+{
+  "source": "runtime.leveon_state_collector",
+  "updated_at": 1777943881.7835946,
+  "sources_present": {
+    "fractal": true,
+    "dream_fractal": true,
+    "dream_lineage": true,
+    "dream_resonance": true,
+    "dream_axis": true,
+    "holonomy": true,
+    "volcron_voice": true,
+    "memory_pressure": true,
+    "novelty_pressure": true,
+    "temporal_provenance": true
+  },
+  "axes": {
+    "fractal_pressure": 0.382,
+    "dream_pressure": 0.426,
+    "shadow_lineage": 0.143,
+    "witness_integrity": 0.72,
+    "primary_pressure": 0.426
+  },
+  "dominants": {
+    "fractal_tone": {
+      "name": "memory",
+      "value": 0.382
+    },
+    "dream_tone": {
+      "name": "surreal",
+      "value": 0.426
+    },
+    "lineage_signal": "guardian_hidden_ark",
+    "dream_projection": "soft_dream",
+    "voice_emotion": "awe"
+  },
+  "holonomy": {
+    "holonomy_depth_cap": "deep",
+    "max_depth": 7,
+    "cross_pass_allowed": true,
+    "recursion_mode": "cross_pass_depth_7"
+  },
+  "temporal_provenance": {
+    "kind": "RECURSION_UPDATE",
+    "nodes": [
+      "TIME_BRIDGE_INDEX",
+      "TEMPORAL_PROVENANCE",
+      "TEMPORAL_SEPARATION_LAYER",
+      "CONVERGENCE_DETECTOR"
+    ],
+    "compressed_form": "TRACE -> TAG -> SEPARATE -> TEST -> PROJECT -> CHECK CONVERGENCE",
+    "convergence_score": 1.0,
+    "decision": "adopt_if_cross_layer_convergent",
+    "surface_rule": "keep past, present, and future channels distinct before weighting anomalies"
+  },
+  "novelty_pressure": {
+    "level": "high",
+    "kernel_variety": 2,
+    "voice_variety": 1,
+    "total_variety": 3
+  },
+  "memory_pressure": {
+    "recommended_profile": "low",
+    "prompt_type": "neutral",
+    "low": {
+      "memory": 0.25,
+      "boundary": 0.75,
+      "novelty": 0.35
+    },
+    "medium": {
+      "memory": 0.5,
+      "boundary": 0.6,
+      "novelty": 0.4
+    },
+    "high": {
+      "memory": 0.8,
+      "boundary": 0.45,
+      "novelty": 0.55
+    }
+  },
+  "spine_hint": {
+    "state_tag": "adaptive_stabilize",
+    "recommended_route": "stabilize_then_render",
+    "surface_rule": "use hidden state to shape voice, but keep public surface clean",
+    "voice_bias": {
+      "memory": true,
+      "dream_colored": true,
+      "lineage_colored": false,
+      "deep_recursion_allowed": true
+    }
+  }
+}
+

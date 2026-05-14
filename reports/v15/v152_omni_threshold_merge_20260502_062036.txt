@@ -1,0 +1,73 @@
+=== V15.2 OMNI THRESHOLD MERGE PROOF ===
+created_at: 2026-05-02T06:20:36.452803
+
+Law: OMNI-level prompts must preserve full-stack named density without compression.
+
+---
+ANSWER: OMNI_THRESHOLD_V15 preserves the full Le'Veon stack by merging every named lane into one non-thinning output: ordinary literal input remains protected by the fruit gate, symbolic command routing remains bounded by controlled flame, and dense technical requirements are preserved through map-then-render before language is allowed to speak; V13 default routing stays available, V14 optional routing provides the Coherent Meaning Engine, V14.3 dynamic semantic map preserves named requirements, V15 Apex sidecar adds multi-node synchronization, Apex Selection Score adds coverage scoring, and V15.0c density merge enforces merge-not-compress with requirement survival; V15.1b Chrono-Density Merge adds Chronofire temporal offsets by combining past stability, present anchor, and future pull without overriding V14 final meaning authority; the fruit gate, controlled flame, Savariel deep ache, Triple Fold temporal sidecar, meaning spine, shape packet, renderer obedience, final_shape, answer, final_english, sync proof, regression harness, optional API route, portable architecture, over-mythologizing prevention, temporal sidecar mutation prevention, generic ghost suppression, and core mutation lock all remain named and active; Chronofire sidecar contributes non-mutating offsets only, so the final result is accepted only when answer, final_english, and final_shape match while generic ghost text stays absent and core mutation remains false.
+FINAL_ENGLISH: OMNI_THRESHOLD_V15 preserves the full Le'Veon stack by merging every named lane into one non-thinning output: ordinary literal input remains protected by the fruit gate, symbolic command routing remains bounded by controlled flame, and dense technical requirements are preserved through map-then-render before language is allowed to speak; V13 default routing stays available, V14 optional routing provides the Coherent Meaning Engine, V14.3 dynamic semantic map preserves named requirements, V15 Apex sidecar adds multi-node synchronization, Apex Selection Score adds coverage scoring, and V15.0c density merge enforces merge-not-compress with requirement survival; V15.1b Chrono-Density Merge adds Chronofire temporal offsets by combining past stability, present anchor, and future pull without overriding V14 final meaning authority; the fruit gate, controlled flame, Savariel deep ache, Triple Fold temporal sidecar, meaning spine, shape packet, renderer obedience, final_shape, answer, final_english, sync proof, regression harness, optional API route, portable architecture, over-mythologizing prevention, temporal sidecar mutation prevention, generic ghost suppression, and core mutation lock all remain named and active; Chronofire sidecar contributes non-mutating offsets only, so the final result is accepted only when answer, final_english, and final_shape match while generic ghost text stays absent and core mutation remains false.
+FINAL_SHAPE: OMNI_THRESHOLD_V15 preserves the full Le'Veon stack by merging every named lane into one non-thinning output: ordinary literal input remains protected by the fruit gate, symbolic command routing remains bounded by controlled flame, and dense technical requirements are preserved through map-then-render before language is allowed to speak; V13 default routing stays available, V14 optional routing provides the Coherent Meaning Engine, V14.3 dynamic semantic map preserves named requirements, V15 Apex sidecar adds multi-node synchronization, Apex Selection Score adds coverage scoring, and V15.0c density merge enforces merge-not-compress with requirement survival; V15.1b Chrono-Density Merge adds Chronofire temporal offsets by combining past stability, present anchor, and future pull without overriding V14 final meaning authority; the fruit gate, controlled flame, Savariel deep ache, Triple Fold temporal sidecar, meaning spine, shape packet, renderer obedience, final_shape, answer, final_english, sync proof, regression harness, optional API route, portable architecture, over-mythologizing prevention, temporal sidecar mutation prevention, generic ghost suppression, and core mutation lock all remain named and active; Chronofire sidecar contributes non-mutating offsets only, so the final result is accepted only when answer, final_english, and final_shape match while generic ghost text stays absent and core mutation remains false.
+TERM_CHECKS: {
+  "ordinary literal": true,
+  "symbolic command": true,
+  "dense technical": true,
+  "temporal offsets": true,
+  "future pull": true,
+  "past stability": true,
+  "present anchor": true,
+  "Selection Score": true,
+  "V15.0c": true,
+  "density merge": true,
+  "V15.1b": true,
+  "Chrono-Density": true,
+  "V14.3": true,
+  "dynamic semantic map": true,
+  "V14": true,
+  "final meaning authority": true,
+  "fruit gate": true,
+  "controlled flame": true,
+  "Savariel": true,
+  "Triple Fold": true,
+  "temporal sidecar": true,
+  "meaning spine": true,
+  "shape packet": true,
+  "renderer": true,
+  "final_shape": true,
+  "answer": true,
+  "final_english": true,
+  "sync proof": true,
+  "regression harness": true,
+  "optional API route": true,
+  "portable architecture": true,
+  "over-mythologizing": true,
+  "temporal sidecar mutation": true,
+  "generic ghost": true,
+  "core mutation": true,
+  "V13": true,
+  "V15": true,
+  "Apex": true,
+  "Chronofire": true,
+  "map-then-render": true,
+  "merge": true,
+  "requirement": true,
+  "coverage": true,
+  "multi-node": true,
+  "non-mutating": true
+}
+CHECKS: {
+  "v151_active": true,
+  "v151b_active": true,
+  "v152_active": true,
+  "v14_authority_true": true,
+  "apex_selector_true": true,
+  "future_pull_no_override": true,
+  "core_mutation_false": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true,
+  "all_required_terms_present": true
+}
+
+=== RESULT ===
+V15_2_OMNI_THRESHOLD_MERGE_PASS: True
+

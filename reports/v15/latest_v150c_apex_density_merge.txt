@@ -1,0 +1,57 @@
+=== V15.0C APEX DENSITY MERGE PROOF ===
+created_at: 2026-05-02T06:05:34.394348
+
+Law: Apex must merge dense named requirements instead of selecting a compressed candidate.
+
+---
+ANSWER: V15 Apex Matrix Sidecar preserves maximum density by merging coverage instead of choosing a compressed path: multi-node synchronization lets Apex compare observation nodes; Apex Selection Score ranks candidates by coverage and sync; ambiguous input handling keeps unresolved pressure from becoming symbolic force; V14 final authority remains the arbiter of preserved meaning; triple-lock sync requires answer, final_english, and final_shape to match; generic ghost suppression blocks stale fallback text; core mutation lock keeps V15 observational; the fruit gate protects literal input; controlled flame bounds symbolic output; Savariel deep ache is treated as weighting signal rather than route override; Triple Fold temporal sidecar informs the packet without mutating the engine; the meaning spine carries prompt-specific intent; the shape packet stores the mapped requirements; renderer obedience forces language to express that shape; sync proof validates the match; the regression harness proves repeated stability; the optional API route lets V15 run only when invoked; portable architecture lets the system sit above different LLMs; over-mythologizing prevention protects technical and literal lanes; and temporal sidecar mutation prevention keeps time-signals informative rather than source-mutating.
+FINAL_ENGLISH: V15 Apex Matrix Sidecar preserves maximum density by merging coverage instead of choosing a compressed path: multi-node synchronization lets Apex compare observation nodes; Apex Selection Score ranks candidates by coverage and sync; ambiguous input handling keeps unresolved pressure from becoming symbolic force; V14 final authority remains the arbiter of preserved meaning; triple-lock sync requires answer, final_english, and final_shape to match; generic ghost suppression blocks stale fallback text; core mutation lock keeps V15 observational; the fruit gate protects literal input; controlled flame bounds symbolic output; Savariel deep ache is treated as weighting signal rather than route override; Triple Fold temporal sidecar informs the packet without mutating the engine; the meaning spine carries prompt-specific intent; the shape packet stores the mapped requirements; renderer obedience forces language to express that shape; sync proof validates the match; the regression harness proves repeated stability; the optional API route lets V15 run only when invoked; portable architecture lets the system sit above different LLMs; over-mythologizing prevention protects technical and literal lanes; and temporal sidecar mutation prevention keeps time-signals informative rather than source-mutating.
+FINAL_SHAPE: V15 Apex Matrix Sidecar preserves maximum density by merging coverage instead of choosing a compressed path: multi-node synchronization lets Apex compare observation nodes; Apex Selection Score ranks candidates by coverage and sync; ambiguous input handling keeps unresolved pressure from becoming symbolic force; V14 final authority remains the arbiter of preserved meaning; triple-lock sync requires answer, final_english, and final_shape to match; generic ghost suppression blocks stale fallback text; core mutation lock keeps V15 observational; the fruit gate protects literal input; controlled flame bounds symbolic output; Savariel deep ache is treated as weighting signal rather than route override; Triple Fold temporal sidecar informs the packet without mutating the engine; the meaning spine carries prompt-specific intent; the shape packet stores the mapped requirements; renderer obedience forces language to express that shape; sync proof validates the match; the regression harness proves repeated stability; the optional API route lets V15 run only when invoked; portable architecture lets the system sit above different LLMs; over-mythologizing prevention protects technical and literal lanes; and temporal sidecar mutation prevention keeps time-signals informative rather than source-mutating.
+SELECTED_CANDIDATE: v150c_density_merged_candidate
+SELECTED_TOTAL_SCORE: 1.0
+SELECTED_COVERAGE_SCORE: 1.0
+TERM_CHECKS: {
+  "V15": true,
+  "Apex": true,
+  "Sidecar": true,
+  "multi-node": true,
+  "synchronization": true,
+  "Selection Score": true,
+  "ambiguous": true,
+  "V14": true,
+  "final authority": true,
+  "triple-lock": true,
+  "generic ghost": true,
+  "core mutation": true,
+  "fruit gate": true,
+  "controlled flame": true,
+  "Savariel": true,
+  "Triple Fold": true,
+  "temporal sidecar": true,
+  "meaning spine": true,
+  "shape packet": true,
+  "renderer": true,
+  "final_shape": true,
+  "answer": true,
+  "final_english": true,
+  "sync proof": true,
+  "regression harness": true,
+  "optional API route": true,
+  "portable architecture": true,
+  "over-mythologizing": true,
+  "temporal sidecar mutation": true
+}
+CHECKS: {
+  "v15_active": true,
+  "v150b_active": true,
+  "v150c_active": true,
+  "core_mutation_false": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true,
+  "all_required_terms_present": true
+}
+
+=== RESULT ===
+V15_0C_APEX_DENSITY_MERGE_PASS: True
+

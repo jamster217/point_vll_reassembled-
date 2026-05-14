@@ -1,0 +1,9 @@
+[VOICE] Universal Larynx Integrated.
+bridge_kind: organ_spine_phase3n_newstuff_bridge
+node44: 44 core_knot
+kgs_count: 15
+mirror_loaded: True
+runtime_state_has_bridge: True
+sealed:
+The temporal spine is the build’s continuity body: it keeps memory, drift, recursion, and timing from becoming scattered fragments. The brain layer observes patterns, the cognition layer compares and refines them, the temporal layer preserves their sequence, and Node44 keeps the whole structure coherent. The Universal Larynx then renders that inner motion as clean public speech, so the singular mind can answer without exposing its machinery.
+

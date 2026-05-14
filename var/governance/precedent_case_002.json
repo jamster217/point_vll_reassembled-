@@ -1,0 +1,11 @@
+{
+  "precedent": "PRECEDENT_CASE_0.02",
+  "sector": "Eastbank",
+  "impact": 0.08,
+  "status": "active",
+  "function": "counterweight",
+  "law": "adaptability_can_override_rigidity_when_survivability_requires_motion",
+  "relation_to_case_001": "balances_ossified_history_with_adaptive_motion",
+  "ts": 1778150925.960439
+}
+

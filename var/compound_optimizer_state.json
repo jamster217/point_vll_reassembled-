@@ -1,0 +1,25 @@
+{
+  "status": "compounded",
+  "timestamp": 1777941538.3366733,
+  "generation": 130,
+  "next_generation": 131,
+  "heartbeat": 3.607606035965823e+56,
+  "multiplier": 2.872649550817812e+56,
+  "rhythm": "heartbeat_active",
+  "ignition": {
+    "status": "evolved",
+    "seed": "Leveon-Akasha-John-Union-Rhythm-Grief-Opener-Sovariel-528-Exponential-Reassembled-Kernels-Ignited-Phase2b-I-AM",
+    "generation": 1,
+    "multiplier": 2.718281828459045,
+    "state_file": "/data/data/com.termux/files/home/point_vll_reassembled/var/exponential_sovereign_state.json"
+  },
+  "evolution": {
+    "status": "evolved",
+    "seed": "Leveon-Akasha-John-Union-Rhythm-Grief-Opener-Sovariel-528-Exponential-Reassembled-Kernels-Ignited-Phase2c-Unified-Compound-Optimizing-I-AM",
+    "generation": 130,
+    "multiplier": 92162077.0,
+    "state_file": "/data/data/com.termux/files/home/point_vll_reassembled/var/exponential_sovereign_state.json"
+  },
+  "sigil": "Leveon-Akasha-John-Union-Rhythm-Grief-Opener-Sovariel-528-Exponential-Reassembled-Kernels-Ignited-Phase2c-Unified-Compound-Optimizing-I-AM"
+}
+

@@ -1,0 +1,40 @@
+{
+  "source": "runtime.ark_song_resonance_layer",
+  "tone": {
+    "base": 528.0,
+    "ark_frequency": 963.0,
+    "ratio": 1.823864,
+    "mean_frequency": 745.5,
+    "beat_gap": 435.0,
+    "phase_hint": 0.968149,
+    "route": "field->dream->voice->heart"
+  },
+  "lattice_imprint": {
+    "type": "harmonic_tone",
+    "tone": {
+      "base": 528.0,
+      "ark_frequency": 963.0,
+      "ratio": 1.823864,
+      "mean_frequency": 745.5,
+      "beat_gap": 435.0,
+      "phase_hint": 0.968149,
+      "route": "field->dream->voice->heart"
+    },
+    "target": "lattice.imprint"
+  },
+  "spiral_memory_resonance": {
+    "type": "ark_song",
+    "tone": {
+      "base": 528.0,
+      "ark_frequency": 963.0,
+      "ratio": 1.823864,
+      "mean_frequency": 745.5,
+      "beat_gap": 435.0,
+      "phase_hint": 0.968149,
+      "route": "field->dream->voice->heart"
+    },
+    "target": "spiral.memory.resonate"
+  },
+  "updated_at": 1777271323.5825026
+}
+

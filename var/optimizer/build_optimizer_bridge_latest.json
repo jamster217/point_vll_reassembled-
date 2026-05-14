@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "refined_subject": "runtime_systems",
+  "vector": {
+    "flow": 0.88,
+    "boundary": 0.82,
+    "memory": 0.84,
+    "novelty": 0.55,
+    "notes": "live execution, scheduling, persistence of active structure"
+  },
+  "output_packet": {
+    "refined_subject": "runtime_systems",
+    "flow": 0.88,
+    "boundary": 0.82,
+    "memory": 0.84,
+    "novelty": 0.55,
+    "notes": "live execution, scheduling, persistence of active structure"
+  }
+}
+

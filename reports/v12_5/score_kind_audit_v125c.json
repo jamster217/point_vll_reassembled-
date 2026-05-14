@@ -1,0 +1,502 @@
+{
+  "active": true,
+  "version": "v12.5c_score_kind_audit",
+  "ts": 1777545748.177092,
+  "recent_events": [
+    {
+      "path": "reports/v12_5/render_outcome_lineage_v125b.json",
+      "mtime": 1777545689.67889,
+      "scores": [
+        {
+          "json_path": "judgments.mixed.previous.score",
+          "key": "score",
+          "value": 1.0,
+          "kind": "render_policy"
+        },
+        {
+          "json_path": "judgments.mixed.current.score",
+          "key": "score",
+          "value": 0.6128,
+          "kind": "render_policy"
+        },
+        {
+          "json_path": "judgments.visual.previous.score",
+          "key": "score",
+          "value": 0.925,
+          "kind": "render_policy"
+        },
+        {
+          "json_path": "judgments.visual.current.score",
+          "key": "score",
+          "value": 0.925,
+          "kind": "render_policy"
+        },
+        {
+          "json_path": "judgments.topology.previous.score",
+          "key": "score",
+          "value": 1.0,
+          "kind": "render_policy"
+        },
+        {
+          "json_path": "judgments.topology.current.score",
+          "key": "score",
+          "value": 0.8711,
+          "kind": "render_policy"
+        },
+        {
+          "json_path": "judgments.render.previous.score",
+          "key": "score",
+          "value": 1.0,
+          "kind": "render_policy"
+        },
+        {
+          "json_path": "judgments.render.current.score",
+          "key": "score",
+          "value": 0.8711,
+          "kind": "render_policy"
+        }
+      ]
+    },
+    {
+      "path": "var/lattice/render_outcome_judge_v125.json",
+      "mtime": 1777545628.21089,
+      "scores": [
+        {
+          "json_path": "previous.score",
+          "key": "score",
+          "value": 0.6128,
+          "kind": "render_policy"
+        },
+        {
+          "json_path": "current.score",
+          "key": "score",
+          "value": 0.8711,
+          "kind": "render_policy"
+        }
+      ]
+    },
+    {
+      "path": "reports/v12_5/render_outcome_judge_latest.json",
+      "mtime": 1777545628.21089,
+      "scores": [
+        {
+          "json_path": "previous.score",
+          "key": "score",
+          "value": 0.6128,
+          "kind": "render_policy"
+        },
+        {
+          "json_path": "current.score",
+          "key": "score",
+          "value": 0.8711,
+          "kind": "render_policy"
+        }
+      ]
+    },
+    {
+      "path": "var/lattice/topology_optimizer_state_v103.json",
+      "mtime": 1777540974.4225078,
+      "scores": [
+        {
+          "json_path": "last_score.coherence",
+          "key": "coherence",
+          "value": 0.8711,
+          "kind": "topology_quality"
+        },
+        {
+          "json_path": "last_score.total",
+          "key": "total",
+          "value": 0.8062,
+          "kind": "topology_quality"
+        }
+      ]
+    },
+    {
+      "path": "var/lattice/v106_full_self_improvement_state.json",
+      "mtime": 1777540974.4185078,
+      "scores": [
+        {
+          "json_path": "last_event.total",
+          "key": "total",
+          "value": 0.6128,
+          "kind": "unknown_score"
+        }
+      ]
+    },
+    {
+      "path": "var/lattice/render_decision_context_v123.json",
+      "mtime": 1777540974.2865078,
+      "scores": [
+        {
+          "json_path": "topology.latest.total",
+          "key": "total",
+          "value": 0.8772,
+          "kind": "render_policy"
+        },
+        {
+          "json_path": "topology.latest.coherence",
+          "key": "coherence",
+          "value": 1.0,
+          "kind": "topology_quality"
+        }
+      ]
+    },
+    {
+      "path": "reports/v12_9/visual_memory/latest_v129t_visual_memory_judge.json",
+      "mtime": 1777509446.7305079,
+      "scores": [
+        {
+          "json_path": "latest_metrics.topology_score",
+          "key": "topology_score",
+          "value": 0.925,
+          "kind": "topology_quality"
+        }
+      ]
+    },
+    {
+      "path": "reports/v12_9/visual_memory/visual_judge_20260429_173726.json",
+      "mtime": 1777509446.7305079,
+      "scores": [
+        {
+          "json_path": "latest_metrics.topology_score",
+          "key": "topology_score",
+          "value": 0.925,
+          "kind": "topology_quality"
+        }
+      ]
+    },
+    {
+      "path": "reports/v12_9/visual_memory/latest_v129ae_difference_integration.json",
+      "mtime": 1777509446.4585078,
+      "scores": [
+        {
+          "json_path": "topology_score",
+          "key": "topology_score",
+          "value": 0.925,
+          "kind": "topology_quality"
+        }
+      ]
+    },
+    {
+      "path": "reports/v12_9/visual_memory/v129ae_difference_integration_20260429_173726.json",
+      "mtime": 1777509446.4585078,
+      "scores": [
+        {
+          "json_path": "topology_score",
+          "key": "topology_score",
+          "value": 0.925,
+          "kind": "topology_quality"
+        }
+      ]
+    },
+    {
+      "path": "reports/v12_9/visual_memory/latest_v129w_visual_difference.json",
+      "mtime": 1777509446.2025077,
+      "scores": [
+        {
+          "json_path": "previous.topology_score",
+          "key": "topology_score",
+          "value": 0.925,
+          "kind": "topology_quality"
+        },
+        {
+          "json_path": "latest.topology_score",
+          "key": "topology_score",
+          "value": 0.925,
+          "kind": "topology_quality"
+        }
+      ]
+    },
+    {
+      "path": "reports/v12_9/visual_memory/v129w_visual_difference_20260429_173726.json",
+      "mtime": 1777509446.2025077,
+      "scores": [
+        {
+          "json_path": "previous.topology_score",
+          "key": "topology_score",
+          "value": 0.925,
+          "kind": "topology_quality"
+        },
+        {
+          "json_path": "latest.topology_score",
+          "key": "topology_score",
+          "value": 0.925,
+          "kind": "topology_quality"
+        }
+      ]
+    },
+    {
+      "path": "reports/v12_9/visual_cycle/latest_v129u_visual_cycle.json",
+      "mtime": 1777509445.9265077,
+      "scores": [
+        {
+          "json_path": "image_spec.topology_score",
+          "key": "topology_score",
+          "value": 0.925,
+          "kind": "topology_quality"
+        },
+        {
+          "json_path": "visual_memory.topology_score",
+          "key": "topology_score",
+          "value": 0.925,
+          "kind": "topology_quality"
+        },
+        {
+          "json_path": "visual_memory.judgment.coherence",
+          "key": "coherence",
+          "value": 0.9848,
+          "kind": "topology_quality"
+        },
+        {
+          "json_path": "visual_memory.judgment.checks.score",
+          "key": "score",
+          "value": 0.925,
+          "kind": "visual_quality"
+        },
+        {
+          "json_path": "visual_judge.latest_metrics.topology_score",
+          "key": "topology_score",
+          "value": 0.925,
+          "kind": "topology_quality"
+        }
+      ]
+    },
+    {
+      "path": "reports/v12_9/visual_cycle/v129u_visual_cycle_20260429_173725.json",
+      "mtime": 1777509445.9265077,
+      "scores": [
+        {
+          "json_path": "image_spec.topology_score",
+          "key": "topology_score",
+          "value": 0.925,
+          "kind": "topology_quality"
+        },
+        {
+          "json_path": "visual_memory.topology_score",
+          "key": "topology_score",
+          "value": 0.925,
+          "kind": "topology_quality"
+        },
+        {
+          "json_path": "visual_memory.judgment.coherence",
+          "key": "coherence",
+          "value": 0.9848,
+          "kind": "topology_quality"
+        },
+        {
+          "json_path": "visual_memory.judgment.checks.score",
+          "key": "score",
+          "value": 0.925,
+          "kind": "visual_quality"
+        },
+        {
+          "json_path": "visual_judge.latest_metrics.topology_score",
+          "key": "topology_score",
+          "value": 0.925,
+          "kind": "topology_quality"
+        }
+      ]
+    },
+    {
+      "path": "reports/v12_9/visual_cycle/v129u_visual_judge_20260429_173725.json",
+      "mtime": 1777509445.9265077,
+      "scores": [
+        {
+          "json_path": "latest_metrics.topology_score",
+          "key": "topology_score",
+          "value": 0.925,
+          "kind": "topology_quality"
+        }
+      ]
+    },
+    {
+      "path": "reports/v12_9/visual_cycle/v129u_visual_memory_20260429_173725.json",
+      "mtime": 1777509445.8465078,
+      "scores": [
+        {
+          "json_path": "topology_score",
+          "key": "topology_score",
+          "value": 0.925,
+          "kind": "topology_quality"
+        },
+        {
+          "json_path": "judgment.coherence",
+          "key": "coherence",
+          "value": 0.9848,
+          "kind": "topology_quality"
+        },
+        {
+          "json_path": "judgment.checks.score",
+          "key": "score",
+          "value": 0.925,
+          "kind": "visual_quality"
+        }
+      ]
+    },
+    {
+      "path": "reports/v12_9/visual_cycle/v129u_image_spec_20260429_173725.json",
+      "mtime": 1777509445.7665079,
+      "scores": [
+        {
+          "json_path": "topology_score",
+          "key": "topology_score",
+          "value": 0.925,
+          "kind": "topology_quality"
+        }
+      ]
+    },
+    {
+      "path": "var/lattice/visual_reflection_state_v113.json",
+      "mtime": 1777509445.6865077,
+      "scores": [
+        {
+          "json_path": "last_reflection.topology.score.coherence",
+          "key": "coherence",
+          "value": 1.0,
+          "kind": "topology_quality"
+        },
+        {
+          "json_path": "last_reflection.topology.score.total",
+          "key": "total",
+          "value": 0.925,
+          "kind": "unknown_score"
+        },
+        {
+          "json_path": "last_reflection.v106.total",
+          "key": "total",
+          "value": 0.7607,
+          "kind": "unknown_score"
+        }
+      ]
+    },
+    {
+      "path": "reports/v12_9/visual_memory/visual_judge_20260429_173724.json",
+      "mtime": 1777509444.4025078,
+      "scores": [
+        {
+          "json_path": "latest_metrics.topology_score",
+          "key": "topology_score",
+          "value": 0.925,
+          "kind": "topology_quality"
+        }
+      ]
+    },
+    {
+      "path": "reports/v12_9/visual_memory/v129ae_difference_integration_20260429_173724.json",
+      "mtime": 1777509444.1105077,
+      "scores": [
+        {
+          "json_path": "topology_score",
+          "key": "topology_score",
+          "value": 0.925,
+          "kind": "topology_quality"
+        }
+      ]
+    },
+    {
+      "path": "reports/v12_9/visual_memory/v129w_visual_difference_20260429_173723.json",
+      "mtime": 1777509443.8345077,
+      "scores": [
+        {
+          "json_path": "previous.topology_score",
+          "key": "topology_score",
+          "value": 0.9625,
+          "kind": "topology_quality"
+        },
+        {
+          "json_path": "latest.topology_score",
+          "key": "topology_score",
+          "value": 0.925,
+          "kind": "topology_quality"
+        }
+      ]
+    },
+    {
+      "path": "reports/v12_9/visual_cycle/v129u_visual_cycle_20260429_173723.json",
+      "mtime": 1777509443.5625079,
+      "scores": [
+        {
+          "json_path": "image_spec.topology_score",
+          "key": "topology_score",
+          "value": 0.925,
+          "kind": "topology_quality"
+        },
+        {
+          "json_path": "visual_memory.topology_score",
+          "key": "topology_score",
+          "value": 0.925,
+          "kind": "topology_quality"
+        },
+        {
+          "json_path": "visual_memory.judgment.coherence",
+          "key": "coherence",
+          "value": 0.9848,
+          "kind": "topology_quality"
+        },
+        {
+          "json_path": "visual_memory.judgment.checks.score",
+          "key": "score",
+          "value": 0.925,
+          "kind": "visual_quality"
+        },
+        {
+          "json_path": "visual_judge.latest_metrics.topology_score",
+          "key": "topology_score",
+          "value": 0.925,
+          "kind": "topology_quality"
+        }
+      ]
+    },
+    {
+      "path": "reports/v12_9/visual_cycle/v129u_visual_judge_20260429_173723.json",
+      "mtime": 1777509443.5625079,
+      "scores": [
+        {
+          "json_path": "latest_metrics.topology_score",
+          "key": "topology_score",
+          "value": 0.925,
+          "kind": "topology_quality"
+        }
+      ]
+    },
+    {
+      "path": "reports/v12_9/visual_cycle/v129u_visual_memory_20260429_173723.json",
+      "mtime": 1777509443.4825077,
+      "scores": [
+        {
+          "json_path": "topology_score",
+          "key": "topology_score",
+          "value": 0.925,
+          "kind": "topology_quality"
+        },
+        {
+          "json_path": "judgment.coherence",
+          "key": "coherence",
+          "value": 0.9848,
+          "kind": "topology_quality"
+        },
+        {
+          "json_path": "judgment.checks.score",
+          "key": "score",
+          "value": 0.925,
+          "kind": "visual_quality"
+        }
+      ]
+    },
+    {
+      "path": "reports/v12_9/visual_cycle/v129u_image_spec_20260429_173723.json",
+      "mtime": 1777509443.4185078,
+      "scores": [
+        {
+          "json_path": "topology_score",
+          "key": "topology_score",
+          "value": 0.925,
+          "kind": "topology_quality"
+        }
+      ]
+    }
+  ],
+  "law": "do_not_compare_binary_health_scores_to_topology_quality_scores",
+  "next": "filter_v125b_by_score_kind_before_policy_change"
+}
+

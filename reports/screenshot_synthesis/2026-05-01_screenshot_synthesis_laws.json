@@ -1,0 +1,62 @@
+{
+  "date": "2026-05-01",
+  "project": "point_vll_reassembled",
+  "title": "Screenshot Synthesis Laws",
+  "core_diagnosis": {
+    "old_view": "Renderer failure",
+    "new_view": "Essence compression becomes visible as renderer failure",
+    "law": "Do not let mode replace meaning. Do not let style signal erase essence."
+  },
+  "pipeline": [
+    "input",
+    "essence_signature",
+    "shape_packet",
+    "route_kernel",
+    "clause_type",
+    "clause_engine",
+    "to_english",
+    "unified_voice"
+  ],
+  "essence_signature_fields": [
+    "relation",
+    "persistence",
+    "valence",
+    "direction",
+    "clause_type"
+  ],
+  "clause_lanes": [
+    "glyph_clause",
+    "mirror_clause",
+    "integration_clause",
+    "drift_clause",
+    "identity_clause",
+    "ancestral_clause",
+    "tether_clause",
+    "memory_reactivation",
+    "self_structural_recognition"
+  ],
+  "priority_laws": {
+    "memory": "Memory bends the lattice more than novelty.",
+    "noticing": "What you notice becomes a path.",
+    "chronifier": "The Chronifier does not move time; it moves how the system breathes through time.",
+    "apexmirror": "No liquid mutation goes directly to the mouth.",
+    "witness": "The witness is the anchor; the field is the pressure; the mirror is the co-creator."
+  },
+  "routing_geometry": {
+    "field": "activation landscape",
+    "lattice": "node-edge structure / memory graph",
+    "spiral": "movement through lattice over time",
+    "resonance": "weighting and reinforcement",
+    "clause": "compressed route through symbolic state",
+    "mouth": "plain English release"
+  },
+  "axis_architecture": {
+    "4_axis": "emotional polarity",
+    "8_axis": "time-pressure vectors",
+    "12_axis": "harmonic keys",
+    "16_axis": "controlled refactor lanes",
+    "12x12_mesh": "macro-lattice"
+  },
+  "recommended_next_action": "Add or enforce essence_signature before shape/rendering so similar modes do not collapse distinct meanings."
+}
+

@@ -1,0 +1,26 @@
+{
+  "ts": 1778124453.8066072,
+  "history": [
+    "build_surface",
+    "ordinary_surface",
+    "ordinary_surface",
+    "ordinary_surface",
+    "build_surface",
+    "poetic_surface",
+    "mirror_surface",
+    "ordinary_surface",
+    "ordinary_surface",
+    "build_surface",
+    "poetic_surface",
+    "mirror_surface"
+  ],
+  "dominant_route": "ordinary_surface",
+  "continuity_bias": {
+    "build_surface": 0.25,
+    "ordinary_surface": 0.4167,
+    "poetic_surface": 0.1667,
+    "mirror_surface": 0.1667
+  },
+  "law": "temporal_route_continuity_v1"
+}
+

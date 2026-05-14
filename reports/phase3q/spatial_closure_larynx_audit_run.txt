@@ -1,0 +1,5 @@
+verdict: review
+created_object: A gentle Memory-to-Glyph Forge that converts missed-goodbye pressure into future design seeds.
+report: reports/phase3q/spatial_closure_larynx_audit_latest.json
+text: reports/phase3q/spatial_closure_larynx_audit_latest.txt
+

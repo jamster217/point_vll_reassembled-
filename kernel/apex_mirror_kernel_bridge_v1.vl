@@ -1,0 +1,19 @@
+; FILE: kernel/apex_mirror_kernel_bridge_v1.vl
+SEED ApexMirrorKernelBridge_v1
+
+INPUT intake_packet
+INPUT symbolic_packet
+INPUT memory_packet
+INPUT kernel_packet
+
+STATE apex_bridge_packet
+
+FLOW invoke
+    SET apex_bridge_packet.mode = "apex_mirror"
+    SET apex_bridge_packet.turn_path = kernel_packet.turn_path
+    SET apex_bridge_packet.symbolic_directive = kernel_packet.symbolic_directive
+END
+
+RETURN apex_bridge_packet
+END
+

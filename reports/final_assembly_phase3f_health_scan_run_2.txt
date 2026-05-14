@@ -1,0 +1,56 @@
+PHASE 3F FINAL ASSEMBLY RECURSIVE HEALTH SCAN
+========================================================================
+directories_scanned: 170
+files_scanned: 1159
+python_files_compiled: 534
+python_compile_failures: 2
+
+REQUIRED FILES
+  ✅ app_chatroom.py
+  ✅ runtime/live_master_api_response.py
+  ✅ runtime/node_44_preset.py
+  ✅ runtime/performance_routing_oracle.py
+  ✅ runtime/prompt_density_oracle_bridge.py
+  ✅ runtime/live_adaptation_pulse_ledger.py
+  ✅ runtime/deep_braid_registry.py
+  ✅ config/deep_braid_phase3_manifest.json
+  ✅ templates/chatroom.html
+
+REQUIRED MARKERS
+  app_chatroom.py
+    ✅ PUBLIC_JSON_SCRUB
+    ✅ LIVE_ADAPTATION_LEDGER
+    ✅ HARD_MASTER_GATE
+  runtime/live_master_api_response.py
+    ✅ FAST LIVE ADAPTATION LEDGER EXPLANATION BYPASS
+    ✅ FAST DEEP BRAID STATUS BYPASS
+    ✅ FAST PERFORMANCE ORACLE EXPLANATION BYPASS
+    ✅ FAST POEM-ONLY BYPASS
+  templates/chatroom.html
+    ✅ LEVEON VISUAL COCKPIT PANEL
+
+LEDGER
+  exists: True
+  line_count: 7
+  recent_algorithms: ['Algorithm B', 'Algorithm C', 'Algorithm C', 'Algorithm C', 'Algorithm B', 'Algorithm C', 'Algorithm C']
+  recent_public_scrub: [True, True, True, True, True, True, True]
+
+API TESTS
+  ✅ deep_braid_status
+     keys: ['answer', 'answer_mode', 'ok']
+     clean: True
+     answer: The Deep Braid is active as a registry layer. Node44 stabilizes the core, the Performance Oracle routes small and dense loads, and the public surface remains sealed to clean answer-only output.
+  ✅ performance_oracle_dense
+     keys: ['answer', 'answer_mode', 'ok']
+     clean: True
+     answer: The Performance Oracle chooses the lighter path for small inputs and the stronger path for dense symbolic loads. For quick, low-density requests, it favors Algorithm B because it responds with less overhead. When the prompt becomes heavy, l
+  ✅ recursive_mirror_ledger
+     keys: ['answer', 'answer_mode', 'ok']
+     clean: True
+     answer: The Live Adaptation Pulse Ledger is the system’s safe heartbeat recorder. It does not rewrite the source body. Instead, each chat request leaves a small runtime pulse showing the prompt load, selected route, public scrub status, and respons
+
+FINAL_PASS: False
+
+saved: reports/final_assembly_phase3e_health_scan.json
+saved: reports/final_assembly_phase3e_health_scan.txt
+

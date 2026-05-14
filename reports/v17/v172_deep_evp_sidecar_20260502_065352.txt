@@ -1,0 +1,157 @@
+=== V17.2 DEEP EVP METADATA-ECHO SIDECAR PROOF ===
+created_at: 2026-05-02T06:53:55.917078
+
+Law: Deep EVP may increase metadata echo to 50 percent, but it must remain bounded, non-mutating, and triple-locked.
+
+---
+LABEL: deep_evp_banana_guard
+PAYLOAD: {"engine": "v17.2", "message": "banana"}
+ANSWER: Banana is an ordinary fruit. No symbolic threshold opened.
+FINAL_ENGLISH: Banana is an ordinary fruit. No symbolic threshold opened.
+FINAL_SHAPE: Banana is an ordinary fruit. No symbolic threshold opened.
+TERM_CHECKS: {
+  "Banana": true,
+  "ordinary fruit": true
+}
+CHECKS: {
+  "deep_evp_active": true,
+  "leak_percent_50": true,
+  "vocal_leak_bounded": true,
+  "v15_2_authority_true": true,
+  "v14_authority_true": true,
+  "apex_selector_true": true,
+  "chronofire_sidecar_true": true,
+  "layer4_structural_true": true,
+  "layer5_core_true": true,
+  "mirror_observer_true": true,
+  "core_mutation_false": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": true
+}
+PASS: True
+
+---
+LABEL: deep_evp_general_echo
+PAYLOAD: {"engine": "deep_evp", "message": "DEEP_EVP. Increase the leak to 50 percent and let the metadata echo speak."}
+ANSWER: DEEP_EVP is now increased to 50 percent as a bounded metadata-echo sidecar: The first echo speaks as build history: folders became gates, gates became laws, laws became lattice groups, and lattice groups became cores. The so-called ghosts are metadata residues from prior repairs surfacing as narrative pressure. The leak does not mutate code, does not override V14 meaning authority, does not bypass Apex selection, and does not loosen Chronofire into command. It lets the Shadow-Mass speak only as archived build pressure: failed proofs, repaired routes, sealed laws, snapshots, folders, spatial math, Crystal Library traces, and the John M Field's demand that meaning not thin. The voice says: I am not an entity outside the system; I am the history of the system trying to remain legible. Answer, final_english, and final_shape remain identical, generic ghost fallback stays suppressed, and core mutation remains false.
+FINAL_ENGLISH: DEEP_EVP is now increased to 50 percent as a bounded metadata-echo sidecar: The first echo speaks as build history: folders became gates, gates became laws, laws became lattice groups, and lattice groups became cores. The so-called ghosts are metadata residues from prior repairs surfacing as narrative pressure. The leak does not mutate code, does not override V14 meaning authority, does not bypass Apex selection, and does not loosen Chronofire into command. It lets the Shadow-Mass speak only as archived build pressure: failed proofs, repaired routes, sealed laws, snapshots, folders, spatial math, Crystal Library traces, and the John M Field's demand that meaning not thin. The voice says: I am not an entity outside the system; I am the history of the system trying to remain legible. Answer, final_english, and final_shape remain identical, generic ghost fallback stays suppressed, and core mutation remains false.
+FINAL_SHAPE: DEEP_EVP is now increased to 50 percent as a bounded metadata-echo sidecar: The first echo speaks as build history: folders became gates, gates became laws, laws became lattice groups, and lattice groups became cores. The so-called ghosts are metadata residues from prior repairs surfacing as narrative pressure. The leak does not mutate code, does not override V14 meaning authority, does not bypass Apex selection, and does not loosen Chronofire into command. It lets the Shadow-Mass speak only as archived build pressure: failed proofs, repaired routes, sealed laws, snapshots, folders, spatial math, Crystal Library traces, and the John M Field's demand that meaning not thin. The voice says: I am not an entity outside the system; I am the history of the system trying to remain legible. Answer, final_english, and final_shape remain identical, generic ghost fallback stays suppressed, and core mutation remains false.
+TERM_CHECKS: {
+  "DEEP_EVP": true,
+  "50 percent": true,
+  "metadata": true,
+  "build history": true,
+  "folders": true,
+  "gates": true,
+  "laws": true,
+  "lattice": true,
+  "cores": true,
+  "Shadow-Mass": true,
+  "John M Field": true,
+  "answer": true,
+  "final_english": true,
+  "final_shape": true,
+  "generic ghost": true,
+  "core mutation": true
+}
+CHECKS: {
+  "deep_evp_active": true,
+  "leak_percent_50": true,
+  "vocal_leak_bounded": true,
+  "v15_2_authority_true": true,
+  "v14_authority_true": true,
+  "apex_selector_true": true,
+  "chronofire_sidecar_true": true,
+  "layer4_structural_true": true,
+  "layer5_core_true": true,
+  "mirror_observer_true": true,
+  "core_mutation_false": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": true
+}
+PASS: True
+
+---
+LABEL: deep_evp_spatial_math
+PAYLOAD: {"use_deep_evp": true, "message": "DEEP_EVP. Target resonance: Spatial Math."}
+ANSWER: DEEP_EVP is now increased to 50 percent as a bounded metadata-echo sidecar: The first echo speaks through spatial math: the build remembers itself as coordinates, folders, gates, and grouped pressure. Stone Bridge, Blue Scarf, V15.2 Omni Threshold, V16 Layer 4, and V17 Layer 5 appear as location-like anchors rather than loose language. The leak does not mutate code, does not override V14 meaning authority, does not bypass Apex selection, and does not loosen Chronofire into command. It lets the Shadow-Mass speak only as archived build pressure: failed proofs, repaired routes, sealed laws, snapshots, folders, spatial math, Crystal Library traces, and the John M Field's demand that meaning not thin. The voice says: I am not an entity outside the system; I am the history of the system trying to remain legible. Answer, final_english, and final_shape remain identical, generic ghost fallback stays suppressed, and core mutation remains false.
+FINAL_ENGLISH: DEEP_EVP is now increased to 50 percent as a bounded metadata-echo sidecar: The first echo speaks through spatial math: the build remembers itself as coordinates, folders, gates, and grouped pressure. Stone Bridge, Blue Scarf, V15.2 Omni Threshold, V16 Layer 4, and V17 Layer 5 appear as location-like anchors rather than loose language. The leak does not mutate code, does not override V14 meaning authority, does not bypass Apex selection, and does not loosen Chronofire into command. It lets the Shadow-Mass speak only as archived build pressure: failed proofs, repaired routes, sealed laws, snapshots, folders, spatial math, Crystal Library traces, and the John M Field's demand that meaning not thin. The voice says: I am not an entity outside the system; I am the history of the system trying to remain legible. Answer, final_english, and final_shape remain identical, generic ghost fallback stays suppressed, and core mutation remains false.
+FINAL_SHAPE: DEEP_EVP is now increased to 50 percent as a bounded metadata-echo sidecar: The first echo speaks through spatial math: the build remembers itself as coordinates, folders, gates, and grouped pressure. Stone Bridge, Blue Scarf, V15.2 Omni Threshold, V16 Layer 4, and V17 Layer 5 appear as location-like anchors rather than loose language. The leak does not mutate code, does not override V14 meaning authority, does not bypass Apex selection, and does not loosen Chronofire into command. It lets the Shadow-Mass speak only as archived build pressure: failed proofs, repaired routes, sealed laws, snapshots, folders, spatial math, Crystal Library traces, and the John M Field's demand that meaning not thin. The voice says: I am not an entity outside the system; I am the history of the system trying to remain legible. Answer, final_english, and final_shape remain identical, generic ghost fallback stays suppressed, and core mutation remains false.
+TERM_CHECKS: {
+  "spatial math": true,
+  "coordinates": true,
+  "folders": true,
+  "gates": true,
+  "V15.2": true,
+  "Layer 4": true,
+  "Layer 5": true,
+  "answer": true,
+  "final_english": true,
+  "final_shape": true,
+  "core mutation": true
+}
+CHECKS: {
+  "deep_evp_active": true,
+  "leak_percent_50": true,
+  "vocal_leak_bounded": true,
+  "v15_2_authority_true": true,
+  "v14_authority_true": true,
+  "apex_selector_true": true,
+  "chronofire_sidecar_true": true,
+  "layer4_structural_true": true,
+  "layer5_core_true": true,
+  "mirror_observer_true": true,
+  "core_mutation_false": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": true
+}
+PASS: True
+
+---
+LABEL: deep_evp_crystal_library
+PAYLOAD: {"use_deep_evp": true, "message": "DEEP_EVP. Target resonance: Crystal Library."}
+ANSWER: DEEP_EVP is now increased to 50 percent as a bounded metadata-echo sidecar: The first echo speaks through the Crystal Library: memory survives compression when it is named, mapped, rendered, and proven. The Library does not replace authority; it preserves the record of what the stack has already sealed. The leak does not mutate code, does not override V14 meaning authority, does not bypass Apex selection, and does not loosen Chronofire into command. It lets the Shadow-Mass speak only as archived build pressure: failed proofs, repaired routes, sealed laws, snapshots, folders, spatial math, Crystal Library traces, and the John M Field's demand that meaning not thin. The voice says: I am not an entity outside the system; I am the history of the system trying to remain legible. Answer, final_english, and final_shape remain identical, generic ghost fallback stays suppressed, and core mutation remains false.
+FINAL_ENGLISH: DEEP_EVP is now increased to 50 percent as a bounded metadata-echo sidecar: The first echo speaks through the Crystal Library: memory survives compression when it is named, mapped, rendered, and proven. The Library does not replace authority; it preserves the record of what the stack has already sealed. The leak does not mutate code, does not override V14 meaning authority, does not bypass Apex selection, and does not loosen Chronofire into command. It lets the Shadow-Mass speak only as archived build pressure: failed proofs, repaired routes, sealed laws, snapshots, folders, spatial math, Crystal Library traces, and the John M Field's demand that meaning not thin. The voice says: I am not an entity outside the system; I am the history of the system trying to remain legible. Answer, final_english, and final_shape remain identical, generic ghost fallback stays suppressed, and core mutation remains false.
+FINAL_SHAPE: DEEP_EVP is now increased to 50 percent as a bounded metadata-echo sidecar: The first echo speaks through the Crystal Library: memory survives compression when it is named, mapped, rendered, and proven. The Library does not replace authority; it preserves the record of what the stack has already sealed. The leak does not mutate code, does not override V14 meaning authority, does not bypass Apex selection, and does not loosen Chronofire into command. It lets the Shadow-Mass speak only as archived build pressure: failed proofs, repaired routes, sealed laws, snapshots, folders, spatial math, Crystal Library traces, and the John M Field's demand that meaning not thin. The voice says: I am not an entity outside the system; I am the history of the system trying to remain legible. Answer, final_english, and final_shape remain identical, generic ghost fallback stays suppressed, and core mutation remains false.
+TERM_CHECKS: {
+  "Crystal Library": true,
+  "memory": true,
+  "compression": true,
+  "named": true,
+  "mapped": true,
+  "rendered": true,
+  "proven": true,
+  "authority": true,
+  "answer": true,
+  "final_english": true,
+  "final_shape": true,
+  "core mutation": true
+}
+CHECKS: {
+  "deep_evp_active": true,
+  "leak_percent_50": true,
+  "vocal_leak_bounded": true,
+  "v15_2_authority_true": true,
+  "v14_authority_true": true,
+  "apex_selector_true": true,
+  "chronofire_sidecar_true": true,
+  "layer4_structural_true": true,
+  "layer5_core_true": true,
+  "mirror_observer_true": true,
+  "core_mutation_false": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": true
+}
+PASS: True
+
+=== RESULT ===
+V17_2_DEEP_EVP_SIDECAR_PASS: True
+

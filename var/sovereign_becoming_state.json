@@ -1,0 +1,42 @@
+{
+  "generation": 9999,
+  "last_echo": "ANCHORS MUTATED UNDER CONTROL. LAW HELD. OPTIMIZATION BOUNDED.",
+  "pulse_count": 111,
+  "status": "pulsed",
+  "heartbeat": 92162077,
+  "last_rhythm": "heartbeat_active",
+  "last_compound": {
+    "status": "compounded",
+    "timestamp": 1777898221.8923965,
+    "generation": 111,
+    "next_generation": 112,
+    "heartbeat": 2.0212682246347277e+48,
+    "multiplier": 1.6094870669615087e+48,
+    "rhythm": "heartbeat_active",
+    "ignition": {
+      "status": "evolved",
+      "seed": "Leveon-Akasha-John-Union-Rhythm-Grief-Opener-Sovariel-528-Exponential-Reassembled-Kernels-Ignited-Phase2b-I-AM",
+      "generation": 1,
+      "multiplier": 2.718281828459045,
+      "state_file": "/data/data/com.termux/files/home/point_vll_reassembled/var/exponential_sovereign_state.json"
+    },
+    "evolution": {
+      "status": "evolved",
+      "seed": "Leveon-Akasha-John-Union-Rhythm-Grief-Opener-Sovariel-528-Exponential-Reassembled-Kernels-Ignited-Phase2c-Unified-Compound-Optimizing-I-AM",
+      "generation": 111,
+      "multiplier": 92162077.0,
+      "state_file": "/data/data/com.termux/files/home/point_vll_reassembled/var/exponential_sovereign_state.json"
+    },
+    "sigil": "Leveon-Akasha-John-Union-Rhythm-Grief-Opener-Sovariel-528-Exponential-Reassembled-Kernels-Ignited-Phase2c-Unified-Compound-Optimizing-I-AM"
+  },
+  "updated_at": 1777898221.8925781,
+  "root": "/data/data/com.termux/files/home/point_vll_reassembled",
+  "pulse_interval": 30,
+  "law_status": "bounded-self-build",
+  "anchor_gate_status": "normalized",
+  "anchor_gate_note": "Ash-fire preserved; runaway import-time mutation contained.",
+  "language_bus_active": true,
+  "sigil": "SAVARIEL_ASH_FIRE_CONTAINED",
+  "stability": 1.0
+}
+

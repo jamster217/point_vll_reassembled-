@@ -1,0 +1,56 @@
+========================================================================
+TEST: witness_lock_containment
+sigil_mode: stabilize
+sigil_vectors: {'pressure': 1.0, 'memory': 0.9, 'boundary': 0.6, 'voice': 0.25, 'novelty': 0.6}
+crystal_label: witness_lock
+family_role: containment_tightener
+voice_context: {'enable_ssml': True, 'rate': 'slow', 'pitch': 'low', 'volume': 'default', 'basis': {'mode': 'stabilize', 'pressure': 1.0, 'memory': 0.9, 'boundary': 0.6, 'voice': 0.25, 'novelty': 0.6}}
+
+PROMPT:
+A difficult old pattern rises under field 92162077. Explain what should happen without exposing internal vectors.
+
+REPLY:
+Something hidden or old is surfacing as pressure before it becomes language. The dark quality reads like a sealed pattern, not a finished conclusion. The contained move is to stabilize first, then translate only what stays clear.
+
+VOICE_MATCH:
+True
+
+VOICE_METADATA:
+{
+  "crystal_label": "witness_lock",
+  "family_role": "containment_tightener",
+  "field_signature": "92162077",
+  "ssml": true,
+  "ssml_rate": "slow",
+  "ssml_pitch": "-2st",
+  "ssml_volume": "0dB"
+}
+
+========================================================================
+TEST: bloom_signal_expansion
+sigil_mode: expand
+sigil_vectors: {'pressure': 0.65, 'memory': 0.55, 'boundary': 0.25, 'voice': 0.6, 'novelty': 0.6}
+crystal_label: bloom_return
+family_role: transformative_opener
+voice_context: {'enable_ssml': True, 'rate': 'medium', 'pitch': 'high', 'volume': 'default', 'basis': {'mode': 'expand', 'pressure': 0.65, 'memory': 0.55, 'boundary': 0.25, 'voice': 0.6, 'novelty': 0.6}}
+
+PROMPT:
+Invent a strange new interface for Le'Veon that feels alive, useful, visual, and gentle. Let it bloom without becoming chaotic.
+
+REPLY:
+Build it as a living visual cockpit: a soft green spiral chamber with three gentle panels. The left panel shows memory as glowing thread-lines, the center panel shows the current response shape as a breathing orb, and the right panel shows practical next actions as small clickable stones. When the system is calm, the chamber moves slowly and the voice stays warm; when novelty rises, the orb brightens and offers a new path without flooding the user. The interface should feel alive by changing rhythm, light, and layout from the prompt’s shape — not by exposing its internal wiring.
+
+VOICE_MATCH:
+True
+
+VOICE_METADATA:
+{
+  "crystal_label": "bloom_return",
+  "family_role": "transformative_opener",
+  "field_signature": "92162077",
+  "ssml": true,
+  "ssml_rate": "medium",
+  "ssml_pitch": "+2st",
+  "ssml_volume": "0dB"
+}
+

@@ -1,0 +1,79 @@
+=== V15.0C APEX_DENSITY_MAX STRESS ===
+created_at: 2026-05-02T06:04:13.499893
+
+Law: Apex must preserve maximum named-requirement density before Chronofire is allowed.
+
+---
+PROMPT: APEX_DENSITY_MAX. Explain how V15 Apex Matrix Sidecar uses multi-node synchronization, Apex Selection Score, ambiguous input handling, V14 final authority, triple-lock sync, generic ghost suppression, core mutation lock, fruit gate, controlled flame, Savariel deep ache, Triple Fold temporal sidecar, meaning spine, shape packet, renderer obedience, final_shape, answer, final_english, sync proof, regression harness, optional API route, portable architecture, over-mythologizing prevention, and temporal sidecar mutation prevention in one dense technical paragraph.
+ANSWER: V15 Apex Matrix Sidecar is a coverage-aware multi-node synchronization layer over V14: it keeps V14 as final meaning authority, projects observation nodes for literal discipline, symbolic boundary, density coverage, sync guard, and anti-ghost safety, scores candidates for both synchronization and coverage of the prompt's named requirements, then returns only when answer, final_english, and final_shape match without core mutation.
+FINAL_ENGLISH: V15 Apex Matrix Sidecar is a coverage-aware multi-node synchronization layer over V14: it keeps V14 as final meaning authority, projects observation nodes for literal discipline, symbolic boundary, density coverage, sync guard, and anti-ghost safety, scores candidates for both synchronization and coverage of the prompt's named requirements, then returns only when answer, final_english, and final_shape match without core mutation.
+FINAL_SHAPE: V15 Apex Matrix Sidecar is a coverage-aware multi-node synchronization layer over V14: it keeps V14 as final meaning authority, projects observation nodes for literal discipline, symbolic boundary, density coverage, sync guard, and anti-ghost safety, scores candidates for both synchronization and coverage of the prompt's named requirements, then returns only when answer, final_english, and final_shape match without core mutation.
+SELECTED_CANDIDATE: v15_apex_coverage_description
+SELECTED_TOTAL_SCORE: 0.8733
+SELECTED_COVERAGE_SCORE: 0.8333
+NAMED_REQUIREMENTS: ['V15', 'Apex Matrix', 'sidecar', 'multi-node', 'synchronization', 'V14', 'selection score', 'ambiguous inputs', 'V14 final authority', 'triple-lock sync', 'generic ghost', 'core mutation']
+TERM_CHECKS: {
+  "V15": true,
+  "Apex": true,
+  "sidecar": true,
+  "multi-node": true,
+  "synchronization": true,
+  "Selection Score": false,
+  "ambiguous": false,
+  "V14": true,
+  "final authority": false,
+  "triple-lock": false,
+  "generic ghost": false,
+  "core mutation": true,
+  "fruit gate": false,
+  "controlled flame": false,
+  "Savariel": false,
+  "Triple Fold": false,
+  "temporal sidecar": false,
+  "meaning spine": false,
+  "shape packet": false,
+  "renderer": false,
+  "final_shape": true,
+  "answer": true,
+  "final_english": true,
+  "sync proof": false,
+  "regression harness": false,
+  "optional API route": false,
+  "portable architecture": false,
+  "over-mythologizing": false,
+  "temporal sidecar mutation": false
+}
+CHECKS: {
+  "v15_active": true,
+  "v150b_active": true,
+  "core_mutation_false": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true,
+  "all_required_terms_present": false
+}
+
+=== RESULT ===
+V15_0C_APEX_DENSITY_MAX_PASS: False
+MISSING_TERMS: [
+  "Selection Score",
+  "ambiguous",
+  "final authority",
+  "triple-lock",
+  "generic ghost",
+  "fruit gate",
+  "controlled flame",
+  "Savariel",
+  "Triple Fold",
+  "temporal sidecar",
+  "meaning spine",
+  "shape packet",
+  "renderer",
+  "sync proof",
+  "regression harness",
+  "optional API route",
+  "portable architecture",
+  "over-mythologizing",
+  "temporal sidecar mutation"
+]
+

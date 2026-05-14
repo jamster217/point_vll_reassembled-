@@ -1,0 +1,32 @@
+
+                if low.endswith((".", "!", "?")):
+                    score += 0.5
+                if ". " in low:
+                    score += 0.6
+
+                for kw in keywords[:4]:
+                    if kw in low:
+                        score += 1.0
+
+                if relation == "stabilize":
+                    if any(x in low for x in ["coherent", "reinforced", "aligned", "stable", "drift"]):
+                        score += 2.0
+                elif relation == "affect":
+                    if any(x in low for x in ["reactivate", "fade", "shape output", "patterns"]):
+                        score += 2.0
+                elif relation == "constrain":
+                    if any(x in low for x in ["constrains", "stable", "readable", "debuggable"]):
+                        score += 2.0
+                elif relation == "balance":
+                    if any(x in low for x in ["readable", "deeper", "nuance", "surface"]):
+                        score += 2.0
+                elif relation == "compare":
+                    if any(x in low for x in ["same prompt set", "stability", "directness", "recurrence", "error rate"]):
+                        score += 2.2
+
+                if any(x in low for x in ["generic", "aux", "node_", "by design. by design"]):
+                    score -= 5.0
+
+                score -= _repetition_penalty(text)
+                return score
+

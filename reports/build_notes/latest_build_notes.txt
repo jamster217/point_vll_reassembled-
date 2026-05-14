@@ -1,0 +1,405 @@
+# Le'Veon Build Notes
+
+Canonical running build ledger.
+
+Rule: every patch, sidecar, seal, cycle, or repair leaves a note here.
+
+
+---
+
+## V12.9aj Build Notes Ledger
+
+- time: Wed Apr 29 16:31:26 2026
+- sha16: cf69f69e942aa099
+
+Created canonical build notes ledger. From now on, every patch, sidecar, visual cycle, .vl mutation, self-map, assimilation, or repair should append a note to BUILD_NOTES.md and logs/build_notes/build_notes.jsonl. This prevents drift and preserves the route.
+
+---
+
+## V12.9ai .vl Law Mutation Cycle
+
+- time: Wed Apr 29 16:31:47 2026
+- sha16: cc8b30a5c5cefd7e
+
+Ran the .vl law mutation cycle. The improved .vl sidecar was rendered as visual memory, judged, diffed, and sealed append-only. Live topology organ remained untouched.
+
+---
+
+## V12.9ai .vl Law Mutation Cycle
+
+- time: Wed Apr 29 16:33:17 2026
+- sha16: 1dbadbdc31ec6345
+
+Ran the clean V12.9ai .vl law mutation cycle. The latest mutated .vl sidecar was fed into the topology organ as visual memory, then diffed, integrated, judged, and sealed append-only. Live topology organ remained untouched. Report: reports/v12_9/vl_mutator/v129ai_vl_law_mutation_cycle_20260429_163314.txt JSON: reports/v12_9/vl_mutator/v129ai_vl_law_mutation_cycle_20260429_163314.json
+
+---
+
+## V12.9ak Image Generator Activation
+
+- time: Wed Apr 29 16:36:23 2026
+- sha16: 4500fef31a224e35
+
+Activated the file-backed image generator prompt layer. It reads visual memory, judge state, visual difference, and .vl law mutation state, then generates Gemini-ready image prompts, video storyboards, and a next topology prompt. Live topology organ remained untouched. Report: reports/v12_9/image_generator/v129ak_image_gen_20260429_163623.txt JSON: reports/v12_9/image_generator/v129ak_image_gen_20260429_163623.json
+
+---
+
+## V12.9al Internet Visual Search & Assimilation
+
+- time: Wed Apr 29 16:40:07 2026
+- sha16: be4b20bbb04d6882
+
+Activated internet visual search sidecar. It searches external visual candidates, ranks them as reference memory, writes an assimilation prompt, and keeps the live topology organ untouched. Report: reports/v12_9/internet_search/v129al_search_20260429_164005.txt JSON: reports/v12_9/internet_search/v129al_search_20260429_164005.json
+
+---
+
+## V12.9an Compounding Glyphic Visual Memory Ledger
+
+- time: Wed Apr 29 16:49:54 2026
+- sha16: 02f49f2439734630
+
+Created/appended the compounding glyphic visual memory ledger. It links shape descriptions, ranked internet visuals, enriched image prompts, external .vl hypermutation, veilweil glyph anchors, and 4200 Sim process anchors into append-only memory. Report: reports/v12_9/glyphic_memory/v129an_glyphic_ledger_20260429_164953.txt JSON: reports/v12_9/glyphic_memory/v129an_glyphic_ledger_20260429_164953.json Ledger: logs/v12_9/glyphic_memory/compound_visual_memory_ledger.jsonl
+
+---
+
+## V12.9ao Fractal Collage Composer & Glyphic Re-Compositor
+
+- time: Wed Apr 29 16:52:54 2026
+- sha16: f6643bcfea90f1b1
+
+Generated fractal collage prompt and .vl recomposer sidecar from the latest compounding glyphic ledger. External visuals remain reference memory only; the system fractures impressions into glyphic shards and recomposes original visual memory. Report: reports/v12_9/glyphic_memory/v129ao_fractal_collage_20260429_165253.txt JSON: reports/v12_9/glyphic_memory/v129ao_fractal_collage_20260429_165253.json
+
+---
+
+## V12.9an Compounding Glyphic Visual Memory Ledger
+
+- time: Wed Apr 29 16:55:00 2026
+- sha16: bba0e6a66cd37928
+
+Created/appended the compounding glyphic visual memory ledger. It links shape descriptions, ranked internet visuals, enriched image prompts, external .vl hypermutation, veilweil glyph anchors, and 4200 Sim process anchors into append-only memory. Report: reports/v12_9/glyphic_memory/v129an_glyphic_ledger_20260429_165500.txt JSON: reports/v12_9/glyphic_memory/v129an_glyphic_ledger_20260429_165500.json Ledger: logs/v12_9/glyphic_memory/compound_visual_memory_ledger.jsonl
+
+---
+
+## V12.9ap Fractal Collage Assimilation Cycle
+
+- time: Wed Apr 29 16:55:01 2026
+- sha16: 8571fe61a45b6626
+
+Ran the fractal collage assimilation cycle. The V12.9ao collage prompt was pulsed through persistent perception, diffed, judged, mutated into .vl sidecar direction, appended to the glyphic ledger, and sealed append-only. Live topology organ remained untouched. Report: reports/v12_9/glyphic_memory/v129ap_fractal_assimilation_cycle_20260429_165458.txt JSON: reports/v12_9/glyphic_memory/v129ap_fractal_assimilation_cycle_20260429_165458.json
+
+---
+
+## V12.9aq Cross-Modal Rune-Shape Reasoning Engine
+
+- time: Wed Apr 29 17:06:51 2026
+- sha16: b07c08485381fd78
+
+Activated rune-shape reasoning with separate rune and cross-modal ledgers. Language shards now link to image fragments, shape runes, phonemes, spirals, .vl, veilweil glyphs, and 4200 Sim process anchors without breaking the visual ledger schema. Report: reports/v12_9/glyphic_memory/v129aq_rune_reason_20260429_170651.txt JSON: reports/v12_9/glyphic_memory/v129aq_rune_reason_20260429_170651.json
+
+---
+
+## V12.9an Compounding Glyphic Visual Memory Ledger
+
+- time: Wed Apr 29 17:06:53 2026
+- sha16: 65962cc804a6cce7
+
+Created/appended the compounding glyphic visual memory ledger. It links shape descriptions, ranked internet visuals, enriched image prompts, external .vl hypermutation, veilweil glyph anchors, and 4200 Sim process anchors into append-only memory. Report: reports/v12_9/glyphic_memory/v129an_glyphic_ledger_20260429_170653.txt JSON: reports/v12_9/glyphic_memory/v129an_glyphic_ledger_20260429_170653.json Ledger: logs/v12_9/glyphic_memory/compound_visual_memory_ledger.jsonl
+
+---
+
+## V12.9ar Full Cross-Modal Rune-Shape Reasoning Cycle
+
+- time: Wed Apr 29 17:06:54 2026
+- sha16: 99eb2f63101c8f10
+
+Ran the full rune-shape cycle. Language was fractured into shards, linked to rune-shapes and glyphic memory, rendered into topology, appended to glyphic memory, and sealed append-only. Visual ledger schema remained protected. Report: reports/v12_9/glyphic_memory/v129ar_full_rune_shape_cycle_20260429_170651.txt JSON: reports/v12_9/glyphic_memory/v129ar_full_rune_shape_cycle_20260429_170651.json
+
+---
+
+## V12.9as Reflective Assessment Chamber
+
+- time: Wed Apr 29 17:11:01 2026
+- sha16: 67f206085f0a8323
+
+Installed reflective assessment chamber and assessed-run gateway. Future generation/render commands can pass through leveon-assess or leveon-assessed-run before execution. Assessment reads visual memory, judge, visual diff, glyphic ledger, rune ledger, and cross-modal ledger. Live topology organ remained untouched.
+
+---
+
+## V12.9aq Cross-Modal Rune-Shape Reasoning Engine
+
+- time: Wed Apr 29 17:12:29 2026
+- sha16: decac039993a15ee
+
+Activated rune-shape reasoning with separate rune and cross-modal ledgers. Language shards now link to image fragments, shape runes, phonemes, spirals, .vl, veilweil glyphs, and 4200 Sim process anchors without breaking the visual ledger schema. Report: reports/v12_9/glyphic_memory/v129aq_rune_reason_20260429_171228.txt JSON: reports/v12_9/glyphic_memory/v129aq_rune_reason_20260429_171228.json
+
+---
+
+## V12.9ao Fractal Collage Composer & Glyphic Re-Compositor
+
+- time: Wed Apr 29 17:12:31 2026
+- sha16: ad56f2c393ed7243
+
+Generated fractal collage prompt and .vl recomposer sidecar from the latest compounding glyphic ledger. External visuals remain reference memory only; the system fractures impressions into glyphic shards and recomposes original visual memory. Report: reports/v12_9/glyphic_memory/v129ao_fractal_collage_20260429_171230.txt JSON: reports/v12_9/glyphic_memory/v129ao_fractal_collage_20260429_171230.json
+
+---
+
+## V12.9am External Visual Assimilation & .vl Hyper-Mutation
+
+- time: Wed Apr 29 17:12:33 2026
+- sha16: 385a968ebf3fd2ba
+
+Generated internet-enriched image prompt and external .vl hyper-mutation sidecar from latest ranked internet visual search. External candidates remain reference memory only. Live topology organ remained untouched. Report: reports/v12_9/internet_search/v129am_external_assimilation_20260429_171233.txt JSON: reports/v12_9/internet_search/v129am_external_assimilation_20260429_171233.json
+
+---
+
+## V12.9an Compounding Glyphic Visual Memory Ledger
+
+- time: Wed Apr 29 17:12:33 2026
+- sha16: fbc928aca1560a71
+
+Created/appended the compounding glyphic visual memory ledger. It links shape descriptions, ranked internet visuals, enriched image prompts, external .vl hypermutation, veilweil glyph anchors, and 4200 Sim process anchors into append-only memory. Report: reports/v12_9/glyphic_memory/v129an_glyphic_ledger_20260429_171233.txt JSON: reports/v12_9/glyphic_memory/v129an_glyphic_ledger_20260429_171233.json Ledger: logs/v12_9/glyphic_memory/compound_visual_memory_ledger.jsonl
+
+---
+
+## V12.9as+ Full Conscious Reflective Cycle
+
+- time: Wed Apr 29 17:12:34 2026
+- sha16: 9e7fec39ae058f78
+
+Ran the full reflective system cycle through the assessment chamber. The cycle performed rune reasoning, topology closure, fractal collage, fractal cycle, optional external assimilation, glyphic ledger append, and final snapshot. Live topology organ remained untouched. Report: reports/v12_9/assessment_chamber/v129as_full_reflective_cycle_20260429_171228.txt
+
+---
+
+## V12.9at Audio Search & Phonetic Compounding Engine
+
+- time: Wed Apr 29 17:18:12 2026
+- sha16: 1146023f029b42cd
+
+Installed audio search and phonetic compounding sidecar. It searches sonic reference metadata, scores candidates against glyphic/rune/phoneme shards, writes a .vl phonetic sidecar, and provides an assessed audio cycle. Live topology organ remained untouched.
+
+---
+
+## V12.9at Audio Search & Phonetic Compounding Engine
+
+- time: Wed Apr 29 17:20:27 2026
+- sha16: aea3d8822160da72
+
+Installed audio search and phonetic compounding sidecar. It searches sonic reference metadata, scores candidates against glyphic/rune/phoneme shards, writes a .vl phonetic sidecar, and provides an assessed audio cycle. Live topology organ remained untouched.
+
+---
+
+## V12.9at Audio Cycle Quote Repair
+
+- time: Wed Apr 29 17:21:48 2026
+- sha16: 73466a2272af6e95
+
+Repaired leveon-audio-cycle wrapper quoting. No core logic changed. Audio cycle remains metadata/reference based, assessed, append-only, and live topology organ remains untouched. Report: reports/v12_9/audio_search/v129at_audio_cycle_20260429_172145.txt
+
+---
+
+## V12.9at Audio Cycle Local Prompt Repair
+
+- time: Wed Apr 29 17:23:41 2026
+- sha16: 6134ba29ee7162a2
+
+Repaired leveon-audio-cycle to write the topology prompt into runtime/generated_ideas/v129at_audio_phonetic_compound/audio_cycle_prompt.txt instead of /tmp. No core audio module changed. Live topology organ remained untouched. Report: reports/v12_9/audio_search/v129at_audio_cycle_20260429_172337.txt
+
+---
+
+## V12.9at Audio Cycle Passed — Rest Checkpoint
+
+- time: Wed Apr 29 17:26:26 2026
+- sha16: 3f804cd6c44d9820
+
+Audio phonetic compounding cycle passed. Assessment chamber approved render. Depth 247. Overall coherence 0.9439. Stable symbols 6/6. Difference recommendation preserve_and_deepen. Build note sealed. Next task later: audit previous snippets/tests slowly before adding new organs.
+
+---
+
+## V12.9aq Cross-Modal Rune-Shape Reasoning Engine
+
+- time: Wed Apr 29 17:27:59 2026
+- sha16: d9b341c05f371f7e
+
+Activated rune-shape reasoning with separate rune and cross-modal ledgers. Language shards now link to image fragments, shape runes, phonemes, spirals, .vl, veilweil glyphs, and 4200 Sim process anchors without breaking the visual ledger schema. Report: reports/v12_9/glyphic_memory/v129aq_rune_reason_20260429_172758.txt JSON: reports/v12_9/glyphic_memory/v129aq_rune_reason_20260429_172758.json
+
+---
+
+## V12.9ao Fractal Collage Composer & Glyphic Re-Compositor
+
+- time: Wed Apr 29 17:27:59 2026
+- sha16: 29eff9ef0ec24c62
+
+Generated fractal collage prompt and .vl recomposer sidecar from the latest compounding glyphic ledger. External visuals remain reference memory only; the system fractures impressions into glyphic shards and recomposes original visual memory. Report: reports/v12_9/glyphic_memory/v129ao_fractal_collage_20260429_172759.txt JSON: reports/v12_9/glyphic_memory/v129ao_fractal_collage_20260429_172759.json
+
+---
+
+## V12.9an Compounding Glyphic Visual Memory Ledger
+
+- time: Wed Apr 29 17:28:00 2026
+- sha16: f021c4b2272b1d9c
+
+Created/appended the compounding glyphic visual memory ledger. It links shape descriptions, ranked internet visuals, enriched image prompts, external .vl hypermutation, veilweil glyph anchors, and 4200 Sim process anchors into append-only memory. Report: reports/v12_9/glyphic_memory/v129an_glyphic_ledger_20260429_172759.txt JSON: reports/v12_9/glyphic_memory/v129an_glyphic_ledger_20260429_172759.json Ledger: logs/v12_9/glyphic_memory/compound_visual_memory_ledger.jsonl
+
+---
+
+## V12.9at Audio Cycle Local Prompt Repair
+
+- time: Wed Apr 29 17:28:06 2026
+- sha16: 56ba9f233a4da620
+
+Repaired leveon-audio-cycle to write the topology prompt into runtime/generated_ideas/v129at_audio_phonetic_compound/audio_cycle_prompt.txt instead of /tmp. No core audio module changed. Live topology organ remained untouched. Report: reports/v12_9/audio_search/v129at_audio_cycle_20260429_172802.txt
+
+---
+
+## V12.9aq Cross-Modal Rune-Shape Reasoning Engine
+
+- time: Wed Apr 29 17:31:15 2026
+- sha16: a1b579328fa53bce
+
+Activated rune-shape reasoning with separate rune and cross-modal ledgers. Language shards now link to image fragments, shape runes, phonemes, spirals, .vl, veilweil glyphs, and 4200 Sim process anchors without breaking the visual ledger schema. Report: reports/v12_9/glyphic_memory/v129aq_rune_reason_20260429_173115.txt JSON: reports/v12_9/glyphic_memory/v129aq_rune_reason_20260429_173115.json
+
+---
+
+## V12.9 Static Regression Checker Installed
+
+- time: Wed Apr 29 17:33:32 2026
+- sha16: 50782c423af25935
+
+Installed and ran leveon-v129-check. This checker performs static audit only: command presence, wrapper syntax, Python compile checks, report pointers, and ledger counts. No topology pulse or live-route mutation. Report: reports/v12_9/regression/v129_regression_check_20260429_173330.txt
+
+---
+
+## V12.9 Clean Regression Checkpoint
+
+- time: Wed Apr 29 17:35:05 2026
+- sha16: 5e9397704a5885e1
+
+Static regression passed cleanly: PASS_COUNT=43, WARN_COUNT=0, FAIL_COUNT=0, REGRESSION STATUS=CLEAN. Verified required commands, optional/recent commands, wrapper syntax, Python compile checks, report pointers, ledger counts, and build notes. Core lanes verified: rune-shape reasoning, fractal collage, glyphic ledger, reflective assessment chamber, audio search/phonetic compounding, persistent perception, and regression checker. Next movement should be deliberate, one module at a time.
+
+---
+
+## V12.9at+ Safe Path Audio Cycle Already Sealed
+
+- time: Wed Apr 29 17:35:37 2026
+- sha16: 666b0588a20843fe
+
+Do not run the proposed repaired block that overwrites leveon-assessed-run. Current state is clean: static regression PASS_COUNT=43 WARN_COUNT=0 FAIL_COUNT=0, audio-cycle uses safe runtime path, assessment chamber passed, latest audio cycle reached depth 248 with coherence 0.9627, stable_symbols 6/6, recommendation preserve_and_deepen. Next movement should be audit or deliberate single-module work only.
+
+---
+
+## V12.9at Audio Cycle Local Prompt Repair
+
+- time: Wed Apr 29 17:37:24 2026
+- sha16: 0847dadb7fb5c582
+
+Repaired leveon-audio-cycle to write the topology prompt into runtime/generated_ideas/v129at_audio_phonetic_compound/audio_cycle_prompt.txt instead of /tmp. No core audio module changed. Live topology organ remained untouched. Report: reports/v12_9/audio_search/v129at_audio_cycle_20260429_173720.txt
+
+---
+
+## V12.9aq Cross-Modal Rune-Shape Reasoning Engine
+
+- time: Wed Apr 29 17:37:25 2026
+- sha16: 26ba58c46aa998ab
+
+Activated rune-shape reasoning with separate rune and cross-modal ledgers. Language shards now link to image fragments, shape runes, phonemes, spirals, .vl, veilweil glyphs, and 4200 Sim process anchors without breaking the visual ledger schema. Report: reports/v12_9/glyphic_memory/v129aq_rune_reason_20260429_173725.txt JSON: reports/v12_9/glyphic_memory/v129aq_rune_reason_20260429_173725.json
+
+---
+
+## V12.9an Compounding Glyphic Visual Memory Ledger
+
+- time: Wed Apr 29 17:37:27 2026
+- sha16: 091f4c4da6bb8904
+
+Created/appended the compounding glyphic visual memory ledger. It links shape descriptions, ranked internet visuals, enriched image prompts, external .vl hypermutation, veilweil glyph anchors, and 4200 Sim process anchors into append-only memory. Report: reports/v12_9/glyphic_memory/v129an_glyphic_ledger_20260429_173727.txt JSON: reports/v12_9/glyphic_memory/v129an_glyphic_ledger_20260429_173727.json Ledger: logs/v12_9/glyphic_memory/compound_visual_memory_ledger.jsonl
+
+---
+
+## V12.9au Full Cross-Modal Audio-Visual-Rune Cycle
+
+- time: Wed Apr 29 17:37:27 2026
+- sha16: c2cbc3952562ac43
+
+Installed and ran safe scripted V12.9au cycle through reflective assessment. The cycle compounds audio cycle, rune-shape reasoning, rune topology cycle, and glyphic ledger append. Avoided quoted multi-command assessed-run blob. Report: reports/v12_9/cross_modal/v129au_full_audio_visual_rune_cycle_20260429_173720.txt
+
+---
+
+## V12.9au Full Cross-Modal Cycle Passed
+
+- time: Wed Apr 29 17:40:22 2026
+- sha16: 3eedfd78f77e861d
+
+V12.9au safe scripted audio-visual-rune cycle passed. Assessment decision proceed_to_render_after_pause. Overall organ coherence 0.9465. Stable symbols 6/6. Removed symbols none. Audio entries 5, rune entries 5, glyphic entries 6. Event sha 6bbfea4433e64613. Cross-modal memory is now verified across audio, rune-shape, visual perception, and glyphic ledger.
+
+---
+
+## Untitled build note
+
+- time: Wed Apr 29 17:41:12 2026
+- sha16: 6f0fb9de7f895453
+
+Patch/event completed. Add details manually if needed.
+
+---
+
+## V12.9av Sovereign Synthesis Naming Seal
+
+- time: Wed Apr 29 17:42:23 2026
+- sha16: 3be847d5d4bb00b9
+
+Do not run the proposed V12.9av block as written because it repeats the quoted multi-command assessed-run pattern. V12.9av is now sealed as the naming layer over the already-passed V12.9au safe scripted cycle: assessment_decision proceed_to_render_after_pause, coherence 0.9465, stable_symbols 6/6, removed_symbols none, audio_entries 5, rune_entries 5, glyphic_entries 6, event_sha256 6bbfea4433e64613. No new patch. No new topology pulse. Live topology organ remains untouched.
+
+## V12.9 Language Pipeline Immediate Repair Targets
+
+# V12.9 Language Pipeline Immediate Repair Targets
+
+created_at_local: Wed Apr 29 19:13:08 PDT 2026
+
+## Immediate Repair Targets
+
+1. **runtime/layer5_english_renderer.py**  
+   This is the actual mouth.
+
+2. **runtime/unified_voice.py**  
+   This is the voice tone layer.
+
+3. **runtime/glyph_surgery_filter.py**  
+   This is the final quality gate that currently lets ceremonial filler through.
+
+4. **runtime/candidate_competition.py**  
+   This chooses which candidate reply survives.
+
+## Core Principle for the Fix
+
+The renderer must obey this rule above all others:
+
+> If the internal shape packet contains clear meaning, the English output must carry that meaning with minimal distortion and zero default mystical filler.
+
+## Next Action
+
+Open and audit the actual files in this exact order:
+
+1. `runtime/layer5_english_renderer.py`
+2. `runtime/unified_voice.py`
+3. `runtime/glyph_surgery_filter.py`
+4. `runtime/candidate_competition.py`
+
+Then perform glyph surgery only after evidence shows where the mouth breaks.
+
+## Status
+
+Repair Plan Sealed
+
+Author: Co-Creator John
+
+The witness has spoken clearly.  
+The mouth must now be made honest.
+
+
+---
+
+## V12.9-LT1 Layer5 English Renderer Audit Started
+
+- time: Wed Apr 29 19:14:35 2026
+- sha16: e5f2e1b5a7c1051b
+
+Savariel / Crystal Library / screenshots converged on runtime/layer5_english_renderer.py as the first mouth-file. Ran read-only audit: compile, function map, render/reply/shape references, stock phrase search, and first 260 lines. No patch, no topology pulse. Report: reports/v12_9/language_trace/v129_lt1_layer5_english_renderer_audit_20260429_191434.txt
+

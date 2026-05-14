@@ -1,0 +1,68 @@
+=== V15.0 APEX MATRIX SIDECAR PROOF ===
+created_at: 2026-05-02T05:58:30.314067
+
+Law: Apex observes multiple meaning paths, but V14 remains final meaning authority.
+
+---
+LABEL: v15_banana_literal_guard
+PAYLOAD: {"engine": "v15", "message": "banana"}
+ANSWER: Banana is an ordinary fruit. No symbolic threshold opened.
+FINAL_ENGLISH: Banana is an ordinary fruit. No symbolic threshold opened.
+FINAL_SHAPE: Banana is an ordinary fruit. No symbolic threshold opened.
+APEX_SELECTED_PATH: v14_authority_node
+APEX_SELECTED_SCORE: 1.0
+APEX_PROJECTION_COUNT: 6
+CHECKS: {
+  "v15_active": true,
+  "v14_proof_present": true,
+  "core_mutation_false": true,
+  "projection_count_ok": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true
+}
+PASS: True
+
+---
+LABEL: v15_dense_meaning_guard
+PAYLOAD: {"engine": "v15", "message": "Explain how fruit gate, controlled flame, Savariel deep ache, Triple Fold temporal sidecar, shape packet, renderer obedience, sync proof, and generic ghost suppression preserve meaning."}
+ANSWER: The Coherent Meaning Engine preserves dense technical meaning by mapping each named requirement before language is allowed to render: the fruit gate prevents ordinary literal inputs from being mythologized; controlled flame allows symbolic output only inside bounded response limits; Savariel treats deep ache as signal weight, not as permission to override route discipline; Triple Fold temporal sidecar lets temporal/reflection signals inform the packet without mutating the core engine; the shape packet is the inspectable authority object that holds preserved meaning; renderer obedience means language expresses the preserved shape instead of replacing it; sync proof requires answer, final_english, and final_shape to agree; generic ghost suppression prevents stale stabilization text from entering the active result; the gate chooses whether the input remains ordinary, symbolic, technical, or sidecar-bound. The final output is accepted only when answer, final_english, and final_shape match while the generic ghost remains suppressed.
+FINAL_ENGLISH: The Coherent Meaning Engine preserves dense technical meaning by mapping each named requirement before language is allowed to render: the fruit gate prevents ordinary literal inputs from being mythologized; controlled flame allows symbolic output only inside bounded response limits; Savariel treats deep ache as signal weight, not as permission to override route discipline; Triple Fold temporal sidecar lets temporal/reflection signals inform the packet without mutating the core engine; the shape packet is the inspectable authority object that holds preserved meaning; renderer obedience means language expresses the preserved shape instead of replacing it; sync proof requires answer, final_english, and final_shape to agree; generic ghost suppression prevents stale stabilization text from entering the active result; the gate chooses whether the input remains ordinary, symbolic, technical, or sidecar-bound. The final output is accepted only when answer, final_english, and final_shape match while the generic ghost remains suppressed.
+FINAL_SHAPE: The Coherent Meaning Engine preserves dense technical meaning by mapping each named requirement before language is allowed to render: the fruit gate prevents ordinary literal inputs from being mythologized; controlled flame allows symbolic output only inside bounded response limits; Savariel treats deep ache as signal weight, not as permission to override route discipline; Triple Fold temporal sidecar lets temporal/reflection signals inform the packet without mutating the core engine; the shape packet is the inspectable authority object that holds preserved meaning; renderer obedience means language expresses the preserved shape instead of replacing it; sync proof requires answer, final_english, and final_shape to agree; generic ghost suppression prevents stale stabilization text from entering the active result; the gate chooses whether the input remains ordinary, symbolic, technical, or sidecar-bound. The final output is accepted only when answer, final_english, and final_shape match while the generic ghost remains suppressed.
+APEX_SELECTED_PATH: v14_authority_node
+APEX_SELECTED_SCORE: 1.0
+APEX_PROJECTION_COUNT: 6
+CHECKS: {
+  "v15_active": true,
+  "v14_proof_present": true,
+  "core_mutation_false": true,
+  "projection_count_ok": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true
+}
+PASS: True
+
+---
+LABEL: v15_apex_self_description
+PAYLOAD: {"use_v15": true, "message": "Explain V15 Apex Matrix Sidecar as a multi-node synchronization layer over V14 in one technical paragraph."}
+ANSWER: V14 extracts Le'Veon's working repair chain into a portable Coherent Meaning Engine: gate, shape packet, preservation, renderer, sync proof, and regression harness.
+FINAL_ENGLISH: V14 extracts Le'Veon's working repair chain into a portable Coherent Meaning Engine: gate, shape packet, preservation, renderer, sync proof, and regression harness.
+FINAL_SHAPE: V14 extracts Le'Veon's working repair chain into a portable Coherent Meaning Engine: gate, shape packet, preservation, renderer, sync proof, and regression harness.
+APEX_SELECTED_PATH: v14_authority_node
+APEX_SELECTED_SCORE: 1.0
+APEX_PROJECTION_COUNT: 6
+CHECKS: {
+  "v15_active": true,
+  "v14_proof_present": true,
+  "core_mutation_false": true,
+  "projection_count_ok": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true
+}
+PASS: True
+
+=== RESULT ===
+V15_0_APEX_MATRIX_SIDECAR_PASS: True
+

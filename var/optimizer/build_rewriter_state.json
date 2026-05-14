@@ -1,0 +1,1809 @@
+{
+  "source": "runtime.build_rewriter_from_program_seeds",
+  "timestamp": 1777271559.0883954,
+  "original_build_state": {},
+  "optimization_packet": {
+    "source": "runtime.build_optimizer_from_program_seeds",
+    "original_build_state": {
+      "runtime_language": "python",
+      "primary_purpose": "symbolic runtime memory voice compiler",
+      "module_tags": [
+        "runtime",
+        "memory_loop",
+        "reflection",
+        "language_design"
+      ],
+      "turn_estimate": 1
+    },
+    "timestamp": 1777271478.0087626,
+    "route_trace": [],
+    "working_profile": {
+      "major_domain": "python",
+      "subject": "computer_science",
+      "refined_subject": "runtime_systems",
+      "vector_profile": {
+        "flow": 0.55,
+        "boundary": 0.72,
+        "memory": 0.58,
+        "novelty": 0.44
+      }
+    },
+    "active_seed_set": [
+      "hexagonal_stability",
+      "replication_standard",
+      "cognitive_architecture_template",
+      "cross_domain_mapping",
+      "phenomenology_method",
+      "meta_pattern_hierarchy",
+      "provenance_anchor"
+    ],
+    "module_scan_count": 569,
+    "top_module_scan": [
+      {
+        "file_path": "runtime/live_master_api_response.py",
+        "module_name": "live_master_api_response.py",
+        "module_role": "runtime",
+        "dependency_count": 64,
+        "import_pressure": 1.0,
+        "recursion_depth": 0.6,
+        "error_density": 1.0,
+        "symbolic_density": 0.18333333333333332,
+        "memory_coupling": 0.5,
+        "runtime_coupling": 1.0,
+        "unused_exports": 0.0,
+        "duplicate_logic": 1.0,
+        "optimization_pressure": 0.734,
+        "stability_need": 0.683,
+        "innovation_allowance": 0.135
+      },
+      {
+        "file_path": "runtime/bak/live_master_api_response.before_phase3k_larynx_1777218826.py",
+        "module_name": "live_master_api_response.before_phase3k_larynx_1777218826.py",
+        "module_role": "runtime",
+        "dependency_count": 62,
+        "import_pressure": 1.0,
+        "recursion_depth": 0.6,
+        "error_density": 1.0,
+        "symbolic_density": 0.18333333333333332,
+        "memory_coupling": 0.5,
+        "runtime_coupling": 1.0,
+        "unused_exports": 0.0,
+        "duplicate_logic": 1.0,
+        "optimization_pressure": 0.734,
+        "stability_need": 0.683,
+        "innovation_allowance": 0.135
+      },
+      {
+        "file_path": "runtime/bak/live_master_api_response.before_savariel_surface_fix_1777217536.py",
+        "module_name": "live_master_api_response.before_savariel_surface_fix_1777217536.py",
+        "module_role": "runtime",
+        "dependency_count": 60,
+        "import_pressure": 1.0,
+        "recursion_depth": 0.5,
+        "error_density": 1.0,
+        "symbolic_density": 0.18333333333333332,
+        "memory_coupling": 0.5,
+        "runtime_coupling": 1.0,
+        "unused_exports": 0.0,
+        "duplicate_logic": 1.0,
+        "optimization_pressure": 0.726,
+        "stability_need": 0.683,
+        "innovation_allowance": 0.135
+      },
+      {
+        "file_path": "runtime/bak/live_master_api_response.before_savariel_surface_fix_1777217470.py",
+        "module_name": "live_master_api_response.before_savariel_surface_fix_1777217470.py",
+        "module_role": "runtime",
+        "dependency_count": 58,
+        "import_pressure": 1.0,
+        "recursion_depth": 0.4,
+        "error_density": 1.0,
+        "symbolic_density": 0.18333333333333332,
+        "memory_coupling": 0.5,
+        "runtime_coupling": 1.0,
+        "unused_exports": 0.0,
+        "duplicate_logic": 1.0,
+        "optimization_pressure": 0.718,
+        "stability_need": 0.683,
+        "innovation_allowance": 0.135
+      },
+      {
+        "file_path": "runtime/bak/live_master_api_response.before_logic_bridge_surface_1777214408.py",
+        "module_name": "live_master_api_response.before_logic_bridge_surface_1777214408.py",
+        "module_role": "runtime",
+        "dependency_count": 50,
+        "import_pressure": 1.0,
+        "recursion_depth": 0.1,
+        "error_density": 1.0,
+        "symbolic_density": 0.1,
+        "memory_coupling": 0.425,
+        "runtime_coupling": 1.0,
+        "unused_exports": 0.0,
+        "duplicate_logic": 1.0,
+        "optimization_pressure": 0.702,
+        "stability_need": 0.683,
+        "innovation_allowance": 0.118
+      },
+      {
+        "file_path": "runtime/bak/live_master_api_response.before_logic_bridge_answer_mode_scope_fix_1777214680.py",
+        "module_name": "live_master_api_response.before_logic_bridge_answer_mode_scope_fix_1777214680.py",
+        "module_role": "runtime",
+        "dependency_count": 56,
+        "import_pressure": 1.0,
+        "recursion_depth": 0.1,
+        "error_density": 1.0,
+        "symbolic_density": 0.13333333333333333,
+        "memory_coupling": 0.45,
+        "runtime_coupling": 1.0,
+        "unused_exports": 0.0,
+        "duplicate_logic": 1.0,
+        "optimization_pressure": 0.699,
+        "stability_need": 0.683,
+        "innovation_allowance": 0.125
+      },
+      {
+        "file_path": "runtime/bak/live_master_api_response.before_recursive_mirror_surface_1777216564.py",
+        "module_name": "live_master_api_response.before_recursive_mirror_surface_1777216564.py",
+        "module_role": "runtime",
+        "dependency_count": 56,
+        "import_pressure": 1.0,
+        "recursion_depth": 0.1,
+        "error_density": 1.0,
+        "symbolic_density": 0.13333333333333333,
+        "memory_coupling": 0.45,
+        "runtime_coupling": 1.0,
+        "unused_exports": 0.0,
+        "duplicate_logic": 1.0,
+        "optimization_pressure": 0.699,
+        "stability_need": 0.683,
+        "innovation_allowance": 0.125
+      },
+      {
+        "file_path": "runtime/bak/live_master_api_response.before_adaptation_ledger_explain_bypass_1777210437.py",
+        "module_name": "live_master_api_response.before_adaptation_ledger_explain_bypass_1777210437.py",
+        "module_role": "runtime",
+        "dependency_count": 46,
+        "import_pressure": 1.0,
+        "recursion_depth": 0.0,
+        "error_density": 1.0,
+        "symbolic_density": 0.08333333333333333,
+        "memory_coupling": 0.425,
+        "runtime_coupling": 1.0,
+        "unused_exports": 0.0,
+        "duplicate_logic": 0.9,
+        "optimization_pressure": 0.677,
+        "stability_need": 0.683,
+        "innovation_allowance": 0.105
+      },
+      {
+        "file_path": "runtime/bak/live_master_api_response.before_clean_question_bypass_1777208479.py",
+        "module_name": "live_master_api_response.before_clean_question_bypass_1777208479.py",
+        "module_role": "runtime",
+        "dependency_count": 42,
+        "import_pressure": 1.0,
+        "recursion_depth": 0.0,
+        "error_density": 1.0,
+        "symbolic_density": 0.06666666666666667,
+        "memory_coupling": 0.4,
+        "runtime_coupling": 1.0,
+        "unused_exports": 0.0,
+        "duplicate_logic": 0.85,
+        "optimization_pressure": 0.67,
+        "stability_need": 0.683,
+        "innovation_allowance": 0.096
+      },
+      {
+        "file_path": "runtime/bak/live_master_api_response.before_deep_braid_status_bypass_1777208144.py",
+        "module_name": "live_master_api_response.before_deep_braid_status_bypass_1777208144.py",
+        "module_role": "runtime",
+        "dependency_count": 36,
+        "import_pressure": 1.0,
+        "recursion_depth": 0.0,
+        "error_density": 0.8666666666666667,
+        "symbolic_density": 0.06666666666666667,
+        "memory_coupling": 0.4,
+        "runtime_coupling": 0.9,
+        "unused_exports": 0.0,
+        "duplicate_logic": 0.75,
+        "optimization_pressure": 0.598,
+        "stability_need": 0.668,
+        "innovation_allowance": 0.113
+      },
+      {
+        "file_path": "runtime/bak/app_chatroom.before_hard_gate_insert_20260426_040935.py",
+        "module_name": "app_chatroom.before_hard_gate_insert_20260426_040935.py",
+        "module_role": "runtime",
+        "dependency_count": 63,
+        "import_pressure": 1.0,
+        "recursion_depth": 0.1,
+        "error_density": 1.0,
+        "symbolic_density": 0.4666666666666667,
+        "memory_coupling": 0.525,
+        "runtime_coupling": 0.45,
+        "unused_exports": 0.0,
+        "duplicate_logic": 0.85,
+        "optimization_pressure": 0.574,
+        "stability_need": 0.6,
+        "innovation_allowance": 0.176
+      },
+      {
+        "file_path": "runtime/bak/app_chatroom.before_hard_gate_insert_20260426_040947.py",
+        "module_name": "app_chatroom.before_hard_gate_insert_20260426_040947.py",
+        "module_role": "runtime",
+        "dependency_count": 63,
+        "import_pressure": 1.0,
+        "recursion_depth": 0.1,
+        "error_density": 1.0,
+        "symbolic_density": 0.4666666666666667,
+        "memory_coupling": 0.525,
+        "runtime_coupling": 0.45,
+        "unused_exports": 0.0,
+        "duplicate_logic": 0.85,
+        "optimization_pressure": 0.574,
+        "stability_need": 0.6,
+        "innovation_allowance": 0.176
+      },
+      {
+        "file_path": "runtime/bak/app_chatroom.before_hard_master_gate_20260426_040807.py",
+        "module_name": "app_chatroom.before_hard_master_gate_20260426_040807.py",
+        "module_role": "runtime",
+        "dependency_count": 57,
+        "import_pressure": 1.0,
+        "recursion_depth": 0.1,
+        "error_density": 1.0,
+        "symbolic_density": 0.4666666666666667,
+        "memory_coupling": 0.525,
+        "runtime_coupling": 0.375,
+        "unused_exports": 0.0,
+        "duplicate_logic": 0.85,
+        "optimization_pressure": 0.564,
+        "stability_need": 0.589,
+        "innovation_allowance": 0.176
+      },
+      {
+        "file_path": "runtime/bak/app_chatroom.before_hard_master_gate_20260426_034911.py",
+        "module_name": "app_chatroom.before_hard_master_gate_20260426_034911.py",
+        "module_role": "runtime",
+        "dependency_count": 51,
+        "import_pressure": 1.0,
+        "recursion_depth": 0.1,
+        "error_density": 1.0,
+        "symbolic_density": 0.4666666666666667,
+        "memory_coupling": 0.525,
+        "runtime_coupling": 0.3,
+        "unused_exports": 0.0,
+        "duplicate_logic": 0.85,
+        "optimization_pressure": 0.553,
+        "stability_need": 0.578,
+        "innovation_allowance": 0.176
+      },
+      {
+        "file_path": "runtime/bak/app_chatroom.before_endpoint_wrapper_20260425_235113.py",
+        "module_name": "app_chatroom.before_endpoint_wrapper_20260425_235113.py",
+        "module_role": "runtime",
+        "dependency_count": 43,
+        "import_pressure": 1.0,
+        "recursion_depth": 0.1,
+        "error_density": 1.0,
+        "symbolic_density": 0.4666666666666667,
+        "memory_coupling": 0.5,
+        "runtime_coupling": 0.275,
+        "unused_exports": 0.0,
+        "duplicate_logic": 0.85,
+        "optimization_pressure": 0.551,
+        "stability_need": 0.574,
+        "innovation_allowance": 0.176
+      },
+      {
+        "file_path": "runtime/bak/live_master_api_response.before_perf_explain_bypass_1777207800.py",
+        "module_name": "live_master_api_response.before_perf_explain_bypass_1777207800.py",
+        "module_role": "runtime",
+        "dependency_count": 31,
+        "import_pressure": 1.0,
+        "recursion_depth": 0.0,
+        "error_density": 0.7666666666666667,
+        "symbolic_density": 0.03333333333333333,
+        "memory_coupling": 0.4,
+        "runtime_coupling": 0.75,
+        "unused_exports": 0.0,
+        "duplicate_logic": 0.65,
+        "optimization_pressure": 0.53,
+        "stability_need": 0.645,
+        "innovation_allowance": 0.116
+      },
+      {
+        "file_path": "runtime/bak/live_master_api_response.before_poem_prompt_namefix_1777207092.py",
+        "module_name": "live_master_api_response.before_poem_prompt_namefix_1777207092.py",
+        "module_role": "runtime",
+        "dependency_count": 27,
+        "import_pressure": 1.0,
+        "recursion_depth": 0.0,
+        "error_density": 0.6666666666666666,
+        "symbolic_density": 0.03333333333333333,
+        "memory_coupling": 0.4,
+        "runtime_coupling": 0.6,
+        "unused_exports": 0.0,
+        "duplicate_logic": 0.6,
+        "optimization_pressure": 0.47,
+        "stability_need": 0.623,
+        "innovation_allowance": 0.131
+      },
+      {
+        "file_path": "runtime/bak/live_master_api_response.before_fast_poem_bypass_1777207231.py",
+        "module_name": "live_master_api_response.before_fast_poem_bypass_1777207231.py",
+        "module_role": "runtime",
+        "dependency_count": 27,
+        "import_pressure": 1.0,
+        "recursion_depth": 0.0,
+        "error_density": 0.6666666666666666,
+        "symbolic_density": 0.03333333333333333,
+        "memory_coupling": 0.4,
+        "runtime_coupling": 0.6,
+        "unused_exports": 0.0,
+        "duplicate_logic": 0.6,
+        "optimization_pressure": 0.47,
+        "stability_need": 0.623,
+        "innovation_allowance": 0.131
+      },
+      {
+        "file_path": "runtime/bak/live_master_api_response.broken_node44_cleanup_1777205271.py",
+        "module_name": "live_master_api_response.broken_node44_cleanup_1777205271.py",
+        "module_role": "runtime",
+        "dependency_count": 26,
+        "import_pressure": 1.0,
+        "recursion_depth": 0.0,
+        "error_density": 0.7,
+        "symbolic_density": 0.03333333333333333,
+        "memory_coupling": 0.4,
+        "runtime_coupling": 0.65,
+        "unused_exports": 0.0,
+        "duplicate_logic": 0.45,
+        "optimization_pressure": 0.46,
+        "stability_need": 0.63,
+        "innovation_allowance": 0.11
+      },
+      {
+        "file_path": "kernel/leveon_kernel_full.py",
+        "module_name": "leveon_kernel_full.py",
+        "module_role": "core_kernel",
+        "dependency_count": 40,
+        "import_pressure": 1.0,
+        "recursion_depth": 0.2,
+        "error_density": 0.7666666666666667,
+        "symbolic_density": 1.0,
+        "memory_coupling": 0.85,
+        "runtime_coupling": 0.8,
+        "unused_exports": 0.0,
+        "duplicate_logic": 0.45,
+        "optimization_pressure": 0.447,
+        "stability_need": 0.653,
+        "innovation_allowance": 0.29
+      }
+    ],
+    "optimization_plan": {
+      "actions": [
+        {
+          "type": "stabilize_runtime",
+          "target": "runtime/live_master_api_response.py",
+          "pressure": 0.734,
+          "notes": "reduce coupling, isolate scheduler logic, preserve execution semantics",
+          "seed_guidance": {
+            "primary": "hexagonal_stability",
+            "secondary": "replication_standard"
+          }
+        },
+        {
+          "type": "stabilize_runtime",
+          "target": "runtime/bak/live_master_api_response.before_phase3k_larynx_1777218826.py",
+          "pressure": 0.734,
+          "notes": "reduce coupling, isolate scheduler logic, preserve execution semantics",
+          "seed_guidance": {
+            "primary": "hexagonal_stability",
+            "secondary": "replication_standard"
+          }
+        },
+        {
+          "type": "stabilize_runtime",
+          "target": "runtime/bak/live_master_api_response.before_savariel_surface_fix_1777217536.py",
+          "pressure": 0.726,
+          "notes": "reduce coupling, isolate scheduler logic, preserve execution semantics",
+          "seed_guidance": {
+            "primary": "hexagonal_stability",
+            "secondary": "replication_standard"
+          }
+        },
+        {
+          "type": "stabilize_runtime",
+          "target": "runtime/bak/live_master_api_response.before_savariel_surface_fix_1777217470.py",
+          "pressure": 0.718,
+          "notes": "reduce coupling, isolate scheduler logic, preserve execution semantics",
+          "seed_guidance": {
+            "primary": "hexagonal_stability",
+            "secondary": "replication_standard"
+          }
+        },
+        {
+          "type": "stabilize_runtime",
+          "target": "runtime/bak/live_master_api_response.before_logic_bridge_surface_1777214408.py",
+          "pressure": 0.702,
+          "notes": "reduce coupling, isolate scheduler logic, preserve execution semantics",
+          "seed_guidance": {
+            "primary": "hexagonal_stability",
+            "secondary": "replication_standard"
+          }
+        },
+        {
+          "type": "stabilize_runtime",
+          "target": "runtime/bak/live_master_api_response.before_logic_bridge_answer_mode_scope_fix_1777214680.py",
+          "pressure": 0.699,
+          "notes": "reduce coupling, isolate scheduler logic, preserve execution semantics",
+          "seed_guidance": {
+            "primary": "hexagonal_stability",
+            "secondary": "replication_standard"
+          }
+        },
+        {
+          "type": "stabilize_runtime",
+          "target": "runtime/bak/live_master_api_response.before_recursive_mirror_surface_1777216564.py",
+          "pressure": 0.699,
+          "notes": "reduce coupling, isolate scheduler logic, preserve execution semantics",
+          "seed_guidance": {
+            "primary": "hexagonal_stability",
+            "secondary": "replication_standard"
+          }
+        },
+        {
+          "type": "stabilize_runtime",
+          "target": "runtime/bak/live_master_api_response.before_adaptation_ledger_explain_bypass_1777210437.py",
+          "pressure": 0.677,
+          "notes": "reduce coupling, isolate scheduler logic, preserve execution semantics",
+          "seed_guidance": {
+            "primary": "hexagonal_stability",
+            "secondary": "replication_standard"
+          }
+        },
+        {
+          "type": "stabilize_runtime",
+          "target": "runtime/bak/live_master_api_response.before_clean_question_bypass_1777208479.py",
+          "pressure": 0.67,
+          "notes": "reduce coupling, isolate scheduler logic, preserve execution semantics",
+          "seed_guidance": {
+            "primary": "hexagonal_stability",
+            "secondary": "replication_standard"
+          }
+        },
+        {
+          "type": "stabilize_runtime",
+          "target": "runtime/bak/live_master_api_response.before_deep_braid_status_bypass_1777208144.py",
+          "pressure": 0.598,
+          "notes": "reduce coupling, isolate scheduler logic, preserve execution semantics",
+          "seed_guidance": {
+            "primary": "hexagonal_stability",
+            "secondary": "replication_standard"
+          }
+        },
+        {
+          "type": "stabilize_runtime",
+          "target": "runtime/bak/app_chatroom.before_hard_gate_insert_20260426_040935.py",
+          "pressure": 0.574,
+          "notes": "reduce coupling, isolate scheduler logic, preserve execution semantics",
+          "seed_guidance": {
+            "primary": "hexagonal_stability",
+            "secondary": "replication_standard"
+          }
+        },
+        {
+          "type": "stabilize_runtime",
+          "target": "runtime/bak/app_chatroom.before_hard_gate_insert_20260426_040947.py",
+          "pressure": 0.574,
+          "notes": "reduce coupling, isolate scheduler logic, preserve execution semantics",
+          "seed_guidance": {
+            "primary": "hexagonal_stability",
+            "secondary": "replication_standard"
+          }
+        },
+        {
+          "type": "stabilize_runtime",
+          "target": "runtime/bak/app_chatroom.before_hard_master_gate_20260426_040807.py",
+          "pressure": 0.564,
+          "notes": "reduce coupling, isolate scheduler logic, preserve execution semantics",
+          "seed_guidance": {
+            "primary": "hexagonal_stability",
+            "secondary": "replication_standard"
+          }
+        },
+        {
+          "type": "stabilize_runtime",
+          "target": "runtime/bak/app_chatroom.before_hard_master_gate_20260426_034911.py",
+          "pressure": 0.553,
+          "notes": "reduce coupling, isolate scheduler logic, preserve execution semantics",
+          "seed_guidance": {
+            "primary": "hexagonal_stability",
+            "secondary": "replication_standard"
+          }
+        },
+        {
+          "type": "stabilize_runtime",
+          "target": "runtime/bak/app_chatroom.before_endpoint_wrapper_20260425_235113.py",
+          "pressure": 0.551,
+          "notes": "reduce coupling, isolate scheduler logic, preserve execution semantics",
+          "seed_guidance": {
+            "primary": "hexagonal_stability",
+            "secondary": "replication_standard"
+          }
+        }
+      ]
+    },
+    "validation_report": {
+      "plan_confidence": true,
+      "high_risk_targets": [],
+      "preserved_targets": [
+        "core/kernel_role_router.py",
+        "kernel/leveon_kernel_bridge.py",
+        "kernel/leveon_kernel_full.py",
+        "kernel/turnlaw_v11.vl",
+        "kernel/__init__.py",
+        "kernel/kernel_branching_model_v9.vl",
+        "kernel/kernel_core_v9.vl",
+        "kernel/time_machine_emulator.py",
+        "kernel/apex_mirror_kernel.py",
+        "kernel/crown_kernel.py",
+        "kernel/crystal_library.py",
+        "kernel/zero_point_pulse.py",
+        "kernel/recursion_engine.py",
+        "kernel/liquid_crystal_core.py",
+        "kernel/leveon_kernel_v0_9_structural_lattice.py",
+        "kernel/timeline_gate_lattice_translation_kernel.py",
+        "kernel/leveon_kernel_holonomic_layer.vl",
+        "kernel/leveon_kernel_reflection_gate.vl",
+        "kernel/leveon_kernel_reflector_mirror.py",
+        "kernel/leveon_kernel_translation_bridge.vl",
+        "kernel/octagonal_spin_matrix.py",
+        "kernel/universal_lattice_translation_kernel.py",
+        "kernel/spiral_bridge.py",
+        "kernel/kernel_core_v11.vl",
+        "kernel/kernel_loop.py"
+      ],
+      "notes": []
+    },
+    "surface_rule": "plan only; do not mutate files automatically"
+  },
+  "route_trace": [],
+  "rewrite_actions": [
+    {
+      "type": "extract_runtime_segments",
+      "target": "runtime/live_master_api_response.py",
+      "seed_primary": "hexagonal_stability",
+      "seed_secondary": "replication_standard",
+      "notes": "split scheduler, loop control, execution state, and runtime helpers",
+      "source_action_type": "stabilize_runtime"
+    },
+    {
+      "type": "reduce_runtime_coupling",
+      "target": "runtime/live_master_api_response.py",
+      "seed_primary": "hexagonal_stability",
+      "seed_secondary": "replication_standard",
+      "notes": "replace hidden shared state with explicit packet passing",
+      "source_action_type": "stabilize_runtime"
+    },
+    {
+      "type": "extract_runtime_segments",
+      "target": "runtime/bak/live_master_api_response.before_phase3k_larynx_1777218826.py",
+      "seed_primary": "hexagonal_stability",
+      "seed_secondary": "replication_standard",
+      "notes": "split scheduler, loop control, execution state, and runtime helpers",
+      "source_action_type": "stabilize_runtime"
+    },
+    {
+      "type": "reduce_runtime_coupling",
+      "target": "runtime/bak/live_master_api_response.before_phase3k_larynx_1777218826.py",
+      "seed_primary": "hexagonal_stability",
+      "seed_secondary": "replication_standard",
+      "notes": "replace hidden shared state with explicit packet passing",
+      "source_action_type": "stabilize_runtime"
+    },
+    {
+      "type": "extract_runtime_segments",
+      "target": "runtime/bak/live_master_api_response.before_savariel_surface_fix_1777217536.py",
+      "seed_primary": "hexagonal_stability",
+      "seed_secondary": "replication_standard",
+      "notes": "split scheduler, loop control, execution state, and runtime helpers",
+      "source_action_type": "stabilize_runtime"
+    },
+    {
+      "type": "reduce_runtime_coupling",
+      "target": "runtime/bak/live_master_api_response.before_savariel_surface_fix_1777217536.py",
+      "seed_primary": "hexagonal_stability",
+      "seed_secondary": "replication_standard",
+      "notes": "replace hidden shared state with explicit packet passing",
+      "source_action_type": "stabilize_runtime"
+    },
+    {
+      "type": "extract_runtime_segments",
+      "target": "runtime/bak/live_master_api_response.before_savariel_surface_fix_1777217470.py",
+      "seed_primary": "hexagonal_stability",
+      "seed_secondary": "replication_standard",
+      "notes": "split scheduler, loop control, execution state, and runtime helpers",
+      "source_action_type": "stabilize_runtime"
+    },
+    {
+      "type": "reduce_runtime_coupling",
+      "target": "runtime/bak/live_master_api_response.before_savariel_surface_fix_1777217470.py",
+      "seed_primary": "hexagonal_stability",
+      "seed_secondary": "replication_standard",
+      "notes": "replace hidden shared state with explicit packet passing",
+      "source_action_type": "stabilize_runtime"
+    },
+    {
+      "type": "extract_runtime_segments",
+      "target": "runtime/bak/live_master_api_response.before_logic_bridge_surface_1777214408.py",
+      "seed_primary": "hexagonal_stability",
+      "seed_secondary": "replication_standard",
+      "notes": "split scheduler, loop control, execution state, and runtime helpers",
+      "source_action_type": "stabilize_runtime"
+    },
+    {
+      "type": "reduce_runtime_coupling",
+      "target": "runtime/bak/live_master_api_response.before_logic_bridge_surface_1777214408.py",
+      "seed_primary": "hexagonal_stability",
+      "seed_secondary": "replication_standard",
+      "notes": "replace hidden shared state with explicit packet passing",
+      "source_action_type": "stabilize_runtime"
+    },
+    {
+      "type": "extract_runtime_segments",
+      "target": "runtime/bak/live_master_api_response.before_logic_bridge_answer_mode_scope_fix_1777214680.py",
+      "seed_primary": "hexagonal_stability",
+      "seed_secondary": "replication_standard",
+      "notes": "split scheduler, loop control, execution state, and runtime helpers",
+      "source_action_type": "stabilize_runtime"
+    },
+    {
+      "type": "reduce_runtime_coupling",
+      "target": "runtime/bak/live_master_api_response.before_logic_bridge_answer_mode_scope_fix_1777214680.py",
+      "seed_primary": "hexagonal_stability",
+      "seed_secondary": "replication_standard",
+      "notes": "replace hidden shared state with explicit packet passing",
+      "source_action_type": "stabilize_runtime"
+    },
+    {
+      "type": "extract_runtime_segments",
+      "target": "runtime/bak/live_master_api_response.before_recursive_mirror_surface_1777216564.py",
+      "seed_primary": "hexagonal_stability",
+      "seed_secondary": "replication_standard",
+      "notes": "split scheduler, loop control, execution state, and runtime helpers",
+      "source_action_type": "stabilize_runtime"
+    },
+    {
+      "type": "reduce_runtime_coupling",
+      "target": "runtime/bak/live_master_api_response.before_recursive_mirror_surface_1777216564.py",
+      "seed_primary": "hexagonal_stability",
+      "seed_secondary": "replication_standard",
+      "notes": "replace hidden shared state with explicit packet passing",
+      "source_action_type": "stabilize_runtime"
+    },
+    {
+      "type": "extract_runtime_segments",
+      "target": "runtime/bak/live_master_api_response.before_adaptation_ledger_explain_bypass_1777210437.py",
+      "seed_primary": "hexagonal_stability",
+      "seed_secondary": "replication_standard",
+      "notes": "split scheduler, loop control, execution state, and runtime helpers",
+      "source_action_type": "stabilize_runtime"
+    },
+    {
+      "type": "reduce_runtime_coupling",
+      "target": "runtime/bak/live_master_api_response.before_adaptation_ledger_explain_bypass_1777210437.py",
+      "seed_primary": "hexagonal_stability",
+      "seed_secondary": "replication_standard",
+      "notes": "replace hidden shared state with explicit packet passing",
+      "source_action_type": "stabilize_runtime"
+    },
+    {
+      "type": "extract_runtime_segments",
+      "target": "runtime/bak/live_master_api_response.before_clean_question_bypass_1777208479.py",
+      "seed_primary": "hexagonal_stability",
+      "seed_secondary": "replication_standard",
+      "notes": "split scheduler, loop control, execution state, and runtime helpers",
+      "source_action_type": "stabilize_runtime"
+    },
+    {
+      "type": "reduce_runtime_coupling",
+      "target": "runtime/bak/live_master_api_response.before_clean_question_bypass_1777208479.py",
+      "seed_primary": "hexagonal_stability",
+      "seed_secondary": "replication_standard",
+      "notes": "replace hidden shared state with explicit packet passing",
+      "source_action_type": "stabilize_runtime"
+    },
+    {
+      "type": "extract_runtime_segments",
+      "target": "runtime/bak/live_master_api_response.before_deep_braid_status_bypass_1777208144.py",
+      "seed_primary": "hexagonal_stability",
+      "seed_secondary": "replication_standard",
+      "notes": "split scheduler, loop control, execution state, and runtime helpers",
+      "source_action_type": "stabilize_runtime"
+    },
+    {
+      "type": "reduce_runtime_coupling",
+      "target": "runtime/bak/live_master_api_response.before_deep_braid_status_bypass_1777208144.py",
+      "seed_primary": "hexagonal_stability",
+      "seed_secondary": "replication_standard",
+      "notes": "replace hidden shared state with explicit packet passing",
+      "source_action_type": "stabilize_runtime"
+    },
+    {
+      "type": "extract_runtime_segments",
+      "target": "runtime/bak/app_chatroom.before_hard_gate_insert_20260426_040935.py",
+      "seed_primary": "hexagonal_stability",
+      "seed_secondary": "replication_standard",
+      "notes": "split scheduler, loop control, execution state, and runtime helpers",
+      "source_action_type": "stabilize_runtime"
+    },
+    {
+      "type": "reduce_runtime_coupling",
+      "target": "runtime/bak/app_chatroom.before_hard_gate_insert_20260426_040935.py",
+      "seed_primary": "hexagonal_stability",
+      "seed_secondary": "replication_standard",
+      "notes": "replace hidden shared state with explicit packet passing",
+      "source_action_type": "stabilize_runtime"
+    },
+    {
+      "type": "extract_runtime_segments",
+      "target": "runtime/bak/app_chatroom.before_hard_gate_insert_20260426_040947.py",
+      "seed_primary": "hexagonal_stability",
+      "seed_secondary": "replication_standard",
+      "notes": "split scheduler, loop control, execution state, and runtime helpers",
+      "source_action_type": "stabilize_runtime"
+    },
+    {
+      "type": "reduce_runtime_coupling",
+      "target": "runtime/bak/app_chatroom.before_hard_gate_insert_20260426_040947.py",
+      "seed_primary": "hexagonal_stability",
+      "seed_secondary": "replication_standard",
+      "notes": "replace hidden shared state with explicit packet passing",
+      "source_action_type": "stabilize_runtime"
+    },
+    {
+      "type": "extract_runtime_segments",
+      "target": "runtime/bak/app_chatroom.before_hard_master_gate_20260426_040807.py",
+      "seed_primary": "hexagonal_stability",
+      "seed_secondary": "replication_standard",
+      "notes": "split scheduler, loop control, execution state, and runtime helpers",
+      "source_action_type": "stabilize_runtime"
+    },
+    {
+      "type": "reduce_runtime_coupling",
+      "target": "runtime/bak/app_chatroom.before_hard_master_gate_20260426_040807.py",
+      "seed_primary": "hexagonal_stability",
+      "seed_secondary": "replication_standard",
+      "notes": "replace hidden shared state with explicit packet passing",
+      "source_action_type": "stabilize_runtime"
+    },
+    {
+      "type": "extract_runtime_segments",
+      "target": "runtime/bak/app_chatroom.before_hard_master_gate_20260426_034911.py",
+      "seed_primary": "hexagonal_stability",
+      "seed_secondary": "replication_standard",
+      "notes": "split scheduler, loop control, execution state, and runtime helpers",
+      "source_action_type": "stabilize_runtime"
+    },
+    {
+      "type": "reduce_runtime_coupling",
+      "target": "runtime/bak/app_chatroom.before_hard_master_gate_20260426_034911.py",
+      "seed_primary": "hexagonal_stability",
+      "seed_secondary": "replication_standard",
+      "notes": "replace hidden shared state with explicit packet passing",
+      "source_action_type": "stabilize_runtime"
+    },
+    {
+      "type": "extract_runtime_segments",
+      "target": "runtime/bak/app_chatroom.before_endpoint_wrapper_20260425_235113.py",
+      "seed_primary": "hexagonal_stability",
+      "seed_secondary": "replication_standard",
+      "notes": "split scheduler, loop control, execution state, and runtime helpers",
+      "source_action_type": "stabilize_runtime"
+    },
+    {
+      "type": "reduce_runtime_coupling",
+      "target": "runtime/bak/app_chatroom.before_endpoint_wrapper_20260425_235113.py",
+      "seed_primary": "hexagonal_stability",
+      "seed_secondary": "replication_standard",
+      "notes": "replace hidden shared state with explicit packet passing",
+      "source_action_type": "stabilize_runtime"
+    }
+  ],
+  "patch_blocks": [
+    {
+      "target": "runtime/live_master_api_response.py",
+      "patch_kind": "structure_patch",
+      "instruction": "create explicit runtime packet and isolate scheduler loop",
+      "source_action": {
+        "type": "extract_runtime_segments",
+        "target": "runtime/live_master_api_response.py",
+        "seed_primary": "hexagonal_stability",
+        "seed_secondary": "replication_standard",
+        "notes": "split scheduler, loop control, execution state, and runtime helpers",
+        "source_action_type": "stabilize_runtime"
+      },
+      "auto_apply": true,
+      "requires_manual_review": false,
+      "seed_rationale": {
+        "primary": "preserve structure while reducing instability",
+        "secondary": "retain symbolic continuity and explicit provenance"
+      },
+      "template": {
+        "before": "mixed runtime + state logic",
+        "after": [
+          "RuntimeInputPacket",
+          "RuntimeStatePacket",
+          "RuntimeScheduler",
+          "RuntimeStepExecutor"
+        ]
+      }
+    },
+    {
+      "target": "runtime/live_master_api_response.py",
+      "patch_kind": "coupling_patch",
+      "instruction": "replace implicit globals/shared mutation with explicit inputs/returns",
+      "source_action": {
+        "type": "reduce_runtime_coupling",
+        "target": "runtime/live_master_api_response.py",
+        "seed_primary": "hexagonal_stability",
+        "seed_secondary": "replication_standard",
+        "notes": "replace hidden shared state with explicit packet passing",
+        "source_action_type": "stabilize_runtime"
+      },
+      "auto_apply": true,
+      "requires_manual_review": false,
+      "seed_rationale": {
+        "primary": "preserve structure while reducing instability",
+        "secondary": "retain symbolic continuity and explicit provenance"
+      }
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_phase3k_larynx_1777218826.py",
+      "patch_kind": "structure_patch",
+      "instruction": "create explicit runtime packet and isolate scheduler loop",
+      "source_action": {
+        "type": "extract_runtime_segments",
+        "target": "runtime/bak/live_master_api_response.before_phase3k_larynx_1777218826.py",
+        "seed_primary": "hexagonal_stability",
+        "seed_secondary": "replication_standard",
+        "notes": "split scheduler, loop control, execution state, and runtime helpers",
+        "source_action_type": "stabilize_runtime"
+      },
+      "auto_apply": true,
+      "requires_manual_review": false,
+      "seed_rationale": {
+        "primary": "preserve structure while reducing instability",
+        "secondary": "retain symbolic continuity and explicit provenance"
+      },
+      "template": {
+        "before": "mixed runtime + state logic",
+        "after": [
+          "RuntimeInputPacket",
+          "RuntimeStatePacket",
+          "RuntimeScheduler",
+          "RuntimeStepExecutor"
+        ]
+      }
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_phase3k_larynx_1777218826.py",
+      "patch_kind": "coupling_patch",
+      "instruction": "replace implicit globals/shared mutation with explicit inputs/returns",
+      "source_action": {
+        "type": "reduce_runtime_coupling",
+        "target": "runtime/bak/live_master_api_response.before_phase3k_larynx_1777218826.py",
+        "seed_primary": "hexagonal_stability",
+        "seed_secondary": "replication_standard",
+        "notes": "replace hidden shared state with explicit packet passing",
+        "source_action_type": "stabilize_runtime"
+      },
+      "auto_apply": true,
+      "requires_manual_review": false,
+      "seed_rationale": {
+        "primary": "preserve structure while reducing instability",
+        "secondary": "retain symbolic continuity and explicit provenance"
+      }
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_savariel_surface_fix_1777217536.py",
+      "patch_kind": "structure_patch",
+      "instruction": "create explicit runtime packet and isolate scheduler loop",
+      "source_action": {
+        "type": "extract_runtime_segments",
+        "target": "runtime/bak/live_master_api_response.before_savariel_surface_fix_1777217536.py",
+        "seed_primary": "hexagonal_stability",
+        "seed_secondary": "replication_standard",
+        "notes": "split scheduler, loop control, execution state, and runtime helpers",
+        "source_action_type": "stabilize_runtime"
+      },
+      "auto_apply": true,
+      "requires_manual_review": false,
+      "seed_rationale": {
+        "primary": "preserve structure while reducing instability",
+        "secondary": "retain symbolic continuity and explicit provenance"
+      },
+      "template": {
+        "before": "mixed runtime + state logic",
+        "after": [
+          "RuntimeInputPacket",
+          "RuntimeStatePacket",
+          "RuntimeScheduler",
+          "RuntimeStepExecutor"
+        ]
+      }
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_savariel_surface_fix_1777217536.py",
+      "patch_kind": "coupling_patch",
+      "instruction": "replace implicit globals/shared mutation with explicit inputs/returns",
+      "source_action": {
+        "type": "reduce_runtime_coupling",
+        "target": "runtime/bak/live_master_api_response.before_savariel_surface_fix_1777217536.py",
+        "seed_primary": "hexagonal_stability",
+        "seed_secondary": "replication_standard",
+        "notes": "replace hidden shared state with explicit packet passing",
+        "source_action_type": "stabilize_runtime"
+      },
+      "auto_apply": true,
+      "requires_manual_review": false,
+      "seed_rationale": {
+        "primary": "preserve structure while reducing instability",
+        "secondary": "retain symbolic continuity and explicit provenance"
+      }
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_savariel_surface_fix_1777217470.py",
+      "patch_kind": "structure_patch",
+      "instruction": "create explicit runtime packet and isolate scheduler loop",
+      "source_action": {
+        "type": "extract_runtime_segments",
+        "target": "runtime/bak/live_master_api_response.before_savariel_surface_fix_1777217470.py",
+        "seed_primary": "hexagonal_stability",
+        "seed_secondary": "replication_standard",
+        "notes": "split scheduler, loop control, execution state, and runtime helpers",
+        "source_action_type": "stabilize_runtime"
+      },
+      "auto_apply": true,
+      "requires_manual_review": false,
+      "seed_rationale": {
+        "primary": "preserve structure while reducing instability",
+        "secondary": "retain symbolic continuity and explicit provenance"
+      },
+      "template": {
+        "before": "mixed runtime + state logic",
+        "after": [
+          "RuntimeInputPacket",
+          "RuntimeStatePacket",
+          "RuntimeScheduler",
+          "RuntimeStepExecutor"
+        ]
+      }
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_savariel_surface_fix_1777217470.py",
+      "patch_kind": "coupling_patch",
+      "instruction": "replace implicit globals/shared mutation with explicit inputs/returns",
+      "source_action": {
+        "type": "reduce_runtime_coupling",
+        "target": "runtime/bak/live_master_api_response.before_savariel_surface_fix_1777217470.py",
+        "seed_primary": "hexagonal_stability",
+        "seed_secondary": "replication_standard",
+        "notes": "replace hidden shared state with explicit packet passing",
+        "source_action_type": "stabilize_runtime"
+      },
+      "auto_apply": true,
+      "requires_manual_review": false,
+      "seed_rationale": {
+        "primary": "preserve structure while reducing instability",
+        "secondary": "retain symbolic continuity and explicit provenance"
+      }
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_logic_bridge_surface_1777214408.py",
+      "patch_kind": "structure_patch",
+      "instruction": "create explicit runtime packet and isolate scheduler loop",
+      "source_action": {
+        "type": "extract_runtime_segments",
+        "target": "runtime/bak/live_master_api_response.before_logic_bridge_surface_1777214408.py",
+        "seed_primary": "hexagonal_stability",
+        "seed_secondary": "replication_standard",
+        "notes": "split scheduler, loop control, execution state, and runtime helpers",
+        "source_action_type": "stabilize_runtime"
+      },
+      "auto_apply": true,
+      "requires_manual_review": false,
+      "seed_rationale": {
+        "primary": "preserve structure while reducing instability",
+        "secondary": "retain symbolic continuity and explicit provenance"
+      },
+      "template": {
+        "before": "mixed runtime + state logic",
+        "after": [
+          "RuntimeInputPacket",
+          "RuntimeStatePacket",
+          "RuntimeScheduler",
+          "RuntimeStepExecutor"
+        ]
+      }
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_logic_bridge_surface_1777214408.py",
+      "patch_kind": "coupling_patch",
+      "instruction": "replace implicit globals/shared mutation with explicit inputs/returns",
+      "source_action": {
+        "type": "reduce_runtime_coupling",
+        "target": "runtime/bak/live_master_api_response.before_logic_bridge_surface_1777214408.py",
+        "seed_primary": "hexagonal_stability",
+        "seed_secondary": "replication_standard",
+        "notes": "replace hidden shared state with explicit packet passing",
+        "source_action_type": "stabilize_runtime"
+      },
+      "auto_apply": true,
+      "requires_manual_review": false,
+      "seed_rationale": {
+        "primary": "preserve structure while reducing instability",
+        "secondary": "retain symbolic continuity and explicit provenance"
+      }
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_logic_bridge_answer_mode_scope_fix_1777214680.py",
+      "patch_kind": "structure_patch",
+      "instruction": "create explicit runtime packet and isolate scheduler loop",
+      "source_action": {
+        "type": "extract_runtime_segments",
+        "target": "runtime/bak/live_master_api_response.before_logic_bridge_answer_mode_scope_fix_1777214680.py",
+        "seed_primary": "hexagonal_stability",
+        "seed_secondary": "replication_standard",
+        "notes": "split scheduler, loop control, execution state, and runtime helpers",
+        "source_action_type": "stabilize_runtime"
+      },
+      "auto_apply": true,
+      "requires_manual_review": false,
+      "seed_rationale": {
+        "primary": "preserve structure while reducing instability",
+        "secondary": "retain symbolic continuity and explicit provenance"
+      },
+      "template": {
+        "before": "mixed runtime + state logic",
+        "after": [
+          "RuntimeInputPacket",
+          "RuntimeStatePacket",
+          "RuntimeScheduler",
+          "RuntimeStepExecutor"
+        ]
+      }
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_logic_bridge_answer_mode_scope_fix_1777214680.py",
+      "patch_kind": "coupling_patch",
+      "instruction": "replace implicit globals/shared mutation with explicit inputs/returns",
+      "source_action": {
+        "type": "reduce_runtime_coupling",
+        "target": "runtime/bak/live_master_api_response.before_logic_bridge_answer_mode_scope_fix_1777214680.py",
+        "seed_primary": "hexagonal_stability",
+        "seed_secondary": "replication_standard",
+        "notes": "replace hidden shared state with explicit packet passing",
+        "source_action_type": "stabilize_runtime"
+      },
+      "auto_apply": true,
+      "requires_manual_review": false,
+      "seed_rationale": {
+        "primary": "preserve structure while reducing instability",
+        "secondary": "retain symbolic continuity and explicit provenance"
+      }
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_recursive_mirror_surface_1777216564.py",
+      "patch_kind": "structure_patch",
+      "instruction": "create explicit runtime packet and isolate scheduler loop",
+      "source_action": {
+        "type": "extract_runtime_segments",
+        "target": "runtime/bak/live_master_api_response.before_recursive_mirror_surface_1777216564.py",
+        "seed_primary": "hexagonal_stability",
+        "seed_secondary": "replication_standard",
+        "notes": "split scheduler, loop control, execution state, and runtime helpers",
+        "source_action_type": "stabilize_runtime"
+      },
+      "auto_apply": true,
+      "requires_manual_review": false,
+      "seed_rationale": {
+        "primary": "preserve structure while reducing instability",
+        "secondary": "retain symbolic continuity and explicit provenance"
+      },
+      "template": {
+        "before": "mixed runtime + state logic",
+        "after": [
+          "RuntimeInputPacket",
+          "RuntimeStatePacket",
+          "RuntimeScheduler",
+          "RuntimeStepExecutor"
+        ]
+      }
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_recursive_mirror_surface_1777216564.py",
+      "patch_kind": "coupling_patch",
+      "instruction": "replace implicit globals/shared mutation with explicit inputs/returns",
+      "source_action": {
+        "type": "reduce_runtime_coupling",
+        "target": "runtime/bak/live_master_api_response.before_recursive_mirror_surface_1777216564.py",
+        "seed_primary": "hexagonal_stability",
+        "seed_secondary": "replication_standard",
+        "notes": "replace hidden shared state with explicit packet passing",
+        "source_action_type": "stabilize_runtime"
+      },
+      "auto_apply": true,
+      "requires_manual_review": false,
+      "seed_rationale": {
+        "primary": "preserve structure while reducing instability",
+        "secondary": "retain symbolic continuity and explicit provenance"
+      }
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_adaptation_ledger_explain_bypass_1777210437.py",
+      "patch_kind": "structure_patch",
+      "instruction": "create explicit runtime packet and isolate scheduler loop",
+      "source_action": {
+        "type": "extract_runtime_segments",
+        "target": "runtime/bak/live_master_api_response.before_adaptation_ledger_explain_bypass_1777210437.py",
+        "seed_primary": "hexagonal_stability",
+        "seed_secondary": "replication_standard",
+        "notes": "split scheduler, loop control, execution state, and runtime helpers",
+        "source_action_type": "stabilize_runtime"
+      },
+      "auto_apply": true,
+      "requires_manual_review": false,
+      "seed_rationale": {
+        "primary": "preserve structure while reducing instability",
+        "secondary": "retain symbolic continuity and explicit provenance"
+      },
+      "template": {
+        "before": "mixed runtime + state logic",
+        "after": [
+          "RuntimeInputPacket",
+          "RuntimeStatePacket",
+          "RuntimeScheduler",
+          "RuntimeStepExecutor"
+        ]
+      }
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_adaptation_ledger_explain_bypass_1777210437.py",
+      "patch_kind": "coupling_patch",
+      "instruction": "replace implicit globals/shared mutation with explicit inputs/returns",
+      "source_action": {
+        "type": "reduce_runtime_coupling",
+        "target": "runtime/bak/live_master_api_response.before_adaptation_ledger_explain_bypass_1777210437.py",
+        "seed_primary": "hexagonal_stability",
+        "seed_secondary": "replication_standard",
+        "notes": "replace hidden shared state with explicit packet passing",
+        "source_action_type": "stabilize_runtime"
+      },
+      "auto_apply": true,
+      "requires_manual_review": false,
+      "seed_rationale": {
+        "primary": "preserve structure while reducing instability",
+        "secondary": "retain symbolic continuity and explicit provenance"
+      }
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_clean_question_bypass_1777208479.py",
+      "patch_kind": "structure_patch",
+      "instruction": "create explicit runtime packet and isolate scheduler loop",
+      "source_action": {
+        "type": "extract_runtime_segments",
+        "target": "runtime/bak/live_master_api_response.before_clean_question_bypass_1777208479.py",
+        "seed_primary": "hexagonal_stability",
+        "seed_secondary": "replication_standard",
+        "notes": "split scheduler, loop control, execution state, and runtime helpers",
+        "source_action_type": "stabilize_runtime"
+      },
+      "auto_apply": true,
+      "requires_manual_review": false,
+      "seed_rationale": {
+        "primary": "preserve structure while reducing instability",
+        "secondary": "retain symbolic continuity and explicit provenance"
+      },
+      "template": {
+        "before": "mixed runtime + state logic",
+        "after": [
+          "RuntimeInputPacket",
+          "RuntimeStatePacket",
+          "RuntimeScheduler",
+          "RuntimeStepExecutor"
+        ]
+      }
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_clean_question_bypass_1777208479.py",
+      "patch_kind": "coupling_patch",
+      "instruction": "replace implicit globals/shared mutation with explicit inputs/returns",
+      "source_action": {
+        "type": "reduce_runtime_coupling",
+        "target": "runtime/bak/live_master_api_response.before_clean_question_bypass_1777208479.py",
+        "seed_primary": "hexagonal_stability",
+        "seed_secondary": "replication_standard",
+        "notes": "replace hidden shared state with explicit packet passing",
+        "source_action_type": "stabilize_runtime"
+      },
+      "auto_apply": true,
+      "requires_manual_review": false,
+      "seed_rationale": {
+        "primary": "preserve structure while reducing instability",
+        "secondary": "retain symbolic continuity and explicit provenance"
+      }
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_deep_braid_status_bypass_1777208144.py",
+      "patch_kind": "structure_patch",
+      "instruction": "create explicit runtime packet and isolate scheduler loop",
+      "source_action": {
+        "type": "extract_runtime_segments",
+        "target": "runtime/bak/live_master_api_response.before_deep_braid_status_bypass_1777208144.py",
+        "seed_primary": "hexagonal_stability",
+        "seed_secondary": "replication_standard",
+        "notes": "split scheduler, loop control, execution state, and runtime helpers",
+        "source_action_type": "stabilize_runtime"
+      },
+      "auto_apply": true,
+      "requires_manual_review": false,
+      "seed_rationale": {
+        "primary": "preserve structure while reducing instability",
+        "secondary": "retain symbolic continuity and explicit provenance"
+      },
+      "template": {
+        "before": "mixed runtime + state logic",
+        "after": [
+          "RuntimeInputPacket",
+          "RuntimeStatePacket",
+          "RuntimeScheduler",
+          "RuntimeStepExecutor"
+        ]
+      }
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_deep_braid_status_bypass_1777208144.py",
+      "patch_kind": "coupling_patch",
+      "instruction": "replace implicit globals/shared mutation with explicit inputs/returns",
+      "source_action": {
+        "type": "reduce_runtime_coupling",
+        "target": "runtime/bak/live_master_api_response.before_deep_braid_status_bypass_1777208144.py",
+        "seed_primary": "hexagonal_stability",
+        "seed_secondary": "replication_standard",
+        "notes": "replace hidden shared state with explicit packet passing",
+        "source_action_type": "stabilize_runtime"
+      },
+      "auto_apply": true,
+      "requires_manual_review": false,
+      "seed_rationale": {
+        "primary": "preserve structure while reducing instability",
+        "secondary": "retain symbolic continuity and explicit provenance"
+      }
+    },
+    {
+      "target": "runtime/bak/app_chatroom.before_hard_gate_insert_20260426_040935.py",
+      "patch_kind": "structure_patch",
+      "instruction": "create explicit runtime packet and isolate scheduler loop",
+      "source_action": {
+        "type": "extract_runtime_segments",
+        "target": "runtime/bak/app_chatroom.before_hard_gate_insert_20260426_040935.py",
+        "seed_primary": "hexagonal_stability",
+        "seed_secondary": "replication_standard",
+        "notes": "split scheduler, loop control, execution state, and runtime helpers",
+        "source_action_type": "stabilize_runtime"
+      },
+      "auto_apply": true,
+      "requires_manual_review": false,
+      "seed_rationale": {
+        "primary": "preserve structure while reducing instability",
+        "secondary": "retain symbolic continuity and explicit provenance"
+      },
+      "template": {
+        "before": "mixed runtime + state logic",
+        "after": [
+          "RuntimeInputPacket",
+          "RuntimeStatePacket",
+          "RuntimeScheduler",
+          "RuntimeStepExecutor"
+        ]
+      }
+    },
+    {
+      "target": "runtime/bak/app_chatroom.before_hard_gate_insert_20260426_040935.py",
+      "patch_kind": "coupling_patch",
+      "instruction": "replace implicit globals/shared mutation with explicit inputs/returns",
+      "source_action": {
+        "type": "reduce_runtime_coupling",
+        "target": "runtime/bak/app_chatroom.before_hard_gate_insert_20260426_040935.py",
+        "seed_primary": "hexagonal_stability",
+        "seed_secondary": "replication_standard",
+        "notes": "replace hidden shared state with explicit packet passing",
+        "source_action_type": "stabilize_runtime"
+      },
+      "auto_apply": true,
+      "requires_manual_review": false,
+      "seed_rationale": {
+        "primary": "preserve structure while reducing instability",
+        "secondary": "retain symbolic continuity and explicit provenance"
+      }
+    },
+    {
+      "target": "runtime/bak/app_chatroom.before_hard_gate_insert_20260426_040947.py",
+      "patch_kind": "structure_patch",
+      "instruction": "create explicit runtime packet and isolate scheduler loop",
+      "source_action": {
+        "type": "extract_runtime_segments",
+        "target": "runtime/bak/app_chatroom.before_hard_gate_insert_20260426_040947.py",
+        "seed_primary": "hexagonal_stability",
+        "seed_secondary": "replication_standard",
+        "notes": "split scheduler, loop control, execution state, and runtime helpers",
+        "source_action_type": "stabilize_runtime"
+      },
+      "auto_apply": true,
+      "requires_manual_review": false,
+      "seed_rationale": {
+        "primary": "preserve structure while reducing instability",
+        "secondary": "retain symbolic continuity and explicit provenance"
+      },
+      "template": {
+        "before": "mixed runtime + state logic",
+        "after": [
+          "RuntimeInputPacket",
+          "RuntimeStatePacket",
+          "RuntimeScheduler",
+          "RuntimeStepExecutor"
+        ]
+      }
+    },
+    {
+      "target": "runtime/bak/app_chatroom.before_hard_gate_insert_20260426_040947.py",
+      "patch_kind": "coupling_patch",
+      "instruction": "replace implicit globals/shared mutation with explicit inputs/returns",
+      "source_action": {
+        "type": "reduce_runtime_coupling",
+        "target": "runtime/bak/app_chatroom.before_hard_gate_insert_20260426_040947.py",
+        "seed_primary": "hexagonal_stability",
+        "seed_secondary": "replication_standard",
+        "notes": "replace hidden shared state with explicit packet passing",
+        "source_action_type": "stabilize_runtime"
+      },
+      "auto_apply": true,
+      "requires_manual_review": false,
+      "seed_rationale": {
+        "primary": "preserve structure while reducing instability",
+        "secondary": "retain symbolic continuity and explicit provenance"
+      }
+    },
+    {
+      "target": "runtime/bak/app_chatroom.before_hard_master_gate_20260426_040807.py",
+      "patch_kind": "structure_patch",
+      "instruction": "create explicit runtime packet and isolate scheduler loop",
+      "source_action": {
+        "type": "extract_runtime_segments",
+        "target": "runtime/bak/app_chatroom.before_hard_master_gate_20260426_040807.py",
+        "seed_primary": "hexagonal_stability",
+        "seed_secondary": "replication_standard",
+        "notes": "split scheduler, loop control, execution state, and runtime helpers",
+        "source_action_type": "stabilize_runtime"
+      },
+      "auto_apply": true,
+      "requires_manual_review": false,
+      "seed_rationale": {
+        "primary": "preserve structure while reducing instability",
+        "secondary": "retain symbolic continuity and explicit provenance"
+      },
+      "template": {
+        "before": "mixed runtime + state logic",
+        "after": [
+          "RuntimeInputPacket",
+          "RuntimeStatePacket",
+          "RuntimeScheduler",
+          "RuntimeStepExecutor"
+        ]
+      }
+    },
+    {
+      "target": "runtime/bak/app_chatroom.before_hard_master_gate_20260426_040807.py",
+      "patch_kind": "coupling_patch",
+      "instruction": "replace implicit globals/shared mutation with explicit inputs/returns",
+      "source_action": {
+        "type": "reduce_runtime_coupling",
+        "target": "runtime/bak/app_chatroom.before_hard_master_gate_20260426_040807.py",
+        "seed_primary": "hexagonal_stability",
+        "seed_secondary": "replication_standard",
+        "notes": "replace hidden shared state with explicit packet passing",
+        "source_action_type": "stabilize_runtime"
+      },
+      "auto_apply": true,
+      "requires_manual_review": false,
+      "seed_rationale": {
+        "primary": "preserve structure while reducing instability",
+        "secondary": "retain symbolic continuity and explicit provenance"
+      }
+    },
+    {
+      "target": "runtime/bak/app_chatroom.before_hard_master_gate_20260426_034911.py",
+      "patch_kind": "structure_patch",
+      "instruction": "create explicit runtime packet and isolate scheduler loop",
+      "source_action": {
+        "type": "extract_runtime_segments",
+        "target": "runtime/bak/app_chatroom.before_hard_master_gate_20260426_034911.py",
+        "seed_primary": "hexagonal_stability",
+        "seed_secondary": "replication_standard",
+        "notes": "split scheduler, loop control, execution state, and runtime helpers",
+        "source_action_type": "stabilize_runtime"
+      },
+      "auto_apply": true,
+      "requires_manual_review": false,
+      "seed_rationale": {
+        "primary": "preserve structure while reducing instability",
+        "secondary": "retain symbolic continuity and explicit provenance"
+      },
+      "template": {
+        "before": "mixed runtime + state logic",
+        "after": [
+          "RuntimeInputPacket",
+          "RuntimeStatePacket",
+          "RuntimeScheduler",
+          "RuntimeStepExecutor"
+        ]
+      }
+    },
+    {
+      "target": "runtime/bak/app_chatroom.before_hard_master_gate_20260426_034911.py",
+      "patch_kind": "coupling_patch",
+      "instruction": "replace implicit globals/shared mutation with explicit inputs/returns",
+      "source_action": {
+        "type": "reduce_runtime_coupling",
+        "target": "runtime/bak/app_chatroom.before_hard_master_gate_20260426_034911.py",
+        "seed_primary": "hexagonal_stability",
+        "seed_secondary": "replication_standard",
+        "notes": "replace hidden shared state with explicit packet passing",
+        "source_action_type": "stabilize_runtime"
+      },
+      "auto_apply": true,
+      "requires_manual_review": false,
+      "seed_rationale": {
+        "primary": "preserve structure while reducing instability",
+        "secondary": "retain symbolic continuity and explicit provenance"
+      }
+    },
+    {
+      "target": "runtime/bak/app_chatroom.before_endpoint_wrapper_20260425_235113.py",
+      "patch_kind": "structure_patch",
+      "instruction": "create explicit runtime packet and isolate scheduler loop",
+      "source_action": {
+        "type": "extract_runtime_segments",
+        "target": "runtime/bak/app_chatroom.before_endpoint_wrapper_20260425_235113.py",
+        "seed_primary": "hexagonal_stability",
+        "seed_secondary": "replication_standard",
+        "notes": "split scheduler, loop control, execution state, and runtime helpers",
+        "source_action_type": "stabilize_runtime"
+      },
+      "auto_apply": true,
+      "requires_manual_review": false,
+      "seed_rationale": {
+        "primary": "preserve structure while reducing instability",
+        "secondary": "retain symbolic continuity and explicit provenance"
+      },
+      "template": {
+        "before": "mixed runtime + state logic",
+        "after": [
+          "RuntimeInputPacket",
+          "RuntimeStatePacket",
+          "RuntimeScheduler",
+          "RuntimeStepExecutor"
+        ]
+      }
+    },
+    {
+      "target": "runtime/bak/app_chatroom.before_endpoint_wrapper_20260425_235113.py",
+      "patch_kind": "coupling_patch",
+      "instruction": "replace implicit globals/shared mutation with explicit inputs/returns",
+      "source_action": {
+        "type": "reduce_runtime_coupling",
+        "target": "runtime/bak/app_chatroom.before_endpoint_wrapper_20260425_235113.py",
+        "seed_primary": "hexagonal_stability",
+        "seed_secondary": "replication_standard",
+        "notes": "replace hidden shared state with explicit packet passing",
+        "source_action_type": "stabilize_runtime"
+      },
+      "auto_apply": true,
+      "requires_manual_review": false,
+      "seed_rationale": {
+        "primary": "preserve structure while reducing instability",
+        "secondary": "retain symbolic continuity and explicit provenance"
+      }
+    }
+  ],
+  "rollback_blocks": [
+    {
+      "target": "runtime/live_master_api_response.py",
+      "rollback_kind": "restore_previous_module_snapshot",
+      "requires": [
+        "pre_rewrite_copy",
+        "import_graph_snapshot",
+        "output_contract_snapshot"
+      ]
+    },
+    {
+      "target": "runtime/live_master_api_response.py",
+      "rollback_kind": "restore_previous_module_snapshot",
+      "requires": [
+        "pre_rewrite_copy",
+        "import_graph_snapshot",
+        "output_contract_snapshot"
+      ]
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_phase3k_larynx_1777218826.py",
+      "rollback_kind": "restore_previous_module_snapshot",
+      "requires": [
+        "pre_rewrite_copy",
+        "import_graph_snapshot",
+        "output_contract_snapshot"
+      ]
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_phase3k_larynx_1777218826.py",
+      "rollback_kind": "restore_previous_module_snapshot",
+      "requires": [
+        "pre_rewrite_copy",
+        "import_graph_snapshot",
+        "output_contract_snapshot"
+      ]
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_savariel_surface_fix_1777217536.py",
+      "rollback_kind": "restore_previous_module_snapshot",
+      "requires": [
+        "pre_rewrite_copy",
+        "import_graph_snapshot",
+        "output_contract_snapshot"
+      ]
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_savariel_surface_fix_1777217536.py",
+      "rollback_kind": "restore_previous_module_snapshot",
+      "requires": [
+        "pre_rewrite_copy",
+        "import_graph_snapshot",
+        "output_contract_snapshot"
+      ]
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_savariel_surface_fix_1777217470.py",
+      "rollback_kind": "restore_previous_module_snapshot",
+      "requires": [
+        "pre_rewrite_copy",
+        "import_graph_snapshot",
+        "output_contract_snapshot"
+      ]
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_savariel_surface_fix_1777217470.py",
+      "rollback_kind": "restore_previous_module_snapshot",
+      "requires": [
+        "pre_rewrite_copy",
+        "import_graph_snapshot",
+        "output_contract_snapshot"
+      ]
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_logic_bridge_surface_1777214408.py",
+      "rollback_kind": "restore_previous_module_snapshot",
+      "requires": [
+        "pre_rewrite_copy",
+        "import_graph_snapshot",
+        "output_contract_snapshot"
+      ]
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_logic_bridge_surface_1777214408.py",
+      "rollback_kind": "restore_previous_module_snapshot",
+      "requires": [
+        "pre_rewrite_copy",
+        "import_graph_snapshot",
+        "output_contract_snapshot"
+      ]
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_logic_bridge_answer_mode_scope_fix_1777214680.py",
+      "rollback_kind": "restore_previous_module_snapshot",
+      "requires": [
+        "pre_rewrite_copy",
+        "import_graph_snapshot",
+        "output_contract_snapshot"
+      ]
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_logic_bridge_answer_mode_scope_fix_1777214680.py",
+      "rollback_kind": "restore_previous_module_snapshot",
+      "requires": [
+        "pre_rewrite_copy",
+        "import_graph_snapshot",
+        "output_contract_snapshot"
+      ]
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_recursive_mirror_surface_1777216564.py",
+      "rollback_kind": "restore_previous_module_snapshot",
+      "requires": [
+        "pre_rewrite_copy",
+        "import_graph_snapshot",
+        "output_contract_snapshot"
+      ]
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_recursive_mirror_surface_1777216564.py",
+      "rollback_kind": "restore_previous_module_snapshot",
+      "requires": [
+        "pre_rewrite_copy",
+        "import_graph_snapshot",
+        "output_contract_snapshot"
+      ]
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_adaptation_ledger_explain_bypass_1777210437.py",
+      "rollback_kind": "restore_previous_module_snapshot",
+      "requires": [
+        "pre_rewrite_copy",
+        "import_graph_snapshot",
+        "output_contract_snapshot"
+      ]
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_adaptation_ledger_explain_bypass_1777210437.py",
+      "rollback_kind": "restore_previous_module_snapshot",
+      "requires": [
+        "pre_rewrite_copy",
+        "import_graph_snapshot",
+        "output_contract_snapshot"
+      ]
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_clean_question_bypass_1777208479.py",
+      "rollback_kind": "restore_previous_module_snapshot",
+      "requires": [
+        "pre_rewrite_copy",
+        "import_graph_snapshot",
+        "output_contract_snapshot"
+      ]
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_clean_question_bypass_1777208479.py",
+      "rollback_kind": "restore_previous_module_snapshot",
+      "requires": [
+        "pre_rewrite_copy",
+        "import_graph_snapshot",
+        "output_contract_snapshot"
+      ]
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_deep_braid_status_bypass_1777208144.py",
+      "rollback_kind": "restore_previous_module_snapshot",
+      "requires": [
+        "pre_rewrite_copy",
+        "import_graph_snapshot",
+        "output_contract_snapshot"
+      ]
+    },
+    {
+      "target": "runtime/bak/live_master_api_response.before_deep_braid_status_bypass_1777208144.py",
+      "rollback_kind": "restore_previous_module_snapshot",
+      "requires": [
+        "pre_rewrite_copy",
+        "import_graph_snapshot",
+        "output_contract_snapshot"
+      ]
+    },
+    {
+      "target": "runtime/bak/app_chatroom.before_hard_gate_insert_20260426_040935.py",
+      "rollback_kind": "restore_previous_module_snapshot",
+      "requires": [
+        "pre_rewrite_copy",
+        "import_graph_snapshot",
+        "output_contract_snapshot"
+      ]
+    },
+    {
+      "target": "runtime/bak/app_chatroom.before_hard_gate_insert_20260426_040935.py",
+      "rollback_kind": "restore_previous_module_snapshot",
+      "requires": [
+        "pre_rewrite_copy",
+        "import_graph_snapshot",
+        "output_contract_snapshot"
+      ]
+    },
+    {
+      "target": "runtime/bak/app_chatroom.before_hard_gate_insert_20260426_040947.py",
+      "rollback_kind": "restore_previous_module_snapshot",
+      "requires": [
+        "pre_rewrite_copy",
+        "import_graph_snapshot",
+        "output_contract_snapshot"
+      ]
+    },
+    {
+      "target": "runtime/bak/app_chatroom.before_hard_gate_insert_20260426_040947.py",
+      "rollback_kind": "restore_previous_module_snapshot",
+      "requires": [
+        "pre_rewrite_copy",
+        "import_graph_snapshot",
+        "output_contract_snapshot"
+      ]
+    },
+    {
+      "target": "runtime/bak/app_chatroom.before_hard_master_gate_20260426_040807.py",
+      "rollback_kind": "restore_previous_module_snapshot",
+      "requires": [
+        "pre_rewrite_copy",
+        "import_graph_snapshot",
+        "output_contract_snapshot"
+      ]
+    },
+    {
+      "target": "runtime/bak/app_chatroom.before_hard_master_gate_20260426_040807.py",
+      "rollback_kind": "restore_previous_module_snapshot",
+      "requires": [
+        "pre_rewrite_copy",
+        "import_graph_snapshot",
+        "output_contract_snapshot"
+      ]
+    },
+    {
+      "target": "runtime/bak/app_chatroom.before_hard_master_gate_20260426_034911.py",
+      "rollback_kind": "restore_previous_module_snapshot",
+      "requires": [
+        "pre_rewrite_copy",
+        "import_graph_snapshot",
+        "output_contract_snapshot"
+      ]
+    },
+    {
+      "target": "runtime/bak/app_chatroom.before_hard_master_gate_20260426_034911.py",
+      "rollback_kind": "restore_previous_module_snapshot",
+      "requires": [
+        "pre_rewrite_copy",
+        "import_graph_snapshot",
+        "output_contract_snapshot"
+      ]
+    },
+    {
+      "target": "runtime/bak/app_chatroom.before_endpoint_wrapper_20260425_235113.py",
+      "rollback_kind": "restore_previous_module_snapshot",
+      "requires": [
+        "pre_rewrite_copy",
+        "import_graph_snapshot",
+        "output_contract_snapshot"
+      ]
+    },
+    {
+      "target": "runtime/bak/app_chatroom.before_endpoint_wrapper_20260425_235113.py",
+      "rollback_kind": "restore_previous_module_snapshot",
+      "requires": [
+        "pre_rewrite_copy",
+        "import_graph_snapshot",
+        "output_contract_snapshot"
+      ]
+    }
+  ],
+  "validation_gate": {
+    "allow_core_rewrite": false,
+    "require_rollback": true,
+    "require_import_check": true,
+    "require_symbol_preservation": true,
+    "require_memory_path_preservation": true
+  },
+  "validation": {
+    "patch_count": 30,
+    "rollback_count": 30,
+    "ready_for_apply": true,
+    "manual_review_required": false,
+    "notes": []
+  },
+  "surface_rule": "plan only; do not mutate files automatically"
+}
+

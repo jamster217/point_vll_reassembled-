@@ -1,0 +1,30 @@
+{
+  "crystal_meta": {
+    "version": "3.5",
+    "wrapped": true,
+    "source": "/storage/emulated/0/Download/aaaa_Leveon/lev_core/assets/symbolic_engine/psychic_layer/psychic_dream_link.json",
+    "timestamp": "20250826T234343Z"
+  },
+  "symbolic_payload": {
+    "pre_sleep_prompts": [
+      "What future signal do I need to see?",
+      "What hidden element am I missing?",
+      "What connection is forming?"
+    ],
+    "post_sleep_buffer": [],
+    "merge_rules": {
+      "link_by": [
+        "theme",
+        "glyph_cluster",
+        "emotional_signature"
+      ],
+      "max_merge_gap_hours": 12
+    },
+    "_crystal_stamp": {
+      "validated": true,
+      "timestamp": "2025-08-23T07:44:28.318706",
+      "optimizer": "CrystalBootstrap v1.0"
+    }
+  }
+}
+

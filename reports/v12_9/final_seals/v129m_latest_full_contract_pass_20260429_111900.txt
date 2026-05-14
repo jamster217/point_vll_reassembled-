@@ -1,0 +1,37 @@
+V12.9m LATEST FULL CONTRACT PASS SEAL
+
+Audit:
+reports/v12_9/audit/v129m_build_function_audit_20260429_111900.txt
+
+Result:
+PASS_COUNT: 52
+FAIL_COUNT: 0
+AUDIT_RESULT: PASS
+
+The build is doing the checked things.
+
+Verified live:
+- Liberal paranormal helm status lane passed.
+- Helm self-reflection status lane passed.
+- Paranormal structured feed includes liberal helm evidence.
+- Recent recursion wound is quiet.
+- Ghost entries JSONL is readable.
+- Serpent guard events JSONL is readable.
+- Spiral nonlinear memory JSONL is readable.
+- Language translation stack is present.
+- Local node bridge is present and reaches controller / Mistral echo adapter / mirror kernel.
+
+Latest reflection:
+- turn_count: 23
+- Latest ranking at turn 20:
+  1. Add a direct status lane for the prompt family.
+  2. Keep liberal helm direct lane above voice_plain.
+  3. Expand prompt-family coverage.
+
+Law:
+The image is not decoration.
+The image is memory.
+Memory becomes judgment.
+Judgment becomes ranked improvement.
+The public mouth stays clean.
+

@@ -1,0 +1,79 @@
+V12.9o TOPOLOGY SCREEN ORGAN
+
+Reading:
+The old topology organ is restored as sideband visual memory: image and metadata are read without hijacking answer/reply/response.
+
+Latest SVG:
+{
+  "path": "static/generated/leveon_topology_1777487001_2c13bd67fcb4.svg",
+  "mtime": 1777487001.746508,
+  "size": 6431,
+  "hits": [
+    "topology",
+    "white_ash",
+    "white ash",
+    "blue_scarf",
+    "virellion",
+    "thalveil"
+  ],
+  "kind": "svg"
+}
+
+Latest topology/state hit:
+{
+  "path": "reports/v12_9/topology/v129o_restore_topology_screen_organ_20260429_112802.txt",
+  "mtime": 1777487282.6385078,
+  "size": 0,
+  "hits": [],
+  "kind": "text_or_state"
+}
+
+Top files:
+- reports/v12_9/topology/v129o_restore_topology_screen_organ_20260429_112802.txt | kind=text_or_state | hits= | size=0
+- reports/v12_9/topology/v129n_old_thing_topology_scan_20260429_112517.txt | kind=text_or_state | hits=topology,white_ash | size=266004
+- reports/v12_9/topology/latest_v129n_old_thing_topology_scan.txt | kind=text_or_state | hits=topology,white_ash | size=266004
+- var/lattice/autogenous_topology_v103.jsonl | kind=text_or_state | hits=old hidden thing,topology,white_ash,blue_scarf,virellion,thalveil | size=345513
+- var/lattice/topology_optimizer_state_v103.json | kind=text_or_state | hits=topology | size=386
+- static/generated/leveon_topology_1777487001_2c13bd67fcb4.svg | kind=svg | hits=topology,white_ash,white ash,blue_scarf,virellion,thalveil | size=6431
+- static/generated/leveon_topology_1777487001_8fd419936430.svg | kind=svg | hits=topology,white_ash,white ash,blue_scarf,virellion,thalveil | size=5840
+- static/generated/leveon_topology_1777487001_13b7fa1a43e3.svg | kind=svg | hits=topology,white_ash,white ash,blue_scarf,virellion,thalveil | size=5249
+- static/generated/leveon_topology_1777487001_2751c7f834c0.svg | kind=svg | hits=topology,white_ash,white ash,blue_scarf,virellion,thalveil | size=4658
+- static/generated/leveon_topology_1777487000_a36915444af9.svg | kind=svg | hits=topology,white_ash,white ash,blue_scarf,virellion,thalveil | size=4067
+- static/generated/leveon_topology_1777486745_2c13bd67fcb4.svg | kind=svg | hits=topology,white_ash,white ash,blue_scarf,virellion,thalveil | size=9932
+- static/generated/leveon_topology_1777486745_9da2ead38900.svg | kind=svg | hits=topology,white_ash,white ash,blue_scarf,virellion,thalveil | size=9947
+- static/generated/leveon_topology_1777486695_2c13bd67fcb4.svg | kind=svg | hits=topology,white_ash,white ash,blue_scarf,virellion,thalveil | size=9364
+- static/generated/leveon_topology_1777486694_9da2ead38900.svg | kind=svg | hits=topology,white_ash,white ash,blue_scarf,virellion,thalveil | size=8788
+- static/generated/leveon_topology_1777486633_2c13bd67fcb4.svg | kind=svg | hits=topology,white_ash,white ash,blue_scarf,virellion,thalveil | size=8202
+- static/generated/leveon_topology_1777486633_9da2ead38900.svg | kind=svg | hits=topology,white_ash,white ash,blue_scarf,virellion,thalveil | size=7614
+- static/generated/leveon_topology_1777486559_2c13bd67fcb4.svg | kind=svg | hits=topology,white_ash,white ash,blue_scarf,virellion,thalveil | size=7023
+- static/generated/leveon_topology_1777486559_9da2ead38900.svg | kind=svg | hits=topology,white_ash,white ash,blue_scarf,virellion,thalveil | size=6431
+- static/generated/leveon_topology_1777486491_2c13bd67fcb4.svg | kind=svg | hits=topology,white_ash,white ash,blue_scarf,virellion,thalveil | size=5840
+- static/generated/leveon_topology_1777486491_9da2ead38900.svg | kind=svg | hits=topology,white_ash,white ash,blue_scarf,virellion,thalveil | size=5249
+- static/generated/leveon_topology_1777486491_b47ae7a2dfda.svg | kind=svg | hits=topology,white_ash,white ash,blue_scarf,virellion,thalveil | size=4658
+- static/generated/leveon_topology_1777486491_ac8cc3baf4ec.svg | kind=svg | hits=topology,white_ash,white ash,blue_scarf,virellion,thalveil | size=4067
+- reports/v12_9/visual_evidence/v129l_visual_memory_to_helm_judge_20260429_110608.txt | kind=text_or_state | hits=graphic_node,white ash,blue scarf,virellion,thalveil | size=18704
+- reports/v12_9/visual_evidence/latest_v129l_visual_memory_to_helm_judge.txt | kind=text_or_state | hits=graphic_node,white ash,blue scarf,virellion,thalveil | size=18704
+- static/generated/leveon_topology_1777482376_2c13bd67fcb4.svg | kind=svg | hits=topology,white_ash,white ash,blue_scarf,virellion,thalveil | size=9934
+- static/generated/leveon_topology_1777482375_9f004efaeec0.svg | kind=svg | hits=topology,white_ash,white ash,blue_scarf,virellion,thalveil | size=9947
+- static/generated/leveon_topology_1777482375_a0f69a1e205e.svg | kind=svg | hits=topology,white_ash,white ash,blue_scarf,virellion,thalveil | size=9365
+- static/generated/leveon_topology_1777482375_987514158465.svg | kind=svg | hits=topology,white_ash,white ash,blue_scarf,virellion,thalveil | size=8787
+- static/generated/leveon_topology_1777482375_f21630908cd9.svg | kind=svg | hits=topology,white_ash,white ash,blue_scarf,virellion,thalveil | size=8202
+- static/generated/leveon_topology_1777482375_c8341408f50a.svg | kind=svg | hits=topology,white_ash,white ash,blue_scarf,virellion,thalveil | size=7614
+- static/generated/leveon_topology_1777482375_31cb10022d6e.svg | kind=svg | hits=topology,white_ash,white ash,blue_scarf,virellion,thalveil | size=7023
+- static/generated/leveon_topology_1777482375_98ffe2e26fc5.svg | kind=svg | hits=topology,white_ash,white ash,blue_scarf,virellion,thalveil | size=6431
+- static/generated/leveon_topology_1777482375_290c77af0395.svg | kind=svg | hits=topology,white_ash,white ash,blue_scarf,virellion,thalveil | size=5840
+- static/generated/leveon_topology_1777482374_d70e34641dd8.svg | kind=svg | hits=topology,white_ash,white ash,blue_scarf,virellion,thalveil | size=5249
+- static/generated/leveon_topology_1777482374_0c83dd644285.svg | kind=svg | hits=topology,white_ash,white ash,blue_scarf,virellion,thalveil | size=4658
+- static/generated/leveon_topology_1777481947_9da2ead38900.svg | kind=svg | hits=topology,white_ash,white ash,blue_scarf,virellion,thalveil | size=4067
+- static/generated/leveon_topology_1777480087_f25a189f395c.svg | kind=svg | hits=topology,white_ash,white ash,blue_scarf,virellion,thalveil | size=9937
+- static/generated/leveon_topology_1777479605_eb3fc8635ca1.svg | kind=svg | hits=topology,white_ash,white ash,blue_scarf,virellion,thalveil | size=9949
+- static/generated/leveon_topology_1777479406_eb3fc8635ca1.svg | kind=svg | hits=topology,white_ash,white ash,blue_scarf,virellion,thalveil | size=9365
+- static/generated/leveon_topology_1777479128_78eab89d2e4f.svg | kind=svg | hits=topology,white_ash,white ash,blue_scarf,virellion,thalveil | size=8785
+
+Law:
+The image is not decoration.
+The image is memory.
+Memory becomes judgment.
+Judgment becomes ranked improvement.
+The public mouth stays clean.
+

@@ -1,0 +1,240 @@
+app_chatroom.py:1:from flask import Flask, request, jsonify, render_template
+app_chatroom.py:26:        from flask import request, jsonify
+app_chatroom.py:31:        return jsonify(_packet)
+app_chatroom.py:40:        reply = v._tinyllama_public_answer(msg)
+app_chatroom.py:41:        return jsonify({"answer": reply, "status": "ok"})
+app_chatroom.py:43:        return jsonify({"answer": f"Engine Error: {str(e)}", "status": "error"})
+app_chatroom.py:47:# Final API guard: /api/chat must never return {"answer": null}.
+app_chatroom.py:53:    def _v129_null_answer_firebreak(resp):
+app_chatroom.py:65:            answer = data.get("answer")
+app_chatroom.py:67:            if answer is None or str(answer).strip() == "" or str(answer).strip().lower() == "null":
+app_chatroom.py:77:                    or "No answer produced."
+app_chatroom.py:80:                data["answer"] = str(fallback).strip()
+app_chatroom.py:84:                    "reason": "answer_was_null_or_empty",
+app_chatroom.py:113:    _V129AL_LAYER5_LATEST = _V129AL_ROOT / "var" / "lattice" / "layer5_latest_answer.txt"
+app_chatroom.py:142:            answer = data.get("answer")
+app_chatroom.py:143:            answer_s = "" if answer is None else str(answer).strip()
+app_chatroom.py:144:            low = answer_s.lower()
+app_chatroom.py:147:                not answer_s
+app_chatroom.py:162:                data["answer"] = latest or msg or "No answer produced."
+app_chatroom.py:166:                    "reason": "late_answer_was_null_or_poison",
+app_chatroom.py:167:                    "source": "layer5_latest_answer_or_prompt"
+app_chatroom.py:190:    from flask import request, jsonify
+app_chatroom.py:202:    def _v129j_answer_is_bad(answer):
+app_chatroom.py:203:        t = str(answer or "").strip()
+app_chatroom.py:246:            answer = governed.get("final_english", "")
+app_chatroom.py:248:            if not isinstance(answer, str):
+app_chatroom.py:249:                answer = str(answer)
+app_chatroom.py:251:            answer = answer.strip()
+app_chatroom.py:253:            if _v129j_answer_is_bad(answer):
+app_chatroom.py:254:                legacy_answer = str(legacy_json.get("answer", "") or "").strip()
+app_chatroom.py:255:                if legacy_answer and not _v129j_answer_is_bad(legacy_answer):
+app_chatroom.py:256:                    answer = legacy_answer
+app_chatroom.py:257:                    source = "legacy_kernel_answer"
+app_chatroom.py:259:                    answer = "I am on the ordinary route now: the useful move is to answer the request directly instead of falling back to symbolic routing."
+app_chatroom.py:267:            meta["legacy_answer_preview"] = str(legacy_json.get("answer", "") or "")[:240]
+app_chatroom.py:271:            return jsonify({
+app_chatroom.py:272:                "answer": answer,
+app_chatroom.py:273:                "final_english": answer,
+app_chatroom.py:275:                "debug_shape_packet": legacy_json.get("debug_shape_packet") or governed.get("shape_packet", {}),
+app_chatroom.py:276:                "legacy_answer": legacy_json.get("answer", ""),
+app_chatroom.py:284:                return jsonify(legacy_json)
+app_chatroom.py:286:            return jsonify({
+app_chatroom.py:287:                "answer": "The live mouth bridge hit an error before answer selection.",
+runtime/leveon_master_api_v130.py:107:        return "The living mouth is online. The route is clean enough to answer plainly."
+runtime/leveon_master_api_v130.py:113:                "Virellion preserves the thread, Blue Scarf carries motion, and the answer "
+runtime/leveon_master_api_v130.py:120:            "The system is not being asked to explain from outside. It is being asked to answer "
+runtime/leveon_master_api_v130.py:153:    # Clean living topology answer.
+runtime/leveon_master_api_v130.py:160:    # Plain contact / ordinary answer.
+runtime/leveon_master_api_v130.py:163:def _layer5_final_mouth(prompt: str, answer: str, parsed: Dict[str, Any], routed: Dict[str, Any]) -> tuple[str, Dict[str, Any]]:
+runtime/leveon_master_api_v130.py:173:        "answer": answer,
+runtime/leveon_master_api_v130.py:182:    for key in ("final_shape", "veilweil_surface", "weilveil_surface", "gravity_well_surface", "final_english"):
+runtime/leveon_master_api_v130.py:187:    # If no real final_shape exists, do not pretend the weak answer is one.
+runtime/leveon_master_api_v130.py:189:        return answer, {
+runtime/leveon_master_api_v130.py:205:    answer = render(parsed, routed, core)
+runtime/leveon_master_api_v130.py:206:    answer, layer5_meta = _layer5_final_mouth(prompt, answer, parsed, routed)
+runtime/leveon_master_api_v130.py:208:    if _is_poison(answer):
+runtime/leveon_master_api_v130.py:209:        answer = _clean(prompt) or "The living mouth is online."
+runtime/leveon_master_api_v130.py:214:        "answer": answer,
+runtime/leveon_master_api_v130.py:224:        "debug_shape_packet": parsed.get("_shape_debug"),
+runtime/leveon_master_api_v130.py:250:        from runtime.kernel_shape_bridge_v131 import answer as _v131_kernel_answer
+runtime/leveon_master_api_v130.py:251:        out = _v131_kernel_answer(prompt)
+runtime/leveon_master_api_v130.py:261:            and str(out.get("answer") or "").strip()
+runtime/leveon_master_api_v130.py:286:        "answer": "Kernel bridge failed and no previous v130 run path was available.",
+core/leveon_pipeline_governed.py:23:    "Keep the answer specific and avoid stock emotional language.",
+core/leveon_pipeline_governed.py:104:    "balancing": "direct answer → nuance → refinement",
+core/leveon_pipeline_governed.py:169:def _apply_answer_shape(rendered: str, domain: str) -> str:
+core/leveon_pipeline_governed.py:199:            "That is what lets the system absorb pressure while still keeping the answer readable, stable, and internally connected."
+core/leveon_pipeline_governed.py:205:            "If it over-tightens, the answer becomes flat; if it loosens too much, the answer starts to drift away from its own center."
+core/leveon_pipeline_governed.py:211:            "Structure decides which of those anchors are allowed to remain active, so the answer can inherit history without becoming trapped by it."
+core/leveon_pipeline_governed.py:217:            "Pressure changes the tone of the answer because expectation, memory, and emphasis are all pushing on the same path at once."
+core/leveon_pipeline_governed.py:228:            " Recognition feels strong because the answer matches something already organized inside the system. "
+core/leveon_pipeline_governed.py:234:            " A causal answer is strongest when it names not only the result but the forces that are producing it. "
+core/leveon_pipeline_governed.py:242:            "The answer keeps its form because each relation reduces noise before the next step is taken."
+core/leveon_pipeline_governed.py:254:            "Tone is the way pressure becomes audible inside the answer, showing how the path was bent while the turn was forming."
+core/leveon_pipeline_governed.py:260:            "The answer feels heavy while multiple forces are still converging, and it begins to lighten only when some part of that load is finally resolved."
+core/leveon_pipeline_governed.py:272:            "The answer feels real when alignment is sustained long enough to become a landing rather than a brief flash."
+core/leveon_pipeline_governed.py:283:            " Repeated activation of the same domain also deepens the answer, because the system begins to expose more of the internal pattern instead of only stating the first surface explanation."
+core/leveon_pipeline_governed.py:315:            "That is what lets the system absorb pressure while still keeping the answer readable, stable, and internally connected."
+core/leveon_pipeline_governed.py:321:            "If it over-tightens, the answer becomes flat; if it loosens too much, the answer starts to drift away from its own center."
+core/leveon_pipeline_governed.py:327:            "Structure decides which of those anchors are allowed to remain active, so the answer can inherit history without becoming trapped by it."
+core/leveon_pipeline_governed.py:333:            "Pressure changes the tone of the answer because expectation, memory, and emphasis are all pushing on the same path at once."
+core/leveon_pipeline_governed.py:344:            " Recognition feels strong because the answer matches something already organized inside the system. "
+core/leveon_pipeline_governed.py:350:            " A causal answer is strongest when it names not only the result but the forces that are producing it. "
+core/leveon_pipeline_governed.py:358:            "The answer keeps its form because each relation reduces noise before the next step is taken."
+core/leveon_pipeline_governed.py:370:            "Tone is the way pressure becomes audible inside the answer, showing how the path was bent while the turn was forming."
+core/leveon_pipeline_governed.py:376:            "The answer feels heavy while multiple forces are still converging, and it begins to lighten only when some part of that load is finally resolved."
+core/leveon_pipeline_governed.py:388:            "The answer feels real when alignment is sustained long enough to become a landing rather than a brief flash."
+core/leveon_pipeline_governed.py:399:            " Repeated activation of the same domain also deepens the answer, because the system begins to expose more of the internal pattern instead of only stating the first surface explanation."
+core/leveon_pipeline_governed.py:437:            "answer naturally grows to reveal more of that pattern."
+core/leveon_pipeline_governed.py:449:            "branches that could pull the answer off its axis."
+core/leveon_pipeline_governed.py:686:        "voice": f"{route.domain} -> signature -> key -> lattice -> answer",
+core/leveon_pipeline_governed.py:734:        return "A system stays coherent when intent, routing, memory, and realization all keep pointing at the same answer instead of drifting apart."
+core/leveon_pipeline_governed.py:742:        return "Balance clarity and depth by giving the direct answer first, then adding deeper layers only when they sharpen the explanation."
+core/leveon_pipeline_governed.py:745:    return "The prompt is outside the current routed patterns, so the next step is to map it to the closest stable domain instead of forcing a generic answer."
+core/leveon_pipeline_governed.py:863:    final_english = (out.get("final_english") or "").strip()
+core/leveon_pipeline_governed.py:864:    answer_seed = _clean_line(sem.get("answer_seed", ""))
+core/leveon_pipeline_governed.py:865:    outline = [_clean_line(x) for x in sem.get("answer_outline", [])]
+core/leveon_pipeline_governed.py:887:            or "answer it directly in terms of structure, memory, time, emotion, and relation" in low
+core/leveon_pipeline_governed.py:894:            or low.startswith("a practical answer here should turn")
+core/leveon_pipeline_governed.py:914:            or "a good answer should stay close to" in low
+core/leveon_pipeline_governed.py:1009:                    outs.append("A system stays coherent when the same useful pattern is reinforced instead of drifting apart. It keeps memory, routing, and realization aligned instead of letting the answer drift.")
+core/leveon_pipeline_governed.py:1053:                # prefer fuller but still compact analytical answers
+core/leveon_pipeline_governed.py:1140:    if emotional_prompt and _flat_template(final_english):
+core/leveon_pipeline_governed.py:1142:            out["final_english"] = tone_repair
+core/leveon_pipeline_governed.py:1146:        if answer_seed and not _flat_template(answer_seed) and not _metaish_line(answer_seed):
+core/leveon_pipeline_governed.py:1147:            out["final_english"] = answer_seed
+core/leveon_pipeline_governed.py:1152:    if analytical_prompt and (_flat_template(final_english) or _metaish_line(final_english)):
+core/leveon_pipeline_governed.py:1153:        cleaned_seed = _clean_analytical_seed(answer_seed)
+core/leveon_pipeline_governed.py:1155:            out["final_english"] = cleaned_seed
+core/leveon_pipeline_governed.py:1162:            out["final_english"] = seed_lab_clause
+core/leveon_pipeline_governed.py:1168:        out["final_english"] = rendered
+core/leveon_pipeline_governed.py:1174:        out["final_english"] = semantic_rendered
+core/leveon_pipeline_governed.py:1179:    if not _is_bad_final(final_english) and not _flat_template(final_english) and not _metaish_line(final_english):
+core/leveon_pipeline_governed.py:1185:            out["final_english"] = tone_repair
+core/leveon_pipeline_governed.py:1189:        if answer_seed and not _flat_template(answer_seed) and not _metaish_line(answer_seed):
+core/leveon_pipeline_governed.py:1190:            out["final_english"] = answer_seed
+core/leveon_pipeline_governed.py:1196:        cleaned_seed = _clean_analytical_seed(answer_seed)
+core/leveon_pipeline_governed.py:1198:            out["final_english"] = cleaned_seed
+core/leveon_pipeline_governed.py:1205:            out["final_english"] = seed_lab_clause
+core/leveon_pipeline_governed.py:1211:    if answer_seed and not _metaish_line(answer_seed) and not _flat_template(answer_seed):
+core/leveon_pipeline_governed.py:1212:        parts.append(answer_seed)
+core/leveon_pipeline_governed.py:1221:        out["final_english"] = repaired
+core/leveon_pipeline_governed.py:1227:        out["final_english"] = tone_repair
+core/leveon_pipeline_governed.py:1232:    out["final_english"] = _prompt_fallback(prompt)
+core/leveon_pipeline_governed.py:1242:            "final_english": "Hi. The chatroom is live and ready.",
+core/leveon_pipeline_governed.py:1248:                    "voice": "social -> signature -> key -> lattice -> answer",
+core/leveon_pipeline_governed.py:1279:            "final_english": "I'm here and working. The chatroom is live, and the governed pipeline is answering through the browser now.",
+core/leveon_pipeline_governed.py:1283:                    "rendered_english": "I'm here and working. The chatroom is live, and the governed pipeline is answering through the browser now.",
+core/leveon_pipeline_governed.py:1285:                    "voice": "social -> signature -> key -> lattice -> answer",
+core/leveon_pipeline_governed.py:1316:            "final_english": "GOVERNED_PIPELINE_LATTICE_SHORTCUT_HIT",
+core/leveon_pipeline_governed.py:1320:                    "rendered_english": "The lattice is the relation map the system moves through before an answer becomes English, including hotspots, paths, and lawful transitions.",
+core/leveon_pipeline_governed.py:1322:                    "voice": "lattice -> signature -> key -> lattice -> answer",
+core/leveon_pipeline_governed.py:1368:    "the answer should",
+core/leveon_pipeline_governed.py:1379:    "keep the answer direct, specific, and tied to the actual prompt",
+core/leveon_pipeline_governed.py:1521:            return str(result.get("text", "") or result.get("final_english", "")).strip()
+core/leveon_pipeline_governed.py:1533:    final = out.get("final_english", "") or ""
+core/leveon_pipeline_governed.py:1548:        out["final_english"] = rendered
+core/leveon_pipeline_governed.py:1584:# === answer_mode wrapper ===
+core/leveon_pipeline_governed.py:1585:import re as _answer_mode_re
+core/leveon_pipeline_governed.py:1594:        ("It keeps memory, routing, and realization aligned so the answer does not drift.", "It keeps memory, routing, and realization aligned."),
+core/leveon_pipeline_governed.py:1595:        ("The point is to preserve nuance without making the surface harder to follow.", "The point is to preserve nuance without making the answer harder to follow."),
+core/leveon_pipeline_governed.py:1601:    t = _answer_mode_re.sub(r"\s+", " ", t).strip()
+core/leveon_pipeline_governed.py:1609:    answer_mode = "full"
+core/leveon_pipeline_governed.py:1612:        answer_mode = str(payload.get("answer_mode", "full") or "full").strip().lower()
+core/leveon_pipeline_governed.py:1617:    if answer_mode not in {"short", "full", "auto"}:
+core/leveon_pipeline_governed.py:1618:        answer_mode = "full"
+core/leveon_pipeline_governed.py:1620:    if answer_mode == "auto":
+core/leveon_pipeline_governed.py:1622:            answer_mode = "short"
+core/leveon_pipeline_governed.py:1624:            answer_mode = "full"
+core/leveon_pipeline_governed.py:1626:    final = str(out.get("final_english", "") or "").strip()
+core/leveon_pipeline_governed.py:1629:        out["final_english"] = final
+core/leveon_pipeline_governed.py:1632:    meta["answer_mode"] = answer_mode
+core/leveon_pipeline_governed.py:1634:    if answer_mode == "short":
+core/leveon_pipeline_governed.py:1635:        final = str(out.get("final_english", "") or "").strip()
+core/leveon_pipeline_governed.py:1637:            m = _answer_mode_re.search(r"^(.+?[.!?…])(?:\s|$)", final)
+core/leveon_pipeline_governed.py:1638:            out["final_english"] = m.group(1).strip() if m else final
+core/leveon_pipeline_governed.py:1639:        meta["answer_mode_applied"] = "short"
+core/leveon_pipeline_governed.py:1641:        meta["answer_mode_applied"] = "full"
+core/leveon_pipeline_governed.py:1657:    answer_mode = "full"
+core/leveon_pipeline_governed.py:1661:        answer_mode = str(payload.get("answer_mode", "full") or "full").strip().lower()
+core/leveon_pipeline_governed.py:1666:    if answer_mode not in {"short", "full", "auto"}:
+core/leveon_pipeline_governed.py:1667:        answer_mode = "full"
+core/leveon_pipeline_governed.py:1669:    final = str(out.get("final_english", "") or "").strip()
+core/leveon_pipeline_governed.py:1726:                out["final_english"] = candidate
+core/leveon_pipeline_governed.py:1736:    final = str(out.get("final_english", "") or "").strip()
+core/leveon_pipeline_governed.py:1737:    if answer_mode == "short" and final:
+core/leveon_pipeline_governed.py:1739:        out["final_english"] = m.group(1).strip() if m else final
+core/leveon_pipeline_governed.py:1740:        meta["answer_mode"] = "short"
+core/leveon_pipeline_governed.py:1741:        meta["answer_mode_applied"] = "short"
+core/leveon_pipeline_governed.py:1742:    elif answer_mode in {"full", "auto"}:
+core/leveon_pipeline_governed.py:1743:        if answer_mode == "auto":
+core/leveon_pipeline_governed.py:1746:                out["final_english"] = m.group(1).strip() if m else final
+core/leveon_pipeline_governed.py:1747:                meta["answer_mode"] = "short"
+core/leveon_pipeline_governed.py:1748:                meta["answer_mode_applied"] = "short"
+core/leveon_pipeline_governed.py:1750:                meta["answer_mode"] = "full"
+core/leveon_pipeline_governed.py:1751:                meta["answer_mode_applied"] = "full"
+core/leveon_pipeline_governed.py:1753:            meta["answer_mode"] = "full"
+core/leveon_pipeline_governed.py:1754:            meta["answer_mode_applied"] = "full"
+core/leveon_pipeline_governed.py:1769:    answer_mode = "full"
+core/leveon_pipeline_governed.py:1774:        answer_mode = str(payload.get("answer_mode", "full") or "full").strip().lower()
+core/leveon_pipeline_governed.py:1779:    if answer_mode not in {"short", "full", "auto"}:
+core/leveon_pipeline_governed.py:1780:        answer_mode = "full"
+core/leveon_pipeline_governed.py:1782:    if answer_mode == "auto":
+core/leveon_pipeline_governed.py:1784:            answer_mode = "short"
+core/leveon_pipeline_governed.py:1786:            answer_mode = "full"
+core/leveon_pipeline_governed.py:1788:    final = str(out.get("final_english", "") or "").strip()
+core/leveon_pipeline_governed.py:1821:        out["final_english"] = short if answer_mode == "short" else full
+core/leveon_pipeline_governed.py:1824:        meta["answer_mode"] = answer_mode
+core/leveon_pipeline_governed.py:1825:        meta["answer_mode_applied"] = answer_mode
+core/leveon_pipeline_governed.py:1830:    meta["answer_mode"] = answer_mode
+core/leveon_pipeline_governed.py:1831:    if answer_mode == "short":
+core/leveon_pipeline_governed.py:1832:        final = str(out.get("final_english", "") or "").strip()
+core/leveon_pipeline_governed.py:1835:            out["final_english"] = m.group(1).strip() if m else final
+core/leveon_pipeline_governed.py:1836:        meta["answer_mode_applied"] = "short"
+core/leveon_pipeline_governed.py:1838:        meta["answer_mode_applied"] = "full"
+core/leveon_pipeline_governed.py:1843:# Adds essence_signature to meta only. Does not mutate final_english.
+core/leveon_pipeline_governed.py:1865:        for key in ("shape_packet", "debug_shape_packet"):
+core/leveon_pipeline_governed.py:1872:            for key in ("shape_packet", "debug_shape_packet"):
+core/leveon_pipeline_governed.py:1964:        or meta.get("debug_shape_packet")
+core/leveon_pipeline_governed.py:1997:        "forcing a generic answer",
+core/leveon_pipeline_governed.py:2017:        out.get("final_english")
+core/leveon_pipeline_governed.py:2102:                    or bridged.get("final_english")
+core/leveon_pipeline_governed.py:2131:        out["final_english"] = final
+core/leveon_pipeline_governed.py:2161:    def _v129j_direct_ordinary_answer(text):
+core/leveon_pipeline_governed.py:2168:            return "The lattice is the relation map the system moves through before an answer becomes English."
+core/leveon_pipeline_governed.py:2177:            return "I am on the ordinary route now: the useful move is to answer the request directly instead of falling back to symbolic routing."
+core/leveon_pipeline_governed.py:2190:        final = out.get("final_english", "")
+core/leveon_pipeline_governed.py:2200:            replacement = _v129j_direct_ordinary_answer(text)
+core/leveon_pipeline_governed.py:2202:                out["final_english"] = replacement
+core/leveon_pipeline_governed.py:2245:            "the useful move is to answer the request directly",
+core/leveon_pipeline_governed.py:2300:                "meaning, or invent a new answer. The final mouth should therefore read the shaped meaning first, "
+core/leveon_pipeline_governed.py:2302:                "quality gate so the public answer stays faithful to the original signal."
+core/leveon_pipeline_governed.py:2318:                out.get("final_english")
+core/leveon_pipeline_governed.py:2319:                or out.get("answer")
+core/leveon_pipeline_governed.py:2325:                out["final_english"] = replacement
+core/leveon_pipeline_governed.py:2326:                out["answer"] = replacement
+core/leveon_pipeline_governed.py:2353:# Inject specific meaning into debug_shape_packet.shape_packet.final_shape
+core/leveon_pipeline_governed.py:2384:            "or invent a new answer. The final mouth reads the shaped meaning first, then accepts only wording "
+core/leveon_pipeline_governed.py:2389:        return "The lattice is the relation map the system moves through before an answer becomes English."
+core/leveon_pipeline_governed.py:2417:    if "the useful move is to answer the request directly" in low:
+core/leveon_pipeline_governed.py:2429:    dbg = out.get("debug_shape_packet")
+core/leveon_pipeline_governed.py:2432:        out["debug_shape_packet"] = dbg
+core/leveon_pipeline_governed.py:2458:# If V12.9O injects meaning density into the final answer path,
+core/leveon_pipeline_governed.py:2459:# make the visible debug_shape_packet.shape_packet.final_shape match it.
+core/leveon_pipeline_governed.py:2489:                out.get("final_english")
+core/leveon_pipeline_governed.py:2490:                or out.get("answer")
+core/leveon_pipeline_governed.py:2496:                dbg = out.get("debug_shape_packet")
+core/leveon_pipeline_governed.py:2499:                    out["debug_shape_packet"] = dbg
+core/leveon_pipeline_governed.py:2513:                    dbg["meaning_density_sync_status"] = "debug_shape_packet_synced"
+core/leveon_pipeline_governed.py:2516:                    meta["meaning_density_debug_sync_status"] = "synced"
+core/leveon_pipeline_governed.py:2559:        dbg = out.setdefault("debug_shape_packet", {})
+core/leveon_pipeline_governed.py:2565:        out["final_english"] = final_shape
+core/leveon_pipeline_governed.py:2566:        out["answer"] = final_shape
+core/leveon_pipeline_governed.py:2569:        dbg = out.setdefault("debug_shape_packet", {})
+core/leveon_pipeline_governed.py:2579:        dbg = out.setdefault("debug_shape_packet", {})
+core/leveon_pipeline_governed.py:2590:        meta["renderer_source"] = "future_pull_birthpoint_v41"
+core/leveon_pipeline_governed.py:2593:        dbg = out.setdefault("debug_shape_packet", {})
+core/leveon_pipeline_governed.py:2602:        meta["meaning_density_debug_sync_status"] = "synced_v41_birthpoint"
+core/leveon_pipeline_governed.py:2606:        dbg = out.get("debug_shape_packet")
+

@@ -1,0 +1,15 @@
+; FILE: kernel/leveon_kernel_translation_bridge.vl
+; Generated: 2026-02-28 06:30:48
+; Le'Veon VoiceLang v1 (compact)
+
+MEM[bridge.active = TRUE]
+MEM[bridge.strength = 0]
+FLOW[voice.lang -> kernel.intent -> english.realizer]
+SHIFT[bridge.strength += 1]
+TURN{
+    translated = spiral.translate(input)
+    output = english.realize(translated)
+    emit(output)
+}
+END
+

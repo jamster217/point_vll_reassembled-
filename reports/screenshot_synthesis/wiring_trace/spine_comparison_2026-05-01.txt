@@ -1,0 +1,283 @@
+POINT VLL SPINE COMPARISON — Fri May  1 10:12:17 PDT 2026
+
+[1] Active governed spine size
+-rw-------. 1 u0_a59 u0_a59 3.1K May  1 09:40 core/leveon_pipeline_governed.py
+91 core/leveon_pipeline_governed.py
+
+[2] Rich governed backups
+-rw-------. 1 u0_a59 u0_a59  68K May  1 02:39 core/leveon_pipeline_governed.before_essence_meta_20260501_023901.py
+-rw-------. 1 u0_a59 u0_a59  71K May  1 02:46 core/leveon_pipeline_governed.before_essence_release_20260501_024617.py
+-rw-------. 1 u0_a59 u0_a59 1.3K May  1 09:40 core/leveon_pipeline_governed.before_ordinary_bridge_20260501_094057.py
+
+[3] Active governed file
+from core.essence_signature import get_essence_signature
+from core.essence_release import maybe_release_from_essence
+import core.essence_expansion as expand
+
+def leveon_pipeline(payload):
+    text = payload.get("text", "")
+    pressure = payload.get("emotional_pressure", 0.0)
+    
+    # 1. Generate the initial (often robotic) response
+    # This simulates the base model output
+    if "logic" in text.lower():
+        initial_output = f"Answer this ordinary question directly: {text}"
+    else:
+        initial_output = "The prompt is outside the current routed patterns, so the next step is to map it to the closest stable domain instead of forcing a generic answer."
+
+    # 2. Extract the Nerve Signature
+    sig = get_essence_signature(text, pressure)
+    
+    # 3. Apply the First Mouth Bridge
+    final_output = maybe_release_from_essence(text, sig, current_final=initial_output)
+    
+    # 4. Bind the Visual Pulse
+    pulse = expand.bind_visual_pulse(sig.get("family"))
+    
+    return {
+        "final_english": final_output,
+        "meta": {
+            "essence_release_status": "fallback_replaced" if final_output != initial_output else "not_needed",
+            "visual_pulse": pulse,
+            "signature": sig
+        }
+    }
+
+
+
+# === ordinary_bridge wrapper 2026-05-01 ===
+try:
+    from core.ordinary_bridge import maybe_bridge_ordinary as _ordinary_maybe_bridge
+
+    _leveon_pipeline_before_ordinary_bridge = leveon_pipeline
+
+    def leveon_pipeline(payload):
+        out = _leveon_pipeline_before_ordinary_bridge(payload)
+
+        try:
+            meta = out.get("meta", {}) or {}
+            prompt = ""
+            if isinstance(payload, dict):
+                prompt = str(
+                    payload.get("text")
+                    or payload.get("prompt")
+                    or payload.get("message")
+                    or ""
+                )
+
+            signature = meta.get("essence_signature", {}) or {}
+            current = str(out.get("final_english", "") or "")
+
+            new_final, bridge_meta = _ordinary_maybe_bridge(
+                prompt=prompt,
+                signature=signature,
+                current_final=current,
+                payload=payload if isinstance(payload, dict) else {},
+            )
+
+            if new_final != current:
+                out["final_english"] = new_final
+
+            meta["ordinary_bridge_status"] = bridge_meta.get("status", "unknown")
+            meta["ordinary_bridge_reason"] = bridge_meta.get("reason", "")
+            meta["ordinary_bridge_kind"] = bridge_meta.get("kind", "")
+
+            if bridge_meta.get("previous_final"):
+                meta["ordinary_bridge_previous_final"] = bridge_meta.get("previous_final")
+
+            out["meta"] = meta
+
+        except Exception as e:
+            try:
+                meta = out.get("meta", {}) or {}
+                meta["ordinary_bridge_status"] = "error"
+                meta["ordinary_bridge_error"] = str(e)
+                out["meta"] = meta
+            except Exception:
+                pass
+
+        return out
+
+except Exception as _ordinary_bridge_error:
+    ORDINARY_BRIDGE_IMPORT_ERROR = str(_ordinary_bridge_error)
+
+
+[4] Full backup tail: essence/signature region
+    meta["answer_mode"] = answer_mode
+    if answer_mode == "short":
+        final = str(out.get("final_english", "") or "").strip()
+        if final:
+            m = _det_rel_re.search(r"^(.+?[.!?…])(?:\s|$)", final)
+            out["final_english"] = m.group(1).strip() if m else final
+        meta["answer_mode_applied"] = "short"
+    else:
+        meta["answer_mode_applied"] = "full"
+    out["meta"] = meta
+    return out
+
+# === essence_signature metadata wrapper v1 ===
+# Adds essence_signature to meta only. Does not mutate final_english.
+try:
+    from core.essence_signature import build_essence_signature as _build_essence_signature
+    from core.essence_signature import essence_debug_line as _essence_debug_line
+except Exception:
+    _build_essence_signature = None
+    _essence_debug_line = None
+
+_essence_signature_base_leveon_pipeline = leveon_pipeline
+
+def leveon_pipeline(payload):
+    out = _essence_signature_base_leveon_pipeline(payload)
+
+    try:
+        if _build_essence_signature is None or not isinstance(out, dict):
+            return out
+
+        meta = out.get("meta", {}) or {}
+        if not isinstance(meta, dict):
+            meta = {}
+
+        shape_packet = {}
+        for key in ("shape_packet", "debug_shape_packet"):
+            v = out.get(key)
+            if isinstance(v, dict) and v:
+                shape_packet = v
+                break
+
+        if not shape_packet:
+            for key in ("shape_packet", "debug_shape_packet"):
+                v = meta.get(key)
+                if isinstance(v, dict) and v:
+                    shape_packet = v
+                    break
+
+        if not shape_packet and isinstance(payload, dict):
+            shape_packet = dict(payload)
+
+        relation = ""
+        if isinstance(meta, dict):
+            relation = str(meta.get("relation") or "")
+        if not relation and isinstance(out, dict):
+            relation = str(out.get("relation") or "")
+        if not relation and isinstance(payload, dict):
+            relation = str(payload.get("relation") or payload.get("semantic_intent") or "")
+        if not relation and isinstance(shape_packet, dict):
+            relation = str(shape_packet.get("relation") or shape_packet.get("semantic_intent") or "relate")
+
+        sig = _build_essence_signature(shape_packet, relation=relation or "relate")
+        meta["essence_signature"] = sig
+        if _essence_debug_line is not None:
+            meta["essence_debug"] = _essence_debug_line(sig)
+        meta["essence_signature_status"] = "metadata_only_active"
+        out["meta"] = meta
+        return out
+
+    except Exception as exc:
+        try:
+            meta = out.get("meta", {}) or {}
+            if not isinstance(meta, dict):
+                meta = {}
+            meta["essence_signature_status"] = "error"
+            meta["essence_signature_error"] = repr(exc)
+            out["meta"] = meta
+        except Exception:
+            pass
+        return out
+
+
+[5] Check which files call the deeper English loop
+chronifier/chronifier_adapter.py:6:class ChronifierAdapter:
+rdn/threshold_rdn.py:94:class ThresholdRDNConfig:
+rdn/threshold_rdn.py:113:class ThresholdRDNResult:
+rdn/threshold_rdn.py:254:    config: ThresholdRDNConfig,
+rdn/threshold_rdn.py:261:def _attach_time_map(config: ThresholdRDNConfig) -> None:
+rdn/threshold_rdn.py:284:class ThresholdRDN:
+rdn/threshold_rdn.py:285:    def __init__(self, config: Optional[ThresholdRDNConfig] = None):
+rdn/threshold_rdn.py:286:        self.config = config or ThresholdRDNConfig()
+rdn/threshold_rdn.py:296:    ) -> ThresholdRDNResult:
+rdn/threshold_rdn.py:358:        return ThresholdRDNResult(
+rdn/threshold_rdn.py:380:def maybe_activate_threshold_rdn(
+rdn/threshold_rdn.py:387:    rdn = ThresholdRDN()
+rdn/threshold_rdn.py:417:    print("\n[ThresholdRDN Demo]\n")
+rdn/threshold_rdn.py:420:        out = maybe_activate_threshold_rdn(
+kernel/apex_mirror_kernel_bridge_v1.vl:2:SEED ApexMirrorKernelBridge_v1
+brain/rdn/threshold_rdn.py:94:class ThresholdRDNConfig:
+brain/rdn/threshold_rdn.py:113:class ThresholdRDNResult:
+brain/rdn/threshold_rdn.py:254:    config: ThresholdRDNConfig,
+brain/rdn/threshold_rdn.py:261:def _attach_time_map(config: ThresholdRDNConfig) -> None:
+brain/rdn/threshold_rdn.py:284:class ThresholdRDN:
+brain/rdn/threshold_rdn.py:285:    def __init__(self, config: Optional[ThresholdRDNConfig] = None):
+brain/rdn/threshold_rdn.py:286:        self.config = config or ThresholdRDNConfig()
+brain/rdn/threshold_rdn.py:296:    ) -> ThresholdRDNResult:
+brain/rdn/threshold_rdn.py:358:        return ThresholdRDNResult(
+brain/rdn/threshold_rdn.py:380:def maybe_activate_threshold_rdn(
+brain/rdn/threshold_rdn.py:387:    rdn = ThresholdRDN()
+brain/rdn/threshold_rdn.py:417:    print("\n[ThresholdRDN Demo]\n")
+brain/rdn/threshold_rdn.py:420:        out = maybe_activate_threshold_rdn(
+kernel/leveon_kernel_full.py.bak_futurefix_20260409_021941:117:class _FallbackThresholdRDN:
+kernel/leveon_kernel_full.py.bak_futurefix_20260409_021941:169:        from brain.rdn.threshold_rdn import ThresholdRDN
+kernel/leveon_kernel_full.py.bak_futurefix_20260409_021941:170:        return ThresholdRDN
+kernel/leveon_kernel_full.py.bak_futurefix_20260409_021941:172:        return _FallbackThresholdRDN
+brain/brain_adapter.py:6:class BrainAdapter:
+kernel/high_kernels.py.bak_20260402_203010:5:class MirrorKernel:
+kernel/high_kernels.py.bak_20260402_203010:19:class CrownKernel:
+kernel/high_kernels.py.bak_20260402_203010:42:class ApexKernel:
+kernel/high_kernels.py.bak_20260402_203010:53:__all__ = ["MirrorKernel", "CrownKernel", "ApexKernel"]
+kernel/crown_kernel.py:5:from kernel.apex_mirror_kernel import ApexMirrorKernel, WitnessState
+kernel/crown_kernel.py:10:class CrownKernel:
+kernel/crown_kernel.py:23:        self.apex = ApexMirrorKernel(max_history=max_history)
+kernel/crown_kernel.py:139:    kernel = CrownKernel()
+kernel/high_kernels.py.bak_20260402_202917:5:class MirrorKernel:
+kernel/high_kernels.py.bak_20260402_202917:19:class CrownKernel:
+kernel/high_kernels.py.bak_20260402_202917:30:class ApexKernel:
+kernel/high_kernels.py.bak_20260402_202917:41:__all__ = ["MirrorKernel", "CrownKernel", "ApexKernel"]
+kernel/apex_mirror_kernel.py:66:class ApexMirrorKernel:
+kernel/apex_mirror_kernel.py:228:    kernel = ApexMirrorKernel()
+kernel/apex_mirror_kernel.py:247:    kernel = ApexMirrorKernel()
+kernel/high_kernels.py.bak_20260402_202813:63:class MirrorKernel(_BaseKernel):
+kernel/high_kernels.py.bak_20260402_202813:68:class CrownKernel(_BaseKernel):
+kernel/high_kernels.py.bak_20260402_202813:73:class ApexKernel(_BaseKernel):
+kernel/high_kernels.py.bak_20260402_202813:78:__all__ = ["MirrorKernel", "CrownKernel", "ApexKernel"]
+kernel/leveon_kernel_reflector_mirror.py:47:class MirrorKernel:
+kernel/leveon_kernel_reflector_mirror.py:106:    kernel = MirrorKernel()
+kernel/high_kernels.py:5:class MirrorKernel:
+kernel/high_kernels.py:19:class CrownKernel:
+kernel/high_kernels.py:42:class ApexKernel:
+kernel/high_kernels.py:63:__all__ = ["MirrorKernel", "CrownKernel", "ApexKernel"]
+kernel/leveon_kernel_full.py:116:class _FallbackThresholdRDN:
+kernel/leveon_kernel_full.py:168:        from brain.rdn.threshold_rdn import ThresholdRDN
+kernel/leveon_kernel_full.py:169:        return ThresholdRDN
+kernel/leveon_kernel_full.py:171:        return _FallbackThresholdRDN
+runtime/brain_temporal_observer.py:32:        self.module_name = "core.english_loop_runtime"
+runtime/brain_temporal_observer.py:36:            from core.english_loop_runtime import EnglishLoopRuntime
+runtime/brain_temporal_observer.py:44:            runtime = EnglishLoopRuntime()
+runtime/brain_temporal_observer.py:54:                "chosen_class": "EnglishLoopRuntime",
+runtime/brain_temporal_observer.py.bak_20260402_200817:80:        self.module_name = "core.english_loop_runtime"
+runtime/brain_temporal_observer.py.bak_20260402_200817:97:            "EnglishLoopRuntime",
+runtime/brain_temporal_observer.py.bak_20260402_201405:91:        self.module_name = "core.english_loop_runtime"
+runtime/brain_temporal_observer.py.bak_20260402_201253:91:        self.module_name = "core.english_loop_runtime"
+runtime/mirror_kernel_response_schema.json:3:  "title": "MirrorKernelResponse",
+runtime/full_kernel_chain_probe.py:57:        from kernel.apex_mirror_kernel import ApexMirrorKernel
+runtime/full_kernel_chain_probe.py:58:        apex = ApexMirrorKernel()
+runtime/lattice_field_pulse.py:3:Minimal lattice field pulse shim for ApexMirrorKernel.
+runtime/sigils/SABRIEL_GRAVITY_WELL_SIGIL.json:6:  "binding_targets": ["CrystalLibrary", "LeVeonLattice", "SymbolicMemory", "PrimeWell_G1", "MirrorKernel"],
+runtime/leveon_entry.py:1:from core.english_loop_runtime import EnglishLoopRuntime
+runtime/leveon_entry.py:6:_runtime = EnglishLoopRuntime()
+runtime/sabriel_binding.json:12:    "MirrorKernel"
+core/english_loop_runtime.py:8:from brain.temporal.chronifier_adapter import ChronifierAdapter
+core/english_loop_runtime.py:9:from brain.cognition.brain_adapter import BrainAdapter
+core/english_loop_runtime.py:11:from kernel.high_kernels import MirrorKernel, CrownKernel, ApexKernel
+core/english_loop_runtime.py:14:class EnglishLoopRuntime:
+core/english_loop_runtime.py:22:        self.chronifier = ChronifierAdapter(self.raw_chronifier)
+core/english_loop_runtime.py:23:        self.brain = BrainAdapter()
+core/english_loop_runtime.py:25:        self.mirror = MirrorKernel()
+core/english_loop_runtime.py:26:        self.crown = CrownKernel()
+core/english_loop_runtime.py:27:        self.apex = ApexKernel()
+runtime/kernel_shape_bridge_v131.py:22:        from kernel.crown_kernel import CrownKernel
+runtime/kernel_shape_bridge_v131.py:23:        _CROWN = CrownKernel()
+runtime/kernel_shape_bridge_v131.py:137:            "source": "kernel.crown_kernel.CrownKernel.next_turn",
+runtime/kernel_shape_bridge_v131.py:176:            "kernel": "CrownKernel",
+
+[6] Compile candidates
+[OK] compile passed
+

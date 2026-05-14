@@ -1,0 +1,1509 @@
+{
+  "entries": [
+    {
+      "ts": "2026-04-25T01:03:49.274809+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-04-25T01:05:54.135963+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-04-25T01:11:45.338747+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-04-25T01:13:40.530822+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-04-25T01:57:38.496114+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-04-25T02:53:37.212720+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-04-30T14:14:30.691111+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-04-30T14:14:31.287109+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-01T03:24:45.247571+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-01T18:00:02.330505+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-01T18:00:02.352303+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 2,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-01T18:00:02.364595+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 3,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-01T18:17:23.566737+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-01T18:17:23.639635+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 2,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-01T18:17:23.723791+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 3,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-01T18:20:24.431260+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-01T18:20:24.457100+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 2,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-01T18:20:24.479336+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 3,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-01T18:34:26.292905+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 4,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-01T19:40:27.119410+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-01T19:41:20.802582+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-01T19:44:18.124250+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 2,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-01T19:46:01.600912+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-01T20:36:46.539516+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 2,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-01T20:45:13.231536+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-01T20:48:14.251994+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-01T21:36:43.589643+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-01T21:42:43.027050+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-01T21:46:49.088961+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-01T21:47:11.809825+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-01T21:49:37.600485+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-01T21:51:50.461685+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-01T21:55:53.397860+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-01T21:58:01.950986+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-01T21:59:51.935019+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-01T22:01:36.844660+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-01T22:03:36.192497+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-01T22:05:43.839387+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-01T22:10:34.205329+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-01T22:11:30.962837+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-01T22:17:00.119944+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-02T11:22:14.054978+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-02T11:22:20.125394+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 2,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-02T11:22:20.647668+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 3,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-02T11:25:22.142748+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-02T11:28:03.306687+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-02T11:34:15.880434+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-02T11:34:16.059929+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 2,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-02T11:40:30.512069+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-02T11:40:31.020487+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 2,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-02T11:43:12.952237+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-02T11:43:12.974288+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 2,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-02T11:44:48.644549+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 3,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-02T11:44:48.664499+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 4,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-02T12:26:28.489619+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 5,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-03T12:18:14.894439+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-03T12:22:05.415489+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-03T12:33:32.091632+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-03T12:34:14.960579+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 2,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-03T12:34:39.542643+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 3,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-03T12:35:37.226523+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-03T12:42:39.104535+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-03T15:05:03.167606+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 2,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-03T15:06:57.852129+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-03T15:09:05.558240+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-05T01:38:57.084148+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-05T01:47:33.503770+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-05T02:03:54.637193+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T01:53:58.846961+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T01:56:13.593780+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 2,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T01:58:34.504986+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 3,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:04:02.823081+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 4,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:06:48.958490+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 5,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:08:57.099198+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 6,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:08:59.319646+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 7,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:09:01.542993+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 8,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:09:03.730090+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 9,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:09:05.930429+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 10,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:14:06.783393+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 11,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:15:03.277115+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 12,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:18:24.705605+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 13,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:28:32.335270+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 14,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:28:37.546409+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 15,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:28:42.729101+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 16,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:28:47.941223+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 17,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:28:53.193001+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 18,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:28:58.466495+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 19,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:29:03.755600+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 20,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:29:09.046438+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 21,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:29:14.339457+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 22,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:29:19.627949+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 23,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:29:24.904124+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 24,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:29:30.174921+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 25,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:29:35.521772+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 26,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:29:40.835405+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 27,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:29:46.198928+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 28,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:29:51.529457+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 29,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:29:56.781481+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 30,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:30:02.046914+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 31,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:30:07.266927+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 32,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:30:12.529873+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 33,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:30:17.787773+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 34,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:30:23.021510+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 35,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:30:28.290711+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 36,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:30:33.503409+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 37,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:30:38.770150+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 38,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:30:44.006324+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 39,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:30:49.261993+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 40,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:30:54.519914+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 41,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:30:59.750215+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 42,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:31:05.000280+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 43,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:31:10.269349+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 44,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:31:15.553823+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 45,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:31:20.805976+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 46,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:31:26.071267+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 47,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:31:31.337484+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 48,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:31:36.596230+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 49,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:31:41.999562+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 50,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:31:47.508156+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 51,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:31:52.847961+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 52,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:31:58.085740+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 53,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:32:03.337651+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 54,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:32:08.578372+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 55,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:32:13.835209+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 56,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:32:19.118554+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 57,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:32:24.379931+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 58,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:32:29.605331+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 59,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:32:34.787529+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 60,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:32:40.005087+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 61,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:32:45.243627+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 62,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:32:50.455868+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 63,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:32:55.664994+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 64,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:33:00.865438+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 65,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:33:06.059919+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 66,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:33:11.268934+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 67,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:33:16.474437+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 68,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:33:21.663506+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 69,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:33:26.841077+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 70,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:33:32.032292+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 71,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:33:37.239761+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 72,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:33:42.451458+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 73,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:33:47.669529+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 74,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:33:52.869528+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 75,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:33:58.075701+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 76,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:34:03.320156+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 77,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:34:08.569346+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 78,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:34:13.915854+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 79,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:34:19.131875+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 80,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:34:24.346797+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 81,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:34:29.705990+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 82,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:34:35.023266+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 83,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:34:40.253871+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 84,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:34:45.483308+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 85,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:34:50.695501+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 86,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:34:55.916124+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 87,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:35:01.123851+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 88,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:35:06.358711+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 89,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:35:11.615103+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 90,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:35:16.857125+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 91,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:35:22.117315+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 92,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:35:27.364455+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 93,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:35:32.609449+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 94,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:35:37.859989+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 95,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:35:43.268642+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 96,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:35:48.526858+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 97,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:35:53.768666+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 98,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T02:35:59.025193+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 99,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T05:16:28.382866+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T05:16:28.387753+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 2,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T05:16:28.389805+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 3,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T05:27:32.953702+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T05:27:32.963567+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 2,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T05:27:32.966328+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 3,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T05:28:38.677287+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T05:28:38.680026+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 2,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T05:28:38.682012+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 3,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T05:30:18.825125+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T05:30:18.828402+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 2,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T05:30:18.830995+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 3,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T05:32:04.893243+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T05:32:04.897632+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 2,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T05:32:04.899719+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 3,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T05:34:15.656289+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T05:34:15.661039+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 2,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T05:34:15.663987+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 3,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T05:36:05.003640+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 1,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T05:36:05.007099+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 2,
+      "mode": "internal_awaken"
+    },
+    {
+      "ts": "2026-05-06T05:36:05.009978+00:00",
+      "type": "recursion",
+      "trigger": "@UNSET",
+      "echo": "The mirror gathers around @UNSET.",
+      "depth": 3,
+      "mode": "internal_awaken"
+    }
+  ]
+}
+

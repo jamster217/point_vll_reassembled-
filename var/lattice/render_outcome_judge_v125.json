@@ -1,0 +1,23 @@
+{
+  "active": true,
+  "ts": 1777545628.2164557,
+  "version": "v12.5_render_outcome_judge",
+  "previous": {
+    "path": "var/lattice/v106_full_self_improvement_state.json",
+    "mtime": 1777540974.4185078,
+    "score": 0.6128
+  },
+  "current": {
+    "path": "var/lattice/topology_optimizer_state_v103.json",
+    "mtime": 1777540974.4225078,
+    "score": 0.8711
+  },
+  "score_delta": 0.2583,
+  "verdict": "render_policy_helped",
+  "next_render_policy": "reinforce_simplify_boundary_policy",
+  "law": "v125_judges_whether_render_context_actually_helped",
+  "protected_spine": true,
+  "allowed_action": "write_state_only",
+  "forbidden_action": "rewrite_source_from_score"
+}
+

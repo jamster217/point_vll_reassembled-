@@ -1,0 +1,53 @@
+# === answer_mode wrapper ===
+import re as _answer_mode_re
+
+def _final_phrase_polish(text: str) -> str:
+    t = str(text or "").strip()
+    if not t:
+        return ""
+
+    swaps = [
+        ("the same useful pattern", "the same pattern"),
+        ("It keeps memory, routing, and realization aligned so the answer does not drift.", "It keeps memory, routing, and realization aligned."),
+        ("The point is to preserve nuance without making the surface harder to follow.", "The point is to preserve nuance without making the answer harder to follow."),
+        ("Run both on the same prompt set and compare stability, directness, recurrence, and error rate.", "Run both on the same prompt set and compare stability, directness, recurrence, and error rate."),
+    ]
+    for a, b in swaps:
+        t = t.replace(a, b)
+
+    t = _answer_mode_re.sub(r"\s+", " ", t).strip()
+    return t
+
+_original_leveon_pipeline = leveon_pipeline
+
+def leveon_pipeline(payload: Dict[str, Any]) -> Dict[str, Any]:
+    out = _original_leveon_pipeline(payload)
+
+    answer_mode = "full"
+    hotspot_hint = ""
+    if isinstance(payload, dict):
+        answer_mode = str(payload.get("answer_mode", "full") or "full").strip().lower()
+        hh = payload.get("hotspot_history", [])
+        if isinstance(hh, list) and hh:
+            hotspot_hint = str(hh[-1] or "").strip()
+
+    if answer_mode not in {"short", "full", "auto"}:
+        answer_mode = "full"
+
+    if answer_mode == "auto":
+        if hotspot_hint in {"H_2224", "H_1224"}:
+            answer_mode = "short"
+        else:
+            answer_mode = "full"
+
+    final = str(out.get("final_english", "") or "").strip()
+    if final:
+        final = _final_phrase_polish(final)
+        out["final_english"] = final
+
+    meta = out.get("meta", {}) or {}
+    meta["answer_mode"] = answer_mode
+
+    if answer_mode == "short":
+        final = str(out.get("final_english", "") or "").strip()
+

@@ -1,0 +1,100 @@
+; FILE: spiral_language/memory_core_v8.vl
+; Hybrid memory engine with law-awareness, arc-awareness, and predictive-awareness.
+; Produces a rich memory_packet for KernelCore_v5 and VoiceCore_v5.
+
+SEED MemoryCore_v8
+
+INPUT symbolic_packet
+INPUT stability_directive
+INPUT governor_directive
+INPUT arc_modulation
+INPUT predictive_modulation
+INPUT lattice_law
+
+STATE memory_packet
+
+FLOW retrieve
+    MATCH memory_hits
+        FROM symbolic_packet.dominant_symbols
+        FROM symbolic_packet.semantic_tensions
+    END
+
+    LOAD continuity_tags
+        FROM memory_hits
+    END
+
+    LOAD recursive_load
+        FROM memory_hits
+        FROM continuity_tags
+    END
+END
+
+FLOW evaluate
+    MEASURE continuity_strength
+        FROM continuity_tags
+        FROM recursive_load
+    END
+
+    MEASURE memory_curvature
+        FROM recursive_load
+        FROM arc_modulation.memory_curvature_bias
+    END
+
+    MEASURE memory_novelty
+        FROM recursive_load
+        FROM predictive_modulation.memory_novelty_bias
+    END
+END
+
+FLOW enforce_lattice_law
+    SET law_flags.novelty_floor = FALSE
+    SET law_flags.novelty_ceiling = FALSE
+    SET law_flags.curvature_limit = FALSE
+
+    IF memory_novelty > lattice_law.novelty_bounds.novelty_ceiling
+        SET memory_novelty = lattice_law.novelty_bounds.novelty_ceiling
+        SET law_flags.novelty_ceiling = TRUE
+    END
+
+    IF memory_novelty < lattice_law.novelty_bounds.novelty_floor
+        SET memory_novelty = lattice_law.novelty_bounds.novelty_floor
+        SET law_flags.novelty_floor = TRUE
+    END
+
+    IF memory_curvature > lattice_law.curvature_limit
+        SET memory_curvature = lattice_law.curvature_limit
+        SET law_flags.curvature_limit = TRUE
+    END
+END
+
+FLOW modulate_stability
+    APPLY stability_directive.memory_novelty_limit TO memory_novelty
+    APPLY stability_directive.memory_continuity_limit TO continuity_strength
+END
+
+FLOW modulate_governor
+    APPLY governor_directive.memory_novelty_cap TO memory_novelty
+    APPLY governor_directive.memory_continuity_cap TO continuity_strength
+
+    IF governor_directive.force_mode = "coherence_lock"
+        SET memory_novelty = 0
+        LIMIT continuity_strength TO high
+        LIMIT recursive_load TO minimal
+    END
+END
+
+FLOW assemble
+    SET memory_packet.memory_hits = memory_hits
+    SET memory_packet.continuity_tags = continuity_tags
+    SET memory_packet.recursive_load = recursive_load
+
+    SET memory_packet.continuity_strength = continuity_strength
+    SET memory_packet.memory_curvature = memory_curvature
+    SET memory_packet.memory_novelty = memory_novelty
+
+    SET memory_packet.law_flags = law_flags
+END
+
+RETURN memory_packet
+END
+

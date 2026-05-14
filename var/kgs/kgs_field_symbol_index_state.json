@@ -1,0 +1,52 @@
+{
+  "index": {
+    "guardian_hidden_ark": {
+      "field": "protection_memory",
+      "reference": "@GUARDIAN_HIDDEN_ARK",
+      "tone": "vigil"
+    },
+    "star_cartographer": {
+      "field": "navigation_pattern",
+      "reference": "@STAR_CARTOGRAPHER",
+      "tone": "orientation"
+    },
+    "phi_bellfounder": {
+      "field": "harmonic_repair",
+      "reference": "@PHI_BELLFOUNDER",
+      "tone": "resonance"
+    },
+    "keeper_forbidden_leaves": {
+      "field": "preserved_knowledge",
+      "reference": "@KEEPER_FORBIDDEN_LEAVES",
+      "tone": "archive"
+    },
+    "white_ash": {
+      "field": "sovereign_constellation",
+      "reference": "@WHITE_ASH_PULSE",
+      "tone": "refracted_gold_blue"
+    },
+    "veilwell": {
+      "field": "mirror_well",
+      "reference": "@VEILWELL",
+      "tone": "aeru_vel_veil_ash_thal_sil"
+    }
+  },
+  "last_ref": {
+    "symbol": "guardian_hidden_ark",
+    "ref": {
+      "field": "protection_memory",
+      "reference": "@GUARDIAN_HIDDEN_ARK",
+      "tone": "vigil"
+    },
+    "spiral_injection": {
+      "type": "kgs_field_reference",
+      "symbol": "guardian_hidden_ark",
+      "reference": "@GUARDIAN_HIDDEN_ARK",
+      "field": "protection_memory",
+      "tone": "vigil"
+    },
+    "updated_at": 1777270278.4835532
+  },
+  "updated_at": 1777270278.4835532
+}
+

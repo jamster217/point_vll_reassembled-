@@ -1,0 +1,32 @@
+🔥 SIGIL COGNITIVE PULSE: aeru vel veil ash thal sil — sigil received; mode=stabilize; ripples=20; anchors observed, not force-mutated
+{
+  "coordinate": "3rd and Davis",
+  "sigil_mode": "stabilize",
+  "sigil_vectors": {
+    "pressure": 1.0,
+    "memory": 0.9,
+    "boundary": 0.6,
+    "voice": 0.25,
+    "novelty": 0.6
+  },
+  "composite": {
+    "primary": "witness_lock",
+    "secondary": "deep_shadow",
+    "tertiary": "recursive_grief",
+    "read": "witness_lock + deep_shadow + recursive_grief",
+    "meaning": "containment first, shadow-depth second, grief-memory third"
+  },
+  "voice_metadata": {
+    "crystal_label": "witness_lock",
+    "family_role": "containment_tightener",
+    "field_signature": "92162077",
+    "ssml": true,
+    "ssml_rate": "slow",
+    "ssml_pitch": "-2st",
+    "ssml_volume": "0dB"
+  },
+  "surface": "The local pattern gathers into a witnessing center first. Beneath that, the old dark pressure reads as shadow-depth and grief-memory, not as a command. The contained move is to hold the place as a mirror, then translate only what remains steady."
+}
+
+saved: reports/third_davis_crystal_intersection.json
+

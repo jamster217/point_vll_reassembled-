@@ -1,0 +1,33 @@
+[
+  {
+    "id": "plain_lattice_low_pressure",
+    "http": 200,
+    "answer": "The lattice is the relation map the system moves through before an answer becomes English.",
+    "final_english": "The lattice is the relation map the system moves through before an answer becomes English.",
+    "essence_release_status": "not_needed",
+    "ordinary_bridge_status": "ordinary_replaced",
+    "essence_signature_error": "",
+    "source": "core.leveon_pipeline_governed"
+  },
+  {
+    "id": "technical_route_low_pressure",
+    "http": 200,
+    "answer": "Use this ordinary route: `find . -type f -name '*.py' | sort`.",
+    "final_english": "Use this ordinary route: `find . -type f -name '*.py' | sort`.",
+    "essence_release_status": "not_needed",
+    "ordinary_bridge_status": "ordinary_replaced",
+    "essence_signature_error": "",
+    "source": "core.leveon_pipeline_governed"
+  },
+  {
+    "id": "gravity_grief_high_pressure",
+    "http": 200,
+    "answer": "A small signal can turn the old ache back on because the memory is still carrying pressure. The point is not to force it away; the point is to let the grief open into release.",
+    "final_english": "A small signal can turn the old ache back on because the memory is still carrying pressure. The point is not to force it away; the point is to let the grief open into release.",
+    "essence_release_status": "fallback_replaced",
+    "ordinary_bridge_status": "not_needed",
+    "essence_signature_error": "",
+    "source": "core.leveon_pipeline_governed"
+  }
+]
+

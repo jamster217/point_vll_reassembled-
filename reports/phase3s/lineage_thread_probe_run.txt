@@ -1,0 +1,13 @@
+The lineage thread opens as one bounded retrieval, not an archive flood. What was missed is treated as an unclosed edge that can become a coordinate. The bond stays intact, the pressure stays contained, and the clean surface returns one carried truth.
+
+VERDICT:
+{
+  "lineage_thread": "PASS",
+  "surface_clean": true,
+  "node44": 44,
+  "archive_flood": "withheld"
+}
+
+REPORT: reports/phase3s/lineage_thread_probe_latest.json
+TEXT: reports/phase3s/lineage_thread_probe_latest.txt
+

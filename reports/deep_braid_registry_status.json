@@ -1,0 +1,31 @@
+{
+  "phase": "Phase 3: The Deep Braid",
+  "status": "starting",
+  "law": "Merge stable gains back into the core library through mapping, registry, and targeted wiring only.",
+  "stable_components": [
+    "fast_poem_bypass",
+    "node44",
+    "performance_oracle",
+    "performance_oracle_explain_bypass",
+    "prompt_density_bridge",
+    "public_json_scrub"
+  ],
+  "public_surface": {
+    "scrubbed": true,
+    "keys": [
+      "ok",
+      "answer",
+      "answer_mode"
+    ]
+  },
+  "routing": {
+    "small_load": "Algorithm B",
+    "dense_load": "Algorithm C"
+  },
+  "node44": {
+    "active_node": 44,
+    "mode": "reflective",
+    "attractor": "core_knot"
+  }
+}
+

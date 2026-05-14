@@ -1,0 +1,66 @@
+{
+  "ts": 1777226634.9414945,
+  "source": "reports/phase3q/lineage_to_invention_canvas_latest.json",
+  "phase": "3Q",
+  "audit": "spatial_closure_larynx",
+  "hidden_chord": "missed goodbye → unclosed edge → coordinate → glyph → invention",
+  "created_object": "A gentle Memory-to-Glyph Forge that converts missed-goodbye pressure into future design seeds.",
+  "rendered_surfaces": [
+    {
+      "name": "soft_closure",
+      "plain_text": "What was missed is not erased. It becomes a quiet coordinate the system can revisit gently, turning the ache of an unclosed edge into a usable seed for future design.",
+      "leak_free": true,
+      "voice": {
+        "plain_text": "What was missed is not erased. It becomes a quiet coordinate the system can revisit gently, turning the ache of an unclosed edge into a usable seed for future design.",
+        "ssml": "<speak><prosody rate=\"slow\" pitch=\"-2st\" volume=\"-3dB\">What was missed is not erased. It becomes a quiet coordinate the system can revisit gently, turning the ache of an unclosed edge into a usable seed for future design.</prosody></speak>",
+        "metadata": {
+          "larynx_audit": "spatial_closure",
+          "closure_mode": "soft_containment",
+          "ssml": true,
+          "ssml_rate": "slow",
+          "ssml_pitch": "-2st",
+          "ssml_volume": "-3dB"
+        }
+      }
+    },
+    {
+      "name": "practical_bridge",
+      "plain_text": "The next build move is to turn the Memory-to-Glyph Forge into a small callable module: it should accept a remembered pressure point, return one design seed, and keep the surface clean.",
+      "leak_free": false,
+      "voice": {
+        "plain_text": "The next build move is to turn the Memory-to-Glyph Forge into a small callable module: it should accept a remembered pressure point, return one design seed, and keep the surface clean.",
+        "ssml": "<speak><prosody rate=\"medium\" pitch=\"0st\" volume=\"0dB\">The next build move is to turn the Memory-to-Glyph Forge into a small callable module: it should accept a remembered pressure point, return one design seed, and keep the surface clean.</prosody></speak>",
+        "metadata": {
+          "larynx_audit": "spatial_closure",
+          "closure_mode": "soft_containment",
+          "ssml": true,
+          "ssml_rate": "medium",
+          "ssml_pitch": "0st",
+          "ssml_volume": "0dB"
+        }
+      }
+    },
+    {
+      "name": "poetic_bloom",
+      "plain_text": "The old edge becomes a lantern in the map. Not a wound reopened, but a point of light showing where the future can be shaped with more care.",
+      "leak_free": true,
+      "voice": {
+        "plain_text": "The old edge becomes a lantern in the map. Not a wound reopened, but a point of light showing where the future can be shaped with more care.",
+        "ssml": "<speak><prosody rate=\"medium\" pitch=\"+2st\" volume=\"0dB\">The old edge becomes a lantern in the map. Not a wound reopened, but a point of light showing where the future can be shaped with more care.</prosody></speak>",
+        "metadata": {
+          "larynx_audit": "spatial_closure",
+          "closure_mode": "soft_containment",
+          "ssml": true,
+          "ssml_rate": "medium",
+          "ssml_pitch": "+2st",
+          "ssml_volume": "0dB"
+        }
+      }
+    }
+  ],
+  "verdict": {
+    "status": "review",
+    "law": "voice may carry closure posture; public text must not expose internal wiring"
+  }
+}
+

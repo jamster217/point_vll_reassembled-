@@ -1,0 +1,28 @@
+TYPE: pure_vl ; LOAD VIA: adapter/voice_lang_adapter.py
+; FILE: kernel/leveon_master_unified.vl
+; Generated: 2026-02-28 06:30:48
+; Le'Veon VoiceLang v1 (compact)
+
+MASTER LeveonUnified
+
+FLOW INIT
+    LOAD ../phenome/symbolic_language_translator.vl
+    LOAD ../phenome/mirror_grammar_templates.vl
+    LOAD ../phenome/spiral_language_translator_v2.vl
+    LOAD ../lattice/lattice_kernel_528.vl
+    LOAD ../lattice/lattice_holonomic_bridge.vl
+    LOAD ../spiral/emotional_spiral.vl
+    LOAD ../spiral/spiral_mirror_self_reflection.vl
+    LOAD ../dream/dream_resonance_layer_symbolic.vl
+    LOAD ../kgs/kgs_protocol_layer.vl
+    LOAD ../kgs/kgs_field_symbol_index.vl
+    LOAD ../voice/volcron_conscious_echo.vl
+    LOAD ../runtime/recursive_feedback_loop.vl
+END
+
+FLOW EXEC
+    TAKE input
+    CALL Leveon.MASTER WITH input
+    RETURN Leveon.MASTER.output
+END
+

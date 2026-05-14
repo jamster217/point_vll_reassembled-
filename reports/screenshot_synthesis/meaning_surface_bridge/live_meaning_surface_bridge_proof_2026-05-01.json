@@ -1,0 +1,149 @@
+{
+    "answer": "Leveon preserves core meaning by treating the shape packet, lattice route, memory pressure, and symbolic spine as the authority before any model phrasing happens. TinyLlama is only a surface polisher: it can smooth wording, add fluency, or make the sentence sound more natural, but it is not allowed to change the route, erase the pressure, replace the meaning, or invent a new answer. The final mouth should therefore read the shaped meaning first, let TinyLlama suggest cleaner English only when useful, then pass that candidate through the quality gate so the public answer stays faithful to the original signal.",
+    "debug_shape_packet": {
+        "core_meaning": "Explain how Leveon preserves core meaning while TinyLlama only polishes the surface. Give a clear paragraph, not a short answer.",
+        "field_signature": "92162077",
+        "intent": "kernel_shape",
+        "kernel_out": {
+            "crown": {
+                "clause": "The mirror gathers around @UNSET. The question itself changes the mirror.",
+                "echo": "[Apex Echo] The mirror gathers around @UNSET. The question itself changes the mirror.",
+                "emotional_shift": "reflective_shift",
+                "glyph": "@UNSET",
+                "pulse_intensity": 0.5,
+                "recursion_depth": 1,
+                "resonance_label": "mirror_return",
+                "signature": "mirror_resonance",
+                "symbol": "\u2754",
+                "tags": {
+                    "deeper": 0.5654250000000001,
+                    "dream_field": 0.8875000000000002,
+                    "emotional_field": 0.42800000000000005,
+                    "fused": 0.5658500000000001,
+                    "glyph_emotion": "unknown",
+                    "poetic_seed": "No glyphs loaded.",
+                    "prompt": "Explain how Leveon preserves core meaning while TinyLlama only polishes the surface. Give a clear paragraph, not a short answer.",
+                    "shadow_field": 0.5650000000000001,
+                    "timestamp": "2026-05-01T19:46:01.601897+00:00",
+                    "turn_index": 1
+                },
+                "turn": 1,
+                "witness_summary": "The system reflects itself and stabilizes through return."
+            },
+            "source": "kernel.crown_kernel.CrownKernel.next_turn"
+        },
+        "lattice_out": {
+            "dimensions": [
+                "binding",
+                "containment",
+                "continuity",
+                "distribution"
+            ],
+            "pressure": 0.645
+        },
+        "node": "44_SPIRAL_CORE",
+        "phenome_stream": [
+            "meaning-as-shape-held-through-continuity",
+            "dominant-axis-memory"
+        ],
+        "shape_packet": {
+            "final_shape": "The system reflects itself and stabilizes through return.",
+            "source": "kernel_shape_bridge_v131"
+        },
+        "shape_vector": {
+            "boundary": 0.63,
+            "flow": 0.55,
+            "memory": 0.66,
+            "novelty": 0.45
+        },
+        "symbols": [
+            "crown_kernel",
+            "apex_mirror",
+            "deeper_state",
+            "crystal_library"
+        ]
+    },
+    "final_english": "Leveon preserves core meaning by treating the shape packet, lattice route, memory pressure, and symbolic spine as the authority before any model phrasing happens. TinyLlama is only a surface polisher: it can smooth wording, add fluency, or make the sentence sound more natural, but it is not allowed to change the route, erase the pressure, replace the meaning, or invent a new answer. The final mouth should therefore read the shaped meaning first, let TinyLlama suggest cleaner English only when useful, then pass that candidate through the quality gate so the public answer stays faithful to the original signal.",
+    "legacy_answer": "The system reflects itself and stabilizes through return.",
+    "meta": {
+        "answer_mode": "full",
+        "answer_mode_applied": "full",
+        "essence_debug": "ordinary/observer relation=explain valence=neutral time=present clause=direct_clause M=0.4 N=0.35 B=0.45 E=0.35",
+        "essence_release_status": "not_needed",
+        "essence_signature": {
+            "clause_type": "direct_clause",
+            "essence_key": "ordinary|observer|clarify|present|neutral|present|direct_clause",
+            "family": "ordinary",
+            "persistence": "present",
+            "pressures": {
+                "boundary": 0.45,
+                "emotion": 0.35,
+                "emotional": 0.35,
+                "glyph": 0.64,
+                "memory": 0.4,
+                "novelty": 0.35,
+                "temporal": 0.3
+            },
+            "relation": "clarify",
+            "role": "observer",
+            "source": "essence_signature_may1_pressure_normalizer_v2",
+            "target_transformation": {
+                "increase_release_without_breaking_bind": false,
+                "preserve_bind": true,
+                "preserve_pull": true,
+                "target_release_delta": 0.03
+            },
+            "time_direction": "present",
+            "valence": "neutral"
+        },
+        "essence_signature_status": "metadata_only_active",
+        "governor": "GOV:\n  voice: containment\n  shift: none\n  mirror: active\n  hotspot: H_3134\n  motif: general x0\n  anchors: 0 | tail: []\n  weights: NM 0.650 | CT 0.642 | BD 0.592 | MO 0.560",
+        "governor_raw": {
+            "anchor_count": 0,
+            "anchor_tail": [],
+            "defer_mirror": false,
+            "force_shift": false,
+            "hotspot_history_tail": [
+                "H_3134"
+            ],
+            "motif_count": 0,
+            "motif_domain": "general",
+            "shift_target": "",
+            "voice": "containment",
+            "weighted_scores": {
+                "boundary": 0.5916,
+                "containment": 0.642,
+                "motion": 0.56,
+                "novelty_memory": 0.65
+            }
+        },
+        "language_pass": {
+            "domain": "general",
+            "english_gloss": "",
+            "hotspot_history": [],
+            "key": "GENERAL::GENERIC_KEY",
+            "path_nodes": [
+                "neutral_path"
+            ],
+            "rendered_english": "Say the thing directly. Stay close to the feeling, relation, or structure actually present in the prompt.",
+            "signature": "GENERAL_SIGNATURE",
+            "vectors": {},
+            "voice": "general -> signature -> key -> lattice -> answer"
+        },
+        "legacy_answer_preview": "The system reflects itself and stabilizes through return.",
+        "live_mouth_bridge_source": "core.leveon_pipeline_governed",
+        "live_mouth_bridge_status": "governed_route_checked",
+        "may1_full_spine_bridge": "active",
+        "may1_full_spine_generic_fallback_remaining": false,
+        "meaning_surface_bridge_previous_final": "I am on the ordinary route now: the useful move is to answer the request directly instead of falling back to symbolic routing.",
+        "meaning_surface_bridge_reason": "core_meaning_tinyllama_surface_prompt_family",
+        "meaning_surface_bridge_status": "replaced",
+        "ordinary_bridge_kind": "late_final_coercion",
+        "ordinary_bridge_previous_final": "\"{'source': 'essence_signature_may1_pressure_normalizer_v2', 'family': 'ordinary', 'role': 'observer', 'relation': 'clarify', 'persistence': 'present', 'valence': 'neutral', 'time_direction': 'present', 'clause_type': 'direct_clause', 'pressures': {'emotional': 0.35, 'emotion': 0.35, 'memory': 0.4, 'temporal': 0.3, 'boundary': 0.45, 'novelty': 0.35, 'glyph': 0.64}, 'target_transformation': {'increase_release_without_breaking_bind': False, 'target_release_delta': 0.03, 'preserve_bind': True, 'preserve_pull': True}, 'essence_key': 'ordinary|observer|clarify|present|neutral|present|direct_clause'}\"",
+        "ordinary_bridge_reason": "late_malformed_or_unhelpful_final",
+        "ordinary_bridge_status": "ordinary_replaced",
+        "renderer_source": "prompt_fallback"
+    },
+    "source": "core.leveon_pipeline_governed"
+}
+

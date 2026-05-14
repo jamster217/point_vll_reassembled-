@@ -1,0 +1,13 @@
+{
+  "lineage": {
+    "depth": 1
+  },
+  "last_signal": "guardian_hidden_ark",
+  "spiral_injection": {
+    "type": "ancestor_signal",
+    "signal": "guardian_hidden_ark",
+    "channel": "dream_lineage"
+  },
+  "updated_at": 1777266953.1196303
+}
+

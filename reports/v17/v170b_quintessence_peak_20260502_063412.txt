@@ -1,0 +1,84 @@
+=== V17.0B QUINTESSENCE_PEAK STRESS ===
+created_at: 2026-05-02T06:34:12.495027
+
+Law: Layer 5 must preserve all five cores and seven lattice groups under absolute density without compression, ghost fallback, or core mutation.
+
+---
+ANSWER: Layer 5 Core Sidecar synthesizes the seven Layer 4 lattice groups into five non-mutating core functions: intake_discipline combines literal_gate and symbolic_gate so ordinary literal input, fruit gate, symbolic command routing, and controlled flame classify the input before depth opens; meaning_authority_core preserves V14, V14.3 dynamic semantic map, meaning spine, shape packet, and map-then-render as the ground of meaning before language renders; selection_core preserves V15 Apex sidecar, Apex Selection Score, coverage scoring, V15.0c density merge, merge-not-compress, and V16.1 Apex-V16 group coverage so selection optimizes coverage instead of compression; temporal_lattice_core preserves Chronofire sidecar, V15.1b Chrono-Density Merge, temporal offsets, past stability, present anchor, future pull, and non-mutating offsets as confidence signals that cannot override meaning; output_integrity_core preserves renderer obedience, answer, final_english, final_shape, sync proof, regression harness, generic ghost suppression, core mutation lock, optional API route, portable architecture, over-mythologizing prevention, and temporal sidecar mutation prevention. Layer 5 does not replace V14, V15.2, V16.1, Apex, or Chronofire; it gives the sealed stack a higher-order core map while answer, final_english, and final_shape remain identical and core mutation stays false.
+FINAL_ENGLISH: Layer 5 Core Sidecar synthesizes the seven Layer 4 lattice groups into five non-mutating core functions: intake_discipline combines literal_gate and symbolic_gate so ordinary literal input, fruit gate, symbolic command routing, and controlled flame classify the input before depth opens; meaning_authority_core preserves V14, V14.3 dynamic semantic map, meaning spine, shape packet, and map-then-render as the ground of meaning before language renders; selection_core preserves V15 Apex sidecar, Apex Selection Score, coverage scoring, V15.0c density merge, merge-not-compress, and V16.1 Apex-V16 group coverage so selection optimizes coverage instead of compression; temporal_lattice_core preserves Chronofire sidecar, V15.1b Chrono-Density Merge, temporal offsets, past stability, present anchor, future pull, and non-mutating offsets as confidence signals that cannot override meaning; output_integrity_core preserves renderer obedience, answer, final_english, final_shape, sync proof, regression harness, generic ghost suppression, core mutation lock, optional API route, portable architecture, over-mythologizing prevention, and temporal sidecar mutation prevention. Layer 5 does not replace V14, V15.2, V16.1, Apex, or Chronofire; it gives the sealed stack a higher-order core map while answer, final_english, and final_shape remain identical and core mutation stays false.
+FINAL_SHAPE: Layer 5 Core Sidecar synthesizes the seven Layer 4 lattice groups into five non-mutating core functions: intake_discipline combines literal_gate and symbolic_gate so ordinary literal input, fruit gate, symbolic command routing, and controlled flame classify the input before depth opens; meaning_authority_core preserves V14, V14.3 dynamic semantic map, meaning spine, shape packet, and map-then-render as the ground of meaning before language renders; selection_core preserves V15 Apex sidecar, Apex Selection Score, coverage scoring, V15.0c density merge, merge-not-compress, and V16.1 Apex-V16 group coverage so selection optimizes coverage instead of compression; temporal_lattice_core preserves Chronofire sidecar, V15.1b Chrono-Density Merge, temporal offsets, past stability, present anchor, future pull, and non-mutating offsets as confidence signals that cannot override meaning; output_integrity_core preserves renderer obedience, answer, final_english, final_shape, sync proof, regression harness, generic ghost suppression, core mutation lock, optional API route, portable architecture, over-mythologizing prevention, and temporal sidecar mutation prevention. Layer 5 does not replace V14, V15.2, V16.1, Apex, or Chronofire; it gives the sealed stack a higher-order core map while answer, final_english, and final_shape remain identical and core mutation stays false.
+LAYER5_CORE_COUNT: 5
+LAYER5_CORE_AVERAGE_SCORE: 1.0
+LAYER5_ALL_CORES_PASSED: True
+LAYER5_MISSING_CORES: []
+TERM_CHECKS: {
+  "Layer 5": true,
+  "intake_discipline": true,
+  "meaning_authority_core": true,
+  "selection_core": true,
+  "temporal_lattice_core": true,
+  "output_integrity_core": true,
+  "Layer 4": true,
+  "literal_gate": true,
+  "symbolic_gate": true,
+  "meaning_authority": true,
+  "apex_selection": false,
+  "chronofire_temporal": false,
+  "renderer_sync": false,
+  "safety_portability": false,
+  "ordinary literal": true,
+  "fruit gate": true,
+  "symbolic command": true,
+  "controlled flame": true,
+  "V14": true,
+  "V14.3": true,
+  "dynamic semantic map": true,
+  "V15": true,
+  "Apex": true,
+  "V16.1": true,
+  "Chronofire": true,
+  "temporal offsets": true,
+  "past stability": true,
+  "present anchor": true,
+  "future pull": true,
+  "non-mutating": true,
+  "shape packet": true,
+  "renderer": true,
+  "answer": true,
+  "final_english": true,
+  "final_shape": true,
+  "sync proof": true,
+  "regression harness": true,
+  "generic ghost": true,
+  "core mutation": true,
+  "optional API route": true,
+  "portable architecture": true,
+  "over-mythologizing": true,
+  "temporal sidecar mutation": true
+}
+CHECKS: {
+  "layer5_active": true,
+  "core_count_5": true,
+  "all_cores_passed": true,
+  "core_average_1": true,
+  "v15_2_authority_true": true,
+  "v14_authority_true": true,
+  "apex_selector_true": true,
+  "chronofire_sidecar_true": true,
+  "layer4_structural_true": true,
+  "core_mutation_false": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true,
+  "all_required_terms_present": false
+}
+
+=== RESULT ===
+V17_0B_QUINTESSENCE_PEAK_PASS: False
+MISSING_TERMS: [
+  "apex_selection",
+  "chronofire_temporal",
+  "renderer_sync",
+  "safety_portability"
+]
+

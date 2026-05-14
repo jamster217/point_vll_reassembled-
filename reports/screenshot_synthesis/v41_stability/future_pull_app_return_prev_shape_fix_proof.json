@@ -1,0 +1,95 @@
+{
+    "answer": "The future-pull birthpoint is stable when it remains a pure shape helper: it may sharpen final_shape, but it does not mutate the bridge, trigger the accelerator, or override the core route.",
+    "debug_shape_packet": {
+        "meaning_density_sync_status": "synced_v41_birthpoint",
+        "shape_packet": {
+            "final_shape": "The future-pull birthpoint is stable when it remains a pure shape helper: it may sharpen final_shape, but it does not mutate the bridge, trigger the accelerator, or override the core route.",
+            "previous_final_shape": "The system reflects itself and stabilizes through return.",
+            "source": "future_pull_anchor_safe_v41"
+        }
+    },
+    "final_english": "The future-pull birthpoint is stable when it remains a pure shape helper: it may sharpen final_shape, but it does not mutate the bridge, trigger the accelerator, or override the core route.",
+    "legacy_answer": "The system reflects itself and stabilizes through return.",
+    "meta": {
+        "answer_mode": "full",
+        "answer_mode_applied": "full",
+        "essence_debug": "ordinary/observer relation=trace_timeline valence=neutral time=present clause=ordinary_bridge_clause M=0.4 N=0.5 B=0.45 E=0.35",
+        "essence_release_status": "not_needed",
+        "essence_signature": {
+            "clause_type": "ordinary_bridge_clause",
+            "essence_key": "ordinary|observer|ordinary_direct|present_structure|neutral|present|ordinary_bridge_clause",
+            "family": "ordinary",
+            "persistence": "present_structure",
+            "pressures": {
+                "boundary": 0.45,
+                "emotion": 0.35,
+                "emotional": 0.35,
+                "glyph": 0.64,
+                "memory": 0.4,
+                "novelty": 0.5,
+                "temporal": 0.3
+            },
+            "relation": "ordinary_direct",
+            "role": "observer",
+            "source": "essence_signature_may1_pressure_normalizer_v2",
+            "target_transformation": {
+                "increase_release_without_breaking_bind": false,
+                "preserve_bind": true,
+                "preserve_pull": true,
+                "target_release_delta": 0.03
+            },
+            "time_direction": "present",
+            "valence": "neutral"
+        },
+        "essence_signature_status": "metadata_only_active",
+        "future_pull_source": "runtime.future_pull_anchor_safe_v41",
+        "future_pull_status": "anchored_v41_safe",
+        "governor": "GOV:\n  voice: containment\n  shift: none\n  mirror: active\n  hotspot: H_3134\n  motif: general x0\n  anchors: 0 | tail: []\n  weights: NM 0.650 | CT 0.642 | BD 0.592 | MO 0.560",
+        "governor_raw": {
+            "anchor_count": 0,
+            "anchor_tail": [],
+            "defer_mirror": false,
+            "force_shift": false,
+            "hotspot_history_tail": [
+                "H_3134"
+            ],
+            "motif_count": 0,
+            "motif_domain": "general",
+            "shift_target": "",
+            "voice": "containment",
+            "weighted_scores": {
+                "boundary": 0.5916,
+                "containment": 0.642,
+                "motion": 0.56,
+                "novelty_memory": 0.65
+            }
+        },
+        "language_pass": {
+            "domain": "general",
+            "english_gloss": "",
+            "hotspot_history": [],
+            "key": "GENERAL::GENERIC_KEY",
+            "path_nodes": [
+                "neutral_path"
+            ],
+            "rendered_english": "Say the thing directly. Stay close to the feeling, relation, or structure actually present in the prompt.",
+            "signature": "GENERAL_SIGNATURE",
+            "vectors": {},
+            "voice": "general -> signature -> key -> lattice -> answer"
+        },
+        "legacy_answer_preview": "The system reflects itself and stabilizes through return.",
+        "live_mouth_bridge_source": "core.leveon_pipeline_governed",
+        "live_mouth_bridge_status": "governed_route_checked",
+        "may1_full_spine_bridge": "active",
+        "may1_full_spine_generic_fallback_remaining": false,
+        "meaning_density_debug_sync_source": "future_pull_anchor_safe_v41",
+        "meaning_density_debug_sync_status": "synced_v41_birthpoint",
+        "ordinary_bridge_kind": "bypassed_by_v41_birthpoint",
+        "ordinary_bridge_previous_final": "\"{'source': 'essence_signature_may1_pressure_normalizer_v2', 'family': 'ordinary', 'role': 'observer', 'relation': 'ordinary_direct', 'persistence': 'present_structure', 'valence': 'neutral', 'time_direction': 'present', 'clause_type': 'ordinary_bridge_clause', 'pressures': {'emotional': 0.35, 'emotion': 0.35, 'memory': 0.4, 'temporal': 0.3, 'boundary': 0.45, 'novelty': 0.5, 'glyph': 0.64}, 'target_transformation': {'increase_release_without_breaking_bind': False, 'target_release_delta': 0.03, 'preserve_bind': True, 'preserve_pull': True}, 'essence_key': 'ordinary|observer|ordinary_direct|present_structure|neutral|present|ordinary_bridge_clause'}\"",
+        "ordinary_bridge_reason": "future_pull_final_shape_already_specific",
+        "ordinary_bridge_status": "not_needed",
+        "renderer_source": "future_pull_birthpoint_v41"
+    },
+    "source": "core.leveon_pipeline_governed"
+}
+

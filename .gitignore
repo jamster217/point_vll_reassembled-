@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+tmp/
+.tmp/
+var/tmp/
+*.bak
+*.old
+*.before_*
+.DS_Store

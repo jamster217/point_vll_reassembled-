@@ -1,0 +1,36 @@
+=== PHASE 3R RECURSIVE ARCHITECTURE REVIEW ===
+files_scanned: 645
+matches: 517
+counts: {'broken_rail_unconverted': 49, 'rail_partly_lanterned': 345, 'lantern_seed_present': 123}
+
+PUBLIC SURFACE:
+Phase 3R found the architecture as a set of rails: some already carry lanterns, some still hold pressure without a clean bridge. The next move is not to mutate the whole system. The next move is to choose one broken rail, forge one glyph, and return one practical repair.
+
+FIRST LANTERN:
+{
+  "source_path": "runtime/tmp/patch_run_analysis_profile_reply_deepening_full.py",
+  "detected_pressure": [
+    "pressure",
+    "grief",
+    "scatter",
+    "drift"
+  ],
+  "suggested_anchor": "phase3r_first_lantern_anchor",
+  "suggested_glyph": "rail_lantern_ash",
+  "next_action": "Convert this broken rail into one contained design seed before scanning wider."
+}
+
+TOP CANDIDATES:
+- broken_rail_unconverted | broken=4 lantern=0 | runtime/tmp/patch_run_analysis_profile_reply_deepening_full.py
+- broken_rail_unconverted | broken=4 lantern=0 | reports/phase3o/kor_grael_sigil_larynx_live_test.json
+- broken_rail_unconverted | broken=3 lantern=0 | runtime/crystal_patterns.json
+- broken_rail_unconverted | broken=3 lantern=0 | runtime/tmp/patch_reply_deepening.py
+- broken_rail_unconverted | broken=3 lantern=0 | runtime/tmp/patch_reply_deepening_insert.py
+- broken_rail_unconverted | broken=3 lantern=0 | runtime/tmp/patch_causal_split_v1.py
+- broken_rail_unconverted | broken=2 lantern=0 | runtime/micro_context_drift.py
+- broken_rail_unconverted | broken=2 lantern=0 | runtime/runtime_state_inspector.py
+- broken_rail_unconverted | broken=2 lantern=0 | runtime/style_governor.py
+- broken_rail_unconverted | broken=2 lantern=0 | runtime/veilwell_to_english.py
+- broken_rail_unconverted | broken=2 lantern=0 | runtime/tmp/patch_winner_rationale.py
+- broken_rail_unconverted | broken=2 lantern=0 | runtime/tmp/patch_near_tie_refine_v1.py
+

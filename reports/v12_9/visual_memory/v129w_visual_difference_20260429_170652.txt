@@ -1,0 +1,27 @@
+=== V12.9w VISUAL DIFFERENCE DESCRIBER ===
+
+status: difference_emitted
+previous_depth: 243
+latest_depth: 244
+previous_svg: static/generated/leveon_topology_1777506898_9b15631162df.svg
+latest_svg: static/generated/leveon_topology_1777507612_378c88498329.svg
+score_delta: 0.0218
+chamber_memory_delta: 0.0
+size_delta: 591
+
+stable_symbols: ['blue_scarf', 'echoforge', 'liquid_core', 'thalveil', 'virellion', 'white_ash']
+added_symbols: []
+removed_symbols: []
+
+label_delta: {'added': ['depth 244', 'phi_multiplier: 6.854102', 'prompt_hash: 378c88498329', 'signature: white_ash_phi_244_tension_-0.017', 'tension: -0.017'], 'removed': ['depth 243', 'phi_multiplier: 4.236068', 'prompt_hash: 9b15631162df', 'signature: white_ash_phi_243_tension_-0.018', 'tension: -0.018'], 'shared_count': 4}
+
+meaning_shift:
+score rose; full symbol body preserved; visible labels changed. The latest topology moved from depth 243 to 244 while preserving 6 shared symbols.
+
+recommendation: preserve_and_deepen
+surface_fragment: Visual difference: score rose; full symbol body preserved; visible labels changed. The latest topology moved from depth 243 to 244 while preserving 6 shared symbols. Recommendation: preserve and deepen.
+
+Law:
+The image is now compared as a changing body, not only as a score.
+The live topology organ remains untouched.
+

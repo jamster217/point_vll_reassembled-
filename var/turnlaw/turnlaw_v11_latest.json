@@ -1,0 +1,14 @@
+{
+  "what_came_in": "",
+  "what_shape_it_has": "",
+  "what_memory_it_touches": "",
+  "where_it_sits_in_lattice": "unmapped",
+  "what_sentence_forms_can_carry_it_out": [],
+  "provenance": {
+    "interrogated_at": "2026-04-27T07:02:47.859879+00:00",
+    "seed_version": "TurnLaw_v11",
+    "deterministic": true,
+    "source": "runtime.turnlaw_v11"
+  }
+}
+

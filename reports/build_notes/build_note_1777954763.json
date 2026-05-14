@@ -1,0 +1,43 @@
+{
+  "timestamp": 1777954764.477531,
+  "label": "reinforcement_decay_layer_enabled",
+  "summary": "Reinforcement + decay system active. High-impact compounds are amplified over time while low-impact auto-generated compounds decay and move toward archive state.",
+  "state": {
+    "loop": [
+      "reason",
+      "mutate",
+      "save",
+      "execute",
+      "measure_clean_impact",
+      "reinforce_top_candidate",
+      "selection_bias",
+      "reinforcement_decay_pass"
+    ],
+    "reinforcement": {
+      "amplify_threshold": "impact_score >= 8",
+      "effect": "+1 impact_score per pass",
+      "tag": "reinforced_path"
+    },
+    "decay": {
+      "target": "unreinforced auto-generated compounds",
+      "decay_increment": "+1 decay_score per pass",
+      "archive_threshold": "decay_score >= 3",
+      "tag": "shadow_archived_low_impact"
+    }
+  },
+  "latest_metrics": {
+    "total_compounds": 703,
+    "reinforced": 5,
+    "decayed": 19,
+    "archived": 0
+  },
+  "top_compound_state": {
+    "compound_id": "cmp_mutated_drop_2ea5b23a77dd",
+    "impact_score": 9.0,
+    "reinforcement_count": 2,
+    "status": "actively_amplifying"
+  },
+  "capability": "system now strengthens successful patterns and suppresses weak ones over time",
+  "next_phase": "multi-step planning + compound chaining"
+}
+

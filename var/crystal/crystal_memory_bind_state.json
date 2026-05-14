@@ -1,0 +1,36 @@
+{
+  "source": "runtime.crystal_memory_bind",
+  "flow": "node -> bind -> memory",
+  "input": "white_ash sovereign constellation",
+  "core": {
+    "id": "f53049255b8d1aa6",
+    "core": {
+      "token": "white_ash sovereign constellation",
+      "kind": "symbolic_text_node"
+    },
+    "crystal_alignment": {
+      "token": "white_ash sovereign constellation",
+      "stable": true,
+      "binding": "crystal.align -> memory.write"
+    },
+    "updated_at": 1777271848.6748796
+  },
+  "memory_write": {
+    "target": "symbolic_memory/crystal_memory_bind_log.jsonl",
+    "content": {
+      "id": "f53049255b8d1aa6",
+      "core": {
+        "token": "white_ash sovereign constellation",
+        "kind": "symbolic_text_node"
+      },
+      "crystal_alignment": {
+        "token": "white_ash sovereign constellation",
+        "stable": true,
+        "binding": "crystal.align -> memory.write"
+      },
+      "updated_at": 1777271848.6748796
+    }
+  },
+  "updated_at": 1777271848.6748812
+}
+

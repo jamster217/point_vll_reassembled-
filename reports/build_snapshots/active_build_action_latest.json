@@ -1,0 +1,22 @@
+{
+  "status": "executed",
+  "selected_constraint": "future_use_selection",
+  "action": "evaluate_compounds_for_usefulness",
+  "tested": 25,
+  "before_count": 2382,
+  "useful_candidates": [
+    "cmp_controlled_branch_b60c5c667195",
+    "cmp_controlled_branch_3e16843a27d9",
+    "cmp_controlled_branch_81f39c88dd99",
+    "cmp_active_action_b4e91a9927e3",
+    "cmp_active_action_ccfe4d8f77c0",
+    "cmp_active_action_321245266f2c",
+    "cmp_active_action_d0a2ec479d53"
+  ],
+  "route_update": {
+    "prefer": "auto_pressure_flashback_reasoner",
+    "reason": "future_use_selection produced useful candidates",
+    "top_candidate": "cmp_controlled_branch_b60c5c667195"
+  }
+}
+

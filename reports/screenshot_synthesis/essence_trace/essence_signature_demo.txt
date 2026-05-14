@@ -1,0 +1,47 @@
+{
+  "source": "essence_signature_v1",
+  "relation": "affect",
+  "family": "gravity_grief",
+  "role": "transformative_opener",
+  "persistence": "past_to_present_memory_gravity",
+  "valence": "grief_transformative",
+  "time_direction": "past->present",
+  "clause_type": "integration_clause",
+  "pressures": {
+    "emotional": 0.86,
+    "temporal": 0.72,
+    "memory": 0.78,
+    "novelty": 0.22,
+    "boundary": 0.61,
+    "glyph": 0.55
+  },
+  "bands": {
+    "emotional": "high",
+    "temporal": "mid",
+    "memory": "mid",
+    "novelty": "null",
+    "boundary": "mid",
+    "glyph": "low"
+  },
+  "priority": "memory_over_novelty",
+  "relational_pressure": "feeling-bearing",
+  "crystal_class": "crystal_pressure_emotional",
+  "hotspot_family": "H_3134",
+  "lexical_granularity": "medium",
+  "glyphs": [],
+  "anchor_symbols": [],
+  "kgs_tags": [
+    "qt:emotional",
+    "crystal:crystal_pressure_emotional"
+  ],
+  "target_transformation": {
+    "increase_release_without_breaking_bind": true,
+    "target_release_delta": 0.15,
+    "preserve_bind": true,
+    "preserve_pull": true
+  },
+  "essence_key": "gravity_grief|transformative_opener|affect|past_to_present_memory_gravity|grief_transformative|past->present|integration_clause"
+}
+gravity_grief/transformative_opener relation=affect valence=grief_transformative time=past->present clause=integration_clause M=0.78 N=0.22 B=0.61 E=0.86
+{'score': 0.75, 'hits': ['gravity_grief_terms', 'role_transformative_opener', 'time_direction', 'memory_priority'], 'essence_key': 'gravity_grief|transformative_opener|affect|past_to_present_memory_gravity|grief_transformative|past->present|integration_clause'}
+

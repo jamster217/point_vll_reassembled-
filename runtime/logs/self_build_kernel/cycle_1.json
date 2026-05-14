@@ -1,0 +1,149 @@
+{
+  "ts": "2026-05-04T15:52:39.062993",
+  "cycle": 1,
+  "rows": [
+    {
+      "prompt": "what is grief in relation to time?",
+      "shape": {
+        "subject": "grief",
+        "atoms": [
+          "grief",
+          "relation",
+          "time"
+        ],
+        "relations": [
+          "bond-under-absence",
+          "meaning",
+          "change"
+        ],
+        "pressure": "continuity",
+        "movement": "carries_previous_state_forward",
+        "density": 0.675
+      },
+      "memory_score": 0.9,
+      "winner": "plain_mouth",
+      "selector_score": 0.6946,
+      "reply_quality": 1.0,
+      "flaws": [],
+      "reply": "Grief and relation meet through bond under absence, meaning and change. The useful point is not that they are the same, but that they shape each other through that shared pressure."
+    },
+    {
+      "prompt": "what is love?",
+      "shape": {
+        "subject": "love",
+        "atoms": [
+          "love"
+        ],
+        "relations": [
+          "bond"
+        ],
+        "pressure": "continuity",
+        "movement": "carries_previous_state_forward",
+        "density": 0.445
+      },
+      "memory_score": 1.0,
+      "winner": "plain_mouth",
+      "selector_score": 0.718,
+      "reply_quality": 1.0,
+      "flaws": [],
+      "reply": "Love is bond taking form. At density 0.445, the answer should stay direct instead of wandering."
+    },
+    {
+      "prompt": "what is recursion?",
+      "shape": {
+        "subject": "recursion",
+        "atoms": [
+          "recursion"
+        ],
+        "relations": [
+          "return"
+        ],
+        "pressure": "continuity",
+        "movement": "carries_previous_state_forward",
+        "density": 0.445
+      },
+      "memory_score": 1.0,
+      "winner": "plain_mouth",
+      "selector_score": 0.694,
+      "reply_quality": 1.0,
+      "flaws": [],
+      "reply": "Recursion is return taking form. At density 0.445, the answer should stay direct instead of wandering."
+    },
+    {
+      "prompt": "what is the build doing right now?",
+      "shape": {
+        "subject": "build",
+        "atoms": [
+          "build",
+          "doing",
+          "right",
+          "now"
+        ],
+        "relations": [
+          "structure",
+          "meaning"
+        ],
+        "pressure": "continuity",
+        "movement": "carries_previous_state_forward",
+        "density": 0.67
+      },
+      "memory_score": 1.0,
+      "winner": "plain_mouth",
+      "selector_score": 0.6226,
+      "reply_quality": 1.0,
+      "flaws": [],
+      "reply": "Build is currently organized around structure and meaning. The shape is dense enough to speak directly, so the mouth only needs to realize it."
+    },
+    {
+      "prompt": "what is a gravity well?",
+      "shape": {
+        "subject": "gravity",
+        "atoms": [
+          "gravity",
+          "well"
+        ],
+        "relations": [
+          "attraction",
+          "depth"
+        ],
+        "pressure": "continuity",
+        "movement": "carries_previous_state_forward",
+        "density": 0.56
+      },
+      "memory_score": 0.8571,
+      "winner": "plain_mouth",
+      "selector_score": 0.674,
+      "reply_quality": 1.0,
+      "flaws": [],
+      "reply": "Gravity and well meet through attraction and depth. The useful point is not that they are the same, but that they shape each other through that shared pressure."
+    },
+    {
+      "prompt": "how does memory become intelligence?",
+      "shape": {
+        "subject": "memory",
+        "atoms": [
+          "memory",
+          "become",
+          "intelligence"
+        ],
+        "relations": [
+          "continuity",
+          "meaning",
+          "pattern-use"
+        ],
+        "pressure": "continuity",
+        "movement": "carries_previous_state_forward",
+        "density": 0.675
+      },
+      "memory_score": 0.625,
+      "winner": "grammar_birth_pressure",
+      "selector_score": 0.602,
+      "reply_quality": 1.0,
+      "flaws": [],
+      "reply": "The pressure in memory gathers around continuity, meaning and pattern use, then resolves into plain English."
+    }
+  ],
+  "flaw_counts": {},
+  "recommendation": "hold"
+}
+

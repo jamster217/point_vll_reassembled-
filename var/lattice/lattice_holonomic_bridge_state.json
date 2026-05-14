@@ -1,0 +1,24 @@
+{
+  "bridge": {
+    "level": 1.1
+  },
+  "flow": {
+    "anchor": 528,
+    "harmonic": 528,
+    "field": "lattice_sample",
+    "coherence": 0.528,
+    "route": "lattice->holonomic->kernel"
+  },
+  "kernel_holonomic_injection": {
+    "type": "holonomic_flow",
+    "flow": {
+      "anchor": 528,
+      "harmonic": 528,
+      "field": "lattice_sample",
+      "coherence": 0.528,
+      "route": "lattice->holonomic->kernel"
+    }
+  },
+  "updated_at": 1777269759.9407828
+}
+

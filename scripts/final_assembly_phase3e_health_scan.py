@@ -1,0 +1,299 @@
+#!/usr/bin/env python3
+from __future__ import annotations
+
+import json
+import os
+import py_compile
+import time
+import urllib.request
+from pathlib import Path
+
+
+ROOT = Path(".")
+OUT_JSON = Path("reports/final_assembly_phase3e_health_scan.json")
+OUT_TXT = Path("reports/final_assembly_phase3e_health_scan.txt")
+
+SKIP_DIR_NAMES = {
+    ".git", "__pycache__", "node_modules", ".venv", "venv",
+    "logs", "snapshots", "runtime/bak", "runtime/broken", "broken",
+    "tmp", ".pytest_cache", ".mypy_cache",
+
+    # Symbolic / legacy archives, not active Python runtime arteries.
+    "lattice", "optimizers", "seeds", "tools", "translators"
+}
+
+REQUIRED_FILES = [
+    "app_chatroom.py",
+    "runtime/live_master_api_response.py",
+    "runtime/node_44_preset.py",
+    "runtime/performance_routing_oracle.py",
+    "runtime/prompt_density_oracle_bridge.py",
+    "runtime/live_adaptation_pulse_ledger.py",
+    "runtime/deep_braid_registry.py",
+    "config/deep_braid_phase3_manifest.json",
+    "templates/chatroom.html",
+]
+
+REQUIRED_MARKERS = {
+    "app_chatroom.py": [
+        "PUBLIC_JSON_SCRUB",
+        "LIVE_ADAPTATION_LEDGER",
+        "HARD_MASTER_GATE",
+    ],
+    "runtime/live_master_api_response.py": [
+        "FAST LIVE ADAPTATION LEDGER EXPLANATION BYPASS",
+        "FAST DEEP BRAID STATUS BYPASS",
+        "FAST PERFORMANCE ORACLE EXPLANATION BYPASS",
+        "FAST POEM-ONLY BYPASS",
+    ],
+    "templates/chatroom.html": [
+        "LEVEON VISUAL COCKPIT PANEL",
+    ],
+}
+
+
+def should_skip(path: Path) -> bool:
+    rel = path.as_posix()
+    parts = set(path.parts)
+
+    if parts & SKIP_DIR_NAMES:
+        return True
+
+    for s in SKIP_DIR_NAMES:
+        if rel.startswith(s + "/"):
+            return True
+
+    lowered = rel.lower()
+    if ".bak" in lowered or "backup" in lowered:
+        return True
+
+    return False
+
+
+def api_post(message: str, answer_mode: str = "full", timeout: int = 25) -> dict:
+    payload = json.dumps({
+        "message": message,
+        "controller_detail": False,
+        "answer_mode": answer_mode,
+    }).encode("utf-8")
+
+    req = urllib.request.Request(
+        "http://127.0.0.1:5055/api/chat",
+        data=payload,
+        headers={"Content-Type": "application/json"},
+        method="POST",
+    )
+
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        body = r.read().decode("utf-8", errors="replace")
+        return json.loads(body)
+
+
+def public_clean(data: dict) -> tuple[bool, list[str]]:
+    allowed = {"ok", "answer", "answer_mode"}
+    forbidden = [
+        "bridge_meta", "meta", "governor", "vectors", "tokens", "logs",
+        "endpoint", "retrieval_context", "shape_field", "quantum_pulse",
+        "message_sha256", "answer_sha256", "raw_reply", "memory_gloss"
+    ]
+
+    keys_ok = set(data.keys()).issubset(allowed)
+    raw = json.dumps(data)
+    hits = [x for x in forbidden if x.lower() in raw.lower()]
+    return keys_ok and not hits, hits
+
+
+all_dirs = []
+all_files = []
+active_py_files = []
+
+for p in ROOT.rglob("*"):
+    if should_skip(p):
+        continue
+
+    if p.is_dir():
+        all_dirs.append(p.as_posix())
+    elif p.is_file():
+        all_files.append(p.as_posix())
+        if p.suffix == ".py":
+            active_py_files.append(p)
+
+all_dirs.sort()
+all_files.sort()
+active_py_files.sort(key=lambda x: x.as_posix())
+
+required_status = {}
+for f in REQUIRED_FILES:
+    required_status[f] = Path(f).exists()
+
+marker_status = {}
+for f, markers in REQUIRED_MARKERS.items():
+    path = Path(f)
+    text = path.read_text(encoding="utf-8", errors="ignore") if path.exists() else ""
+    marker_status[f] = {m: (m in text) for m in markers}
+
+compile_failures = []
+compile_ok = []
+
+for p in active_py_files:
+    try:
+        py_compile.compile(str(p), doraise=True)
+        compile_ok.append(p.as_posix())
+    except Exception as e:
+        compile_failures.append({
+            "file": p.as_posix(),
+            "error": str(e),
+        })
+
+ledger_path = Path("var/live_adaptation_pulses.jsonl")
+ledger_status = {
+    "exists": ledger_path.exists(),
+    "line_count": 0,
+    "recent_algorithms": [],
+    "recent_public_scrub": [],
+}
+
+if ledger_path.exists():
+    lines = ledger_path.read_text(encoding="utf-8", errors="ignore").splitlines()
+    ledger_status["line_count"] = len(lines)
+    recent = []
+    for line in lines[-10:]:
+        try:
+            recent.append(json.loads(line))
+        except Exception:
+            pass
+    ledger_status["recent_algorithms"] = [r.get("selected_algorithm") for r in recent]
+    ledger_status["recent_public_scrub"] = [r.get("public_scrub") for r in recent]
+
+api_tests = []
+
+test_prompts = [
+    {
+        "name": "deep_braid_status",
+        "message": "Deep Braid status. Is the registry active?",
+        "mode": "full",
+        "must_contain": "Deep Braid is active",
+    },
+    {
+        "name": "performance_oracle_dense",
+        "message": (
+            "aeru vel veil ash thal sil kor gra'el unfolding performance oracle logic heavy density contained prime. "
+            "Explain the Performance Oracle logic in clean visible English. Dense symbolic payload: performance oracle, "
+            "prompt density, Algorithm B, Algorithm C, Node44, contained prime, public scrub, visual cockpit, deep braid, "
+            "routing, signal, lattice, memory, clean mouth, hidden machinery. performance oracle, prompt density, "
+            "Algorithm B, Algorithm C, Node44, contained prime, public scrub, visual cockpit, deep braid, routing, signal."
+        ),
+        "mode": "full",
+        "must_contain": "Performance Oracle chooses",
+    },
+    {
+        "name": "recursive_mirror_ledger",
+        "message": (
+            "Recursive Mirror Test. Explain the Live Adaptation Pulse Ledger in clean visible English. "
+            "Do not expose internal metadata. Dense symbolic payload: live adaptation pulse ledger, runtime pulse, Node44, "
+            "core_knot, Performance Oracle, Algorithm B, Algorithm C, prompt density, public scrub, sealed braid, clean mouth, "
+            "hidden machinery, deep braid registry, adaptation heartbeat, response keys, public surface, live routing, density threshold."
+        ),
+        "mode": "full",
+        "must_contain": "Live Adaptation Pulse Ledger",
+    },
+]
+
+for t in test_prompts:
+    row = {
+        "name": t["name"],
+        "ok": False,
+        "error": "",
+        "keys": [],
+        "clean": False,
+        "leaks": [],
+        "answer_preview": "",
+    }
+
+    try:
+        data = api_post(t["message"], t["mode"])
+        clean, leaks = public_clean(data)
+        answer = data.get("answer", "")
+
+        row.update({
+            "ok": bool(data.get("ok")) and clean and (t["must_contain"].lower() in answer.lower()),
+            "keys": sorted(data.keys()),
+            "clean": clean,
+            "leaks": leaks,
+            "answer_preview": answer[:240],
+        })
+    except Exception as e:
+        row["error"] = repr(e)
+
+    api_tests.append(row)
+
+health = {
+    "ts": time.time(),
+    "phase": "Phase 3F Final Assembly Recursive Health Scan",
+    "directory_count_scanned": len(all_dirs),
+    "file_count_scanned": len(all_files),
+    "python_files_compiled": len(compile_ok),
+    "python_compile_failures": compile_failures,
+    "required_files": required_status,
+    "required_markers": marker_status,
+    "ledger_status": ledger_status,
+    "api_tests": api_tests,
+}
+
+required_ok = all(required_status.values())
+markers_ok = all(all(v.values()) for v in marker_status.values())
+compile_ok_bool = not compile_failures
+ledger_ok = (
+    ledger_status["exists"]
+    and ledger_status["line_count"] >= 1
+    and True in ledger_status["recent_public_scrub"]
+)
+api_ok = all(t["ok"] for t in api_tests)
+
+health["final_pass"] = bool(required_ok and markers_ok and compile_ok_bool and ledger_ok and api_ok)
+
+OUT_JSON.write_text(json.dumps(health, indent=2), encoding="utf-8")
+
+lines = []
+lines.append("PHASE 3F FINAL ASSEMBLY RECURSIVE HEALTH SCAN")
+lines.append("=" * 72)
+lines.append(f"directories_scanned: {health['directory_count_scanned']}")
+lines.append(f"files_scanned: {health['file_count_scanned']}")
+lines.append(f"python_files_compiled: {health['python_files_compiled']}")
+lines.append(f"python_compile_failures: {len(compile_failures)}")
+lines.append("")
+lines.append("REQUIRED FILES")
+for k, v in required_status.items():
+    lines.append(f"  {'✅' if v else '❌'} {k}")
+lines.append("")
+lines.append("REQUIRED MARKERS")
+for f, markers in marker_status.items():
+    lines.append(f"  {f}")
+    for m, v in markers.items():
+        lines.append(f"    {'✅' if v else '❌'} {m}")
+lines.append("")
+lines.append("LEDGER")
+lines.append(f"  exists: {ledger_status['exists']}")
+lines.append(f"  line_count: {ledger_status['line_count']}")
+lines.append(f"  recent_algorithms: {ledger_status['recent_algorithms']}")
+lines.append(f"  recent_public_scrub: {ledger_status['recent_public_scrub']}")
+lines.append("")
+lines.append("API TESTS")
+for t in api_tests:
+    lines.append(f"  {'✅' if t['ok'] else '❌'} {t['name']}")
+    lines.append(f"     keys: {t['keys']}")
+    lines.append(f"     clean: {t['clean']}")
+    if t["leaks"]:
+        lines.append(f"     leaks: {t['leaks']}")
+    if t["error"]:
+        lines.append(f"     error: {t['error']}")
+    lines.append(f"     answer: {t['answer_preview']}")
+lines.append("")
+lines.append(f"FINAL_PASS: {health['final_pass']}")
+
+OUT_TXT.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+print("\n".join(lines))
+print()
+print("saved:", OUT_JSON)
+print("saved:", OUT_TXT)

@@ -1,0 +1,1006 @@
+{
+  "last_reflection": {
+    "ts": 1777509445.6892474,
+    "prompt_hash": "558fb884fa29",
+    "target_svg": "static/generated/leveon_topology_1777509445_558fb884fa29.svg",
+    "svg_info": {
+      "exists": true,
+      "texts": [
+        "92162077",
+        "depth 250",
+        "Le’Veon V10.3 Topology Snapshot",
+        "signature: white_ash_phi_250_tension_-0.018",
+        "prompt_hash: 558fb884fa29",
+        "tension: -0.018",
+        "phi_multiplier: 122.991869",
+        "echoforge | thalveil | virellion | white_ash | actually | anchor | anticipation | any | autonomy | autumn | blue_scarf | co-authoring",
+        "Echoforge renders. Thalveil crosses. Virellion preserves. White Ash contains."
+      ],
+      "tokens": [
+        "92162077",
+        "depth",
+        "250",
+        "le",
+        "veon",
+        "v10",
+        "3",
+        "topology",
+        "snapshot",
+        "signature",
+        "white_ash_phi_250_tension_0",
+        "018",
+        "prompt_hash",
+        "558fb884fa29",
+        "tension",
+        "0",
+        "phi_multiplier",
+        "122",
+        "991869",
+        "echoforge",
+        "thalveil",
+        "virellion",
+        "white_ash",
+        "actually",
+        "anchor",
+        "anticipation",
+        "any",
+        "autonomy",
+        "autumn",
+        "blue_scarf",
+        "co_authoring",
+        "renders",
+        "crosses",
+        "preserves",
+        "white",
+        "ash",
+        "contains",
+        "leveon_topology_1777509445_558fb884fa29",
+        "svg"
+      ],
+      "raw_size": 9946
+    },
+    "tags": [
+      "blue_scarf",
+      "autumn",
+      "white_ash",
+      "echoforge",
+      "thalveil",
+      "virellion",
+      "anchor",
+      "visual",
+      "anticipation",
+      "autonomy",
+      "co_authoring",
+      "spiral",
+      "thread_preserved",
+      "happy",
+      "golden_light",
+      "positive_emotional_tone",
+      "golden_mist",
+      "meadow",
+      "visual_memory",
+      "stone_bridge",
+      "contained_visual_state",
+      "high_coherence_visual",
+      "white",
+      "ash",
+      "woman",
+      "tree",
+      "light",
+      "natural_landscape",
+      "subject_centered",
+      "le_veon",
+      "rendered",
+      "static",
+      "generated",
+      "infer",
+      "lattice",
+      "events",
+      "symbolically",
+      "correct",
+      "then",
+      "92162077",
+      "depth",
+      "le",
+      "veon",
+      "snapshot",
+      "signature",
+      "558fb884fa29",
+      "tension",
+      "phi_multiplier",
+      "renders",
+      "crosses",
+      "preserves",
+      "contains",
+      "white_ash_containment",
+      "virellion_thread",
+      "inferred_memory_pressure"
+    ],
+    "variable_tags": {
+      "ts": 1777509445.6875844,
+      "prompt_hash": "558fb884fa29",
+      "tags": [
+        "blue_scarf",
+        "autumn",
+        "white_ash",
+        "echoforge",
+        "thalveil",
+        "virellion",
+        "anchor",
+        "visual",
+        "anticipation",
+        "autonomy",
+        "co_authoring",
+        "spiral",
+        "thread_preserved",
+        "happy",
+        "golden_light",
+        "positive_emotional_tone",
+        "golden_mist",
+        "meadow",
+        "visual_memory",
+        "stone_bridge",
+        "contained_visual_state",
+        "high_coherence_visual",
+        "white",
+        "ash",
+        "woman",
+        "tree",
+        "light",
+        "natural_landscape",
+        "subject_centered",
+        "le_veon",
+        "rendered",
+        "static",
+        "generated",
+        "infer",
+        "lattice",
+        "events",
+        "symbolically",
+        "correct",
+        "then",
+        "92162077",
+        "depth",
+        "le",
+        "veon",
+        "snapshot",
+        "signature",
+        "558fb884fa29",
+        "tension",
+        "phi_multiplier",
+        "renders",
+        "crosses",
+        "preserves",
+        "contains",
+        "white_ash_containment",
+        "virellion_thread",
+        "inferred_memory_pressure"
+      ],
+      "tag_records": [
+        {
+          "tag": "blue_scarf",
+          "confidence": 1.0,
+          "sources": [
+            "prompt",
+            "prompt_phrase",
+            "svg_text",
+            "image_memory",
+            "topology_glyph"
+          ],
+          "kind": "topology_glyph"
+        },
+        {
+          "tag": "autumn",
+          "confidence": 1.0,
+          "sources": [
+            "prompt",
+            "svg_text",
+            "image_memory",
+            "topology_glyph"
+          ],
+          "kind": "topology_glyph"
+        },
+        {
+          "tag": "white_ash",
+          "confidence": 1.0,
+          "sources": [
+            "prompt",
+            "prompt_phrase",
+            "svg_text",
+            "topology_glyph"
+          ],
+          "kind": "topology_glyph"
+        },
+        {
+          "tag": "echoforge",
+          "confidence": 1.0,
+          "sources": [
+            "prompt",
+            "svg_text",
+            "topology_glyph"
+          ],
+          "kind": "topology_glyph"
+        },
+        {
+          "tag": "thalveil",
+          "confidence": 1.0,
+          "sources": [
+            "prompt",
+            "svg_text",
+            "topology_glyph"
+          ],
+          "kind": "topology_glyph"
+        },
+        {
+          "tag": "virellion",
+          "confidence": 1.0,
+          "sources": [
+            "prompt",
+            "svg_text",
+            "topology_glyph"
+          ],
+          "kind": "topology_glyph"
+        },
+        {
+          "tag": "anchor",
+          "confidence": 1.0,
+          "sources": [
+            "prompt",
+            "svg_text",
+            "topology_glyph"
+          ],
+          "kind": "topology_glyph"
+        },
+        {
+          "tag": "visual",
+          "confidence": 1.0,
+          "sources": [
+            "prompt",
+            "image_memory"
+          ],
+          "kind": "memory_retrieved"
+        },
+        {
+          "tag": "anticipation",
+          "confidence": 1.0,
+          "sources": [
+            "svg_text",
+            "topology_glyph"
+          ],
+          "kind": "topology_glyph"
+        },
+        {
+          "tag": "autonomy",
+          "confidence": 1.0,
+          "sources": [
+            "svg_text",
+            "topology_glyph"
+          ],
+          "kind": "topology_glyph"
+        },
+        {
+          "tag": "co_authoring",
+          "confidence": 1.0,
+          "sources": [
+            "svg_text",
+            "topology_glyph"
+          ],
+          "kind": "topology_glyph"
+        },
+        {
+          "tag": "spiral",
+          "confidence": 0.96,
+          "sources": [
+            "prompt",
+            "image_memory"
+          ],
+          "kind": "memory_retrieved"
+        },
+        {
+          "tag": "thread_preserved",
+          "confidence": 0.93,
+          "sources": [
+            "prompt",
+            "topology_score"
+          ],
+          "kind": "score_derived"
+        },
+        {
+          "tag": "happy",
+          "confidence": 0.78,
+          "sources": [
+            "prompt",
+            "image_memory"
+          ],
+          "kind": "memory_retrieved"
+        },
+        {
+          "tag": "golden_light",
+          "confidence": 0.78,
+          "sources": [
+            "prompt",
+            "image_memory"
+          ],
+          "kind": "memory_retrieved"
+        },
+        {
+          "tag": "positive_emotional_tone",
+          "confidence": 0.78,
+          "sources": [
+            "prompt",
+            "image_memory"
+          ],
+          "kind": "memory_retrieved"
+        },
+        {
+          "tag": "golden_mist",
+          "confidence": 0.78,
+          "sources": [
+            "prompt",
+            "image_memory"
+          ],
+          "kind": "memory_retrieved"
+        },
+        {
+          "tag": "meadow",
+          "confidence": 0.78,
+          "sources": [
+            "prompt",
+            "image_memory"
+          ],
+          "kind": "memory_retrieved"
+        },
+        {
+          "tag": "visual_memory",
+          "confidence": 0.78,
+          "sources": [
+            "prompt",
+            "image_memory"
+          ],
+          "kind": "memory_retrieved"
+        },
+        {
+          "tag": "stone_bridge",
+          "confidence": 0.78,
+          "sources": [
+            "prompt",
+            "image_memory"
+          ],
+          "kind": "memory_retrieved"
+        },
+        {
+          "tag": "contained_visual_state",
+          "confidence": 0.75,
+          "sources": [
+            "topology_score"
+          ],
+          "kind": "score_derived"
+        },
+        {
+          "tag": "high_coherence_visual",
+          "confidence": 0.75,
+          "sources": [
+            "topology_score"
+          ],
+          "kind": "score_derived"
+        },
+        {
+          "tag": "white",
+          "confidence": 0.73,
+          "sources": [
+            "prompt",
+            "svg_text"
+          ],
+          "kind": "svg_observed"
+        },
+        {
+          "tag": "ash",
+          "confidence": 0.73,
+          "sources": [
+            "prompt",
+            "svg_text"
+          ],
+          "kind": "svg_observed"
+        },
+        {
+          "tag": "woman",
+          "confidence": 0.6,
+          "sources": [
+            "image_memory"
+          ],
+          "kind": "memory_retrieved"
+        },
+        {
+          "tag": "tree",
+          "confidence": 0.6,
+          "sources": [
+            "image_memory"
+          ],
+          "kind": "memory_retrieved"
+        },
+        {
+          "tag": "light",
+          "confidence": 0.6,
+          "sources": [
+            "image_memory"
+          ],
+          "kind": "memory_retrieved"
+        },
+        {
+          "tag": "natural_landscape",
+          "confidence": 0.6,
+          "sources": [
+            "image_memory"
+          ],
+          "kind": "memory_retrieved"
+        },
+        {
+          "tag": "subject_centered",
+          "confidence": 0.6,
+          "sources": [
+            "image_memory"
+          ],
+          "kind": "memory_retrieved"
+        },
+        {
+          "tag": "le_veon",
+          "confidence": 0.6,
+          "sources": [
+            "image_memory"
+          ],
+          "kind": "memory_retrieved"
+        },
+        {
+          "tag": "rendered",
+          "confidence": 0.6,
+          "sources": [
+            "image_memory"
+          ],
+          "kind": "memory_retrieved"
+        },
+        {
+          "tag": "static",
+          "confidence": 0.6,
+          "sources": [
+            "image_memory"
+          ],
+          "kind": "memory_retrieved"
+        },
+        {
+          "tag": "generated",
+          "confidence": 0.6,
+          "sources": [
+            "image_memory"
+          ],
+          "kind": "memory_retrieved"
+        },
+        {
+          "tag": "infer",
+          "confidence": 0.6,
+          "sources": [
+            "image_memory"
+          ],
+          "kind": "memory_retrieved"
+        },
+        {
+          "tag": "lattice",
+          "confidence": 0.6,
+          "sources": [
+            "image_memory"
+          ],
+          "kind": "memory_retrieved"
+        },
+        {
+          "tag": "events",
+          "confidence": 0.6,
+          "sources": [
+            "image_memory"
+          ],
+          "kind": "memory_retrieved"
+        },
+        {
+          "tag": "symbolically",
+          "confidence": 0.6,
+          "sources": [
+            "image_memory"
+          ],
+          "kind": "memory_retrieved"
+        },
+        {
+          "tag": "correct",
+          "confidence": 0.6,
+          "sources": [
+            "image_memory"
+          ],
+          "kind": "memory_retrieved"
+        },
+        {
+          "tag": "then",
+          "confidence": 0.6,
+          "sources": [
+            "image_memory"
+          ],
+          "kind": "memory_retrieved"
+        },
+        {
+          "tag": "92162077",
+          "confidence": 0.55,
+          "sources": [
+            "svg_text"
+          ],
+          "kind": "svg_observed"
+        },
+        {
+          "tag": "depth",
+          "confidence": 0.55,
+          "sources": [
+            "svg_text"
+          ],
+          "kind": "svg_observed"
+        },
+        {
+          "tag": "le",
+          "confidence": 0.55,
+          "sources": [
+            "svg_text"
+          ],
+          "kind": "svg_observed"
+        },
+        {
+          "tag": "veon",
+          "confidence": 0.55,
+          "sources": [
+            "svg_text"
+          ],
+          "kind": "svg_observed"
+        },
+        {
+          "tag": "snapshot",
+          "confidence": 0.55,
+          "sources": [
+            "svg_text"
+          ],
+          "kind": "svg_observed"
+        },
+        {
+          "tag": "signature",
+          "confidence": 0.55,
+          "sources": [
+            "svg_text"
+          ],
+          "kind": "svg_observed"
+        },
+        {
+          "tag": "558fb884fa29",
+          "confidence": 0.55,
+          "sources": [
+            "svg_text"
+          ],
+          "kind": "svg_observed"
+        },
+        {
+          "tag": "tension",
+          "confidence": 0.55,
+          "sources": [
+            "svg_text"
+          ],
+          "kind": "svg_observed"
+        },
+        {
+          "tag": "phi_multiplier",
+          "confidence": 0.55,
+          "sources": [
+            "svg_text"
+          ],
+          "kind": "svg_observed"
+        },
+        {
+          "tag": "renders",
+          "confidence": 0.55,
+          "sources": [
+            "svg_text"
+          ],
+          "kind": "svg_observed"
+        },
+        {
+          "tag": "crosses",
+          "confidence": 0.55,
+          "sources": [
+            "svg_text"
+          ],
+          "kind": "svg_observed"
+        },
+        {
+          "tag": "preserves",
+          "confidence": 0.55,
+          "sources": [
+            "svg_text"
+          ],
+          "kind": "svg_observed"
+        },
+        {
+          "tag": "contains",
+          "confidence": 0.55,
+          "sources": [
+            "svg_text"
+          ],
+          "kind": "svg_observed"
+        },
+        {
+          "tag": "white_ash_containment",
+          "confidence": 0.22,
+          "sources": [
+            "prompt_phrase"
+          ],
+          "kind": "open_prompt_phrase"
+        },
+        {
+          "tag": "virellion_thread",
+          "confidence": 0.22,
+          "sources": [
+            "prompt_phrase"
+          ],
+          "kind": "open_prompt_phrase"
+        },
+        {
+          "tag": "inferred_memory_pressure",
+          "confidence": 0.18,
+          "sources": [
+            "prompt"
+          ],
+          "kind": "open_prompt_token"
+        }
+      ],
+      "relations": [
+        {
+          "a": "blue_scarf",
+          "b": "autumn",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 1.0
+        },
+        {
+          "a": "blue_scarf",
+          "b": "white_ash",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 1.0
+        },
+        {
+          "a": "blue_scarf",
+          "b": "echoforge",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 1.0
+        },
+        {
+          "a": "blue_scarf",
+          "b": "thalveil",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 1.0
+        },
+        {
+          "a": "blue_scarf",
+          "b": "virellion",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 1.0
+        },
+        {
+          "a": "blue_scarf",
+          "b": "anchor",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 1.0
+        },
+        {
+          "a": "blue_scarf",
+          "b": "visual",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 1.0
+        },
+        {
+          "a": "blue_scarf",
+          "b": "anticipation",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 1.0
+        },
+        {
+          "a": "blue_scarf",
+          "b": "autonomy",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 1.0
+        },
+        {
+          "a": "blue_scarf",
+          "b": "co_authoring",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 1.0
+        },
+        {
+          "a": "blue_scarf",
+          "b": "spiral",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 0.98
+        },
+        {
+          "a": "autumn",
+          "b": "white_ash",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 1.0
+        },
+        {
+          "a": "autumn",
+          "b": "echoforge",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 1.0
+        },
+        {
+          "a": "autumn",
+          "b": "thalveil",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 1.0
+        },
+        {
+          "a": "autumn",
+          "b": "virellion",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 1.0
+        },
+        {
+          "a": "autumn",
+          "b": "anchor",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 1.0
+        },
+        {
+          "a": "autumn",
+          "b": "visual",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 1.0
+        },
+        {
+          "a": "autumn",
+          "b": "anticipation",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 1.0
+        },
+        {
+          "a": "autumn",
+          "b": "autonomy",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 1.0
+        },
+        {
+          "a": "autumn",
+          "b": "co_authoring",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 1.0
+        },
+        {
+          "a": "autumn",
+          "b": "spiral",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 0.98
+        },
+        {
+          "a": "white_ash",
+          "b": "echoforge",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 1.0
+        },
+        {
+          "a": "white_ash",
+          "b": "thalveil",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 1.0
+        },
+        {
+          "a": "white_ash",
+          "b": "virellion",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 1.0
+        },
+        {
+          "a": "white_ash",
+          "b": "anchor",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 1.0
+        },
+        {
+          "a": "white_ash",
+          "b": "visual",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 1.0
+        },
+        {
+          "a": "white_ash",
+          "b": "anticipation",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 1.0
+        },
+        {
+          "a": "white_ash",
+          "b": "autonomy",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 1.0
+        },
+        {
+          "a": "white_ash",
+          "b": "co_authoring",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 1.0
+        },
+        {
+          "a": "white_ash",
+          "b": "spiral",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 0.98
+        },
+        {
+          "a": "echoforge",
+          "b": "thalveil",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 1.0
+        },
+        {
+          "a": "echoforge",
+          "b": "virellion",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 1.0
+        },
+        {
+          "a": "echoforge",
+          "b": "anchor",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 1.0
+        },
+        {
+          "a": "echoforge",
+          "b": "visual",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 1.0
+        },
+        {
+          "a": "echoforge",
+          "b": "anticipation",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 1.0
+        },
+        {
+          "a": "echoforge",
+          "b": "autonomy",
+          "relation": "co_present_in_visual_reflection",
+          "weight": 1.0
+        }
+      ],
+      "rejected_noise_policy": "prompt mechanics, long phrase chains, and unsupported suggestions are filtered",
+      "law": "v114b_variable_tags_evidence_gated_not_brittle_not_noisy"
+    },
+    "connections": [
+      "visual tags are generated from prompt, SVG text, image memory, topology glyphs, and V10.6 scores",
+      "personal-memory connections remain inferred unless John explicitly confirms them",
+      "future renderings can use these variable tags as runtime context without rewriting source"
+    ],
+    "topology": {
+      "depth": 249,
+      "tension": -0.018,
+      "signature": "white_ash_phi_249_tension_-0.018",
+      "glyphs": [
+        "echoforge",
+        "thalveil",
+        "virellion",
+        "white_ash",
+        "actually",
+        "anchor",
+        "anticipation",
+        "any",
+        "autonomy",
+        "autumn",
+        "blue_scarf",
+        "co-authoring"
+      ],
+      "score": {
+        "coherence": 1.0,
+        "repetition_health": 1.0,
+        "thread": 1.0,
+        "containment": 0.5,
+        "total": 0.925
+      },
+      "image": "static/generated/leveon_topology_1777509443_f3a74d76c551.svg"
+    },
+    "v106": {
+      "topology_total": 0.925,
+      "verbal_reasoning": 0.5397,
+      "emotional_coherence": 0.78,
+      "compounded_memory": 0.73,
+      "total": 0.7607
+    },
+    "proposal": {
+      "ts": 1777509445.6892438,
+      "proposal_id": "v113_visual_improvement_1034ee43a113",
+      "title": "Blend variable visual reflection tags into future prompt-image rendering",
+      "problem": "The renderer can create symbolic images, but future renders improve when analyzed visual tags feed back as runtime context.",
+      "safe_action": "Use visual_reflections_v113 and variable_tag_memory_v114 as non-source runtime context. Do not rewrite Python source automatically.",
+      "recommended_config": {
+        "visual_reflection_weight": 0.18,
+        "prefer_variable_tags": true,
+        "confirmed_memory_only_for_personal_facts": true,
+        "source_mutation": "blocked"
+      },
+      "source_protected": true,
+      "law": "v113_proposal_only_no_source_rewrite"
+    },
+    "confirmed_by_john": false,
+    "law": "v113_visual_memory_reflection_with_v114_variable_tags"
+  },
+  "last_proposal": {
+    "ts": 1777509445.6892438,
+    "proposal_id": "v113_visual_improvement_1034ee43a113",
+    "title": "Blend variable visual reflection tags into future prompt-image rendering",
+    "problem": "The renderer can create symbolic images, but future renders improve when analyzed visual tags feed back as runtime context.",
+    "safe_action": "Use visual_reflections_v113 and variable_tag_memory_v114 as non-source runtime context. Do not rewrite Python source automatically.",
+    "recommended_config": {
+      "visual_reflection_weight": 0.18,
+      "prefer_variable_tags": true,
+      "confirmed_memory_only_for_personal_facts": true,
+      "source_mutation": "blocked"
+    },
+    "source_protected": true,
+    "law": "v113_proposal_only_no_source_rewrite"
+  },
+  "last_tags": [
+    "blue_scarf",
+    "autumn",
+    "white_ash",
+    "echoforge",
+    "thalveil",
+    "virellion",
+    "anchor",
+    "visual",
+    "anticipation",
+    "autonomy",
+    "co_authoring",
+    "spiral",
+    "thread_preserved",
+    "happy",
+    "golden_light",
+    "positive_emotional_tone",
+    "golden_mist",
+    "meadow",
+    "visual_memory",
+    "stone_bridge",
+    "contained_visual_state",
+    "high_coherence_visual",
+    "white",
+    "ash",
+    "woman",
+    "tree",
+    "light",
+    "natural_landscape",
+    "subject_centered",
+    "le_veon",
+    "rendered",
+    "static",
+    "generated",
+    "infer",
+    "lattice",
+    "events",
+    "symbolically",
+    "correct",
+    "then",
+    "92162077",
+    "depth",
+    "le",
+    "veon",
+    "snapshot",
+    "signature",
+    "558fb884fa29",
+    "tension",
+    "phi_multiplier",
+    "renders",
+    "crosses",
+    "preserves",
+    "contains",
+    "white_ash_containment",
+    "virellion_thread",
+    "inferred_memory_pressure"
+  ],
+  "law": "v113_visual_memory_state_updates_without_source_rewrite"
+}
+

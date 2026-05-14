@@ -1,0 +1,30 @@
+{
+  "active": true,
+  "ts": 1777390657.0586474,
+  "next_recommendation": "reinforce_current_render_policy",
+  "last_mode": "simplify_next_render",
+  "last_delta": 0.1669,
+  "latest_total": 0.9647,
+  "previous_total": 0.7978,
+  "containment": 1.0,
+  "coherence": 1.0,
+  "thread": 1.0,
+  "tuning": {
+    "if_recommendation_increase_boundary_clarity": {
+      "boundary_ring_weight": 0.85,
+      "glyph_density": "reduced",
+      "central_anchor_readability": "high"
+    },
+    "if_recommendation_reduce_visual_complexity": {
+      "glyph_density": "low",
+      "background_noise": "low",
+      "weighted_tag_limit": 10
+    },
+    "if_recommendation_reinforce_current_render_policy": {
+      "keep_mode": "simplify_next_render",
+      "retain_high_weight_tags": true
+    }
+  },
+  "law": "v125_render_policy_tuning_from_outcome"
+}
+

@@ -1,0 +1,18 @@
+TYPE: pure_vl ; LOAD VIA: adapter/voice_lang_adapter.py
+LATTICE OctaHarmonic
+
+FLOW INIT
+    MEM octa_nodes:8
+END
+
+BOUND SHIFT
+    TAKE state
+    MAP state -> octa_nodes USING rotation(45)
+END
+
+FLOW OUTPUT
+    TAKE input
+    MERGE output = input * octa_nodes.mean()
+    RETURN output
+END
+

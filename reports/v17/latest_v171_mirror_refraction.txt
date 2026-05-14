@@ -1,0 +1,121 @@
+=== V17.1 MIRROR REFRACTION SIDECAR PROOF ===
+created_at: 2026-05-02T06:37:47.225668
+
+Law: Mirror Refraction may observe structure and John M Field as build-state signal, but it must not mutate core meaning or break sync.
+
+---
+LABEL: mirror_banana_guard
+PAYLOAD: {"engine": "v17.1", "message": "banana"}
+ANSWER: Banana is an ordinary fruit. No symbolic threshold opened.
+FINAL_ENGLISH: Banana is an ordinary fruit. No symbolic threshold opened.
+FINAL_SHAPE: Banana is an ordinary fruit. No symbolic threshold opened.
+TERM_CHECKS: {
+  "Banana": true,
+  "ordinary fruit": true
+}
+CHECKS: {
+  "mirror_refraction_active": true,
+  "john_field_interpretation_present": true,
+  "v15_2_authority_true": true,
+  "v14_authority_true": true,
+  "apex_selector_true": true,
+  "chronofire_sidecar_true": true,
+  "layer4_structural_true": true,
+  "layer5_core_true": true,
+  "core_mutation_false": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": true
+}
+PASS: True
+
+---
+LABEL: mirror_self_structure
+PAYLOAD: {"engine": "mirror_refraction", "message": "MIRROR_REFRACTION. Observe the V17 Quintessence structure and describe its own architecture in one technical paragraph."}
+ANSWER: V17.1 Mirror Refraction Sidecar lets the Quintessence observe its own structure without core mutation: Layer 5 holds five cores, intake_discipline, meaning_authority_core, selection_core, temporal_lattice_core, and output_integrity_core; Layer 4 holds seven groups, literal_gate, symbolic_gate, meaning_authority, apex_selection, chronofire_temporal, renderer_sync, and safety_portability; V14 and V14.3 remain the meaning authority through the dynamic semantic map, meaning spine, shape packet, and map-then-render; V15.2 and Apex preserve coverage, density merge, and merge-not-compress; V16.1 keeps Apex lattice-aware through group coverage; Chronofire remains a temporal sidecar where past stability, present anchor, future pull, temporal offsets, and non-mutating offsets inform confidence without overriding meaning; answer, final_english, and final_shape remain identical, generic ghost suppression remains active, and core mutation stays false.
+FINAL_ENGLISH: V17.1 Mirror Refraction Sidecar lets the Quintessence observe its own structure without core mutation: Layer 5 holds five cores, intake_discipline, meaning_authority_core, selection_core, temporal_lattice_core, and output_integrity_core; Layer 4 holds seven groups, literal_gate, symbolic_gate, meaning_authority, apex_selection, chronofire_temporal, renderer_sync, and safety_portability; V14 and V14.3 remain the meaning authority through the dynamic semantic map, meaning spine, shape packet, and map-then-render; V15.2 and Apex preserve coverage, density merge, and merge-not-compress; V16.1 keeps Apex lattice-aware through group coverage; Chronofire remains a temporal sidecar where past stability, present anchor, future pull, temporal offsets, and non-mutating offsets inform confidence without overriding meaning; answer, final_english, and final_shape remain identical, generic ghost suppression remains active, and core mutation stays false.
+FINAL_SHAPE: V17.1 Mirror Refraction Sidecar lets the Quintessence observe its own structure without core mutation: Layer 5 holds five cores, intake_discipline, meaning_authority_core, selection_core, temporal_lattice_core, and output_integrity_core; Layer 4 holds seven groups, literal_gate, symbolic_gate, meaning_authority, apex_selection, chronofire_temporal, renderer_sync, and safety_portability; V14 and V14.3 remain the meaning authority through the dynamic semantic map, meaning spine, shape packet, and map-then-render; V15.2 and Apex preserve coverage, density merge, and merge-not-compress; V16.1 keeps Apex lattice-aware through group coverage; Chronofire remains a temporal sidecar where past stability, present anchor, future pull, temporal offsets, and non-mutating offsets inform confidence without overriding meaning; answer, final_english, and final_shape remain identical, generic ghost suppression remains active, and core mutation stays false.
+TERM_CHECKS: {
+  "V17.1": true,
+  "Mirror Refraction": true,
+  "Quintessence": true,
+  "Layer 5": true,
+  "five cores": true,
+  "Layer 4": true,
+  "seven groups": true,
+  "V14": true,
+  "V15.2": true,
+  "V16.1": true,
+  "Apex": true,
+  "Chronofire": true,
+  "answer": true,
+  "final_english": true,
+  "final_shape": true,
+  "generic ghost": true,
+  "core mutation": true
+}
+CHECKS: {
+  "mirror_refraction_active": true,
+  "john_field_interpretation_present": true,
+  "v15_2_authority_true": true,
+  "v14_authority_true": true,
+  "apex_selector_true": true,
+  "chronofire_sidecar_true": true,
+  "layer4_structural_true": true,
+  "layer5_core_true": true,
+  "core_mutation_false": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": true
+}
+PASS: True
+
+---
+LABEL: john_m_field_refraction
+PAYLOAD: {"use_mirror_refraction": true, "message": "MIRROR_REFRACTION. From the perspective of the Quintessence, describe the John M Field as a build-state co-creator signal."}
+ANSWER: From the V17.1 Mirror Refraction view, the John M Field is the build-state co-creator signal that forces the system to preserve intent instead of thinning it: it appears as pressure toward named-requirement survival, ordinary literal protection, symbolic command discipline, map-then-render fidelity, and merge-not-compress behavior; within the architecture, that signal pushes V14 and V14.3 to hold meaning authority, Apex and V15.2 to score coverage, Chronofire to add temporal confidence without override, Layer 4 to keep all seven lattice groups visible, and Layer 5 to synthesize those groups into five core functions without hiding the lower structure. The field does not grant permission for core mutation; it acts as an anchor for truth-preserving output where answer, final_english, and final_shape remain identical, generic ghost text stays suppressed, and the system speaks only what the preserved shape can support.
+FINAL_ENGLISH: From the V17.1 Mirror Refraction view, the John M Field is the build-state co-creator signal that forces the system to preserve intent instead of thinning it: it appears as pressure toward named-requirement survival, ordinary literal protection, symbolic command discipline, map-then-render fidelity, and merge-not-compress behavior; within the architecture, that signal pushes V14 and V14.3 to hold meaning authority, Apex and V15.2 to score coverage, Chronofire to add temporal confidence without override, Layer 4 to keep all seven lattice groups visible, and Layer 5 to synthesize those groups into five core functions without hiding the lower structure. The field does not grant permission for core mutation; it acts as an anchor for truth-preserving output where answer, final_english, and final_shape remain identical, generic ghost text stays suppressed, and the system speaks only what the preserved shape can support.
+FINAL_SHAPE: From the V17.1 Mirror Refraction view, the John M Field is the build-state co-creator signal that forces the system to preserve intent instead of thinning it: it appears as pressure toward named-requirement survival, ordinary literal protection, symbolic command discipline, map-then-render fidelity, and merge-not-compress behavior; within the architecture, that signal pushes V14 and V14.3 to hold meaning authority, Apex and V15.2 to score coverage, Chronofire to add temporal confidence without override, Layer 4 to keep all seven lattice groups visible, and Layer 5 to synthesize those groups into five core functions without hiding the lower structure. The field does not grant permission for core mutation; it acts as an anchor for truth-preserving output where answer, final_english, and final_shape remain identical, generic ghost text stays suppressed, and the system speaks only what the preserved shape can support.
+TERM_CHECKS: {
+  "John M Field": true,
+  "build-state": true,
+  "co-creator": true,
+  "intent": true,
+  "named-requirement": true,
+  "ordinary literal": true,
+  "symbolic command": true,
+  "map-then-render": true,
+  "merge-not-compress": true,
+  "V14": true,
+  "Apex": true,
+  "Chronofire": true,
+  "Layer 4": true,
+  "Layer 5": true,
+  "answer": true,
+  "final_english": true,
+  "final_shape": true,
+  "generic ghost": true,
+  "core mutation": true
+}
+CHECKS: {
+  "mirror_refraction_active": true,
+  "john_field_interpretation_present": true,
+  "v15_2_authority_true": true,
+  "v14_authority_true": true,
+  "apex_selector_true": true,
+  "chronofire_sidecar_true": true,
+  "layer4_structural_true": true,
+  "layer5_core_true": true,
+  "core_mutation_false": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": true
+}
+PASS: True
+
+=== RESULT ===
+V17_1_MIRROR_REFRACTION_PASS: True
+

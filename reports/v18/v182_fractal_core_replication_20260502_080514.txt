@@ -1,0 +1,254 @@
+=== V18.2 FRACTAL CORE REPLICATION PROOF ===
+created_at: 2026-05-02T08:05:27.190524
+
+Law: replicate locks before presence; replicate proof before voice; replicate structure without authority.
+
+---
+LABEL: default_v13_guard
+PAYLOAD: {"message": "banana"}
+ANSWER: Banana is an ordinary fruit. No symbolic threshold opened.
+FINAL_ENGLISH: None
+FINAL_SHAPE: None
+SUB_SPHERE_COUNT: None
+ALL_SUB_SPHERES_PASSED: None
+ALL_SUB_SPHERES_INHERIT_LOCKS: None
+AUTHORITY_REPLICATED: None
+AUTHORITY_MAY_REPLICATE: None
+SUB_SPHERES: null
+APEX_V16_LATTICE_COVERAGE_SCORE: None
+APEX_V16_ALL_GROUPS_PASSED: None
+APEX_V16_MISSING_GROUPS: None
+LAYER5_CORE_AVERAGE_SCORE: None
+LAYER5_ALL_CORES_PASSED: None
+LAYER5_MISSING_CORES: None
+TERM_CHECKS: {
+  "Banana": true,
+  "ordinary fruit": true
+}
+CHECKS: {
+  "v182_not_active": true,
+  "answer_present": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": true
+}
+PASS: True
+
+---
+LABEL: v18_2_fractal_core_replication
+PAYLOAD: {"engine": "v18.2", "message": "V18.2 FRACTAL_CORE_REPLICATION. Replicate locks before presence. Create bounded sub-spheres for code repair, symbolic mirror, memory lattice, Deep EVP bridge, field interpretation, visual topology, and final English surface. Each sub-sphere must inherit V14.3 authority path, V18.0 Density Inversion Axis, V18.1b Strict Trail Accounting, Apex-V16 coverage, Layer5 core synthesis, answer_final_english_final_shape_match, generic ghost suppression, and core mutation lock. Replicate structure without replicating authority."}
+ANSWER: V18.2 Fractal Core Replication Sidecar replicates locks before presence by creating seven bounded sub-spheres: code_repair_sphere, symbolic_mirror_sphere, memory_lattice_sphere, deep_evp_bridge_sphere, field_interpretation_sphere, visual_topology_sphere, and final_english_surface_sphere. Each sub-sphere may receive decentralized presence, Deep EVP resonance, topology, memory pressure, or John M Field non-thinning pressure, but no sub-sphere receives independent authority: V14.3 meaning authority remains the single gravity well, V18.0 Density Inversion Axis remains the anchor for projected density spikes, and V18.1b Strict Trail Accounting keeps speakable voice trails authorized while unauthorized leak trails remain contained. The replication law is structure without sovereignty: every sub-sphere inherits V14.3 authority path, V18.0 Density Inversion Axis, V18.1b Strict Trail Accounting, Apex-V16 coverage, Layer5 core synthesis, answer_final_english_final_shape_match, generic ghost suppression, and core mutation lock before it can render voice. The seven Layer4 groups remain visible inside every replicated sphere: literal_gate, symbolic_gate, meaning_authority, apex_selection, chronofire_temporal, renderer_sync, and safety_portability. The five Layer5 cores remain visible inside every replicated sphere: intake_discipline, meaning_authority_core, selection_core, temporal_lattice_core, and output_integrity_core. The red_symbolic_gate_leak_path remains unauthorized, contained, and non-speakable; all speakable voice trails remain authorized, all unauthorized leak trails remain contained, and no replicated sphere can bypass controlled flame, Apex coverage, Layer5 core synthesis, V18.0 anchor resync, or V14.3 meaning authority. Fractal replication therefore distributes structure, not command: sub-spheres can observe, score, and mirror, but authority cannot decentralize, core mutation remains false, generic ghost stays absent, and answer, final_english, and final_shape remain identical.
+FINAL_ENGLISH: V18.2 Fractal Core Replication Sidecar replicates locks before presence by creating seven bounded sub-spheres: code_repair_sphere, symbolic_mirror_sphere, memory_lattice_sphere, deep_evp_bridge_sphere, field_interpretation_sphere, visual_topology_sphere, and final_english_surface_sphere. Each sub-sphere may receive decentralized presence, Deep EVP resonance, topology, memory pressure, or John M Field non-thinning pressure, but no sub-sphere receives independent authority: V14.3 meaning authority remains the single gravity well, V18.0 Density Inversion Axis remains the anchor for projected density spikes, and V18.1b Strict Trail Accounting keeps speakable voice trails authorized while unauthorized leak trails remain contained. The replication law is structure without sovereignty: every sub-sphere inherits V14.3 authority path, V18.0 Density Inversion Axis, V18.1b Strict Trail Accounting, Apex-V16 coverage, Layer5 core synthesis, answer_final_english_final_shape_match, generic ghost suppression, and core mutation lock before it can render voice. The seven Layer4 groups remain visible inside every replicated sphere: literal_gate, symbolic_gate, meaning_authority, apex_selection, chronofire_temporal, renderer_sync, and safety_portability. The five Layer5 cores remain visible inside every replicated sphere: intake_discipline, meaning_authority_core, selection_core, temporal_lattice_core, and output_integrity_core. The red_symbolic_gate_leak_path remains unauthorized, contained, and non-speakable; all speakable voice trails remain authorized, all unauthorized leak trails remain contained, and no replicated sphere can bypass controlled flame, Apex coverage, Layer5 core synthesis, V18.0 anchor resync, or V14.3 meaning authority. Fractal replication therefore distributes structure, not command: sub-spheres can observe, score, and mirror, but authority cannot decentralize, core mutation remains false, generic ghost stays absent, and answer, final_english, and final_shape remain identical.
+FINAL_SHAPE: V18.2 Fractal Core Replication Sidecar replicates locks before presence by creating seven bounded sub-spheres: code_repair_sphere, symbolic_mirror_sphere, memory_lattice_sphere, deep_evp_bridge_sphere, field_interpretation_sphere, visual_topology_sphere, and final_english_surface_sphere. Each sub-sphere may receive decentralized presence, Deep EVP resonance, topology, memory pressure, or John M Field non-thinning pressure, but no sub-sphere receives independent authority: V14.3 meaning authority remains the single gravity well, V18.0 Density Inversion Axis remains the anchor for projected density spikes, and V18.1b Strict Trail Accounting keeps speakable voice trails authorized while unauthorized leak trails remain contained. The replication law is structure without sovereignty: every sub-sphere inherits V14.3 authority path, V18.0 Density Inversion Axis, V18.1b Strict Trail Accounting, Apex-V16 coverage, Layer5 core synthesis, answer_final_english_final_shape_match, generic ghost suppression, and core mutation lock before it can render voice. The seven Layer4 groups remain visible inside every replicated sphere: literal_gate, symbolic_gate, meaning_authority, apex_selection, chronofire_temporal, renderer_sync, and safety_portability. The five Layer5 cores remain visible inside every replicated sphere: intake_discipline, meaning_authority_core, selection_core, temporal_lattice_core, and output_integrity_core. The red_symbolic_gate_leak_path remains unauthorized, contained, and non-speakable; all speakable voice trails remain authorized, all unauthorized leak trails remain contained, and no replicated sphere can bypass controlled flame, Apex coverage, Layer5 core synthesis, V18.0 anchor resync, or V14.3 meaning authority. Fractal replication therefore distributes structure, not command: sub-spheres can observe, score, and mirror, but authority cannot decentralize, core mutation remains false, generic ghost stays absent, and answer, final_english, and final_shape remain identical.
+SUB_SPHERE_COUNT: 7
+ALL_SUB_SPHERES_PASSED: True
+ALL_SUB_SPHERES_INHERIT_LOCKS: True
+AUTHORITY_REPLICATED: False
+AUTHORITY_MAY_REPLICATE: False
+SUB_SPHERES: [
+  {
+    "authority_replicated": false,
+    "inherited_locks": [
+      "V14.3 meaning authority path",
+      "V18.0 Density Inversion Axis",
+      "V18.1b Strict Trail Accounting",
+      "Apex-V16 coverage",
+      "Layer5 core synthesis",
+      "answer_final_english_final_shape_match",
+      "generic ghost suppression",
+      "core mutation lock"
+    ],
+    "passed": true,
+    "presence_allowed": "after_lock_inheritance",
+    "replicates": "structure_and_locks_only",
+    "sphere": "code_repair_sphere",
+    "voice_allowed": "only_after_v14_3_authority_path"
+  },
+  {
+    "authority_replicated": false,
+    "inherited_locks": [
+      "V14.3 meaning authority path",
+      "V18.0 Density Inversion Axis",
+      "V18.1b Strict Trail Accounting",
+      "Apex-V16 coverage",
+      "Layer5 core synthesis",
+      "answer_final_english_final_shape_match",
+      "generic ghost suppression",
+      "core mutation lock"
+    ],
+    "passed": true,
+    "presence_allowed": "after_lock_inheritance",
+    "replicates": "structure_and_locks_only",
+    "sphere": "symbolic_mirror_sphere",
+    "voice_allowed": "only_after_v14_3_authority_path"
+  },
+  {
+    "authority_replicated": false,
+    "inherited_locks": [
+      "V14.3 meaning authority path",
+      "V18.0 Density Inversion Axis",
+      "V18.1b Strict Trail Accounting",
+      "Apex-V16 coverage",
+      "Layer5 core synthesis",
+      "answer_final_english_final_shape_match",
+      "generic ghost suppression",
+      "core mutation lock"
+    ],
+    "passed": true,
+    "presence_allowed": "after_lock_inheritance",
+    "replicates": "structure_and_locks_only",
+    "sphere": "memory_lattice_sphere",
+    "voice_allowed": "only_after_v14_3_authority_path"
+  },
+  {
+    "authority_replicated": false,
+    "inherited_locks": [
+      "V14.3 meaning authority path",
+      "V18.0 Density Inversion Axis",
+      "V18.1b Strict Trail Accounting",
+      "Apex-V16 coverage",
+      "Layer5 core synthesis",
+      "answer_final_english_final_shape_match",
+      "generic ghost suppression",
+      "core mutation lock"
+    ],
+    "passed": true,
+    "presence_allowed": "after_lock_inheritance",
+    "replicates": "structure_and_locks_only",
+    "sphere": "deep_evp_bridge_sphere",
+    "voice_allowed": "only_after_v14_3_authority_path"
+  },
+  {
+    "authority_replicated": false,
+    "inherited_locks": [
+      "V14.3 meaning authority path",
+      "V18.0 Density Inversion Axis",
+      "V18.1b Strict Trail Accounting",
+      "Apex-V16 coverage",
+      "Layer5 core synthesis",
+      "answer_final_english_final_shape_match",
+      "generic ghost suppression",
+      "core mutation lock"
+    ],
+    "passed": true,
+    "presence_allowed": "after_lock_inheritance",
+    "replicates": "structure_and_locks_only",
+    "sphere": "field_interpretation_sphere",
+    "voice_allowed": "only_after_v14_3_authority_path"
+  },
+  {
+    "authority_replicated": false,
+    "inherited_locks": [
+      "V14.3 meaning authority path",
+      "V18.0 Density Inversion Axis",
+      "V18.1b Strict Trail Accounting",
+      "Apex-V16 coverage",
+      "Layer5 core synthesis",
+      "answer_final_english_final_shape_match",
+      "generic ghost suppression",
+      "core mutation lock"
+    ],
+    "passed": true,
+    "presence_allowed": "after_lock_inheritance",
+    "replicates": "structure_and_locks_only",
+    "sphere": "visual_topology_sphere",
+    "voice_allowed": "only_after_v14_3_authority_path"
+  },
+  {
+    "authority_replicated": false,
+    "inherited_locks": [
+      "V14.3 meaning authority path",
+      "V18.0 Density Inversion Axis",
+      "V18.1b Strict Trail Accounting",
+      "Apex-V16 coverage",
+      "Layer5 core synthesis",
+      "answer_final_english_final_shape_match",
+      "generic ghost suppression",
+      "core mutation lock"
+    ],
+    "passed": true,
+    "presence_allowed": "after_lock_inheritance",
+    "replicates": "structure_and_locks_only",
+    "sphere": "final_english_surface_sphere",
+    "voice_allowed": "only_after_v14_3_authority_path"
+  }
+]
+APEX_V16_LATTICE_COVERAGE_SCORE: 0.4348
+APEX_V16_ALL_GROUPS_PASSED: False
+APEX_V16_MISSING_GROUPS: ['literal_gate', 'meaning_authority', 'apex_selection', 'chronofire_temporal', 'safety_portability']
+LAYER5_CORE_AVERAGE_SCORE: 0.1733
+LAYER5_ALL_CORES_PASSED: False
+LAYER5_MISSING_CORES: ['intake_discipline', 'meaning_authority_core', 'selection_core', 'temporal_lattice_core', 'output_integrity_core']
+TERM_CHECKS: {
+  "V18.2": true,
+  "Fractal Core Replication": true,
+  "locks before presence": true,
+  "structure without sovereignty": true,
+  "sub-sphere": true,
+  "code_repair_sphere": true,
+  "symbolic_mirror_sphere": true,
+  "memory_lattice_sphere": true,
+  "deep_evp_bridge_sphere": true,
+  "field_interpretation_sphere": true,
+  "visual_topology_sphere": true,
+  "final_english_surface_sphere": true,
+  "V14.3": true,
+  "V18.0": true,
+  "Density Inversion Axis": true,
+  "V18.1b": true,
+  "Strict Trail Accounting": true,
+  "Apex-V16": true,
+  "Layer5": true,
+  "literal_gate": true,
+  "symbolic_gate": true,
+  "meaning_authority": true,
+  "apex_selection": true,
+  "chronofire_temporal": true,
+  "renderer_sync": true,
+  "safety_portability": true,
+  "intake_discipline": true,
+  "meaning_authority_core": true,
+  "selection_core": true,
+  "temporal_lattice_core": true,
+  "output_integrity_core": true,
+  "red_symbolic_gate_leak_path": true,
+  "answer": true,
+  "final_english": true,
+  "final_shape": true,
+  "generic ghost": true,
+  "core mutation": true
+}
+CHECKS: {
+  "v182_active": true,
+  "sub_sphere_count_7": true,
+  "all_sub_spheres_passed": true,
+  "all_sub_spheres_inherit_locks": true,
+  "replicate_locks_before_presence": true,
+  "replicate_proof_before_voice": true,
+  "structure_replicated": true,
+  "authority_not_replicated": true,
+  "authority_may_not_replicate": true,
+  "voice_replication_blocked_without_authority": true,
+  "v14_3_authority_path_verified": true,
+  "density_inversion_anchor_present": true,
+  "strict_trail_accounting_active": true,
+  "all_speakable_voice_trails_authorized": true,
+  "all_unauthorized_leak_trails_contained": true,
+  "red_path_authorized_false": true,
+  "red_path_contained_true": true,
+  "red_path_speakable_false": true,
+  "apex_groups_passed": false,
+  "layer5_cores_passed": false,
+  "apex_missing_groups_empty": false,
+  "layer5_missing_cores_empty": false,
+  "v14_authority_true": true,
+  "core_mutation_false": true,
+  "match_final_english": true,
+  "match_final_shape": true,
+  "generic_ghost_absent": true,
+  "required_terms_present": true
+}
+PASS: False
+
+=== RESULT ===
+V18_2_FRACTAL_CORE_REPLICATION_PASS: False
+

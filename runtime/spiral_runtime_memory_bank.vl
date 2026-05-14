@@ -1,0 +1,18 @@
+; FILE: runtime/spiral_runtime_memory_bank.vl
+; Generated: 2026-02-28 06:30:48
+; Le'Veon VoiceLang v1 (compact)
+
+MEM[bank = []]
+FLOW[memory -> store -> retrieve -> return]
+
+TURN{
+    commit = compress(input)
+    bank.append(commit)
+    memory.save(commit)
+    recall = retrieve(bank, input)
+    return = recall
+}
+
+SHIFT[bank = bank[-32:]]
+END
+

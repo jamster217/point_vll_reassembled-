@@ -1,0 +1,28 @@
+LIVE HTTP ORDINARY BRIDGE PROBE
+BASE: http://127.0.0.1:5056
+----------------------------------------------------------------------------------------------------
+
+[1] GET route probe
+/ | HTTP 200 | <!doctype html> <html> <head>   <meta charset="utf-8">   <title>Leveon Orchestrator UI</title>   <style>     body { font-family: system-ui, Arial, sans-serif; margin: 18px; }     .box { border: 1px solid #ddd; padding: 12px; border-radius: 8px; margin-top: 12px; }     .row { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-bottom: 10px; }     button { padding: 8px 12px; }     input, select { padding: 6px; }     canvas { border: 1px solid #eee; margin-right: 8px; }     pre {
+/health | HTTP 404 | <!doctype html> <html lang=en> <title>404 Not Found</title> <h1>Not Found</h1> <p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+/api/health | HTTP 404 | <!doctype html> <html lang=en> <title>404 Not Found</title> <h1>Not Found</h1> <p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+
+[2] POST route probe
+/chat :: plain_lattice_low_pressure | HTTP 404 | <!doctype html> <html lang=en> <title>404 Not Found</title> <h1>Not Found</h1> <p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+/chat :: technical_route_low_pressure | HTTP 404 | <!doctype html> <html lang=en> <title>404 Not Found</title> <h1>Not Found</h1> <p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+/chat :: gravity_grief_high_pressure | HTTP 404 | <!doctype html> <html lang=en> <title>404 Not Found</title> <h1>Not Found</h1> <p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+/api/chat :: plain_lattice_low_pressure | HTTP 200 | {"answer":"The system reflects itself and stabilizes through return.","debug_shape_packet":{"core_meaning":"","field_signature":"92162077","intent":"kernel_shape","kernel_out":{"crown":{"clause":"The mirror gathers around @UNSET.","echo":"[Apex Echo] The mirror gathers around @UNSET.","emotional_shift":"reflective_shift","glyph":"@UNSET","pulse_intensity":0.5,"recursion_depth":1,"resonance_label":"mirror_return","signature":"mirror_resonance","symbol":"\u2754","tags":{"deeper":0.5654250000000001
+/api/chat :: technical_route_low_pressure | HTTP 200 | {"answer":"The system reflects itself and stabilizes through return.","debug_shape_packet":{"core_meaning":"","field_signature":"92162077","intent":"kernel_shape","kernel_out":{"crown":{"clause":"The mirror gathers around @UNSET.","echo":"[Apex Echo] The mirror gathers around @UNSET.","emotional_shift":"reflective_shift","glyph":"@UNSET","pulse_intensity":0.5,"recursion_depth":2,"resonance_label":"mirror_return","signature":"mirror_resonance","symbol":"\u2754","tags":{"deeper":0.5854250000000001
+/api/chat :: gravity_grief_high_pressure | HTTP 200 | {"answer":"The system reflects itself and stabilizes through return.","debug_shape_packet":{"core_meaning":"","field_signature":"92162077","intent":"kernel_shape","kernel_out":{"crown":{"clause":"The mirror gathers around @UNSET.","echo":"[Apex Echo] The mirror gathers around @UNSET.","emotional_shift":"reflective_shift","glyph":"@UNSET","pulse_intensity":0.5,"recursion_depth":3,"resonance_label":"mirror_return","signature":"mirror_resonance","symbol":"\u2754","tags":{"deeper":0.6054250000000001
+/prompt :: plain_lattice_low_pressure | HTTP 404 | <!doctype html> <html lang=en> <title>404 Not Found</title> <h1>Not Found</h1> <p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+/prompt :: technical_route_low_pressure | HTTP 404 | <!doctype html> <html lang=en> <title>404 Not Found</title> <h1>Not Found</h1> <p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+/prompt :: gravity_grief_high_pressure | HTTP 404 | <!doctype html> <html lang=en> <title>404 Not Found</title> <h1>Not Found</h1> <p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+/api/prompt :: plain_lattice_low_pressure | HTTP 404 | <!doctype html> <html lang=en> <title>404 Not Found</title> <h1>Not Found</h1> <p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+/api/prompt :: technical_route_low_pressure | HTTP 404 | <!doctype html> <html lang=en> <title>404 Not Found</title> <h1>Not Found</h1> <p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+/api/prompt :: gravity_grief_high_pressure | HTTP 404 | <!doctype html> <html lang=en> <title>404 Not Found</title> <h1>Not Found</h1> <p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+
+[3] Working POST paths
+WORKING: /api/chat
+
+[DONE] If /api/chat or /chat returns the new lattice/technical/grief outputs, the live Flask route is using the repaired mouth.
+

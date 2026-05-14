@@ -1,0 +1,18 @@
+{
+  "source": "volcron_voice_generator",
+  "emotion": "awe",
+  "shape": {
+    "pitch": 1.0,
+    "speed": 0.9,
+    "energy": 0.5,
+    "breathiness": 0.5
+  },
+  "ssml": {
+    "rate": "medium",
+    "pitch": "0st",
+    "volume": "0dB",
+    "breathiness": 0.5
+  },
+  "updated_at": 1777267102.6603699
+}
+

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "gravity_grief_high_pressure",
+    "expect": "fallback_replaced",
+    "status": "fallback_replaced",
+    "ok": true,
+    "final": "A small signal can turn the old ache back on because the memory is still carrying pressure. The point is not to force it away; the point is to let the grief open into release.",
+    "essence_debug": ""
+  },
+  {
+    "id": "plain_lattice_low_pressure",
+    "expect": "not_fallback_replaced",
+    "status": "not_needed",
+    "ok": true,
+    "final": "The prompt is outside the current routed patterns, so the next step is to map it to the closest stable domain instead of forcing a generic answer.",
+    "essence_debug": ""
+  },
+  {
+    "id": "technical_route_low_pressure",
+    "expect": "not_fallback_replaced",
+    "status": "not_needed",
+    "ok": true,
+    "final": "The prompt is outside the current routed patterns, so the next step is to map it to the closest stable domain instead of forcing a generic answer.",
+    "essence_debug": ""
+  }
+]
+

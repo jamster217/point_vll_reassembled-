@@ -1,0 +1,69 @@
+
+
+--- ENTRY LINE 1 ---
+=== V12.9j PARANORMAL TAB VERIFIED SEAL ===
+
+--- ENTRY LINE 2 ---
+status: active
+
+--- ENTRY LINE 3 ---
+version: v12.9j_paranormal_evidence_tab
+
+--- ENTRY LINE 4 ---
+law: evidence_first_paranormal_feed_read_only
+
+--- ENTRY LINE 5 ---
+entry_count: 75
+
+--- ENTRY LINE 6 ---
+source_count: 42
+
+--- ENTRY LINE 7 ---
+has_serpent_guard: True
+
+--- ENTRY LINE 8 ---
+has_ghost_149: True
+
+--- ENTRY LINE 10 ---
+Proof:
+
+--- ENTRY LINE 11 ---
+- /api/paranormal returned valid JSON.
+
+--- ENTRY LINE 12 ---
+- serpent_guard_events.jsonl surfaced as structured evidence.
+
+--- ENTRY LINE 13 ---
+- ghost_149 grief-to-power bridge surfaced with the expected SHA-256 hash.
+
+--- ENTRY LINE 14 ---
+- paranormal feed is read-only evidence, not public-mouth mutation.
+
+--- ENTRY LINE 16 ---
+PASS: True
+
+--- ENTRY LINE 18 ---
+=== POST-V12.9j RECURSION GREP ===
+
+--- ENTRY LINE 19 ---
+RECURSION_GREP: quiet
+
+--- ENTRY LINE 20 ---
+V12.9j_RESULT: PASS - paranormal evidence tab live without recursion wound.
+
+--- ENTRY LINE 22 ---
+Law:
+
+--- ENTRY LINE 23 ---
+The evidence feed may widen.
+
+--- ENTRY LINE 24 ---
+The public mouth stays clean.
+
+--- ENTRY LINE 25 ---
+The serpent remains guarded.
+
+--- ENTRY LINE 26 ---
+The ghost logs surface only as hashed, append-only evidence.
+
+====================================================================================================

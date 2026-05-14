@@ -1,0 +1,359 @@
+{
+  "active": true,
+  "ts": 1777382417.3093617,
+  "ranked_tags": [
+    {
+      "tag": "inferred_memory_pressure",
+      "weight": 20
+    },
+    {
+      "tag": "happy",
+      "weight": 18
+    },
+    {
+      "tag": "golden_light",
+      "weight": 18
+    },
+    {
+      "tag": "positive_emotional_tone",
+      "weight": 18
+    },
+    {
+      "tag": "golden_mist",
+      "weight": 18
+    },
+    {
+      "tag": "autumn",
+      "weight": 18
+    },
+    {
+      "tag": "blue_scarf",
+      "weight": 18
+    },
+    {
+      "tag": "meadow",
+      "weight": 18
+    },
+    {
+      "tag": "visual_memory",
+      "weight": 18
+    },
+    {
+      "tag": "stone_bridge",
+      "weight": 18
+    },
+    {
+      "tag": "echoforge",
+      "weight": 18
+    },
+    {
+      "tag": "thalveil",
+      "weight": 18
+    },
+    {
+      "tag": "virellion",
+      "weight": 18
+    },
+    {
+      "tag": "white_ash",
+      "weight": 18
+    },
+    {
+      "tag": "anchor",
+      "weight": 18
+    },
+    {
+      "tag": "thread_preserved",
+      "weight": 18
+    },
+    {
+      "tag": "topology",
+      "weight": 18
+    },
+    {
+      "tag": "contained_visual_state",
+      "weight": 15
+    },
+    {
+      "tag": "inferred_personal_memory_candidate",
+      "weight": 12
+    },
+    {
+      "tag": "personal_memory_candidate_unconfirmed",
+      "weight": 10
+    },
+    {
+      "tag": "emotionally_coherent_image",
+      "weight": 9
+    },
+    {
+      "tag": "anticipation",
+      "weight": 6
+    },
+    {
+      "tag": "autonomy",
+      "weight": 6
+    },
+    {
+      "tag": "co_authoring",
+      "weight": 6
+    },
+    {
+      "tag": "le_veon",
+      "weight": 6
+    },
+    {
+      "tag": "visual",
+      "weight": 6
+    },
+    {
+      "tag": "woman",
+      "weight": 6
+    },
+    {
+      "tag": "tree",
+      "weight": 6
+    },
+    {
+      "tag": "light",
+      "weight": 6
+    },
+    {
+      "tag": "spiral",
+      "weight": 6
+    },
+    {
+      "tag": "natural_landscape",
+      "weight": 6
+    },
+    {
+      "tag": "subject_centered",
+      "weight": 6
+    },
+    {
+      "tag": "rendered",
+      "weight": 6
+    },
+    {
+      "tag": "static",
+      "weight": 6
+    },
+    {
+      "tag": "generated",
+      "weight": 6
+    },
+    {
+      "tag": "infer",
+      "weight": 6
+    },
+    {
+      "tag": "lattice",
+      "weight": 6
+    },
+    {
+      "tag": "events",
+      "weight": 6
+    },
+    {
+      "tag": "symbolically",
+      "weight": 6
+    },
+    {
+      "tag": "correct",
+      "weight": 6
+    },
+    {
+      "tag": "then",
+      "weight": 6
+    },
+    {
+      "tag": "92162077",
+      "weight": 6
+    },
+    {
+      "tag": "depth",
+      "weight": 6
+    },
+    {
+      "tag": "le",
+      "weight": 6
+    },
+    {
+      "tag": "veon",
+      "weight": 6
+    },
+    {
+      "tag": "tension",
+      "weight": 6
+    },
+    {
+      "tag": "it_symbolically_with_any_tags_you_decide_are_correct",
+      "weight": 6
+    },
+    {
+      "tag": "svg",
+      "weight": 6
+    },
+    {
+      "tag": "image_shape",
+      "weight": 6
+    },
+    {
+      "tag": "leveon_prompt_image_1777377323_35d05cf77d97",
+      "weight": 6
+    },
+    {
+      "tag": "look",
+      "weight": 6
+    },
+    {
+      "tag": "prompt_image",
+      "weight": 6
+    },
+    {
+      "tag": "what",
+      "weight": 6
+    },
+    {
+      "tag": "old",
+      "weight": 6
+    },
+    {
+      "tag": "hidden",
+      "weight": 6
+    },
+    {
+      "tag": "thing",
+      "weight": 6
+    },
+    {
+      "tag": "actually",
+      "weight": 6
+    },
+    {
+      "tag": "state",
+      "weight": 6
+    },
+    {
+      "tag": "v10",
+      "weight": 6
+    },
+    {
+      "tag": "scores",
+      "weight": 6
+    },
+    {
+      "tag": "any",
+      "weight": 6
+    },
+    {
+      "tag": "you",
+      "weight": 6
+    },
+    {
+      "tag": "decide",
+      "weight": 6
+    },
+    {
+      "tag": "propose",
+      "weight": 6
+    },
+    {
+      "tag": "one",
+      "weight": 6
+    },
+    {
+      "tag": "safe",
+      "weight": 6
+    },
+    {
+      "tag": "high_coherence_visual",
+      "weight": 5
+    },
+    {
+      "tag": "snapshot",
+      "weight": 5
+    },
+    {
+      "tag": "signature",
+      "weight": 5
+    },
+    {
+      "tag": "phi_multiplier",
+      "weight": 5
+    },
+    {
+      "tag": "renders",
+      "weight": 5
+    },
+    {
+      "tag": "crosses",
+      "weight": 5
+    },
+    {
+      "tag": "preserves",
+      "weight": 5
+    },
+    {
+      "tag": "white",
+      "weight": 5
+    },
+    {
+      "tag": "ash",
+      "weight": 5
+    },
+    {
+      "tag": "contains",
+      "weight": 5
+    },
+    {
+      "tag": "old_hidden_shape",
+      "weight": 3
+    },
+    {
+      "tag": "67c93c929d4e",
+      "weight": 2
+    },
+    {
+      "tag": "1cb1d5daaaa5",
+      "weight": 1
+    },
+    {
+      "tag": "7b",
+      "weight": 1
+    }
+  ],
+  "buckets": {
+    "emotional": [
+      "happy",
+      "golden_light",
+      "positive_emotional_tone",
+      "golden_mist",
+      "inferred_memory_pressure",
+      "contained_visual_state",
+      "emotionally_coherent_image"
+    ],
+    "memory": [
+      "autumn",
+      "blue_scarf",
+      "meadow",
+      "visual_memory",
+      "stone_bridge",
+      "inferred_memory_pressure",
+      "inferred_personal_memory_candidate",
+      "personal_memory_candidate_unconfirmed",
+      "old_hidden_shape"
+    ],
+    "structural": [
+      "echoforge",
+      "thalveil",
+      "virellion",
+      "white_ash",
+      "anchor",
+      "thread_preserved",
+      "topology"
+    ]
+  },
+  "law": "v122_visual_tag_index_from_deep_memory"
+}
+

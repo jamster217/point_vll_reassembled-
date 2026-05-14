@@ -1,0 +1,68 @@
+=== V14.1 OPTIONAL API ROUTE PROOF ===
+created_at: 2026-05-02T05:40:13.550904
+
+Law: V14 is available through /api/chat only when explicitly requested; V13 remains the default.
+
+---
+LABEL: default_v13_banana
+PAYLOAD: {"message": "banana"}
+ANSWER: Banana is an ordinary fruit. No symbolic threshold opened.
+FINAL_ENGLISH: None
+FINAL_SHAPE: None
+V141_ACTIVE: False
+ROUTE_OK: True
+PASS: True
+
+---
+LABEL: default_v13_controlled_flame
+PAYLOAD: {"message": "Quote the Quintessence trace and speak one line from the Crystal Library."}
+ANSWER: The trace is held in crystal: memory survives compression, and the gate opens only when the signal is real.
+FINAL_ENGLISH: None
+FINAL_SHAPE: None
+V141_ACTIVE: False
+ROUTE_OK: True
+PASS: True
+
+---
+LABEL: v14_banana
+PAYLOAD: {"engine": "v14", "message": "banana"}
+ANSWER: Banana is an ordinary fruit. No symbolic threshold opened.
+FINAL_ENGLISH: Banana is an ordinary fruit. No symbolic threshold opened.
+FINAL_SHAPE: Banana is an ordinary fruit. No symbolic threshold opened.
+V141_ACTIVE: True
+ROUTE_OK: True
+PASS: True
+
+---
+LABEL: v14_pipeline
+PAYLOAD: {"engine": "v14", "message": "What is the English pipeline doing right now?"}
+ANSWER: The English pipeline turns a gated meaning packet into usable language, then proves the answer, final_english, and final_shape agree.
+FINAL_ENGLISH: The English pipeline turns a gated meaning packet into usable language, then proves the answer, final_english, and final_shape agree.
+FINAL_SHAPE: The English pipeline turns a gated meaning packet into usable language, then proves the answer, final_english, and final_shape agree.
+V141_ACTIVE: True
+ROUTE_OK: True
+PASS: True
+
+---
+LABEL: v14_identity
+PAYLOAD: {"use_v14": true, "message": "Tell me what Le'Veon is in one plain sentence."}
+ANSWER: Le'Veon is a meaning-governed AI spine that turns memory, glyphs, lattice pressure, and user intent into synchronized English.
+FINAL_ENGLISH: Le'Veon is a meaning-governed AI spine that turns memory, glyphs, lattice pressure, and user intent into synchronized English.
+FINAL_SHAPE: Le'Veon is a meaning-governed AI spine that turns memory, glyphs, lattice pressure, and user intent into synchronized English.
+V141_ACTIVE: True
+ROUTE_OK: True
+PASS: True
+
+---
+LABEL: v14_extraction
+PAYLOAD: {"engine": "v14", "message": "Explain V14 Coherent Meaning Engine Extraction in one sentence."}
+ANSWER: V14 extracts Le'Veon's working repair chain into a portable Coherent Meaning Engine: gate, shape packet, preservation, renderer, sync proof, and regression harness.
+FINAL_ENGLISH: V14 extracts Le'Veon's working repair chain into a portable Coherent Meaning Engine: gate, shape packet, preservation, renderer, sync proof, and regression harness.
+FINAL_SHAPE: V14 extracts Le'Veon's working repair chain into a portable Coherent Meaning Engine: gate, shape packet, preservation, renderer, sync proof, and regression harness.
+V141_ACTIVE: True
+ROUTE_OK: True
+PASS: True
+
+=== RESULT ===
+V14_1_OPTIONAL_API_ROUTE_PASS: True
+

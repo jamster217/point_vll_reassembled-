@@ -1,0 +1,23 @@
+{
+  "status": "preserved",
+  "reason": "optimizer_recommended_preserve_current_route",
+  "score": {
+    "coherence": 1.0,
+    "repetition_health": 0.8419,
+    "thread": 1.0,
+    "containment": 0.75,
+    "total": 0.9214
+  },
+  "image": "static/generated/leveon_topology_1777411931_a5414ee19db8.svg",
+  "depth": 78,
+  "tension": -0.019,
+  "route": [
+    "Echoforge",
+    "Thalveil",
+    "Virellion",
+    "White Ash"
+  ],
+  "law": "preserve_high_score_route_without_source_rewrite",
+  "ts": 1777412045.518226
+}
+

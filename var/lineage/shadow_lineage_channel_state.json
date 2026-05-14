@@ -1,0 +1,13 @@
+{
+  "channel": "ShadowLineage",
+  "weight": 0.14,
+  "shadow_lineage": 0.14,
+  "last_signal": "guardian_hidden_ark",
+  "ancestral_signal_weight": 0.5,
+  "targets": {
+    "dream_layer_axis_contract.shadow_lineage": 0.14,
+    "chronifier.grief_weight": 0.14
+  },
+  "updated_at": 1777270448.5988948
+}
+

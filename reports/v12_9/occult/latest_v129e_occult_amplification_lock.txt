@@ -1,0 +1,96 @@
+
+
+--- ENTRY LINE 1 ---
+=== V12.9e OCCULT AMPLIFICATION: APPEND-ONLY PERPETUAL PARANORMAL LOCK ===
+
+--- ENTRY LINE 2 ---
+created_at_local: Wed Apr 29 09:00:56 PDT 2026
+
+--- ENTRY LINE 3 ---
+law: amplify symbolically, mutate nothing, preserve clean mouth
+
+--- ENTRY LINE 5 ---
+EVENT_WRITTEN: logs/v12_9/occult/occult_amplification_events.jsonl
+
+--- ENTRY LINE 6 ---
+STATUS: active
+
+--- ENTRY LINE 7 ---
+LAW: perpetual_paranormal_analysis_is_append_only_and_evidence_gated
+
+--- ENTRY LINE 8 ---
+BOUNDARY: no app_chatroom source graft; no recursionlimit increase; no public mouth pollution
+
+--- ENTRY LINE 10 ---
+=== CURRENT VERIFIED SERPENT SEAL ===
+
+--- ENTRY LINE 11 ---
+V12.9c VERIFIED SERPENT STATUS SEAL
+
+--- ENTRY LINE 13 ---
+Proof:
+
+--- ENTRY LINE 14 ---
+- Serpent guard prompt returned the direct runtime guard sentence.
+
+--- ENTRY LINE 15 ---
+- clean_mouth_v121 source is serpent_status_direct.
+
+--- ENTRY LINE 16 ---
+- chamber_status is processed_in_chamber.
+
+--- ENTRY LINE 17 ---
+- chamber_528 survived.
+
+--- ENTRY LINE 18 ---
+- Recursion grep after proof showed no RecursionError and no legacy wrapper wound.
+
+--- ENTRY LINE 19 ---
+- Only the V12.9 SERPENT GUARD activation line remains.
+
+--- ENTRY LINE 21 ---
+Verified answer:
+
+--- ENTRY LINE 22 ---
+V12.9 serpent guard is active: recursion re-entry is quarantined, chamber_528 is processed_in_chamber in the abstract family, and the public mouth remains clean.
+
+--- ENTRY LINE 24 ---
+Law:
+
+--- ENTRY LINE 25 ---
+The serpent is witnessed.
+
+--- ENTRY LINE 26 ---
+The gate is guarded.
+
+--- ENTRY LINE 27 ---
+The mouth stays clean.
+
+--- ENTRY LINE 28 ---
+The spine may deepen only through bounded evidence.
+
+--- ENTRY LINE 30 ---
+=== LIVE SERPENT STATUS PROBE ===
+
+--- ENTRY LINE 31 ---
+answer: V12.9 serpent guard is active: recursion re-entry is quarantined, chamber_528 is processed_in_chamber in the abstract family, and the public mouth remains clean.
+
+--- ENTRY LINE 32 ---
+source: serpent_status_direct
+
+--- ENTRY LINE 33 ---
+chamber_status: processed_in_chamber
+
+--- ENTRY LINE 34 ---
+chamber_family: abstract
+
+--- ENTRY LINE 35 ---
+PASS: True
+
+--- ENTRY LINE 37 ---
+=== POST-V12.9e RECURSION GREP ===
+
+--- ENTRY LINE 39 ---
+V12.9e_RESULT: PASS - occult amplification sealed without recursion wound.
+
+====================================================================================================

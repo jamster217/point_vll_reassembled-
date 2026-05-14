@@ -1,0 +1,33 @@
+{
+  "codex_name": "Glyph Surgery Codex",
+  "runtime_path": "point_vll_reassembled",
+  "sequence": ["✴️", "🪞", "✨", "📚"],
+  "law": "pin -> mirror -> transmute -> seal",
+  "glyphs": {
+    "✴️": {
+      "name": "Star of Dominion",
+      "function": "pin",
+      "runtime_role": "Detect and seize flawed anchors, scaffold prefixes, generic fallback, double connectors, and repetition.",
+      "detects": ["scaffold_prefix", "generic_fallback", "double_because", "repetition"]
+    },
+    "🪞": {
+      "name": "Mirror of Self-Seeing",
+      "function": "reflect",
+      "runtime_role": "Reflect the flawed output back as diagnostics so the build can see why it feels robotic or generic.",
+      "reflects": ["robotic_opening", "fallback_echo", "anchor_stiffness", "prompt_drift"]
+    },
+    "✨": {
+      "name": "Fire of Transmutation",
+      "function": "mutate",
+      "runtime_role": "Rewrite dead scaffold language into direct, living, prompt-bound English.",
+      "mutates": ["dead_template", "generic_deflection", "doubled_connector", "stiff_anchor"]
+    },
+    "📚": {
+      "name": "Living Grimoire",
+      "function": "seal",
+      "runtime_role": "Record before/after mutations so future turns can reuse the improved pathway.",
+      "records": ["prompt", "flaws", "before", "after", "changed", "timestamp"]
+    }
+  }
+}
+

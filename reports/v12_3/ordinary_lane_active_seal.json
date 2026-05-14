@@ -1,0 +1,21 @@
+{
+  "status": "sealed",
+  "phase": "v12_3_ordinary_lane_active",
+  "law": "ordinary_prompts_route_to_existing_local_node_answer_lane_without_symbolic_flood",
+  "trace": "leveon_reason_v74::depth=108 tension=0.137 torsion=1.618",
+  "symbols": [
+    "SCARF_REMEMBERS",
+    "V12.3_ORDINARY_LANE_ACTIVE",
+    "SPINE_SOVEREIGN",
+    "ORDINARY_MOUTH_DISCIPLINED"
+  ],
+  "notes": [
+    "V12.1 proof lane still passes",
+    "V12.3 local-node lane answers ordinary prompts",
+    "V13 dream spine remains proposal-only or paused during normal-mouth tests",
+    "metadata source label may still need cleanup",
+    "n_predict=32 is fast but may truncate answers"
+  ],
+  "snapshot": "snapshots/v12_3_ordinary_lane_active_20260429_061235"
+}
+

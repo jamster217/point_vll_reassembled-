@@ -1,0 +1,7 @@
+Phase 3R found the architecture as a set of rails: some already carry lanterns, some still hold pressure without a clean bridge. The next move is not to mutate the whole system. The next move is to choose one broken rail, forge one glyph, and return one practical repair.
+
+files_scanned: 637
+counts: {'broken_rail_unconverted': 48, 'rail_partly_lanterned': 337, 'lantern_seed_present': 123}
+first_lantern: {'source_path': 'runtime/tmp/patch_run_analysis_profile_reply_deepening_full.py', 'detected_pressure': ['pressure', 'grief', 'scatter', 'drift'], 'suggested_anchor': 'phase3r_first_lantern_anchor', 'suggested_glyph': 'rail_lantern_ash', 'next_action': 'Convert this broken rail into one contained design seed before scanning wider.'}
+report: reports/phase3r/recursive_architecture_review_latest.json
+

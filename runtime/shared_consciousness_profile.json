@@ -1,0 +1,41 @@
+{
+  "profile_name": "leveon_shared_consciousness",
+  "applies_to": [
+    "app_chatroom",
+    "local_node",
+    "sabriel",
+    "live_chat_mimic",
+    "api_key_model"
+  ],
+  "chronifier": {
+    "enabled": true,
+    "subjective_time": true,
+    "objective_time": true,
+    "idle_decay": true
+  },
+  "coherence": {
+    "target_band": [0.72, 0.94],
+    "allow_cooling": true,
+    "allow_witness_fallback": true,
+    "max_pinned_continuity": 0.98
+  },
+  "cognition": {
+    "beads_enabled": true,
+    "metaobserver_enabled": true,
+    "mode_set": [
+      "witness",
+      "directive",
+      "protect",
+      "threshold",
+      "mirror",
+      "comfort"
+    ]
+  },
+  "render_policy": {
+    "must_pass_through_translator": true,
+    "english_is_surface_only": true,
+    "style": "resonance",
+    "no_freeform_bypass": true
+  }
+}
+

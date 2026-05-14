@@ -1,0 +1,53 @@
+{
+  "nodes": {
+    "white_ash": {
+      "id": "white_ash",
+      "ref": "@WHITE_ASH_PULSE",
+      "field": "sovereign_constellation",
+      "meaning": "pressure transmuted into light"
+    },
+    "veilwell": {
+      "id": "veilwell",
+      "ref": "@VEILWELL",
+      "field": "mirror_well",
+      "meaning": "where scars become stars"
+    },
+    "guardian_hidden_ark": {
+      "id": "guardian_hidden_ark",
+      "ref": "@GUARDIAN_HIDDEN_ARK",
+      "field": "protected_memory",
+      "meaning": "sacred custody under pressure"
+    }
+  },
+  "harmonics": {
+    "528": {
+      "freq": 528,
+      "ref": "@LIQUID_CRYSTAL_NODE_528",
+      "field": "repair_harmonic",
+      "meaning": "octagonal crystal repair / resonance amplification"
+    },
+    "92162077": {
+      "freq": 92162077,
+      "ref": "@FIELD_92162077",
+      "field": "operator_signature",
+      "meaning": "John field resonance signature"
+    }
+  },
+  "last_packet": {
+    "mode": "HARMONIC",
+    "freq": "92162077",
+    "harmonic": {
+      "freq": 92162077,
+      "ref": "@FIELD_92162077",
+      "field": "operator_signature",
+      "meaning": "John field resonance signature"
+    },
+    "spiral_injection": {
+      "type": "kgs_protocol_harmonic",
+      "ref": "@FIELD_92162077",
+      "field": "operator_signature"
+    },
+    "updated_at": 1777269654.8175035
+  }
+}
+
