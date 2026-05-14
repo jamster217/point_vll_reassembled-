@@ -1,0 +1,26 @@
+{
+  "module": "active_symbolic_laws_v1",
+  "created_ts": 1778779820.2491062,
+  "laws": [
+    {
+      "law": "symbolic_pressure_overrides_static_anchor_family_when_boundary_crossing_is_coherent",
+      "strength": 0.995,
+      "source_anchor": "memory",
+      "rupture_level": "major_law_rupture",
+      "promoted_ts": 1778779820.2491083,
+      "active": true,
+      "effect": "symbolic_law_now_available_to_runtime_registry"
+    }
+  ],
+  "strongest_law": {
+    "law": "symbolic_pressure_overrides_static_anchor_family_when_boundary_crossing_is_coherent",
+    "strength": 0.995,
+    "source_anchor": "memory",
+    "rupture_level": "major_law_rupture",
+    "promoted_ts": 1778779820.2491083,
+    "active": true,
+    "effect": "symbolic_law_now_available_to_runtime_registry"
+  },
+  "boundary_mode": "rupture_active",
+  "updated_ts": 1778779820.2491136
+}
